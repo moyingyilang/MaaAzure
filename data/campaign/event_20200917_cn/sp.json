@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20200917_cn/sp.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "SP",
+  "fields": {
+    "camera_data": [
+      "F2",
+      "F4",
+      "F7"
+    ],
+    "camera_data_spawn_point": [
+      "F2"
+    ],
+    "map_data": "\n    -- -- MS ++ -- -- -- ++ MS -- --\n    -- -- -- ++ -- __ -- ++ -- -- --\n    ++ -- Me ++ SP -- SP ++ Me -- ++\n    -- ++ ++ ++ ++ -- ++ ++ ++ ++ --\n    -- -- ++ ME -- -- -- ME ++ -- --\n    -- -- ++ -- -- MS -- -- ++ -- --\n    -- ++ ++ ++ ++ -- ++ ++ ++ ++ --\n    ++ -- -- -- ++ -- ++ -- -- -- ++\n    -- -- -- -- ++ MB ++ -- -- -- --\n",
+    "portal_data": [
+      [
+        "E1",
+        "K1"
+      ],
+      [
+        "K1",
+        "E1"
+      ],
+      [
+        "A1",
+        "G1"
+      ],
+      [
+        "G1",
+        "A1"
+      ]
+    ],
+    "shape": "K9",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 2
+      },
+      {
+        "battle": 1
+      },
+      {
+        "battle": 2
+      },
+      {
+        "battle": 3
+      },
+      {
+        "battle": 4,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 5
+      },
+      {
+        "battle": 6
+      },
+      {
+        "battle": 7,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 11,
+    "rows": 9
+  },
+  "inherits": null,
+  "shape": "K9",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20210325_cn/bs2.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "BS2",
+  "fields": {
+    "camera_data": [
+      "E2",
+      "E5",
+      "F2",
+      "F5"
+    ],
+    "camera_data_spawn_point": [
+      "E5"
+    ],
+    "map_data": "\n    ++ -- -- -- MS -- ME -- --\n    -- ME ++ ME -- ME -- ME --\n    -- -- ++ -- Me -- ME -- --\n    -- SP -- -- -- MS -- ++ ++\n    -- SP -- -- -- __ -- MB ++\n    ++ ME ME -- ++ -- Me -- Me\n    ++ -- -- MB -- -- -- Me --\n",
+    "shape": "I7",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 2
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 2
+      },
+      {
+        "battle": 5,
+        "boss": 1,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 9,
+    "rows": 7
+  },
+  "inherits": null,
+  "shape": "I7",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

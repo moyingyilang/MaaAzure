@@ -1,0 +1,85 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20220428_cn/c1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "C1",
+  "fields": {
+    "camera_data": [
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "camera_data_spawn_point": [
+      "D5"
+    ],
+    "map_data": "\n    -- ++ ++ ++ -- MB MB MB\n    ME -- -- MS -- Me -- ++\n    -- ME ++ -- __ -- ME ++\n    -- -- -- Me ME ME -- --\n    ++ SP -- ME -- ++ -- --\n    ++ SP -- -- Me -- MS ME\n    ++ ++ Me -- ME -- Me --\n",
+    "shape": "H7",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 4,
+        "siren": 2
+      },
+      {
+        "battle": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 2,
+        "enemy": 4
+      },
+      {
+        "battle": 3,
+        "enemy": 2
+      },
+      {
+        "battle": 4,
+        "boss": 1,
+        "enemy": 2
+      }
+    ],
+    "spawn_data_loop": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 2
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 2
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 8,
+    "rows": 7
+  },
+  "inherits": null,
+  "shape": "H7",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/campaign_main/campaign_2_4.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "G4",
+  "fields": {
+    "camera_data": [
+      "D2"
+    ],
+    "camera_data_spawn_point": [
+      "D2"
+    ],
+    "map_data": "\n    -- ++ ++ ++ ME ME MB\n    SP -- ME -- -- ME --\n    -- -- ME -- ME ++ ++\n    -- ME -- SP -- MA ++\n",
+    "shape": "G4",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2
+      },
+      {
+        "battle": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "boss": 1,
+        "enemy": 2
+      }
+    ],
+    "weight_data": "\n    20 20 20 20 12 11 10\n    20 20 20 20 10 10 10\n    20 20 20 20 30 20 20\n    20 20 20 20 20 20 20\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 7,
+    "rows": 4
+  },
+  "inherits": null,
+  "shape": "G4",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

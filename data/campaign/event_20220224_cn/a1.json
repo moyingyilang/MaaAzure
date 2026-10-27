@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20220224_cn/a1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "A1",
+  "fields": {
+    "camera_data": [
+      "D2",
+      "D4",
+      "G2",
+      "G4"
+    ],
+    "camera_data_spawn_point": [
+      "D2",
+      "D4"
+    ],
+    "map_data": "\n    ++ Me Me ++ ++ ++ ME -- ME ++\n    -- -- -- ME -- -- -- -- -- --\n    SP -- -- __ -- -- -- -- -- MB\n    SP -- -- ME -- -- -- -- -- ME\n    ++ -- -- -- ++ -- ME -- ME --\n    ++ Me Me ++ ++ ME -- ++ ++ ++\n",
+    "map_data_loop": "\n    ++ Me Me ++ ++ ++ ME -- ME ++\n    -- -- -- ME -- -- -- -- -- --\n    SP -- -- __ -- MS -- MS -- MB\n    SP -- -- ME -- -- -- -- -- ME\n    ++ -- -- ME ++ -- ME -- ME --\n    ++ Me Me ++ ++ ME -- ++ ++ ++\n",
+    "shape": "J6",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "boss": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 1
+      }
+    ],
+    "spawn_data_loop": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "boss": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 10,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "J6",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

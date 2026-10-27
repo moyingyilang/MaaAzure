@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/campaign_main/campaign_9_4.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "9-4",
+  "fields": {
+    "camera_data": [
+      "D3",
+      "F3",
+      "F4"
+    ],
+    "camera_data_spawn_point": [
+      "D4"
+    ],
+    "map_data": "\n    MB -- ME -- ++ ++ ++ -- MB\n    -- ++ __ ME -- ME Me ME --\n    Me -- ME -- ME -- __ ++ --\n    ME -- ++ ++ -- -- Me __ ME\n    SP -- MA ++ ME -- ++ ME --\n    SP -- -- ME -- ME ++ -- MB\n",
+    "shape": "I6",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 3
+      },
+      {
+        "battle": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 2,
+        "enemy": 2
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 2
+      },
+      {
+        "battle": 5,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    10 10 20 10 10 10 10 10 10\n    10 10 10 20 10 10 10 10 10\n    10 10 20 10 20 10 10 10 10\n    20 10 10 10 10 10 10 10 10\n    10 10 10 10 10 10 10 10 10\n    10 10 10 10 10 10 10 10 10\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 9,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "I6",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

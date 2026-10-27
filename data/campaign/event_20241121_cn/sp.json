@@ -1,0 +1,66 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20241121_cn/sp.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "SP",
+  "fields": {
+    "camera_data": [
+      "E2",
+      "E4",
+      "G2",
+      "G4"
+    ],
+    "camera_data_spawn_point": [
+      "E4"
+    ],
+    "map_data": "\n    -- -- -- ME ++ -- ME -- ++ ++ ++\n    ++ ++ ME -- ++ ME -- ME -- ++ ++\n    ++ ++ -- -- -- __ -- -- -- -- --\n    -- SP -- -- MS -- ++ ME -- MB --\n    -- -- -- MS -- ME -- -- -- ++ ++\n    -- SP -- -- MS -- ++ ME ++ ++ ++\n",
+    "shape": "K6",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 8,
+        "siren": 3
+      },
+      {
+        "battle": 1
+      },
+      {
+        "battle": 2
+      },
+      {
+        "battle": 3
+      },
+      {
+        "battle": 4
+      },
+      {
+        "battle": 5
+      },
+      {
+        "battle": 6
+      },
+      {
+        "battle": 7,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 11,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "K6",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

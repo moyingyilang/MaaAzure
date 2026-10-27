@@ -12,7 +12,9 @@
 //! | `release`          | 统一版本号并打包 | 待做 | 5.3 |
 
 mod assets_py;
+mod campaign_py;
 mod convert_assets;
+mod convert_campaign;
 mod convert_images;
 mod naming;
 mod pipeline_check;
@@ -26,19 +28,22 @@ xtask — MaaAzure 资源工具
 用法:
   xtask convert-images [--old-root <dir>] [--resource <dir>] [--dry-run]
   xtask convert-assets [--old-root <dir>] [--resource <dir>] [--dry-run]
+  xtask convert-campaign [--old-root <dir>] [--data <dir>] [--dry-run]
   xtask pipeline-check [--resource <dir>]
 
 参数:
   --old-root <dir>   旧仓根目录，默认 ../AzurPilot
   --resource <dir>   新仓资源目录，默认 resource
+  --data <dir>       新仓数据目录（convert-campaign 用），默认 data
   --dry-run          只统计不落盘
 
-未实现: convert-campaign convert-config release";
+未实现: convert-config release";
 
 /// 解析到的通用参数。
 struct Common {
     old_root: PathBuf,
     resource: PathBuf,
+    data: PathBuf,
     dry_run: bool,
 }
 
@@ -46,6 +51,7 @@ fn parse_common(args: &[String]) -> Result<Common, String> {
     let mut c = Common {
         old_root: PathBuf::from("../AzurPilot"),
         resource: PathBuf::from("resource"),
+        data: PathBuf::from("data"),
         dry_run: false,
     };
     let mut it = args.iter();
@@ -56,6 +62,9 @@ fn parse_common(args: &[String]) -> Result<Common, String> {
             }
             "--resource" => {
                 c.resource = PathBuf::from(it.next().ok_or("--resource 缺参数")?);
+            }
+            "--data" => {
+                c.data = PathBuf::from(it.next().ok_or("--data 缺参数")?);
             }
             "--dry-run" => c.dry_run = true,
             other => return Err(format!("未知参数: {other}")),
@@ -140,6 +149,43 @@ fn main() -> ExitCode {
                 }
                 Err(e) => {
                     eprintln!("convert-assets 失败: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
+        "convert-campaign" => {
+            let opts = convert_campaign::Options {
+                old_root: common.old_root,
+                data_dir: common.data,
+                dry_run: common.dry_run,
+            };
+            match convert_campaign::run(&opts) {
+                Ok(s) => {
+                    println!("── convert-campaign ──");
+                    println!("扫描 .py       {}", s.scanned);
+                    println!("地图文件       {}", s.maps);
+                    println!("写出 JSON      {}", s.written);
+                    println!("跳过（辅助）   {}", s.skipped);
+                    println!("校验失败       {}", s.errors.len());
+                    println!("待人工字段     {}", s.unresolved.len());
+                    println!("未知地图符号   {}", s.unknown_tokens.len());
+                    for e in s.errors.iter().take(8) {
+                        println!("  ✗ {e}");
+                    }
+                    for u in s.unresolved.iter().take(5) {
+                        println!("  ? {u}");
+                    }
+                    for u in s.unknown_tokens.iter().take(5) {
+                        println!("  △ {u}");
+                    }
+                    if s.errors.is_empty() {
+                        ExitCode::SUCCESS
+                    } else {
+                        ExitCode::FAILURE
+                    }
+                }
+                Err(e) => {
+                    eprintln!("convert-campaign 失败: {e}");
                     ExitCode::FAILURE
                 }
             }

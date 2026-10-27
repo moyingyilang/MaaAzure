@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/war_archives_20211028_cn/a2.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "A2",
+  "fields": {
+    "camera_data": [
+      "D2",
+      "D4",
+      "F2",
+      "F4"
+    ],
+    "camera_data_spawn_point": [
+      "D2"
+    ],
+    "map_data": "\n    -- SP -- -- MS -- ME Me ++\n    SP -- Me ++ ++ MB -- ME ++\n    ++ -- -- MB MB __ Me -- ME\n    ++ MS ++ __ MS -- -- -- ME\n    ME -- ME -- ++ ++ ME -- ME\n    -- ME -- ME ++ ++ -- Me --\n",
+    "shape": "I6",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 9,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "I6",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

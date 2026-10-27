@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/campaign_main/campaign_9_1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "9-2",
+  "fields": {
+    "camera_data": [
+      "E3"
+    ],
+    "camera_data_spawn_point": [
+      "C1",
+      "C3"
+    ],
+    "map_data": "\n    SP -- ++ ++ ++ Me -- MB\n    ++ -- ++ ++ ++ ME ++ ++\n    -- ME -- ME ME Me ++ ++\n    -- -- ++ -- ME ++ ME MB\n    SP SP ++ ME -- Me ME ME\n",
+    "shape": "H5",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 3
+      },
+      {
+        "battle": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 1
+      },
+      {
+        "battle": 5,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    90 90 90 90 90 30 30 30\n    90 90 90 90 90 30 90 90\n    90 80 70 60 50 30 90 90\n    90 90 90 90 50 90 30 30\n    90 90 90 90 40 40 30 30\n"
+  },
+  "flags": [
+    "flatten",
+    "ignore_prediction"
+  ],
+  "grid": {
+    "cols": 8,
+    "rows": 5
+  },
+  "inherits": null,
+  "shape": "H5",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

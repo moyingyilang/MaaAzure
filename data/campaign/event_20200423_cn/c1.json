@@ -1,0 +1,24 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20200423_cn/c1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "",
+  "fields": {
+    "map_data": "\n    -- -- -- -- -- -- -- -- --\n    -- -- -- -- -- -- -- -- --\n    -- -- -- ++ ++ -- ++ -- --\n    -- -- -- ++ ++ -- -- -- --\n    SP -- -- -- -- -- -- ++ --\n    SP SP -- -- -- -- -- ++ --\n"
+  },
+  "flags": [],
+  "grid": {
+    "cols": 9,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "I6",
+  "shape_inferred": true,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

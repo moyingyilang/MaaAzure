@@ -1,0 +1,62 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20230525_cn/t1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "T1",
+  "fields": {
+    "camera_data": [
+      "E2",
+      "E6",
+      "F2",
+      "F6"
+    ],
+    "camera_data_spawn_point": [
+      "E6",
+      "F6"
+    ],
+    "map_data": "\n    ++ -- -- ME -- -- -- -- -- ++\n    -- -- ME -- -- -- -- ME -- --\n    ++ ++ ++ -- ++ ++ Me -- ME --\n    -- -- Me -- ++ ++ -- -- ++ ++\n    ++ Me -- -- SP SP -- Me ++ ++\n    -- -- __ -- -- -- -- __ -- --\n    -- ME -- MS MB MB MS -- ME --\n    ++ -- ME -- ++ ++ -- ME -- ++\n",
+    "shape": "J8",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "boss": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 10,
+    "rows": 8
+  },
+  "inherits": null,
+  "shape": "J8",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

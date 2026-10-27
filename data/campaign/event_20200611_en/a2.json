@@ -1,0 +1,30 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20200611_en/a2.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "",
+  "fields": {
+    "camera_data": [
+      "D1",
+      "D4",
+      "F2",
+      "F4"
+    ],
+    "map_data": "\n    -- -- -- -- -- -- -- -- ++\n    -- -- -- ++ ++ -- -- -- ++\n    ++ -- -- -- -- -- -- -- --\n    ++ -- ++ -- -- -- -- -- --\n    -- -- -- -- ++ ++ -- -- --\n    -- -- -- -- ++ ++ -- -- --\n"
+  },
+  "flags": [],
+  "grid": {
+    "cols": 9,
+    "rows": 6
+  },
+  "inherits": "campaign.event_20200611_en.a1",
+  "shape": "I6",
+  "shape_inferred": true,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

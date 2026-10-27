@@ -1,0 +1,65 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/war_archives_20220224_cn/b1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "B1",
+  "fields": {
+    "camera_data": [
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "camera_data_spawn_point": [
+      "D5"
+    ],
+    "map_data": "\n    -- -- Me -- -- -- -- ++\n    ME ME -- ++ ++ ME ME ++\n    -- -- -- MB ++ -- -- --\n    MS ME -- -- -- ME -- Me\n    -- -- MS __ MS -- -- Me\n    ++ ++ ++ -- -- -- ME ++\n    -- ME -- SP SP -- Me --\n",
+    "shape": "H7",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 2
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 5,
+        "enemy": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 8,
+    "rows": 7
+  },
+  "inherits": null,
+  "shape": "H7",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

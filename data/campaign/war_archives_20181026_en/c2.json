@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/war_archives_20181026_en/c2.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "C2",
+  "fields": {
+    "camera_data": [
+      "E2",
+      "E4",
+      "F2",
+      "F4"
+    ],
+    "camera_data_spawn_point": [
+      "E4"
+    ],
+    "map_data": "\n    ++ ++ ++ -- ME -- MS -- ++\n    ++ -- ME -- -- -- ++ ME ++\n    -- -- -- Me -- __ -- -- MB\n    -- Me -- -- -- Me -- -- --\n    ++ -- ME -- SP ++ MB ME MB\n    ++ -- -- SP -- -- ++ ++ ++\n",
+    "shape": "I6",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 3,
+        "siren": 2
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 9,
+    "rows": 6
+  },
+  "inherits": null,
+  "shape": "I6",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

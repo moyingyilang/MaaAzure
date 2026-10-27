@@ -1,0 +1,60 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/war_archives_20211111_cn/sp1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "SP1",
+  "fields": {
+    "camera_data": [
+      "D2",
+      "D5",
+      "E2",
+      "E5"
+    ],
+    "camera_data_spawn_point": [
+      "D5"
+    ],
+    "map_data": "\n    ME -- ME ++ ++ ++ MB MB\n    ++ -- ME Me __ -- -- MB\n    -- Me -- -- Me Me ME --\n    -- ME ++ -- ME ++ ++ --\n    ME -- ++ MS -- ME -- --\n    -- -- -- ++ -- -- -- ME\n    SP SP -- -- -- ME ME ++\n",
+    "shape": "H7",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 3,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 1
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 8,
+    "rows": 7
+  },
+  "inherits": null,
+  "shape": "H7",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}

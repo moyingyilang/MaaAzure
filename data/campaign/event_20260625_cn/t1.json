@@ -1,0 +1,58 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-campaign",
+    "schema_doc": "docs/4-migration/4.3-campaign-data.md",
+    "source": "campaign/event_20260625_cn/t1.py",
+    "source_rev": "86a9463d4"
+  },
+  "chapter": "T1",
+  "fields": {
+    "camera_data": [
+      "F2",
+      "F5"
+    ],
+    "camera_data_spawn_point": [
+      "D5"
+    ],
+    "map_data": "\n    -- -- ME -- ME -- -- ++ MB\n    -- -- ++ ME -- ME ++ ME --\n    SP -- -- MS -- -- Me -- --\n    -- -- __ -- ++ -- -- -- ME\n    SP -- -- MS ++ Me -- ++ ++\n    -- -- -- -- -- -- -- ++ ++\n    ++ ++ ++ Me -- ME -- ME --\n",
+    "shape": "I7",
+    "spawn_data": [
+      {
+        "battle": 0,
+        "enemy": 2,
+        "siren": 1
+      },
+      {
+        "battle": 1,
+        "enemy": 2
+      },
+      {
+        "battle": 2,
+        "enemy": 1
+      },
+      {
+        "battle": 3,
+        "enemy": 1
+      },
+      {
+        "battle": 4,
+        "boss": 1
+      }
+    ],
+    "weight_data": "\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n    50 50 50 50 50 50 50 50 50\n"
+  },
+  "flags": [
+    "flatten"
+  ],
+  "grid": {
+    "cols": 9,
+    "rows": 7
+  },
+  "inherits": null,
+  "shape": "I7",
+  "shape_inferred": false,
+  "validation": {
+    "unknown_tokens": []
+  }
+}
