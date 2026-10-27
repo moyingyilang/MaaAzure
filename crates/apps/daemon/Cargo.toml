@@ -11,3 +11,8 @@ path = "src/main.rs"
 [dependencies]
 maazure-core.workspace = true
 maazure-runner.workspace = true
+
+[features]
+default = []
+# 打通真实设备需要 MaaFramework SDK：cargo build -p maazure-daemon --features maa
+maa = ["maazure-runner/maa"]

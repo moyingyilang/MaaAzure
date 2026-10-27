@@ -10,6 +10,10 @@ use maazure_core::{AzureError, ErrorBranch, TaskOutcome};
 use maazure_runner::Engine;
 use maazure_runner::replay::Case;
 
+/// 真机执行入口（需要 `maa` feature）。
+#[cfg(feature = "maa")]
+mod run;
+
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
     println!("MaaAzure 树");
@@ -131,6 +135,8 @@ fn main() -> std::process::ExitCode {
             println!("  maazure-daemon --help      帮助");
             println!("  maazure-daemon --tree      打印仓库树状结构");
             println!("  maazure-daemon --replay <dir>  回放一个 golden corpus 用例");
+            println!("  maazure-daemon --run <Task> --adb <path> --address <host:port> [--server cn]");
+            println!("                                在真实设备上跑一个任务（需 --features maa）");
             println!();
             println!("P0 骨架：任务执行尚未实现，见 docs/6-plan/6.1-roadmap.md");
             std::process::ExitCode::SUCCESS
@@ -138,6 +144,20 @@ fn main() -> std::process::ExitCode {
         Some("--tree") => {
             print_tree();
             std::process::ExitCode::SUCCESS
+        }
+        Some("--run") => {
+            #[cfg(feature = "maa")]
+            {
+                run::run_task(&args[1..])
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!(
+                    "本次二进制没有编译 MaaFramework 支持。\n\
+                     用 `cargo build -p maazure-daemon --features maa` 并设置 MAA_SDK_PATH。"
+                );
+                std::process::ExitCode::from(2)
+            }
         }
         Some("--replay") => match args.get(1) {
             Some(dir) => replay(&PathBuf::from(dir)),
