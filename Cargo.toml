@@ -1,0 +1,30 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/maazure-core",
+    "crates/maazure-vision",
+    "crates/maazure-battle",
+    "crates/maazure-runner",
+    "crates/maazure-daemon",
+    "crates/xtask",
+]
+
+[workspace.package]
+version = "0.0.1"
+edition = "2024"
+rust-version = "1.85"
+license = "GPL-3.0-only"
+repository = "https://github.com/moyingyilang/MaaAzure"
+
+[workspace.dependencies]
+# 骨架阶段刻意**零外部依赖**：保证在没有 MaaFramework SDK、没有网络的机器上也能 `cargo check`。
+# 依赖在 P0 落代码时按 docs/A4-rust-design.md §1 引入，且 maa-framework 只允许出现在 runner。
+maazure-core = { path = "crates/maazure-core" }
+maazure-vision = { path = "crates/maazure-vision" }
+maazure-battle = { path = "crates/maazure-battle" }
+maazure-runner = { path = "crates/maazure-runner" }
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = true

@@ -1,0 +1,25 @@
+{
+  "interface_version": 2,
+  "name": "MaaAzure",
+  "label": "MaaAzure · 碧蓝航线",
+  "version": "0.0.1",
+  "github": "https://github.com/moyingyilang/MaaAzure",
+  "license": "GPL-3.0-only",
+  "contact": "https://github.com/moyingyilang/MaaAzure/issues",
+  "controller": [
+    {
+      "name": "ADB",
+      "label": "ADB 模拟器",
+      "type": "Adb",
+      "display_short_side": 720
+    }
+  ],
+  "resource": [
+    {
+      "name": "cn",
+      "label": "国服",
+      "path": ["./resource"]
+    }
+  ],
+  "task": []
+}

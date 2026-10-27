@@ -1,0 +1,14 @@
+MaaAzure
+Copyright (C) 2026 MaaAzure contributors
+
+本项目的领域知识、模板图资源与战役地图数据来源于 AzurPilot
+（https://github.com/wess09/AzurPilot，GPL-3.0），因此本项目以 GPL-3.0 发布。
+
+运行时依赖 MaaFramework（https://github.com/MaaXYZ/MaaFramework，LGPL-3.0），
+以独立进程动态链接方式使用，未修改其源码。
+
+架构参照 MaaEnd（https://github.com/MaaEnd/MaaEnd，AGPL-3.0）的
+「Pipeline + 自定义模块 + 通用 UI」形态，但未复制其任何代码。
+
+tools/buildkit/ 派生自 JMNeXt（https://github.com/moyingyilang/JMNeXt，MPL-2.0）
+的 tools/buildkit，该目录下文件的修改以 MPL-2.0 公开。

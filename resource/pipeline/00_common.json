@@ -1,0 +1,7 @@
+{
+  "_meta": {
+    "note": "公共底座：主界面锚点、弹窗关闭、错误恢复。图片待 xtask convert-images 生成后补齐。",
+    "stage": "P0",
+    "docs": "docs/A2-pipeline-spec.md §4"
+  }
+}

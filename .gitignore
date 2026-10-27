@@ -1,0 +1,25 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# MaaFramework SDK（随发布包分发，不入库）
+/MAA-*/
+*.zip
+
+# golden corpus：录像体积大，走 release 附件或本地缓存
+/corpus/
+/.cache/
+
+# 本地构建环境配置（含个人路径，参考 tools/buildkit/env.example）
+tools/buildkit/build.env
+
+# 运行时产物
+/config/
+/log/
+/screenshots/
+*.log
+
+# 编辑器
+.idea/
+.vscode/
+.DS_Store
