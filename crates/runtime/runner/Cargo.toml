@@ -15,4 +15,9 @@ serde_json = "1"
 # 启用方式：cargo build -p maazure-runner --features maa（需要 MAA-<platform>/ SDK）
 [features]
 default = []
-maa = []
+maa = ["dep:maa-framework"]
+
+[dependencies.maa-framework]
+version = "1"
+optional = true
+features = ["toolkit", "adb", "custom"]

@@ -105,6 +105,25 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8f42a60cbdf9a97f5d2305f08a87dc4e09308d1276d28c869c684d7777685682"
 
 [[package]]
+name = "maa-framework"
+version = "1.27.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "20c82fdf569ac1a908e3862fa08b413c7f6a3b10959a5f4a37887796debcd084"
+dependencies = [
+ "bitflags",
+ "maa-framework-sys",
+ "serde",
+ "serde_json",
+ "thiserror",
+]
+
+[[package]]
+name = "maa-framework-sys"
+version = "5.15.0-beta.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "192a36c339de8fb2282aa25e13c0b255081a5d88717da7f44968f2a9d27e28b6"
+
+[[package]]
 name = "maazure-battle"
 version = "0.0.1"
 dependencies = [
@@ -134,6 +153,7 @@ dependencies = [
 name = "maazure-runner"
 version = "0.0.1"
 dependencies = [
+ "maa-framework",
  "maazure-core",
  "serde",
  "serde_json",
@@ -286,6 +306,26 @@ dependencies = [
  "proc-macro2",
  "quote",
  "unicode-ident",
+]
+
+[[package]]
+name = "thiserror"
+version = "2.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "09e52cb86a36cede5cb101bf8908837b3e4c6e5e59fe7fd85c23fb56200d189e"
+dependencies = [
+ "thiserror-impl",
+]
+
+[[package]]
+name = "thiserror-impl"
+version = "2.0.21"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fe5197923287db20a58125f0bc85c062f7f2c892de97b18c356f9efb14b28524"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn",
 ]
 
 [[package]]

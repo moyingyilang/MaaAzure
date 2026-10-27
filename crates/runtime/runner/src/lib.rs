@@ -13,7 +13,12 @@
 
 use maazure_core::{Point, TaskOutcome};
 
+pub mod mock;
 pub mod replay;
+
+/// MaaFramework 接入层（需要 SDK 与 `maa` feature）。
+#[cfg(feature = "maa")]
+pub mod ffi;
 
 /// 一帧图像 + 序号。
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
