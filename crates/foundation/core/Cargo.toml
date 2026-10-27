@@ -1,0 +1,8 @@
+[package]
+name = "maazure-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+# 地基不需要任何依赖：这是它能在无 SDK 机器上编译的前提
+[dependencies]

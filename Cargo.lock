@@ -22,6 +22,13 @@ dependencies = [
 ]
 
 [[package]]
+name = "maazure-daily"
+version = "0.0.1"
+dependencies = [
+ "maazure-core",
+]
+
+[[package]]
 name = "maazure-runner"
 version = "0.0.1"
 dependencies = [

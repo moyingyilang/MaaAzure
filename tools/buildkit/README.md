@@ -13,7 +13,7 @@ Android SDK → MaaFramework SDK。
 1. **容器里看不到宿主机路径**：绑定挂载掉了，报错却是 `cd: 目录不存在`，很容易误判成项目被删；
 2. **「看着成功其实没出包」**：构建失败时旧产物还在原地，`ls` 有文件就以为成功；
 3. **`libclang` 缺失**：`maa-framework` 用 bindgen，缺 libclang 时报错在几百行深的 build script 里；
-4. **MSVC 的 `.lib` 读不了**：Linux 上交叉 Windows 必须用 `features = ["dynamic"]`，见 A5 §4；
+4. **MSVC 的 `.lib` 读不了**：Linux 上交叉 Windows 必须用 `features = ["dynamic"]`，见 docs/5-engineering/5.1-build.md §4；
 5. **架构错配**：`MAA-linux-aarch64` 的 `.so` 在 x86 容器里跑会报 `Exec format error`。
 
 ## 用法
@@ -39,7 +39,7 @@ cp env.example build.env     # 改 PROJECT_DIR / CHROOT_ROOT / RUST_TARGET
 - **已验证**（宿主机实测）：chroot 存在且可进入；容器内有 `cmake`/`ninja`/`pkg-config`/
   `aarch64-linux-gnu-gcc`/`qemu-x86_64-static`；NDK `29.0.14206865` 在宿主机 `~/android-sdk/ndk`
 - **未验证**：`20-bootstrap.sh` 的 apt 安装（需要容器内网络）、`30-build.sh` 首次全量编译、
-  `x86_64-pc-windows-gnu` 交叉链接（R6/R5 风险，见 docs/A8-risks.md）
+  `x86_64-pc-windows-gnu` 交叉链接（R6/R5 风险，见 docs/6-plan/6.3-risks.md）
 - **未包含**：GitHub Actions workflow（P1 建），发布打包脚本（P4）
 
 ## 许可

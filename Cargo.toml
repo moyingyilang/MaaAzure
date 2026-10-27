@@ -1,28 +1,32 @@
 [workspace]
 resolver = "3"
 members = [
-    "crates/maazure-core",
-    "crates/maazure-vision",
-    "crates/maazure-battle",
-    "crates/maazure-runner",
-    "crates/maazure-daemon",
-    "crates/xtask",
+    # 1 地基：不依赖任何业务概念
+    "crates/foundation/core",
+    "crates/foundation/vision",
+    # 2 领域：只依赖地基，纯逻辑、无 IO
+    "crates/domain/battle",
+    "crates/domain/daily",
+    # 3 运行时：唯一接触 MaaFramework 的一层
+    "crates/runtime/runner",
+    # 4 应用：入口与工具
+    "crates/apps/daemon",
+    "crates/apps/xtask",
 ]
 
 [workspace.package]
 version = "0.0.1"
 edition = "2024"
 rust-version = "1.85"
-license = "GPL-3.0-only"
+license = "AGPL-3.0-only"
 repository = "https://github.com/moyingyilang/MaaAzure"
 
 [workspace.dependencies]
-# 骨架阶段刻意**零外部依赖**：保证在没有 MaaFramework SDK、没有网络的机器上也能 `cargo check`。
-# 依赖在 P0 落代码时按 docs/A4-rust-design.md §1 引入，且 maa-framework 只允许出现在 runner。
-maazure-core = { path = "crates/maazure-core" }
-maazure-vision = { path = "crates/maazure-vision" }
-maazure-battle = { path = "crates/maazure-battle" }
-maazure-runner = { path = "crates/maazure-runner" }
+maazure-core = { path = "crates/foundation/core" }
+maazure-vision = { path = "crates/foundation/vision" }
+maazure-battle = { path = "crates/domain/battle" }
+maazure-daily = { path = "crates/domain/daily" }
+maazure-runner = { path = "crates/runtime/runner" }
 
 [profile.release]
 lto = "thin"
