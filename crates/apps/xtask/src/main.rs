@@ -30,6 +30,7 @@ xtask — MaaAzure 资源工具
   xtask convert-assets [--old-root <dir>] [--resource <dir>] [--dry-run]
   xtask convert-campaign [--old-root <dir>] [--data <dir>] [--dry-run]
   xtask pipeline-check [--resource <dir>]
+  xtask check                 一次跑完全部离线校验（CI 用这个）
 
 参数:
   --old-root <dir>   旧仓根目录，默认 ../AzurPilot
@@ -197,6 +198,7 @@ fn main() -> ExitCode {
             Ok(r) => {
                 println!("── pipeline-check ──");
                 println!("资源包          {}", r.bundles);
+                println!("索引条目        {}", r.indexed);
                 println!("节点总数        {}", r.nodes);
                 println!("  其中生成叶子  {}（next 待人工接线）", r.generated);
                 println!("错误            {}", r.errors.len());
@@ -218,6 +220,53 @@ fn main() -> ExitCode {
                 ExitCode::FAILURE
             }
         },
+        // 一条命令跑完所有不需要旧仓、不需要设备的校验
+        "check" => {
+            println!("── xtask check ──");
+            let script = std::path::Path::new("scripts/check-no-python.sh");
+            let python_ok = if script.is_file() {
+                match std::process::Command::new("bash").arg(script).status() {
+                    Ok(s) if s.success() => true,
+                    Ok(s) => {
+                        eprintln!("零 Python 门禁失败（exit {s}）");
+                        false
+                    }
+                    Err(e) => {
+                        eprintln!("跑不了 {}: {e}", script.display());
+                        false
+                    }
+                }
+            } else {
+                println!("零 Python 门禁  跳过（没找到 scripts/check-no-python.sh）");
+                true
+            };
+
+            match pipeline_check::run(&common.resource) {
+                Ok(r) => {
+                    println!("资源包          {}", r.bundles);
+                    println!("索引条目        {}", r.indexed);
+                    println!("节点总数        {}", r.nodes);
+                    println!("生成叶子        {}", r.generated);
+                    println!("错误            {}", r.errors.len());
+                    println!("警告            {}", r.warnings.len());
+                    for e in r.errors.iter().take(20) {
+                        println!("  ✗ {e}");
+                    }
+                    for w in r.warnings.iter().take(20) {
+                        println!("  ! {w}");
+                    }
+                    if r.ok() && python_ok {
+                        ExitCode::SUCCESS
+                    } else {
+                        ExitCode::FAILURE
+                    }
+                }
+                Err(e) => {
+                    eprintln!("pipeline-check 失败: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
         other => {
             eprintln!("子命令 `{other}` 尚未实现。\n\n{USAGE}");
             ExitCode::from(2)

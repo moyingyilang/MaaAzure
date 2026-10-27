@@ -40,6 +40,8 @@ pub struct Report {
     pub nodes: usize,
     /// 生成叶子数（`gen/`，未接线属正常）
     pub generated: usize,
+    /// `image_index.json` 里的条目数
+    pub indexed: usize,
     /// 错误
     pub errors: Vec<String>,
     /// 警告
@@ -62,6 +64,45 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
             "{} 下没有资源包（目录名应为服务器名）",
             resource_dir.display()
         ));
+    }
+
+    // 0) 索引 ↔ 磁盘一致性：索引过期会让 pipeline-check 的图片检查失去意义
+    let index_path = resource_dir.join("image_index.json");
+    if index_path.is_file() {
+        let text = fs::read_to_string(&index_path)
+            .map_err(|e| format!("读 {} 失败: {e}", index_path.display()))?;
+        let doc: Value = serde_json::from_str(&text)
+            .map_err(|e| format!("解析 {} 失败: {e}", index_path.display()))?;
+        if let Some(entries) = doc.get("entries").and_then(Value::as_object) {
+            report.indexed = entries.len();
+            for (key, e) in entries {
+                let Some(images) = e.get("images").and_then(Value::as_object) else {
+                    continue;
+                };
+                for (srv, p) in images {
+                    let Some(rel) = p.as_str() else { continue };
+                    let full = resource_dir.join(srv).join(rel.trim_end_matches('/'));
+                    let ok = if rel.ends_with('/') {
+                        full.is_dir()
+                    } else {
+                        full.is_file()
+                    };
+                    if !ok {
+                        report
+                            .errors
+                            .push(format!("索引 {key} 指向不存在的 {srv}:{rel}"));
+                    }
+                }
+            }
+        } else {
+            report
+                .warnings
+                .push("image_index.json 缺少 entries 字段".to_string());
+        }
+    } else {
+        report
+            .warnings
+            .push(format!("没有 {}", index_path.display()));
     }
 
     for (server, bundle) in bundles {

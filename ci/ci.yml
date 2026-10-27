@@ -32,11 +32,8 @@ jobs:
       - name: 单元测试（不需要 MaaFramework SDK）
         run: cargo test --workspace
 
-      - name: Pipeline 校验（引用/锚点/图片/roi/孤儿）
-        run: cargo run -p xtask -- pipeline-check
-
-      - name: 零 Python 门禁
-        run: ./scripts/check-no-python.sh
+      - name: 资源与流程校验（索引/引用/锚点/图片/roi/孤儿 + 零 Python）
+        run: cargo run -p xtask -- check
 
   ffI:
     name: FFI 编译（带 MaaFramework SDK）
