@@ -58,7 +58,10 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
     let mut report = Report::default();
     let bundles = list_bundles(resource_dir)?;
     if bundles.is_empty() {
-        return Err(format!("{} 下没有资源包（目录名应为服务器名）", resource_dir.display()));
+        return Err(format!(
+            "{} 下没有资源包（目录名应为服务器名）",
+            resource_dir.display()
+        ));
     }
 
     for (server, bundle) in bundles {
@@ -70,7 +73,10 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
         }
         nodes.extend(load_nodes(&bundle.join("pipeline"))?);
         report.nodes += nodes.len();
-        report.generated += nodes.values().filter(|(_, s)| *s == Source::Generated).count();
+        report.generated += nodes
+            .values()
+            .filter(|(_, s)| *s == Source::Generated)
+            .count();
 
         // 1) 引用完整性 + 锚点
         let anchors: BTreeSet<String> = nodes
@@ -82,15 +88,20 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
 
         for (name, (node, _src)) in &nodes {
             for field in ["next", "on_error"] {
-                let Some(list) = node.get(field) else { continue };
+                let Some(list) = node.get(field) else {
+                    continue;
+                };
                 let Some(items) = list.as_array() else {
-                    report.errors.push(format!("[{server}] {name}: {field} 不是数组"));
+                    report
+                        .errors
+                        .push(format!("[{server}] {name}: {field} 不是数组"));
                     continue;
                 };
                 if field == "next" && items.len() > 12 {
-                    report
-                        .warnings
-                        .push(format!("[{server}] {name}: next 有 {} 项，帧预算风险", items.len()));
+                    report.warnings.push(format!(
+                        "[{server}] {name}: next 有 {} 项，帧预算风险",
+                        items.len()
+                    ));
                 }
                 for it in items {
                     let Some(s) = it.as_str() else { continue };
@@ -124,15 +135,25 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
             if let Some(tpl) = node.get("template") {
                 let paths: Vec<String> = match tpl {
                     Value::String(s) => vec![s.clone()],
-                    Value::Array(a) => a.iter().filter_map(Value::as_str).map(str::to_string).collect(),
+                    Value::Array(a) => a
+                        .iter()
+                        .filter_map(Value::as_str)
+                        .map(str::to_string)
+                        .collect(),
                     _ => {
-                        report.errors.push(format!("[{server}] {name}: template 类型错误"));
+                        report
+                            .errors
+                            .push(format!("[{server}] {name}: template 类型错误"));
                         vec![]
                     }
                 };
                 for p in paths {
                     let full = bundle.join("image").join(p.trim_end_matches('/'));
-                    let ok = if p.ends_with('/') { full.is_dir() } else { full.is_file() };
+                    let ok = if p.ends_with('/') {
+                        full.is_dir()
+                    } else {
+                        full.is_file()
+                    };
                     if !ok {
                         report
                             .errors
@@ -144,8 +165,16 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
             if let Some(roi) = node.get("roi").and_then(Value::as_array) {
                 let v: Vec<i64> = roi.iter().filter_map(Value::as_i64).collect();
                 if v.len() != 4 {
-                    report.errors.push(format!("[{server}] {name}: roi 必须是 4 个数字"));
-                } else if !(v[0] >= 0 && v[1] >= 0 && v[2] > v[0] && v[3] > v[1] && v[2] <= 1280 && v[3] <= 720) {
+                    report
+                        .errors
+                        .push(format!("[{server}] {name}: roi 必须是 4 个数字"));
+                } else if !(v[0] >= 0
+                    && v[1] >= 0
+                    && v[2] > v[0]
+                    && v[3] > v[1]
+                    && v[2] <= 1280
+                    && v[3] <= 720)
+                {
                     report
                         .errors
                         .push(format!("[{server}] {name}: roi 越界或非法 {:?}", v));
@@ -229,7 +258,8 @@ fn load_nodes(pipeline_dir: &Path) -> Result<BTreeMap<String, (Value, Source)>, 
             if p.extension().and_then(|e| e.to_str()) != Some("json") {
                 continue;
             }
-            let text = fs::read_to_string(&p).map_err(|e| format!("读 {} 失败: {e}", p.display()))?;
+            let text =
+                fs::read_to_string(&p).map_err(|e| format!("读 {} 失败: {e}", p.display()))?;
             let doc: Value = serde_json::from_str(&text)
                 .map_err(|e| format!("解析 {} 失败: {e}", p.display()))?;
             let Some(obj) = doc.as_object() else {

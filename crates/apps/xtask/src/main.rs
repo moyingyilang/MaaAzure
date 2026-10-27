@@ -102,7 +102,10 @@ fn main() -> ExitCode {
                     println!("声明总数        {}", s.decls);
                     println!("含 file 的声明  {}", s.with_files);
                     println!("PNG 复制        {}", s.png_copied);
-                    println!("GIF 转帧        {} 个 → {} 帧", s.gif_converted, s.frames_written);
+                    println!(
+                        "GIF 转帧        {} 个 → {} 帧",
+                        s.gif_converted, s.frames_written
+                    );
                     println!("file 条目总数    {}", s.file_refs);
                     println!("唯一目标路径    {}", s.dest_unique);
                     println!(

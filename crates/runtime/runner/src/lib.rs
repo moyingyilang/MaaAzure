@@ -14,11 +14,19 @@
 use maazure_core::{Point, TaskOutcome};
 
 pub mod mock;
+pub mod ocr_detail;
 pub mod replay;
 
 /// MaaFramework 接入层（需要 SDK 与 `maa` feature）。
 #[cfg(feature = "maa")]
 pub mod ffi;
+
+/// 注册给 MaaFW 的业务自定义组件（需要 SDK 与 `maa` feature）。
+#[cfg(feature = "maa")]
+pub mod maa_custom;
+
+#[cfg(feature = "maa")]
+pub use maa_custom::CommissionPick;
 
 /// 一帧图像 + 序号。
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
@@ -57,6 +65,14 @@ impl core::error::Error for EngineError {}
 pub trait Engine {
     /// 取当前帧。
     fn screenshot(&self) -> Result<Frame, EngineError>;
+
+    /// 是否已被请求停止。
+    ///
+    /// 长逻辑必须每步检查它，否则用户点停止没反应，只能杀进程。
+    /// 默认 `false`：回放与假引擎没有停止概念。
+    fn stopping(&self) -> bool {
+        false
+    }
     /// 投递点击（异步，不等待生效）。
     fn click(&mut self, p: Point) -> Result<(), EngineError>;
     /// 投递滑动。
@@ -89,12 +105,19 @@ mod tests {
 
     #[test]
     fn error_display() {
-        assert_eq!(EngineError::NotConnected.to_string(), "device not connected");
+        assert_eq!(
+            EngineError::NotConnected.to_string(),
+            "device not connected"
+        );
     }
 
     #[test]
     fn baseline_frame_is_16_9() {
-        let f = Frame { seq: 0, width: 1280, height: 720 };
+        let f = Frame {
+            seq: 0,
+            width: 1280,
+            height: 720,
+        };
         assert_eq!(f.width * 9, f.height * 16);
     }
 }

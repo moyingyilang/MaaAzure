@@ -73,7 +73,11 @@ pub fn parse_assets_py(src: &str, module: &str) -> Vec<Decl> {
 
         // 取配对括号内的参数区
         let open = call_start + "= Button(".len() - 1; // 指向 '('
-        let open = if matches!(kind, Kind::Button) { open } else { call_start + "= Template(".len() - 1 };
+        let open = if matches!(kind, Kind::Button) {
+            open
+        } else {
+            call_start + "= Template(".len() - 1
+        };
         let Some(close) = matching_paren(bytes, open) else {
             break;
         };
@@ -242,7 +246,9 @@ fn parse_tuple_dict<const N: usize>(args: &str, key: &str) -> Vec<(String, [i64;
         let Some(k) = parse_py_string(cur) else { break };
         let consumed = consumed_string_len(cur);
         cur = cur[consumed..].trim_start();
-        let Some(after_colon) = cur.strip_prefix(':') else { break };
+        let Some(after_colon) = cur.strip_prefix(':') else {
+            break;
+        };
         cur = after_colon.trim_start();
 
         let Some(open) = cur.find('(') else { break };

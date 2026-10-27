@@ -95,7 +95,12 @@ impl Shape {
 pub fn parse_map_rows(raw: &str, shape: Shape) -> Result<Vec<Vec<Symbol>>, String> {
     let mut grid = Vec::with_capacity(shape.rows);
 
-    for (i, line) in raw.lines().map(str::trim).filter(|l| !l.is_empty()).enumerate() {
+    for (i, line) in raw
+        .lines()
+        .map(str::trim)
+        .filter(|l| !l.is_empty())
+        .enumerate()
+    {
         let row = line
             .split_whitespace()
             .map(|t| Symbol::parse(t).ok_or_else(|| format!("第 {i} 行有非法符号 `{t}`")))
@@ -144,11 +149,15 @@ mod tests {
         assert_eq!(grid[0][1], Symbol::EnemyMaybe);
         assert_eq!(grid[1][1], Symbol::Spawn);
 
-        assert!(parse_map_rows("MB ME", Shape { cols: 3, rows: 1 })
-            .unwrap_err()
-            .contains("期望 3 列"));
-        assert!(parse_map_rows("MB ZZ", Shape { cols: 2, rows: 1 })
-            .unwrap_err()
-            .contains("非法符号"));
+        assert!(
+            parse_map_rows("MB ME", Shape { cols: 3, rows: 1 })
+                .unwrap_err()
+                .contains("期望 3 列")
+        );
+        assert!(
+            parse_map_rows("MB ZZ", Shape { cols: 2, rows: 1 })
+                .unwrap_err()
+                .contains("非法符号")
+        );
     }
 }

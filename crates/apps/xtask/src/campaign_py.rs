@@ -43,10 +43,11 @@ impl CampaignFile {
 
 /// 解析一个战役文件的源码。
 pub fn parse_campaign_py(src: &str) -> Result<CampaignFile, String> {
-    let mut out = CampaignFile::default();
-
-    out.chapter = find_chapter(src);
-    out.inherits = find_inherits(src);
+    let mut out = CampaignFile {
+        chapter: find_chapter(src),
+        inherits: find_inherits(src),
+        ..Default::default()
+    };
 
     let bytes = src.as_bytes();
     let mut i = 0usize;
@@ -113,10 +114,10 @@ fn find_chapter(src: &str) -> Option<String> {
 fn find_inherits(src: &str) -> Option<String> {
     for line in src.lines() {
         let l = line.trim();
-        if let Some(rest) = l.strip_prefix("from ") {
-            if rest.ends_with("import Config") {
-                return Some(rest.trim_end_matches(" import Config").to_string());
-            }
+        if let Some(rest) = l.strip_prefix("from ")
+            && rest.ends_with("import Config")
+        {
+            return Some(rest.trim_end_matches(" import Config").to_string());
         }
     }
     None
@@ -217,7 +218,11 @@ fn parse_string(src: &str, start: usize) -> Option<(Value, usize)> {
     let mut i = body_start;
     while i < bytes.len() {
         if triple {
-            if i + 2 < bytes.len() && bytes[i] == close[0] && bytes[i + 1] == close[0] && bytes[i + 2] == close[0] {
+            if i + 2 < bytes.len()
+                && bytes[i] == close[0]
+                && bytes[i + 1] == close[0]
+                && bytes[i + 2] == close[0]
+            {
                 return Some((Value::String(src[body_start..i].to_string()), i + 3));
             }
         } else if bytes[i] == q {

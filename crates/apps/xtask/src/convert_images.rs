@@ -137,8 +137,8 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
 
     for path in asset_files {
         let module = module_of(&path);
-        let src = fs::read_to_string(&path)
-            .map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
+        let src =
+            fs::read_to_string(&path).map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
 
         for d in assets_py::parse_assets_py(&src, &module) {
             sum.decls += 1;
@@ -250,7 +250,10 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
                                     fs::copy(&abs, &dest_abs)
                                         .map_err(|e| format!("复制失败: {e}"))?;
                                     if let Some(k) = key {
-                                        by_content.insert(k, fs::metadata(&abs).map(|m| m.len()).unwrap_or(0));
+                                        by_content.insert(
+                                            k,
+                                            fs::metadata(&abs).map(|m| m.len()).unwrap_or(0),
+                                        );
                                     }
                                 }
                             }
@@ -308,8 +311,11 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
         };
         fs::create_dir_all(&opts.resource_dir).map_err(|e| format!("建目录失败: {e}"))?;
         let text = serde_json::to_string_pretty(&doc).map_err(|e| format!("序列化失败: {e}"))?;
-        fs::write(opts.resource_dir.join("image_index.json"), format!("{text}\n"))
-            .map_err(|e| format!("写索引失败: {e}"))?;
+        fs::write(
+            opts.resource_dir.join("image_index.json"),
+            format!("{text}\n"),
+        )
+        .map_err(|e| format!("写索引失败: {e}"))?;
     }
 
     Ok(sum)
@@ -406,7 +412,13 @@ fn dir_bytes(dir: &Path) -> u64 {
 /// 旧仓当前 commit（写进索引，便于追溯「这张图来自哪一版」）。
 fn git_rev(root: &Path) -> String {
     Command::new("git")
-        .args(["-C", &root.display().to_string(), "rev-parse", "--short", "HEAD"])
+        .args([
+            "-C",
+            &root.display().to_string(),
+            "rev-parse",
+            "--short",
+            "HEAD",
+        ])
         .output()
         .ok()
         .and_then(|o| String::from_utf8(o.stdout).ok())

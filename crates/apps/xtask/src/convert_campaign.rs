@@ -14,12 +14,11 @@
 //! 校验复用 `maazure-battle` 的解析器——这是**领域 crate 被工具链真实使用**的证据，
 //! 而不是两份实现互相漂移。
 
-use std::collections::BTreeMap;
 use std::fs;
 use std::path::{Path, PathBuf};
 use std::process::Command;
 
-use maazure_battle::{parse_map_rows, Shape};
+use maazure_battle::{Shape, parse_map_rows};
 use serde_json::{Value, json};
 
 use crate::campaign_py;
@@ -71,8 +70,8 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
             .map_err(|e| format!("相对路径失败: {e}"))?
             .to_path_buf();
 
-        let src = fs::read_to_string(&path)
-            .map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
+        let src =
+            fs::read_to_string(&path).map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
         let parsed = campaign_py::parse_campaign_py(&src)
             .map_err(|e| format!("解析 {} 失败: {e}", path.display()))?;
 
@@ -105,8 +104,10 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
             None => match infer_shape(map_data) {
                 Some(s) => (s, true),
                 None => {
-                    sum.errors
-                        .push(format!("{}: 既无 shape 也无法从 map_data 推断", rel.display()));
+                    sum.errors.push(format!(
+                        "{}: 既无 shape 也无法从 map_data 推断",
+                        rel.display()
+                    ));
                     continue;
                 }
             },
@@ -166,8 +167,8 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
             if let Some(parent) = out_path.parent() {
                 fs::create_dir_all(parent).map_err(|e| format!("建目录失败: {e}"))?;
             }
-            let text = serde_json::to_string_pretty(&doc)
-                .map_err(|e| format!("序列化失败: {e}"))?;
+            let text =
+                serde_json::to_string_pretty(&doc).map_err(|e| format!("序列化失败: {e}"))?;
             fs::write(&out_path, format!("{text}\n"))
                 .map_err(|e| format!("写 {} 失败: {e}", out_path.display()))?;
             sum.written += 1;
@@ -215,21 +216,17 @@ fn collect_py(root: &Path) -> Vec<PathBuf> {
 
 fn git_rev(root: &Path) -> String {
     Command::new("git")
-        .args(["-C", &root.display().to_string(), "rev-parse", "--short", "HEAD"])
+        .args([
+            "-C",
+            &root.display().to_string(),
+            "rev-parse",
+            "--short",
+            "HEAD",
+        ])
         .output()
         .ok()
         .and_then(|o| String::from_utf8(o.stdout).ok())
         .map(|s| s.trim().to_string())
         .filter(|s| !s.is_empty())
         .unwrap_or_else(|| "unknown".to_string())
-}
-
-/// 供上层打印用：把错误按文件去重。
-pub fn summarize_errors(errors: &[String]) -> BTreeMap<String, usize> {
-    let mut m = BTreeMap::new();
-    for e in errors {
-        let key = e.split(':').next().unwrap_or("?").to_string();
-        *m.entry(key).or_insert(0) += 1;
-    }
-    m
 }

@@ -135,7 +135,9 @@ fn main() -> std::process::ExitCode {
             println!("  maazure-daemon --help      帮助");
             println!("  maazure-daemon --tree      打印仓库树状结构");
             println!("  maazure-daemon --replay <dir>  回放一个 golden corpus 用例");
-            println!("  maazure-daemon --run <Task> --adb <path> --address <host:port> [--server cn]");
+            println!(
+                "  maazure-daemon --run <Task> --adb <path> --address <host:port> [--server cn]"
+            );
             println!("                                在真实设备上跑一个任务（需 --features maa）");
             println!();
             println!("P0 骨架：任务执行尚未实现，见 docs/6-plan/6.1-roadmap.md");
@@ -178,7 +180,11 @@ fn main() -> std::process::ExitCode {
                 ErrorBranch::Restart,
                 ErrorBranch::Fatal
             );
-            println!("示例: {:?} 计入失败? {}", AzureError::CampaignEnd, AzureError::CampaignEnd.counts_as_failure());
+            println!(
+                "示例: {:?} 计入失败? {}",
+                AzureError::CampaignEnd,
+                AzureError::CampaignEnd.counts_as_failure()
+            );
             std::process::ExitCode::SUCCESS
         }
     }

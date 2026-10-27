@@ -101,7 +101,10 @@ mod tests {
 
     #[test]
     fn node_name_prefixed_when_missing_module() {
-        assert_eq!(node_name("commission", "COMMISSION_START"), "commission_start");
+        assert_eq!(
+            node_name("commission", "COMMISSION_START"),
+            "commission_start"
+        );
         assert_eq!(node_name("commission", "ADVICE"), "commission_advice");
     }
 
@@ -109,8 +112,14 @@ mod tests {
     fn template_prefix_is_kept_to_avoid_collisions() {
         // 同一模块里 TEMPLATE_RUNNING 与 RESEARCH_RUNNING 是两张图，不能合并
         // module 恰好叫 template 时，base 已带前缀，不会重复
-        assert_eq!(node_name("template", "TEMPLATE_DORM_COIN"), "template_dorm_coin");
-        assert_eq!(node_name("azur_stats", "TEMPLATE_MEOWFFICER_NAME"), "azur_stats_template_meowfficer_name");
+        assert_eq!(
+            node_name("template", "TEMPLATE_DORM_COIN"),
+            "template_dorm_coin"
+        );
+        assert_eq!(
+            node_name("azur_stats", "TEMPLATE_MEOWFFICER_NAME"),
+            "azur_stats_template_meowfficer_name"
+        );
         assert_ne!(
             node_name("research", "TEMPLATE_RUNNING"),
             node_name("research", "RESEARCH_RUNNING")
@@ -126,7 +135,10 @@ mod tests {
     fn server_path_split() {
         assert_eq!(
             split_server_path("./assets/cn/commission/COMMISSION_START.png"),
-            Some(("cn".to_string(), "commission/COMMISSION_START.png".to_string()))
+            Some((
+                "cn".to_string(),
+                "commission/COMMISSION_START.png".to_string()
+            ))
         );
         // 非服务器目录不猜
         assert_eq!(split_server_path("./assets/island/foo.png"), None);
@@ -136,8 +148,14 @@ mod tests {
     #[test]
     fn dest_paths_are_bundle_relative() {
         // 每个服务器一个包，包内路径不含 server 段
-        assert_eq!(image_path("commission", "commission_start"), "image/commission/commission_start.png");
-        assert_eq!(gif_dir("template", "template_dorm_coin"), "image/template/template_dorm_coin");
+        assert_eq!(
+            image_path("commission", "commission_start"),
+            "image/commission/commission_start.png"
+        );
+        assert_eq!(
+            gif_dir("template", "template_dorm_coin"),
+            "image/template/template_dorm_coin"
+        );
         assert_eq!(bundle_path("jp"), "jp");
     }
 }

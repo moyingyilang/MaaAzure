@@ -139,7 +139,11 @@ impl Case {
         files.sort();
 
         for p in files {
-            let name = p.file_name().and_then(|n| n.to_str()).unwrap_or_default().to_string();
+            let name = p
+                .file_name()
+                .and_then(|n| n.to_str())
+                .unwrap_or_default()
+                .to_string();
             if name.ends_with(".decision.json") {
                 let d: Decision = serde_json::from_str(
                     &fs::read_to_string(&p).map_err(|e| format!("读 {} 失败: {e}", p.display()))?,
@@ -277,7 +281,8 @@ mod tests {
     /// 造一个最小 PNG（1×1，无压缩数据也合法到能读 IHDR 即可）。
     fn write_png(path: &Path, w: u32, h: u32) {
         let mut f = fs::File::create(path).unwrap();
-        f.write_all(&[0x89, b'P', b'N', b'G', 0x0d, 0x0a, 0x1a, 0x0a]).unwrap();
+        f.write_all(&[0x89, b'P', b'N', b'G', 0x0d, 0x0a, 0x1a, 0x0a])
+            .unwrap();
         f.write_all(&(13u32).to_be_bytes()).unwrap(); // IHDR 长度
         f.write_all(b"IHDR").unwrap();
         f.write_all(&w.to_be_bytes()).unwrap();
@@ -320,7 +325,10 @@ mod tests {
 
         let d1 = case.decision(0).unwrap();
         assert_eq!(d1.hits.get("BTN"), Some(&true));
-        assert_eq!(d1.action.as_ref().unwrap().point(), Some(Point::new(20, 30)));
+        assert_eq!(
+            d1.action.as_ref().unwrap().point(),
+            Some(Point::new(20, 30))
+        );
         assert_eq!(d1.action.as_ref().unwrap().area(), Some([10, 20, 30, 40]));
 
         let mut engine = ReplayEngine::new(case);

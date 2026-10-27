@@ -137,6 +137,10 @@ impl MaaEngine {
 }
 
 impl Engine for MaaEngine {
+    fn stopping(&self) -> bool {
+        self.tasker.stopping()
+    }
+
     fn screenshot(&self) -> Result<Frame, EngineError> {
         let id = self
             .controller

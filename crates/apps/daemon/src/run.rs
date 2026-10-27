@@ -107,6 +107,15 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
     }
     println!("资源包    {}", bundles.join(", "));
 
+    // 业务自定义识别/动作：Pipeline 里的 "recognition": "Custom" 节点靠这里生效
+    if let Err(e) =
+        engine.register_recognition("CommissionPick", Box::new(maazure_runner::CommissionPick))
+    {
+        eprintln!("注册自定义识别失败: {e}");
+        return std::process::ExitCode::FAILURE;
+    }
+    println!("自定义识别  CommissionPick");
+
     match engine.run_pipeline(&a.task, &a.override_json) {
         Ok(TaskOutcome::Ok) => {
             println!("结果      成功");

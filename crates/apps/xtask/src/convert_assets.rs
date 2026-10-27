@@ -63,20 +63,18 @@ fn build_node(d: &Decl, server: &str, template: &str, animated: bool) -> Value {
 
     if animated {
         // 目录模板：MaaFW 递归加载其中所有帧，任一帧命中即命中
-        node.insert(
-            "template".into(),
-            json!([format!("{template}/")]),
-        );
+        node.insert("template".into(), json!([format!("{template}/")]));
         node.insert("recognition".into(), json!("TemplateMatch"));
     } else {
         node.insert("template".into(), json!(template));
         node.insert("recognition".into(), json!("TemplateMatch"));
     }
 
-    if let Some(a) = area {
-        if a.2 > a.0 && a.3 > a.1 {
-            node.insert("roi".into(), json!([a.0, a.1, a.2, a.3]));
-        }
+    if let Some(a) = area
+        && a.2 > a.0
+        && a.3 > a.1
+    {
+        node.insert("roi".into(), json!([a.0, a.1, a.2, a.3]));
     }
 
     // 纯色按钮（无 file）才用 ColorMatch；实测旧仓 0 条走这里，但保留路径
@@ -120,8 +118,8 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
 
     for path in asset_files {
         let module = module_of(&path);
-        let src = fs::read_to_string(&path)
-            .map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
+        let src =
+            fs::read_to_string(&path).map_err(|e| format!("读 {} 失败: {e}", path.display()))?;
 
         for d in assets_py::parse_assets_py(&src, &module) {
             sum.decls += 1;
@@ -184,11 +182,7 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
 
     let rev = git_rev(&opts.old_root);
     for (server, modules) in &per_server {
-        let gen_dir = opts
-            .resource_dir
-            .join(server)
-            .join("pipeline")
-            .join("gen");
+        let gen_dir = opts.resource_dir.join(server).join("pipeline").join("gen");
         fs::create_dir_all(&gen_dir).map_err(|e| format!("建目录失败: {e}"))?;
 
         for (module, nodes) in modules {
@@ -248,7 +242,13 @@ fn module_of(path: &Path) -> String {
 
 fn git_rev(root: &Path) -> String {
     Command::new("git")
-        .args(["-C", &root.display().to_string(), "rev-parse", "--short", "HEAD"])
+        .args([
+            "-C",
+            &root.display().to_string(),
+            "rev-parse",
+            "--short",
+            "HEAD",
+        ])
         .output()
         .ok()
         .and_then(|o| String::from_utf8(o.stdout).ok())

@@ -35,6 +35,7 @@ docs/
 | 6 | [6.1 路线图](6-plan/6.1-roadmap.md) | P0–P4 与验收 |
 | 6 | [6.2 任务树](6-plan/6.2-task-tree.md) | 93 个任务按 A/B/C/D 四类分树 |
 | 6 | [6.3 风险](6-plan/6.3-risks.md) | 12 项风险 + 许可证分析 |
+| 6 | [6.4 录制手册](6-plan/6.4-corpus-runbook.md) | 12 个用例在 Windows 上怎么录 |
 
 ## 按角色的阅读路径
 

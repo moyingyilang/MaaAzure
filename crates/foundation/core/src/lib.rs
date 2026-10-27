@@ -197,10 +197,7 @@ mod tests {
         assert!(!AzureError::CampaignEnd.counts_as_failure());
         assert!(!AzureError::OilExhausted.counts_as_failure());
         assert!(!AzureError::EnemyMoved.counts_as_failure());
-        assert!(AzureError::GameTooManyClick {
-            button: "x".into()
-        }
-        .counts_as_failure());
+        assert!(AzureError::GameTooManyClick { button: "x".into() }.counts_as_failure());
         assert!(AzureError::Controller("x".into()).counts_as_failure());
     }
 }
