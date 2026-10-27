@@ -3,6 +3,16 @@ name = "maazure-runner"
 version.workspace = true
 edition.workspace = true
 license.workspace = true
+description = "执行引擎边界：Tasker 驱动、调度器、录像回放"
 
 [dependencies]
 maazure-core.workspace = true
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+# MaaFramework 绑定只在开了 `maa` feature 时参与构建。
+# 默认关闭，让没有 SDK 的机器（含 Termux）也能 `cargo test` 整个 workspace。
+# 启用方式：cargo build -p maazure-runner --features maa（需要 MAA-<platform>/ SDK）
+[features]
+default = []
+maa = []

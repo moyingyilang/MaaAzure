@@ -13,6 +13,8 @@
 
 use maazure_core::{Point, TaskOutcome};
 
+pub mod replay;
+
 /// 一帧图像 + 序号。
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct Frame {

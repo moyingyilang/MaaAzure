@@ -135,6 +135,8 @@ name = "maazure-runner"
 version = "0.0.1"
 dependencies = [
  "maazure-core",
+ "serde",
+ "serde_json",
 ]
 
 [[package]]
