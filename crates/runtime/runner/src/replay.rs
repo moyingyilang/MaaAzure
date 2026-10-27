@@ -240,7 +240,8 @@ impl Engine for ReplayEngine {
             .get(self.cursor.min(self.case.len().saturating_sub(1)))
             .ok_or(EngineError::NotConnected)?;
         Ok(Frame {
-            seq: self.cursor as u64,
+            // 与语料编号对齐（case 里的帧号是 1 基）
+            seq: self.cursor as u64 + 1,
             width: *w,
             height: *h,
         })
@@ -325,14 +326,14 @@ mod tests {
         let mut engine = ReplayEngine::new(case);
         let f = engine.screenshot().unwrap();
         assert_eq!((f.width, f.height), (1280, 720));
-        assert_eq!(f.seq, 0);
+        assert_eq!(f.seq, 1);
 
         engine.click(Point::new(1, 2)).unwrap();
         assert_eq!(engine.clicks, vec![Point::new(1, 2)]);
 
         assert!(engine.advance());
         assert!(!engine.advance());
-        assert_eq!(engine.screenshot().unwrap().seq, 1);
+        assert_eq!(engine.screenshot().unwrap().seq, 2);
 
         fs::remove_dir_all(&dir).ok();
     }

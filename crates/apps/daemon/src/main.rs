@@ -4,7 +4,11 @@
 //! 职责（P0 起逐步落地）：实例管理、调度循环、HTTP/WS/MCP、日志分发。
 //! 当前为骨架：只提供 `--version` / `--help` / `--tree`，供产物冒烟与结构自检。
 
+use std::path::PathBuf;
+
 use maazure_core::{AzureError, ErrorBranch, TaskOutcome};
+use maazure_runner::Engine;
+use maazure_runner::replay::Case;
 
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
@@ -41,12 +45,84 @@ fn print_tree() {
     println!("└── 6-plan/         路线图 · 任务树 · 风险");
 }
 
-fn main() {
+/// 回放一个 golden corpus 用例：只验证引擎与语料格式，不跑游戏逻辑。
+///
+/// 领域状态机接进来之后，这里会换成「逐帧喂给状态机并断言决策一致」。
+fn replay(dir: &PathBuf) -> std::process::ExitCode {
+    let case = match Case::load(dir) {
+        Ok(c) => c,
+        Err(e) => {
+            eprintln!("加载用例失败: {e}");
+            return std::process::ExitCode::FAILURE;
+        }
+    };
+
+    println!("── 回放 {} ──", case.info.name);
+    println!("来源版本  {}", case.info.source_rev);
+    println!("帧数      {}", case.len());
+    println!("结束状态  {}", case.info.outcome);
+
+    let mut engine = maazure_runner::replay::ReplayEngine::new(case);
+    let mut echoed = 0usize;
+
+    loop {
+        let frame = match engine.screenshot() {
+            Ok(f) => f,
+            Err(e) => {
+                eprintln!("第 {} 帧取图失败: {e}", engine.cursor());
+                return std::process::ExitCode::FAILURE;
+            }
+        };
+
+        if let Some(d) = engine.current_decision() {
+            let hits: Vec<String> = d
+                .hits
+                .iter()
+                .filter(|(_, v)| **v)
+                .map(|(k, _)| k.clone())
+                .collect();
+            let action = match d.action.as_ref().and_then(|a| a.point()) {
+                Some(p) => format!(" -> 点击({}, {})", p.x, p.y),
+                None => String::new(),
+            };
+            println!(
+                "frame {:>4}  {:>4}x{:<4} 命中[{}]{}",
+                frame.seq,
+                frame.width,
+                frame.height,
+                hits.join(", "),
+                action
+            );
+            echoed += 1;
+
+            // 语料里的点击要真的投递给引擎：这样断言层能比对「决策 vs 实际投递」
+            if let Some(p) = d.action.as_ref().and_then(|a| a.point()) {
+                let _ = engine.click(p);
+            }
+        }
+
+        if !engine.advance() {
+            break;
+        }
+    }
+
+    println!("── 汇总 ──");
+    println!("回放帧数    {}", engine.cursor() + 1);
+    println!("带决策帧    {echoed}");
+    println!("投递点击    {}", engine.clicks.len());
+
+    std::process::ExitCode::SUCCESS
+}
+
+fn main() -> std::process::ExitCode {
     let version = env!("CARGO_PKG_VERSION");
     let args: Vec<String> = std::env::args().skip(1).collect();
 
     match args.first().map(String::as_str) {
-        Some("--version") | Some("-V") => println!("MaaAzure {version}"),
+        Some("--version") | Some("-V") => {
+            println!("MaaAzure {version}");
+            std::process::ExitCode::SUCCESS
+        }
         Some("--help") | Some("-h") => {
             println!("MaaAzure {version} — 碧蓝航线自动化（MaaFramework + Rust + AGPL-3.0）");
             println!();
@@ -54,10 +130,22 @@ fn main() {
             println!("  maazure-daemon --version   版本");
             println!("  maazure-daemon --help      帮助");
             println!("  maazure-daemon --tree      打印仓库树状结构");
+            println!("  maazure-daemon --replay <dir>  回放一个 golden corpus 用例");
             println!();
             println!("P0 骨架：任务执行尚未实现，见 docs/6-plan/6.1-roadmap.md");
+            std::process::ExitCode::SUCCESS
         }
-        Some("--tree") => print_tree(),
+        Some("--tree") => {
+            print_tree();
+            std::process::ExitCode::SUCCESS
+        }
+        Some("--replay") => match args.get(1) {
+            Some(dir) => replay(&PathBuf::from(dir)),
+            None => {
+                eprintln!("--replay 需要目录参数");
+                std::process::ExitCode::from(2)
+            }
+        },
         _ => {
             println!("MaaAzure {version}（骨架阶段，尚未实现任务执行）");
             println!("执行内核 MaaFramework · 领域逻辑 Rust · 协议 AGPL-3.0");
@@ -71,6 +159,7 @@ fn main() {
                 ErrorBranch::Fatal
             );
             println!("示例: {:?} 计入失败? {}", AzureError::CampaignEnd, AzureError::CampaignEnd.counts_as_failure());
+            std::process::ExitCode::SUCCESS
         }
     }
 }
