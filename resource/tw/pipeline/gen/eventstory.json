@@ -1,0 +1,148 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/eventstory/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "eventstory_battle_middle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      499,
+      346,
+      530,
+      375
+    ],
+    "target": [
+      499,
+      346,
+      530,
+      375
+    ],
+    "template": "eventstory/eventstory_battle_middle.png"
+  },
+  "eventstory_popup_rpg_status": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1001,
+      141,
+      1022,
+      162
+    ],
+    "target": [
+      1001,
+      141,
+      1022,
+      162
+    ],
+    "template": "eventstory/eventstory_popup_rpg_status.png"
+  },
+  "eventstory_reward_got": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1181,
+      670,
+      1229,
+      685
+    ],
+    "target": [
+      1181,
+      670,
+      1229,
+      685
+    ],
+    "template": "eventstory/eventstory_reward_got.png"
+  },
+  "eventstory_story_finished": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      913,
+      347,
+      940,
+      373
+    ],
+    "target": [
+      913,
+      347,
+      940,
+      373
+    ],
+    "template": "eventstory/eventstory_story_finished.png"
+  },
+  "eventstory_story_first": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      89,
+      346,
+      116,
+      373
+    ],
+    "target": [
+      89,
+      346,
+      116,
+      373
+    ],
+    "template": "eventstory/eventstory_story_first.png"
+  },
+  "eventstory_story_last": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      913,
+      347,
+      940,
+      374
+    ],
+    "target": [
+      913,
+      347,
+      940,
+      374
+    ],
+    "template": "eventstory/eventstory_story_last.png"
+  },
+  "eventstory_story_middle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      501,
+      346,
+      528,
+      373
+    ],
+    "target": [
+      501,
+      346,
+      528,
+      373
+    ],
+    "template": "eventstory/eventstory_story_middle.png"
+  },
+  "eventstory_template_alchemist_battle": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "eventstory/eventstory_template_alchemist_battle.png"
+  },
+  "eventstory_template_alchemist_story": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "eventstory/eventstory_template_alchemist_story.png"
+  }
+}

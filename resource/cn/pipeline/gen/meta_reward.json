@@ -1,0 +1,208 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/meta_reward/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "meta_reward_dossier_reward_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      120,
+      14,
+      231,
+      40
+    ],
+    "target": [
+      120,
+      14,
+      231,
+      40
+    ],
+    "template": "meta_reward/meta_reward_dossier_reward_check.png"
+  },
+  "meta_reward_dossier_reward_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      244,
+      645,
+      404,
+      709
+    ],
+    "target": [
+      244,
+      645,
+      404,
+      709
+    ],
+    "template": "meta_reward/meta_reward_dossier_reward_enter.png"
+  },
+  "meta_reward_dossier_reward_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      426,
+      617,
+      432,
+      628
+    ],
+    "target": [
+      320,
+      622,
+      428,
+      651
+    ],
+    "template": "meta_reward/meta_reward_dossier_reward_receive.png"
+  },
+  "meta_reward_notice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1070,
+      508,
+      1075,
+      523
+    ],
+    "target": [
+      1070,
+      508,
+      1075,
+      523
+    ],
+    "template": "meta_reward/meta_reward_notice.png"
+  },
+  "meta_reward_reward_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      31,
+      486,
+      64,
+      543
+    ],
+    "target": [
+      31,
+      486,
+      64,
+      543
+    ],
+    "template": "meta_reward/meta_reward_reward_check.png"
+  },
+  "meta_reward_reward_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1109,
+      535,
+      1187,
+      554
+    ],
+    "target": [
+      1109,
+      535,
+      1187,
+      554
+    ],
+    "template": "meta_reward/meta_reward_reward_enter.png"
+  },
+  "meta_reward_reward_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1031,
+      601,
+      1215,
+      638
+    ],
+    "target": [
+      1031,
+      601,
+      1215,
+      638
+    ],
+    "template": "meta_reward/meta_reward_reward_receive.png"
+  },
+  "meta_reward_sync_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      866,
+      351,
+      944,
+      370
+    ],
+    "target": [
+      866,
+      351,
+      944,
+      370
+    ],
+    "template": "meta_reward/meta_reward_sync_enter.png"
+  },
+  "meta_reward_sync_enter2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      866,
+      351,
+      943,
+      370
+    ],
+    "target": [
+      866,
+      351,
+      943,
+      370
+    ],
+    "template": "meta_reward/meta_reward_sync_enter2.png"
+  },
+  "meta_reward_sync_reward_notice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      977,
+      337,
+      981,
+      352
+    ],
+    "target": [
+      977,
+      337,
+      981,
+      352
+    ],
+    "template": "meta_reward/meta_reward_sync_reward_notice.png"
+  },
+  "meta_reward_sync_tap": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      581,
+      339,
+      707,
+      377
+    ],
+    "target": [
+      581,
+      339,
+      707,
+      377
+    ],
+    "template": "meta_reward/meta_reward_sync_tap.png"
+  }
+}

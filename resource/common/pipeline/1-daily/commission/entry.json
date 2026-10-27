@@ -1,0 +1,45 @@
+{
+  "_meta": {
+    "note": "委托任务的第一版拓扑。未经真机验证：进入路径（主界面→任务→委托）待 P0 端到端时校正。",
+    "stage": "P0",
+    "docs": "docs/3-authoring/3.3-examples.md"
+  },
+
+  "CommissionStart": {
+    "recognition": "DirectHit",
+    "next": ["[Anchor]home", "commission_goto_reward"]
+  },
+
+  "commission_goto_reward": {
+    "recognition": "TemplateMatch",
+    "template": "ui/ui_main_goto_reward.png",
+    "action": "Click",
+    "next": ["commission_goto_commission", "commission_goto_reward", "global_recover"]
+  },
+
+  "commission_goto_commission": {
+    "recognition": "TemplateMatch",
+    "template": "ui/ui_reward_goto_commission.png",
+    "action": "Click",
+    "next": ["commission_page", "global_recover"]
+  },
+
+  "commission_page": {
+    "recognition": "TemplateMatch",
+    "template": "commission/commission_daily.png",
+    "action": "DoNothing",
+    "next": ["commission_pick", "commission_done"]
+  },
+
+  "commission_pick": {
+    "recognition": "Custom",
+    "custom_recognition": "CommissionPick",
+    "action": "DoNothing",
+    "next": ["commission_done", "[Anchor]home"]
+  },
+
+  "commission_done": {
+    "recognition": "DirectHit",
+    "next": []
+  }
+}

@@ -1,0 +1,2230 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/template/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "template_air_strike_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_air_strike_icon.png"
+  },
+  "template_ambush_evade_failed": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_ambush_evade_failed.png"
+  },
+  "template_ambush_evade_success": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_ambush_evade_success.png"
+  },
+  "template_caught_by_siren": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_caught_by_siren.png"
+  },
+  "template_combat_loading": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_combat_loading.png"
+  },
+  "template_dorm_coin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_dorm_coin/"
+    ]
+  },
+  "template_dorm_love": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_dorm_love/"
+    ]
+  },
+  "template_enemy_boss": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_boss.png"
+  },
+  "template_enemy_carrier": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_carrier.png"
+  },
+  "template_enemy_carrier20221222": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_carrier20221222.png"
+  },
+  "template_enemy_carrierinvertedorthant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_carrierinvertedorthant.png"
+  },
+  "template_enemy_carrierpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_carrierpurple.png"
+  },
+  "template_enemy_carrierspecial": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_enemy_carrierspecial/"
+    ]
+  },
+  "template_enemy_l": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_l.png"
+  },
+  "template_enemy_light": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_light.png"
+  },
+  "template_enemy_light20221222": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_light20221222.png"
+  },
+  "template_enemy_lightinvertedorthant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_lightinvertedorthant.png"
+  },
+  "template_enemy_m": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_m.png"
+  },
+  "template_enemy_main": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_main.png"
+  },
+  "template_enemy_main20221222": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_main20221222.png"
+  },
+  "template_enemy_maininvertedorthant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_maininvertedorthant.png"
+  },
+  "template_enemy_mainpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_mainpurple.png"
+  },
+  "template_enemy_s": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_s.png"
+  },
+  "template_enemy_treasure": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_enemy_treasure.png"
+  },
+  "template_enemy_vestal_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_enemy_vestal_ghost/"
+    ]
+  },
+  "template_fleet_ammo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_fleet_ammo.png"
+  },
+  "template_fleet_current": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_fleet_current.png"
+  },
+  "template_formation_1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_formation_1.png"
+  },
+  "template_formation_2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_formation_2.png"
+  },
+  "template_formation_3": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_formation_3.png"
+  },
+  "template_map_walk_out_of_step": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_map_walk_out_of_step.png"
+  },
+  "template_mob_move_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_mob_move_icon.png"
+  },
+  "template_operations_add": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_operations_add.png"
+  },
+  "template_operations_red_dot": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_operations_red_dot.png"
+  },
+  "template_os_allycargo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_os_allycargo.png"
+  },
+  "template_os_meowfficer": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_os_meowfficer/"
+    ]
+  },
+  "template_os_resource": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_os_resource.png"
+  },
+  "template_siren_abyssalboss4": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_abyssalboss4/"
+    ]
+  },
+  "template_siren_abyssalboss5": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_abyssalboss5/"
+    ]
+  },
+  "template_siren_akagi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_akagi/"
+    ]
+  },
+  "template_siren_akashi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_akashi/"
+    ]
+  },
+  "template_siren_albacoreidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_albacoreidol/"
+    ]
+  },
+  "template_siren_alfredooriani": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_alfredooriani/"
+    ]
+  },
+  "template_siren_algerie": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_algerie/"
+    ]
+  },
+  "template_siren_amagimasked": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_amagimasked/"
+    ]
+  },
+  "template_siren_amazon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_amazon/"
+    ]
+  },
+  "template_siren_amity": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_amity/"
+    ]
+  },
+  "template_siren_arethusa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_arethusa/"
+    ]
+  },
+  "template_siren_arizona": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_arizona/"
+    ]
+  },
+  "template_siren_arkroyal": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_arkroyal/"
+    ]
+  },
+  "template_siren_arkroyalg": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_arkroyalg/"
+    ]
+  },
+  "template_siren_asanagi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_asanagi/"
+    ]
+  },
+  "template_siren_atlanta": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_atlanta/"
+    ]
+  },
+  "template_siren_august": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_august/"
+    ]
+  },
+  "template_siren_azusamiura": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_azusamiura/"
+    ]
+  },
+  "template_siren_baltimoreidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_baltimoreidol/"
+    ]
+  },
+  "template_siren_bb": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bb/"
+    ]
+  },
+  "template_siren_bbalchemist": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bbalchemist/"
+    ]
+  },
+  "template_siren_bbalchemist2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bbalchemist2/"
+    ]
+  },
+  "template_siren_bblightning": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bblightning/"
+    ]
+  },
+  "template_siren_bbpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bbpurple/"
+    ]
+  },
+  "template_siren_bbred": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bbred/"
+    ]
+  },
+  "template_siren_bellona": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bellona/"
+    ]
+  },
+  "template_siren_blackdragonboss01": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_blackdragonboss01/"
+    ]
+  },
+  "template_siren_blackdragonboss02": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_blackdragonboss02/"
+    ]
+  },
+  "template_siren_bolzanoalter": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bolzanoalter/"
+    ]
+  },
+  "template_siren_bonhommerichard_bb": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bonhommerichard_bb/"
+    ]
+  },
+  "template_siren_bonhommerichard_cv": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bonhommerichard_cv/"
+    ]
+  },
+  "template_siren_bonhommerichard_ss": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bonhommerichard_ss/"
+    ]
+  },
+  "template_siren_bremerton": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_bremerton/"
+    ]
+  },
+  "template_siren_ca": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ca/"
+    ]
+  },
+  "template_siren_caalchemist": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_caalchemist/"
+    ]
+  },
+  "template_siren_caalchemist2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_caalchemist2/"
+    ]
+  },
+  "template_siren_cagreen": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cagreen/"
+    ]
+  },
+  "template_siren_calightning": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_calightning/"
+    ]
+  },
+  "template_siren_capurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_capurple/"
+    ]
+  },
+  "template_siren_carabiniere": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_carabiniere/"
+    ]
+  },
+  "template_siren_cared": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cared/"
+    ]
+  },
+  "template_siren_cesarealter": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cesarealter/"
+    ]
+  },
+  "template_siren_champagne": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_champagne/"
+    ]
+  },
+  "template_siren_cheshire": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cheshire/"
+    ]
+  },
+  "template_siren_chihayakisaragi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_chihayakisaragi/"
+    ]
+  },
+  "template_siren_chitose": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_chitose/"
+    ]
+  },
+  "template_siren_chiyoda": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_chiyoda/"
+    ]
+  },
+  "template_siren_choukai": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_choukai/"
+    ]
+  },
+  "template_siren_cl": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cl/"
+    ]
+  },
+  "template_siren_clalchemist": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_clalchemist/"
+    ]
+  },
+  "template_siren_clalchemist2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_clalchemist2/"
+    ]
+  },
+  "template_siren_clevelandidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_clevelandidol/"
+    ]
+  },
+  "template_siren_clpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_clpurple/"
+    ]
+  },
+  "template_siren_compiler": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_compiler/"
+    ]
+  },
+  "template_siren_cv": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cv/"
+    ]
+  },
+  "template_siren_cvalchemist": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cvalchemist/"
+    ]
+  },
+  "template_siren_cvalchemist2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cvalchemist2/"
+    ]
+  },
+  "template_siren_cvlightning": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cvlightning/"
+    ]
+  },
+  "template_siren_cvpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_cvpurple/"
+    ]
+  },
+  "template_siren_dace": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dace/"
+    ]
+  },
+  "template_siren_dd": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dd/"
+    ]
+  },
+  "template_siren_ddalchemist": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ddalchemist/"
+    ]
+  },
+  "template_siren_ddalchemist2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ddalchemist2/"
+    ]
+  },
+  "template_siren_ddpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ddpurple/"
+    ]
+  },
+  "template_siren_deutschland": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_deutschland/"
+    ]
+  },
+  "template_siren_dewey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dewey/"
+    ]
+  },
+  "template_siren_dido": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dido/"
+    ]
+  },
+  "template_siren_didoidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_didoidol/"
+    ]
+  },
+  "template_siren_didoidol2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_didoidol2/"
+    ]
+  },
+  "template_siren_dilloy": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dilloy/"
+    ]
+  },
+  "template_siren_dogpink": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dogpink/"
+    ]
+  },
+  "template_siren_dorsetshire": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dorsetshire/"
+    ]
+  },
+  "template_siren_dukeofyork": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dukeofyork/"
+    ]
+  },
+  "template_siren_dupleix": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_dupleix/"
+    ]
+  },
+  "template_siren_elizabeth3": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_elizabeth3/"
+    ]
+  },
+  "template_siren_elpurple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_elpurple/"
+    ]
+  },
+  "template_siren_emotion_qz": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_siren_emotion_qz.png"
+  },
+  "template_siren_fengfanhaigu03": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_fengfanhaigu03/"
+    ]
+  },
+  "template_siren_formidable": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_formidable/"
+    ]
+  },
+  "template_siren_fox": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_fox/"
+    ]
+  },
+  "template_siren_fushung": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_fushung/"
+    ]
+  },
+  "template_siren_gascogne": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gascogne/"
+    ]
+  },
+  "template_siren_gascogneidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gascogneidol/"
+    ]
+  },
+  "template_siren_gloucester": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gloucester/"
+    ]
+  },
+  "template_siren_gneisenau": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gneisenau/"
+    ]
+  },
+  "template_siren_grafzeppelin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_grafzeppelin/"
+    ]
+  },
+  "template_siren_gridmanca": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gridmanca/"
+    ]
+  },
+  "template_siren_gridmancl": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_gridmancl/"
+    ]
+  },
+  "template_siren_haguro": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_haguro/"
+    ]
+  },
+  "template_siren_hammann": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hammann/"
+    ]
+  },
+  "template_siren_haorenlichade_m_qianting": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_haorenlichade_m_qianting/"
+    ]
+  },
+  "template_siren_haorenlichade_m_zhanlie": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_haorenlichade_m_zhanlie/"
+    ]
+  },
+  "template_siren_harukaamami": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_harukaamami/"
+    ]
+  },
+  "template_siren_haruna": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_haruna/"
+    ]
+  },
+  "template_siren_harutsuki": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_harutsuki/"
+    ]
+  },
+  "template_siren_hatakaze": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hatakaze/"
+    ]
+  },
+  "template_siren_hatsuzuki": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hatsuzuki/"
+    ]
+  },
+  "template_siren_hermes_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hermes_ghost/"
+    ]
+  },
+  "template_siren_hibiki": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hibiki/"
+    ]
+  },
+  "template_siren_hiei": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hiei/"
+    ]
+  },
+  "template_siren_hipperidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_hipperidol/"
+    ]
+  },
+  "template_siren_howe": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_howe/"
+    ]
+  },
+  "template_siren_huiguangzhihe": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_huiguangzhihe/"
+    ]
+  },
+  "template_siren_illustrious": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_illustrious/"
+    ]
+  },
+  "template_siren_illustriousidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_illustriousidol/"
+    ]
+  },
+  "template_siren_intruder": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_intruder/"
+    ]
+  },
+  "template_siren_ioriminase": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ioriminase/"
+    ]
+  },
+  "template_siren_ise": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ise/"
+    ]
+  },
+  "template_siren_jintsuu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jintsuu/"
+    ]
+  },
+  "template_siren_jiulaimu_demon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jiulaimu_demon/"
+    ]
+  },
+  "template_siren_jiulaimu_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jiulaimu_ghost/"
+    ]
+  },
+  "template_siren_jiulaimu_mud": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jiulaimu_mud/"
+    ]
+  },
+  "template_siren_jiulaimu_statue": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jiulaimu_statue/"
+    ]
+  },
+  "template_siren_joffre": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_joffre/"
+    ]
+  },
+  "template_siren_juno_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_juno_ghost/"
+    ]
+  },
+  "template_siren_junyo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_junyo/"
+    ]
+  },
+  "template_siren_jupiter_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_jupiter_ghost/"
+    ]
+  },
+  "template_siren_kaga": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kaga/"
+    ]
+  },
+  "template_siren_kasumi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kasumi/"
+    ]
+  },
+  "template_siren_kasumidoa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kasumidoa/"
+    ]
+  },
+  "template_siren_kawakaze": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kawakaze/"
+    ]
+  },
+  "template_siren_kiev": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kiev/"
+    ]
+  },
+  "template_siren_kinggeorgev": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kinggeorgev/"
+    ]
+  },
+  "template_siren_kinu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kinu/"
+    ]
+  },
+  "template_siren_kirishima": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kirishima/"
+    ]
+  },
+  "template_siren_kongo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_kongo/"
+    ]
+  },
+  "template_siren_laffey6": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_laffey6/"
+    ]
+  },
+  "template_siren_lagalissonniere": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lagalissonniere/"
+    ]
+  },
+  "template_siren_laudacieux": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_laudacieux/"
+    ]
+  },
+  "template_siren_leipzig": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_leipzig/"
+    ]
+  },
+  "template_siren_leipzig_g": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_leipzig_g/"
+    ]
+  },
+  "template_siren_lemalinidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lemalinidol/"
+    ]
+  },
+  "template_siren_lemars": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lemars/"
+    ]
+  },
+  "template_siren_lemars_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lemars_ghost/"
+    ]
+  },
+  "template_siren_lexington": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lexington/"
+    ]
+  },
+  "template_siren_lexington2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lexington2/"
+    ]
+  },
+  "template_siren_littorio": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_littorio/"
+    ]
+  },
+  "template_siren_lover": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_lover/"
+    ]
+  },
+  "template_siren_magdeburg": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_magdeburg/"
+    ]
+  },
+  "template_siren_mainz": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_mainz/"
+    ]
+  },
+  "template_siren_marierosedoa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_marierosedoa/"
+    ]
+  },
+  "template_siren_maryceleste": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_maryceleste/"
+    ]
+  },
+  "template_siren_maya": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_maya/"
+    ]
+  },
+  "template_siren_meowfficerbust_hobbies": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_meowfficerbust_hobbies/"
+    ]
+  },
+  "template_siren_meowfficerbust_playtime": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_meowfficerbust_playtime/"
+    ]
+  },
+  "template_siren_meowfficerbust_studying": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_meowfficerbust_studying/"
+    ]
+  },
+  "template_siren_mikasa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_mikasa/"
+    ]
+  },
+  "template_siren_misakidoa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_misakidoa/"
+    ]
+  },
+  "template_siren_miyuki": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_miyuki/"
+    ]
+  },
+  "template_siren_nagato": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nagato/"
+    ]
+  },
+  "template_siren_nagisadoa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nagisadoa/"
+    ]
+  },
+  "template_siren_nakhimov": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nakhimov/"
+    ]
+  },
+  "template_siren_nelson": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nelson/"
+    ]
+  },
+  "template_siren_neptune_ghost": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_neptune_ghost/"
+    ]
+  },
+  "template_siren_northampton": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_northampton/"
+    ]
+  },
+  "template_siren_nuremberg": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nuremberg/"
+    ]
+  },
+  "template_siren_nyotengudoa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_nyotengudoa/"
+    ]
+  },
+  "template_siren_odin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_odin/"
+    ]
+  },
+  "template_siren_peterstrasser": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_peterstrasser/"
+    ]
+  },
+  "template_siren_pompeomagno": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_pompeomagno/"
+    ]
+  },
+  "template_siren_portsmouth": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_portsmouth/"
+    ]
+  },
+  "template_siren_princeofwales": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_princeofwales/"
+    ]
+  },
+  "template_siren_prinzadalbert": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_prinzadalbert/"
+    ]
+  },
+  "template_siren_prinzeugen": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_prinzeugen/"
+    ]
+  },
+  "template_siren_prinzheinrich": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_prinzheinrich/"
+    ]
+  },
+  "template_siren_raffaello": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_raffaello/"
+    ]
+  },
+  "template_siren_renown": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_renown/"
+    ]
+  },
+  "template_siren_revenge": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_revenge/"
+    ]
+  },
+  "template_siren_rodney": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_rodney/"
+    ]
+  },
+  "template_siren_roon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_roon/"
+    ]
+  },
+  "template_siren_roonidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_roonidol/"
+    ]
+  },
+  "template_siren_roonidol2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_roonidol2/"
+    ]
+  },
+  "template_siren_royaloak": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_royaloak/"
+    ]
+  },
+  "template_siren_ryuuhou": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ryuuhou/"
+    ]
+  },
+  "template_siren_sakawa": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sakawa/"
+    ]
+  },
+  "template_siren_sandiego": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sandiego/"
+    ]
+  },
+  "template_siren_scharnhorst": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_scharnhorst/"
+    ]
+  },
+  "template_siren_sheffield": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sheffield/"
+    ]
+  },
+  "template_siren_sheffieldidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sheffieldidol/"
+    ]
+  },
+  "template_siren_shokaku": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_shokaku/"
+    ]
+  },
+  "template_siren_shuguangjixie_huixing": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_shuguangjixie_huixing/"
+    ]
+  },
+  "template_siren_shuguangjixie_shanliu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_shuguangjixie_shanliu/"
+    ]
+  },
+  "template_siren_sirenboss10": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss10/"
+    ]
+  },
+  "template_siren_sirenboss15": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss15/"
+    ]
+  },
+  "template_siren_sirenboss16": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss16/"
+    ]
+  },
+  "template_siren_sirenboss18": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss18/"
+    ]
+  },
+  "template_siren_sirenboss182": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss182/"
+    ]
+  },
+  "template_siren_sirenboss19": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss19/"
+    ]
+  },
+  "template_siren_sirenboss25": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss25/"
+    ]
+  },
+  "template_siren_sirenboss26": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirenboss26/"
+    ]
+  },
+  "template_siren_sirius": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sirius/"
+    ]
+  },
+  "template_siren_sk_bb": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sk_bb/"
+    ]
+  },
+  "template_siren_sk_ca": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sk_ca/"
+    ]
+  },
+  "template_siren_sk_cl": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sk_cl/"
+    ]
+  },
+  "template_siren_sk_cv": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sk_cv/"
+    ]
+  },
+  "template_siren_sk_dd": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_sk_dd/"
+    ]
+  },
+  "template_siren_soobrazitelny": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_soobrazitelny/"
+    ]
+  },
+  "template_siren_spee": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_spee/"
+    ]
+  },
+  "template_siren_speeidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_speeidol/"
+    ]
+  },
+  "template_siren_ss": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ss/"
+    ]
+  },
+  "template_siren_suzutsuki": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_suzutsuki/"
+    ]
+  },
+  "template_siren_swordfish": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_siren_swordfish.png"
+  },
+  "template_siren_taihouidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_taihouidol/"
+    ]
+  },
+  "template_siren_tashkentidol": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_tashkentidol/"
+    ]
+  },
+  "template_siren_tirpitz": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_tirpitz/"
+    ]
+  },
+  "template_siren_tolovegoldendarkness05": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_tolovegoldendarkness05/"
+    ]
+  },
+  "template_siren_toloveharuna04": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_toloveharuna04/"
+    ]
+  },
+  "template_siren_tolovenana01": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_tolovenana01/"
+    ]
+  },
+  "template_siren_tolovenana03": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_tolovenana03/"
+    ]
+  },
+  "template_siren_toloveyui02": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_toloveyui02/"
+    ]
+  },
+  "template_siren_trento": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_trento/"
+    ]
+  },
+  "template_siren_trentoalter": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_trentoalter/"
+    ]
+  },
+  "template_siren_u101": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_u101/"
+    ]
+  },
+  "template_siren_u522": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_u522/"
+    ]
+  },
+  "template_siren_u73": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_u73/"
+    ]
+  },
+  "template_siren_u81": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_u81/"
+    ]
+  },
+  "template_siren_udffortress2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_udffortress2/"
+    ]
+  },
+  "template_siren_ulrichvonhutten": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_ulrichvonhutten/"
+    ]
+  },
+  "template_siren_vauquelin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_vauquelin/"
+    ]
+  },
+  "template_siren_vboss_chariot": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_vboss_chariot/"
+    ]
+  },
+  "template_siren_vboss_hermit": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_vboss_hermit/"
+    ]
+  },
+  "template_siren_vboss_lovers": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_vboss_lovers/"
+    ]
+  },
+  "template_siren_vboss_star": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_vboss_star/"
+    ]
+  },
+  "template_siren_victorious": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_victorious/"
+    ]
+  },
+  "template_siren_volga": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_volga/"
+    ]
+  },
+  "template_siren_wakaba": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_wakaba/"
+    ]
+  },
+  "template_siren_warspite": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_warspite/"
+    ]
+  },
+  "template_siren_weser": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_weser/"
+    ]
+  },
+  "template_siren_wichita": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_wichita/"
+    ]
+  },
+  "template_siren_yamashiro": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_yamashiro/"
+    ]
+  },
+  "template_siren_york": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_york/"
+    ]
+  },
+  "template_siren_yorktown2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_yorktown2/"
+    ]
+  },
+  "template_siren_yuudachi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_yuudachi/"
+    ]
+  },
+  "template_siren_z18": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_siren_z18.png"
+  },
+  "template_siren_z19": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_siren_z19.png"
+  },
+  "template_siren_z2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_siren_z2.png"
+  },
+  "template_siren_z23_5": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_z23_5/"
+    ]
+  },
+  "template_siren_z23_g": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_z23_g/"
+    ]
+  },
+  "template_siren_z24": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_z24/"
+    ]
+  },
+  "template_siren_z46": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_z46/"
+    ]
+  },
+  "template_siren_zuiho": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_zuiho/"
+    ]
+  },
+  "template_siren_zuikaku": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_siren_zuikaku/"
+    ]
+  },
+  "template_stage_blue_clear": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_blue_clear.png"
+  },
+  "template_stage_blue_percent": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_blue_percent.png"
+  },
+  "template_stage_clear": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_clear.png"
+  },
+  "template_stage_clear_20240725": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "template/template_stage_clear_20240725/"
+    ]
+  },
+  "template_stage_clear_small": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_clear_small.png"
+  },
+  "template_stage_green_clear": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_green_clear.png"
+  },
+  "template_stage_half_percent": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_half_percent.png"
+  },
+  "template_stage_percent": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_percent.png"
+  },
+  "template_stage_sos": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_stage_sos.png"
+  },
+  "template_submarine": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "template/template_submarine.png"
+  }
+}

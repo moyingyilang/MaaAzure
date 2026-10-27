@@ -1,0 +1,364 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/azur_stats/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "azur_stats_auto_search_reward_title": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      334,
+      149,
+      369,
+      165
+    ],
+    "target": [
+      334,
+      149,
+      369,
+      165
+    ],
+    "template": "azur_stats/azur_stats_auto_search_reward_title.png"
+  },
+  "azur_stats_battle_status_enemy_name": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      781,
+      283,
+      965,
+      322
+    ],
+    "target": [
+      781,
+      283,
+      965,
+      322
+    ],
+    "template": "azur_stats/azur_stats_battle_status_enemy_name.png"
+  },
+  "azur_stats_commission_done": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      352,
+      103,
+      444,
+      144
+    ],
+    "target": [
+      352,
+      103,
+      444,
+      144
+    ],
+    "template": "azur_stats/azur_stats_commission_done.png"
+  },
+  "azur_stats_commission_name": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      293,
+      162,
+      593,
+      183
+    ],
+    "target": [
+      293,
+      162,
+      593,
+      183
+    ],
+    "template": "azur_stats/azur_stats_commission_name.png"
+  },
+  "azur_stats_commission_perfect": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      251,
+      97,
+      430,
+      144
+    ],
+    "target": [
+      251,
+      97,
+      430,
+      144
+    ],
+    "template": "azur_stats/azur_stats_commission_perfect.png"
+  },
+  "azur_stats_focus_series": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      821,
+      652,
+      859,
+      690
+    ],
+    "target": [
+      821,
+      652,
+      859,
+      690
+    ],
+    "template": "azur_stats/azur_stats_focus_series.png"
+  },
+  "azur_stats_has_research_queue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      44,
+      216,
+      64,
+      236
+    ],
+    "target": [
+      44,
+      216,
+      64,
+      236
+    ],
+    "template": "azur_stats/azur_stats_has_research_queue.png"
+  },
+  "azur_stats_meowfficer_name": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      977,
+      203,
+      1127,
+      228
+    ],
+    "target": [
+      977,
+      203,
+      1127,
+      228
+    ],
+    "template": "azur_stats/azur_stats_meowfficer_name.png"
+  },
+  "azur_stats_meowfficer_talent_detail": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      485,
+      430,
+      770,
+      451
+    ],
+    "target": [
+      485,
+      430,
+      770,
+      451
+    ],
+    "template": "azur_stats/azur_stats_meowfficer_talent_detail.png"
+  },
+  "azur_stats_queue_ocr_research_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      56,
+      280,
+      270,
+      346
+    ],
+    "target": [
+      56,
+      280,
+      270,
+      346
+    ],
+    "template": "azur_stats/azur_stats_queue_ocr_research_1.png"
+  },
+  "azur_stats_queue_ocr_research_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      283,
+      281,
+      497,
+      347
+    ],
+    "target": [
+      283,
+      281,
+      497,
+      347
+    ],
+    "template": "azur_stats/azur_stats_queue_ocr_research_2.png"
+  },
+  "azur_stats_queue_ocr_research_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      513,
+      280,
+      727,
+      346
+    ],
+    "target": [
+      513,
+      280,
+      727,
+      346
+    ],
+    "template": "azur_stats/azur_stats_queue_ocr_research_3.png"
+  },
+  "azur_stats_queue_ocr_research_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      739,
+      281,
+      953,
+      347
+    ],
+    "target": [
+      739,
+      281,
+      953,
+      347
+    ],
+    "template": "azur_stats/azur_stats_queue_ocr_research_4.png"
+  },
+  "azur_stats_queue_ocr_research_5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      969,
+      280,
+      1183,
+      346
+    ],
+    "target": [
+      969,
+      280,
+      1183,
+      346
+    ],
+    "template": "azur_stats/azur_stats_queue_ocr_research_5.png"
+  },
+  "azur_stats_queue_seties_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      66,
+      127,
+      99,
+      151
+    ],
+    "target": [
+      66,
+      127,
+      99,
+      151
+    ],
+    "template": "azur_stats/azur_stats_queue_seties_1.png"
+  },
+  "azur_stats_queue_seties_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      294,
+      127,
+      327,
+      151
+    ],
+    "target": [
+      294,
+      127,
+      327,
+      151
+    ],
+    "template": "azur_stats/azur_stats_queue_seties_2.png"
+  },
+  "azur_stats_queue_seties_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      523,
+      127,
+      556,
+      151
+    ],
+    "target": [
+      523,
+      127,
+      556,
+      151
+    ],
+    "template": "azur_stats/azur_stats_queue_seties_3.png"
+  },
+  "azur_stats_queue_seties_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      127,
+      784,
+      151
+    ],
+    "target": [
+      751,
+      127,
+      784,
+      151
+    ],
+    "template": "azur_stats/azur_stats_queue_seties_4.png"
+  },
+  "azur_stats_queue_seties_5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      979,
+      127,
+      1012,
+      151
+    ],
+    "target": [
+      979,
+      127,
+      1012,
+      151
+    ],
+    "template": "azur_stats/azur_stats_queue_seties_5.png"
+  },
+  "azur_stats_template_meowfficer_name_check": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "azur_stats/azur_stats_template_meowfficer_name_check.png"
+  },
+  "azur_stats_template_research_finished": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "azur_stats/azur_stats_template_research_finished.png"
+  }
+}

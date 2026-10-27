@@ -1,0 +1,1684 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/coalition/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "coalition_academy_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      44,
+      48,
+      62,
+      74
+    ],
+    "target": [
+      44,
+      48,
+      62,
+      74
+    ],
+    "template": "coalition/coalition_academy_back.png"
+  },
+  "coalition_academy_campaign_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      131,
+      50,
+      168,
+      83
+    ],
+    "target": [
+      131,
+      50,
+      168,
+      83
+    ],
+    "template": "coalition/coalition_academy_campaign_check.png"
+  },
+  "coalition_academy_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      201,
+      290,
+      243,
+      311
+    ],
+    "target": [
+      201,
+      290,
+      243,
+      311
+    ],
+    "template": "coalition/coalition_academy_easy.png"
+  },
+  "coalition_academy_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      712,
+      178,
+      744,
+      196
+    ],
+    "target": [
+      712,
+      178,
+      744,
+      196
+    ],
+    "template": "coalition/coalition_academy_ex.png"
+  },
+  "coalition_academy_goto_campaign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1123,
+      615,
+      1159,
+      651
+    ],
+    "target": [
+      1123,
+      615,
+      1159,
+      651
+    ],
+    "template": "coalition/coalition_academy_goto_campaign.png"
+  },
+  "coalition_academy_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      956,
+      503,
+      1000,
+      524
+    ],
+    "target": [
+      956,
+      503,
+      1000,
+      524
+    ],
+    "template": "coalition/coalition_academy_hard.png"
+  },
+  "coalition_academy_home": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1221,
+      48,
+      1244,
+      73
+    ],
+    "target": [
+      1221,
+      48,
+      1244,
+      73
+    ],
+    "template": "coalition/coalition_academy_home.png"
+  },
+  "coalition_academy_main_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      132,
+      57,
+      163,
+      92
+    ],
+    "target": [
+      132,
+      57,
+      163,
+      92
+    ],
+    "template": "coalition/coalition_academy_main_check.png"
+  },
+  "coalition_academy_mode_battle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      105,
+      654,
+      182,
+      675
+    ],
+    "target": [
+      105,
+      654,
+      182,
+      675
+    ],
+    "template": "coalition/coalition_academy_mode_battle.png"
+  },
+  "coalition_academy_mode_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      224,
+      654,
+      302,
+      675
+    ],
+    "target": [
+      224,
+      654,
+      302,
+      675
+    ],
+    "template": "coalition/coalition_academy_mode_story.png"
+  },
+  "coalition_academy_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      411,
+      646,
+      433
+    ],
+    "target": [
+      604,
+      411,
+      646,
+      433
+    ],
+    "template": "coalition/coalition_academy_normal.png"
+  },
+  "coalition_academy_pt_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1125,
+      208,
+      1265,
+      225
+    ],
+    "target": [
+      1125,
+      208,
+      1265,
+      225
+    ],
+    "template": "coalition/coalition_academy_pt_ocr.png"
+  },
+  "coalition_academy_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      333,
+      580,
+      362,
+      597
+    ],
+    "target": [
+      333,
+      580,
+      362,
+      597
+    ],
+    "template": "coalition/coalition_academy_sp.png"
+  },
+  "coalition_academy_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1088,
+      458,
+      1216,
+      486
+    ],
+    "target": [
+      1088,
+      458,
+      1216,
+      486
+    ],
+    "template": "coalition/coalition_academy_switch_multi.png"
+  },
+  "coalition_academy_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      941,
+      458,
+      1070,
+      486
+    ],
+    "target": [
+      941,
+      458,
+      1070,
+      486
+    ],
+    "template": "coalition/coalition_academy_switch_single.png"
+  },
+  "coalition_acedemy_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1025,
+      537,
+      1132,
+      562
+    ],
+    "target": [
+      1025,
+      537,
+      1132,
+      562
+    ],
+    "template": "coalition/coalition_acedemy_fleet_preparation.png"
+  },
+  "coalition_dal_area1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      167,
+      494,
+      227,
+      554
+    ],
+    "target": [
+      167,
+      494,
+      227,
+      554
+    ],
+    "template": "coalition/coalition_dal_area1.png"
+  },
+  "coalition_dal_area2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      407,
+      378,
+      467,
+      438
+    ],
+    "target": [
+      407,
+      378,
+      467,
+      438
+    ],
+    "template": "coalition/coalition_dal_area2.png"
+  },
+  "coalition_dal_area3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      787,
+      488,
+      847,
+      548
+    ],
+    "target": [
+      787,
+      488,
+      847,
+      548
+    ],
+    "template": "coalition/coalition_dal_area3.png"
+  },
+  "coalition_dal_area4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      904,
+      245,
+      964,
+      305
+    ],
+    "target": [
+      904,
+      245,
+      964,
+      305
+    ],
+    "template": "coalition/coalition_dal_area4.png"
+  },
+  "coalition_dal_area5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      552,
+      130,
+      612,
+      190
+    ],
+    "target": [
+      552,
+      130,
+      612,
+      190
+    ],
+    "template": "coalition/coalition_dal_area5.png"
+  },
+  "coalition_dal_area6": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      656,
+      303,
+      716,
+      363
+    ],
+    "target": [
+      656,
+      303,
+      716,
+      363
+    ],
+    "template": "coalition/coalition_dal_area6.png"
+  },
+  "coalition_dal_difficulty_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1208,
+      70,
+      1244,
+      107
+    ],
+    "target": [
+      1208,
+      70,
+      1244,
+      107
+    ],
+    "template": "coalition/coalition_dal_difficulty_exit.png"
+  },
+  "coalition_dal_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1016,
+      529,
+      1100,
+      550
+    ],
+    "target": [
+      1016,
+      529,
+      1100,
+      550
+    ],
+    "template": "coalition/coalition_dal_fleet_preparation.png"
+  },
+  "coalition_dal_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      893,
+      582,
+      1109,
+      611
+    ],
+    "target": [
+      893,
+      582,
+      1109,
+      611
+    ],
+    "template": "coalition/coalition_dal_hard.png"
+  },
+  "coalition_dal_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      600,
+      583,
+      818,
+      610
+    ],
+    "target": [
+      600,
+      583,
+      818,
+      610
+    ],
+    "template": "coalition/coalition_dal_normal.png"
+  },
+  "coalition_dal_pt_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1190,
+      130,
+      1274,
+      161
+    ],
+    "target": [
+      1190,
+      130,
+      1274,
+      161
+    ],
+    "template": "coalition/coalition_dal_pt_ocr.png"
+  },
+  "coalition_dal_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1060,
+      473,
+      1204,
+      500
+    ],
+    "target": [
+      1060,
+      473,
+      1204,
+      500
+    ],
+    "template": "coalition/coalition_dal_switch_multi.png"
+  },
+  "coalition_dal_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      910,
+      473,
+      1055,
+      500
+    ],
+    "target": [
+      910,
+      473,
+      1055,
+      500
+    ],
+    "template": "coalition/coalition_dal_switch_single.png"
+  },
+  "coalition_empty_flagship": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      247,
+      237,
+      277,
+      267
+    ],
+    "target": [
+      247,
+      237,
+      277,
+      267
+    ],
+    "template": "coalition/coalition_empty_flagship.png"
+  },
+  "coalition_empty_vanguard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      515,
+      237,
+      545,
+      267
+    ],
+    "target": [
+      515,
+      237,
+      545,
+      267
+    ],
+    "template": "coalition/coalition_empty_vanguard.png"
+  },
+  "coalition_fashion_coalition_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      102,
+      19,
+      177,
+      51
+    ],
+    "target": [
+      102,
+      19,
+      177,
+      51
+    ],
+    "template": "coalition/coalition_fashion_coalition_check.png"
+  },
+  "coalition_fashion_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      136,
+      223,
+      199,
+      263
+    ],
+    "target": [
+      136,
+      223,
+      199,
+      263
+    ],
+    "template": "coalition/coalition_fashion_easy.png"
+  },
+  "coalition_fashion_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      844,
+      246,
+      923,
+      301
+    ],
+    "target": [
+      844,
+      246,
+      923,
+      301
+    ],
+    "template": "coalition/coalition_fashion_ex.png"
+  },
+  "coalition_fashion_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      485,
+      167,
+      554,
+      215
+    ],
+    "target": [
+      485,
+      167,
+      554,
+      215
+    ],
+    "template": "coalition/coalition_fashion_hard.png"
+  },
+  "coalition_fashion_mode_battle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      152,
+      635,
+      213,
+      669
+    ],
+    "target": [
+      152,
+      635,
+      213,
+      669
+    ],
+    "template": "coalition/coalition_fashion_mode_battle.png"
+  },
+  "coalition_fashion_mode_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      154,
+      629,
+      220,
+      666
+    ],
+    "target": [
+      154,
+      629,
+      220,
+      666
+    ],
+    "template": "coalition/coalition_fashion_mode_story.png"
+  },
+  "coalition_fashion_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      322,
+      295,
+      392,
+      334
+    ],
+    "target": [
+      322,
+      295,
+      392,
+      334
+    ],
+    "template": "coalition/coalition_fashion_normal.png"
+  },
+  "coalition_fashion_pt_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      881,
+      658,
+      937,
+      674
+    ],
+    "target": [
+      881,
+      658,
+      937,
+      674
+    ],
+    "template": "coalition/coalition_fashion_pt_ocr.png"
+  },
+  "coalition_fashion_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      704,
+      194,
+      762,
+      242
+    ],
+    "target": [
+      704,
+      194,
+      762,
+      242
+    ],
+    "template": "coalition/coalition_fashion_sp.png"
+  },
+  "coalition_fashion_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1075,
+      457,
+      1206,
+      485
+    ],
+    "target": [
+      1075,
+      457,
+      1206,
+      485
+    ],
+    "template": "coalition/coalition_fashion_switch_multi.png"
+  },
+  "coalition_fashion_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      929,
+      457,
+      1059,
+      485
+    ],
+    "target": [
+      929,
+      457,
+      1059,
+      485
+    ],
+    "template": "coalition/coalition_fashion_switch_single.png"
+  },
+  "coalition_fleet_not_prepared": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1008,
+      310,
+      1110,
+      334
+    ],
+    "target": [
+      1008,
+      310,
+      1110,
+      334
+    ],
+    "template": "coalition/coalition_fleet_not_prepared.png"
+  },
+  "coalition_frostfall_coalition_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      118,
+      14,
+      227,
+      39
+    ],
+    "target": [
+      118,
+      14,
+      227,
+      39
+    ],
+    "template": "coalition/coalition_frostfall_coalition_check.png"
+  },
+  "coalition_frostfall_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      622,
+      372,
+      649,
+      384
+    ],
+    "target": [
+      622,
+      372,
+      649,
+      384
+    ],
+    "template": "coalition/coalition_frostfall_ex.png"
+  },
+  "coalition_frostfall_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1057,
+      527,
+      1155,
+      548
+    ],
+    "target": [
+      1057,
+      527,
+      1155,
+      548
+    ],
+    "template": "coalition/coalition_frostfall_fleet_preparation.png"
+  },
+  "coalition_frostfall_mode_battle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      71,
+      608,
+      137,
+      653
+    ],
+    "target": [
+      71,
+      608,
+      137,
+      653
+    ],
+    "template": "coalition/coalition_frostfall_mode_battle.png"
+  },
+  "coalition_frostfall_mode_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      73,
+      610,
+      134,
+      652
+    ],
+    "target": [
+      73,
+      610,
+      134,
+      652
+    ],
+    "template": "coalition/coalition_frostfall_mode_story.png"
+  },
+  "coalition_frostfall_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1181,
+      641,
+      1254,
+      663
+    ],
+    "target": [
+      1181,
+      641,
+      1254,
+      663
+    ],
+    "template": "coalition/coalition_frostfall_ocr_pt.png"
+  },
+  "coalition_frostfall_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      505,
+      290,
+      532,
+      302
+    ],
+    "target": [
+      505,
+      290,
+      532,
+      302
+    ],
+    "template": "coalition/coalition_frostfall_sp.png"
+  },
+  "coalition_frostfall_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1106,
+      449,
+      1237,
+      478
+    ],
+    "target": [
+      1106,
+      449,
+      1237,
+      478
+    ],
+    "template": "coalition/coalition_frostfall_switch_multi.png"
+  },
+  "coalition_frostfall_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      968,
+      449,
+      1098,
+      478
+    ],
+    "target": [
+      968,
+      449,
+      1098,
+      478
+    ],
+    "template": "coalition/coalition_frostfall_switch_single.png"
+  },
+  "coalition_frostfall_tc1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      304,
+      320,
+      330,
+      332
+    ],
+    "target": [
+      304,
+      320,
+      330,
+      332
+    ],
+    "template": "coalition/coalition_frostfall_tc1.png"
+  },
+  "coalition_frostfall_tc2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      631,
+      160,
+      658,
+      173
+    ],
+    "target": [
+      631,
+      160,
+      658,
+      173
+    ],
+    "template": "coalition/coalition_frostfall_tc2.png"
+  },
+  "coalition_frostfall_tc3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      810,
+      362,
+      835,
+      373
+    ],
+    "target": [
+      810,
+      362,
+      835,
+      373
+    ],
+    "template": "coalition/coalition_frostfall_tc3.png"
+  },
+  "coalition_horror_coalition_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      204,
+      49,
+      250,
+      70
+    ],
+    "target": [
+      204,
+      49,
+      250,
+      70
+    ],
+    "template": "coalition/coalition_horror_coalition_check.png"
+  },
+  "coalition_horror_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      863,
+      425,
+      890,
+      464
+    ],
+    "target": [
+      863,
+      425,
+      890,
+      464
+    ],
+    "template": "coalition/coalition_horror_easy.png"
+  },
+  "coalition_horror_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      172,
+      410,
+      200,
+      448
+    ],
+    "target": [
+      172,
+      410,
+      200,
+      448
+    ],
+    "template": "coalition/coalition_horror_ex.png"
+  },
+  "coalition_horror_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1026,
+      514,
+      1139,
+      542
+    ],
+    "target": [
+      1026,
+      514,
+      1139,
+      542
+    ],
+    "template": "coalition/coalition_horror_fleet_preparation.png"
+  },
+  "coalition_horror_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      659,
+      343,
+      687,
+      382
+    ],
+    "target": [
+      659,
+      343,
+      687,
+      382
+    ],
+    "template": "coalition/coalition_horror_hard.png"
+  },
+  "coalition_horror_mode_battle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      76,
+      625,
+      115,
+      664
+    ],
+    "target": [
+      76,
+      625,
+      115,
+      664
+    ],
+    "template": "coalition/coalition_horror_mode_battle.png"
+  },
+  "coalition_horror_mode_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      292,
+      626,
+      329,
+      665
+    ],
+    "target": [
+      292,
+      626,
+      329,
+      665
+    ],
+    "template": "coalition/coalition_horror_mode_story.png"
+  },
+  "coalition_horror_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      765,
+      127,
+      793,
+      166
+    ],
+    "target": [
+      765,
+      127,
+      793,
+      166
+    ],
+    "template": "coalition/coalition_horror_normal.png"
+  },
+  "coalition_horror_pt_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1196,
+      339,
+      1276,
+      357
+    ],
+    "target": [
+      1196,
+      339,
+      1276,
+      357
+    ],
+    "template": "coalition/coalition_horror_pt_ocr.png"
+  },
+  "coalition_horror_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      430,
+      130,
+      458,
+      168
+    ],
+    "target": [
+      430,
+      130,
+      458,
+      168
+    ],
+    "template": "coalition/coalition_horror_sp.png"
+  },
+  "coalition_horror_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1078,
+      458,
+      1208,
+      487
+    ],
+    "target": [
+      1078,
+      458,
+      1208,
+      487
+    ],
+    "template": "coalition/coalition_horror_switch_multi.png"
+  },
+  "coalition_horror_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      939,
+      458,
+      1070,
+      487
+    ],
+    "target": [
+      939,
+      458,
+      1070,
+      487
+    ],
+    "template": "coalition/coalition_horror_switch_single.png"
+  },
+  "coalition_mystery_record_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      142,
+      19,
+      348,
+      100
+    ],
+    "target": [
+      142,
+      19,
+      348,
+      100
+    ],
+    "template": "coalition/coalition_mystery_record_check.png"
+  },
+  "coalition_mystery_record_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      857,
+      425,
+      1031,
+      464
+    ],
+    "target": [
+      857,
+      425,
+      1031,
+      464
+    ],
+    "template": "coalition/coalition_mystery_record_easy.png"
+  },
+  "coalition_mystery_record_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      171,
+      413,
+      313,
+      449
+    ],
+    "target": [
+      171,
+      413,
+      313,
+      449
+    ],
+    "template": "coalition/coalition_mystery_record_ex.png"
+  },
+  "coalition_mystery_record_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      960,
+      504,
+      1207,
+      554
+    ],
+    "target": [
+      960,
+      504,
+      1207,
+      554
+    ],
+    "template": "coalition/coalition_mystery_record_fleet_preparation.png"
+  },
+  "coalition_mystery_record_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      656,
+      341,
+      820,
+      383
+    ],
+    "target": [
+      656,
+      341,
+      820,
+      383
+    ],
+    "template": "coalition/coalition_mystery_record_hard.png"
+  },
+  "coalition_mystery_record_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      767,
+      129,
+      913,
+      164
+    ],
+    "target": [
+      767,
+      129,
+      913,
+      164
+    ],
+    "template": "coalition/coalition_mystery_record_normal.png"
+  },
+  "coalition_mystery_record_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      430,
+      132,
+      572,
+      167
+    ],
+    "target": [
+      430,
+      132,
+      572,
+      167
+    ],
+    "template": "coalition/coalition_mystery_record_sp.png"
+  },
+  "coalition_mystery_record_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1089,
+      460,
+      1201,
+      484
+    ],
+    "target": [
+      1089,
+      460,
+      1201,
+      484
+    ],
+    "template": "coalition/coalition_mystery_record_switch_multi.png"
+  },
+  "coalition_mystery_record_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      942,
+      459,
+      1068,
+      485
+    ],
+    "target": [
+      942,
+      459,
+      1068,
+      485
+    ],
+    "template": "coalition/coalition_mystery_record_switch_single.png"
+  },
+  "coalition_neoncity_coalition_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      36,
+      276,
+      82
+    ],
+    "target": [
+      230,
+      36,
+      276,
+      82
+    ],
+    "template": "coalition/coalition_neoncity_coalition_check.png"
+  },
+  "coalition_neoncity_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      255,
+      252,
+      308,
+      270
+    ],
+    "target": [
+      255,
+      252,
+      308,
+      270
+    ],
+    "template": "coalition/coalition_neoncity_easy.png"
+  },
+  "coalition_neoncity_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      655,
+      353,
+      708,
+      370
+    ],
+    "target": [
+      655,
+      353,
+      708,
+      370
+    ],
+    "template": "coalition/coalition_neoncity_ex.png"
+  },
+  "coalition_neoncity_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1034,
+      533,
+      1130,
+      556
+    ],
+    "target": [
+      1034,
+      533,
+      1130,
+      556
+    ],
+    "template": "coalition/coalition_neoncity_fleet_preparation.png"
+  },
+  "coalition_neoncity_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      924,
+      549,
+      977,
+      567
+    ],
+    "target": [
+      924,
+      549,
+      977,
+      567
+    ],
+    "template": "coalition/coalition_neoncity_hard.png"
+  },
+  "coalition_neoncity_mode_battle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      8,
+      627,
+      86,
+      671
+    ],
+    "target": [
+      8,
+      627,
+      86,
+      671
+    ],
+    "template": "coalition/coalition_neoncity_mode_battle.png"
+  },
+  "coalition_neoncity_mode_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      173,
+      627,
+      251,
+      668
+    ],
+    "target": [
+      173,
+      627,
+      251,
+      668
+    ],
+    "template": "coalition/coalition_neoncity_mode_story.png"
+  },
+  "coalition_neoncity_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      329,
+      453,
+      381,
+      472
+    ],
+    "target": [
+      329,
+      453,
+      381,
+      472
+    ],
+    "template": "coalition/coalition_neoncity_normal.png"
+  },
+  "coalition_neoncity_preparation_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1190,
+      52,
+      1231,
+      93
+    ],
+    "target": [
+      1190,
+      52,
+      1231,
+      93
+    ],
+    "template": "coalition/coalition_neoncity_preparation_exit.png"
+  },
+  "coalition_neoncity_pt_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1179,
+      166,
+      1251,
+      184
+    ],
+    "target": [
+      1179,
+      166,
+      1251,
+      184
+    ],
+    "template": "coalition/coalition_neoncity_pt_ocr.png"
+  },
+  "coalition_neoncity_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      821,
+      168,
+      874,
+      186
+    ],
+    "target": [
+      821,
+      168,
+      874,
+      186
+    ],
+    "template": "coalition/coalition_neoncity_sp.png"
+  },
+  "coalition_neoncity_switch_multi": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1087,
+      458,
+      1217,
+      486
+    ],
+    "target": [
+      1087,
+      458,
+      1217,
+      486
+    ],
+    "template": "coalition/coalition_neoncity_switch_multi.png"
+  },
+  "coalition_neoncity_switch_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      940,
+      458,
+      1071,
+      486
+    ],
+    "target": [
+      940,
+      458,
+      1071,
+      486
+    ],
+    "template": "coalition/coalition_neoncity_switch_single.png"
+  },
+  "coalition_neoncity_ui_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      30,
+      45,
+      73,
+      88
+    ],
+    "target": [
+      30,
+      45,
+      73,
+      88
+    ],
+    "template": "coalition/coalition_neoncity_ui_back.png"
+  },
+  "coalition_neoncity_ui_home": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1208,
+      43,
+      1251,
+      86
+    ],
+    "target": [
+      1208,
+      43,
+      1251,
+      86
+    ],
+    "template": "coalition/coalition_neoncity_ui_home.png"
+  },
+  "coalition_reward_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      814,
+      611,
+      877,
+      637
+    ],
+    "target": [
+      814,
+      611,
+      877,
+      637
+    ],
+    "template": "coalition/coalition_reward_confirm.png"
+  },
+  "coalition_scuttle_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1102,
+      647,
+      1174,
+      678
+    ],
+    "target": [
+      1058,
+      632,
+      1225,
+      689
+    ],
+    "template": "coalition/coalition_scuttle_confirm.png"
+  }
+}

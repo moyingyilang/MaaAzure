@@ -1,0 +1,694 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/meowfficer/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "meowfficer_apply_lock": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      41,
+      561,
+      82,
+      579
+    ],
+    "target": [
+      41,
+      561,
+      82,
+      579
+    ],
+    "template": "meowfficer/meowfficer_apply_lock.png"
+  },
+  "meowfficer_apply_unlock": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      42,
+      562,
+      90,
+      579
+    ],
+    "target": [
+      42,
+      562,
+      90,
+      579
+    ],
+    "template": "meowfficer/meowfficer_apply_unlock.png"
+  },
+  "meowfficer_buy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      864,
+      463,
+      957,
+      495
+    ],
+    "target": [
+      864,
+      463,
+      957,
+      495
+    ],
+    "template": "meowfficer/meowfficer_buy.png"
+  },
+  "meowfficer_buy_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      611,
+      1067,
+      643
+    ],
+    "target": [
+      1003,
+      611,
+      1067,
+      643
+    ],
+    "template": "meowfficer/meowfficer_buy_enter.png"
+  },
+  "meowfficer_buy_next": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      879,
+      276,
+      903,
+      306
+    ],
+    "target": [
+      879,
+      276,
+      903,
+      306
+    ],
+    "template": "meowfficer/meowfficer_buy_next.png"
+  },
+  "meowfficer_buy_prev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      277,
+      783,
+      307
+    ],
+    "target": [
+      759,
+      277,
+      783,
+      307
+    ],
+    "template": "meowfficer/meowfficer_buy_prev.png"
+  },
+  "meowfficer_buy_skip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      594,
+      462,
+      687,
+      494
+    ],
+    "target": [
+      594,
+      462,
+      687,
+      494
+    ],
+    "template": "meowfficer/meowfficer_buy_skip.png"
+  },
+  "meowfficer_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      471,
+      437,
+      556,
+      467
+    ],
+    "target": [
+      471,
+      437,
+      556,
+      467
+    ],
+    "template": "meowfficer/meowfficer_cancel.png"
+  },
+  "meowfficer_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      744,
+      437,
+      824,
+      467
+    ],
+    "target": [
+      744,
+      437,
+      824,
+      467
+    ],
+    "template": "meowfficer/meowfficer_confirm.png"
+  },
+  "meowfficer_enhance_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1133,
+      628,
+      1223,
+      658
+    ],
+    "target": [
+      1133,
+      628,
+      1223,
+      658
+    ],
+    "template": "meowfficer/meowfficer_enhance_confirm.png"
+  },
+  "meowfficer_enhance_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      27,
+      208,
+      77,
+      259
+    ],
+    "target": [
+      27,
+      208,
+      77,
+      259
+    ],
+    "template": "meowfficer/meowfficer_enhance_enter.png"
+  },
+  "meowfficer_feed_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      734,
+      602,
+      814,
+      628
+    ],
+    "target": [
+      734,
+      602,
+      814,
+      628
+    ],
+    "template": "meowfficer/meowfficer_feed_cancel.png"
+  },
+  "meowfficer_feed_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1147,
+      602,
+      1224,
+      626
+    ],
+    "target": [
+      1147,
+      602,
+      1224,
+      626
+    ],
+    "template": "meowfficer/meowfficer_feed_confirm.png"
+  },
+  "meowfficer_feed_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      766,
+      430,
+      816,
+      480
+    ],
+    "target": [
+      766,
+      430,
+      816,
+      480
+    ],
+    "template": "meowfficer/meowfficer_feed_enter.png"
+  },
+  "meowfficer_fort_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      303,
+      122,
+      456,
+      145
+    ],
+    "target": [
+      303,
+      122,
+      456,
+      145
+    ],
+    "template": "meowfficer/meowfficer_fort_check.png"
+  },
+  "meowfficer_fort_chore": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      441,
+      181,
+      468,
+      206
+    ],
+    "target": [
+      105,
+      220,
+      128,
+      351
+    ],
+    "template": "meowfficer/meowfficer_fort_chore.png"
+  },
+  "meowfficer_fort_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      845,
+      569,
+      891,
+      638
+    ],
+    "target": [
+      845,
+      569,
+      891,
+      638
+    ],
+    "template": "meowfficer/meowfficer_fort_enter.png"
+  },
+  "meowfficer_fort_get_xp_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      371,
+      198,
+      453,
+      278
+    ],
+    "target": [
+      371,
+      198,
+      453,
+      278
+    ],
+    "template": "meowfficer/meowfficer_fort_get_xp_1.png"
+  },
+  "meowfficer_fort_get_xp_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      320,
+      314,
+      422,
+      412
+    ],
+    "target": [
+      320,
+      314,
+      422,
+      412
+    ],
+    "template": "meowfficer/meowfficer_fort_get_xp_2.png"
+  },
+  "meowfficer_fort_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      918,
+      647,
+      938,
+      668
+    ],
+    "target": [
+      918,
+      647,
+      938,
+      668
+    ],
+    "template": "meowfficer/meowfficer_fort_red_dot.png"
+  },
+  "meowfficer_get_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      47,
+      669,
+      85,
+      686
+    ],
+    "target": [
+      47,
+      669,
+      85,
+      686
+    ],
+    "template": "meowfficer/meowfficer_get_check.png"
+  },
+  "meowfficer_gold_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1107,
+      242,
+      1150,
+      265
+    ],
+    "target": [
+      1107,
+      242,
+      1150,
+      265
+    ],
+    "template": "meowfficer/meowfficer_gold_check.png"
+  },
+  "meowfficer_ocr_meowfficer": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1026,
+      664,
+      1072,
+      684
+    ],
+    "target": [
+      1026,
+      664,
+      1072,
+      684
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer.png"
+  },
+  "meowfficer_ocr_meowfficer_capacity": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      718,
+      555,
+      825,
+      589
+    ],
+    "target": [
+      718,
+      555,
+      825,
+      589
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_capacity.png"
+  },
+  "meowfficer_ocr_meowfficer_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      790,
+      277,
+      870,
+      307
+    ],
+    "target": [
+      790,
+      277,
+      870,
+      307
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_choose.png"
+  },
+  "meowfficer_ocr_meowfficer_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1161,
+      20,
+      1261,
+      48
+    ],
+    "target": [
+      1161,
+      20,
+      1261,
+      48
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_coins.png"
+  },
+  "meowfficer_ocr_meowfficer_enhance_level": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      374,
+      599,
+      434,
+      621
+    ],
+    "target": [
+      374,
+      599,
+      434,
+      621
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_enhance_level.png"
+  },
+  "meowfficer_ocr_meowfficer_feed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1046,
+      599,
+      1112,
+      625
+    ],
+    "target": [
+      1046,
+      599,
+      1112,
+      625
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_feed.png"
+  },
+  "meowfficer_ocr_meowfficer_queue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      312,
+      543,
+      372,
+      568
+    ],
+    "target": [
+      312,
+      543,
+      372,
+      568
+    ],
+    "template": "meowfficer/meowfficer_ocr_meowfficer_queue.png"
+  },
+  "meowfficer_purple_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1106,
+      245,
+      1153,
+      264
+    ],
+    "target": [
+      1106,
+      245,
+      1153,
+      264
+    ],
+    "template": "meowfficer/meowfficer_purple_check.png"
+  },
+  "meowfficer_talent_close": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      858,
+      238,
+      908,
+      297
+    ],
+    "target": [
+      858,
+      238,
+      908,
+      297
+    ],
+    "template": "meowfficer/meowfficer_talent_close.png"
+  },
+  "meowfficer_train_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      234,
+      191,
+      244,
+      523
+    ],
+    "target": [
+      234,
+      191,
+      244,
+      523
+    ],
+    "template": "meowfficer/meowfficer_train_click_safe_area.png"
+  },
+  "meowfficer_train_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      262,
+      195,
+      366,
+      224
+    ],
+    "target": [
+      262,
+      195,
+      366,
+      224
+    ],
+    "template": "meowfficer/meowfficer_train_complete.png"
+  },
+  "meowfficer_train_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1155,
+      611,
+      1243,
+      643
+    ],
+    "target": [
+      1155,
+      611,
+      1243,
+      643
+    ],
+    "template": "meowfficer/meowfficer_train_enter.png"
+  },
+  "meowfficer_train_evaluate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      575,
+      23,
+      707,
+      67
+    ],
+    "target": [
+      575,
+      23,
+      707,
+      67
+    ],
+    "template": "meowfficer/meowfficer_train_evaluate.png"
+  },
+  "meowfficer_train_fill_queue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      772,
+      546,
+      866,
+      570
+    ],
+    "target": [
+      772,
+      546,
+      866,
+      570
+    ],
+    "template": "meowfficer/meowfficer_train_fill_queue.png"
+  },
+  "meowfficer_train_finish_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      786,
+      554,
+      868,
+      575
+    ],
+    "target": [
+      786,
+      554,
+      868,
+      575
+    ],
+    "template": "meowfficer/meowfficer_train_finish_all.png"
+  },
+  "meowfficer_train_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      921,
+      552,
+      1039,
+      577
+    ],
+    "target": [
+      921,
+      552,
+      1039,
+      577
+    ],
+    "template": "meowfficer/meowfficer_train_start.png"
+  }
+}

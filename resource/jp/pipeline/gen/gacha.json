@@ -1,0 +1,262 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/gacha/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "gacha_build_cube_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      861,
+      108,
+      936,
+      134
+    ],
+    "target": [
+      861,
+      108,
+      936,
+      134
+    ],
+    "template": "gacha/gacha_build_cube_count.png"
+  },
+  "gacha_build_finish_orders": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1141,
+      109,
+      1244,
+      134
+    ],
+    "target": [
+      1141,
+      109,
+      1244,
+      134
+    ],
+    "template": "gacha/gacha_build_finish_orders.png"
+  },
+  "gacha_build_finish_results": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      550,
+      193,
+      738,
+      229
+    ],
+    "target": [
+      550,
+      193,
+      738,
+      229
+    ],
+    "template": "gacha/gacha_build_finish_results.png"
+  },
+  "gacha_build_minus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      571,
+      255,
+      611,
+      293
+    ],
+    "target": [
+      571,
+      255,
+      611,
+      293
+    ],
+    "template": "gacha/gacha_build_minus.png"
+  },
+  "gacha_build_plus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      255,
+      790,
+      293
+    ],
+    "target": [
+      750,
+      255,
+      790,
+      293
+    ],
+    "template": "gacha/gacha_build_plus.png"
+  },
+  "gacha_build_queue_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      639,
+      362,
+      700,
+      409
+    ],
+    "target": [
+      639,
+      362,
+      700,
+      409
+    ],
+    "template": "gacha/gacha_build_queue_empty.png"
+  },
+  "gacha_build_submit_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      645,
+      259,
+      717,
+      290
+    ],
+    "target": [
+      645,
+      259,
+      717,
+      290
+    ],
+    "template": "gacha/gacha_build_submit_count.png"
+  },
+  "gacha_build_submit_orders": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1034,
+      606,
+      1220,
+      656
+    ],
+    "target": [
+      1034,
+      606,
+      1220,
+      656
+    ],
+    "template": "gacha/gacha_build_submit_orders.png"
+  },
+  "gacha_build_submit_ww_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      645,
+      260,
+      717,
+      290
+    ],
+    "target": [
+      645,
+      260,
+      717,
+      290
+    ],
+    "template": "gacha/gacha_build_submit_ww_count.png"
+  },
+  "gacha_build_submit_ww_orders": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      505,
+      580,
+      646,
+      620
+    ],
+    "target": [
+      505,
+      580,
+      646,
+      620
+    ],
+    "template": "gacha/gacha_build_submit_ww_orders.png"
+  },
+  "gacha_build_ticket_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      640,
+      110,
+      677,
+      131
+    ],
+    "target": [
+      640,
+      110,
+      677,
+      131
+    ],
+    "template": "gacha/gacha_build_ticket_check.png"
+  },
+  "gacha_build_ticket_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      681,
+      105,
+      788,
+      138
+    ],
+    "target": [
+      681,
+      105,
+      788,
+      138
+    ],
+    "template": "gacha/gacha_build_ticket_count.png"
+  },
+  "gacha_build_ww_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      602,
+      603,
+      784,
+      650
+    ],
+    "target": [
+      602,
+      603,
+      784,
+      650
+    ],
+    "template": "gacha/gacha_build_ww_check.png"
+  },
+  "gacha_shop_medal_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      574,
+      102,
+      604,
+      144
+    ],
+    "target": [
+      574,
+      102,
+      604,
+      144
+    ],
+    "template": "gacha/gacha_shop_medal_check.png"
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/commission/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "commission_advice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      871,
+      328,
+      998,
+      362
+    ],
+    "target": [
+      871,
+      328,
+      998,
+      362
+    ],
+    "template": "commission/commission_advice.png"
+  },
+  "commission_daily": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      30,
+      126,
+      75,
+      188
+    ],
+    "target": [
+      30,
+      126,
+      75,
+      188
+    ],
+    "template": "commission/commission_daily.png"
+  },
+  "commission_exp_info_s_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      40,
+      1266,
+      145
+    ],
+    "target": [
+      1138,
+      40,
+      1266,
+      145
+    ],
+    "template": "commission/commission_exp_info_s_reward.png"
+  },
+  "commission_fuel_maxed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      388,
+      311,
+      478,
+      336
+    ],
+    "target": [
+      388,
+      311,
+      478,
+      336
+    ],
+    "template": "commission/commission_fuel_maxed.png"
+  },
+  "commission_has_pending": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      320,
+      288,
+      380,
+      338
+    ],
+    "target": [
+      320,
+      288,
+      380,
+      338
+    ],
+    "template": "commission/commission_has_pending.png"
+  },
+  "commission_ocr_fuel_maxed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      428,
+      308,
+      482,
+      337
+    ],
+    "target": [
+      428,
+      308,
+      482,
+      337
+    ],
+    "template": "commission/commission_ocr_fuel_maxed.png"
+  },
+  "commission_oil_maxed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      428,
+      310,
+      534,
+      335
+    ],
+    "target": [
+      428,
+      310,
+      534,
+      335
+    ],
+    "template": "commission/commission_oil_maxed.png"
+  },
+  "commission_reward_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      403,
+      274,
+      504,
+      290
+    ],
+    "target": [
+      392,
+      262,
+      515,
+      303
+    ],
+    "template": "commission/commission_reward_1.png"
+  },
+  "commission_reward_save_click": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      415,
+      184,
+      496,
+      214
+    ],
+    "target": [
+      415,
+      184,
+      496,
+      214
+    ],
+    "template": "commission/commission_reward_save_click.png"
+  },
+  "commission_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1254,
+      77,
+      1261,
+      676
+    ],
+    "target": [
+      1254,
+      77,
+      1261,
+      676
+    ],
+    "template": "commission/commission_scroll_area.png"
+  },
+  "commission_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1053,
+      333,
+      1134,
+      361
+    ],
+    "target": [
+      1053,
+      333,
+      1134,
+      361
+    ],
+    "template": "commission/commission_start.png"
+  },
+  "commission_urgent": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      28,
+      221,
+      76,
+      283
+    ],
+    "target": [
+      28,
+      221,
+      76,
+      283
+    ],
+    "template": "commission/commission_urgent.png"
+  }
+}

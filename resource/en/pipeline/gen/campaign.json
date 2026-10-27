@@ -1,0 +1,724 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/campaign/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "campaign_chapter_20241219_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      17,
+      446,
+      34,
+      461
+    ],
+    "target": [
+      17,
+      446,
+      34,
+      461
+    ],
+    "template": "campaign/campaign_chapter_20241219_ex.png"
+  },
+  "campaign_chapter_20241219_part1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      17,
+      226,
+      34,
+      241
+    ],
+    "target": [
+      17,
+      226,
+      34,
+      241
+    ],
+    "template": "campaign/campaign_chapter_20241219_part1.png"
+  },
+  "campaign_chapter_20241219_part2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      17,
+      299,
+      34,
+      314
+    ],
+    "target": [
+      17,
+      299,
+      34,
+      314
+    ],
+    "template": "campaign/campaign_chapter_20241219_part2.png"
+  },
+  "campaign_chapter_20241219_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      17,
+      372,
+      34,
+      388
+    ],
+    "target": [
+      17,
+      372,
+      34,
+      388
+    ],
+    "template": "campaign/campaign_chapter_20241219_sp.png"
+  },
+  "campaign_chapter_20260326_part1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      3,
+      304,
+      24,
+      322
+    ],
+    "target": [
+      3,
+      304,
+      24,
+      322
+    ],
+    "template": "campaign/campaign_chapter_20260326_part1.png"
+  },
+  "campaign_chapter_20260326_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      4,
+      378,
+      23,
+      395
+    ],
+    "target": [
+      4,
+      378,
+      23,
+      395
+    ],
+    "template": "campaign/campaign_chapter_20260326_sp.png"
+  },
+  "campaign_chapter_next": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1216,
+      362,
+      1232,
+      388
+    ],
+    "target": [
+      1216,
+      362,
+      1232,
+      388
+    ],
+    "template": "campaign/campaign_chapter_next.png"
+  },
+  "campaign_chapter_prev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      42,
+      360,
+      58,
+      387
+    ],
+    "target": [
+      42,
+      360,
+      58,
+      387
+    ],
+    "template": "campaign/campaign_chapter_prev.png"
+  },
+  "campaign_commission_notice_at_campaign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1077,
+      637,
+      1083,
+      643
+    ],
+    "target": [
+      1077,
+      637,
+      1083,
+      643
+    ],
+    "template": "campaign/campaign_commission_notice_at_campaign.png"
+  },
+  "campaign_event_20201126_detail": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      470,
+      659,
+      510
+    ],
+    "target": [
+      617,
+      470,
+      659,
+      510
+    ],
+    "template": "campaign/campaign_event_20201126_detail.png"
+  },
+  "campaign_event_20201126_detail_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1198,
+      20,
+      1244,
+      65
+    ],
+    "target": [
+      1198,
+      20,
+      1244,
+      65
+    ],
+    "template": "campaign/campaign_event_20201126_detail_check.png"
+  },
+  "campaign_event_20201126_detail_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      969,
+      94,
+      1030,
+      156
+    ],
+    "target": [
+      969,
+      94,
+      1030,
+      156
+    ],
+    "template": "campaign/campaign_event_20201126_detail_white.png"
+  },
+  "campaign_event_20201126_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      927,
+      599,
+      1054,
+      631
+    ],
+    "target": [
+      927,
+      599,
+      1054,
+      631
+    ],
+    "template": "campaign/campaign_event_20201126_entrance.png"
+  },
+  "campaign_event_20201126_entrance_temp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1022,
+      375,
+      1100,
+      398
+    ],
+    "target": [
+      1022,
+      375,
+      1100,
+      398
+    ],
+    "template": "campaign/campaign_event_20201126_entrance_temp.png"
+  },
+  "campaign_event_20201126_pt_icon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1108,
+      102,
+      1133,
+      127
+    ],
+    "target": [
+      1108,
+      102,
+      1133,
+      127
+    ],
+    "template": "campaign/campaign_event_20201126_pt_icon.png"
+  },
+  "campaign_event_20221124_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1037,
+      162,
+      1077,
+      195
+    ],
+    "target": [
+      1037,
+      162,
+      1077,
+      195
+    ],
+    "template": "campaign/campaign_event_20221124_entrance.png"
+  },
+  "campaign_event_20221124_pt_icon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      109,
+      1101,
+      129
+    ],
+    "target": [
+      1071,
+      109,
+      1101,
+      129
+    ],
+    "template": "campaign/campaign_event_20221124_pt_icon.png"
+  },
+  "campaign_event_20230817_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      320,
+      670,
+      380
+    ],
+    "target": [
+      610,
+      320,
+      670,
+      380
+    ],
+    "template": "campaign/campaign_event_20230817_story.png"
+  },
+  "campaign_event_20250424_pt_icon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1109,
+      109,
+      1133,
+      131
+    ],
+    "target": [
+      1109,
+      109,
+      1133,
+      131
+    ],
+    "template": "campaign/campaign_event_20250424_pt_icon.png"
+  },
+  "campaign_event_20250724_pt_icon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1067,
+      108,
+      1104,
+      123
+    ],
+    "target": [
+      1067,
+      108,
+      1104,
+      123
+    ],
+    "template": "campaign/campaign_event_20250724_pt_icon.png"
+  },
+  "campaign_event_20260417_detail": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      251,
+      658,
+      290
+    ],
+    "target": [
+      618,
+      251,
+      658,
+      290
+    ],
+    "template": "campaign/campaign_event_20260417_detail.png"
+  },
+  "campaign_event_20260417_detail_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      439,
+      216,
+      535,
+      293
+    ],
+    "target": [
+      439,
+      216,
+      535,
+      293
+    ],
+    "template": "campaign/campaign_event_20260417_detail_check.png"
+  },
+  "campaign_event_20260417_detail_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1081,
+      92,
+      1141,
+      153
+    ],
+    "target": [
+      1081,
+      92,
+      1141,
+      153
+    ],
+    "template": "campaign/campaign_event_20260417_detail_white.png"
+  },
+  "campaign_event_20260417_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      957,
+      522,
+      1091,
+      573
+    ],
+    "target": [
+      957,
+      522,
+      1091,
+      573
+    ],
+    "template": "campaign/campaign_event_20260417_entrance.png"
+  },
+  "campaign_event_20260417_entrance_temp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1127,
+      365,
+      1249,
+      409
+    ],
+    "target": [
+      1127,
+      365,
+      1249,
+      409
+    ],
+    "template": "campaign/campaign_event_20260417_entrance_temp.png"
+  },
+  "campaign_event_20260417_pt_icon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1110,
+      106,
+      1133,
+      130
+    ],
+    "target": [
+      1110,
+      106,
+      1133,
+      130
+    ],
+    "template": "campaign/campaign_event_20260417_pt_icon.png"
+  },
+  "campaign_ocr_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      815,
+      23,
+      922,
+      51
+    ],
+    "target": [
+      815,
+      23,
+      922,
+      51
+    ],
+    "template": "campaign/campaign_ocr_coin.png"
+  },
+  "campaign_ocr_coin_limit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      807,
+      0,
+      944,
+      19
+    ],
+    "target": [
+      807,
+      0,
+      944,
+      19
+    ],
+    "template": "campaign/campaign_ocr_coin_limit.png"
+  },
+  "campaign_ocr_event_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1190,
+      109,
+      1280,
+      129
+    ],
+    "target": [
+      1190,
+      109,
+      1280,
+      129
+    ],
+    "template": "campaign/campaign_ocr_event_pt.png"
+  },
+  "campaign_ocr_gem": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1024,
+      23,
+      1137,
+      51
+    ],
+    "target": [
+      1024,
+      23,
+      1137,
+      51
+    ],
+    "template": "campaign/campaign_ocr_gem.png"
+  },
+  "campaign_ocr_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      23,
+      714,
+      51
+    ],
+    "target": [
+      614,
+      23,
+      714,
+      51
+    ],
+    "template": "campaign/campaign_ocr_oil.png"
+  },
+  "campaign_ocr_oil_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      573,
+      30,
+      592,
+      49
+    ],
+    "target": [
+      573,
+      30,
+      592,
+      49
+    ],
+    "template": "campaign/campaign_ocr_oil_check.png"
+  },
+  "campaign_ocr_oil_limit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      0,
+      736,
+      19
+    ],
+    "target": [
+      608,
+      0,
+      736,
+      19
+    ],
+    "template": "campaign/campaign_ocr_oil_limit.png"
+  },
+  "campaign_switch_1_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      87,
+      642,
+      148,
+      676
+    ],
+    "target": [
+      87,
+      642,
+      148,
+      676
+    ],
+    "template": "campaign/campaign_switch_1_hard.png"
+  },
+  "campaign_switch_1_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      79,
+      638,
+      147,
+      675
+    ],
+    "target": [
+      79,
+      638,
+      147,
+      675
+    ],
+    "template": "campaign/campaign_switch_1_normal.png"
+  },
+  "campaign_switch_20241219_combat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      39,
+      659,
+      71,
+      691
+    ],
+    "target": [
+      39,
+      659,
+      71,
+      691
+    ],
+    "template": "campaign/campaign_switch_20241219_combat.png"
+  },
+  "campaign_switch_20241219_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      327,
+      657,
+      352,
+      688
+    ],
+    "target": [
+      327,
+      657,
+      352,
+      688
+    ],
+    "template": "campaign/campaign_switch_20241219_story.png"
+  },
+  "campaign_switch_2_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      251,
+      644,
+      313,
+      697
+    ],
+    "target": [
+      251,
+      644,
+      313,
+      697
+    ],
+    "template": "campaign/campaign_switch_2_ex.png"
+  },
+  "campaign_switch_2_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      244,
+      640,
+      312,
+      684
+    ],
+    "target": [
+      244,
+      640,
+      312,
+      684
+    ],
+    "template": "campaign/campaign_switch_2_hard.png"
+  },
+  "campaign_template_event_20230817_story_e1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "campaign/campaign_template_event_20230817_story_e1.png"
+  },
+  "campaign_template_event_20230817_story_e2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "campaign/campaign_template_event_20230817_story_e2.png"
+  }
+}

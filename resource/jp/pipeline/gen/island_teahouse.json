@@ -1,0 +1,892 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/island_teahouse/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_teahouse_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      201,
+      349,
+      286,
+      375
+    ],
+    "target": [
+      258,
+      404,
+      331,
+      476
+    ],
+    "template": "island_teahouse/island_teahouse_post1.png"
+  },
+  "island_teahouse_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      201,
+      349,
+      286,
+      375
+    ],
+    "target": [
+      352,
+      409,
+      426,
+      476
+    ],
+    "template": "island_teahouse/island_teahouse_post2.png"
+  },
+  "island_teahouse_post_apple_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      621,
+      305,
+      659,
+      362
+    ],
+    "target": [
+      621,
+      305,
+      659,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_apple_juice.png"
+  },
+  "island_teahouse_post_banana_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      619,
+      306,
+      661,
+      362
+    ],
+    "target": [
+      619,
+      306,
+      661,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_banana_mango.png"
+  },
+  "island_teahouse_post_carrot_pear_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      306,
+      670,
+      362
+    ],
+    "target": [
+      612,
+      306,
+      670,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_carrot_pear_juice.png"
+  },
+  "island_teahouse_post_chrysanthemum_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      306,
+      670,
+      362
+    ],
+    "target": [
+      612,
+      306,
+      670,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_chrysanthemum_tea.png"
+  },
+  "island_teahouse_post_cucumber_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      388,
+      334,
+      461
+    ],
+    "target": [
+      265,
+      388,
+      334,
+      461
+    ],
+    "template": "island_teahouse/island_teahouse_post_cucumber_juice.png"
+  },
+  "island_teahouse_post_floral_fruity": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      303,
+      674,
+      362
+    ],
+    "target": [
+      608,
+      303,
+      674,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_floral_fruity.png"
+  },
+  "island_teahouse_post_fruit_paradise": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      306,
+      672,
+      362
+    ],
+    "target": [
+      609,
+      306,
+      672,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_fruit_paradise.png"
+  },
+  "island_teahouse_post_honey_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      302,
+      671,
+      362
+    ],
+    "target": [
+      618,
+      302,
+      671,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_honey_lemon.png"
+  },
+  "island_teahouse_post_lavender_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      601,
+      321,
+      676,
+      362
+    ],
+    "target": [
+      601,
+      321,
+      676,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_lavender_tea.png"
+  },
+  "island_teahouse_post_strawberry_honey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      307,
+      664,
+      362
+    ],
+    "target": [
+      617,
+      307,
+      664,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_strawberry_honey.png"
+  },
+  "island_teahouse_post_strawberry_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      619,
+      303,
+      671,
+      360
+    ],
+    "target": [
+      619,
+      303,
+      671,
+      360
+    ],
+    "template": "island_teahouse/island_teahouse_post_strawberry_lemon.png"
+  },
+  "island_teahouse_post_sunny_honey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      304,
+      678,
+      362
+    ],
+    "target": [
+      606,
+      304,
+      678,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_sunny_honey.png"
+  },
+  "island_teahouse_post_watermelon_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      388,
+      334,
+      461
+    ],
+    "target": [
+      265,
+      388,
+      334,
+      461
+    ],
+    "template": "island_teahouse/island_teahouse_post_watermelon_juice.png"
+  },
+  "island_teahouse_post_winter_jasmine_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      615,
+      319,
+      669,
+      362
+    ],
+    "target": [
+      615,
+      319,
+      669,
+      362
+    ],
+    "template": "island_teahouse/island_teahouse_post_winter_jasmine_tea.png"
+  },
+  "island_teahouse_select_apple_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      442,
+      267,
+      509
+    ],
+    "target": [
+      230,
+      442,
+      267,
+      509
+    ],
+    "template": "island_teahouse/island_teahouse_select_apple_juice.png"
+  },
+  "island_teahouse_select_apple_juice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      764,
+      228,
+      818,
+      327
+    ],
+    "target": [
+      764,
+      228,
+      818,
+      327
+    ],
+    "template": "island_teahouse/island_teahouse_select_apple_juice_check.png"
+  },
+  "island_teahouse_select_banana_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      228,
+      593,
+      269,
+      648
+    ],
+    "target": [
+      228,
+      593,
+      269,
+      648
+    ],
+    "template": "island_teahouse/island_teahouse_select_banana_mango.png"
+  },
+  "island_teahouse_select_banana_mango_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      761,
+      230,
+      821,
+      325
+    ],
+    "target": [
+      761,
+      230,
+      821,
+      325
+    ],
+    "template": "island_teahouse/island_teahouse_select_banana_mango_check.png"
+  },
+  "island_teahouse_select_carrot_pear_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "target": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "template": "island_teahouse/island_teahouse_select_carrot_pear_juice.png"
+  },
+  "island_teahouse_select_carrot_pear_juice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      748,
+      230,
+      837,
+      325
+    ],
+    "target": [
+      748,
+      230,
+      837,
+      325
+    ],
+    "template": "island_teahouse/island_teahouse_select_carrot_pear_juice_check.png"
+  },
+  "island_teahouse_select_chrysanthemum_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      291,
+      267,
+      358
+    ],
+    "target": [
+      230,
+      291,
+      267,
+      358
+    ],
+    "template": "island_teahouse/island_teahouse_select_chrysanthemum_tea.png"
+  },
+  "island_teahouse_select_chrysanthemum_tea_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      748,
+      230,
+      837,
+      325
+    ],
+    "target": [
+      748,
+      230,
+      837,
+      325
+    ],
+    "template": "island_teahouse/island_teahouse_select_chrysanthemum_tea_check.png"
+  },
+  "island_teahouse_select_cucumber_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "target": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "template": "island_teahouse/island_teahouse_select_cucumber_juice.png"
+  },
+  "island_teahouse_select_cucumber_juice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_teahouse/island_teahouse_select_cucumber_juice_check.png"
+  },
+  "island_teahouse_select_floral_fruity": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      247,
+      287,
+      316
+    ],
+    "target": [
+      214,
+      247,
+      287,
+      316
+    ],
+    "template": "island_teahouse/island_teahouse_select_floral_fruity.png"
+  },
+  "island_teahouse_select_floral_fruity_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      224,
+      844,
+      325
+    ],
+    "target": [
+      745,
+      224,
+      844,
+      325
+    ],
+    "template": "island_teahouse/island_teahouse_select_floral_fruity_check.png"
+  },
+  "island_teahouse_select_fruit_paradise": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      211,
+      400,
+      284,
+      465
+    ],
+    "target": [
+      211,
+      400,
+      284,
+      465
+    ],
+    "template": "island_teahouse/island_teahouse_select_fruit_paradise.png"
+  },
+  "island_teahouse_select_fruit_paradise_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      740,
+      227,
+      842,
+      328
+    ],
+    "target": [
+      740,
+      227,
+      842,
+      328
+    ],
+    "template": "island_teahouse/island_teahouse_select_fruit_paradise_check.png"
+  },
+  "island_teahouse_select_honey_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      226,
+      480,
+      280,
+      550
+    ],
+    "target": [
+      226,
+      480,
+      280,
+      550
+    ],
+    "template": "island_teahouse/island_teahouse_select_honey_lemon.png"
+  },
+  "island_teahouse_select_honey_lemon_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      223,
+      835,
+      328
+    ],
+    "target": [
+      756,
+      223,
+      835,
+      328
+    ],
+    "template": "island_teahouse/island_teahouse_select_honey_lemon_check.png"
+  },
+  "island_teahouse_select_lavender_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      208,
+      493,
+      285,
+      539
+    ],
+    "target": [
+      208,
+      493,
+      285,
+      539
+    ],
+    "template": "island_teahouse/island_teahouse_select_lavender_tea.png"
+  },
+  "island_teahouse_select_lavender_tea_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      735,
+      249,
+      841,
+      319
+    ],
+    "target": [
+      735,
+      249,
+      841,
+      319
+    ],
+    "template": "island_teahouse/island_teahouse_select_lavender_tea_check.png"
+  },
+  "island_teahouse_select_strawberry_honey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      225,
+      452,
+      274,
+      517
+    ],
+    "target": [
+      225,
+      452,
+      274,
+      517
+    ],
+    "template": "island_teahouse/island_teahouse_select_strawberry_honey.png"
+  },
+  "island_teahouse_select_strawberry_honey_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      231,
+      825,
+      326
+    ],
+    "target": [
+      756,
+      231,
+      825,
+      326
+    ],
+    "template": "island_teahouse/island_teahouse_select_strawberry_honey_check.png"
+  },
+  "island_teahouse_select_strawberry_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      223,
+      467,
+      281,
+      535
+    ],
+    "target": [
+      223,
+      467,
+      281,
+      535
+    ],
+    "template": "island_teahouse/island_teahouse_select_strawberry_lemon.png"
+  },
+  "island_teahouse_select_strawberry_lemon_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      227,
+      839,
+      328
+    ],
+    "target": [
+      751,
+      227,
+      839,
+      328
+    ],
+    "template": "island_teahouse/island_teahouse_select_strawberry_lemon_check.png"
+  },
+  "island_teahouse_select_sunny_honey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      211,
+      546,
+      286,
+      614
+    ],
+    "target": [
+      211,
+      546,
+      286,
+      614
+    ],
+    "template": "island_teahouse/island_teahouse_select_sunny_honey.png"
+  },
+  "island_teahouse_select_sunny_honey_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      229,
+      846,
+      322
+    ],
+    "target": [
+      742,
+      229,
+      846,
+      322
+    ],
+    "template": "island_teahouse/island_teahouse_select_sunny_honey_check.png"
+  },
+  "island_teahouse_select_watermelon_juice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "target": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "template": "island_teahouse/island_teahouse_select_watermelon_juice.png"
+  },
+  "island_teahouse_select_watermelon_juice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_teahouse/island_teahouse_select_watermelon_juice_check.png"
+  },
+  "island_teahouse_select_winter_jasmine_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      223,
+      305,
+      278,
+      356
+    ],
+    "target": [
+      223,
+      305,
+      278,
+      356
+    ],
+    "template": "island_teahouse/island_teahouse_select_winter_jasmine_tea.png"
+  },
+  "island_teahouse_select_winter_jasmine_tea_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      247,
+      833,
+      316
+    ],
+    "target": [
+      756,
+      247,
+      833,
+      316
+    ],
+    "template": "island_teahouse/island_teahouse_select_winter_jasmine_tea_check.png"
+  },
+  "island_teahouse_template_apple_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_apple_juice.png"
+  },
+  "island_teahouse_template_banana_mango": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_banana_mango.png"
+  },
+  "island_teahouse_template_carrot_pear_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_carrot_pear_juice.png"
+  },
+  "island_teahouse_template_chrysanthemum_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_chrysanthemum_tea.png"
+  },
+  "island_teahouse_template_cucumber_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_cucumber_juice.png"
+  },
+  "island_teahouse_template_floral_fruity": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_floral_fruity.png"
+  },
+  "island_teahouse_template_fresh_honey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_fresh_honey.png"
+  },
+  "island_teahouse_template_fruit_paradise": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_fruit_paradise.png"
+  },
+  "island_teahouse_template_honey_lemon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_honey_lemon.png"
+  },
+  "island_teahouse_template_lavender_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_lavender_tea.png"
+  },
+  "island_teahouse_template_strawberry_honey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_strawberry_honey.png"
+  },
+  "island_teahouse_template_strawberry_lemon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_strawberry_lemon.png"
+  },
+  "island_teahouse_template_sunny_honey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_sunny_honey.png"
+  },
+  "island_teahouse_template_watermelon_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_watermelon_juice.png"
+  },
+  "island_teahouse_template_winter_jasmine_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_teahouse/island_teahouse_template_winter_jasmine_tea.png"
+  }
+}

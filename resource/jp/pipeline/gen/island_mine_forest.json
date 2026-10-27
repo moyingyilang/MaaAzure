@@ -1,0 +1,634 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/island_mine_forest/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_mine_forest_island_forest_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      199,
+      443,
+      286,
+      471
+    ],
+    "target": [
+      259,
+      500,
+      330,
+      573
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_forest_post1.png"
+  },
+  "island_mine_forest_island_forest_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      199,
+      443,
+      286,
+      471
+    ],
+    "target": [
+      354,
+      499,
+      424,
+      572
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_forest_post2.png"
+  },
+  "island_mine_forest_island_forest_post3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      199,
+      443,
+      286,
+      471
+    ],
+    "target": [
+      449,
+      501,
+      522,
+      573
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_forest_post3.png"
+  },
+  "island_mine_forest_island_forest_post4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      199,
+      443,
+      286,
+      471
+    ],
+    "target": [
+      544,
+      500,
+      616,
+      571
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_forest_post4.png"
+  },
+  "island_mine_forest_island_mine_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      262,
+      826,
+      287
+    ],
+    "target": [
+      800,
+      317,
+      870,
+      390
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_mine_post1.png"
+  },
+  "island_mine_forest_island_mine_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      262,
+      826,
+      287
+    ],
+    "target": [
+      894,
+      315,
+      962,
+      389
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_mine_post2.png"
+  },
+  "island_mine_forest_island_mine_post3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      262,
+      826,
+      287
+    ],
+    "target": [
+      991,
+      316,
+      1061,
+      389
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_mine_post3.png"
+  },
+  "island_mine_forest_island_mine_post4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      262,
+      826,
+      287
+    ],
+    "target": [
+      1084,
+      316,
+      1152,
+      392
+    ],
+    "template": "island_mine_forest/island_mine_forest_island_mine_post4.png"
+  },
+  "island_mine_forest_post_aluminium": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      312,
+      671,
+      361
+    ],
+    "target": [
+      613,
+      312,
+      671,
+      361
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_aluminium.png"
+  },
+  "island_mine_forest_post_copper": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      310,
+      674,
+      360
+    ],
+    "target": [
+      613,
+      310,
+      674,
+      360
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_copper.png"
+  },
+  "island_mine_forest_post_elegant": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      312,
+      675,
+      361
+    ],
+    "target": [
+      609,
+      312,
+      675,
+      361
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_elegant.png"
+  },
+  "island_mine_forest_post_iron": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      312,
+      673,
+      362
+    ],
+    "target": [
+      613,
+      312,
+      673,
+      362
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_iron.png"
+  },
+  "island_mine_forest_post_practical": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      313,
+      677,
+      362
+    ],
+    "target": [
+      608,
+      313,
+      677,
+      362
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_practical.png"
+  },
+  "island_mine_forest_post_selected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      315,
+      675,
+      363
+    ],
+    "target": [
+      609,
+      315,
+      675,
+      363
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_selected.png"
+  },
+  "island_mine_forest_post_silver": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      309,
+      674,
+      361
+    ],
+    "target": [
+      609,
+      309,
+      674,
+      361
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_silver.png"
+  },
+  "island_mine_forest_post_sulphur": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      605,
+      311,
+      676,
+      363
+    ],
+    "target": [
+      605,
+      311,
+      676,
+      363
+    ],
+    "template": "island_mine_forest/island_mine_forest_post_sulphur.png"
+  },
+  "island_mine_forest_select_aluminium": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      220,
+      451,
+      281,
+      507
+    ],
+    "target": [
+      220,
+      451,
+      281,
+      507
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_aluminium.png"
+  },
+  "island_mine_forest_select_aluminium_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      241,
+      833,
+      317
+    ],
+    "target": [
+      759,
+      241,
+      833,
+      317
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_aluminium_check.png"
+  },
+  "island_mine_forest_select_copper": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      222,
+      304,
+      278,
+      357
+    ],
+    "target": [
+      222,
+      304,
+      278,
+      357
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_copper.png"
+  },
+  "island_mine_forest_select_copper_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      243,
+      832,
+      318
+    ],
+    "target": [
+      756,
+      243,
+      832,
+      318
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_copper_check.png"
+  },
+  "island_mine_forest_select_elegant": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      555,
+      286,
+      612
+    ],
+    "target": [
+      218,
+      555,
+      286,
+      612
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_elegant.png"
+  },
+  "island_mine_forest_select_elegant_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      238,
+      840,
+      317
+    ],
+    "target": [
+      745,
+      238,
+      840,
+      317
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_elegant_check.png"
+  },
+  "island_mine_forest_select_iron": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      600,
+      280,
+      652
+    ],
+    "target": [
+      219,
+      600,
+      280,
+      652
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_iron.png"
+  },
+  "island_mine_forest_select_iron_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      241,
+      832,
+      322
+    ],
+    "target": [
+      756,
+      241,
+      832,
+      322
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_iron_check.png"
+  },
+  "island_mine_forest_select_practical": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      300,
+      285,
+      358
+    ],
+    "target": [
+      217,
+      300,
+      285,
+      358
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_practical.png"
+  },
+  "island_mine_forest_select_practical_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      749,
+      239,
+      838,
+      316
+    ],
+    "target": [
+      749,
+      239,
+      838,
+      316
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_practical_check.png"
+  },
+  "island_mine_forest_select_selected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      451,
+      281,
+      506
+    ],
+    "target": [
+      215,
+      451,
+      281,
+      506
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_selected.png"
+  },
+  "island_mine_forest_select_selected_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      240,
+      841,
+      317
+    ],
+    "target": [
+      751,
+      240,
+      841,
+      317
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_selected_check.png"
+  },
+  "island_mine_forest_select_silver": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      224,
+      559,
+      278,
+      612
+    ],
+    "target": [
+      224,
+      559,
+      278,
+      612
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_silver.png"
+  },
+  "island_mine_forest_select_silver_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      757,
+      241,
+      831,
+      317
+    ],
+    "target": [
+      757,
+      241,
+      831,
+      317
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_silver_check.png"
+  },
+  "island_mine_forest_select_sulphur": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      403,
+      285,
+      466
+    ],
+    "target": [
+      212,
+      403,
+      285,
+      466
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_sulphur.png"
+  },
+  "island_mine_forest_select_sulphur_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      740,
+      237,
+      840,
+      322
+    ],
+    "target": [
+      740,
+      237,
+      840,
+      322
+    ],
+    "template": "island_mine_forest/island_mine_forest_select_sulphur_check.png"
+  },
+  "island_mine_forest_template_aluminium": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_aluminium.png"
+  },
+  "island_mine_forest_template_copper": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_copper.png"
+  },
+  "island_mine_forest_template_elegant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_elegant.png"
+  },
+  "island_mine_forest_template_iron": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_iron.png"
+  },
+  "island_mine_forest_template_practical": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_practical.png"
+  },
+  "island_mine_forest_template_selected": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_selected.png"
+  },
+  "island_mine_forest_template_silver": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_silver.png"
+  },
+  "island_mine_forest_template_sulphur": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_mine_forest/island_mine_forest_template_sulphur.png"
+  }
+}

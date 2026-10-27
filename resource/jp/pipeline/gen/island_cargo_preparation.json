@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/island_cargo_preparation/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_cargo_preparation_cargo_preparation_empty_replace": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      704,
+      212,
+      864,
+      232
+    ],
+    "target": [
+      704,
+      212,
+      864,
+      232
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_cargo_preparation_empty_replace.png"
+  },
+  "island_cargo_preparation_cargo_preparation_replace_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      723,
+      600,
+      773,
+      626
+    ],
+    "target": [
+      723,
+      600,
+      773,
+      626
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_cargo_preparation_replace_confirm.png"
+  },
+  "island_cargo_preparation_empty_list_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      531,
+      315,
+      776,
+      340
+    ],
+    "target": [
+      531,
+      315,
+      776,
+      340
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_empty_list_check.png"
+  },
+  "island_cargo_preparation_refresh_button_blue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      830,
+      85,
+      880,
+      110
+    ],
+    "target": [
+      830,
+      85,
+      880,
+      110
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_refresh_button_blue.png"
+  },
+  "island_cargo_preparation_refresh_button_grey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      830,
+      85,
+      880,
+      110
+    ],
+    "target": [
+      830,
+      85,
+      880,
+      110
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_refresh_button_grey.png"
+  },
+  "island_cargo_preparation_replace_page_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      407,
+      76,
+      532,
+      107
+    ],
+    "target": [
+      407,
+      76,
+      532,
+      107
+    ],
+    "template": "island_cargo_preparation/island_cargo_preparation_replace_page_check.png"
+  },
+  "island_cargo_preparation_template_cargo_milk": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_cargo_preparation/island_cargo_preparation_template_cargo_milk.png"
+  }
+}

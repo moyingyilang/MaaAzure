@@ -1,0 +1,2008 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/raid/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "raid_albion_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1166,
+      604,
+      1279,
+      635
+    ],
+    "target": [
+      1166,
+      604,
+      1279,
+      635
+    ],
+    "template": "raid/raid_albion_ocr_pt.png"
+  },
+  "raid_albion_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1145,
+      507,
+      1205,
+      531
+    ],
+    "target": [
+      1145,
+      507,
+      1205,
+      531
+    ],
+    "template": "raid/raid_albion_ocr_remain_easy.png"
+  },
+  "raid_albion_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1148,
+      337,
+      1208,
+      361
+    ],
+    "target": [
+      1148,
+      337,
+      1208,
+      361
+    ],
+    "template": "raid/raid_albion_ocr_remain_hard.png"
+  },
+  "raid_albion_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1186,
+      423,
+      1246,
+      447
+    ],
+    "target": [
+      1186,
+      423,
+      1246,
+      447
+    ],
+    "template": "raid/raid_albion_ocr_remain_normal.png"
+  },
+  "raid_albion_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1012,
+      508,
+      1075,
+      530
+    ],
+    "target": [
+      1012,
+      508,
+      1075,
+      530
+    ],
+    "template": "raid/raid_albion_raid_easy.png"
+  },
+  "raid_albion_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1016,
+      338,
+      1076,
+      361
+    ],
+    "target": [
+      1016,
+      338,
+      1076,
+      361
+    ],
+    "template": "raid/raid_albion_raid_hard.png"
+  },
+  "raid_albion_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1054,
+      424,
+      1144,
+      446
+    ],
+    "target": [
+      1054,
+      424,
+      1144,
+      446
+    ],
+    "template": "raid/raid_albion_raid_normal.png"
+  },
+  "raid_bigshot_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1156,
+      606,
+      1276,
+      638
+    ],
+    "target": [
+      1156,
+      606,
+      1276,
+      638
+    ],
+    "template": "raid/raid_bigshot_ocr_pt.png"
+  },
+  "raid_bigshot_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1041,
+      552,
+      1101,
+      574
+    ],
+    "target": [
+      1041,
+      552,
+      1101,
+      574
+    ],
+    "template": "raid/raid_bigshot_ocr_remain_easy.png"
+  },
+  "raid_bigshot_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1133,
+      30,
+      1193,
+      52
+    ],
+    "target": [
+      1133,
+      30,
+      1193,
+      52
+    ],
+    "template": "raid/raid_bigshot_ocr_remain_ex.png"
+  },
+  "raid_bigshot_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1129,
+      400,
+      1189,
+      422
+    ],
+    "target": [
+      1129,
+      400,
+      1189,
+      422
+    ],
+    "template": "raid/raid_bigshot_ocr_remain_hard.png"
+  },
+  "raid_bigshot_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1085,
+      471,
+      1145,
+      493
+    ],
+    "target": [
+      1085,
+      471,
+      1145,
+      493
+    ],
+    "template": "raid/raid_bigshot_ocr_remain_normal.png"
+  },
+  "raid_bigshot_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      932,
+      547,
+      989,
+      578
+    ],
+    "target": [
+      932,
+      547,
+      989,
+      578
+    ],
+    "template": "raid/raid_bigshot_raid_easy.png"
+  },
+  "raid_bigshot_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1045,
+      215,
+      1115,
+      248
+    ],
+    "target": [
+      1045,
+      215,
+      1115,
+      248
+    ],
+    "template": "raid/raid_bigshot_raid_ex.png"
+  },
+  "raid_bigshot_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1020,
+      393,
+      1080,
+      426
+    ],
+    "target": [
+      1020,
+      393,
+      1080,
+      426
+    ],
+    "template": "raid/raid_bigshot_raid_hard.png"
+  },
+  "raid_bigshot_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      967,
+      467,
+      1046,
+      494
+    ],
+    "target": [
+      967,
+      467,
+      1046,
+      494
+    ],
+    "template": "raid/raid_bigshot_raid_normal.png"
+  },
+  "raid_bristol_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1137,
+      536,
+      1197,
+      554
+    ],
+    "target": [
+      1137,
+      536,
+      1197,
+      554
+    ],
+    "template": "raid/raid_bristol_ocr_remain_easy.png"
+  },
+  "raid_bristol_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1159,
+      292,
+      1219,
+      310
+    ],
+    "target": [
+      1159,
+      292,
+      1219,
+      310
+    ],
+    "template": "raid/raid_bristol_ocr_remain_hard.png"
+  },
+  "raid_bristol_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1087,
+      413,
+      1147,
+      431
+    ],
+    "target": [
+      1087,
+      413,
+      1147,
+      431
+    ],
+    "template": "raid/raid_bristol_ocr_remain_normal.png"
+  },
+  "raid_bristol_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1155,
+      504,
+      1197,
+      524
+    ],
+    "target": [
+      1155,
+      504,
+      1197,
+      524
+    ],
+    "template": "raid/raid_bristol_raid_easy.png"
+  },
+  "raid_bristol_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1156,
+      259,
+      1231,
+      278
+    ],
+    "target": [
+      1156,
+      259,
+      1231,
+      278
+    ],
+    "template": "raid/raid_bristol_raid_hard.png"
+  },
+  "raid_bristol_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1089,
+      380,
+      1158,
+      396
+    ],
+    "target": [
+      1089,
+      380,
+      1158,
+      396
+    ],
+    "template": "raid/raid_bristol_raid_normal.png"
+  },
+  "raid_changwu_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1174,
+      603,
+      1280,
+      632
+    ],
+    "target": [
+      1174,
+      603,
+      1280,
+      632
+    ],
+    "template": "raid/raid_changwu_ocr_pt.png"
+  },
+  "raid_changwu_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1057,
+      565,
+      1116,
+      585
+    ],
+    "target": [
+      1057,
+      565,
+      1116,
+      585
+    ],
+    "template": "raid/raid_changwu_ocr_remain_easy.png"
+  },
+  "raid_changwu_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      26,
+      1185,
+      49
+    ],
+    "target": [
+      1138,
+      26,
+      1185,
+      49
+    ],
+    "template": "raid/raid_changwu_ocr_remain_ex.png"
+  },
+  "raid_changwu_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1169,
+      409,
+      1229,
+      429
+    ],
+    "target": [
+      1169,
+      409,
+      1229,
+      429
+    ],
+    "template": "raid/raid_changwu_ocr_remain_hard.png"
+  },
+  "raid_changwu_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1112,
+      487,
+      1170,
+      506
+    ],
+    "target": [
+      1112,
+      487,
+      1170,
+      506
+    ],
+    "template": "raid/raid_changwu_ocr_remain_normal.png"
+  },
+  "raid_changwu_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      971,
+      562,
+      1037,
+      584
+    ],
+    "target": [
+      971,
+      562,
+      1037,
+      584
+    ],
+    "template": "raid/raid_changwu_raid_easy.png"
+  },
+  "raid_changwu_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1135,
+      296,
+      1209,
+      331
+    ],
+    "target": [
+      1135,
+      296,
+      1209,
+      331
+    ],
+    "template": "raid/raid_changwu_raid_ex.png"
+  },
+  "raid_changwu_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1083,
+      407,
+      1150,
+      428
+    ],
+    "target": [
+      1083,
+      407,
+      1150,
+      428
+    ],
+    "template": "raid/raid_changwu_raid_hard.png"
+  },
+  "raid_changwu_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1009,
+      485,
+      1104,
+      506
+    ],
+    "target": [
+      1009,
+      485,
+      1104,
+      506
+    ],
+    "template": "raid/raid_changwu_raid_normal.png"
+  },
+  "raid_chienwu_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1166,
+      604,
+      1279,
+      632
+    ],
+    "target": [
+      1166,
+      604,
+      1279,
+      632
+    ],
+    "template": "raid/raid_chienwu_ocr_pt.png"
+  },
+  "raid_chienwu_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1111,
+      528,
+      1163,
+      549
+    ],
+    "target": [
+      1111,
+      528,
+      1163,
+      549
+    ],
+    "template": "raid/raid_chienwu_ocr_remain_easy.png"
+  },
+  "raid_chienwu_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1086,
+      16,
+      1152,
+      44
+    ],
+    "target": [
+      1086,
+      16,
+      1152,
+      44
+    ],
+    "template": "raid/raid_chienwu_ocr_remain_ex.png"
+  },
+  "raid_chienwu_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1106,
+      390,
+      1158,
+      411
+    ],
+    "target": [
+      1106,
+      390,
+      1158,
+      411
+    ],
+    "template": "raid/raid_chienwu_ocr_remain_hard.png"
+  },
+  "raid_chienwu_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1144,
+      459,
+      1196,
+      480
+    ],
+    "target": [
+      1144,
+      459,
+      1196,
+      480
+    ],
+    "template": "raid/raid_chienwu_ocr_remain_normal.png"
+  },
+  "raid_chienwu_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1056,
+      527,
+      1096,
+      550
+    ],
+    "target": [
+      1056,
+      527,
+      1096,
+      550
+    ],
+    "template": "raid/raid_chienwu_raid_easy.png"
+  },
+  "raid_chienwu_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1068,
+      251,
+      1125,
+      286
+    ],
+    "target": [
+      1068,
+      251,
+      1125,
+      286
+    ],
+    "template": "raid/raid_chienwu_raid_ex.png"
+  },
+  "raid_chienwu_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1047,
+      393,
+      1093,
+      408
+    ],
+    "target": [
+      1047,
+      393,
+      1093,
+      408
+    ],
+    "template": "raid/raid_chienwu_raid_hard.png"
+  },
+  "raid_chienwu_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1078,
+      463,
+      1137,
+      478
+    ],
+    "target": [
+      1078,
+      463,
+      1137,
+      478
+    ],
+    "template": "raid/raid_chienwu_raid_normal.png"
+  },
+  "raid_darenwu_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1157,
+      607,
+      1267,
+      638
+    ],
+    "target": [
+      1157,
+      607,
+      1267,
+      638
+    ],
+    "template": "raid/raid_darenwu_ocr_pt.png"
+  },
+  "raid_darenwu_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1040,
+      552,
+      1102,
+      574
+    ],
+    "target": [
+      1040,
+      552,
+      1102,
+      574
+    ],
+    "template": "raid/raid_darenwu_ocr_remain_easy.png"
+  },
+  "raid_darenwu_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1119,
+      32,
+      1185,
+      51
+    ],
+    "target": [
+      1119,
+      32,
+      1185,
+      51
+    ],
+    "template": "raid/raid_darenwu_ocr_remain_ex.png"
+  },
+  "raid_darenwu_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      400,
+      1192,
+      422
+    ],
+    "target": [
+      1132,
+      400,
+      1192,
+      422
+    ],
+    "template": "raid/raid_darenwu_ocr_remain_hard.png"
+  },
+  "raid_darenwu_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1092,
+      470,
+      1148,
+      491
+    ],
+    "target": [
+      1092,
+      470,
+      1148,
+      491
+    ],
+    "template": "raid/raid_darenwu_ocr_remain_normal.png"
+  },
+  "raid_darenwu_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      940,
+      550,
+      986,
+      574
+    ],
+    "target": [
+      940,
+      550,
+      986,
+      574
+    ],
+    "template": "raid/raid_darenwu_raid_easy.png"
+  },
+  "raid_darenwu_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1048,
+      219,
+      1108,
+      244
+    ],
+    "target": [
+      1048,
+      219,
+      1108,
+      244
+    ],
+    "template": "raid/raid_darenwu_raid_ex.png"
+  },
+  "raid_darenwu_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1027,
+      400,
+      1074,
+      422
+    ],
+    "target": [
+      1027,
+      400,
+      1074,
+      422
+    ],
+    "template": "raid/raid_darenwu_raid_hard.png"
+  },
+  "raid_darenwu_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      985,
+      469,
+      1029,
+      493
+    ],
+    "target": [
+      985,
+      469,
+      1029,
+      493
+    ],
+    "template": "raid/raid_darenwu_raid_normal.png"
+  },
+  "raid_essex_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      503,
+      1121,
+      518
+    ],
+    "target": [
+      1071,
+      503,
+      1121,
+      518
+    ],
+    "template": "raid/raid_essex_ocr_remain_easy.png"
+  },
+  "raid_essex_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1088,
+      273,
+      1138,
+      287
+    ],
+    "target": [
+      1088,
+      273,
+      1138,
+      287
+    ],
+    "template": "raid/raid_essex_ocr_remain_hard.png"
+  },
+  "raid_essex_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1049,
+      387,
+      1099,
+      402
+    ],
+    "target": [
+      1049,
+      387,
+      1099,
+      402
+    ],
+    "template": "raid/raid_essex_ocr_remain_normal.png"
+  },
+  "raid_essex_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1152,
+      503,
+      1196,
+      536
+    ],
+    "target": [
+      1152,
+      503,
+      1196,
+      536
+    ],
+    "template": "raid/raid_essex_raid_easy.png"
+  },
+  "raid_essex_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1155,
+      264,
+      1212,
+      303
+    ],
+    "target": [
+      1155,
+      264,
+      1212,
+      303
+    ],
+    "template": "raid/raid_essex_raid_hard.png"
+  },
+  "raid_essex_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      385,
+      1185,
+      421
+    ],
+    "target": [
+      1132,
+      385,
+      1185,
+      421
+    ],
+    "template": "raid/raid_essex_raid_normal.png"
+  },
+  "raid_fleet_flagship": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      402,
+      168,
+      462,
+      228
+    ],
+    "target": [
+      402,
+      168,
+      462,
+      228
+    ],
+    "template": "raid/raid_fleet_flagship.png"
+  },
+  "raid_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1041,
+      592,
+      1121,
+      631
+    ],
+    "target": [
+      1041,
+      592,
+      1121,
+      631
+    ],
+    "template": "raid/raid_fleet_preparation.png"
+  },
+  "raid_fleet_vanguard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      718,
+      168,
+      778,
+      228
+    ],
+    "target": [
+      718,
+      168,
+      778,
+      228
+    ],
+    "template": "raid/raid_fleet_vanguard.png"
+  },
+  "raid_gorizia_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1160,
+      605,
+      1280,
+      637
+    ],
+    "target": [
+      1160,
+      605,
+      1280,
+      637
+    ],
+    "template": "raid/raid_gorizia_ocr_pt.png"
+  },
+  "raid_gorizia_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      513,
+      1194,
+      539
+    ],
+    "target": [
+      1138,
+      513,
+      1194,
+      539
+    ],
+    "template": "raid/raid_gorizia_ocr_remain_easy.png"
+  },
+  "raid_gorizia_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1082,
+      16,
+      1151,
+      42
+    ],
+    "target": [
+      1082,
+      16,
+      1151,
+      42
+    ],
+    "template": "raid/raid_gorizia_ocr_remain_ex.png"
+  },
+  "raid_gorizia_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      346,
+      1195,
+      372
+    ],
+    "target": [
+      1138,
+      346,
+      1195,
+      372
+    ],
+    "template": "raid/raid_gorizia_ocr_remain_hard.png"
+  },
+  "raid_gorizia_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1174,
+      428,
+      1231,
+      455
+    ],
+    "target": [
+      1174,
+      428,
+      1231,
+      455
+    ],
+    "template": "raid/raid_gorizia_ocr_remain_normal.png"
+  },
+  "raid_gorizia_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      520,
+      1118,
+      541
+    ],
+    "target": [
+      1071,
+      520,
+      1118,
+      541
+    ],
+    "template": "raid/raid_gorizia_raid_easy.png"
+  },
+  "raid_gorizia_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      978,
+      210,
+      1050,
+      242
+    ],
+    "target": [
+      978,
+      210,
+      1050,
+      242
+    ],
+    "template": "raid/raid_gorizia_raid_ex.png"
+  },
+  "raid_gorizia_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1065,
+      352,
+      1116,
+      368
+    ],
+    "target": [
+      1065,
+      352,
+      1116,
+      368
+    ],
+    "template": "raid/raid_gorizia_raid_hard.png"
+  },
+  "raid_gorizia_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1087,
+      435,
+      1163,
+      451
+    ],
+    "target": [
+      1087,
+      435,
+      1163,
+      451
+    ],
+    "template": "raid/raid_gorizia_raid_normal.png"
+  },
+  "raid_huanchang_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1166,
+      604,
+      1279,
+      635
+    ],
+    "target": [
+      1166,
+      604,
+      1279,
+      635
+    ],
+    "template": "raid/raid_huanchang_ocr_pt.png"
+  },
+  "raid_huanchang_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      961,
+      522,
+      983,
+      540
+    ],
+    "target": [
+      961,
+      522,
+      983,
+      540
+    ],
+    "template": "raid/raid_huanchang_ocr_remain_easy.png"
+  },
+  "raid_huanchang_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1082,
+      16,
+      1151,
+      42
+    ],
+    "target": [
+      1082,
+      16,
+      1151,
+      42
+    ],
+    "template": "raid/raid_huanchang_ocr_remain_ex.png"
+  },
+  "raid_huanchang_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1145,
+      522,
+      1167,
+      540
+    ],
+    "target": [
+      1145,
+      522,
+      1167,
+      540
+    ],
+    "template": "raid/raid_huanchang_ocr_remain_hard.png"
+  },
+  "raid_huanchang_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1054,
+      522,
+      1076,
+      540
+    ],
+    "target": [
+      1054,
+      522,
+      1076,
+      540
+    ],
+    "template": "raid/raid_huanchang_ocr_remain_normal.png"
+  },
+  "raid_huanchang_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      950,
+      456,
+      993,
+      516
+    ],
+    "target": [
+      950,
+      456,
+      993,
+      516
+    ],
+    "template": "raid/raid_huanchang_raid_easy.png"
+  },
+  "raid_huanchang_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1114,
+      328,
+      1173,
+      357
+    ],
+    "target": [
+      1114,
+      328,
+      1173,
+      357
+    ],
+    "template": "raid/raid_huanchang_raid_ex.png"
+  },
+  "raid_huanchang_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1135,
+      456,
+      1179,
+      516
+    ],
+    "target": [
+      1135,
+      456,
+      1179,
+      516
+    ],
+    "template": "raid/raid_huanchang_raid_hard.png"
+  },
+  "raid_huanchang_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1044,
+      456,
+      1088,
+      516
+    ],
+    "target": [
+      1044,
+      456,
+      1088,
+      516
+    ],
+    "template": "raid/raid_huanchang_raid_normal.png"
+  },
+  "raid_iris_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1140,
+      607,
+      1280,
+      641
+    ],
+    "target": [
+      1140,
+      607,
+      1280,
+      641
+    ],
+    "template": "raid/raid_iris_ocr_pt.png"
+  },
+  "raid_iris_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1046,
+      514,
+      1106,
+      534
+    ],
+    "target": [
+      1046,
+      514,
+      1106,
+      534
+    ],
+    "template": "raid/raid_iris_ocr_remain_easy.png"
+  },
+  "raid_iris_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1165,
+      312,
+      1225,
+      332
+    ],
+    "target": [
+      1165,
+      312,
+      1225,
+      332
+    ],
+    "template": "raid/raid_iris_ocr_remain_hard.png"
+  },
+  "raid_iris_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1129,
+      413,
+      1189,
+      433
+    ],
+    "target": [
+      1129,
+      413,
+      1189,
+      433
+    ],
+    "template": "raid/raid_iris_ocr_remain_normal.png"
+  },
+  "raid_iris_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      972,
+      507,
+      1031,
+      527
+    ],
+    "target": [
+      972,
+      507,
+      1031,
+      527
+    ],
+    "template": "raid/raid_iris_raid_easy.png"
+  },
+  "raid_iris_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1093,
+      305,
+      1154,
+      325
+    ],
+    "target": [
+      1093,
+      305,
+      1154,
+      325
+    ],
+    "template": "raid/raid_iris_raid_hard.png"
+  },
+  "raid_iris_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1023,
+      406,
+      1115,
+      426
+    ],
+    "target": [
+      1023,
+      406,
+      1115,
+      426
+    ],
+    "template": "raid/raid_iris_raid_normal.png"
+  },
+  "raid_kuybyshey_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1180,
+      606,
+      1280,
+      634
+    ],
+    "target": [
+      1180,
+      606,
+      1280,
+      634
+    ],
+    "template": "raid/raid_kuybyshey_ocr_pt.png"
+  },
+  "raid_kuybyshey_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      504,
+      1198,
+      528
+    ],
+    "target": [
+      1138,
+      504,
+      1198,
+      528
+    ],
+    "template": "raid/raid_kuybyshey_ocr_remain_easy.png"
+  },
+  "raid_kuybyshey_ocr_remain_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1103,
+      17,
+      1151,
+      41
+    ],
+    "target": [
+      1103,
+      17,
+      1151,
+      41
+    ],
+    "template": "raid/raid_kuybyshey_ocr_remain_ex.png"
+  },
+  "raid_kuybyshey_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1138,
+      347,
+      1198,
+      371
+    ],
+    "target": [
+      1138,
+      347,
+      1198,
+      371
+    ],
+    "template": "raid/raid_kuybyshey_ocr_remain_hard.png"
+  },
+  "raid_kuybyshey_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1107,
+      426,
+      1167,
+      450
+    ],
+    "target": [
+      1107,
+      426,
+      1167,
+      450
+    ],
+    "template": "raid/raid_kuybyshey_ocr_remain_normal.png"
+  },
+  "raid_kuybyshey_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1073,
+      502,
+      1124,
+      529
+    ],
+    "target": [
+      1073,
+      502,
+      1124,
+      529
+    ],
+    "template": "raid/raid_kuybyshey_raid_easy.png"
+  },
+  "raid_kuybyshey_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1082,
+      189,
+      1146,
+      217
+    ],
+    "target": [
+      1082,
+      189,
+      1146,
+      217
+    ],
+    "template": "raid/raid_kuybyshey_raid_ex.png"
+  },
+  "raid_kuybyshey_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1074,
+      344,
+      1125,
+      372
+    ],
+    "target": [
+      1074,
+      344,
+      1125,
+      372
+    ],
+    "template": "raid/raid_kuybyshey_raid_hard.png"
+  },
+  "raid_kuybyshey_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1036,
+      424,
+      1099,
+      449
+    ],
+    "target": [
+      1036,
+      424,
+      1099,
+      449
+    ],
+    "template": "raid/raid_kuybyshey_raid_normal.png"
+  },
+  "raid_rewards": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      836,
+      127,
+      900,
+      169
+    ],
+    "target": [
+      836,
+      127,
+      900,
+      169
+    ],
+    "template": "raid/raid_rewards.png"
+  },
+  "raid_rpg_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      40,
+      30,
+      59,
+      57
+    ],
+    "target": [
+      40,
+      30,
+      59,
+      57
+    ],
+    "template": "raid/raid_rpg_back.png"
+  },
+  "raid_rpg_goto_stage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      55,
+      495,
+      80,
+      520
+    ],
+    "target": [
+      55,
+      495,
+      80,
+      520
+    ],
+    "template": "raid/raid_rpg_goto_stage.png"
+  },
+  "raid_rpg_goto_story": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      59,
+      491,
+      84,
+      516
+    ],
+    "target": [
+      59,
+      491,
+      84,
+      516
+    ],
+    "template": "raid/raid_rpg_goto_story.png"
+  },
+  "raid_rpg_home": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1222,
+      29,
+      1240,
+      51
+    ],
+    "target": [
+      1222,
+      29,
+      1240,
+      51
+    ],
+    "template": "raid/raid_rpg_home.png"
+  },
+  "raid_rpg_leave_city": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      688,
+      642,
+      711,
+      664
+    ],
+    "target": [
+      688,
+      642,
+      711,
+      664
+    ],
+    "template": "raid/raid_rpg_leave_city.png"
+  },
+  "raid_rpg_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      149,
+      561,
+      179,
+      591
+    ],
+    "target": [
+      149,
+      561,
+      179,
+      591
+    ],
+    "template": "raid/raid_rpg_raid_easy.png"
+  },
+  "raid_rpg_raid_ex": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      979,
+      223,
+      999,
+      258
+    ],
+    "target": [
+      979,
+      223,
+      999,
+      258
+    ],
+    "template": "raid/raid_rpg_raid_ex.png"
+  },
+  "raid_rpg_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      475,
+      108,
+      505,
+      138
+    ],
+    "target": [
+      475,
+      108,
+      505,
+      138
+    ],
+    "template": "raid/raid_rpg_raid_hard.png"
+  },
+  "raid_rpg_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      313,
+      259,
+      343,
+      289
+    ],
+    "target": [
+      313,
+      259,
+      343,
+      289
+    ],
+    "template": "raid/raid_rpg_raid_normal.png"
+  },
+  "raid_rpg_status_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1120,
+      97,
+      1144,
+      121
+    ],
+    "target": [
+      1120,
+      97,
+      1144,
+      121
+    ],
+    "template": "raid/raid_rpg_status_popup.png"
+  },
+  "raid_suruga_ocr_remain_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1093,
+      549,
+      1141,
+      563
+    ],
+    "target": [
+      1093,
+      549,
+      1141,
+      563
+    ],
+    "template": "raid/raid_suruga_ocr_remain_easy.png"
+  },
+  "raid_suruga_ocr_remain_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      318,
+      1118,
+      332
+    ],
+    "target": [
+      1071,
+      318,
+      1118,
+      332
+    ],
+    "template": "raid/raid_suruga_ocr_remain_hard.png"
+  },
+  "raid_suruga_ocr_remain_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1137,
+      426,
+      1185,
+      439
+    ],
+    "target": [
+      1137,
+      426,
+      1185,
+      439
+    ],
+    "template": "raid/raid_suruga_ocr_remain_normal.png"
+  },
+  "raid_suruga_raid_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1144,
+      540,
+      1189,
+      571
+    ],
+    "target": [
+      1144,
+      540,
+      1189,
+      571
+    ],
+    "template": "raid/raid_suruga_raid_easy.png"
+  },
+  "raid_suruga_raid_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1121,
+      308,
+      1169,
+      340
+    ],
+    "target": [
+      1121,
+      308,
+      1169,
+      340
+    ],
+    "template": "raid/raid_suruga_raid_hard.png"
+  },
+  "raid_suruga_raid_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1187,
+      417,
+      1254,
+      445
+    ],
+    "target": [
+      1187,
+      417,
+      1254,
+      445
+    ],
+    "template": "raid/raid_suruga_raid_normal.png"
+  },
+  "raid_ticket_use_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      454,
+      492,
+      522,
+      531
+    ],
+    "target": [
+      454,
+      492,
+      522,
+      531
+    ],
+    "template": "raid/raid_ticket_use_cancel.png"
+  },
+  "raid_ticket_use_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      500,
+      803,
+      522
+    ],
+    "target": [
+      728,
+      495,
+      873,
+      534
+    ],
+    "template": "raid/raid_ticket_use_confirm.png"
+  }
+}

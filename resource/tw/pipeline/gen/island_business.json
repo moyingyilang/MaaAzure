@@ -1,0 +1,748 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/island_business/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_business_business_obtained_items": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      589,
+      257,
+      695,
+      288
+    ],
+    "target": [
+      589,
+      257,
+      695,
+      288
+    ],
+    "template": "island_business/island_business_business_obtained_items.png"
+  },
+  "island_business_business_plus_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      329,
+      268,
+      436,
+      307
+    ],
+    "target": [
+      329,
+      268,
+      436,
+      307
+    ],
+    "template": "island_business/island_business_business_plus_a.png"
+  },
+  "island_business_business_plus_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      329,
+      430,
+      436,
+      469
+    ],
+    "target": [
+      329,
+      430,
+      436,
+      469
+    ],
+    "template": "island_business/island_business_business_plus_b.png"
+  },
+  "island_business_business_sales_status": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      266,
+      379,
+      354,
+      400
+    ],
+    "target": [
+      266,
+      379,
+      354,
+      400
+    ],
+    "template": "island_business/island_business_business_sales_status.png"
+  },
+  "island_business_business_settlement": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      595,
+      610,
+      686,
+      640
+    ],
+    "target": [
+      595,
+      610,
+      686,
+      640
+    ],
+    "template": "island_business/island_business_business_settlement.png"
+  },
+  "island_business_business_shop_fish_restaurant": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "target": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "template": "island_business/island_business_business_shop_fish_restaurant.png"
+  },
+  "island_business_business_shop_grill": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "target": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "template": "island_business/island_business_business_shop_grill.png"
+  },
+  "island_business_business_shop_juu_coffee": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "target": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "template": "island_business/island_business_business_shop_juu_coffee.png"
+  },
+  "island_business_business_shop_juu_eatery": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "target": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "template": "island_business/island_business_business_shop_juu_eatery.png"
+  },
+  "island_business_business_shop_teahouse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "target": [
+      548,
+      90,
+      668,
+      125
+    ],
+    "template": "island_business/island_business_business_shop_teahouse.png"
+  },
+  "island_business_business_start_button_blue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "target": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "template": "island_business/island_business_business_start_button_blue.png"
+  },
+  "island_business_business_start_button_darkblue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "target": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "template": "island_business/island_business_business_start_button_darkblue.png"
+  },
+  "island_business_business_start_button_yellow": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "target": [
+      1020,
+      179,
+      1154,
+      206
+    ],
+    "template": "island_business/island_business_business_start_button_yellow.png"
+  },
+  "island_business_business_start_in_shop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      712,
+      611,
+      813,
+      644
+    ],
+    "target": [
+      712,
+      611,
+      813,
+      644
+    ],
+    "template": "island_business/island_business_business_start_in_shop.png"
+  },
+  "island_business_template_business_boost_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_boost_icon.png"
+  },
+  "island_business_template_business_list_shop_fish_restaurant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_list_shop_fish_restaurant.png"
+  },
+  "island_business_template_business_list_shop_grill": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_list_shop_grill.png"
+  },
+  "island_business_template_business_list_shop_juu_coffee": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_list_shop_juu_coffee.png"
+  },
+  "island_business_template_business_list_shop_juu_eatery": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_list_shop_juu_eatery.png"
+  },
+  "island_business_template_business_list_shop_teahouse": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_list_shop_teahouse.png"
+  },
+  "island_business_template_business_product_coffee_cheese": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_cheese.png"
+  },
+  "island_business_template_business_product_coffee_cheese_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_cheese_cropped.png"
+  },
+  "island_business_template_business_product_coffee_citrus_coffee": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_citrus_coffee.png"
+  },
+  "island_business_template_business_product_coffee_citrus_coffee_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_citrus_coffee_cropped.png"
+  },
+  "island_business_template_business_product_coffee_fruity_fruitier": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_fruity_fruitier.png"
+  },
+  "island_business_template_business_product_coffee_fruity_fruitier_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_fruity_fruitier_cropped.png"
+  },
+  "island_business_template_business_product_coffee_morning_light": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_morning_light.png"
+  },
+  "island_business_template_business_product_coffee_morning_light_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_morning_light_cropped.png"
+  },
+  "island_business_template_business_product_coffee_strawberry_milkshake": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_strawberry_milkshake.png"
+  },
+  "island_business_template_business_product_coffee_strawberry_milkshake_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_strawberry_milkshake_cropped.png"
+  },
+  "island_business_template_business_product_coffee_wake_up_call": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_wake_up_call.png"
+  },
+  "island_business_template_business_product_coffee_wake_up_call_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_coffee_wake_up_call_cropped.png"
+  },
+  "island_business_template_business_product_eatery_berry_orange": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_berry_orange.png"
+  },
+  "island_business_template_business_product_eatery_berry_orange_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_berry_orange_cropped.png"
+  },
+  "island_business_template_business_product_eatery_orchard_duo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_orchard_duo.png"
+  },
+  "island_business_template_business_product_eatery_orchard_duo_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_orchard_duo_cropped.png"
+  },
+  "island_business_template_business_product_eatery_seafood_rice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_seafood_rice.png"
+  },
+  "island_business_template_business_product_eatery_seafood_rice_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_seafood_rice_cropped.png"
+  },
+  "island_business_template_business_product_eatery_strawberry_charlotte": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_strawberry_charlotte.png"
+  },
+  "island_business_template_business_product_eatery_strawberry_charlotte_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_strawberry_charlotte_cropped.png"
+  },
+  "island_business_template_business_product_eatery_succulently_sweet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_succulently_sweet.png"
+  },
+  "island_business_template_business_product_eatery_succulently_sweet_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_eatery_succulently_sweet_cropped.png"
+  },
+  "island_business_template_business_product_grill_carnival": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_carnival.png"
+  },
+  "island_business_template_business_product_grill_carnival_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_carnival_cropped.png"
+  },
+  "island_business_template_business_product_grill_crayfish_stir_fry": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_crayfish_stir_fry.png"
+  },
+  "island_business_template_business_product_grill_crayfish_stir_fry_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_crayfish_stir_fry_cropped.png"
+  },
+  "island_business_template_business_product_grill_double_energy": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_double_energy.png"
+  },
+  "island_business_template_business_product_grill_double_energy_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_double_energy_cropped.png"
+  },
+  "island_business_template_business_product_grill_roasted_skewer": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_roasted_skewer.png"
+  },
+  "island_business_template_business_product_grill_roasted_skewer_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_roasted_skewer_cropped.png"
+  },
+  "island_business_template_business_product_grill_steak_bowl": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_steak_bowl.png"
+  },
+  "island_business_template_business_product_grill_steak_bowl_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_steak_bowl_cropped.png"
+  },
+  "island_business_template_business_product_grill_stir_fried_chicken": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_stir_fried_chicken.png"
+  },
+  "island_business_template_business_product_grill_stir_fried_chicken_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_grill_stir_fried_chicken_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_amaranth_rice_ball": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_amaranth_rice_ball.png"
+  },
+  "island_business_template_business_product_restaurant_amaranth_rice_ball_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_amaranth_rice_ball_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_double_bamboo_shoots": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_double_bamboo_shoots.png"
+  },
+  "island_business_template_business_product_restaurant_double_bamboo_shoots_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_double_bamboo_shoots_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_fo_tiao": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_fo_tiao.png"
+  },
+  "island_business_template_business_product_restaurant_fo_tiao_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_fo_tiao_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_hearty_meal": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_hearty_meal.png"
+  },
+  "island_business_template_business_product_restaurant_hearty_meal_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_hearty_meal_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_matsutake_chicken_soup": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_matsutake_chicken_soup.png"
+  },
+  "island_business_template_business_product_restaurant_matsutake_chicken_soup_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_matsutake_chicken_soup_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_persimmon_cake": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_persimmon_cake.png"
+  },
+  "island_business_template_business_product_restaurant_persimmon_cake_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_persimmon_cake_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_tofu_combo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_tofu_combo.png"
+  },
+  "island_business_template_business_product_restaurant_tofu_combo_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_tofu_combo_cropped.png"
+  },
+  "island_business_template_business_product_restaurant_tofu_meat": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_tofu_meat.png"
+  },
+  "island_business_template_business_product_restaurant_tofu_meat_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_restaurant_tofu_meat_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_carrot_pear_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_carrot_pear_juice.png"
+  },
+  "island_business_template_business_product_teahouse_carrot_pear_juice_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_carrot_pear_juice_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_chrysanthemum_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_chrysanthemum_tea.png"
+  },
+  "island_business_template_business_product_teahouse_chrysanthemum_tea_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_chrysanthemum_tea_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_floral_fruity": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_floral_fruity.png"
+  },
+  "island_business_template_business_product_teahouse_floral_fruity_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_floral_fruity_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_fruit_paradise": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_fruit_paradise.png"
+  },
+  "island_business_template_business_product_teahouse_fruit_paradise_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_fruit_paradise_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_lavender_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_lavender_tea.png"
+  },
+  "island_business_template_business_product_teahouse_lavender_tea_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_lavender_tea_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_spring_flower_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_spring_flower_tea.png"
+  },
+  "island_business_template_business_product_teahouse_spring_flower_tea_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_spring_flower_tea_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_strawberry_honey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_strawberry_honey.png"
+  },
+  "island_business_template_business_product_teahouse_strawberry_honey_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_strawberry_honey_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_strawberry_lemon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_strawberry_lemon.png"
+  },
+  "island_business_template_business_product_teahouse_strawberry_lemon_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_strawberry_lemon_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_sunny_honey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_sunny_honey.png"
+  },
+  "island_business_template_business_product_teahouse_sunny_honey_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_sunny_honey_cropped.png"
+  },
+  "island_business_template_business_product_teahouse_watermelon_juice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_watermelon_juice.png"
+  },
+  "island_business_template_business_product_teahouse_watermelon_juice_cropped": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_product_teahouse_watermelon_juice_cropped.png"
+  },
+  "island_business_template_business_shop_fish_restaurant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_shop_fish_restaurant.png"
+  },
+  "island_business_template_business_shop_grill": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_shop_grill.png"
+  },
+  "island_business_template_business_shop_juu_coffee": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_shop_juu_coffee.png"
+  },
+  "island_business_template_business_shop_juu_eatery": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_shop_juu_eatery.png"
+  },
+  "island_business_template_business_shop_teahouse": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_business/island_business_template_business_shop_teahouse.png"
+  }
+}

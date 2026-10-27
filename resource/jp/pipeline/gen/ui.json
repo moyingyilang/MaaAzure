@@ -1,0 +1,2332 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/ui/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "ui_academy_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      14,
+      174,
+      40
+    ],
+    "target": [
+      121,
+      14,
+      174,
+      40
+    ],
+    "template": "ui/ui_academy_check.png"
+  },
+  "ui_academy_goto_game_room": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1074,
+      340,
+      1103,
+      374
+    ],
+    "target": [
+      1074,
+      340,
+      1103,
+      374
+    ],
+    "template": "ui/ui_academy_goto_game_room.png"
+  },
+  "ui_academy_goto_munitions": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1057,
+      188,
+      1126,
+      210
+    ],
+    "target": [
+      1057,
+      188,
+      1126,
+      210
+    ],
+    "template": "ui/ui_academy_goto_munitions.png"
+  },
+  "ui_back_arrow": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      33,
+      44,
+      47,
+      64
+    ],
+    "target": [
+      33,
+      31,
+      81,
+      78
+    ],
+    "template": "ui/ui_back_arrow.png"
+  },
+  "ui_battle_pass_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      701,
+      674,
+      723,
+      699
+    ],
+    "target": [
+      701,
+      674,
+      723,
+      699
+    ],
+    "template": "ui/ui_battle_pass_check.png"
+  },
+  "ui_build_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      15,
+      175,
+      40
+    ],
+    "target": [
+      121,
+      15,
+      175,
+      40
+    ],
+    "template": "ui/ui_build_check.png"
+  },
+  "ui_campaign_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      172,
+      77,
+      192,
+      98
+    ],
+    "target": [
+      172,
+      77,
+      192,
+      98
+    ],
+    "template": "ui/ui_campaign_check.png"
+  },
+  "ui_campaign_goto_daily": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      791,
+      647,
+      893,
+      703
+    ],
+    "target": [
+      791,
+      647,
+      893,
+      703
+    ],
+    "template": "ui/ui_campaign_goto_daily.png"
+  },
+  "ui_campaign_goto_event": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      172,
+      77,
+      192,
+      98
+    ],
+    "target": [
+      1178,
+      168,
+      1228,
+      217
+    ],
+    "template": "ui/ui_campaign_goto_event.png"
+  },
+  "ui_campaign_goto_exercise": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1168,
+      647,
+      1249,
+      703
+    ],
+    "target": [
+      1168,
+      647,
+      1249,
+      703
+    ],
+    "template": "ui/ui_campaign_goto_exercise.png"
+  },
+  "ui_campaign_goto_war_archives": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      187,
+      651,
+      237,
+      690
+    ],
+    "target": [
+      187,
+      651,
+      237,
+      690
+    ],
+    "template": "ui/ui_campaign_goto_war_archives.png"
+  },
+  "ui_campaign_menu_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      383,
+      442,
+      508,
+      507
+    ],
+    "target": [
+      383,
+      442,
+      508,
+      507
+    ],
+    "template": "ui/ui_campaign_menu_check.png"
+  },
+  "ui_campaign_menu_goto_campaign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      174,
+      123,
+      507,
+      549
+    ],
+    "target": [
+      174,
+      123,
+      507,
+      549
+    ],
+    "template": "ui/ui_campaign_menu_goto_campaign.png"
+  },
+  "ui_campaign_menu_goto_daily": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      652,
+      587,
+      788,
+      638
+    ],
+    "target": [
+      652,
+      587,
+      788,
+      638
+    ],
+    "template": "ui/ui_campaign_menu_goto_daily.png"
+  },
+  "ui_campaign_menu_goto_event": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      383,
+      442,
+      508,
+      507
+    ],
+    "target": [
+      544,
+      120,
+      966,
+      325
+    ],
+    "template": "ui/ui_campaign_menu_goto_event.png"
+  },
+  "ui_campaign_menu_goto_exercise": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      970,
+      586,
+      1106,
+      638
+    ],
+    "target": [
+      970,
+      586,
+      1106,
+      638
+    ],
+    "template": "ui/ui_campaign_menu_goto_exercise.png"
+  },
+  "ui_campaign_menu_goto_os": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      383,
+      442,
+      508,
+      507
+    ],
+    "target": [
+      543,
+      345,
+      967,
+      552
+    ],
+    "template": "ui/ui_campaign_menu_goto_os.png"
+  },
+  "ui_campaign_menu_goto_war_archives": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      196,
+      591,
+      307,
+      632
+    ],
+    "target": [
+      196,
+      591,
+      307,
+      632
+    ],
+    "template": "ui/ui_campaign_menu_goto_war_archives.png"
+  },
+  "ui_campaign_menu_no_event": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      575,
+      209,
+      940,
+      235
+    ],
+    "target": [
+      575,
+      209,
+      940,
+      235
+    ],
+    "template": "ui/ui_campaign_menu_no_event.png"
+  },
+  "ui_channel_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      785,
+      661,
+      824,
+      699
+    ],
+    "target": [
+      785,
+      661,
+      824,
+      699
+    ],
+    "template": "ui/ui_channel_check.png"
+  },
+  "ui_commission_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      14,
+      176,
+      39
+    ],
+    "target": [
+      121,
+      14,
+      176,
+      39
+    ],
+    "template": "ui/ui_commission_check.png"
+  },
+  "ui_daily_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      23,
+      656,
+      67,
+      698
+    ],
+    "target": [
+      23,
+      656,
+      67,
+      698
+    ],
+    "template": "ui/ui_daily_check.png"
+  },
+  "ui_dorm_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      949,
+      600,
+      1005,
+      654
+    ],
+    "target": [
+      949,
+      600,
+      1005,
+      654
+    ],
+    "template": "ui/ui_dorm_check.png"
+  },
+  "ui_dorm_feed_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      466,
+      510,
+      519,
+      536
+    ],
+    "target": [
+      466,
+      510,
+      519,
+      536
+    ],
+    "template": "ui/ui_dorm_feed_cancel.png"
+  },
+  "ui_dorm_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      40,
+      30,
+      62,
+      60
+    ],
+    "target": [
+      40,
+      30,
+      62,
+      60
+    ],
+    "template": "ui/ui_dorm_goto_main.png"
+  },
+  "ui_dorm_info": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1073,
+      615,
+      1140,
+      644
+    ],
+    "target": [
+      1073,
+      615,
+      1140,
+      644
+    ],
+    "template": "ui/ui_dorm_info.png"
+  },
+  "ui_dorm_trophy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      588,
+      472,
+      689,
+      509
+    ],
+    "target": [
+      588,
+      472,
+      689,
+      509
+    ],
+    "template": "ui/ui_dorm_trophy_confirm.png"
+  },
+  "ui_dormmenu_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      487,
+      334,
+      587
+    ],
+    "target": [
+      261,
+      487,
+      334,
+      587
+    ],
+    "template": "ui/ui_dormmenu_check.png"
+  },
+  "ui_dormmenu_goto_academy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      487,
+      334,
+      587
+    ],
+    "target": [
+      261,
+      487,
+      334,
+      587
+    ],
+    "template": "ui/ui_dormmenu_goto_academy.png"
+  },
+  "ui_dormmenu_goto_dorm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      408,
+      494,
+      541,
+      587
+    ],
+    "target": [
+      408,
+      494,
+      541,
+      587
+    ],
+    "template": "ui/ui_dormmenu_goto_dorm.png"
+  },
+  "ui_dormmenu_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      763,
+      391,
+      959,
+      526
+    ],
+    "target": [
+      763,
+      391,
+      959,
+      526
+    ],
+    "template": "ui/ui_dormmenu_goto_island.png"
+  },
+  "ui_dormmenu_goto_island_message": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      165,
+      941,
+      558
+    ],
+    "target": [
+      855,
+      163,
+      937,
+      228
+    ],
+    "template": "ui/ui_dormmenu_goto_island_message.png"
+  },
+  "ui_dormmenu_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      487,
+      334,
+      587
+    ],
+    "target": [
+      150,
+      153,
+      437,
+      279
+    ],
+    "template": "ui/ui_dormmenu_goto_main.png"
+  },
+  "ui_dormmenu_goto_meowfficer": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      634,
+      512,
+      749,
+      569
+    ],
+    "target": [
+      634,
+      512,
+      749,
+      569
+    ],
+    "template": "ui/ui_dormmenu_goto_meowfficer.png"
+  },
+  "ui_dormmenu_goto_private_quarters": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      998,
+      581,
+      1148,
+      601
+    ],
+    "target": [
+      1010,
+      336,
+      1140,
+      596
+    ],
+    "template": "ui/ui_dormmenu_goto_private_quarters.png"
+  },
+  "ui_event_20260417_entrance_temp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1127,
+      365,
+      1249,
+      409
+    ],
+    "target": [
+      1127,
+      365,
+      1249,
+      409
+    ],
+    "template": "ui/ui_event_20260417_entrance_temp.png"
+  },
+  "ui_event_20260430_entrance_temp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1021,
+      365,
+      1101,
+      405
+    ],
+    "target": [
+      1021,
+      365,
+      1101,
+      405
+    ],
+    "template": "ui/ui_event_20260430_entrance_temp.png"
+  },
+  "ui_event_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      63,
+      206,
+      109
+    ],
+    "target": [
+      123,
+      63,
+      206,
+      109
+    ],
+    "template": "ui/ui_event_check.png"
+  },
+  "ui_event_list_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      14,
+      233,
+      39
+    ],
+    "target": [
+      122,
+      14,
+      233,
+      39
+    ],
+    "template": "ui/ui_event_list_check.png"
+  },
+  "ui_exercise_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1063,
+      339,
+      1205,
+      382
+    ],
+    "target": [
+      1063,
+      339,
+      1205,
+      382
+    ],
+    "template": "ui/ui_exercise_check.png"
+  },
+  "ui_fleet_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1044,
+      642,
+      1243,
+      702
+    ],
+    "target": [
+      1044,
+      642,
+      1243,
+      702
+    ],
+    "template": "ui/ui_fleet_check.png"
+  },
+  "ui_game_room_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      983,
+      17,
+      1022,
+      53
+    ],
+    "target": [
+      983,
+      17,
+      1022,
+      53
+    ],
+    "template": "ui/ui_game_room_check.png"
+  },
+  "ui_game_room_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1210,
+      16,
+      1247,
+      51
+    ],
+    "target": [
+      1210,
+      16,
+      1247,
+      51
+    ],
+    "template": "ui/ui_game_room_goto_main.png"
+  },
+  "ui_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1216,
+      25,
+      1241,
+      45
+    ],
+    "target": [
+      1228,
+      18,
+      1255,
+      49
+    ],
+    "template": "ui/ui_goto_main.png"
+  },
+  "ui_guild_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      120,
+      14,
+      201,
+      41
+    ],
+    "target": [
+      120,
+      14,
+      201,
+      41
+    ],
+    "template": "ui/ui_guild_check.png"
+  },
+  "ui_idle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "target": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "template": "ui/ui_idle.png"
+  },
+  "ui_idle_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "target": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "template": "ui/ui_idle_2.png"
+  },
+  "ui_idle_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "target": [
+      864,
+      672,
+      873,
+      688
+    ],
+    "template": "ui/ui_idle_3.png"
+  },
+  "ui_island_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      28,
+      785,
+      62
+    ],
+    "target": [
+      750,
+      28,
+      785,
+      62
+    ],
+    "template": "ui/ui_island_check.png"
+  },
+  "ui_island_goto_island_phone": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1215,
+      26,
+      1245,
+      60
+    ],
+    "target": [
+      1215,
+      26,
+      1245,
+      60
+    ],
+    "template": "ui/ui_island_goto_island_phone.png"
+  },
+  "ui_island_goto_management": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1212,
+      24,
+      1247,
+      61
+    ],
+    "target": [
+      1212,
+      24,
+      1247,
+      61
+    ],
+    "template": "ui/ui_island_goto_management.png"
+  },
+  "ui_island_goto_map": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      837,
+      22,
+      882,
+      64
+    ],
+    "target": [
+      837,
+      22,
+      882,
+      64
+    ],
+    "template": "ui/ui_island_goto_map.png"
+  },
+  "ui_island_manage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      19,
+      219,
+      45
+    ],
+    "target": [
+      123,
+      19,
+      219,
+      45
+    ],
+    "template": "ui/ui_island_manage_check.png"
+  },
+  "ui_island_management_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1031,
+      636,
+      1081,
+      684
+    ],
+    "target": [
+      1031,
+      636,
+      1081,
+      684
+    ],
+    "template": "ui/ui_island_management_check.png"
+  },
+  "ui_island_management_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1090,
+      42,
+      1237,
+      170
+    ],
+    "target": [
+      8,
+      6,
+      846,
+      714
+    ],
+    "template": "ui/ui_island_management_goto_island.png"
+  },
+  "ui_island_management_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1031,
+      638,
+      1081,
+      684
+    ],
+    "target": [
+      1031,
+      638,
+      1081,
+      684
+    ],
+    "template": "ui/ui_island_management_goto_main.png"
+  },
+  "ui_island_management_goto_postmanage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1066,
+      489,
+      1130,
+      539
+    ],
+    "target": [
+      1066,
+      489,
+      1130,
+      539
+    ],
+    "template": "ui/ui_island_management_goto_postmanage.png"
+  },
+  "ui_island_management_goto_visit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      887,
+      646,
+      921,
+      675
+    ],
+    "target": [
+      887,
+      646,
+      921,
+      675
+    ],
+    "template": "ui/ui_island_management_goto_visit.png"
+  },
+  "ui_island_management_goto_warehouse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      898,
+      483,
+      956,
+      542
+    ],
+    "target": [
+      898,
+      483,
+      956,
+      542
+    ],
+    "template": "ui/ui_island_management_goto_warehouse.png"
+  },
+  "ui_island_map_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      19,
+      217,
+      47
+    ],
+    "target": [
+      122,
+      19,
+      217,
+      47
+    ],
+    "template": "ui/ui_island_map_check.png"
+  },
+  "ui_island_map_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      4,
+      23,
+      102,
+      67
+    ],
+    "target": [
+      4,
+      23,
+      102,
+      67
+    ],
+    "template": "ui/ui_island_map_goto_island.png"
+  },
+  "ui_island_mill_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      139,
+      15,
+      224,
+      50
+    ],
+    "target": [
+      139,
+      15,
+      224,
+      50
+    ],
+    "template": "ui/ui_island_mill_check.png"
+  },
+  "ui_island_mill_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      10,
+      23,
+      96,
+      68
+    ],
+    "target": [
+      10,
+      23,
+      96,
+      68
+    ],
+    "template": "ui/ui_island_mill_goto_island.png"
+  },
+  "ui_island_order_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      19,
+      220,
+      46
+    ],
+    "target": [
+      125,
+      19,
+      220,
+      46
+    ],
+    "template": "ui/ui_island_order_check.png"
+  },
+  "ui_island_phone_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "target": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "template": "ui/ui_island_phone_check.png"
+  },
+  "ui_island_phone_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "target": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "template": "ui/ui_island_phone_goto_island.png"
+  },
+  "ui_island_phone_goto_island_manage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1072,
+      485,
+      1125,
+      538
+    ],
+    "target": [
+      1072,
+      485,
+      1125,
+      538
+    ],
+    "template": "ui/ui_island_phone_goto_island_manage.png"
+  },
+  "ui_island_phone_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "target": [
+      1037,
+      644,
+      1077,
+      680
+    ],
+    "template": "ui/ui_island_phone_goto_main.png"
+  },
+  "ui_island_postmanage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      20,
+      219,
+      45
+    ],
+    "target": [
+      122,
+      20,
+      219,
+      45
+    ],
+    "template": "ui/ui_island_postmanage_check.png"
+  },
+  "ui_island_postmanage_goto_management": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      0,
+      16,
+      108,
+      71
+    ],
+    "target": [
+      0,
+      16,
+      108,
+      71
+    ],
+    "template": "ui/ui_island_postmanage_goto_management.png"
+  },
+  "ui_island_season_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      21,
+      218,
+      46
+    ],
+    "target": [
+      125,
+      21,
+      218,
+      46
+    ],
+    "template": "ui/ui_island_season_check.png"
+  },
+  "ui_island_season_goto_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      34,
+      30,
+      68,
+      64
+    ],
+    "target": [
+      34,
+      30,
+      68,
+      64
+    ],
+    "template": "ui/ui_island_season_goto_island.png"
+  },
+  "ui_island_shop_seed_tab_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      21,
+      216,
+      46
+    ],
+    "target": [
+      125,
+      21,
+      216,
+      46
+    ],
+    "template": "ui/ui_island_shop_seed_tab_check.png"
+  },
+  "ui_island_shopping_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      271,
+      109,
+      357,
+      160
+    ],
+    "target": [
+      271,
+      109,
+      357,
+      160
+    ],
+    "template": "ui/ui_island_shopping_check.png"
+  },
+  "ui_island_storage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      159,
+      99,
+      195,
+      117
+    ],
+    "target": [
+      159,
+      99,
+      195,
+      117
+    ],
+    "template": "ui/ui_island_storage_check.png"
+  },
+  "ui_island_technology_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      19,
+      218,
+      46
+    ],
+    "target": [
+      123,
+      19,
+      218,
+      46
+    ],
+    "template": "ui/ui_island_technology_check.png"
+  },
+  "ui_island_visit_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      148,
+      14,
+      267,
+      51
+    ],
+    "target": [
+      148,
+      14,
+      267,
+      51
+    ],
+    "template": "ui/ui_island_visit_check.png"
+  },
+  "ui_island_visit_goto_management": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      2,
+      26,
+      107,
+      64
+    ],
+    "target": [
+      2,
+      26,
+      107,
+      64
+    ],
+    "template": "ui/ui_island_visit_goto_management.png"
+  },
+  "ui_island_warehouse_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      295,
+      593,
+      355,
+      649
+    ],
+    "target": [
+      295,
+      593,
+      355,
+      649
+    ],
+    "template": "ui/ui_island_warehouse_check.png"
+  },
+  "ui_island_warehouse_filter_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      249,
+      59,
+      283,
+      96
+    ],
+    "target": [
+      249,
+      59,
+      283,
+      96
+    ],
+    "template": "ui/ui_island_warehouse_filter_check.png"
+  },
+  "ui_island_warehouse_filter_goto_warehouse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      999,
+      65,
+      1027,
+      92
+    ],
+    "target": [
+      999,
+      65,
+      1027,
+      92
+    ],
+    "template": "ui/ui_island_warehouse_filter_goto_warehouse.png"
+  },
+  "ui_island_warehouse_goto_management": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1131,
+      91,
+      1157,
+      118
+    ],
+    "target": [
+      1131,
+      91,
+      1157,
+      118
+    ],
+    "template": "ui/ui_island_warehouse_goto_management.png"
+  },
+  "ui_island_warehouse_goto_warehouse_filter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      295,
+      593,
+      355,
+      649
+    ],
+    "target": [
+      295,
+      593,
+      355,
+      649
+    ],
+    "template": "ui/ui_island_warehouse_goto_warehouse_filter.png"
+  },
+  "ui_main_goto_build": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1035,
+      674,
+      1088,
+      702
+    ],
+    "target": [
+      1035,
+      674,
+      1088,
+      702
+    ],
+    "template": "ui/ui_main_goto_build.png"
+  },
+  "ui_main_goto_campaign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1019,
+      305,
+      1096,
+      343
+    ],
+    "target": [
+      1006,
+      288,
+      1155,
+      436
+    ],
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "ui_main_goto_dock": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      172,
+      668,
+      326,
+      715
+    ],
+    "target": [
+      172,
+      668,
+      326,
+      715
+    ],
+    "template": "ui/ui_main_goto_dock.png"
+  },
+  "ui_main_goto_dormmenu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1006,
+      288,
+      1155,
+      436
+    ],
+    "target": [
+      491,
+      670,
+      635,
+      710
+    ],
+    "template": "ui/ui_main_goto_dormmenu.png"
+  },
+  "ui_main_goto_event_list": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      141,
+      657,
+      191
+    ],
+    "target": [
+      607,
+      141,
+      657,
+      191
+    ],
+    "template": "ui/ui_main_goto_event_list.png"
+  },
+  "ui_main_goto_fleet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      360,
+      985,
+      435
+    ],
+    "target": [
+      736,
+      360,
+      985,
+      435
+    ],
+    "template": "ui/ui_main_goto_fleet.png"
+  },
+  "ui_main_goto_guild": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1127,
+      671,
+      1253,
+      709
+    ],
+    "target": [
+      1127,
+      671,
+      1253,
+      709
+    ],
+    "template": "ui/ui_main_goto_guild.png"
+  },
+  "ui_main_goto_mission": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      805,
+      665,
+      955,
+      710
+    ],
+    "target": [
+      805,
+      665,
+      955,
+      710
+    ],
+    "template": "ui/ui_main_goto_mission.png"
+  },
+  "ui_main_goto_raid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1006,
+      288,
+      1155,
+      436
+    ],
+    "target": [
+      606,
+      264,
+      653,
+      305
+    ],
+    "template": "ui/ui_main_goto_raid.png"
+  },
+  "ui_main_goto_reshmenu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1006,
+      288,
+      1155,
+      436
+    ],
+    "target": [
+      647,
+      670,
+      774,
+      710
+    ],
+    "template": "ui/ui_main_goto_reshmenu.png"
+  },
+  "ui_main_goto_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "target": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "ui_main_goto_shop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      74,
+      677,
+      158,
+      701
+    ],
+    "target": [
+      74,
+      677,
+      158,
+      701
+    ],
+    "template": "ui/ui_main_goto_shop.png"
+  },
+  "ui_main_goto_storage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      673,
+      473,
+      710
+    ],
+    "target": [
+      340,
+      673,
+      473,
+      710
+    ],
+    "template": "ui/ui_main_goto_storage.png"
+  },
+  "ui_meowfficer_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      132,
+      12,
+      245,
+      44
+    ],
+    "target": [
+      132,
+      12,
+      245,
+      44
+    ],
+    "template": "ui/ui_meowfficer_check.png"
+  },
+  "ui_meowfficer_goto_dormmenu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      15,
+      4,
+      61,
+      49
+    ],
+    "target": [
+      15,
+      4,
+      61,
+      49
+    ],
+    "template": "ui/ui_meowfficer_goto_dormmenu.png"
+  },
+  "ui_meowfficer_info": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1089,
+      608,
+      1240,
+      647
+    ],
+    "target": [
+      1089,
+      608,
+      1240,
+      647
+    ],
+    "template": "ui/ui_meowfficer_info.png"
+  },
+  "ui_meta_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      11,
+      235,
+      39
+    ],
+    "target": [
+      125,
+      11,
+      235,
+      39
+    ],
+    "template": "ui/ui_meta_check.png"
+  },
+  "ui_mission_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      120,
+      14,
+      173,
+      40
+    ],
+    "target": [
+      120,
+      14,
+      173,
+      40
+    ],
+    "template": "ui/ui_mission_check.png"
+  },
+  "ui_munitions_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      59,
+      371,
+      126,
+      397
+    ],
+    "target": [
+      59,
+      371,
+      126,
+      397
+    ],
+    "template": "ui/ui_munitions_check.png"
+  },
+  "ui_os_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      17,
+      627,
+      34
+    ],
+    "target": [
+      613,
+      17,
+      627,
+      34
+    ],
+    "template": "ui/ui_os_check.png"
+  },
+  "ui_player_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      26,
+      668,
+      139,
+      689
+    ],
+    "target": [
+      26,
+      668,
+      139,
+      689
+    ],
+    "template": "ui/ui_player_check.png"
+  },
+  "ui_pq_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1107,
+      19,
+      1143,
+      51
+    ],
+    "target": [
+      1107,
+      19,
+      1143,
+      51
+    ],
+    "template": "ui/ui_pq_goto_main.png"
+  },
+  "ui_private_quarters_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      128,
+      21,
+      216,
+      45
+    ],
+    "target": [
+      128,
+      21,
+      216,
+      45
+    ],
+    "template": "ui/ui_private_quarters_check.png"
+  },
+  "ui_raid_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      107,
+      13,
+      217,
+      40
+    ],
+    "target": [
+      107,
+      13,
+      217,
+      40
+    ],
+    "template": "ui/ui_raid_check.png"
+  },
+  "ui_raid_check_20260827": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      129,
+      23,
+      210,
+      45
+    ],
+    "target": [
+      129,
+      23,
+      210,
+      45
+    ],
+    "template": "ui/ui_raid_check_20260827.png"
+  },
+  "ui_research_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      117,
+      14,
+      171,
+      40
+    ],
+    "target": [
+      117,
+      14,
+      171,
+      40
+    ],
+    "template": "ui/ui_research_check.png"
+  },
+  "ui_reshmenu_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      116,
+      13,
+      174,
+      42
+    ],
+    "target": [
+      116,
+      13,
+      174,
+      42
+    ],
+    "template": "ui/ui_reshmenu_check.png"
+  },
+  "ui_reshmenu_goto_meta": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1076,
+      254,
+      1155,
+      334
+    ],
+    "target": [
+      1076,
+      254,
+      1155,
+      334
+    ],
+    "template": "ui/ui_reshmenu_goto_meta.png"
+  },
+  "ui_reshmenu_goto_research": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      308,
+      268,
+      466,
+      422
+    ],
+    "target": [
+      308,
+      268,
+      466,
+      422
+    ],
+    "template": "ui/ui_reshmenu_goto_research.png"
+  },
+  "ui_reshmenu_goto_shipyard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      567,
+      275,
+      731,
+      397
+    ],
+    "target": [
+      567,
+      275,
+      731,
+      397
+    ],
+    "template": "ui/ui_reshmenu_goto_shipyard.png"
+  },
+  "ui_reward_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      107,
+      267,
+      158
+    ],
+    "target": [
+      219,
+      107,
+      267,
+      158
+    ],
+    "template": "ui/ui_reward_check.png"
+  },
+  "ui_reward_goto_battle_pass": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      580,
+      117,
+      620,
+      155
+    ],
+    "target": [
+      580,
+      117,
+      620,
+      155
+    ],
+    "template": "ui/ui_reward_goto_battle_pass.png"
+  },
+  "ui_reward_goto_commission": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      431,
+      274,
+      476,
+      295
+    ],
+    "target": [
+      393,
+      262,
+      514,
+      303
+    ],
+    "template": "ui/ui_reward_goto_commission.png"
+  },
+  "ui_reward_goto_main": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      107,
+      267,
+      158
+    ],
+    "target": [
+      787,
+      602,
+      867,
+      642
+    ],
+    "template": "ui/ui_reward_goto_main.png"
+  },
+  "ui_reward_goto_tactical": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      431,
+      416,
+      476,
+      437
+    ],
+    "target": [
+      393,
+      404,
+      514,
+      445
+    ],
+    "template": "ui/ui_reward_goto_tactical.png"
+  },
+  "ui_shipyard_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      8,
+      130,
+      82,
+      148
+    ],
+    "target": [
+      8,
+      130,
+      82,
+      148
+    ],
+    "template": "ui/ui_shipyard_check.png"
+  },
+  "ui_shop_back_arrow": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      43,
+      35,
+      57,
+      56
+    ],
+    "target": [
+      43,
+      35,
+      57,
+      56
+    ],
+    "template": "ui/ui_shop_back_arrow.png"
+  },
+  "ui_shop_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      127,
+      22,
+      217,
+      42
+    ],
+    "target": [
+      127,
+      22,
+      217,
+      42
+    ],
+    "template": "ui/ui_shop_check.png"
+  },
+  "ui_shop_goto_munitions": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      963,
+      539,
+      1241,
+      635
+    ],
+    "target": [
+      963,
+      539,
+      1241,
+      635
+    ],
+    "template": "ui/ui_shop_goto_munitions.png"
+  },
+  "ui_shop_goto_supply_pack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1044,
+      321,
+      1094,
+      366
+    ],
+    "target": [
+      902,
+      105,
+      1211,
+      490
+    ],
+    "template": "ui/ui_shop_goto_supply_pack.png"
+  },
+  "ui_sp_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      66,
+      205,
+      107
+    ],
+    "target": [
+      125,
+      66,
+      205,
+      107
+    ],
+    "template": "ui/ui_sp_check.png"
+  },
+  "ui_storage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      13,
+      176,
+      41
+    ],
+    "target": [
+      121,
+      13,
+      176,
+      41
+    ],
+    "template": "ui/ui_storage_check.png"
+  },
+  "ui_supply_pack_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      61,
+      237,
+      102,
+      265
+    ],
+    "target": [
+      61,
+      237,
+      102,
+      265
+    ],
+    "template": "ui/ui_supply_pack_check.png"
+  },
+  "ui_tactical_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      12,
+      232,
+      37
+    ],
+    "target": [
+      122,
+      12,
+      232,
+      37
+    ],
+    "template": "ui/ui_tactical_check.png"
+  },
+  "ui_war_archives_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      95,
+      41,
+      114,
+      70
+    ],
+    "target": [
+      95,
+      41,
+      114,
+      70
+    ],
+    "template": "ui/ui_war_archives_check.png"
+  },
+  "ui_war_archives_goto_campaign_menu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      95,
+      41,
+      114,
+      70
+    ],
+    "target": [
+      14,
+      312,
+      69,
+      467
+    ],
+    "template": "ui/ui_war_archives_goto_campaign_menu.png"
+  }
+}

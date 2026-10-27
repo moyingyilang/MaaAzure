@@ -1,0 +1,1006 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/island_restaurant/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_restaurant_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      163,
+      826,
+      194
+    ],
+    "target": [
+      799,
+      221,
+      871,
+      290
+    ],
+    "template": "island_restaurant/island_restaurant_post1.png"
+  },
+  "island_restaurant_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      163,
+      826,
+      194
+    ],
+    "target": [
+      892,
+      218,
+      966,
+      290
+    ],
+    "template": "island_restaurant/island_restaurant_post2.png"
+  },
+  "island_restaurant_post_amaranth_rice_ball": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_amaranth_rice_ball.png"
+  },
+  "island_restaurant_post_asparagus_shrimp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      605,
+      310,
+      675,
+      360
+    ],
+    "target": [
+      605,
+      310,
+      675,
+      360
+    ],
+    "template": "island_restaurant/island_restaurant_post_asparagus_shrimp.png"
+  },
+  "island_restaurant_post_cabbage_tofu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      315,
+      674,
+      362
+    ],
+    "target": [
+      608,
+      315,
+      674,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_cabbage_tofu.png"
+  },
+  "island_restaurant_post_double_bamboo_shoots": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      324,
+      672,
+      359
+    ],
+    "target": [
+      610,
+      324,
+      672,
+      359
+    ],
+    "template": "island_restaurant/island_restaurant_post_double_bamboo_shoots.png"
+  },
+  "island_restaurant_post_fish_chip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      310,
+      676,
+      363
+    ],
+    "target": [
+      606,
+      310,
+      676,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_fish_chip.png"
+  },
+  "island_restaurant_post_fo_tiao": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      308,
+      677,
+      362
+    ],
+    "target": [
+      604,
+      308,
+      677,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_fo_tiao.png"
+  },
+  "island_restaurant_post_hearty_meal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_hearty_meal.png"
+  },
+  "island_restaurant_post_matsutake_chicken_soup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      315,
+      675,
+      362
+    ],
+    "target": [
+      607,
+      315,
+      675,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_matsutake_chicken_soup.png"
+  },
+  "island_restaurant_post_omurice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      314,
+      675,
+      362
+    ],
+    "target": [
+      606,
+      314,
+      675,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_omurice.png"
+  },
+  "island_restaurant_post_onion_fish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      311,
+      678,
+      363
+    ],
+    "target": [
+      604,
+      311,
+      678,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_onion_fish.png"
+  },
+  "island_restaurant_post_persimmon_cake": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      315,
+      675,
+      362
+    ],
+    "target": [
+      607,
+      315,
+      675,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_persimmon_cake.png"
+  },
+  "island_restaurant_post_salad": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      318,
+      675,
+      362
+    ],
+    "target": [
+      606,
+      318,
+      675,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_salad.png"
+  },
+  "island_restaurant_post_tofu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      314,
+      675,
+      363
+    ],
+    "target": [
+      610,
+      314,
+      675,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_tofu.png"
+  },
+  "island_restaurant_post_tofu_combo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      311,
+      670,
+      362
+    ],
+    "target": [
+      607,
+      311,
+      670,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_tofu_combo.png"
+  },
+  "island_restaurant_post_tofu_meat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      323,
+      674,
+      362
+    ],
+    "target": [
+      607,
+      323,
+      674,
+      362
+    ],
+    "template": "island_restaurant/island_restaurant_post_tofu_meat.png"
+  },
+  "island_restaurant_post_tomato_egg": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_restaurant/island_restaurant_post_tomato_egg.png"
+  },
+  "island_restaurant_select_amaranth_rice_ball": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "target": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "template": "island_restaurant/island_restaurant_select_amaranth_rice_ball.png"
+  },
+  "island_restaurant_select_amaranth_rice_ball_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_restaurant/island_restaurant_select_amaranth_rice_ball_check.png"
+  },
+  "island_restaurant_select_asparagus_shrimp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      298,
+      286,
+      352
+    ],
+    "target": [
+      214,
+      298,
+      286,
+      352
+    ],
+    "template": "island_restaurant/island_restaurant_select_asparagus_shrimp.png"
+  },
+  "island_restaurant_select_asparagus_shrimp_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      741,
+      240,
+      845,
+      312
+    ],
+    "target": [
+      741,
+      240,
+      845,
+      312
+    ],
+    "template": "island_restaurant/island_restaurant_select_asparagus_shrimp_check.png"
+  },
+  "island_restaurant_select_cabbage_tofu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      213,
+      478,
+      284,
+      534
+    ],
+    "target": [
+      213,
+      478,
+      284,
+      534
+    ],
+    "template": "island_restaurant/island_restaurant_select_cabbage_tofu.png"
+  },
+  "island_restaurant_select_cabbage_tofu_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      241,
+      841,
+      322
+    ],
+    "target": [
+      742,
+      241,
+      841,
+      322
+    ],
+    "template": "island_restaurant/island_restaurant_select_cabbage_tofu_check.png"
+  },
+  "island_restaurant_select_double_bamboo_shoots": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      216,
+      163,
+      283,
+      197
+    ],
+    "target": [
+      216,
+      163,
+      283,
+      197
+    ],
+    "template": "island_restaurant/island_restaurant_select_double_bamboo_shoots.png"
+  },
+  "island_restaurant_select_double_bamboo_shoots_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      254,
+      838,
+      307
+    ],
+    "target": [
+      746,
+      254,
+      838,
+      307
+    ],
+    "template": "island_restaurant/island_restaurant_select_double_bamboo_shoots_check.png"
+  },
+  "island_restaurant_select_fish_chip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      110,
+      289,
+      169
+    ],
+    "target": [
+      212,
+      110,
+      289,
+      169
+    ],
+    "template": "island_restaurant/island_restaurant_select_fish_chip.png"
+  },
+  "island_restaurant_select_fish_chip_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      741,
+      237,
+      842,
+      319
+    ],
+    "target": [
+      741,
+      237,
+      842,
+      319
+    ],
+    "template": "island_restaurant/island_restaurant_select_fish_chip_check.png"
+  },
+  "island_restaurant_select_fo_tiao": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      211,
+      252,
+      287,
+      316
+    ],
+    "target": [
+      211,
+      252,
+      287,
+      316
+    ],
+    "template": "island_restaurant/island_restaurant_select_fo_tiao.png"
+  },
+  "island_restaurant_select_fo_tiao_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      235,
+      847,
+      322
+    ],
+    "target": [
+      738,
+      235,
+      847,
+      322
+    ],
+    "template": "island_restaurant/island_restaurant_select_fo_tiao_check.png"
+  },
+  "island_restaurant_select_hearty_meal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      553,
+      281,
+      615
+    ],
+    "target": [
+      212,
+      553,
+      281,
+      615
+    ],
+    "template": "island_restaurant/island_restaurant_select_hearty_meal.png"
+  },
+  "island_restaurant_select_hearty_meal_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      235,
+      839,
+      326
+    ],
+    "target": [
+      742,
+      235,
+      839,
+      326
+    ],
+    "template": "island_restaurant/island_restaurant_select_hearty_meal_check.png"
+  },
+  "island_restaurant_select_matsutake_chicken_soup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "target": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "template": "island_restaurant/island_restaurant_select_matsutake_chicken_soup.png"
+  },
+  "island_restaurant_select_matsutake_chicken_soup_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      240,
+      841,
+      320
+    ],
+    "target": [
+      742,
+      240,
+      841,
+      320
+    ],
+    "template": "island_restaurant/island_restaurant_select_matsutake_chicken_soup_check.png"
+  },
+  "island_restaurant_select_omurice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      477,
+      286,
+      530
+    ],
+    "target": [
+      212,
+      477,
+      286,
+      530
+    ],
+    "template": "island_restaurant/island_restaurant_select_omurice.png"
+  },
+  "island_restaurant_select_omurice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      741,
+      241,
+      841,
+      316
+    ],
+    "target": [
+      741,
+      241,
+      841,
+      316
+    ],
+    "template": "island_restaurant/island_restaurant_select_omurice_check.png"
+  },
+  "island_restaurant_select_onion_fish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      209,
+      107,
+      290,
+      164
+    ],
+    "target": [
+      209,
+      107,
+      290,
+      164
+    ],
+    "template": "island_restaurant/island_restaurant_select_onion_fish.png"
+  },
+  "island_restaurant_select_onion_fish_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      240,
+      845,
+      319
+    ],
+    "target": [
+      738,
+      240,
+      845,
+      319
+    ],
+    "template": "island_restaurant/island_restaurant_select_onion_fish_check.png"
+  },
+  "island_restaurant_select_persimmon_cake": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "target": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "template": "island_restaurant/island_restaurant_select_persimmon_cake.png"
+  },
+  "island_restaurant_select_persimmon_cake_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      240,
+      841,
+      320
+    ],
+    "target": [
+      742,
+      240,
+      841,
+      320
+    ],
+    "template": "island_restaurant/island_restaurant_select_persimmon_cake_check.png"
+  },
+  "island_restaurant_select_salad": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      460,
+      286,
+      513
+    ],
+    "target": [
+      212,
+      460,
+      286,
+      513
+    ],
+    "template": "island_restaurant/island_restaurant_select_salad.png"
+  },
+  "island_restaurant_select_salad_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      245,
+      843,
+      316
+    ],
+    "target": [
+      742,
+      245,
+      843,
+      316
+    ],
+    "template": "island_restaurant/island_restaurant_select_salad_check.png"
+  },
+  "island_restaurant_select_tofu": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      450,
+      284,
+      506
+    ],
+    "target": [
+      217,
+      450,
+      284,
+      506
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu.png"
+  },
+  "island_restaurant_select_tofu_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      747,
+      238,
+      841,
+      320
+    ],
+    "target": [
+      747,
+      238,
+      841,
+      320
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu_check.png"
+  },
+  "island_restaurant_select_tofu_combo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      405,
+      280,
+      466
+    ],
+    "target": [
+      214,
+      405,
+      280,
+      466
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu_combo.png"
+  },
+  "island_restaurant_select_tofu_combo_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      238,
+      841,
+      326
+    ],
+    "target": [
+      743,
+      238,
+      841,
+      326
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu_combo_check.png"
+  },
+  "island_restaurant_select_tofu_meat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      611,
+      283,
+      649
+    ],
+    "target": [
+      214,
+      611,
+      283,
+      649
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu_meat.png"
+  },
+  "island_restaurant_select_tofu_meat_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      254,
+      839,
+      318
+    ],
+    "target": [
+      742,
+      254,
+      839,
+      318
+    ],
+    "template": "island_restaurant/island_restaurant_select_tofu_meat_check.png"
+  },
+  "island_restaurant_select_tomato_egg": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "target": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "template": "island_restaurant/island_restaurant_select_tomato_egg.png"
+  },
+  "island_restaurant_select_tomato_egg_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_restaurant/island_restaurant_select_tomato_egg_check.png"
+  },
+  "island_restaurant_template_amaranth_rice_ball": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_amaranth_rice_ball.png"
+  },
+  "island_restaurant_template_asparagus_shrimp": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_asparagus_shrimp.png"
+  },
+  "island_restaurant_template_cabbage_tofu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_cabbage_tofu.png"
+  },
+  "island_restaurant_template_double_bamboo_shoots": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_double_bamboo_shoots.png"
+  },
+  "island_restaurant_template_fish_chip": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_fish_chip.png"
+  },
+  "island_restaurant_template_fo_tiao": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_fo_tiao.png"
+  },
+  "island_restaurant_template_hearty_meal": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_hearty_meal.png"
+  },
+  "island_restaurant_template_matsutake_chicken_soup": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_matsutake_chicken_soup.png"
+  },
+  "island_restaurant_template_omurice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_omurice.png"
+  },
+  "island_restaurant_template_onion_fish": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_onion_fish.png"
+  },
+  "island_restaurant_template_persimmon_cake": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_persimmon_cake.png"
+  },
+  "island_restaurant_template_salad": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_salad.png"
+  },
+  "island_restaurant_template_tofu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_tofu.png"
+  },
+  "island_restaurant_template_tofu_combo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_tofu_combo.png"
+  },
+  "island_restaurant_template_tofu_meat": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_tofu_meat.png"
+  },
+  "island_restaurant_template_tomato_egg": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_restaurant/island_restaurant_template_tomato_egg.png"
+  }
+}

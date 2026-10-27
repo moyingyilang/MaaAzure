@@ -1,0 +1,862 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/island_manufacture/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_manufacture_island_electronic_processing_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      313,
+      866,
+      342
+    ],
+    "target": [
+      803,
+      378,
+      867,
+      438
+    ],
+    "template": "island_manufacture/island_manufacture_island_electronic_processing_post1.png"
+  },
+  "island_manufacture_island_electronic_processing_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      313,
+      866,
+      342
+    ],
+    "target": [
+      897,
+      374,
+      963,
+      443
+    ],
+    "template": "island_manufacture/island_manufacture_island_electronic_processing_post2.png"
+  },
+  "island_manufacture_island_handmade_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      498,
+      324,
+      526
+    ],
+    "target": [
+      264,
+      557,
+      326,
+      627
+    ],
+    "template": "island_manufacture/island_manufacture_island_handmade_post1.png"
+  },
+  "island_manufacture_island_handmade_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      498,
+      324,
+      526
+    ],
+    "target": [
+      357,
+      558,
+      422,
+      621
+    ],
+    "template": "island_manufacture/island_manufacture_island_handmade_post2.png"
+  },
+  "island_manufacture_island_industrial_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      316,
+      324,
+      341
+    ],
+    "target": [
+      264,
+      375,
+      332,
+      437
+    ],
+    "template": "island_manufacture/island_manufacture_island_industrial_post1.png"
+  },
+  "island_manufacture_island_industrial_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      316,
+      324,
+      341
+    ],
+    "target": [
+      359,
+      377,
+      422,
+      438
+    ],
+    "template": "island_manufacture/island_manufacture_island_industrial_post2.png"
+  },
+  "island_manufacture_island_wood_processing_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      131,
+      863,
+      158
+    ],
+    "target": [
+      802,
+      194,
+      870,
+      255
+    ],
+    "template": "island_manufacture/island_manufacture_island_wood_processing_post1.png"
+  },
+  "island_manufacture_island_wood_processing_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      131,
+      863,
+      158
+    ],
+    "target": [
+      897,
+      190,
+      965,
+      255
+    ],
+    "template": "island_manufacture/island_manufacture_island_wood_processing_post2.png"
+  },
+  "island_manufacture_post_autumn_bouquet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      314,
+      665,
+      362
+    ],
+    "target": [
+      612,
+      314,
+      665,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_autumn_bouquet.png"
+  },
+  "island_manufacture_post_boot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      318,
+      673,
+      362
+    ],
+    "target": [
+      608,
+      318,
+      673,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_boot.png"
+  },
+  "island_manufacture_post_cutlery": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      316,
+      676,
+      363
+    ],
+    "target": [
+      606,
+      316,
+      676,
+      363
+    ],
+    "template": "island_manufacture/island_manufacture_post_cutlery.png"
+  },
+  "island_manufacture_post_file_cabinet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      306,
+      664,
+      363
+    ],
+    "target": [
+      617,
+      306,
+      664,
+      363
+    ],
+    "template": "island_manufacture/island_manufacture_post_file_cabinet.png"
+  },
+  "island_manufacture_post_filter_element": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      308,
+      669,
+      362
+    ],
+    "target": [
+      612,
+      308,
+      669,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_filter_element.png"
+  },
+  "island_manufacture_post_iron_nail": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      314,
+      671,
+      362
+    ],
+    "target": [
+      613,
+      314,
+      671,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_iron_nail.png"
+  },
+  "island_manufacture_post_jasmine_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      560,
+      334,
+      627
+    ],
+    "target": [
+      265,
+      560,
+      334,
+      627
+    ],
+    "template": "island_manufacture/island_manufacture_post_jasmine_oil.png"
+  },
+  "island_manufacture_post_leather": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      605,
+      320,
+      676,
+      361
+    ],
+    "target": [
+      605,
+      320,
+      676,
+      361
+    ],
+    "template": "island_manufacture/island_manufacture_post_leather.png"
+  },
+  "island_manufacture_post_peanut_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      624,
+      309,
+      665,
+      362
+    ],
+    "target": [
+      624,
+      309,
+      665,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_peanut_oil.png"
+  },
+  "island_manufacture_post_shepherd_purse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      312,
+      664,
+      362
+    ],
+    "target": [
+      617,
+      312,
+      664,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_shepherd_purse.png"
+  },
+  "island_manufacture_post_summer_bouquet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      560,
+      334,
+      627
+    ],
+    "target": [
+      265,
+      560,
+      334,
+      627
+    ],
+    "template": "island_manufacture/island_manufacture_post_summer_bouquet.png"
+  },
+  "island_manufacture_post_vitriol": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      308,
+      665,
+      362
+    ],
+    "target": [
+      618,
+      308,
+      665,
+      362
+    ],
+    "template": "island_manufacture/island_manufacture_post_vitriol.png"
+  },
+  "island_manufacture_select_autumn_bouquet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "target": [
+      230,
+      140,
+      267,
+      207
+    ],
+    "template": "island_manufacture/island_manufacture_select_autumn_bouquet.png"
+  },
+  "island_manufacture_select_autumn_bouquet_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      751,
+      240,
+      837,
+      321
+    ],
+    "template": "island_manufacture/island_manufacture_select_autumn_bouquet_check.png"
+  },
+  "island_manufacture_select_boot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      561,
+      285,
+      614
+    ],
+    "target": [
+      214,
+      561,
+      285,
+      614
+    ],
+    "template": "island_manufacture/island_manufacture_select_boot.png"
+  },
+  "island_manufacture_select_boot_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      744,
+      246,
+      841,
+      318
+    ],
+    "target": [
+      744,
+      246,
+      841,
+      318
+    ],
+    "template": "island_manufacture/island_manufacture_select_boot_check.png"
+  },
+  "island_manufacture_select_cutlery": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      559,
+      286,
+      612
+    ],
+    "target": [
+      212,
+      559,
+      286,
+      612
+    ],
+    "template": "island_manufacture/island_manufacture_select_cutlery.png"
+  },
+  "island_manufacture_select_cutlery_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      740,
+      245,
+      841,
+      315
+    ],
+    "target": [
+      740,
+      245,
+      841,
+      315
+    ],
+    "template": "island_manufacture/island_manufacture_select_cutlery_check.png"
+  },
+  "island_manufacture_select_file_cabinet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      225,
+      549,
+      271,
+      616
+    ],
+    "target": [
+      225,
+      549,
+      271,
+      616
+    ],
+    "template": "island_manufacture/island_manufacture_select_file_cabinet.png"
+  },
+  "island_manufacture_select_file_cabinet_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      758,
+      233,
+      824,
+      326
+    ],
+    "target": [
+      758,
+      233,
+      824,
+      326
+    ],
+    "template": "island_manufacture/island_manufacture_select_file_cabinet_check.png"
+  },
+  "island_manufacture_select_filter_element": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      596,
+      278,
+      651
+    ],
+    "target": [
+      219,
+      596,
+      278,
+      651
+    ],
+    "template": "island_manufacture/island_manufacture_select_filter_element.png"
+  },
+  "island_manufacture_select_filter_element_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      232,
+      833,
+      325
+    ],
+    "target": [
+      751,
+      232,
+      833,
+      325
+    ],
+    "template": "island_manufacture/island_manufacture_select_filter_element_check.png"
+  },
+  "island_manufacture_select_iron_nail": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      451,
+      282,
+      507
+    ],
+    "target": [
+      219,
+      451,
+      282,
+      507
+    ],
+    "template": "island_manufacture/island_manufacture_select_iron_nail.png"
+  },
+  "island_manufacture_select_iron_nail_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      241,
+      838,
+      318
+    ],
+    "target": [
+      751,
+      241,
+      838,
+      318
+    ],
+    "template": "island_manufacture/island_manufacture_select_iron_nail_check.png"
+  },
+  "island_manufacture_select_jasmine_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "target": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "template": "island_manufacture/island_manufacture_select_jasmine_oil.png"
+  },
+  "island_manufacture_select_jasmine_oil_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_manufacture/island_manufacture_select_jasmine_oil_check.png"
+  },
+  "island_manufacture_select_leather": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      211,
+      606,
+      286,
+      649
+    ],
+    "target": [
+      211,
+      606,
+      286,
+      649
+    ],
+    "template": "island_manufacture/island_manufacture_select_leather.png"
+  },
+  "island_manufacture_select_leather_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      740,
+      250,
+      844,
+      308
+    ],
+    "target": [
+      740,
+      250,
+      844,
+      308
+    ],
+    "template": "island_manufacture/island_manufacture_select_leather_check.png"
+  },
+  "island_manufacture_select_peanut_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      222,
+      298,
+      273,
+      360
+    ],
+    "target": [
+      222,
+      298,
+      273,
+      360
+    ],
+    "template": "island_manufacture/island_manufacture_select_peanut_oil.png"
+  },
+  "island_manufacture_select_peanut_oil_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      235,
+      827,
+      328
+    ],
+    "target": [
+      753,
+      235,
+      827,
+      328
+    ],
+    "template": "island_manufacture/island_manufacture_select_peanut_oil_check.png"
+  },
+  "island_manufacture_select_shepherd_purse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      224,
+      151,
+      274,
+      209
+    ],
+    "target": [
+      224,
+      151,
+      274,
+      209
+    ],
+    "template": "island_manufacture/island_manufacture_select_shepherd_purse.png"
+  },
+  "island_manufacture_select_shepherd_purse_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      238,
+      827,
+      320
+    ],
+    "target": [
+      756,
+      238,
+      827,
+      320
+    ],
+    "template": "island_manufacture/island_manufacture_select_shepherd_purse_check.png"
+  },
+  "island_manufacture_select_summer_bouquet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "target": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "template": "island_manufacture/island_manufacture_select_summer_bouquet.png"
+  },
+  "island_manufacture_select_summer_bouquet_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_manufacture/island_manufacture_select_summer_bouquet_check.png"
+  },
+  "island_manufacture_select_vitriol": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      226,
+      594,
+      273,
+      651
+    ],
+    "target": [
+      226,
+      594,
+      273,
+      651
+    ],
+    "template": "island_manufacture/island_manufacture_select_vitriol.png"
+  },
+  "island_manufacture_select_vitriol_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      230,
+      829,
+      325
+    ],
+    "target": [
+      759,
+      230,
+      829,
+      325
+    ],
+    "template": "island_manufacture/island_manufacture_select_vitriol_check.png"
+  },
+  "island_manufacture_template_autumn_bouquet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_autumn_bouquet.png"
+  },
+  "island_manufacture_template_boot": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_boot.png"
+  },
+  "island_manufacture_template_cutlery": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_cutlery.png"
+  },
+  "island_manufacture_template_file_cabinet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_file_cabinet.png"
+  },
+  "island_manufacture_template_iron_nail": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_iron_nail.png"
+  },
+  "island_manufacture_template_jasmine_oil": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_jasmine_oil.png"
+  },
+  "island_manufacture_template_leather": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_leather.png"
+  },
+  "island_manufacture_template_peanut_oil": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_peanut_oil.png"
+  },
+  "island_manufacture_template_shepherd_purse": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_shepherd_purse.png"
+  },
+  "island_manufacture_template_summer_bouquet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_manufacture/island_manufacture_template_summer_bouquet.png"
+  }
+}

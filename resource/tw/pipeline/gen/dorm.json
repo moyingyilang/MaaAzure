@@ -1,0 +1,568 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/dorm/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "dorm_buy_food_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      427,
+      675,
+      459
+    ],
+    "target": [
+      607,
+      427,
+      675,
+      459
+    ],
+    "template": "dorm/dorm_buy_food_check.png"
+  },
+  "dorm_buy_food_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      499,
+      792,
+      520
+    ],
+    "target": [
+      751,
+      499,
+      792,
+      520
+    ],
+    "template": "dorm/dorm_buy_food_confirm.png"
+  },
+  "dorm_buy_food_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      866,
+      375,
+      888,
+      398
+    ],
+    "target": [
+      866,
+      375,
+      888,
+      398
+    ],
+    "template": "dorm/dorm_buy_food_enter.png"
+  },
+  "dorm_feed_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      162,
+      342,
+      274,
+      370
+    ],
+    "target": [
+      162,
+      342,
+      274,
+      370
+    ],
+    "template": "dorm/dorm_feed_check.png"
+  },
+  "dorm_feed_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      254,
+      581,
+      300,
+      605
+    ],
+    "target": [
+      254,
+      581,
+      300,
+      605
+    ],
+    "template": "dorm/dorm_feed_enter.png"
+  },
+  "dorm_food_buy_add_10": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      0,
+      0,
+      899,
+      400
+    ],
+    "target": [
+      0,
+      0,
+      899,
+      400
+    ],
+    "template": "dorm/dorm_food_buy_add_10.png"
+  },
+  "dorm_food_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      656,
+      489,
+      886,
+      531
+    ],
+    "target": [
+      656,
+      489,
+      886,
+      531
+    ],
+    "template": "dorm/dorm_food_buy_confirm.png"
+  },
+  "dorm_food_buy_cost": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      605,
+      429,
+      691,
+      458
+    ],
+    "target": [
+      605,
+      429,
+      691,
+      458
+    ],
+    "template": "dorm/dorm_food_buy_cost.png"
+  },
+  "dorm_food_minus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      532,
+      370,
+      554,
+      397
+    ],
+    "target": [
+      532,
+      370,
+      554,
+      397
+    ],
+    "template": "dorm/dorm_food_minus.png"
+  },
+  "dorm_food_plus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      807,
+      370,
+      826,
+      397
+    ],
+    "target": [
+      807,
+      370,
+      826,
+      397
+    ],
+    "template": "dorm/dorm_food_plus.png"
+  },
+  "dorm_furniture_buy_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      818,
+      621,
+      1072,
+      677
+    ],
+    "target": [
+      818,
+      621,
+      1072,
+      677
+    ],
+    "template": "dorm/dorm_furniture_buy_all.png"
+  },
+  "dorm_furniture_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      644,
+      464,
+      972,
+      518
+    ],
+    "target": [
+      644,
+      464,
+      972,
+      518
+    ],
+    "template": "dorm/dorm_furniture_buy_confirm.png"
+  },
+  "dorm_furniture_buy_set": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      505,
+      621,
+      759,
+      677
+    ],
+    "target": [
+      505,
+      621,
+      759,
+      677
+    ],
+    "template": "dorm/dorm_furniture_buy_set.png"
+  },
+  "dorm_furniture_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      476,
+      667,
+      503
+    ],
+    "target": [
+      614,
+      476,
+      667,
+      503
+    ],
+    "template": "dorm/dorm_furniture_confirm.png"
+  },
+  "dorm_furniture_countdown": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      422,
+      244,
+      437,
+      259
+    ],
+    "target": [
+      422,
+      244,
+      437,
+      259
+    ],
+    "template": "dorm/dorm_furniture_countdown.png"
+  },
+  "dorm_furniture_details_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      444,
+      1258,
+      496
+    ],
+    "target": [
+      1003,
+      444,
+      1258,
+      496
+    ],
+    "template": "dorm/dorm_furniture_details_enter.png"
+  },
+  "dorm_furniture_details_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      100,
+      121,
+      114,
+      141
+    ],
+    "target": [
+      100,
+      121,
+      114,
+      141
+    ],
+    "template": "dorm/dorm_furniture_details_quit.png"
+  },
+  "dorm_furniture_shop_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1067,
+      604,
+      1120,
+      650
+    ],
+    "target": [
+      1067,
+      604,
+      1120,
+      650
+    ],
+    "template": "dorm/dorm_furniture_shop_enter.png"
+  },
+  "dorm_furniture_shop_first": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      241,
+      565,
+      271,
+      572
+    ],
+    "target": [
+      241,
+      565,
+      271,
+      572
+    ],
+    "template": "dorm/dorm_furniture_shop_first.png"
+  },
+  "dorm_furniture_shop_first_selected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      239,
+      519,
+      273,
+      525
+    ],
+    "target": [
+      239,
+      519,
+      273,
+      525
+    ],
+    "template": "dorm/dorm_furniture_shop_first_selected.png"
+  },
+  "dorm_furniture_shop_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      38,
+      34,
+      58,
+      63
+    ],
+    "target": [
+      38,
+      34,
+      58,
+      63
+    ],
+    "template": "dorm/dorm_furniture_shop_quit.png"
+  },
+  "dorm_manage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      949,
+      600,
+      1005,
+      659
+    ],
+    "target": [
+      949,
+      600,
+      1005,
+      659
+    ],
+    "template": "dorm/dorm_manage.png"
+  },
+  "dorm_manage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1128,
+      116,
+      1150,
+      135
+    ],
+    "target": [
+      1128,
+      116,
+      1150,
+      135
+    ],
+    "template": "dorm/dorm_manage_check.png"
+  },
+  "dorm_ocr_dorm_buy_food_amount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      653,
+      374,
+      706,
+      395
+    ],
+    "target": [
+      653,
+      374,
+      706,
+      395
+    ],
+    "template": "dorm/dorm_ocr_dorm_buy_food_amount.png"
+  },
+  "dorm_ocr_dorm_fill": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      813,
+      271,
+      987,
+      296
+    ],
+    "target": [
+      813,
+      271,
+      987,
+      296
+    ],
+    "template": "dorm/dorm_ocr_dorm_fill.png"
+  },
+  "dorm_ocr_dorm_furniture_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      897,
+      20,
+      988,
+      49
+    ],
+    "target": [
+      897,
+      20,
+      988,
+      49
+    ],
+    "template": "dorm/dorm_ocr_dorm_furniture_coin.png"
+  },
+  "dorm_ocr_dorm_furniture_price": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      819,
+      417,
+      896,
+      442
+    ],
+    "target": [
+      819,
+      417,
+      896,
+      442
+    ],
+    "template": "dorm/dorm_ocr_dorm_furniture_price.png"
+  },
+  "dorm_ocr_dorm_slot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      112,
+      662,
+      155,
+      694
+    ],
+    "target": [
+      112,
+      662,
+      155,
+      694
+    ],
+    "template": "dorm/dorm_ocr_dorm_slot.png"
+  },
+  "dorm_ocr_fuel_cost": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      644,
+      428,
+      705,
+      457
+    ],
+    "target": [
+      644,
+      428,
+      705,
+      457
+    ],
+    "template": "dorm/dorm_ocr_fuel_cost.png"
+  },
+  "dorm_quick_collect": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1191,
+      497,
+      1251,
+      519
+    ],
+    "target": [
+      1191,
+      497,
+      1251,
+      519
+    ],
+    "template": "dorm/dorm_quick_collect.png"
+  },
+  "dorm_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      528,
+      339,
+      543,
+      356
+    ],
+    "target": [
+      528,
+      339,
+      543,
+      356
+    ],
+    "template": "dorm/dorm_red_dot.png"
+  }
+}

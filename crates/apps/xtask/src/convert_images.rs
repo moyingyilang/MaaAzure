@@ -86,6 +86,7 @@ struct Meta {
     source_root: String,
     source_rev: String,
     schema_doc: &'static str,
+    layout: &'static str,
     counts: Counts,
 }
 
@@ -191,12 +192,14 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
                     .extension()
                     .and_then(|e| e.to_str())
                     .is_some_and(|e| e.eq_ignore_ascii_case("gif"));
-                let dest_rel = if is_gif {
+                // 每个服务器一个资源包：resource/<server>/image/<module>/<node>[.png|/]
+                let in_bundle = if is_gif {
                     // 尾斜杠 = 目录（多帧）。写进索引即自描述。
-                    format!("{}/", naming::gif_dir(&srv, &module, &node))
+                    format!("{}/", naming::gif_dir(&module, &node))
                 } else {
-                    naming::image_path(&srv, &module, &node)
+                    naming::image_path(&module, &node)
                 };
+                let dest_rel = format!("{}/{in_bundle}", naming::bundle_path(&srv));
 
                 if let Some(prev) = seen_dest.get(&dest_rel) {
                     if prev != &d.constant {
@@ -255,7 +258,7 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
                     }
                 }
 
-                images.insert(srv, dest_rel);
+                images.insert(srv, in_bundle);
             }
 
             sum.dest_unique = seen_dest.len();
@@ -289,6 +292,7 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
                 source_root: opts.old_root.display().to_string(),
                 source_rev: git_rev(&opts.old_root),
                 schema_doc: "docs/4-migration/4.1-images.md",
+                layout: "resource/<server>/image/<module>/<node>[.png|/]；images 值为包内相对路径，可直接当 template",
                 counts: Counts {
                     decls: sum.decls,
                     with_files: sum.with_files,

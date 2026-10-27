@@ -1,0 +1,820 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/combat/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "combat_alchemist_material_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1039,
+      616,
+      1078,
+      636
+    ],
+    "target": [
+      1039,
+      616,
+      1078,
+      636
+    ],
+    "template": "combat/combat_alchemist_material_confirm.png"
+  },
+  "combat_auto": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      136,
+      572,
+      167,
+      605
+    ],
+    "target": [
+      136,
+      572,
+      167,
+      605
+    ],
+    "template": "combat/combat_auto.png"
+  },
+  "combat_auto_133": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      131,
+      568,
+      170,
+      609
+    ],
+    "target": [
+      131,
+      568,
+      170,
+      609
+    ],
+    "template": "combat/combat_auto_133.png"
+  },
+  "combat_auto_150": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      129,
+      567,
+      172,
+      611
+    ],
+    "target": [
+      129,
+      567,
+      172,
+      611
+    ],
+    "template": "combat/combat_auto_150.png"
+  },
+  "combat_auto_switch": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      18,
+      38,
+      36,
+      56
+    ],
+    "target": [
+      18,
+      38,
+      36,
+      56
+    ],
+    "template": "combat/combat_auto_switch.png"
+  },
+  "combat_automation_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      591,
+      535,
+      686,
+      566
+    ],
+    "target": [
+      591,
+      535,
+      686,
+      566
+    ],
+    "template": "combat/combat_automation_confirm.png"
+  },
+  "combat_automation_confirm_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      423,
+      764,
+      439
+    ],
+    "target": [
+      745,
+      423,
+      764,
+      439
+    ],
+    "template": "combat/combat_automation_confirm_check.png"
+  },
+  "combat_automation_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      754,
+      113,
+      794,
+      129
+    ],
+    "target": [
+      754,
+      113,
+      794,
+      129
+    ],
+    "template": "combat/combat_automation_off.png"
+  },
+  "combat_automation_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      113,
+      790,
+      129
+    ],
+    "target": [
+      759,
+      113,
+      790,
+      129
+    ],
+    "template": "combat/combat_automation_on.png"
+  },
+  "combat_automation_switch": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      821,
+      106,
+      907,
+      136
+    ],
+    "target": [
+      821,
+      106,
+      907,
+      136
+    ],
+    "template": "combat/combat_automation_switch.png"
+  },
+  "combat_battle_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1062,
+      612,
+      1089,
+      643
+    ],
+    "target": [
+      1043,
+      607,
+      1241,
+      667
+    ],
+    "template": "combat/combat_battle_preparation.png"
+  },
+  "combat_battle_preparation_with_overlay": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1058,
+      622,
+      1226,
+      652
+    ],
+    "target": [
+      1058,
+      622,
+      1226,
+      652
+    ],
+    "template": "combat/combat_battle_preparation_with_overlay.png"
+  },
+  "combat_battle_status_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      634,
+      269,
+      730,
+      288
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_battle_status_a.png"
+  },
+  "combat_battle_status_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      625,
+      297,
+      712,
+      317
+    ],
+    "target": [
+      999,
+      630,
+      1047,
+      691
+    ],
+    "template": "combat/combat_battle_status_b.png"
+  },
+  "combat_battle_status_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      625,
+      211,
+      647,
+      297
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_battle_status_c.png"
+  },
+  "combat_battle_status_d": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      191,
+      639,
+      317
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_battle_status_d.png"
+  },
+  "combat_battle_status_s": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      643,
+      297,
+      722,
+      317
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_battle_status_s.png"
+  },
+  "combat_emergency_repair_available": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      106,
+      533,
+      119,
+      540
+    ],
+    "target": [
+      97,
+      512,
+      141,
+      557
+    ],
+    "template": "combat/combat_emergency_repair_available.png"
+  },
+  "combat_emergency_repair_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      669,
+      418,
+      842,
+      475
+    ],
+    "target": [
+      669,
+      418,
+      842,
+      475
+    ],
+    "template": "combat/combat_emergency_repair_confirm.png"
+  },
+  "combat_exp_info_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      337,
+      90,
+      394,
+      102
+    ],
+    "target": [
+      1133,
+      634,
+      1262,
+      650
+    ],
+    "template": "combat/combat_exp_info_a.png"
+  },
+  "combat_exp_info_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      332,
+      107,
+      387,
+      118
+    ],
+    "target": [
+      1133,
+      634,
+      1262,
+      650
+    ],
+    "template": "combat/combat_exp_info_b.png"
+  },
+  "combat_exp_info_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      332,
+      56,
+      345,
+      107
+    ],
+    "target": [
+      1133,
+      634,
+      1262,
+      650
+    ],
+    "template": "combat/combat_exp_info_c.png"
+  },
+  "combat_exp_info_d": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      328,
+      45,
+      341,
+      119
+    ],
+    "target": [
+      1133,
+      634,
+      1262,
+      650
+    ],
+    "template": "combat/combat_exp_info_d.png"
+  },
+  "combat_exp_info_s": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      342,
+      107,
+      389,
+      119
+    ],
+    "target": [
+      1133,
+      634,
+      1262,
+      650
+    ],
+    "template": "combat/combat_exp_info_s.png"
+  },
+  "combat_get_items_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      538,
+      217,
+      741,
+      253
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_get_items_1.png"
+  },
+  "combat_get_items_1_ryza": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      564,
+      217,
+      721,
+      245
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_get_items_1_ryza.png"
+  },
+  "combat_get_items_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      538,
+      146,
+      742,
+      182
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_get_items_2.png"
+  },
+  "combat_get_items_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      539,
+      143,
+      742,
+      179
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_get_items_3.png"
+  },
+  "combat_get_items_3_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      335,
+      184,
+      947,
+      203
+    ],
+    "target": [
+      335,
+      184,
+      947,
+      203
+    ],
+    "template": "combat/combat_get_items_3_check.png"
+  },
+  "combat_get_ship": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1104,
+      610,
+      1110,
+      630
+    ],
+    "target": [
+      1000,
+      631,
+      1055,
+      689
+    ],
+    "template": "combat/combat_get_ship.png"
+  },
+  "combat_loading_bar": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      33,
+      676,
+      1247,
+      680
+    ],
+    "target": [
+      33,
+      676,
+      1247,
+      680
+    ],
+    "template": "combat/combat_loading_bar.png"
+  },
+  "combat_main_fleet_power_zero": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      131,
+      151,
+      232,
+      206
+    ],
+    "target": [
+      131,
+      151,
+      232,
+      206
+    ],
+    "template": "combat/combat_main_fleet_power_zero.png"
+  },
+  "combat_move_down": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      148,
+      647,
+      155,
+      669
+    ],
+    "target": [
+      148,
+      647,
+      155,
+      669
+    ],
+    "template": "combat/combat_move_down.png"
+  },
+  "combat_move_left_down": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      67,
+      668,
+      112,
+      707
+    ],
+    "target": [
+      67,
+      668,
+      112,
+      707
+    ],
+    "template": "combat/combat_move_left_down.png"
+  },
+  "combat_move_left_up": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      101,
+      539,
+      136,
+      574
+    ],
+    "target": [
+      101,
+      539,
+      136,
+      574
+    ],
+    "template": "combat/combat_move_left_up.png"
+  },
+  "combat_new_ship": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      206,
+      87,
+      213,
+      93
+    ],
+    "target": [
+      206,
+      87,
+      213,
+      93
+    ],
+    "template": "combat/combat_new_ship.png"
+  },
+  "combat_oil_loading": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1157,
+      566,
+      1214,
+      594
+    ],
+    "target": [
+      1157,
+      566,
+      1214,
+      594
+    ],
+    "template": "combat/combat_oil_loading.png"
+  },
+  "combat_opts_info_d": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      601,
+      151,
+      704,
+      178
+    ],
+    "target": [
+      583,
+      605,
+      677,
+      628
+    ],
+    "template": "combat/combat_opts_info_d.png"
+  },
+  "combat_quit_reconfirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      749,
+      501,
+      828,
+      540
+    ],
+    "target": [
+      749,
+      501,
+      828,
+      540
+    ],
+    "template": "combat/combat_quit_reconfirm.png"
+  },
+  "combat_ready_air_raid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      887,
+      618,
+      907,
+      628
+    ],
+    "target": [
+      887,
+      618,
+      907,
+      628
+    ],
+    "template": "combat/combat_ready_air_raid.png"
+  },
+  "combat_ready_torpedo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1038,
+      611,
+      1046,
+      619
+    ],
+    "target": [
+      1038,
+      611,
+      1046,
+      619
+    ],
+    "template": "combat/combat_ready_torpedo.png"
+  },
+  "combat_submarine_available_check_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      707,
+      660,
+      712,
+      665
+    ],
+    "target": [
+      707,
+      660,
+      712,
+      665
+    ],
+    "template": "combat/combat_submarine_available_check_1.png"
+  },
+  "combat_submarine_available_check_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      790,
+      631,
+      795,
+      641
+    ],
+    "target": [
+      790,
+      631,
+      795,
+      641
+    ],
+    "template": "combat/combat_submarine_available_check_2.png"
+  },
+  "combat_submarine_called": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      737,
+      608,
+      750,
+      626
+    ],
+    "target": [
+      737,
+      608,
+      750,
+      626
+    ],
+    "template": "combat/combat_submarine_called.png"
+  },
+  "combat_submarine_ready": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      737,
+      608,
+      752,
+      625
+    ],
+    "target": [
+      737,
+      608,
+      752,
+      625
+    ],
+    "template": "combat/combat_submarine_ready.png"
+  }
+}

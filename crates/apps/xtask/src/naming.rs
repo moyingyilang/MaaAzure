@@ -13,9 +13,9 @@
 //!   ▼
 //! node      commission_start
 //!
-//! 落盘：
-//!   PNG  image/<server>/<module>/<node>.png
-//!   GIF  image/<server>/<module>/<node>/frame_00.png …   （MaaFW 的 template 支持目录）
+//! 落盘（**每个服务器一个资源包**，路径里不再有 server 段）：
+//!   PNG  resource/<server>/image/<module>/<node>.png
+//!   GIF  resource/<server>/image/<module>/<node>/frame_00.png …   （template 支持目录）
 //! ```
 //!
 //! 这条规则的目的是**可逆**：从图片路径能推出节点名，从节点名能推回图片路径，
@@ -78,14 +78,21 @@ pub fn split_server_path(path: &str) -> Option<(String, String)> {
     Some((server.to_string(), rest.to_string()))
 }
 
-/// 静态图片的目标相对路径（相对 `resource/`）。
-pub fn image_path(server: &str, module: &str, node: &str) -> String {
-    format!("image/{server}/{module}/{node}.png")
+/// 静态图片在**包内**的相对路径（相对 `resource/<server>/`）。
+///
+/// 也是 Pipeline 节点的 `template` 值——MaaFW 的 `template` 相对资源包的 `image/` 解析。
+pub fn image_path(module: &str, node: &str) -> String {
+    format!("image/{module}/{node}.png")
 }
 
-/// 动图的目标**目录**（相对 `resource/`）。MaaFW 的 `template` 支持目录，会递归加载其中图片。
-pub fn gif_dir(server: &str, module: &str, node: &str) -> String {
-    format!("image/{server}/{module}/{node}")
+/// 动图目录在包内的相对路径。`template` 支持目录，会递归加载其中所有图片。
+pub fn gif_dir(module: &str, node: &str) -> String {
+    format!("image/{module}/{node}")
+}
+
+/// 资源包根（相对 `resource/`）。
+pub fn bundle_path(server: &str) -> String {
+    server.to_string()
 }
 
 #[cfg(test)]
@@ -127,8 +134,10 @@ mod tests {
     }
 
     #[test]
-    fn dest_paths() {
-        assert_eq!(image_path("cn", "commission", "commission_start"), "image/cn/commission/commission_start.png");
-        assert_eq!(gif_dir("jp", "template", "template_dorm_coin"), "image/jp/template/template_dorm_coin");
+    fn dest_paths_are_bundle_relative() {
+        // 每个服务器一个包，包内路径不含 server 段
+        assert_eq!(image_path("commission", "commission_start"), "image/commission/commission_start.png");
+        assert_eq!(gif_dir("template", "template_dorm_coin"), "image/template/template_dorm_coin");
+        assert_eq!(bundle_path("jp"), "jp");
     }
 }

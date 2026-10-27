@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/island_daily_interact/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_daily_interact_business_delivery_amoma_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      479,
+      1033,
+      510
+    ],
+    "target": [
+      801,
+      479,
+      1033,
+      510
+    ],
+    "template": "island_daily_interact/island_daily_interact_business_delivery_amoma_interact.png"
+  },
+  "island_daily_interact_business_delivery_bulaimei_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      805,
+      477,
+      1087,
+      512
+    ],
+    "target": [
+      805,
+      477,
+      1087,
+      512
+    ],
+    "template": "island_daily_interact/island_daily_interact_business_delivery_bulaimei_interact.png"
+  },
+  "island_daily_interact_business_delivery_three_option_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      412,
+      1033,
+      445
+    ],
+    "target": [
+      801,
+      412,
+      1033,
+      445
+    ],
+    "template": "island_daily_interact/island_daily_interact_business_delivery_three_option_interact.png"
+  },
+  "island_daily_interact_business_delivery_two_option_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "target": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "template": "island_daily_interact/island_daily_interact_business_delivery_two_option_interact.png"
+  },
+  "island_daily_interact_development_plan_daily_tab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      25,
+      315,
+      96,
+      334
+    ],
+    "target": [
+      25,
+      315,
+      96,
+      334
+    ],
+    "template": "island_daily_interact/island_daily_interact_development_plan_daily_tab.png"
+  },
+  "island_daily_interact_development_plan_daily_tab_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      25,
+      315,
+      96,
+      334
+    ],
+    "target": [
+      25,
+      315,
+      96,
+      334
+    ],
+    "template": "island_daily_interact/island_daily_interact_development_plan_daily_tab_check.png"
+  },
+  "island_daily_interact_development_plan_weekly_tab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      25,
+      380,
+      96,
+      400
+    ],
+    "target": [
+      25,
+      380,
+      96,
+      400
+    ],
+    "template": "island_daily_interact/island_daily_interact_development_plan_weekly_tab.png"
+  },
+  "island_daily_interact_development_plan_weekly_tab_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      25,
+      380,
+      96,
+      400
+    ],
+    "target": [
+      25,
+      380,
+      96,
+      400
+    ],
+    "template": "island_daily_interact/island_daily_interact_development_plan_weekly_tab_check.png"
+  },
+  "island_daily_interact_island_development_plan_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      124,
+      20,
+      289,
+      46
+    ],
+    "target": [
+      124,
+      20,
+      289,
+      46
+    ],
+    "template": "island_daily_interact/island_daily_interact_island_development_plan_check.png"
+  },
+  "island_daily_interact_island_phone_development_plan": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1059,
+      335,
+      1175,
+      373
+    ],
+    "target": [
+      1059,
+      335,
+      1175,
+      373
+    ],
+    "template": "island_daily_interact/island_daily_interact_island_phone_development_plan.png"
+  },
+  "island_daily_interact_juu_express_amoma_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      479,
+      1033,
+      510
+    ],
+    "target": [
+      801,
+      479,
+      1033,
+      510
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_amoma_interact.png"
+  },
+  "island_daily_interact_juu_express_aobulaien_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "target": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_aobulaien_interact.png"
+  },
+  "island_daily_interact_juu_express_aolipike_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      443,
+      1033,
+      480
+    ],
+    "target": [
+      801,
+      443,
+      1033,
+      480
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_aolipike_interact.png"
+  },
+  "island_daily_interact_juu_express_lakeniya_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      407,
+      1033,
+      440
+    ],
+    "target": [
+      801,
+      407,
+      1033,
+      440
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_lakeniya_interact.png"
+  },
+  "island_daily_interact_juu_express_lisha_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "target": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_lisha_interact.png"
+  },
+  "island_daily_interact_juu_express_luxi_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      412,
+      1033,
+      445
+    ],
+    "target": [
+      801,
+      412,
+      1033,
+      445
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_luxi_interact.png"
+  },
+  "island_daily_interact_juu_express_meili_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "target": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_meili_interact.png"
+  },
+  "island_daily_interact_juu_express_pateli_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "target": [
+      801,
+      445,
+      1033,
+      476
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_pateli_interact.png"
+  },
+  "island_daily_interact_juu_express_qiaoan_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      443,
+      1033,
+      480
+    ],
+    "target": [
+      801,
+      443,
+      1033,
+      480
+    ],
+    "template": "island_daily_interact/island_daily_interact_juu_express_qiaoan_interact.png"
+  },
+  "island_daily_interact_pet_cat_farm_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      379,
+      1033,
+      408
+    ],
+    "target": [
+      801,
+      379,
+      1033,
+      408
+    ],
+    "template": "island_daily_interact/island_daily_interact_pet_cat_farm_interact.png"
+  },
+  "island_daily_interact_route_three_option_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      312,
+      1033,
+      344
+    ],
+    "target": [
+      801,
+      312,
+      1033,
+      344
+    ],
+    "template": "island_daily_interact/island_daily_interact_route_three_option_complete.png"
+  },
+  "island_daily_interact_route_two_option_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      801,
+      344,
+      1033,
+      373
+    ],
+    "target": [
+      801,
+      344,
+      1033,
+      373
+    ],
+    "template": "island_daily_interact/island_daily_interact_route_two_option_complete.png"
+  },
+  "island_daily_interact_template_business_delivery_task_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_daily_interact/island_daily_interact_template_business_delivery_task_icon.png"
+  },
+  "island_daily_interact_template_juu_express_task_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_daily_interact/island_daily_interact_template_juu_express_task_icon.png"
+  },
+  "island_daily_interact_template_weekly_photo_task_icon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_daily_interact/island_daily_interact_template_weekly_photo_task_icon.png"
+  },
+  "island_daily_interact_weekly_photo_camera": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1110,
+      575,
+      1145,
+      610
+    ],
+    "target": [
+      1110,
+      575,
+      1145,
+      610
+    ],
+    "template": "island_daily_interact/island_daily_interact_weekly_photo_camera.png"
+  },
+  "island_daily_interact_weekly_photo_idle": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1080,
+      650,
+      1180,
+      720
+    ],
+    "target": [
+      1080,
+      650,
+      1180,
+      720
+    ],
+    "template": "island_daily_interact/island_daily_interact_weekly_photo_idle.png"
+  },
+  "island_daily_interact_weekly_photo_task_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      647,
+      107,
+      804,
+      141
+    ],
+    "target": [
+      1207,
+      297,
+      1234,
+      321
+    ],
+    "template": "island_daily_interact/island_daily_interact_weekly_photo_task_check.png"
+  }
+}

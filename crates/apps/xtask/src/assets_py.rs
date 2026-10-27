@@ -33,7 +33,19 @@ pub struct Decl {
     pub module: String,
     /// `(server, 相对路径)`；`file=None` 时为空
     pub files: Vec<(String, String)>,
+    /// `area` 字典：`(server, (x1,y1,x2,y2))`
+    pub areas: Vec<(String, Rect)>,
+    /// `color` 字典：`(server, (r,g,b))`
+    pub colors: Vec<(String, Rgb)>,
+    /// `button` 字典：`(server, (x1,y1,x2,y2))`
+    pub buttons: Vec<(String, Rect)>,
 }
+
+/// 屏幕区域 `(x1, y1, x2, y2)`。
+pub type Rect = (i32, i32, i32, i32);
+
+/// RGB 颜色。
+pub type Rgb = (u8, u8, u8);
 
 /// 解析一个 `assets.py` 的全部声明。
 ///
@@ -72,6 +84,18 @@ pub fn parse_assets_py(src: &str, module: &str) -> Vec<Decl> {
             kind,
             module: module.to_string(),
             files: parse_file_arg(args),
+            areas: parse_tuple_dict::<4>(args, "area=")
+                .into_iter()
+                .map(|(k, v)| (k, (v[0] as i32, v[1] as i32, v[2] as i32, v[3] as i32)))
+                .collect(),
+            colors: parse_tuple_dict::<3>(args, "color=")
+                .into_iter()
+                .map(|(k, v)| (k, (v[0] as u8, v[1] as u8, v[2] as u8)))
+                .collect(),
+            buttons: parse_tuple_dict::<4>(args, "button=")
+                .into_iter()
+                .map(|(k, v)| (k, (v[0] as i32, v[1] as i32, v[2] as i32, v[3] as i32)))
+                .collect(),
         });
 
         i = close + 1;
@@ -194,6 +218,67 @@ fn parse_py_string(s: &str) -> Option<String> {
         out.push(ch);
     }
     None
+}
+
+/// 解析 `{'cn': (1, 2, 3), ...}` 形态的数字元组字典。
+///
+/// `key` 形如 `"area="`，必须带 `=`，避免把 `button=` 误当成 `file=` 的一部分。
+fn parse_tuple_dict<const N: usize>(args: &str, key: &str) -> Vec<(String, [i64; N])> {
+    let mut out = Vec::new();
+    let Some(pos) = args.find(key) else {
+        return out;
+    };
+    let rest = args[pos + key.len()..].trim_start();
+    let Some(body) = rest.strip_prefix('{') else {
+        return out;
+    };
+
+    let mut cur = body;
+    loop {
+        cur = cur.trim_start();
+        if cur.starts_with('}') {
+            break;
+        }
+        let Some(k) = parse_py_string(cur) else { break };
+        let consumed = consumed_string_len(cur);
+        cur = cur[consumed..].trim_start();
+        let Some(after_colon) = cur.strip_prefix(':') else { break };
+        cur = after_colon.trim_start();
+
+        let Some(open) = cur.find('(') else { break };
+        if open > 0 {
+            // 元组前有非空白字符，说明格式不符，保守退出
+            break;
+        }
+        let Some(close) = cur.find(')') else { break };
+        let inner = &cur[1..close];
+        let mut nums = [0i64; N];
+        let mut n = 0;
+        for part in inner.split(',') {
+            let part = part.trim();
+            if part.is_empty() {
+                continue;
+            }
+            let Ok(v) = part.parse::<i64>() else {
+                n = N + 1; // 标记失败
+                break;
+            };
+            if n < N {
+                nums[n] = v;
+            }
+            n += 1;
+        }
+        if n == N {
+            out.push((k, nums));
+        }
+
+        cur = &cur[close + 1..];
+        cur = cur.trim_start();
+        if let Some(r) = cur.strip_prefix(',') {
+            cur = r;
+        }
+    }
+    out
 }
 
 /// 解析 `{'cn': '...', 'en': '...'}`。

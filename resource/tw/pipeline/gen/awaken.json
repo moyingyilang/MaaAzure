@@ -1,0 +1,208 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/awaken/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "awaken_awakening": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      803,
+      282,
+      896,
+      304
+    ],
+    "target": [
+      803,
+      282,
+      896,
+      304
+    ],
+    "template": "awaken/awaken_awakening.png"
+  },
+  "awaken_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      485,
+      513,
+      553,
+      543
+    ],
+    "target": [
+      485,
+      513,
+      553,
+      543
+    ],
+    "template": "awaken/awaken_cancel.png"
+  },
+  "awaken_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      726,
+      513,
+      795,
+      542
+    ],
+    "target": [
+      726,
+      513,
+      795,
+      542
+    ],
+    "template": "awaken/awaken_confirm.png"
+  },
+  "awaken_cost_array": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      720,
+      374,
+      780,
+      434
+    ],
+    "target": [
+      720,
+      374,
+      780,
+      434
+    ],
+    "template": "awaken/awaken_cost_array.png"
+  },
+  "awaken_cost_chip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      375,
+      670,
+      435
+    ],
+    "target": [
+      610,
+      375,
+      670,
+      435
+    ],
+    "template": "awaken/awaken_cost_chip.png"
+  },
+  "awaken_cost_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      499,
+      373,
+      559,
+      433
+    ],
+    "target": [
+      499,
+      373,
+      559,
+      433
+    ],
+    "template": "awaken/awaken_cost_coin.png"
+  },
+  "awaken_finish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      435,
+      343,
+      468,
+      382
+    ],
+    "target": [
+      218,
+      561,
+      548,
+      630
+    ],
+    "template": "awaken/awaken_finish.png"
+  },
+  "awaken_level_up": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      805,
+      282,
+      893,
+      304
+    ],
+    "target": [
+      805,
+      282,
+      893,
+      304
+    ],
+    "template": "awaken/awaken_level_up.png"
+  },
+  "awaken_ocr_ship_exp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1102,
+      276,
+      1250,
+      306
+    ],
+    "target": [
+      1102,
+      276,
+      1250,
+      306
+    ],
+    "template": "awaken/awaken_ocr_ship_exp.png"
+  },
+  "awaken_ocr_ship_level": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      757,
+      283,
+      799,
+      319
+    ],
+    "target": [
+      757,
+      283,
+      799,
+      319
+    ],
+    "template": "awaken/awaken_ocr_ship_level.png"
+  },
+  "awaken_ship_level_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      706,
+      298,
+      742,
+      315
+    ],
+    "target": [
+      706,
+      298,
+      742,
+      315
+    ],
+    "template": "awaken/awaken_ship_level_check.png"
+  }
+}

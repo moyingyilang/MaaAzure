@@ -1,0 +1,21 @@
+{
+  "_meta": {
+    "note": "公共地基：所有任务的祖先。图片路径相对本包的 image/，但 common 包不放图，实际解析到服务器包的同名 image。",
+    "stage": "P0",
+    "docs": "docs/3-authoring/3.1-pipeline-spec.md §5"
+  },
+
+  "global_home": {
+    "recognition": "TemplateMatch",
+    "template": "ui/ui_main_goto_campaign.png",
+    "action": "DoNothing",
+    "anchor": "home",
+    "next": []
+  },
+
+  "global_recover": {
+    "recognition": "DirectHit",
+    "action": "DoNothing",
+    "next": []
+  }
+}

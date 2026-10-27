@@ -1,0 +1,502 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/event_hospital/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "event_hospital_aside_next_page": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      167,
+      627,
+      183,
+      637
+    ],
+    "target": [
+      167,
+      627,
+      183,
+      637
+    ],
+    "template": "event_hospital/event_hospital_aside_next_page.png"
+  },
+  "event_hospital_chapter_hospital_easy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      26,
+      242,
+      56,
+      268
+    ],
+    "target": [
+      26,
+      242,
+      56,
+      268
+    ],
+    "template": "event_hospital/event_hospital_chapter_hospital_easy.png"
+  },
+  "event_hospital_chapter_hospital_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      24,
+      401,
+      54,
+      427
+    ],
+    "target": [
+      24,
+      401,
+      54,
+      427
+    ],
+    "template": "event_hospital/event_hospital_chapter_hospital_hard.png"
+  },
+  "event_hospital_chapter_hospital_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      27,
+      323,
+      56,
+      349
+    ],
+    "target": [
+      27,
+      323,
+      56,
+      349
+    ],
+    "template": "event_hospital/event_hospital_chapter_hospital_normal.png"
+  },
+  "event_hospital_clue_list": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      98,
+      156,
+      247,
+      616
+    ],
+    "target": [
+      98,
+      156,
+      247,
+      616
+    ],
+    "template": "event_hospital/event_hospital_clue_list.png"
+  },
+  "event_hospital_daily_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1014,
+      658,
+      1051,
+      671
+    ],
+    "target": [
+      1014,
+      658,
+      1051,
+      671
+    ],
+    "template": "event_hospital/event_hospital_daily_red_dot.png"
+  },
+  "event_hospital_daily_reward_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      874,
+      620,
+      1157,
+      677
+    ],
+    "target": [
+      874,
+      620,
+      1157,
+      677
+    ],
+    "template": "event_hospital/event_hospital_daily_reward_receive.png"
+  },
+  "event_hospital_get_clue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      80,
+      653,
+      106
+    ],
+    "target": [
+      570,
+      593,
+      710,
+      627
+    ],
+    "template": "event_hospital/event_hospital_get_clue.png"
+  },
+  "event_hospital_get_clue_text": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      105,
+      651,
+      126
+    ],
+    "target": [
+      607,
+      105,
+      651,
+      126
+    ],
+    "template": "event_hospital/event_hospital_get_clue_text.png"
+  },
+  "event_hospital_hosipital_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      37,
+      26,
+      74,
+      60
+    ],
+    "target": [
+      37,
+      26,
+      74,
+      60
+    ],
+    "template": "event_hospital/event_hospital_hosipital_check.png"
+  },
+  "event_hospital_hosipital_clue_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1167,
+      90,
+      1207,
+      126
+    ],
+    "target": [
+      1167,
+      90,
+      1207,
+      126
+    ],
+    "template": "event_hospital/event_hospital_hosipital_clue_check.png"
+  },
+  "event_hospital_hosipital_goto_clue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1087,
+      662,
+      1126,
+      697
+    ],
+    "target": [
+      1087,
+      662,
+      1126,
+      697
+    ],
+    "template": "event_hospital/event_hospital_hosipital_goto_clue.png"
+  },
+  "event_hospital_hospital_battle_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1097,
+      112,
+      1137,
+      147
+    ],
+    "target": [
+      1097,
+      112,
+      1137,
+      147
+    ],
+    "template": "event_hospital/event_hospital_hospital_battle_exit.png"
+  },
+  "event_hospital_hospital_battle_prepare": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      964,
+      503,
+      1028,
+      532
+    ],
+    "target": [
+      964,
+      503,
+      1028,
+      532
+    ],
+    "template": "event_hospital/event_hospital_hospital_battle_prepare.png"
+  },
+  "event_hospital_hospital_goto_daily": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      900,
+      658,
+      928,
+      688
+    ],
+    "target": [
+      900,
+      658,
+      928,
+      688
+    ],
+    "template": "event_hospital/event_hospital_hospital_goto_daily.png"
+  },
+  "event_hospital_hospital_ocr_pt": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1193,
+      108,
+      1263,
+      132
+    ],
+    "target": [
+      1193,
+      108,
+      1263,
+      132
+    ],
+    "template": "event_hospital/event_hospital_hospital_ocr_pt.png"
+  },
+  "event_hospital_hospital_raid_esp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      636,
+      168,
+      709,
+      234
+    ],
+    "target": [
+      636,
+      168,
+      709,
+      234
+    ],
+    "template": "event_hospital/event_hospital_hospital_raid_esp.png"
+  },
+  "event_hospital_hospital_raid_t1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      237,
+      155,
+      287,
+      205
+    ],
+    "target": [
+      237,
+      155,
+      287,
+      205
+    ],
+    "template": "event_hospital/event_hospital_hospital_raid_t1.png"
+  },
+  "event_hospital_hospital_raid_t2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      243,
+      436,
+      310,
+      504
+    ],
+    "target": [
+      243,
+      436,
+      310,
+      504
+    ],
+    "template": "event_hospital/event_hospital_hospital_raid_t2.png"
+  },
+  "event_hospital_hospital_raid_t3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      650,
+      533,
+      709,
+      591
+    ],
+    "target": [
+      650,
+      533,
+      709,
+      591
+    ],
+    "template": "event_hospital/event_hospital_hospital_raid_t3.png"
+  },
+  "event_hospital_hospital_raid_t4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      999,
+      426,
+      1071,
+      501
+    ],
+    "target": [
+      999,
+      426,
+      1071,
+      501
+    ],
+    "template": "event_hospital/event_hospital_hospital_raid_t4.png"
+  },
+  "event_hospital_invest_reward_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1113,
+      666,
+      1236,
+      690
+    ],
+    "target": [
+      1113,
+      666,
+      1236,
+      690
+    ],
+    "template": "event_hospital/event_hospital_invest_reward_receive.png"
+  },
+  "event_hospital_invest_scroll": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1200,
+      153,
+      1203,
+      642
+    ],
+    "target": [
+      1200,
+      153,
+      1203,
+      642
+    ],
+    "template": "event_hospital/event_hospital_invest_scroll.png"
+  },
+  "event_hospital_invest_search": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      135,
+      1187,
+      636
+    ],
+    "target": [
+      261,
+      135,
+      1187,
+      636
+    ],
+    "template": "event_hospital/event_hospital_invest_search.png"
+  },
+  "event_hospital_tab_character": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      263,
+      93,
+      409,
+      122
+    ],
+    "target": [
+      263,
+      93,
+      409,
+      122
+    ],
+    "template": "event_hospital/event_hospital_tab_character.png"
+  },
+  "event_hospital_tab_location": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      89,
+      93,
+      240,
+      121
+    ],
+    "target": [
+      89,
+      93,
+      240,
+      121
+    ],
+    "template": "event_hospital/event_hospital_tab_location.png"
+  },
+  "event_hospital_template_invest": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "event_hospital/event_hospital_template_invest.png"
+  },
+  "event_hospital_template_invest2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "event_hospital/event_hospital_template_invest2.png"
+  },
+  "event_hospital_template_remain_current": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "event_hospital/event_hospital_template_remain_current.png"
+  },
+  "event_hospital_template_remain_times": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "event_hospital/event_hospital_template_remain_times.png"
+  }
+}

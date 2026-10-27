@@ -1,0 +1,898 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/retire/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "retire_appear_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      404,
+      501,
+      477,
+      532
+    ],
+    "target": [
+      404,
+      501,
+      477,
+      532
+    ],
+    "template": "retire/retire_appear_1.png"
+  },
+  "retire_appear_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      501,
+      677,
+      533
+    ],
+    "target": [
+      604,
+      501,
+      677,
+      533
+    ],
+    "template": "retire/retire_appear_2.png"
+  },
+  "retire_appear_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      804,
+      501,
+      876,
+      533
+    ],
+    "target": [
+      804,
+      501,
+      876,
+      533
+    ],
+    "template": "retire/retire_appear_3.png"
+  },
+  "retire_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      307,
+      638,
+      351,
+      661
+    ],
+    "target": [
+      307,
+      638,
+      351,
+      661
+    ],
+    "template": "retire/retire_coin.png"
+  },
+  "retire_common_ship_filter_disable": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      714,
+      13,
+      757,
+      41
+    ],
+    "target": [
+      714,
+      13,
+      757,
+      41
+    ],
+    "template": "retire/retire_common_ship_filter_disable.png"
+  },
+  "retire_common_ship_filter_enable": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      713,
+      12,
+      758,
+      41
+    ],
+    "target": [
+      713,
+      12,
+      758,
+      41
+    ],
+    "template": "retire/retire_common_ship_filter_enable.png"
+  },
+  "retire_confirm_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1092,
+      114,
+      1095,
+      592
+    ],
+    "target": [
+      1092,
+      114,
+      1095,
+      592
+    ],
+    "template": "retire/retire_confirm_scroll_area.png"
+  },
+  "retire_dock_amount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      473,
+      17,
+      611,
+      41
+    ],
+    "target": [
+      473,
+      17,
+      611,
+      41
+    ],
+    "template": "retire/retire_dock_amount.png"
+  },
+  "retire_dock_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      14,
+      175,
+      39
+    ],
+    "target": [
+      121,
+      14,
+      175,
+      39
+    ],
+    "template": "retire/retire_dock_check.png"
+  },
+  "retire_dock_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      95,
+      347,
+      388,
+      378
+    ],
+    "target": [
+      95,
+      347,
+      388,
+      378
+    ],
+    "template": "retire/retire_dock_empty.png"
+  },
+  "retire_dock_filter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1099,
+      5,
+      1193,
+      48
+    ],
+    "target": [
+      1099,
+      5,
+      1193,
+      48
+    ],
+    "template": "retire/retire_dock_filter.png"
+  },
+  "retire_dock_filter_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      714,
+      613,
+      886,
+      671
+    ],
+    "target": [
+      714,
+      613,
+      886,
+      671
+    ],
+    "template": "retire/retire_dock_filter_confirm.png"
+  },
+  "retire_dock_first_npc": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      96,
+      111,
+      123,
+      123
+    ],
+    "target": [
+      96,
+      111,
+      123,
+      123
+    ],
+    "template": "retire/retire_dock_first_npc.png"
+  },
+  "retire_dock_scroll": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1239,
+      76,
+      1248,
+      641
+    ],
+    "target": [
+      1239,
+      76,
+      1248,
+      641
+    ],
+    "template": "retire/retire_dock_scroll.png"
+  },
+  "retire_dock_selected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      582,
+      662,
+      647,
+      685
+    ],
+    "target": [
+      582,
+      662,
+      647,
+      685
+    ],
+    "template": "retire/retire_dock_selected.png"
+  },
+  "retire_dock_ship_down": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      164,
+      152,
+      195,
+      204
+    ],
+    "target": [
+      90,
+      74,
+      223,
+      269
+    ],
+    "template": "retire/retire_dock_ship_down.png"
+  },
+  "retire_dock_unmount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      161,
+      141,
+      225,
+      216
+    ],
+    "target": [
+      161,
+      141,
+      225,
+      216
+    ],
+    "template": "retire/retire_dock_unmount.png"
+  },
+  "retire_empty_enhance_slot_plus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      737,
+      402,
+      773,
+      437
+    ],
+    "target": [
+      737,
+      402,
+      773,
+      437
+    ],
+    "template": "retire/retire_empty_enhance_slot_plus.png"
+  },
+  "retire_enhance_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1126,
+      602,
+      1256,
+      645
+    ],
+    "target": [
+      1126,
+      602,
+      1256,
+      645
+    ],
+    "template": "retire/retire_enhance_confirm.png"
+  },
+  "retire_enhance_filled": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      728,
+      440,
+      781,
+      454
+    ],
+    "target": [
+      728,
+      440,
+      781,
+      454
+    ],
+    "template": "retire/retire_enhance_filled.png"
+  },
+  "retire_enhance_recommend": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      959,
+      602,
+      1089,
+      645
+    ],
+    "target": [
+      959,
+      602,
+      1089,
+      645
+    ],
+    "template": "retire/retire_enhance_recommend.png"
+  },
+  "retire_enhance_reload": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      898,
+      277,
+      1164,
+      291
+    ],
+    "target": [
+      898,
+      277,
+      1164,
+      291
+    ],
+    "template": "retire/retire_enhance_reload.png"
+  },
+  "retire_equip_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1012,
+      587,
+      1083,
+      617
+    ],
+    "target": [
+      1012,
+      587,
+      1083,
+      617
+    ],
+    "template": "retire/retire_equip_confirm.png"
+  },
+  "retire_equip_confirm_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      770,
+      554,
+      843,
+      584
+    ],
+    "target": [
+      770,
+      554,
+      843,
+      584
+    ],
+    "template": "retire/retire_equip_confirm_2.png"
+  },
+  "retire_get_items_1_retirement_save": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1031,
+      656,
+      1063,
+      688
+    ],
+    "target": [
+      1031,
+      656,
+      1063,
+      688
+    ],
+    "template": "retire/retire_get_items_1_retirement_save.png"
+  },
+  "retire_in_retirement_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      854,
+      641,
+      1027,
+      698
+    ],
+    "target": [
+      854,
+      641,
+      1027,
+      698
+    ],
+    "template": "retire/retire_in_retirement_check.png"
+  },
+  "retire_one_click_retirement": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      639,
+      641,
+      811,
+      698
+    ],
+    "target": [
+      639,
+      641,
+      811,
+      698
+    ],
+    "template": "retire/retire_one_click_retirement.png"
+  },
+  "retire_setting_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      818,
+      259,
+      847,
+      290
+    ],
+    "target": [
+      818,
+      259,
+      847,
+      290
+    ],
+    "template": "retire/retire_setting_1.png"
+  },
+  "retire_setting_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      316,
+      775,
+      346
+    ],
+    "target": [
+      746,
+      316,
+      775,
+      346
+    ],
+    "template": "retire/retire_setting_2.png"
+  },
+  "retire_setting_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      894,
+      372,
+      923,
+      404
+    ],
+    "target": [
+      894,
+      372,
+      923,
+      404
+    ],
+    "template": "retire/retire_setting_3.png"
+  },
+  "retire_setting_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      970,
+      471,
+      997,
+      498
+    ],
+    "target": [
+      970,
+      471,
+      997,
+      498
+    ],
+    "template": "retire/retire_setting_4.png"
+  },
+  "retire_setting_5_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      969,
+      567,
+      997,
+      595
+    ],
+    "target": [
+      969,
+      567,
+      997,
+      595
+    ],
+    "template": "retire/retire_setting_5_all.png"
+  },
+  "retire_setting_5_preserve": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      863,
+      567,
+      890,
+      595
+    ],
+    "target": [
+      863,
+      567,
+      890,
+      595
+    ],
+    "template": "retire/retire_setting_5_preserve.png"
+  },
+  "retire_setting_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      20,
+      501,
+      50,
+      531
+    ],
+    "target": [
+      20,
+      501,
+      50,
+      531
+    ],
+    "template": "retire/retire_setting_enter.png"
+  },
+  "retire_setting_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      986,
+      140,
+      1016,
+      169
+    ],
+    "target": [
+      986,
+      140,
+      1016,
+      169
+    ],
+    "template": "retire/retire_setting_quit.png"
+  },
+  "retire_ship_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1069,
+      641,
+      1241,
+      698
+    ],
+    "target": [
+      1069,
+      641,
+      1241,
+      698
+    ],
+    "template": "retire/retire_ship_confirm.png"
+  },
+  "retire_ship_confirm_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      928,
+      617,
+      1100,
+      674
+    ],
+    "target": [
+      928,
+      617,
+      1100,
+      674
+    ],
+    "template": "retire/retire_ship_confirm_2.png"
+  },
+  "retire_ship_detail_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      15,
+      230,
+      40
+    ],
+    "target": [
+      121,
+      15,
+      230,
+      40
+    ],
+    "template": "retire/retire_ship_detail_check.png"
+  },
+  "retire_sort_asc": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1014,
+      22,
+      1019,
+      26
+    ],
+    "target": [
+      1014,
+      22,
+      1019,
+      26
+    ],
+    "template": "retire/retire_sort_asc.png"
+  },
+  "retire_sort_desc": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1014,
+      29,
+      1019,
+      33
+    ],
+    "target": [
+      1014,
+      29,
+      1019,
+      33
+    ],
+    "template": "retire/retire_sort_desc.png"
+  },
+  "retire_sorting_click": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1004,
+      14,
+      1096,
+      42
+    ],
+    "target": [
+      1004,
+      14,
+      1096,
+      42
+    ],
+    "template": "retire/retire_sorting_click.png"
+  },
+  "retire_sr_ssr_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      757,
+      480,
+      829,
+      511
+    ],
+    "target": [
+      757,
+      480,
+      829,
+      511
+    ],
+    "template": "retire/retire_sr_ssr_confirm.png"
+  },
+  "retire_template_aulick": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_aulick.png"
+  },
+  "retire_template_bogue": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_bogue.png"
+  },
+  "retire_template_cassin_1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_cassin_1.png"
+  },
+  "retire_template_cassin_2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_cassin_2.png"
+  },
+  "retire_template_downes_1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_downes_1.png"
+  },
+  "retire_template_downes_2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_downes_2.png"
+  },
+  "retire_template_fleet_1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_1.png"
+  },
+  "retire_template_fleet_2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_2.png"
+  },
+  "retire_template_fleet_3": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_3.png"
+  },
+  "retire_template_fleet_4": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_4.png"
+  },
+  "retire_template_fleet_5": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_5.png"
+  },
+  "retire_template_fleet_6": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_fleet_6.png"
+  },
+  "retire_template_foote": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_foote.png"
+  },
+  "retire_template_hermes": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_hermes.png"
+  },
+  "retire_template_in_battle": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_in_battle.png"
+  },
+  "retire_template_in_commission": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_in_commission.png"
+  },
+  "retire_template_in_event_fleet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_in_event_fleet.png"
+  },
+  "retire_template_in_hard": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_in_hard.png"
+  },
+  "retire_template_langley": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_langley.png"
+  },
+  "retire_template_ranger": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_ranger.png"
+  },
+  "retire_template_z20": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_z20.png"
+  },
+  "retire_template_z21": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "retire/retire_template_z21.png"
+  }
+}

@@ -1,0 +1,388 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/freebies/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "freebies_battle_pass_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      623,
+      105,
+      629,
+      113
+    ],
+    "target": [
+      623,
+      105,
+      629,
+      113
+    ],
+    "template": "freebies/freebies_battle_pass_red_dot.png"
+  },
+  "freebies_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      710,
+      583,
+      860,
+      633
+    ],
+    "target": [
+      710,
+      583,
+      860,
+      633
+    ],
+    "template": "freebies/freebies_buy_confirm.png"
+  },
+  "freebies_data_key_collect": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      256,
+      42,
+      337,
+      68
+    ],
+    "target": [
+      256,
+      42,
+      337,
+      68
+    ],
+    "template": "freebies/freebies_data_key_collect.png"
+  },
+  "freebies_data_key_collected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      255,
+      42,
+      338,
+      68
+    ],
+    "target": [
+      255,
+      42,
+      338,
+      68
+    ],
+    "template": "freebies/freebies_data_key_collected.png"
+  },
+  "freebies_free_supply_pack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      295,
+      617,
+      345,
+      637
+    ],
+    "target": [
+      293,
+      321,
+      373,
+      381
+    ],
+    "template": "freebies/freebies_free_supply_pack.png"
+  },
+  "freebies_mail_batch_claim": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      643,
+      525,
+      704,
+      543
+    ],
+    "target": [
+      643,
+      525,
+      704,
+      543
+    ],
+    "template": "freebies/freebies_mail_batch_claim.png"
+  },
+  "freebies_mail_batch_delete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      817,
+      526,
+      887,
+      544
+    ],
+    "target": [
+      817,
+      526,
+      887,
+      544
+    ],
+    "template": "freebies/freebies_mail_batch_delete.png"
+  },
+  "freebies_mail_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1207,
+      393,
+      1253,
+      429
+    ],
+    "target": [
+      1207,
+      393,
+      1253,
+      429
+    ],
+    "template": "freebies/freebies_mail_enter.png"
+  },
+  "freebies_mail_manage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      393,
+      641,
+      463,
+      660
+    ],
+    "target": [
+      393,
+      641,
+      463,
+      660
+    ],
+    "template": "freebies/freebies_mail_manage.png"
+  },
+  "freebies_mail_select_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      390,
+      319,
+      410,
+      339
+    ],
+    "target": [
+      390,
+      319,
+      410,
+      339
+    ],
+    "template": "freebies/freebies_mail_select_all.png"
+  },
+  "freebies_mail_select_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      562,
+      401,
+      582,
+      421
+    ],
+    "target": [
+      562,
+      401,
+      582,
+      421
+    ],
+    "template": "freebies/freebies_mail_select_coins.png"
+  },
+  "freebies_mail_select_cube": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      442,
+      401,
+      462,
+      421
+    ],
+    "target": [
+      442,
+      401,
+      462,
+      421
+    ],
+    "template": "freebies/freebies_mail_select_cube.png"
+  },
+  "freebies_mail_select_gems": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      442,
+      441,
+      462,
+      461
+    ],
+    "target": [
+      442,
+      441,
+      462,
+      461
+    ],
+    "template": "freebies/freebies_mail_select_gems.png"
+  },
+  "freebies_mail_select_merit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      802,
+      401,
+      822,
+      421
+    ],
+    "target": [
+      802,
+      401,
+      822,
+      421
+    ],
+    "template": "freebies/freebies_mail_select_merit.png"
+  },
+  "freebies_mail_select_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      682,
+      401,
+      702,
+      421
+    ],
+    "target": [
+      682,
+      401,
+      702,
+      421
+    ],
+    "template": "freebies/freebies_mail_select_oil.png"
+  },
+  "freebies_mail_white_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      236,
+      365,
+      371,
+      404
+    ],
+    "target": [
+      236,
+      365,
+      371,
+      404
+    ],
+    "template": "freebies/freebies_mail_white_empty.png"
+  },
+  "freebies_ocr_data_key": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      133,
+      39,
+      250,
+      72
+    ],
+    "target": [
+      133,
+      39,
+      250,
+      72
+    ],
+    "template": "freebies/freebies_ocr_data_key.png"
+  },
+  "freebies_purchase_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      907,
+      204,
+      934,
+      229
+    ],
+    "target": [
+      907,
+      204,
+      934,
+      229
+    ],
+    "template": "freebies/freebies_purchase_popup.png"
+  },
+  "freebies_reward_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1192,
+      522,
+      1254,
+      534
+    ],
+    "target": [
+      1192,
+      522,
+      1254,
+      534
+    ],
+    "template": "freebies/freebies_reward_receive.png"
+  },
+  "freebies_reward_receive_sp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1090,
+      580,
+      1197,
+      596
+    ],
+    "target": [
+      1090,
+      580,
+      1197,
+      596
+    ],
+    "template": "freebies/freebies_reward_receive_sp.png"
+  },
+  "freebies_reward_receive_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1115,
+      604,
+      1202,
+      620
+    ],
+    "target": [
+      1115,
+      604,
+      1202,
+      620
+    ],
+    "template": "freebies/freebies_reward_receive_white.png"
+  }
+}

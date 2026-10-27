@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/island_select_character/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_select_character_select_character_filter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      51,
+      606,
+      88,
+      642
+    ],
+    "target": [
+      51,
+      606,
+      88,
+      642
+    ],
+    "template": "island_select_character/island_select_character_select_character_filter.png"
+  },
+  "island_select_character_select_character_filter_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      660,
+      471,
+      892,
+      519
+    ],
+    "target": [
+      660,
+      471,
+      892,
+      519
+    ],
+    "template": "island_select_character/island_select_character_select_character_filter_confirm.png"
+  },
+  "island_select_character_select_character_filter_stamina": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      422,
+      278,
+      550,
+      313
+    ],
+    "target": [
+      422,
+      278,
+      550,
+      313
+    ],
+    "template": "island_select_character/island_select_character_select_character_filter_stamina.png"
+  },
+  "island_select_character_template_akashi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_akashi.png"
+  },
+  "island_select_character_template_amagi_chan": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_amagi_chan.png"
+  },
+  "island_select_character_template_anchorage": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_anchorage.png"
+  },
+  "island_select_character_template_atago": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_atago.png"
+  },
+  "island_select_character_template_august": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_august.png"
+  },
+  "island_select_character_template_belfast": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_belfast.png"
+  },
+  "island_select_character_template_chang_feng": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_chang_feng.png"
+  },
+  "island_select_character_template_chao_ho": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_chao_ho.png"
+  },
+  "island_select_character_template_character_working": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_character_working.png"
+  },
+  "island_select_character_template_chen_hai": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_chen_hai.png"
+  },
+  "island_select_character_template_cheshire": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_cheshire.png"
+  },
+  "island_select_character_template_davinci": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_davinci.png"
+  },
+  "island_select_character_template_eugen": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_eugen.png"
+  },
+  "island_select_character_template_explorer": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_explorer.png"
+  },
+  "island_select_character_template_fei_yun": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_fei_yun.png"
+  },
+  "island_select_character_template_friedrich": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_friedrich.png"
+  },
+  "island_select_character_template_helena": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_helena.png"
+  },
+  "island_select_character_template_hood": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_hood.png"
+  },
+  "island_select_character_template_javelin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_javelin.png"
+  },
+  "island_select_character_template_laffey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_laffey.png"
+  },
+  "island_select_character_template_lemalin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_lemalin.png"
+  },
+  "island_select_character_template_mogador": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_mogador.png"
+  },
+  "island_select_character_template_navigator": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_navigator.png"
+  },
+  "island_select_character_template_newjersey": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_newjersey.png"
+  },
+  "island_select_character_template_ocean_crosser": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_ocean_crosser.png"
+  },
+  "island_select_character_template_royal_fortune": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_royal_fortune.png"
+  },
+  "island_select_character_template_saratoga": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_saratoga.png"
+  },
+  "island_select_character_template_shimakaze": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_shimakaze.png"
+  },
+  "island_select_character_template_takao": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_takao.png"
+  },
+  "island_select_character_template_tashkent": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_tashkent.png"
+  },
+  "island_select_character_template_unicorn": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_unicorn.png"
+  },
+  "island_select_character_template_william_d_porter": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_william_d_porter.png"
+  },
+  "island_select_character_template_workerjuu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_workerjuu.png"
+  },
+  "island_select_character_template_yingswei": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_yingswei.png"
+  },
+  "island_select_character_template_yixian": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_select_character/island_select_character_template_yixian.png"
+  }
+}

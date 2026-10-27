@@ -1,0 +1,316 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/exercise/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "exercise_attacker_hp_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      271,
+      43,
+      586,
+      58
+    ],
+    "target": [
+      271,
+      43,
+      586,
+      58
+    ],
+    "template": "exercise/exercise_attacker_hp_area.png"
+  },
+  "exercise_attacker_hp_area_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      266,
+      40,
+      592,
+      49
+    ],
+    "target": [
+      266,
+      40,
+      592,
+      49
+    ],
+    "template": "exercise/exercise_attacker_hp_area_new.png"
+  },
+  "exercise_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1215,
+      637,
+      1260,
+      686
+    ],
+    "target": [
+      1215,
+      637,
+      1260,
+      686
+    ],
+    "template": "exercise/exercise_click_safe_area.png"
+  },
+  "exercise_defender_hp_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      691,
+      43,
+      1004,
+      58
+    ],
+    "target": [
+      691,
+      43,
+      1004,
+      58
+    ],
+    "template": "exercise/exercise_defender_hp_area.png"
+  },
+  "exercise_defender_hp_area_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      692,
+      40,
+      1019,
+      49
+    ],
+    "target": [
+      692,
+      40,
+      1019,
+      49
+    ],
+    "template": "exercise/exercise_defender_hp_area_new.png"
+  },
+  "exercise_equip_edit_active": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      51,
+      608,
+      245,
+      668
+    ],
+    "target": [
+      51,
+      608,
+      245,
+      668
+    ],
+    "template": "exercise/exercise_equip_edit_active.png"
+  },
+  "exercise_equip_edit_inactive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      51,
+      608,
+      246,
+      667
+    ],
+    "target": [
+      51,
+      608,
+      246,
+      667
+    ],
+    "template": "exercise/exercise_equip_edit_inactive.png"
+  },
+  "exercise_equip_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      432,
+      283,
+      442,
+      293
+    ],
+    "target": [
+      432,
+      283,
+      442,
+      293
+    ],
+    "template": "exercise/exercise_equip_enter.png"
+  },
+  "exercise_new_opponent": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1065,
+      340,
+      1204,
+      382
+    ],
+    "target": [
+      1065,
+      340,
+      1204,
+      382
+    ],
+    "template": "exercise/exercise_new_opponent.png"
+  },
+  "exercise_ocr_exercise_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1153,
+      140,
+      1178,
+      165
+    ],
+    "target": [
+      1153,
+      140,
+      1178,
+      165
+    ],
+    "template": "exercise/exercise_ocr_exercise_remain.png"
+  },
+  "exercise_ocr_exercise_time_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1088,
+      105,
+      1208,
+      128
+    ],
+    "target": [
+      1088,
+      105,
+      1208,
+      128
+    ],
+    "template": "exercise/exercise_ocr_exercise_time_remain.png"
+  },
+  "exercise_ocr_period_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1089,
+      105,
+      1209,
+      129
+    ],
+    "target": [
+      1089,
+      105,
+      1209,
+      129
+    ],
+    "template": "exercise/exercise_ocr_period_remain.png"
+  },
+  "exercise_opponent_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      104,
+      77,
+      316,
+      381
+    ],
+    "target": [
+      104,
+      77,
+      316,
+      381
+    ],
+    "template": "exercise/exercise_opponent_1.png"
+  },
+  "exercise_opponent_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      348,
+      77,
+      560,
+      381
+    ],
+    "target": [
+      348,
+      77,
+      560,
+      381
+    ],
+    "template": "exercise/exercise_opponent_2.png"
+  },
+  "exercise_opponent_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      592,
+      77,
+      804,
+      381
+    ],
+    "target": [
+      592,
+      77,
+      804,
+      381
+    ],
+    "template": "exercise/exercise_opponent_3.png"
+  },
+  "exercise_opponent_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      836,
+      77,
+      1048,
+      381
+    ],
+    "target": [
+      836,
+      77,
+      1048,
+      381
+    ],
+    "template": "exercise/exercise_opponent_4.png"
+  },
+  "exercise_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      543,
+      539,
+      741,
+      599
+    ],
+    "target": [
+      543,
+      539,
+      741,
+      599
+    ],
+    "template": "exercise/exercise_preparation.png"
+  }
+}

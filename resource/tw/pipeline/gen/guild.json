@@ -1,0 +1,586 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/guild/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "guild_battle_status_cf": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      204,
+      197,
+      214,
+      288
+    ],
+    "target": [
+      1138,
+      646,
+      1216,
+      682
+    ],
+    "template": "guild/guild_battle_status_cf.png"
+  },
+  "guild_boss_available": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1229,
+      614,
+      1242,
+      632
+    ],
+    "target": [
+      1229,
+      614,
+      1242,
+      632
+    ],
+    "template": "guild/guild_boss_available.png"
+  },
+  "guild_boss_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1144,
+      642,
+      1261,
+      687
+    ],
+    "target": [
+      1144,
+      642,
+      1261,
+      687
+    ],
+    "template": "guild/guild_boss_enter.png"
+  },
+  "guild_dispatch_close": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1236,
+      102,
+      1266,
+      133
+    ],
+    "target": [
+      1236,
+      102,
+      1266,
+      133
+    ],
+    "template": "guild/guild_dispatch_close.png"
+  },
+  "guild_dispatch_fleet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      981,
+      637,
+      1123,
+      677
+    ],
+    "target": [
+      981,
+      637,
+      1123,
+      677
+    ],
+    "template": "guild/guild_dispatch_fleet.png"
+  },
+  "guild_dispatch_fleet_unfilled": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      981,
+      644,
+      1122,
+      670
+    ],
+    "target": [
+      981,
+      644,
+      1122,
+      670
+    ],
+    "template": "guild/guild_dispatch_fleet_unfilled.png"
+  },
+  "guild_dispatch_in_progress": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1183,
+      641,
+      1279,
+      668
+    ],
+    "target": [
+      1183,
+      641,
+      1279,
+      668
+    ],
+    "template": "guild/guild_dispatch_in_progress.png"
+  },
+  "guild_dispatch_quick": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      971,
+      639,
+      1114,
+      664
+    ],
+    "target": [
+      971,
+      639,
+      1114,
+      664
+    ],
+    "template": "guild/guild_dispatch_quick.png"
+  },
+  "guild_dispatch_recommend": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1196,
+      231,
+      1259,
+      288
+    ],
+    "target": [
+      1196,
+      231,
+      1259,
+      288
+    ],
+    "template": "guild/guild_dispatch_recommend.png"
+  },
+  "guild_dispatch_recommend_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      140,
+      432,
+      193,
+      488
+    ],
+    "target": [
+      140,
+      432,
+      193,
+      488
+    ],
+    "template": "guild/guild_dispatch_recommend_2.png"
+  },
+  "guild_exp_info_cf": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      104,
+      63,
+      111,
+      119
+    ],
+    "target": [
+      1138,
+      646,
+      1216,
+      682
+    ],
+    "template": "guild/guild_exp_info_cf.png"
+  },
+  "guild_logistics_ensure_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      390,
+      382,
+      516,
+      393
+    ],
+    "target": [
+      390,
+      382,
+      516,
+      393
+    ],
+    "template": "guild/guild_logistics_ensure_check.png"
+  },
+  "guild_mission": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1070,
+      281,
+      1222,
+      318
+    ],
+    "target": [
+      1070,
+      281,
+      1222,
+      318
+    ],
+    "template": "guild/guild_mission.png"
+  },
+  "guild_mission_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      406,
+      194,
+      565,
+      235
+    ],
+    "target": [
+      406,
+      194,
+      565,
+      235
+    ],
+    "template": "guild/guild_mission_choose.png"
+  },
+  "guild_mission_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      414,
+      199,
+      551,
+      230
+    ],
+    "target": [
+      414,
+      199,
+      551,
+      230
+    ],
+    "template": "guild/guild_mission_new.png"
+  },
+  "guild_mission_select": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1023,
+      131,
+      1052,
+      160
+    ],
+    "target": [
+      912,
+      532,
+      975,
+      565
+    ],
+    "template": "guild/guild_mission_select.png"
+  },
+  "guild_ocr_guild_exchange_limit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      962,
+      384,
+      975,
+      403
+    ],
+    "target": [
+      962,
+      384,
+      975,
+      403
+    ],
+    "template": "guild/guild_ocr_guild_exchange_limit.png"
+  },
+  "guild_ocr_guild_operations_progress": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1064,
+      501,
+      1114,
+      521
+    ],
+    "target": [
+      1064,
+      501,
+      1114,
+      521
+    ],
+    "template": "guild/guild_ocr_guild_operations_progress.png"
+  },
+  "guild_operation_fund_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1064,
+      481,
+      1265,
+      521
+    ],
+    "target": [
+      1064,
+      481,
+      1265,
+      521
+    ],
+    "template": "guild/guild_operation_fund_check.png"
+  },
+  "guild_operations_active_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      967,
+      639,
+      1081,
+      667
+    ],
+    "target": [
+      967,
+      639,
+      1081,
+      667
+    ],
+    "template": "guild/guild_operations_active_check.png"
+  },
+  "guild_operations_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      271,
+      680,
+      320,
+      704
+    ],
+    "target": [
+      271,
+      680,
+      320,
+      704
+    ],
+    "template": "guild/guild_operations_click_safe_area.png"
+  },
+  "guild_operations_inactive_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      192,
+      119,
+      240,
+      141
+    ],
+    "target": [
+      192,
+      119,
+      240,
+      141
+    ],
+    "template": "guild/guild_operations_inactive_check.png"
+  },
+  "guild_operations_join": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      968,
+      545,
+      1206,
+      574
+    ],
+    "target": [
+      968,
+      545,
+      1206,
+      574
+    ],
+    "template": "guild/guild_operations_join.png"
+  },
+  "guild_operations_monthly_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1237,
+      500,
+      1278,
+      522
+    ],
+    "target": [
+      1237,
+      500,
+      1278,
+      522
+    ],
+    "template": "guild/guild_operations_monthly_count.png"
+  },
+  "guild_operations_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      960,
+      542,
+      1036,
+      576
+    ],
+    "target": [
+      960,
+      542,
+      1036,
+      576
+    ],
+    "template": "guild/guild_operations_new.png"
+  },
+  "guild_operations_solomon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1125,
+      156,
+      1248,
+      181
+    ],
+    "target": [
+      1125,
+      153,
+      1280,
+      535
+    ],
+    "template": "guild/guild_operations_solomon.png"
+  },
+  "guild_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1250,
+      665,
+      1273,
+      688
+    ],
+    "target": [
+      1250,
+      665,
+      1273,
+      688
+    ],
+    "template": "guild/guild_red_dot.png"
+  },
+  "guild_report_available": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      117,
+      607,
+      435,
+      713
+    ],
+    "target": [
+      117,
+      607,
+      435,
+      713
+    ],
+    "template": "guild/guild_report_available.png"
+  },
+  "guild_report_claim": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      850,
+      601,
+      966,
+      631
+    ],
+    "target": [
+      850,
+      601,
+      966,
+      631
+    ],
+    "template": "guild/guild_report_claim.png"
+  },
+  "guild_report_claimed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      595,
+      1079,
+      637
+    ],
+    "target": [
+      738,
+      595,
+      1079,
+      637
+    ],
+    "template": "guild/guild_report_claimed.png"
+  },
+  "guild_report_close": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1059,
+      93,
+      1102,
+      136
+    ],
+    "target": [
+      1059,
+      93,
+      1102,
+      136
+    ],
+    "template": "guild/guild_report_close.png"
+  },
+  "guild_supply": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1079,
+      619,
+      1231,
+      656
+    ],
+    "target": [
+      1079,
+      619,
+      1231,
+      656
+    ],
+    "template": "guild/guild_supply.png"
+  }
+}

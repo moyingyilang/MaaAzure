@@ -1,0 +1,624 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/os_ash/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "os_ash_ash_collect_status": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      640,
+      27,
+      720,
+      49
+    ],
+    "target": [
+      640,
+      27,
+      720,
+      49
+    ],
+    "template": "os_ash/os_ash_ash_collect_status.png"
+  },
+  "os_ash_ash_daily_status": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      637,
+      2,
+      741,
+      18
+    ],
+    "target": [
+      637,
+      2,
+      741,
+      18
+    ],
+    "template": "os_ash/os_ash_ash_daily_status.png"
+  },
+  "os_ash_ash_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      22,
+      25,
+      54,
+      48
+    ],
+    "target": [
+      22,
+      25,
+      54,
+      48
+    ],
+    "template": "os_ash/os_ash_ash_quit.png"
+  },
+  "os_ash_ash_showdown": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      15,
+      246,
+      39
+    ],
+    "target": [
+      122,
+      15,
+      246,
+      39
+    ],
+    "template": "os_ash/os_ash_ash_showdown.png"
+  },
+  "os_ash_ash_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1058,
+      634,
+      1260,
+      697
+    ],
+    "target": [
+      1058,
+      634,
+      1260,
+      697
+    ],
+    "template": "os_ash/os_ash_ash_start.png"
+  },
+  "os_ash_battle_status": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1087,
+      642,
+      1127,
+      679
+    ],
+    "target": [
+      1087,
+      642,
+      1127,
+      679
+    ],
+    "template": "os_ash/os_ash_battle_status.png"
+  },
+  "os_ash_beacon_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      465,
+      286,
+      664,
+      318
+    ],
+    "target": [
+      465,
+      286,
+      664,
+      318
+    ],
+    "template": "os_ash/os_ash_beacon_empty.png"
+  },
+  "os_ash_beacon_list": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "target": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "template": "os_ash/os_ash_beacon_list.png"
+  },
+  "os_ash_beacon_my": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "target": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "template": "os_ash/os_ash_beacon_my.png"
+  },
+  "os_ash_beacon_next": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      180,
+      368,
+      449,
+      440
+    ],
+    "target": [
+      180,
+      368,
+      449,
+      440
+    ],
+    "template": "os_ash/os_ash_beacon_next.png"
+  },
+  "os_ash_beacon_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1014,
+      25,
+      1073,
+      48
+    ],
+    "target": [
+      1014,
+      25,
+      1073,
+      48
+    ],
+    "template": "os_ash/os_ash_beacon_remain.png"
+  },
+  "os_ash_beacon_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1051,
+      644,
+      1179,
+      674
+    ],
+    "target": [
+      1043,
+      637,
+      1242,
+      698
+    ],
+    "template": "os_ash/os_ash_beacon_reward.png"
+  },
+  "os_ash_beacon_tier": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      100,
+      562,
+      200,
+      637
+    ],
+    "target": [
+      100,
+      562,
+      200,
+      637
+    ],
+    "template": "os_ash/os_ash_beacon_tier.png"
+  },
+  "os_ash_dossier_list": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "target": [
+      22,
+      645,
+      221,
+      706
+    ],
+    "template": "os_ash/os_ash_dossier_list.png"
+  },
+  "os_ash_help_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      391,
+      270,
+      557,
+      439
+    ],
+    "target": [
+      391,
+      270,
+      557,
+      439
+    ],
+    "template": "os_ash/os_ash_help_1.png"
+  },
+  "os_ash_help_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      584,
+      270,
+      750,
+      439
+    ],
+    "target": [
+      584,
+      270,
+      750,
+      439
+    ],
+    "template": "os_ash/os_ash_help_2.png"
+  },
+  "os_ash_help_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      778,
+      271,
+      941,
+      438
+    ],
+    "target": [
+      778,
+      271,
+      941,
+      438
+    ],
+    "template": "os_ash/os_ash_help_3.png"
+  },
+  "os_ash_help_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      741,
+      500,
+      915,
+      557
+    ],
+    "target": [
+      741,
+      500,
+      915,
+      557
+    ],
+    "template": "os_ash/os_ash_help_confirm.png"
+  },
+  "os_ash_help_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      866,
+      636,
+      1010,
+      697
+    ],
+    "target": [
+      866,
+      636,
+      1010,
+      697
+    ],
+    "template": "os_ash/os_ash_help_enter.png"
+  },
+  "os_ash_meta_auto_attack_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      717,
+      493,
+      884,
+      547
+    ],
+    "target": [
+      717,
+      493,
+      884,
+      547
+    ],
+    "template": "os_ash/os_ash_meta_auto_attack_confirm.png"
+  },
+  "os_ash_meta_auto_attack_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      648,
+      777,
+      683
+    ],
+    "target": [
+      746,
+      648,
+      777,
+      683
+    ],
+    "template": "os_ash/os_ash_meta_auto_attack_start.png"
+  },
+  "os_ash_meta_auto_attacking": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      649,
+      778,
+      680
+    ],
+    "target": [
+      746,
+      649,
+      778,
+      680
+    ],
+    "template": "os_ash/os_ash_meta_auto_attacking.png"
+  },
+  "os_ash_meta_auto_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      563,
+      498,
+      717,
+      540
+    ],
+    "target": [
+      563,
+      498,
+      717,
+      540
+    ],
+    "template": "os_ash/os_ash_meta_auto_confirm.png"
+  },
+  "os_ash_meta_beacon_data": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      840,
+      22,
+      951,
+      45
+    ],
+    "target": [
+      840,
+      22,
+      951,
+      45
+    ],
+    "template": "os_ash/os_ash_meta_beacon_data.png"
+  },
+  "os_ash_meta_beacon_flag": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      788,
+      22,
+      811,
+      45
+    ],
+    "target": [
+      788,
+      22,
+      811,
+      45
+    ],
+    "template": "os_ash/os_ash_meta_beacon_flag.png"
+  },
+  "os_ash_meta_begin_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      652,
+      348,
+      706,
+      371
+    ],
+    "target": [
+      546,
+      115,
+      748,
+      503
+    ],
+    "template": [
+      "os_ash/os_ash_meta_begin_entrance/"
+    ]
+  },
+  "os_ash_meta_damage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1196,
+      380,
+      1276,
+      416
+    ],
+    "target": [
+      1196,
+      380,
+      1276,
+      416
+    ],
+    "template": "os_ash/os_ash_meta_damage.png"
+  },
+  "os_ash_meta_dossier_data": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1050,
+      22,
+      1161,
+      46
+    ],
+    "target": [
+      1050,
+      22,
+      1161,
+      46
+    ],
+    "template": "os_ash/os_ash_meta_dossier_data.png"
+  },
+  "os_ash_meta_dossier_flag": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      999,
+      22,
+      1022,
+      45
+    ],
+    "target": [
+      999,
+      22,
+      1022,
+      45
+    ],
+    "template": "os_ash/os_ash_meta_dossier_flag.png"
+  },
+  "os_ash_meta_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      578,
+      463,
+      623,
+      493
+    ],
+    "target": [
+      578,
+      463,
+      623,
+      493
+    ],
+    "template": "os_ash/os_ash_meta_entrance.png"
+  },
+  "os_ash_meta_inner_page_damage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      937,
+      109,
+      1088,
+      128
+    ],
+    "target": [
+      937,
+      109,
+      1088,
+      128
+    ],
+    "template": "os_ash/os_ash_meta_inner_page_damage.png"
+  },
+  "os_ash_meta_inner_page_not_damage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      938,
+      109,
+      1088,
+      128
+    ],
+    "target": [
+      938,
+      109,
+      1088,
+      128
+    ],
+    "template": "os_ash/os_ash_meta_inner_page_not_damage.png"
+  },
+  "os_ash_meta_main_beacon_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      275,
+      162,
+      567,
+      557
+    ],
+    "target": [
+      275,
+      162,
+      567,
+      557
+    ],
+    "template": "os_ash/os_ash_meta_main_beacon_entrance.png"
+  },
+  "os_ash_meta_main_dossier_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      900,
+      526,
+      925,
+      539
+    ],
+    "target": [
+      706,
+      163,
+      998,
+      557
+    ],
+    "template": "os_ash/os_ash_meta_main_dossier_entrance.png"
+  }
+}

@@ -1,0 +1,2362 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/island_farm/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_farm_island_nursery_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      166,
+      286,
+      191
+    ],
+    "target": [
+      260,
+      221,
+      334,
+      294
+    ],
+    "template": "island_farm/island_farm_island_nursery_post1.png"
+  },
+  "island_farm_island_nursery_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      166,
+      286,
+      191
+    ],
+    "target": [
+      356,
+      222,
+      427,
+      290
+    ],
+    "template": "island_farm/island_farm_island_nursery_post2.png"
+  },
+  "island_farm_island_orchard_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      445,
+      823,
+      472
+    ],
+    "target": [
+      797,
+      499,
+      872,
+      575
+    ],
+    "template": "island_farm/island_farm_island_orchard_post1.png"
+  },
+  "island_farm_island_orchard_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      445,
+      823,
+      472
+    ],
+    "target": [
+      894,
+      500,
+      967,
+      574
+    ],
+    "template": "island_farm/island_farm_island_orchard_post2.png"
+  },
+  "island_farm_island_orchard_post3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      445,
+      823,
+      472
+    ],
+    "target": [
+      989,
+      500,
+      1062,
+      572
+    ],
+    "template": "island_farm/island_farm_island_orchard_post3.png"
+  },
+  "island_farm_island_orchard_post4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      445,
+      823,
+      472
+    ],
+    "target": [
+      1084,
+      502,
+      1155,
+      574
+    ],
+    "template": "island_farm/island_farm_island_orchard_post4.png"
+  },
+  "island_farm_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      198,
+      79,
+      287,
+      105
+    ],
+    "target": [
+      352,
+      132,
+      429,
+      211
+    ],
+    "template": "island_farm/island_farm_post2.png"
+  },
+  "island_farm_post3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      198,
+      79,
+      287,
+      105
+    ],
+    "target": [
+      448,
+      133,
+      524,
+      210
+    ],
+    "template": "island_farm/island_farm_post3.png"
+  },
+  "island_farm_post4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      198,
+      79,
+      287,
+      105
+    ],
+    "target": [
+      544,
+      135,
+      615,
+      206
+    ],
+    "template": "island_farm/island_farm_post4.png"
+  },
+  "island_farm_post_apple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      314,
+      671,
+      362
+    ],
+    "target": [
+      614,
+      314,
+      671,
+      362
+    ],
+    "template": "island_farm/island_farm_post_apple.png"
+  },
+  "island_farm_post_asparagus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      310,
+      666,
+      362
+    ],
+    "target": [
+      618,
+      310,
+      666,
+      362
+    ],
+    "template": "island_farm/island_farm_post_asparagus.png"
+  },
+  "island_farm_post_avocado": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      311,
+      671,
+      362
+    ],
+    "target": [
+      612,
+      311,
+      671,
+      362
+    ],
+    "template": "island_farm/island_farm_post_avocado.png"
+  },
+  "island_farm_post_banana": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      611,
+      315,
+      672,
+      362
+    ],
+    "target": [
+      611,
+      315,
+      672,
+      362
+    ],
+    "template": "island_farm/island_farm_post_banana.png"
+  },
+  "island_farm_post_carrot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      305,
+      673,
+      361
+    ],
+    "target": [
+      614,
+      305,
+      673,
+      361
+    ],
+    "template": "island_farm/island_farm_post_carrot.png"
+  },
+  "island_farm_post_chinese_cabbage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      308,
+      668,
+      361
+    ],
+    "target": [
+      612,
+      308,
+      668,
+      361
+    ],
+    "template": "island_farm/island_farm_post_chinese_cabbage.png"
+  },
+  "island_farm_post_citrus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      311,
+      669,
+      362
+    ],
+    "target": [
+      613,
+      311,
+      669,
+      362
+    ],
+    "template": "island_farm/island_farm_post_citrus.png"
+  },
+  "island_farm_post_coffee_bean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      602,
+      316,
+      679,
+      362
+    ],
+    "target": [
+      602,
+      316,
+      679,
+      362
+    ],
+    "template": "island_farm/island_farm_post_coffee_bean.png"
+  },
+  "island_farm_post_corn": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      613,
+      314,
+      671,
+      362
+    ],
+    "target": [
+      613,
+      314,
+      671,
+      362
+    ],
+    "template": "island_farm/island_farm_post_corn.png"
+  },
+  "island_farm_post_cotton": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      311,
+      668,
+      361
+    ],
+    "target": [
+      612,
+      311,
+      668,
+      361
+    ],
+    "template": "island_farm/island_farm_post_cotton.png"
+  },
+  "island_farm_post_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      209,
+      334,
+      272
+    ],
+    "target": [
+      265,
+      209,
+      334,
+      272
+    ],
+    "template": "island_farm/island_farm_post_cucumber.png"
+  },
+  "island_farm_post_flax": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      305,
+      678,
+      361
+    ],
+    "target": [
+      610,
+      305,
+      678,
+      361
+    ],
+    "template": "island_farm/island_farm_post_flax.png"
+  },
+  "island_farm_post_lavender": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      306,
+      670,
+      361
+    ],
+    "target": [
+      614,
+      306,
+      670,
+      361
+    ],
+    "template": "island_farm/island_farm_post_lavender.png"
+  },
+  "island_farm_post_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      670,
+      362
+    ],
+    "target": [
+      610,
+      316,
+      670,
+      362
+    ],
+    "template": "island_farm/island_farm_post_lemon.png"
+  },
+  "island_farm_post_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      314,
+      669,
+      362
+    ],
+    "target": [
+      614,
+      314,
+      669,
+      362
+    ],
+    "template": "island_farm/island_farm_post_mango.png"
+  },
+  "island_farm_post_onion": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      615,
+      309,
+      668,
+      361
+    ],
+    "target": [
+      615,
+      309,
+      668,
+      361
+    ],
+    "template": "island_farm/island_farm_post_onion.png"
+  },
+  "island_farm_post_pasture": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      311,
+      673,
+      362
+    ],
+    "target": [
+      609,
+      311,
+      673,
+      362
+    ],
+    "template": "island_farm/island_farm_post_pasture.png"
+  },
+  "island_farm_post_pear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      311,
+      670,
+      361
+    ],
+    "target": [
+      612,
+      311,
+      670,
+      361
+    ],
+    "template": "island_farm/island_farm_post_pear.png"
+  },
+  "island_farm_post_persimmon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      311,
+      670,
+      361
+    ],
+    "target": [
+      612,
+      311,
+      670,
+      361
+    ],
+    "template": "island_farm/island_farm_post_persimmon.png"
+  },
+  "island_farm_post_pineapple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      621,
+      307,
+      660,
+      362
+    ],
+    "target": [
+      621,
+      307,
+      660,
+      362
+    ],
+    "template": "island_farm/island_farm_post_pineapple.png"
+  },
+  "island_farm_post_potato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      314,
+      668,
+      360
+    ],
+    "target": [
+      612,
+      314,
+      668,
+      360
+    ],
+    "template": "island_farm/island_farm_post_potato.png"
+  },
+  "island_farm_post_rice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      319,
+      671,
+      361
+    ],
+    "target": [
+      610,
+      319,
+      671,
+      361
+    ],
+    "template": "island_farm/island_farm_post_rice.png"
+  },
+  "island_farm_post_rubber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      318,
+      669,
+      361
+    ],
+    "target": [
+      612,
+      318,
+      669,
+      361
+    ],
+    "template": "island_farm/island_farm_post_rubber.png"
+  },
+  "island_farm_post_soybean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      306,
+      668,
+      361
+    ],
+    "target": [
+      612,
+      306,
+      668,
+      361
+    ],
+    "template": "island_farm/island_farm_post_soybean.png"
+  },
+  "island_farm_post_strawberry": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      311,
+      671,
+      360
+    ],
+    "target": [
+      614,
+      311,
+      671,
+      360
+    ],
+    "template": "island_farm/island_farm_post_strawberry.png"
+  },
+  "island_farm_post_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      312,
+      674,
+      361
+    ],
+    "target": [
+      608,
+      312,
+      674,
+      361
+    ],
+    "template": "island_farm/island_farm_post_tea.png"
+  },
+  "island_farm_post_tomato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      265,
+      209,
+      334,
+      272
+    ],
+    "target": [
+      265,
+      209,
+      334,
+      272
+    ],
+    "template": "island_farm/island_farm_post_tomato.png"
+  },
+  "island_farm_post_wheat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      313,
+      677,
+      362
+    ],
+    "target": [
+      607,
+      313,
+      677,
+      362
+    ],
+    "template": "island_farm/island_farm_post_wheat.png"
+  },
+  "island_farm_select_apple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      452,
+      282,
+      506
+    ],
+    "target": [
+      219,
+      452,
+      282,
+      506
+    ],
+    "template": "island_farm/island_farm_select_apple.png"
+  },
+  "island_farm_select_apple_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      242,
+      835,
+      318
+    ],
+    "target": [
+      753,
+      242,
+      835,
+      318
+    ],
+    "template": "island_farm/island_farm_select_apple_check.png"
+  },
+  "island_farm_select_asparagus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      226,
+      147,
+      276,
+      212
+    ],
+    "target": [
+      226,
+      147,
+      276,
+      212
+    ],
+    "template": "island_farm/island_farm_select_asparagus.png"
+  },
+  "island_farm_select_asparagus_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      235,
+      830,
+      321
+    ],
+    "target": [
+      759,
+      235,
+      830,
+      321
+    ],
+    "template": "island_farm/island_farm_select_asparagus_check.png"
+  },
+  "island_farm_select_avocado": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      398,
+      282,
+      465
+    ],
+    "target": [
+      218,
+      398,
+      282,
+      465
+    ],
+    "template": "island_farm/island_farm_select_avocado.png"
+  },
+  "island_farm_select_avocado_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      232,
+      837,
+      323
+    ],
+    "target": [
+      751,
+      232,
+      837,
+      323
+    ],
+    "template": "island_farm/island_farm_select_avocado_check.png"
+  },
+  "island_farm_select_banana": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      503,
+      285,
+      556
+    ],
+    "target": [
+      218,
+      503,
+      285,
+      556
+    ],
+    "template": "island_farm/island_farm_select_banana.png"
+  },
+  "island_farm_select_banana_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      747,
+      240,
+      841,
+      315
+    ],
+    "target": [
+      747,
+      240,
+      841,
+      315
+    ],
+    "template": "island_farm/island_farm_select_banana_check.png"
+  },
+  "island_farm_select_carrot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      398,
+      284,
+      465
+    ],
+    "target": [
+      218,
+      398,
+      284,
+      465
+    ],
+    "template": "island_farm/island_farm_select_carrot.png"
+  },
+  "island_farm_select_carrot_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      226,
+      840,
+      327
+    ],
+    "target": [
+      750,
+      226,
+      840,
+      327
+    ],
+    "template": "island_farm/island_farm_select_carrot_check.png"
+  },
+  "island_farm_select_chinese_cabbage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      253,
+      280,
+      315
+    ],
+    "target": [
+      218,
+      253,
+      280,
+      315
+    ],
+    "template": "island_farm/island_farm_select_chinese_cabbage.png"
+  },
+  "island_farm_select_chinese_cabbage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      230,
+      832,
+      323
+    ],
+    "target": [
+      750,
+      230,
+      832,
+      323
+    ],
+    "template": "island_farm/island_farm_select_chinese_cabbage_check.png"
+  },
+  "island_farm_select_citrus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      600,
+      284,
+      651
+    ],
+    "target": [
+      217,
+      600,
+      284,
+      651
+    ],
+    "template": "island_farm/island_farm_select_citrus.png"
+  },
+  "island_farm_select_citrus_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      752,
+      235,
+      836,
+      317
+    ],
+    "target": [
+      752,
+      235,
+      836,
+      317
+    ],
+    "template": "island_farm/island_farm_select_citrus_check.png"
+  },
+  "island_farm_select_coffee_bean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      210,
+      599,
+      289,
+      651
+    ],
+    "target": [
+      210,
+      599,
+      289,
+      651
+    ],
+    "template": "island_farm/island_farm_select_coffee_bean.png"
+  },
+  "island_farm_select_coffee_bean_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      736,
+      243,
+      846,
+      324
+    ],
+    "target": [
+      736,
+      243,
+      846,
+      324
+    ],
+    "template": "island_farm/island_farm_select_coffee_bean_check.png"
+  },
+  "island_farm_select_corn": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      300,
+      281,
+      360
+    ],
+    "target": [
+      217,
+      300,
+      281,
+      360
+    ],
+    "template": "island_farm/island_farm_select_corn.png"
+  },
+  "island_farm_select_corn_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      749,
+      238,
+      839,
+      322
+    ],
+    "target": [
+      749,
+      238,
+      839,
+      322
+    ],
+    "template": "island_farm/island_farm_select_corn_check.png"
+  },
+  "island_farm_select_cotton": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      446,
+      281,
+      506
+    ],
+    "target": [
+      217,
+      446,
+      281,
+      506
+    ],
+    "template": "island_farm/island_farm_select_cotton.png"
+  },
+  "island_farm_select_cotton_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      238,
+      834,
+      321
+    ],
+    "target": [
+      751,
+      238,
+      834,
+      321
+    ],
+    "template": "island_farm/island_farm_select_cotton_check.png"
+  },
+  "island_farm_select_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "target": [
+      215,
+      300,
+      287,
+      357
+    ],
+    "template": "island_farm/island_farm_select_cucumber.png"
+  },
+  "island_farm_select_cucumber_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_farm/island_farm_select_cucumber_check.png"
+  },
+  "island_farm_select_flax": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      142,
+      286,
+      211
+    ],
+    "target": [
+      215,
+      142,
+      286,
+      211
+    ],
+    "template": "island_farm/island_farm_select_flax.png"
+  },
+  "island_farm_select_flax_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      227,
+      847,
+      327
+    ],
+    "target": [
+      746,
+      227,
+      847,
+      327
+    ],
+    "template": "island_farm/island_farm_select_flax_check.png"
+  },
+  "island_farm_select_lavender": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      220,
+      250,
+      279,
+      316
+    ],
+    "target": [
+      220,
+      250,
+      279,
+      316
+    ],
+    "template": "island_farm/island_farm_select_lavender.png"
+  },
+  "island_farm_select_lavender_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      227,
+      841,
+      325
+    ],
+    "target": [
+      750,
+      227,
+      841,
+      325
+    ],
+    "template": "island_farm/island_farm_select_lavender_check.png"
+  },
+  "island_farm_select_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      217,
+      260,
+      280,
+      314
+    ],
+    "target": [
+      217,
+      260,
+      280,
+      314
+    ],
+    "template": "island_farm/island_farm_select_lemon.png"
+  },
+  "island_farm_select_lemon_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      240,
+      837,
+      315
+    ],
+    "target": [
+      746,
+      240,
+      837,
+      315
+    ],
+    "template": "island_farm/island_farm_select_lemon_check.png"
+  },
+  "island_farm_select_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      106,
+      279,
+      162
+    ],
+    "target": [
+      219,
+      106,
+      279,
+      162
+    ],
+    "template": "island_farm/island_farm_select_mango.png"
+  },
+  "island_farm_select_mango_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      752,
+      240,
+      833,
+      316
+    ],
+    "target": [
+      752,
+      240,
+      833,
+      316
+    ],
+    "template": "island_farm/island_farm_select_mango_check.png"
+  },
+  "island_farm_select_onion": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      552,
+      282,
+      614
+    ],
+    "target": [
+      218,
+      552,
+      282,
+      614
+    ],
+    "template": "island_farm/island_farm_select_onion.png"
+  },
+  "island_farm_select_onion_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      233,
+      832,
+      323
+    ],
+    "target": [
+      753,
+      233,
+      832,
+      323
+    ],
+    "template": "island_farm/island_farm_select_onion_check.png"
+  },
+  "island_farm_select_pasture": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      446,
+      283,
+      509
+    ],
+    "target": [
+      212,
+      446,
+      283,
+      509
+    ],
+    "template": "island_farm/island_farm_select_pasture.png"
+  },
+  "island_farm_select_pasture_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      234,
+      842,
+      324
+    ],
+    "target": [
+      743,
+      234,
+      842,
+      324
+    ],
+    "template": "island_farm/island_farm_select_pasture_check.png"
+  },
+  "island_farm_select_pear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      223,
+      156,
+      276,
+      208
+    ],
+    "target": [
+      223,
+      156,
+      276,
+      208
+    ],
+    "template": "island_farm/island_farm_select_pear.png"
+  },
+  "island_farm_select_pear_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      248,
+      830,
+      317
+    ],
+    "target": [
+      756,
+      248,
+      830,
+      317
+    ],
+    "template": "island_farm/island_farm_select_pear_check.png"
+  },
+  "island_farm_select_persimmon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      222,
+      304,
+      279,
+      357
+    ],
+    "target": [
+      222,
+      304,
+      279,
+      357
+    ],
+    "template": "island_farm/island_farm_select_persimmon.png"
+  },
+  "island_farm_select_persimmon_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      241,
+      834,
+      316
+    ],
+    "target": [
+      753,
+      241,
+      834,
+      316
+    ],
+    "template": "island_farm/island_farm_select_persimmon_check.png"
+  },
+  "island_farm_select_pineapple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      228,
+      295,
+      269,
+      360
+    ],
+    "target": [
+      228,
+      295,
+      269,
+      360
+    ],
+    "template": "island_farm/island_farm_select_pineapple.png"
+  },
+  "island_farm_select_pineapple_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      763,
+      231,
+      820,
+      324
+    ],
+    "target": [
+      763,
+      231,
+      820,
+      324
+    ],
+    "template": "island_farm/island_farm_select_pineapple_check.png"
+  },
+  "island_farm_select_potato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      404,
+      279,
+      464
+    ],
+    "target": [
+      219,
+      404,
+      279,
+      464
+    ],
+    "template": "island_farm/island_farm_select_potato.png"
+  },
+  "island_farm_select_potato_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      752,
+      242,
+      832,
+      319
+    ],
+    "target": [
+      752,
+      242,
+      832,
+      319
+    ],
+    "template": "island_farm/island_farm_select_potato_check.png"
+  },
+  "island_farm_select_rice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      216,
+      110,
+      281,
+      165
+    ],
+    "target": [
+      216,
+      110,
+      281,
+      165
+    ],
+    "template": "island_farm/island_farm_select_rice.png"
+  },
+  "island_farm_select_rice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      238,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      238,
+      837,
+      321
+    ],
+    "template": "island_farm/island_farm_select_rice_check.png"
+  },
+  "island_farm_select_rubber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      218,
+      557,
+      279,
+      611
+    ],
+    "target": [
+      218,
+      557,
+      279,
+      611
+    ],
+    "template": "island_farm/island_farm_select_rubber.png"
+  },
+  "island_farm_select_rubber_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      750,
+      244,
+      832,
+      317
+    ],
+    "target": [
+      750,
+      244,
+      832,
+      317
+    ],
+    "template": "island_farm/island_farm_select_rubber_check.png"
+  },
+  "island_farm_select_soybean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      219,
+      546,
+      277,
+      613
+    ],
+    "target": [
+      219,
+      546,
+      277,
+      613
+    ],
+    "template": "island_farm/island_farm_select_soybean.png"
+  },
+  "island_farm_select_soybean_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      749,
+      226,
+      833,
+      324
+    ],
+    "target": [
+      749,
+      226,
+      833,
+      324
+    ],
+    "template": "island_farm/island_farm_select_soybean_check.png"
+  },
+  "island_farm_select_strawberry": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      220,
+      299,
+      281,
+      357
+    ],
+    "target": [
+      220,
+      299,
+      281,
+      357
+    ],
+    "template": "island_farm/island_farm_select_strawberry.png"
+  },
+  "island_farm_select_strawberry_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      755,
+      239,
+      831,
+      317
+    ],
+    "target": [
+      755,
+      239,
+      831,
+      317
+    ],
+    "template": "island_farm/island_farm_select_strawberry_check.png"
+  },
+  "island_farm_select_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      598,
+      284,
+      651
+    ],
+    "target": [
+      214,
+      598,
+      284,
+      651
+    ],
+    "template": "island_farm/island_farm_select_tea.png"
+  },
+  "island_farm_select_tea_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      237,
+      840,
+      320
+    ],
+    "target": [
+      743,
+      237,
+      840,
+      320
+    ],
+    "template": "island_farm/island_farm_select_tea_check.png"
+  },
+  "island_farm_select_tomato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "target": [
+      215,
+      148,
+      287,
+      211
+    ],
+    "template": "island_farm/island_farm_select_tomato.png"
+  },
+  "island_farm_select_tomato_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "target": [
+      745,
+      240,
+      837,
+      321
+    ],
+    "template": "island_farm/island_farm_select_tomato_check.png"
+  },
+  "island_farm_select_wheat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      144,
+      286,
+      209
+    ],
+    "target": [
+      212,
+      144,
+      286,
+      209
+    ],
+    "template": "island_farm/island_farm_select_wheat.png"
+  },
+  "island_farm_select_wheat_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      236,
+      847,
+      320
+    ],
+    "target": [
+      743,
+      236,
+      847,
+      320
+    ],
+    "template": "island_farm/island_farm_select_wheat_check.png"
+  },
+  "island_farm_shop_seed_apple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      266,
+      231,
+      329,
+      299
+    ],
+    "target": [
+      266,
+      231,
+      329,
+      299
+    ],
+    "template": "island_farm/island_farm_shop_seed_apple.png"
+  },
+  "island_farm_shop_seed_asparagus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      433,
+      462,
+      490,
+      521
+    ],
+    "target": [
+      433,
+      462,
+      490,
+      521
+    ],
+    "template": "island_farm/island_farm_shop_seed_asparagus.png"
+  },
+  "island_farm_shop_seed_avocado": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1080,
+      230,
+      1145,
+      300
+    ],
+    "target": [
+      1080,
+      230,
+      1145,
+      300
+    ],
+    "template": "island_farm/island_farm_shop_seed_avocado.png"
+  },
+  "island_farm_shop_seed_banana": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      592,
+      230,
+      656,
+      299
+    ],
+    "target": [
+      592,
+      230,
+      656,
+      299
+    ],
+    "template": "island_farm/island_farm_shop_seed_banana.png"
+  },
+  "island_farm_shop_seed_carrot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      267,
+      232,
+      331,
+      298
+    ],
+    "target": [
+      267,
+      232,
+      331,
+      298
+    ],
+    "template": "island_farm/island_farm_shop_seed_carrot.png"
+  },
+  "island_farm_shop_seed_chinese_cabbage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      760,
+      234,
+      818,
+      298
+    ],
+    "target": [
+      760,
+      234,
+      818,
+      298
+    ],
+    "template": "island_farm/island_farm_shop_seed_chinese_cabbage.png"
+  },
+  "island_farm_shop_seed_citrus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      430,
+      229,
+      496,
+      301
+    ],
+    "target": [
+      430,
+      229,
+      496,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_citrus.png"
+  },
+  "island_farm_shop_seed_coffee_bean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      428,
+      460,
+      492,
+      523
+    ],
+    "target": [
+      428,
+      460,
+      492,
+      523
+    ],
+    "template": "island_farm/island_farm_shop_seed_coffee_bean.png"
+  },
+  "island_farm_shop_seed_corn": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      427,
+      232,
+      494,
+      298
+    ],
+    "target": [
+      427,
+      232,
+      494,
+      298
+    ],
+    "template": "island_farm/island_farm_shop_seed_corn.png"
+  },
+  "island_farm_shop_seed_cotton": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      922,
+      232,
+      982,
+      298
+    ],
+    "target": [
+      922,
+      232,
+      982,
+      298
+    ],
+    "template": "island_farm/island_farm_shop_seed_cotton.png"
+  },
+  "island_farm_shop_seed_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      429,
+      456,
+      493,
+      526
+    ],
+    "target": [
+      429,
+      456,
+      493,
+      526
+    ],
+    "template": "island_farm/island_farm_shop_seed_cucumber.png"
+  },
+  "island_farm_shop_seed_flax": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      597,
+      232,
+      655,
+      297
+    ],
+    "target": [
+      597,
+      232,
+      655,
+      297
+    ],
+    "template": "island_farm/island_farm_shop_seed_flax.png"
+  },
+  "island_farm_shop_seed_lavender": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      269,
+      459,
+      329,
+      520
+    ],
+    "target": [
+      269,
+      459,
+      329,
+      520
+    ],
+    "template": "island_farm/island_farm_shop_seed_lavender.png"
+  },
+  "island_farm_shop_seed_lemon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      916,
+      231,
+      984,
+      301
+    ],
+    "target": [
+      916,
+      231,
+      984,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_lemon.png"
+  },
+  "island_farm_shop_seed_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      755,
+      230,
+      825,
+      301
+    ],
+    "target": [
+      755,
+      230,
+      825,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_mango.png"
+  },
+  "island_farm_shop_seed_onion": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      429,
+      232,
+      491,
+      301
+    ],
+    "target": [
+      429,
+      232,
+      491,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_onion.png"
+  },
+  "island_farm_shop_seed_pasture": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      267,
+      459,
+      331,
+      524
+    ],
+    "target": [
+      267,
+      459,
+      331,
+      524
+    ],
+    "template": "island_farm/island_farm_shop_seed_pasture.png"
+  },
+  "island_farm_shop_seed_pear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      429,
+      456,
+      493,
+      526
+    ],
+    "target": [
+      429,
+      456,
+      493,
+      526
+    ],
+    "template": "island_farm/island_farm_shop_seed_pear.png"
+  },
+  "island_farm_shop_seed_persimmon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      592,
+      456,
+      658,
+      526
+    ],
+    "target": [
+      592,
+      456,
+      658,
+      526
+    ],
+    "template": "island_farm/island_farm_shop_seed_persimmon.png"
+  },
+  "island_farm_shop_seed_pineapple": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      595,
+      461,
+      654,
+      520
+    ],
+    "target": [
+      595,
+      461,
+      654,
+      520
+    ],
+    "template": "island_farm/island_farm_shop_seed_pineapple.png"
+  },
+  "island_farm_shop_seed_potato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      921,
+      231,
+      983,
+      303
+    ],
+    "target": [
+      921,
+      231,
+      983,
+      303
+    ],
+    "template": "island_farm/island_farm_shop_seed_potato.png"
+  },
+  "island_farm_shop_seed_rice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      594,
+      231,
+      657,
+      301
+    ],
+    "target": [
+      594,
+      231,
+      657,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_rice.png"
+  },
+  "island_farm_shop_seed_rubber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      255,
+      452,
+      337,
+      529
+    ],
+    "target": [
+      255,
+      452,
+      337,
+      529
+    ],
+    "template": "island_farm/island_farm_shop_seed_rubber.png"
+  },
+  "island_farm_shop_seed_soybean": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1083,
+      233,
+      1146,
+      302
+    ],
+    "target": [
+      1083,
+      233,
+      1146,
+      302
+    ],
+    "template": "island_farm/island_farm_shop_seed_soybean.png"
+  },
+  "island_farm_shop_seed_strawberry": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      231,
+      820,
+      301
+    ],
+    "target": [
+      756,
+      231,
+      820,
+      301
+    ],
+    "template": "island_farm/island_farm_shop_seed_strawberry.png"
+  },
+  "island_farm_shop_seed_tea": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1084,
+      232,
+      1151,
+      300
+    ],
+    "target": [
+      1084,
+      232,
+      1151,
+      300
+    ],
+    "template": "island_farm/island_farm_shop_seed_tea.png"
+  },
+  "island_farm_shop_seed_tomato": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      592,
+      456,
+      658,
+      526
+    ],
+    "target": [
+      592,
+      456,
+      658,
+      526
+    ],
+    "template": "island_farm/island_farm_shop_seed_tomato.png"
+  },
+  "island_farm_shop_seed_wheat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      268,
+      230,
+      328,
+      297
+    ],
+    "target": [
+      268,
+      230,
+      328,
+      297
+    ],
+    "template": "island_farm/island_farm_shop_seed_wheat.png"
+  },
+  "island_farm_template_apple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_apple.png"
+  },
+  "island_farm_template_asparagus": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_asparagus.png"
+  },
+  "island_farm_template_avocado": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_avocado.png"
+  },
+  "island_farm_template_banana": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_banana.png"
+  },
+  "island_farm_template_carrot": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_carrot.png"
+  },
+  "island_farm_template_chinese_cabbage": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_chinese_cabbage.png"
+  },
+  "island_farm_template_citrus": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_citrus.png"
+  },
+  "island_farm_template_coffee_bean": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_coffee_bean.png"
+  },
+  "island_farm_template_corn": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_corn.png"
+  },
+  "island_farm_template_cotton": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_cotton.png"
+  },
+  "island_farm_template_cucumber": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_cucumber.png"
+  },
+  "island_farm_template_flax": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_flax.png"
+  },
+  "island_farm_template_lavender": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_lavender.png"
+  },
+  "island_farm_template_lemon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_lemon.png"
+  },
+  "island_farm_template_mango": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_mango.png"
+  },
+  "island_farm_template_onion": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_onion.png"
+  },
+  "island_farm_template_pasture": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_pasture.png"
+  },
+  "island_farm_template_pear": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_pear.png"
+  },
+  "island_farm_template_persimmon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_persimmon.png"
+  },
+  "island_farm_template_pineapple": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_pineapple.png"
+  },
+  "island_farm_template_potato": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_potato.png"
+  },
+  "island_farm_template_rice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_rice.png"
+  },
+  "island_farm_template_rubber": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_rubber.png"
+  },
+  "island_farm_template_soybean": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_soybean.png"
+  },
+  "island_farm_template_strawberry": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_strawberry.png"
+  },
+  "island_farm_template_tea": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_tea.png"
+  },
+  "island_farm_template_tomato": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_tomato.png"
+  },
+  "island_farm_template_wheat": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_wheat.png"
+  },
+  "island_farm_template_wheat_flour": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_farm/island_farm_template_wheat_flour.png"
+  }
+}

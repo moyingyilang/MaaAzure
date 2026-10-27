@@ -1,0 +1,358 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/storage/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "storage_box_amount_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      802,
+      617,
+      877,
+      647
+    ],
+    "target": [
+      802,
+      617,
+      877,
+      647
+    ],
+    "template": "storage/storage_box_amount_confirm.png"
+  },
+  "storage_box_amount_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      591,
+      298,
+      688,
+      326
+    ],
+    "target": [
+      591,
+      298,
+      688,
+      326
+    ],
+    "template": "storage/storage_box_amount_ocr.png"
+  },
+  "storage_box_remain_amount_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      443,
+      407,
+      501,
+      430
+    ],
+    "target": [
+      443,
+      407,
+      501,
+      430
+    ],
+    "template": "storage/storage_box_remain_amount_ocr.png"
+  },
+  "storage_box_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      748,
+      495,
+      818,
+      527
+    ],
+    "target": [
+      748,
+      495,
+      818,
+      527
+    ],
+    "template": "storage/storage_box_use.png"
+  },
+  "storage_disassemble": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      357,
+      663,
+      456,
+      691
+    ],
+    "target": [
+      349,
+      657,
+      468,
+      700
+    ],
+    "template": "storage/storage_disassemble.png"
+  },
+  "storage_disassemble_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      899,
+      658,
+      971,
+      691
+    ],
+    "target": [
+      860,
+      647,
+      1021,
+      704
+    ],
+    "template": "storage/storage_disassemble_cancel.png"
+  },
+  "storage_disassemble_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1108,
+      657,
+      1185,
+      691
+    ],
+    "target": [
+      1070,
+      645,
+      1230,
+      704
+    ],
+    "template": "storage/storage_disassemble_confirm.png"
+  },
+  "storage_disassemble_count_ocr": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      662,
+      687,
+      695
+    ],
+    "target": [
+      612,
+      662,
+      687,
+      695
+    ],
+    "template": "storage/storage_disassemble_count_ocr.png"
+  },
+  "storage_disassemble_popup_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      564,
+      818,
+      596
+    ],
+    "target": [
+      706,
+      553,
+      859,
+      608
+    ],
+    "template": "storage/storage_disassemble_popup_confirm.png"
+  },
+  "storage_equipment_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1127,
+      353,
+      1155,
+      395
+    ],
+    "target": [
+      1127,
+      353,
+      1155,
+      395
+    ],
+    "template": "storage/storage_equipment_empty.png"
+  },
+  "storage_equipment_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1019,
+      664,
+      1079,
+      692
+    ],
+    "target": [
+      949,
+      652,
+      1095,
+      701
+    ],
+    "template": "storage/storage_equipment_enter.png"
+  },
+  "storage_equipment_filter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      792,
+      22,
+      854,
+      38
+    ],
+    "target": [
+      791,
+      7,
+      885,
+      46
+    ],
+    "template": "storage/storage_equipment_filter.png"
+  },
+  "storage_equipment_filter_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      761,
+      613,
+      838,
+      648
+    ],
+    "target": [
+      721,
+      602,
+      885,
+      660
+    ],
+    "template": "storage/storage_equipment_filter_confirm.png"
+  },
+  "storage_equipment_full": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      450,
+      496,
+      529,
+      529
+    ],
+    "target": [
+      410,
+      482,
+      574,
+      540
+    ],
+    "template": "storage/storage_equipment_full.png"
+  },
+  "storage_material_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      89,
+      662,
+      138,
+      690
+    ],
+    "target": [
+      89,
+      662,
+      138,
+      690
+    ],
+    "template": "storage/storage_material_check.png"
+  },
+  "storage_material_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1178,
+      666,
+      1238,
+      692
+    ],
+    "target": [
+      1107,
+      652,
+      1256,
+      702
+    ],
+    "template": "storage/storage_material_enter.png"
+  },
+  "storage_material_stable_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      858,
+      422,
+      1231,
+      631
+    ],
+    "target": [
+      858,
+      422,
+      1231,
+      631
+    ],
+    "template": "storage/storage_material_stable_check.png"
+  },
+  "storage_meterial_scroll": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1257,
+      94,
+      1263,
+      585
+    ],
+    "target": [
+      1257,
+      94,
+      1263,
+      585
+    ],
+    "template": "storage/storage_meterial_scroll.png"
+  },
+  "storage_template_box_t1": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "storage/storage_template_box_t1.png"
+  },
+  "storage_template_box_t2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "storage/storage_template_box_t2.png"
+  },
+  "storage_template_box_t3": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "storage/storage_template_box_t3.png"
+  },
+  "storage_template_box_t4": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "storage/storage_template_box_t4.png"
+  }
+}

@@ -1,0 +1,2754 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/os_handler/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "os_handler_action_point_buy_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      803,
+      458,
+      833,
+      482
+    ],
+    "target": [
+      803,
+      458,
+      833,
+      482
+    ],
+    "template": "os_handler/os_handler_action_point_buy_remain.png"
+  },
+  "os_handler_action_point_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      371,
+      528,
+      541,
+      586
+    ],
+    "target": [
+      371,
+      528,
+      541,
+      586
+    ],
+    "template": "os_handler/os_handler_action_point_cancel.png"
+  },
+  "os_handler_action_point_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      892,
+      220,
+      952,
+      241
+    ],
+    "target": [
+      892,
+      220,
+      952,
+      241
+    ],
+    "template": "os_handler/os_handler_action_point_remain.png"
+  },
+  "os_handler_action_point_remain_os": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      878,
+      28,
+      928,
+      46
+    ],
+    "target": [
+      878,
+      28,
+      928,
+      46
+    ],
+    "template": "os_handler/os_handler_action_point_remain_os.png"
+  },
+  "os_handler_action_point_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      739,
+      528,
+      909,
+      585
+    ],
+    "target": [
+      739,
+      528,
+      909,
+      585
+    ],
+    "template": "os_handler/os_handler_action_point_use.png"
+  },
+  "os_handler_ash_popup_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      665,
+      298,
+      759,
+      320
+    ],
+    "target": [
+      665,
+      298,
+      759,
+      320
+    ],
+    "template": "os_handler/os_handler_ash_popup_check.png"
+  },
+  "os_handler_auto_search_os_map_option_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1206,
+      573,
+      1275,
+      591
+    ],
+    "target": [
+      1206,
+      573,
+      1275,
+      591
+    ],
+    "template": "os_handler/os_handler_auto_search_os_map_option_off.png"
+  },
+  "os_handler_auto_search_os_map_option_off_disabled": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1205,
+      531,
+      1275,
+      547
+    ],
+    "target": [
+      1205,
+      531,
+      1275,
+      547
+    ],
+    "template": "os_handler/os_handler_auto_search_os_map_option_off_disabled.png"
+  },
+  "os_handler_auto_search_os_map_option_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1206,
+      573,
+      1275,
+      591
+    ],
+    "target": [
+      1206,
+      573,
+      1275,
+      591
+    ],
+    "template": "os_handler/os_handler_auto_search_os_map_option_on.png"
+  },
+  "os_handler_auto_search_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      576,
+      598,
+      720,
+      647
+    ],
+    "target": [
+      576,
+      598,
+      720,
+      647
+    ],
+    "template": "os_handler/os_handler_auto_search_reward.png"
+  },
+  "os_handler_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1104,
+      169,
+      1214,
+      284
+    ],
+    "target": [
+      1104,
+      169,
+      1214,
+      284
+    ],
+    "template": "os_handler/os_handler_click_safe_area.png"
+  },
+  "os_handler_cost_purplecoin_option_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      448,
+      496,
+      528,
+      536
+    ],
+    "target": [
+      448,
+      496,
+      528,
+      536
+    ],
+    "template": "os_handler/os_handler_cost_purplecoin_option_a.png"
+  },
+  "os_handler_cost_purplecoin_option_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      751,
+      495,
+      833,
+      545
+    ],
+    "target": [
+      751,
+      495,
+      833,
+      545
+    ],
+    "template": "os_handler/os_handler_cost_purplecoin_option_b.png"
+  },
+  "os_handler_current_ap_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      837,
+      228,
+      867,
+      252
+    ],
+    "target": [
+      837,
+      228,
+      867,
+      252
+    ],
+    "template": "os_handler/os_handler_current_ap_check.png"
+  },
+  "os_handler_depart_confirm_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      703,
+      482,
+      877,
+      541
+    ],
+    "target": [
+      703,
+      482,
+      877,
+      541
+    ],
+    "template": "os_handler/os_handler_depart_confirm_button.png"
+  },
+  "os_handler_depart_confirm_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      498,
+      826,
+      530
+    ],
+    "target": [
+      753,
+      498,
+      826,
+      530
+    ],
+    "template": "os_handler/os_handler_depart_confirm_template.png"
+  },
+  "os_handler_depart_immediately_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      963,
+      576,
+      1163,
+      640
+    ],
+    "target": [
+      963,
+      576,
+      1163,
+      640
+    ],
+    "template": "os_handler/os_handler_depart_immediately_button.png"
+  },
+  "os_handler_depart_immediately_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      996,
+      585,
+      1125,
+      616
+    ],
+    "target": [
+      996,
+      585,
+      1125,
+      616
+    ],
+    "template": "os_handler/os_handler_depart_immediately_template.png"
+  },
+  "os_handler_exchange_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      142,
+      15,
+      250,
+      44
+    ],
+    "target": [
+      142,
+      15,
+      250,
+      44
+    ],
+    "template": "os_handler/os_handler_exchange_check.png"
+  },
+  "os_handler_exchange_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      195,
+      629,
+      344,
+      693
+    ],
+    "target": [
+      195,
+      629,
+      344,
+      693
+    ],
+    "template": "os_handler/os_handler_exchange_enter.png"
+  },
+  "os_handler_favorite_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1143,
+      630,
+      1218,
+      707
+    ],
+    "target": [
+      1143,
+      630,
+      1218,
+      707
+    ],
+    "template": "os_handler/os_handler_favorite_button.png"
+  },
+  "os_handler_favorite_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1165,
+      674,
+      1196,
+      689
+    ],
+    "target": [
+      1165,
+      674,
+      1196,
+      689
+    ],
+    "template": "os_handler/os_handler_favorite_template.png"
+  },
+  "os_handler_fleet_deploy_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      920,
+      122,
+      1220,
+      218
+    ],
+    "target": [
+      920,
+      122,
+      1220,
+      218
+    ],
+    "template": "os_handler/os_handler_fleet_deploy_button.png"
+  },
+  "os_handler_fleet_deploy_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      991,
+      138,
+      1116,
+      170
+    ],
+    "target": [
+      991,
+      138,
+      1116,
+      170
+    ],
+    "template": "os_handler/os_handler_fleet_deploy_template.png"
+  },
+  "os_handler_fleet_deployment": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      100,
+      71,
+      364,
+      115
+    ],
+    "target": [
+      100,
+      71,
+      364,
+      115
+    ],
+    "template": "os_handler/os_handler_fleet_deployment.png"
+  },
+  "os_handler_fleet_slot_1_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      373,
+      170,
+      453,
+      248
+    ],
+    "target": [
+      373,
+      170,
+      453,
+      248
+    ],
+    "template": "os_handler/os_handler_fleet_slot_1_button.png"
+  },
+  "os_handler_fleet_slot_1_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      412,
+      173,
+      430,
+      188
+    ],
+    "target": [
+      412,
+      173,
+      430,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_1_template.png"
+  },
+  "os_handler_fleet_slot_2_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      476,
+      170,
+      555,
+      249
+    ],
+    "target": [
+      476,
+      170,
+      555,
+      249
+    ],
+    "template": "os_handler/os_handler_fleet_slot_2_button.png"
+  },
+  "os_handler_fleet_slot_2_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      514,
+      173,
+      531,
+      188
+    ],
+    "target": [
+      514,
+      173,
+      531,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_2_template.png"
+  },
+  "os_handler_fleet_slot_3_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      578,
+      169,
+      658,
+      250
+    ],
+    "target": [
+      578,
+      169,
+      658,
+      250
+    ],
+    "template": "os_handler/os_handler_fleet_slot_3_button.png"
+  },
+  "os_handler_fleet_slot_3_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      173,
+      634,
+      188
+    ],
+    "target": [
+      616,
+      173,
+      634,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_3_template.png"
+  },
+  "os_handler_fleet_slot_4_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      689,
+      170,
+      769,
+      249
+    ],
+    "target": [
+      689,
+      170,
+      769,
+      249
+    ],
+    "template": "os_handler/os_handler_fleet_slot_4_button.png"
+  },
+  "os_handler_fleet_slot_4_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      727,
+      173,
+      743,
+      188
+    ],
+    "target": [
+      727,
+      173,
+      743,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_4_template.png"
+  },
+  "os_handler_fleet_slot_5_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      792,
+      170,
+      871,
+      249
+    ],
+    "target": [
+      792,
+      170,
+      871,
+      249
+    ],
+    "template": "os_handler/os_handler_fleet_slot_5_button.png"
+  },
+  "os_handler_fleet_slot_5_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      829,
+      173,
+      845,
+      188
+    ],
+    "target": [
+      829,
+      173,
+      845,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_5_template.png"
+  },
+  "os_handler_fleet_slot_6_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      893,
+      169,
+      973,
+      249
+    ],
+    "target": [
+      893,
+      169,
+      973,
+      249
+    ],
+    "template": "os_handler/os_handler_fleet_slot_6_button.png"
+  },
+  "os_handler_fleet_slot_6_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      939,
+      173,
+      955,
+      188
+    ],
+    "target": [
+      939,
+      173,
+      955,
+      188
+    ],
+    "template": "os_handler/os_handler_fleet_slot_6_template.png"
+  },
+  "os_handler_fleet_slot_confirm_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      936,
+      640,
+      1110,
+      700
+    ],
+    "target": [
+      936,
+      640,
+      1110,
+      700
+    ],
+    "template": "os_handler/os_handler_fleet_slot_confirm_button.png"
+  },
+  "os_handler_fleet_slot_confirm_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      986,
+      653,
+      1059,
+      685
+    ],
+    "target": [
+      986,
+      653,
+      1059,
+      685
+    ],
+    "template": "os_handler/os_handler_fleet_slot_confirm_template.png"
+  },
+  "os_handler_get_adaptability": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      539,
+      191,
+      741,
+      227
+    ],
+    "target": [
+      539,
+      191,
+      741,
+      227
+    ],
+    "template": "os_handler/os_handler_get_adaptability.png"
+  },
+  "os_handler_get_meowfficer_items_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      558,
+      211,
+      730,
+      242
+    ],
+    "target": [
+      558,
+      211,
+      730,
+      242
+    ],
+    "template": "os_handler/os_handler_get_meowfficer_items_1.png"
+  },
+  "os_handler_get_meowfficer_items_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      558,
+      140,
+      730,
+      171
+    ],
+    "target": [
+      558,
+      140,
+      730,
+      171
+    ],
+    "template": "os_handler/os_handler_get_meowfficer_items_2.png"
+  },
+  "os_handler_in_map": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      925,
+      645,
+      986,
+      674
+    ],
+    "target": [
+      925,
+      645,
+      986,
+      674
+    ],
+    "template": "os_handler/os_handler_in_map.png"
+  },
+  "os_handler_leave_fleet_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      86,
+      134,
+      226,
+      219
+    ],
+    "target": [
+      86,
+      134,
+      226,
+      219
+    ],
+    "template": "os_handler/os_handler_leave_fleet_button.png"
+  },
+  "os_handler_leave_fleet_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      95,
+      157,
+      161,
+      191
+    ],
+    "target": [
+      95,
+      157,
+      161,
+      191
+    ],
+    "template": "os_handler/os_handler_leave_fleet_template.png"
+  },
+  "os_handler_map_archives": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1180,
+      353,
+      1280,
+      411
+    ],
+    "target": [
+      1180,
+      353,
+      1280,
+      411
+    ],
+    "template": "os_handler/os_handler_map_archives.png"
+  },
+  "os_handler_map_world": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      943,
+      499,
+      1048,
+      512
+    ],
+    "target": [
+      578,
+      675,
+      702,
+      692
+    ],
+    "template": "os_handler/os_handler_map_world.png"
+  },
+  "os_handler_maritime_schedule": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      162,
+      505,
+      238,
+      520
+    ],
+    "target": [
+      162,
+      505,
+      238,
+      520
+    ],
+    "template": "os_handler/os_handler_maritime_schedule.png"
+  },
+  "os_handler_mission_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      119,
+      121,
+      230,
+      149
+    ],
+    "target": [
+      119,
+      121,
+      230,
+      149
+    ],
+    "template": "os_handler/os_handler_mission_check.png"
+  },
+  "os_handler_mission_checkout": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1026,
+      204,
+      1114,
+      234
+    ],
+    "target": [
+      1026,
+      204,
+      1114,
+      234
+    ],
+    "template": "os_handler/os_handler_mission_checkout.png"
+  },
+  "os_handler_mission_complete_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      500,
+      27,
+      572,
+      46
+    ],
+    "target": [
+      500,
+      27,
+      572,
+      46
+    ],
+    "template": "os_handler/os_handler_mission_complete_popup.png"
+  },
+  "os_handler_mission_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      765,
+      640,
+      857,
+      695
+    ],
+    "target": [
+      765,
+      640,
+      857,
+      695
+    ],
+    "template": "os_handler/os_handler_mission_enter.png"
+  },
+  "os_handler_mission_enter_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      924,
+      644,
+      986,
+      674
+    ],
+    "target": [
+      924,
+      644,
+      986,
+      674
+    ],
+    "template": "os_handler/os_handler_mission_enter_template.png"
+  },
+  "os_handler_mission_finish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1028,
+      205,
+      1112,
+      232
+    ],
+    "target": [
+      1028,
+      205,
+      1112,
+      232
+    ],
+    "template": "os_handler/os_handler_mission_finish.png"
+  },
+  "os_handler_mission_map_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      943,
+      499,
+      1048,
+      512
+    ],
+    "target": [
+      943,
+      499,
+      1048,
+      512
+    ],
+    "template": "os_handler/os_handler_mission_map_check.png"
+  },
+  "os_handler_mission_monthly_boss": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      665,
+      186,
+      752,
+      210
+    ],
+    "target": [
+      665,
+      186,
+      752,
+      210
+    ],
+    "template": "os_handler/os_handler_mission_monthly_boss.png"
+  },
+  "os_handler_mission_overview_accept": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1069,
+      10,
+      1131,
+      42
+    ],
+    "target": [
+      1069,
+      10,
+      1131,
+      42
+    ],
+    "template": "os_handler/os_handler_mission_overview_accept.png"
+  },
+  "os_handler_mission_overview_accept_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1066,
+      121,
+      1138,
+      149
+    ],
+    "target": [
+      1066,
+      121,
+      1138,
+      149
+    ],
+    "template": "os_handler/os_handler_mission_overview_accept_single.png"
+  },
+  "os_handler_mission_overview_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      126,
+      16,
+      263,
+      42
+    ],
+    "target": [
+      126,
+      16,
+      263,
+      42
+    ],
+    "template": "os_handler/os_handler_mission_overview_check.png"
+  },
+  "os_handler_mission_overview_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1052,
+      320,
+      1067,
+      390
+    ],
+    "target": [
+      1052,
+      320,
+      1067,
+      390
+    ],
+    "template": "os_handler/os_handler_mission_overview_empty.png"
+  },
+  "os_handler_mission_overview_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1110,
+      671,
+      1207,
+      690
+    ],
+    "target": [
+      1105,
+      629,
+      1255,
+      693
+    ],
+    "template": "os_handler/os_handler_mission_overview_enter.png"
+  },
+  "os_handler_mission_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1086,
+      111,
+      1152,
+      155
+    ],
+    "target": [
+      1086,
+      111,
+      1152,
+      155
+    ],
+    "template": "os_handler/os_handler_mission_quit.png"
+  },
+  "os_handler_mission_siren_research": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      186,
+      649,
+      208
+    ],
+    "target": [
+      608,
+      186,
+      649,
+      208
+    ],
+    "template": "os_handler/os_handler_mission_siren_research.png"
+  },
+  "os_handler_ocr_target_zone_id": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      119,
+      333,
+      173,
+      372
+    ],
+    "target": [
+      119,
+      333,
+      173,
+      372
+    ],
+    "template": "os_handler/os_handler_ocr_target_zone_id.png"
+  },
+  "os_handler_order_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      60,
+      623,
+      98,
+      659
+    ],
+    "target": [
+      106,
+      76,
+      226,
+      95
+    ],
+    "template": "os_handler/os_handler_order_check.png"
+  },
+  "os_handler_order_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1012,
+      165,
+      1044,
+      194
+    ],
+    "target": [
+      1012,
+      165,
+      1044,
+      194
+    ],
+    "template": "os_handler/os_handler_order_enter.png"
+  },
+  "os_handler_order_scan": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      993,
+      391,
+      1116,
+      421
+    ],
+    "target": [
+      923,
+      376,
+      1217,
+      471
+    ],
+    "template": "os_handler/os_handler_order_scan.png"
+  },
+  "os_handler_order_submarine": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      993,
+      519,
+      1116,
+      548
+    ],
+    "target": [
+      923,
+      503,
+      1217,
+      598
+    ],
+    "template": "os_handler/os_handler_order_submarine.png"
+  },
+  "os_handler_os_adaptability_attack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1162,
+      230,
+      1238,
+      258
+    ],
+    "target": [
+      1162,
+      230,
+      1238,
+      258
+    ],
+    "template": "os_handler/os_handler_os_adaptability_attack.png"
+  },
+  "os_handler_os_adaptability_durability": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1161,
+      283,
+      1237,
+      311
+    ],
+    "target": [
+      1161,
+      283,
+      1237,
+      311
+    ],
+    "template": "os_handler/os_handler_os_adaptability_durability.png"
+  },
+  "os_handler_os_adaptability_recover": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1162,
+      336,
+      1238,
+      364
+    ],
+    "target": [
+      1162,
+      336,
+      1238,
+      364
+    ],
+    "template": "os_handler/os_handler_os_adaptability_recover.png"
+  },
+  "os_handler_os_fleet_locked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1178,
+      473,
+      1185,
+      493
+    ],
+    "target": [
+      1178,
+      473,
+      1185,
+      493
+    ],
+    "template": "os_handler/os_handler_os_fleet_locked.png"
+  },
+  "os_handler_os_fleet_slot_nav_1_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      16,
+      124,
+      105,
+      211
+    ],
+    "target": [
+      16,
+      124,
+      105,
+      211
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_1_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_1_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      62,
+      126,
+      79,
+      144
+    ],
+    "target": [
+      62,
+      126,
+      79,
+      144
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_1_template.png"
+  },
+  "os_handler_os_fleet_slot_nav_2_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      16,
+      223,
+      106,
+      310
+    ],
+    "target": [
+      16,
+      223,
+      106,
+      310
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_2_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_2_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      61,
+      226,
+      79,
+      244
+    ],
+    "target": [
+      61,
+      226,
+      79,
+      244
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_2_template.png"
+  },
+  "os_handler_os_fleet_slot_nav_3_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      16,
+      325,
+      105,
+      410
+    ],
+    "target": [
+      16,
+      325,
+      105,
+      410
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_3_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_3_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      61,
+      326,
+      80,
+      344
+    ],
+    "target": [
+      61,
+      326,
+      80,
+      344
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_3_template.png"
+  },
+  "os_handler_os_fleet_slot_nav_4_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      16,
+      424,
+      104,
+      511
+    ],
+    "target": [
+      16,
+      424,
+      104,
+      511
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_4_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_4_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      61,
+      427,
+      78,
+      444
+    ],
+    "target": [
+      61,
+      427,
+      78,
+      444
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_4_template.png"
+  },
+  "os_handler_os_fleet_slot_nav_5_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      17,
+      524,
+      104,
+      611
+    ],
+    "target": [
+      17,
+      524,
+      104,
+      611
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_5_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_5_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      60,
+      527,
+      79,
+      544
+    ],
+    "target": [
+      60,
+      527,
+      79,
+      544
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_5_template.png"
+  },
+  "os_handler_os_fleet_slot_nav_6_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      16,
+      624,
+      106,
+      711
+    ],
+    "target": [
+      16,
+      624,
+      106,
+      711
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_6_button.png"
+  },
+  "os_handler_os_fleet_slot_nav_6_template": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      60,
+      627,
+      79,
+      644
+    ],
+    "target": [
+      60,
+      627,
+      79,
+      644
+    ],
+    "template": "os_handler/os_handler_os_fleet_slot_nav_6_template.png"
+  },
+  "os_handler_os_fleet_unlocked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1178,
+      468,
+      1186,
+      496
+    ],
+    "target": [
+      1178,
+      468,
+      1186,
+      496
+    ],
+    "template": "os_handler/os_handler_os_fleet_unlocked.png"
+  },
+  "os_handler_os_game_tips": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      53,
+      51,
+      95,
+      68
+    ],
+    "target": [
+      53,
+      51,
+      95,
+      68
+    ],
+    "template": "os_handler/os_handler_os_game_tips.png"
+  },
+  "os_handler_os_monthboss_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      564,
+      183,
+      662,
+      209
+    ],
+    "target": [
+      564,
+      183,
+      662,
+      209
+    ],
+    "template": "os_handler/os_handler_os_monthboss_hard.png"
+  },
+  "os_handler_os_monthboss_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      567,
+      184,
+      662,
+      211
+    ],
+    "target": [
+      567,
+      184,
+      662,
+      211
+    ],
+    "template": "os_handler/os_handler_os_monthboss_normal.png"
+  },
+  "os_handler_os_submarine_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      371,
+      662,
+      387,
+      686
+    ],
+    "target": [
+      371,
+      662,
+      387,
+      686
+    ],
+    "template": "os_handler/os_handler_os_submarine_empty.png"
+  },
+  "os_handler_port_dock_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      181,
+      644,
+      365,
+      697
+    ],
+    "target": [
+      181,
+      644,
+      365,
+      697
+    ],
+    "template": "os_handler/os_handler_port_dock_check.png"
+  },
+  "os_handler_port_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1147,
+      636,
+      1280,
+      699
+    ],
+    "target": [
+      1147,
+      636,
+      1280,
+      699
+    ],
+    "template": "os_handler/os_handler_port_enter.png"
+  },
+  "os_handler_port_goto_dock": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1065,
+      640,
+      1261,
+      695
+    ],
+    "target": [
+      1065,
+      640,
+      1261,
+      695
+    ],
+    "template": "os_handler/os_handler_port_goto_dock.png"
+  },
+  "os_handler_port_goto_mission": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      602,
+      640,
+      798,
+      695
+    ],
+    "target": [
+      602,
+      640,
+      798,
+      695
+    ],
+    "template": "os_handler/os_handler_port_goto_mission.png"
+  },
+  "os_handler_port_goto_supply": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      834,
+      640,
+      1030,
+      695
+    ],
+    "target": [
+      834,
+      640,
+      1030,
+      695
+    ],
+    "template": "os_handler/os_handler_port_goto_supply.png"
+  },
+  "os_handler_port_mission_accept": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      147,
+      1205,
+      176
+    ],
+    "target": [
+      1132,
+      147,
+      1205,
+      176
+    ],
+    "template": "os_handler/os_handler_port_mission_accept.png"
+  },
+  "os_handler_port_mission_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      126,
+      16,
+      181,
+      42
+    ],
+    "target": [
+      126,
+      16,
+      181,
+      42
+    ],
+    "template": "os_handler/os_handler_port_mission_check.png"
+  },
+  "os_handler_port_mission_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      791,
+      639,
+      799,
+      647
+    ],
+    "target": [
+      791,
+      639,
+      799,
+      647
+    ],
+    "template": "os_handler/os_handler_port_mission_red_dot.png"
+  },
+  "os_handler_reset_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      128,
+      622,
+      193,
+      637
+    ],
+    "target": [
+      968,
+      581,
+      1160,
+      635
+    ],
+    "template": "os_handler/os_handler_reset_fleet_preparation.png"
+  },
+  "os_handler_reset_ticket_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      363,
+      240,
+      455,
+      258
+    ],
+    "target": [
+      863,
+      173,
+      929,
+      217
+    ],
+    "template": "os_handler/os_handler_reset_ticket_popup.png"
+  },
+  "os_handler_reward_box_third_option": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      602,
+      421,
+      615,
+      438
+    ],
+    "target": [
+      602,
+      421,
+      615,
+      438
+    ],
+    "template": "os_handler/os_handler_reward_box_third_option.png"
+  },
+  "os_handler_siren_device_enemy_once": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      149,
+      959,
+      197
+    ],
+    "target": [
+      336,
+      149,
+      959,
+      197
+    ],
+    "template": "os_handler/os_handler_siren_device_enemy_once.png"
+  },
+  "os_handler_siren_device_enemy_repeat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      321,
+      959,
+      368
+    ],
+    "target": [
+      336,
+      321,
+      959,
+      368
+    ],
+    "template": "os_handler/os_handler_siren_device_enemy_repeat.png"
+  },
+  "os_handler_siren_device_leave": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      490,
+      959,
+      538
+    ],
+    "target": [
+      336,
+      490,
+      959,
+      538
+    ],
+    "template": "os_handler/os_handler_siren_device_leave.png"
+  },
+  "os_handler_siren_device_resource_once": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      234,
+      959,
+      281
+    ],
+    "target": [
+      336,
+      234,
+      959,
+      281
+    ],
+    "template": "os_handler/os_handler_siren_device_resource_once.png"
+  },
+  "os_handler_siren_device_resource_repeat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      336,
+      406,
+      959,
+      453
+    ],
+    "target": [
+      336,
+      406,
+      959,
+      453
+    ],
+    "template": "os_handler/os_handler_siren_device_resource_repeat.png"
+  },
+  "os_handler_siren_option_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      296,
+      224,
+      984,
+      288
+    ],
+    "target": [
+      296,
+      224,
+      984,
+      288
+    ],
+    "template": "os_handler/os_handler_siren_option_a.png"
+  },
+  "os_handler_siren_option_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      296,
+      320,
+      986,
+      368
+    ],
+    "target": [
+      296,
+      320,
+      986,
+      368
+    ],
+    "template": "os_handler/os_handler_siren_option_b.png"
+  },
+  "os_handler_siren_option_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      296,
+      400,
+      992,
+      462
+    ],
+    "target": [
+      296,
+      400,
+      992,
+      462
+    ],
+    "template": "os_handler/os_handler_siren_option_c.png"
+  },
+  "os_handler_storage_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      121,
+      14,
+      205,
+      40
+    ],
+    "target": [
+      121,
+      14,
+      205,
+      40
+    ],
+    "template": "os_handler/os_handler_storage_check.png"
+  },
+  "os_handler_storage_coordinate_checkout": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      555,
+      493,
+      725,
+      551
+    ],
+    "target": [
+      555,
+      493,
+      725,
+      551
+    ],
+    "template": "os_handler/os_handler_storage_coordinate_checkout.png"
+  },
+  "os_handler_storage_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      638,
+      725,
+      698
+    ],
+    "target": [
+      618,
+      638,
+      725,
+      698
+    ],
+    "template": "os_handler/os_handler_storage_enter.png"
+  },
+  "os_handler_storage_fleet_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "target": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "template": "os_handler/os_handler_storage_fleet_1.png"
+  },
+  "os_handler_storage_fleet_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "target": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "template": "os_handler/os_handler_storage_fleet_2.png"
+  },
+  "os_handler_storage_fleet_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "target": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "template": "os_handler/os_handler_storage_fleet_3.png"
+  },
+  "os_handler_storage_fleet_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      306,
+      638,
+      332,
+      664
+    ],
+    "target": [
+      306,
+      638,
+      332,
+      664
+    ],
+    "template": "os_handler/os_handler_storage_fleet_4.png"
+  },
+  "os_handler_storage_fleet_5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "target": [
+      306,
+      637,
+      332,
+      663
+    ],
+    "template": "os_handler/os_handler_storage_fleet_5.png"
+  },
+  "os_handler_storage_fleet_bar": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      232,
+      356,
+      433,
+      614
+    ],
+    "target": [
+      232,
+      356,
+      433,
+      614
+    ],
+    "template": "os_handler/os_handler_storage_fleet_bar.png"
+  },
+  "os_handler_storage_fleet_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      642,
+      213,
+      665
+    ],
+    "target": [
+      122,
+      642,
+      213,
+      665
+    ],
+    "template": "os_handler/os_handler_storage_fleet_choose.png"
+  },
+  "os_handler_storage_repair_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      769,
+      629,
+      845,
+      663
+    ],
+    "target": [
+      722,
+      618,
+      892,
+      674
+    ],
+    "template": "os_handler/os_handler_storage_repair_cancel.png"
+  },
+  "os_handler_storage_repair_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1014,
+      629,
+      1090,
+      662
+    ],
+    "target": [
+      967,
+      619,
+      1136,
+      674
+    ],
+    "template": "os_handler/os_handler_storage_repair_confirm.png"
+  },
+  "os_handler_storage_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      709,
+      506,
+      769,
+      536
+    ],
+    "target": [
+      687,
+      493,
+      860,
+      550
+    ],
+    "template": "os_handler/os_handler_storage_use.png"
+  },
+  "os_handler_storate_scroll": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1256,
+      102,
+      1264,
+      589
+    ],
+    "target": [
+      1256,
+      102,
+      1264,
+      589
+    ],
+    "template": "os_handler/os_handler_storate_scroll.png"
+  },
+  "os_handler_strategic_search_device_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      475,
+      332,
+      556,
+      354
+    ],
+    "target": [
+      475,
+      332,
+      556,
+      354
+    ],
+    "template": "os_handler/os_handler_strategic_search_device_check.png"
+  },
+  "os_handler_strategic_search_device_continue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      516,
+      380,
+      536,
+      394
+    ],
+    "target": [
+      516,
+      380,
+      536,
+      394
+    ],
+    "template": "os_handler/os_handler_strategic_search_device_continue.png"
+  },
+  "os_handler_strategic_search_device_stop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      443,
+      380,
+      463,
+      394
+    ],
+    "target": [
+      443,
+      380,
+      463,
+      394
+    ],
+    "template": "os_handler/os_handler_strategic_search_device_stop.png"
+  },
+  "os_handler_strategic_search_map_option_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1179,
+      577,
+      1278,
+      616
+    ],
+    "target": [
+      1179,
+      577,
+      1278,
+      616
+    ],
+    "template": "os_handler/os_handler_strategic_search_map_option_off.png"
+  },
+  "os_handler_strategic_search_merchant_continue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      516,
+      443,
+      536,
+      457
+    ],
+    "target": [
+      516,
+      443,
+      536,
+      457
+    ],
+    "template": "os_handler/os_handler_strategic_search_merchant_continue.png"
+  },
+  "os_handler_strategic_search_merchant_stop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      443,
+      443,
+      463,
+      457
+    ],
+    "target": [
+      443,
+      443,
+      463,
+      457
+    ],
+    "template": "os_handler/os_handler_strategic_search_merchant_stop.png"
+  },
+  "os_handler_strategic_search_popup_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      369,
+      166,
+      499,
+      198
+    ],
+    "target": [
+      369,
+      166,
+      499,
+      198
+    ],
+    "template": "os_handler/os_handler_strategic_search_popup_check.png"
+  },
+  "os_handler_strategic_search_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      902,
+      277,
+      910,
+      470
+    ],
+    "target": [
+      902,
+      277,
+      910,
+      470
+    ],
+    "template": "os_handler/os_handler_strategic_search_scroll_area.png"
+  },
+  "os_handler_strategic_search_submit_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      474,
+      387,
+      557,
+      408
+    ],
+    "target": [
+      474,
+      387,
+      557,
+      408
+    ],
+    "template": "os_handler/os_handler_strategic_search_submit_check.png"
+  },
+  "os_handler_strategic_search_submit_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      443,
+      427,
+      463,
+      441
+    ],
+    "target": [
+      443,
+      427,
+      463,
+      441
+    ],
+    "template": "os_handler/os_handler_strategic_search_submit_off.png"
+  },
+  "os_handler_strategic_search_submit_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      516,
+      427,
+      536,
+      441
+    ],
+    "target": [
+      516,
+      427,
+      536,
+      441
+    ],
+    "template": "os_handler/os_handler_strategic_search_submit_on.png"
+  },
+  "os_handler_strategic_search_tab_secured": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      578,
+      227,
+      705,
+      260
+    ],
+    "target": [
+      578,
+      227,
+      705,
+      260
+    ],
+    "template": "os_handler/os_handler_strategic_search_tab_secured.png"
+  },
+  "os_handler_strategic_search_zonemode_random": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      747,
+      335,
+      767,
+      349
+    ],
+    "target": [
+      747,
+      335,
+      767,
+      349
+    ],
+    "template": "os_handler/os_handler_strategic_search_zonemode_random.png"
+  },
+  "os_handler_strategic_search_zonemode_repeat": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      335,
+      568,
+      349
+    ],
+    "target": [
+      548,
+      335,
+      568,
+      349
+    ],
+    "template": "os_handler/os_handler_strategic_search_zonemode_repeat.png"
+  },
+  "os_handler_target_all_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      936,
+      12,
+      1047,
+      42
+    ],
+    "target": [
+      936,
+      12,
+      1047,
+      42
+    ],
+    "template": "os_handler/os_handler_target_all_off.png"
+  },
+  "os_handler_target_all_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      935,
+      12,
+      1047,
+      42
+    ],
+    "target": [
+      935,
+      12,
+      1047,
+      42
+    ],
+    "template": "os_handler/os_handler_target_all_on.png"
+  },
+  "os_handler_target_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1011,
+      459,
+      1235,
+      498
+    ],
+    "target": [
+      1011,
+      459,
+      1235,
+      498
+    ],
+    "template": "os_handler/os_handler_target_enter.png"
+  },
+  "os_handler_target_next_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1162,
+      159,
+      1201,
+      197
+    ],
+    "target": [
+      1162,
+      159,
+      1201,
+      197
+    ],
+    "template": "os_handler/os_handler_target_next_reward.png"
+  },
+  "os_handler_target_next_zone": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1226,
+      457,
+      1262,
+      537
+    ],
+    "target": [
+      1226,
+      457,
+      1262,
+      537
+    ],
+    "template": "os_handler/os_handler_target_next_zone.png"
+  },
+  "os_handler_target_previous_reward": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      79,
+      159,
+      118,
+      197
+    ],
+    "target": [
+      79,
+      159,
+      118,
+      197
+    ],
+    "template": "os_handler/os_handler_target_previous_reward.png"
+  },
+  "os_handler_target_previous_zone": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      18,
+      457,
+      54,
+      537
+    ],
+    "target": [
+      18,
+      457,
+      54,
+      537
+    ],
+    "template": "os_handler/os_handler_target_previous_zone.png"
+  },
+  "os_handler_target_receive_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1217,
+      78,
+      1255,
+      279
+    ],
+    "target": [
+      1217,
+      78,
+      1255,
+      279
+    ],
+    "template": "os_handler/os_handler_target_receive_all.png"
+  },
+  "os_handler_target_receive_single": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      924,
+      595,
+      1080,
+      635
+    ],
+    "target": [
+      924,
+      595,
+      1080,
+      635
+    ],
+    "template": "os_handler/os_handler_target_receive_single.png"
+  },
+  "os_handler_target_red_dot": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1231,
+      451,
+      1239,
+      464
+    ],
+    "target": [
+      1231,
+      451,
+      1239,
+      464
+    ],
+    "template": "os_handler/os_handler_target_red_dot.png"
+  },
+  "os_handler_target_unfinished_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1047,
+      12,
+      1160,
+      42
+    ],
+    "target": [
+      1047,
+      12,
+      1160,
+      42
+    ],
+    "template": "os_handler/os_handler_target_unfinished_off.png"
+  },
+  "os_handler_target_unfinished_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1047,
+      12,
+      1160,
+      42
+    ],
+    "target": [
+      1047,
+      12,
+      1160,
+      42
+    ],
+    "template": "os_handler/os_handler_target_unfinished_on.png"
+  },
+  "os_handler_template_storage_abyssal": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_abyssal.png"
+  },
+  "os_handler_template_storage_combat": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_combat.png"
+  },
+  "os_handler_template_storage_logger": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": [
+      "os_handler/os_handler_template_storage_logger/"
+    ]
+  },
+  "os_handler_template_storage_logger_unlock": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_logger_unlock.png"
+  },
+  "os_handler_template_storage_obscure": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_obscure.png"
+  },
+  "os_handler_template_storage_obscure_hazard_2": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_obscure_hazard_2.png"
+  },
+  "os_handler_template_storage_offense": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_offense.png"
+  },
+  "os_handler_template_storage_quality_combat": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_quality_combat.png"
+  },
+  "os_handler_template_storage_quality_offense": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_quality_offense.png"
+  },
+  "os_handler_template_storage_quality_survival": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_quality_survival.png"
+  },
+  "os_handler_template_storage_repair_pack": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_repair_pack.png"
+  },
+  "os_handler_template_storage_ship_empty": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_ship_empty.png"
+  },
+  "os_handler_template_storage_survival": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "os_handler/os_handler_template_storage_survival.png"
+  }
+}

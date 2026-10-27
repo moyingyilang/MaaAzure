@@ -1,0 +1,760 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/island_fishery/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_fishery_island_fish_fry_shop_freshwater": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      235,
+      94,
+      303,
+      111
+    ],
+    "target": [
+      235,
+      94,
+      303,
+      111
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_freshwater.png"
+  },
+  "island_fishery_island_fish_fry_shop_freshwater_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      235,
+      94,
+      303,
+      111
+    ],
+    "target": [
+      235,
+      94,
+      303,
+      111
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_freshwater_check.png"
+  },
+  "island_fishery_island_fish_fry_shop_other": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      585,
+      92,
+      656,
+      112
+    ],
+    "target": [
+      585,
+      92,
+      656,
+      112
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_other.png"
+  },
+  "island_fishery_island_fish_fry_shop_other_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      581,
+      89,
+      659,
+      117
+    ],
+    "target": [
+      581,
+      89,
+      659,
+      117
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_other_check.png"
+  },
+  "island_fishery_island_fish_fry_shop_seawater": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      412,
+      94,
+      480,
+      111
+    ],
+    "target": [
+      412,
+      94,
+      480,
+      111
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_seawater.png"
+  },
+  "island_fishery_island_fish_fry_shop_seawater_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      412,
+      94,
+      480,
+      111
+    ],
+    "target": [
+      412,
+      94,
+      480,
+      111
+    ],
+    "template": "island_fishery/island_fishery_island_fish_fry_shop_seawater_check.png"
+  },
+  "island_fishery_island_fry_shop_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      125,
+      21,
+      216,
+      46
+    ],
+    "target": [
+      125,
+      21,
+      216,
+      46
+    ],
+    "template": "island_fishery/island_fishery_island_fry_shop_check.png"
+  },
+  "island_fishery_post_bass": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_bass.png"
+  },
+  "island_fishery_post_crab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_crab.png"
+  },
+  "island_fishery_post_crayfish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_crayfish.png"
+  },
+  "island_fishery_post_sea_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_sea_cucumber.png"
+  },
+  "island_fishery_post_shell": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_shell.png"
+  },
+  "island_fishery_post_shrimp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_shrimp.png"
+  },
+  "island_fishery_post_squid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_squid.png"
+  },
+  "island_fishery_post_yellowfin_tuna": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_fishery/island_fishery_post_yellowfin_tuna.png"
+  },
+  "island_fishery_select_bass": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      405,
+      285,
+      468
+    ],
+    "target": [
+      212,
+      405,
+      285,
+      468
+    ],
+    "template": "island_fishery/island_fishery_select_bass.png"
+  },
+  "island_fishery_select_bass_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_bass_check.png"
+  },
+  "island_fishery_select_crab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      551,
+      285,
+      616
+    ],
+    "target": [
+      212,
+      551,
+      285,
+      616
+    ],
+    "template": "island_fishery/island_fishery_select_crab.png"
+  },
+  "island_fishery_select_crab_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_crab_check.png"
+  },
+  "island_fishery_select_crayfish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      246,
+      285,
+      315
+    ],
+    "target": [
+      212,
+      246,
+      285,
+      315
+    ],
+    "template": "island_fishery/island_fishery_select_crayfish.png"
+  },
+  "island_fishery_select_crayfish_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_crayfish_check.png"
+  },
+  "island_fishery_select_sea_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      549,
+      285,
+      614
+    ],
+    "target": [
+      212,
+      549,
+      285,
+      614
+    ],
+    "template": "island_fishery/island_fishery_select_sea_cucumber.png"
+  },
+  "island_fishery_select_sea_cucumber_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_sea_cucumber_check.png"
+  },
+  "island_fishery_select_shell": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      146,
+      285,
+      210
+    ],
+    "target": [
+      212,
+      146,
+      285,
+      210
+    ],
+    "template": "island_fishery/island_fishery_select_shell.png"
+  },
+  "island_fishery_select_shell_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_shell_check.png"
+  },
+  "island_fishery_select_shrimp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      103,
+      285,
+      168
+    ],
+    "target": [
+      212,
+      103,
+      285,
+      168
+    ],
+    "template": "island_fishery/island_fishery_select_shrimp.png"
+  },
+  "island_fishery_select_shrimp_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_shrimp_check.png"
+  },
+  "island_fishery_select_squid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      104,
+      285,
+      166
+    ],
+    "target": [
+      212,
+      104,
+      285,
+      166
+    ],
+    "template": "island_fishery/island_fishery_select_squid.png"
+  },
+  "island_fishery_select_squid_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_squid_check.png"
+  },
+  "island_fishery_select_yellowfin_tuna": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      400,
+      285,
+      465
+    ],
+    "target": [
+      212,
+      400,
+      285,
+      465
+    ],
+    "template": "island_fishery/island_fishery_select_yellowfin_tuna.png"
+  },
+  "island_fishery_select_yellowfin_tuna_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "target": [
+      742,
+      232,
+      842,
+      326
+    ],
+    "template": "island_fishery/island_fishery_select_yellowfin_tuna_check.png"
+  },
+  "island_fishery_shop_fry_bass": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "target": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_bass.png"
+  },
+  "island_fishery_shop_fry_crab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "target": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_crab.png"
+  },
+  "island_fishery_shop_fry_crayfish": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      605,
+      233,
+      647,
+      302
+    ],
+    "target": [
+      605,
+      233,
+      647,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_crayfish.png"
+  },
+  "island_fishery_shop_fry_sea_cucumber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1094,
+      233,
+      1137,
+      302
+    ],
+    "target": [
+      1094,
+      233,
+      1137,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_sea_cucumber.png"
+  },
+  "island_fishery_shop_fry_shell": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      278,
+      233,
+      321,
+      302
+    ],
+    "target": [
+      278,
+      233,
+      321,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_shell.png"
+  },
+  "island_fishery_shop_fry_shrimp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      442,
+      233,
+      484,
+      302
+    ],
+    "target": [
+      442,
+      233,
+      484,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_shrimp.png"
+  },
+  "island_fishery_shop_fry_squid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      931,
+      233,
+      974,
+      302
+    ],
+    "target": [
+      931,
+      233,
+      974,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_squid.png"
+  },
+  "island_fishery_shop_fry_yellowfin_tuna": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "target": [
+      768,
+      233,
+      811,
+      302
+    ],
+    "template": "island_fishery/island_fishery_shop_fry_yellowfin_tuna.png"
+  },
+  "island_fishery_template_bass": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_bass.png"
+  },
+  "island_fishery_template_crab": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_crab.png"
+  },
+  "island_fishery_template_crayfish": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_crayfish.png"
+  },
+  "island_fishery_template_sea_cucumber": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_sea_cucumber.png"
+  },
+  "island_fishery_template_shell": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_shell.png"
+  },
+  "island_fishery_template_shrimp": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_shrimp.png"
+  },
+  "island_fishery_template_squid": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_squid.png"
+  },
+  "island_fishery_template_yellowfin_tuna": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_fishery/island_fishery_template_yellowfin_tuna.png"
+  }
+}

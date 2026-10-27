@@ -1,0 +1,298 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/daily/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "daily_active": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      673,
+      357,
+      705,
+      396
+    ],
+    "target": [
+      673,
+      357,
+      705,
+      396
+    ],
+    "template": "daily/daily_active.png"
+  },
+  "daily_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      534,
+      118,
+      744,
+      645
+    ],
+    "target": [
+      534,
+      118,
+      744,
+      645
+    ],
+    "template": "daily/daily_enter.png"
+  },
+  "daily_enter_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1222,
+      141,
+      1229,
+      150
+    ],
+    "target": [
+      1222,
+      141,
+      1229,
+      150
+    ],
+    "template": "daily/daily_enter_check.png"
+  },
+  "daily_entrance_emergency_module_development": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      246,
+      673,
+      293
+    ],
+    "target": [
+      606,
+      246,
+      673,
+      293
+    ],
+    "template": "daily/daily_entrance_emergency_module_development.png"
+  },
+  "daily_fleet_next": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      914,
+      325,
+      931,
+      354
+    ],
+    "target": [
+      914,
+      325,
+      931,
+      354
+    ],
+    "template": "daily/daily_fleet_next.png"
+  },
+  "daily_fleet_prev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      36,
+      325,
+      53,
+      354
+    ],
+    "target": [
+      36,
+      325,
+      53,
+      354
+    ],
+    "template": "daily/daily_fleet_prev.png"
+  },
+  "daily_locked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      710,
+      359,
+      748,
+      409
+    ],
+    "target": [
+      710,
+      359,
+      748,
+      409
+    ],
+    "template": "daily/daily_locked.png"
+  },
+  "daily_mission_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      482,
+      140,
+      701,
+      255
+    ],
+    "target": [
+      482,
+      140,
+      701,
+      255
+    ],
+    "template": "daily/daily_mission_1.png"
+  },
+  "daily_mission_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      482,
+      300,
+      701,
+      415
+    ],
+    "target": [
+      482,
+      300,
+      701,
+      415
+    ],
+    "template": "daily/daily_mission_2.png"
+  },
+  "daily_mission_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      482,
+      460,
+      701,
+      575
+    ],
+    "target": [
+      482,
+      460,
+      701,
+      575
+    ],
+    "template": "daily/daily_mission_3.png"
+  },
+  "daily_next": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      821,
+      161,
+      996,
+      604
+    ],
+    "target": [
+      821,
+      161,
+      996,
+      604
+    ],
+    "template": "daily/daily_next.png"
+  },
+  "daily_normal_run": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      409,
+      295,
+      560,
+      349
+    ],
+    "target": [
+      409,
+      295,
+      560,
+      349
+    ],
+    "template": "daily/daily_normal_run.png"
+  },
+  "daily_ocr_daily_fleet_index": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      525,
+      605,
+      561,
+      667
+    ],
+    "target": [
+      525,
+      605,
+      561,
+      667
+    ],
+    "template": "daily/daily_ocr_daily_fleet_index.png"
+  },
+  "daily_ocr_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      526,
+      114,
+      546,
+      144
+    ],
+    "target": [
+      526,
+      114,
+      546,
+      144
+    ],
+    "template": "daily/daily_ocr_remain.png"
+  },
+  "daily_prev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      282,
+      163,
+      456,
+      600
+    ],
+    "target": [
+      282,
+      163,
+      456,
+      600
+    ],
+    "template": "daily/daily_prev.png"
+  },
+  "daily_skip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      295,
+      1103,
+      349
+    ],
+    "target": [
+      1003,
+      295,
+      1103,
+      349
+    ],
+    "template": "daily/daily_skip.png"
+  }
+}

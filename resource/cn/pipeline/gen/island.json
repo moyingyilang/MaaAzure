@@ -1,0 +1,2218 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/island/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_access_map": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1192,
+      20,
+      1257,
+      84
+    ],
+    "target": [
+      1192,
+      20,
+      1257,
+      84
+    ],
+    "template": "island/island_access_map.png"
+  },
+  "island_add_one_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "target": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "template": "island/island_add_one_a.png"
+  },
+  "island_add_one_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "target": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "template": "island/island_add_one_b.png"
+  },
+  "island_add_one_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "target": [
+      872,
+      356,
+      904,
+      387
+    ],
+    "template": "island/island_add_one_c.png"
+  },
+  "island_add_ten_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "target": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "template": "island/island_add_ten_a.png"
+  },
+  "island_add_ten_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "target": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "template": "island/island_add_ten_b.png"
+  },
+  "island_add_ten_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "target": [
+      942,
+      361,
+      978,
+      381
+    ],
+    "template": "island/island_add_ten_c.png"
+  },
+  "island_air_drop_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "target": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "template": "island/island_air_drop_a.png"
+  },
+  "island_air_drop_already_getted": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      408,
+      302,
+      448,
+      342
+    ],
+    "target": [
+      408,
+      302,
+      448,
+      342
+    ],
+    "template": "island/island_air_drop_already_getted.png"
+  },
+  "island_air_drop_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "target": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "template": "island/island_air_drop_b.png"
+  },
+  "island_air_drop_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "target": [
+      795,
+      374,
+      1029,
+      412
+    ],
+    "template": "island/island_air_drop_c.png"
+  },
+  "island_air_drop_run_away": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      372,
+      44,
+      460,
+      72
+    ],
+    "target": [
+      372,
+      44,
+      460,
+      72
+    ],
+    "template": "island/island_air_drop_run_away.png"
+  },
+  "island_air_drop_skip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1172,
+      21,
+      1252,
+      54
+    ],
+    "target": [
+      1172,
+      21,
+      1252,
+      54
+    ],
+    "template": "island/island_air_drop_skip.png"
+  },
+  "island_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      6,
+      21,
+      99,
+      66
+    ],
+    "target": [
+      6,
+      21,
+      99,
+      66
+    ],
+    "template": "island/island_back.png"
+  },
+  "island_cant_access": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      488,
+      301,
+      541,
+      345
+    ],
+    "target": [
+      488,
+      301,
+      541,
+      345
+    ],
+    "template": "island/island_cant_access.png"
+  },
+  "island_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      0,
+      263,
+      129,
+      555
+    ],
+    "target": [
+      0,
+      263,
+      129,
+      555
+    ],
+    "template": "island/island_click_safe_area.png"
+  },
+  "island_error1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      525,
+      301,
+      568,
+      343
+    ],
+    "target": [
+      525,
+      301,
+      568,
+      343
+    ],
+    "template": "island/island_error1.png"
+  },
+  "island_farm_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      198,
+      79,
+      287,
+      105
+    ],
+    "target": [
+      258,
+      133,
+      335,
+      209
+    ],
+    "template": "island/island_farm_post1.png"
+  },
+  "island_filter_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      664,
+      582,
+      891,
+      632
+    ],
+    "target": [
+      664,
+      582,
+      891,
+      632
+    ],
+    "template": "island/island_filter_confirm.png"
+  },
+  "island_filter_reset": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      389,
+      581,
+      618,
+      632
+    ],
+    "target": [
+      389,
+      581,
+      618,
+      632
+    ],
+    "template": "island/island_filter_reset.png"
+  },
+  "island_gather_already_collected": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      480,
+      300,
+      750,
+      342
+    ],
+    "target": [
+      480,
+      300,
+      750,
+      342
+    ],
+    "template": "island/island_gather_already_collected.png"
+  },
+  "island_gather_collect": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      12,
+      244,
+      72,
+      280
+    ],
+    "target": [
+      12,
+      244,
+      72,
+      280
+    ],
+    "template": "island/island_gather_collect.png"
+  },
+  "island_gather_collect_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      12,
+      244,
+      72,
+      280
+    ],
+    "target": [
+      12,
+      244,
+      72,
+      280
+    ],
+    "template": "island/island_gather_collect_check.png"
+  },
+  "island_gather_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      502,
+      170,
+      783,
+      234
+    ],
+    "target": [
+      502,
+      170,
+      783,
+      234
+    ],
+    "template": "island/island_gather_complete.png"
+  },
+  "island_gather_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      675,
+      537,
+      890,
+      577
+    ],
+    "target": [
+      675,
+      537,
+      890,
+      577
+    ],
+    "template": "island/island_gather_confirm.png"
+  },
+  "island_gather_depart": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      983,
+      467,
+      1106,
+      500
+    ],
+    "target": [
+      983,
+      467,
+      1106,
+      500
+    ],
+    "template": "island/island_gather_depart.png"
+  },
+  "island_gather_plus_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      840,
+      236,
+      900,
+      293
+    ],
+    "target": [
+      840,
+      236,
+      900,
+      293
+    ],
+    "template": "island/island_gather_plus_a.png"
+  },
+  "island_gather_plus_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      935,
+      236,
+      995,
+      293
+    ],
+    "target": [
+      935,
+      236,
+      995,
+      293
+    ],
+    "template": "island/island_gather_plus_b.png"
+  },
+  "island_gather_plus_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1030,
+      236,
+      1090,
+      293
+    ],
+    "target": [
+      1030,
+      236,
+      1090,
+      293
+    ],
+    "template": "island/island_gather_plus_c.png"
+  },
+  "island_gather_select_target": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      832,
+      467,
+      1098,
+      500
+    ],
+    "target": [
+      832,
+      467,
+      1098,
+      500
+    ],
+    "template": "island/island_gather_select_target.png"
+  },
+  "island_gather_sort_life": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      133,
+      611,
+      161,
+      639
+    ],
+    "target": [
+      133,
+      611,
+      161,
+      639
+    ],
+    "template": "island/island_gather_sort_life.png"
+  },
+  "island_gather_target_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      330,
+      125,
+      955,
+      170
+    ],
+    "target": [
+      330,
+      125,
+      955,
+      170
+    ],
+    "template": "island/island_gather_target_popup.png"
+  },
+  "island_gather_toggle_a_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      573,
+      218,
+      608,
+      249
+    ],
+    "target": [
+      573,
+      218,
+      608,
+      249
+    ],
+    "template": "island/island_gather_toggle_a_off.png"
+  },
+  "island_gather_toggle_a_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      573,
+      218,
+      608,
+      249
+    ],
+    "target": [
+      573,
+      218,
+      608,
+      249
+    ],
+    "template": "island/island_gather_toggle_a_on.png"
+  },
+  "island_gather_toggle_b_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      813,
+      218,
+      849,
+      249
+    ],
+    "target": [
+      813,
+      218,
+      849,
+      249
+    ],
+    "template": "island/island_gather_toggle_b_off.png"
+  },
+  "island_gather_toggle_b_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      813,
+      218,
+      849,
+      249
+    ],
+    "target": [
+      813,
+      218,
+      849,
+      249
+    ],
+    "template": "island/island_gather_toggle_b_on.png"
+  },
+  "island_get": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      583,
+      258,
+      694,
+      296
+    ],
+    "target": [
+      583,
+      258,
+      694,
+      296
+    ],
+    "template": "island/island_get.png"
+  },
+  "island_get_items_island": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      588,
+      260,
+      692,
+      289
+    ],
+    "target": [
+      0,
+      263,
+      129,
+      555
+    ],
+    "template": "island/island_get_items_island.png"
+  },
+  "island_goto_map": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      837,
+      22,
+      882,
+      64
+    ],
+    "target": [
+      837,
+      22,
+      882,
+      64
+    ],
+    "template": "island/island_goto_map.png"
+  },
+  "island_info_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      907,
+      160,
+      933,
+      187
+    ],
+    "target": [
+      907,
+      160,
+      933,
+      187
+    ],
+    "template": "island/island_info_exit.png"
+  },
+  "island_jump": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1136,
+      578,
+      1197,
+      637
+    ],
+    "target": [
+      1136,
+      578,
+      1197,
+      637
+    ],
+    "template": "island/island_jump.png"
+  },
+  "island_management": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1077,
+      493,
+      1119,
+      533
+    ],
+    "target": [
+      1077,
+      493,
+      1119,
+      533
+    ],
+    "template": "island/island_management.png"
+  },
+  "island_management_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      21,
+      304,
+      47
+    ],
+    "target": [
+      123,
+      21,
+      304,
+      47
+    ],
+    "template": "island/island_management_check.png"
+  },
+  "island_management_locked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1092,
+      504,
+      1105,
+      520
+    ],
+    "target": [
+      1092,
+      504,
+      1105,
+      520
+    ],
+    "template": "island/island_management_locked.png"
+  },
+  "island_map_assembly": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1100,
+      644,
+      1142,
+      677
+    ],
+    "target": [
+      1100,
+      644,
+      1142,
+      677
+    ],
+    "template": "island/island_map_assembly.png"
+  },
+  "island_map_assembly_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      893,
+      506,
+      938,
+      548
+    ],
+    "target": [
+      893,
+      506,
+      938,
+      548
+    ],
+    "template": "island/island_map_assembly_check.png"
+  },
+  "island_map_assembly_friend_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      893,
+      506,
+      938,
+      548
+    ],
+    "target": [
+      893,
+      506,
+      938,
+      548
+    ],
+    "template": "island/island_map_assembly_friend_check.png"
+  },
+  "island_map_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      981,
+      617,
+      1143,
+      664
+    ],
+    "target": [
+      981,
+      617,
+      1143,
+      664
+    ],
+    "template": "island/island_map_confirm.png"
+  },
+  "island_map_farm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      563,
+      214,
+      597,
+      247
+    ],
+    "target": [
+      563,
+      214,
+      597,
+      247
+    ],
+    "template": "island/island_map_farm.png"
+  },
+  "island_map_farm_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      879,
+      512,
+      950,
+      553
+    ],
+    "target": [
+      879,
+      512,
+      950,
+      553
+    ],
+    "template": "island/island_map_farm_check.png"
+  },
+  "island_map_mine_forest": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      167,
+      115,
+      203,
+      151
+    ],
+    "target": [
+      167,
+      115,
+      203,
+      151
+    ],
+    "template": "island/island_map_mine_forest.png"
+  },
+  "island_map_mine_forest_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      878,
+      506,
+      948,
+      550
+    ],
+    "target": [
+      878,
+      506,
+      948,
+      550
+    ],
+    "template": "island/island_map_mine_forest_check.png"
+  },
+  "island_map_nursery": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      560,
+      11,
+      597,
+      43
+    ],
+    "target": [
+      560,
+      11,
+      597,
+      43
+    ],
+    "template": "island/island_map_nursery.png"
+  },
+  "island_map_nursery_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      883,
+      501,
+      948,
+      553
+    ],
+    "target": [
+      883,
+      501,
+      948,
+      553
+    ],
+    "template": "island/island_map_nursery_check.png"
+  },
+  "island_map_port": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1052,
+      404,
+      1085,
+      444
+    ],
+    "target": [
+      1052,
+      404,
+      1085,
+      444
+    ],
+    "template": "island/island_map_port.png"
+  },
+  "island_map_port_business": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      934,
+      227,
+      969,
+      262
+    ],
+    "target": [
+      934,
+      227,
+      969,
+      262
+    ],
+    "template": "island/island_map_port_business.png"
+  },
+  "island_map_port_business_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      886,
+      504,
+      938,
+      551
+    ],
+    "target": [
+      886,
+      504,
+      938,
+      551
+    ],
+    "template": "island/island_map_port_business_check.png"
+  },
+  "island_map_port_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      898,
+      509,
+      934,
+      549
+    ],
+    "target": [
+      898,
+      509,
+      934,
+      549
+    ],
+    "template": "island/island_map_port_check.png"
+  },
+  "island_map_port_friend_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      898,
+      509,
+      934,
+      549
+    ],
+    "target": [
+      898,
+      509,
+      934,
+      549
+    ],
+    "template": "island/island_map_port_friend_check.png"
+  },
+  "island_mill": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      797,
+      405,
+      1028,
+      446
+    ],
+    "target": [
+      797,
+      405,
+      1028,
+      446
+    ],
+    "template": "island/island_mill.png"
+  },
+  "island_mill_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      6,
+      21,
+      99,
+      66
+    ],
+    "target": [
+      6,
+      21,
+      99,
+      66
+    ],
+    "template": "island/island_mill_back.png"
+  },
+  "island_mill_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      183,
+      82,
+      354,
+      119
+    ],
+    "target": [
+      183,
+      82,
+      354,
+      119
+    ],
+    "template": "island/island_mill_check.png"
+  },
+  "island_minus_one_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "target": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "template": "island/island_minus_one_a.png"
+  },
+  "island_minus_one_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "target": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "template": "island/island_minus_one_b.png"
+  },
+  "island_minus_one_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "target": [
+      705,
+      356,
+      736,
+      383
+    ],
+    "template": "island/island_minus_one_c.png"
+  },
+  "island_minus_ten_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "target": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "template": "island/island_minus_ten_a.png"
+  },
+  "island_minus_ten_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "target": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "template": "island/island_minus_ten_b.png"
+  },
+  "island_minus_ten_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "target": [
+      614,
+      356,
+      678,
+      383
+    ],
+    "template": "island/island_minus_ten_c.png"
+  },
+  "island_my_air_drop_already": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      59,
+      654,
+      90,
+      683
+    ],
+    "target": [
+      59,
+      654,
+      90,
+      683
+    ],
+    "template": "island/island_my_air_drop_already.png"
+  },
+  "island_ocr_air_drop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1083,
+      27,
+      1110,
+      46
+    ],
+    "target": [
+      1083,
+      27,
+      1110,
+      46
+    ],
+    "template": "island/island_ocr_air_drop.png"
+  },
+  "island_ocr_post_number": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      669,
+      385,
+      692,
+      406
+    ],
+    "target": [
+      669,
+      385,
+      692,
+      406
+    ],
+    "template": "island/island_ocr_post_number.png"
+  },
+  "island_ocr_transport_refresh": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      716,
+      211,
+      805,
+      231
+    ],
+    "target": [
+      716,
+      211,
+      805,
+      231
+    ],
+    "template": "island/island_ocr_transport_refresh.png"
+  },
+  "island_ocr_transport_time": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      611,
+      139,
+      687,
+      154
+    ],
+    "target": [
+      611,
+      139,
+      687,
+      154
+    ],
+    "template": "island/island_ocr_transport_time.png"
+  },
+  "island_ocr_transport_time_remain": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      210,
+      842,
+      230
+    ],
+    "target": [
+      753,
+      210,
+      842,
+      230
+    ],
+    "template": "island/island_ocr_transport_time_remain.png"
+  },
+  "island_post_add": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      544,
+      643,
+      571
+    ],
+    "target": [
+      708,
+      541,
+      750,
+      579
+    ],
+    "template": "island/island_post_add.png"
+  },
+  "island_post_add_one_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "target": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "template": "island/island_post_add_one_a.png"
+  },
+  "island_post_add_one_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "target": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "template": "island/island_post_add_one_b.png"
+  },
+  "island_post_add_one_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "target": [
+      910,
+      379,
+      938,
+      407
+    ],
+    "template": "island/island_post_add_one_c.png"
+  },
+  "island_post_add_order": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      491,
+      595,
+      1090,
+      647
+    ],
+    "target": [
+      491,
+      595,
+      1090,
+      647
+    ],
+    "template": "island/island_post_add_order.png"
+  },
+  "island_post_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      520,
+      148,
+      558,
+      200
+    ],
+    "target": [
+      520,
+      148,
+      558,
+      200
+    ],
+    "template": "island/island_post_check.png"
+  },
+  "island_post_cheese": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      614,
+      318,
+      668,
+      362
+    ],
+    "target": [
+      614,
+      318,
+      668,
+      362
+    ],
+    "template": "island/island_post_cheese.png"
+  },
+  "island_post_close": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      20,
+      288,
+      113,
+      370
+    ],
+    "target": [
+      20,
+      288,
+      113,
+      370
+    ],
+    "template": "island/island_post_close.png"
+  },
+  "island_post_get": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      612,
+      539,
+      666,
+      579
+    ],
+    "target": [
+      708,
+      541,
+      750,
+      579
+    ],
+    "template": "island/island_post_get.png"
+  },
+  "island_post_manage_business": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      14,
+      175,
+      70,
+      217
+    ],
+    "target": [
+      12,
+      107,
+      72,
+      148
+    ],
+    "template": "island/island_post_manage_business.png"
+  },
+  "island_post_manage_production": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      12,
+      107,
+      72,
+      148
+    ],
+    "target": [
+      14,
+      175,
+      70,
+      217
+    ],
+    "template": "island/island_post_manage_production.png"
+  },
+  "island_post_manage_swipe_stop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      688,
+      73,
+      724,
+      123
+    ],
+    "target": [
+      688,
+      73,
+      724,
+      123
+    ],
+    "template": "island/island_post_manage_swipe_stop.png"
+  },
+  "island_post_max": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      959,
+      381,
+      989,
+      404
+    ],
+    "target": [
+      959,
+      381,
+      989,
+      404
+    ],
+    "template": "island/island_post_max.png"
+  },
+  "island_post_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      698,
+      150,
+      759,
+      197
+    ],
+    "target": [
+      698,
+      150,
+      759,
+      197
+    ],
+    "template": "island/island_post_safe_area.png"
+  },
+  "island_post_select": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      329,
+      697,
+      344
+    ],
+    "target": [
+      618,
+      329,
+      697,
+      344
+    ],
+    "template": "island/island_post_select.png"
+  },
+  "island_post_vacant_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      520,
+      148,
+      558,
+      200
+    ],
+    "target": [
+      520,
+      148,
+      558,
+      200
+    ],
+    "template": "island/island_post_vacant_check.png"
+  },
+  "island_post_working": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      537,
+      419,
+      566,
+      446
+    ],
+    "target": [
+      537,
+      419,
+      566,
+      446
+    ],
+    "template": "island/island_post_working.png"
+  },
+  "island_project_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      431,
+      670,
+      444
+    ],
+    "target": [
+      580,
+      533,
+      762,
+      584
+    ],
+    "template": "island/island_project_complete.png"
+  },
+  "island_select_character_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      127,
+      21,
+      219,
+      45
+    ],
+    "target": [
+      127,
+      21,
+      219,
+      45
+    ],
+    "template": "island/island_select_character_check.png"
+  },
+  "island_select_cheese": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      221,
+      453,
+      276,
+      506
+    ],
+    "target": [
+      221,
+      453,
+      276,
+      506
+    ],
+    "template": "island/island_select_cheese.png"
+  },
+  "island_select_cheese_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      753,
+      246,
+      831,
+      319
+    ],
+    "target": [
+      753,
+      246,
+      831,
+      319
+    ],
+    "template": "island/island_select_cheese_check.png"
+  },
+  "island_select_goto_buy_seed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      819,
+      469,
+      864,
+      497
+    ],
+    "target": [
+      819,
+      469,
+      864,
+      497
+    ],
+    "template": "island/island_select_goto_buy_seed.png"
+  },
+  "island_select_product_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      19,
+      221,
+      48
+    ],
+    "target": [
+      123,
+      19,
+      221,
+      48
+    ],
+    "template": "island/island_select_product_check.png"
+  },
+  "island_select_seed": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      765,
+      488,
+      823,
+      535
+    ],
+    "target": [
+      765,
+      488,
+      823,
+      535
+    ],
+    "template": "island/island_select_seed.png"
+  },
+  "island_select_ui_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      4,
+      22,
+      103,
+      68
+    ],
+    "target": [
+      4,
+      22,
+      103,
+      68
+    ],
+    "template": "island/island_select_ui_back.png"
+  },
+  "island_select_ui_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      944,
+      585,
+      1236,
+      632
+    ],
+    "target": [
+      944,
+      585,
+      1236,
+      632
+    ],
+    "template": "island/island_select_ui_confirm.png"
+  },
+  "island_shop_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      895,
+      552,
+      958,
+      588
+    ],
+    "target": [
+      895,
+      552,
+      958,
+      588
+    ],
+    "template": "island/island_shop_confirm.png"
+  },
+  "island_shop_get": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      499,
+      172,
+      783,
+      241
+    ],
+    "target": [
+      499,
+      172,
+      783,
+      241
+    ],
+    "template": "island/island_shop_get.png"
+  },
+  "island_template_air_drop": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_air_drop.png"
+  },
+  "island_template_akashi": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_akashi.png"
+  },
+  "island_template_amagi_chan": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_amagi_chan.png"
+  },
+  "island_template_atago": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_atago.png"
+  },
+  "island_template_carrot": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_carrot.png"
+  },
+  "island_template_chao_ho": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_chao_ho.png"
+  },
+  "island_template_cheese": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_cheese.png"
+  },
+  "island_template_chen_hai": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_chen_hai.png"
+  },
+  "island_template_cheshire": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_cheshire.png"
+  },
+  "island_template_cotton": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_cotton.png"
+  },
+  "island_template_gather_sort_life_asc": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_gather_sort_life_asc.png"
+  },
+  "island_template_helena": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_helena.png"
+  },
+  "island_template_item_satisfied": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_item_satisfied.png"
+  },
+  "island_template_lemalin": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_lemalin.png"
+  },
+  "island_template_manjuu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_manjuu.png"
+  },
+  "island_template_milk": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_milk.png"
+  },
+  "island_template_post_lock": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_post_lock.png"
+  },
+  "island_template_poultry": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_poultry.png"
+  },
+  "island_template_saratoga": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_saratoga.png"
+  },
+  "island_template_shimakaze": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_shimakaze.png"
+  },
+  "island_template_tashkent": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_tashkent.png"
+  },
+  "island_template_unicorn": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_unicorn.png"
+  },
+  "island_template_william_d_porter": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island/island_template_william_d_porter.png"
+  },
+  "island_transport": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      905,
+      335,
+      986,
+      358
+    ],
+    "target": [
+      898,
+      328,
+      1031,
+      459
+    ],
+    "template": "island/island_transport.png"
+  },
+  "island_transport_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      264,
+      154,
+      317,
+      180
+    ],
+    "target": [
+      264,
+      154,
+      317,
+      180
+    ],
+    "template": "island/island_transport_check.png"
+  },
+  "island_transport_locked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      659,
+      380,
+      683,
+      412
+    ],
+    "target": [
+      659,
+      380,
+      683,
+      412
+    ],
+    "template": "island/island_transport_locked.png"
+  },
+  "island_transport_receive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      938,
+      206,
+      1065,
+      235
+    ],
+    "target": [
+      938,
+      206,
+      1065,
+      235
+    ],
+    "template": "island/island_transport_receive.png"
+  },
+  "island_transport_refresh": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1020,
+      211,
+      1059,
+      233
+    ],
+    "target": [
+      1020,
+      211,
+      1059,
+      233
+    ],
+    "template": "island/island_transport_refresh.png"
+  },
+  "island_transport_refresh_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      813,
+      207,
+      841,
+      235
+    ],
+    "target": [
+      813,
+      207,
+      841,
+      235
+    ],
+    "template": "island/island_transport_refresh_check.png"
+  },
+  "island_transport_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1142,
+      170,
+      1174,
+      281
+    ],
+    "target": [
+      1142,
+      170,
+      1174,
+      281
+    ],
+    "template": "island/island_transport_start.png"
+  },
+  "island_transport_status_pending": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      459,
+      138,
+      522,
+      156
+    ],
+    "target": [
+      459,
+      138,
+      522,
+      156
+    ],
+    "template": "island/island_transport_status_pending.png"
+  },
+  "island_transport_status_running": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      459,
+      138,
+      522,
+      156
+    ],
+    "target": [
+      459,
+      138,
+      522,
+      156
+    ],
+    "template": "island/island_transport_status_running.png"
+  },
+  "island_visit_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1254,
+      98,
+      1257,
+      694
+    ],
+    "target": [
+      1254,
+      98,
+      1257,
+      694
+    ],
+    "template": "island/island_visit_scroll_area.png"
+  },
+  "island_work_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      430,
+      670,
+      445
+    ],
+    "target": [
+      616,
+      430,
+      670,
+      445
+    ],
+    "template": "island/island_work_complete.png"
+  },
+  "island_working": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      704,
+      458,
+      753,
+      504
+    ],
+    "target": [
+      581,
+      535,
+      758,
+      583
+    ],
+    "template": "island/island_working.png"
+  },
+  "island_working_time": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      427,
+      671,
+      440
+    ],
+    "target": [
+      616,
+      427,
+      671,
+      440
+    ],
+    "template": "island/island_working_time.png"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/tactical/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "tactical_add_new_student": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      410,
+      371,
+      440,
+      402
+    ],
+    "target": [
+      410,
+      371,
+      440,
+      402
+    ],
+    "template": "tactical/tactical_add_new_student.png"
+  },
+  "tactical_book_empty_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      880,
+      180,
+      908,
+      209
+    ],
+    "target": [
+      880,
+      180,
+      908,
+      209
+    ],
+    "template": "tactical/tactical_book_empty_popup.png"
+  },
+  "tactical_class_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      840,
+      606,
+      969,
+      637
+    ],
+    "target": [
+      840,
+      606,
+      969,
+      637
+    ],
+    "template": "tactical/tactical_class_cancel.png"
+  },
+  "tactical_class_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1046,
+      606,
+      1176,
+      637
+    ],
+    "target": [
+      1046,
+      606,
+      1176,
+      637
+    ],
+    "template": "tactical/tactical_class_start.png"
+  },
+  "tactical_meta": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      571,
+      555,
+      709,
+      593
+    ],
+    "target": [
+      571,
+      555,
+      709,
+      593
+    ],
+    "template": "tactical/tactical_meta.png"
+  },
+  "tactical_ocr_skill_exp": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      728,
+      189,
+      950,
+      211
+    ],
+    "target": [
+      728,
+      189,
+      950,
+      211
+    ],
+    "template": "tactical/tactical_ocr_skill_exp.png"
+  },
+  "tactical_rapid_training": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      518,
+      566,
+      584,
+      583
+    ],
+    "target": [
+      518,
+      566,
+      584,
+      583
+    ],
+    "template": "tactical/tactical_rapid_training.png"
+  },
+  "tactical_reward_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      432,
+      415,
+      476,
+      436
+    ],
+    "target": [
+      403,
+      415,
+      520,
+      450
+    ],
+    "template": "tactical/tactical_reward_2.png"
+  },
+  "tactical_skill_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      576,
+      563,
+      705,
+      594
+    ],
+    "target": [
+      576,
+      563,
+      705,
+      594
+    ],
+    "template": "tactical/tactical_skill_confirm.png"
+  }
+}

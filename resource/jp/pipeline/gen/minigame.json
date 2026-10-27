@@ -1,0 +1,496 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/minigame/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "minigame_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      30,
+      26,
+      86,
+      82
+    ],
+    "target": [
+      30,
+      26,
+      86,
+      82
+    ],
+    "template": "minigame/minigame_back.png"
+  },
+  "minigame_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      367,
+      292,
+      412,
+      335
+    ],
+    "target": [
+      367,
+      292,
+      412,
+      335
+    ],
+    "template": "minigame/minigame_coin.png"
+  },
+  "minigame_coin_holder": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1093,
+      24,
+      1133,
+      51
+    ],
+    "target": [
+      1093,
+      24,
+      1133,
+      51
+    ],
+    "template": "minigame/minigame_coin_holder.png"
+  },
+  "minigame_coin_popup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      881,
+      179,
+      912,
+      209
+    ],
+    "target": [
+      881,
+      179,
+      912,
+      209
+    ],
+    "template": "minigame/minigame_coin_popup.png"
+  },
+  "minigame_goto_choose_game": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1037,
+      642,
+      1084,
+      678
+    ],
+    "target": [
+      1178,
+      592,
+      1204,
+      670
+    ],
+    "template": "minigame/minigame_goto_choose_game.png"
+  },
+  "minigame_new_year_challenge_add_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      509,
+      635,
+      575,
+      668
+    ],
+    "target": [
+      509,
+      635,
+      575,
+      668
+    ],
+    "template": "minigame/minigame_new_year_challenge_add_coin.png"
+  },
+  "minigame_new_year_challenge_blue_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1066,
+      642,
+      1121,
+      697
+    ],
+    "target": [
+      1066,
+      642,
+      1121,
+      697
+    ],
+    "template": "minigame/minigame_new_year_challenge_blue_button.png"
+  },
+  "minigame_new_year_challenge_choosing": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      590,
+      34,
+      689,
+      157
+    ],
+    "target": [
+      590,
+      34,
+      689,
+      157
+    ],
+    "template": "minigame/minigame_new_year_challenge_choosing.png"
+  },
+  "minigame_new_year_challenge_coin_cost_holder": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      377,
+      636,
+      408,
+      669
+    ],
+    "target": [
+      377,
+      636,
+      408,
+      669
+    ],
+    "template": "minigame/minigame_new_year_challenge_coin_cost_holder.png"
+  },
+  "minigame_new_year_challenge_dec_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      155,
+      635,
+      227,
+      671
+    ],
+    "target": [
+      155,
+      635,
+      227,
+      671
+    ],
+    "template": "minigame/minigame_new_year_challenge_dec_coin.png"
+  },
+  "minigame_new_year_challenge_end": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      956,
+      615,
+      1061,
+      664
+    ],
+    "target": [
+      956,
+      615,
+      1061,
+      664
+    ],
+    "template": "minigame/minigame_new_year_challenge_end.png"
+  },
+  "minigame_new_year_challenge_entrance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      435,
+      521,
+      522,
+      575
+    ],
+    "target": [
+      435,
+      521,
+      522,
+      575
+    ],
+    "template": "minigame/minigame_new_year_challenge_entrance.png"
+  },
+  "minigame_new_year_challenge_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      24,
+      11,
+      123,
+      98
+    ],
+    "target": [
+      24,
+      11,
+      123,
+      98
+    ],
+    "template": "minigame/minigame_new_year_challenge_exit.png"
+  },
+  "minigame_new_year_challenge_first_time": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1212,
+      342,
+      1272,
+      415
+    ],
+    "target": [
+      1212,
+      342,
+      1272,
+      415
+    ],
+    "template": "minigame/minigame_new_year_challenge_first_time.png"
+  },
+  "minigame_new_year_challenge_red_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1198,
+      489,
+      1255,
+      540
+    ],
+    "target": [
+      1198,
+      489,
+      1255,
+      540
+    ],
+    "template": "minigame/minigame_new_year_challenge_red_button.png"
+  },
+  "minigame_new_year_challenge_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1178,
+      77,
+      1258,
+      157
+    ],
+    "target": [
+      1178,
+      77,
+      1258,
+      157
+    ],
+    "template": "minigame/minigame_new_year_challenge_safe_area.png"
+  },
+  "minigame_new_year_challenge_score_holder": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1166,
+      20,
+      1259,
+      54
+    ],
+    "target": [
+      1166,
+      20,
+      1259,
+      54
+    ],
+    "template": "minigame/minigame_new_year_challenge_score_holder.png"
+  },
+  "minigame_new_year_challenge_start": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      462,
+      418,
+      508,
+      495
+    ],
+    "target": [
+      462,
+      418,
+      508,
+      495
+    ],
+    "template": "minigame/minigame_new_year_challenge_start.png"
+  },
+  "minigame_new_year_challenge_stop_play": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      63,
+      14,
+      96,
+      46
+    ],
+    "target": [
+      63,
+      14,
+      96,
+      46
+    ],
+    "template": "minigame/minigame_new_year_challenge_stop_play.png"
+  },
+  "minigame_new_year_challenge_tmp_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      263,
+      317,
+      308,
+      324
+    ],
+    "target": [
+      263,
+      317,
+      308,
+      324
+    ],
+    "template": "minigame/minigame_new_year_challenge_tmp_1.png"
+  },
+  "minigame_new_year_challenge_tmp_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      439,
+      317,
+      478,
+      324
+    ],
+    "target": [
+      439,
+      317,
+      478,
+      324
+    ],
+    "template": "minigame/minigame_new_year_challenge_tmp_2.png"
+  },
+  "minigame_new_year_challenge_tmp_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      317,
+      653,
+      324
+    ],
+    "target": [
+      610,
+      317,
+      653,
+      324
+    ],
+    "template": "minigame/minigame_new_year_challenge_tmp_3.png"
+  },
+  "minigame_new_year_challenge_tmp_4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      784,
+      318,
+      823,
+      323
+    ],
+    "target": [
+      784,
+      318,
+      823,
+      323
+    ],
+    "template": "minigame/minigame_new_year_challenge_tmp_4.png"
+  },
+  "minigame_new_year_challenge_tmp_5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      954,
+      319,
+      1001,
+      323
+    ],
+    "target": [
+      954,
+      319,
+      1001,
+      323
+    ],
+    "template": "minigame/minigame_new_year_challenge_tmp_5.png"
+  },
+  "minigame_new_year_challenge_yellow_button": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1103,
+      540,
+      1175,
+      606
+    ],
+    "target": [
+      1103,
+      540,
+      1175,
+      606
+    ],
+    "template": "minigame/minigame_new_year_challenge_yellow_button.png"
+  },
+  "minigame_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1223,
+      95,
+      1230,
+      655
+    ],
+    "target": [
+      1223,
+      95,
+      1230,
+      655
+    ],
+    "template": "minigame/minigame_scroll_area.png"
+  },
+  "minigame_ticket_shop": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      244,
+      629,
+      285,
+      679
+    ],
+    "target": [
+      244,
+      629,
+      285,
+      679
+    ],
+    "template": "minigame/minigame_ticket_shop.png"
+  }
+}

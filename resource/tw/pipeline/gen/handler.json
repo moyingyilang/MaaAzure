@@ -1,0 +1,1906 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/handler/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "handler_air_attack_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1161,
+      645,
+      1222,
+      675
+    ],
+    "target": [
+      1161,
+      645,
+      1222,
+      675
+    ],
+    "template": "handler/handler_air_attack_confirm.png"
+  },
+  "handler_air_attack_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1194,
+      456,
+      1249,
+      530
+    ],
+    "target": [
+      1194,
+      456,
+      1249,
+      530
+    ],
+    "template": "handler/handler_air_attack_enter.png"
+  },
+  "handler_air_strike_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      889,
+      646,
+      946,
+      674
+    ],
+    "target": [
+      889,
+      646,
+      946,
+      674
+    ],
+    "template": "handler/handler_air_strike_cancel.png"
+  },
+  "handler_air_strike_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1102,
+      646,
+      1161,
+      674
+    ],
+    "target": [
+      1102,
+      646,
+      1161,
+      674
+    ],
+    "template": "handler/handler_air_strike_confirm.png"
+  },
+  "handler_air_strike_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1194,
+      456,
+      1249,
+      530
+    ],
+    "target": [
+      1194,
+      456,
+      1249,
+      530
+    ],
+    "template": "handler/handler_air_strike_enter.png"
+  },
+  "handler_android_no_respond": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      341,
+      433,
+      391,
+      472
+    ],
+    "target": [
+      341,
+      433,
+      391,
+      472
+    ],
+    "template": "handler/handler_android_no_respond.png"
+  },
+  "handler_auto_search_map_option_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1205,
+      546,
+      1275,
+      567
+    ],
+    "target": [
+      1205,
+      546,
+      1275,
+      567
+    ],
+    "template": "handler/handler_auto_search_map_option_off.png"
+  },
+  "handler_auto_search_map_option_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1204,
+      546,
+      1276,
+      567
+    ],
+    "target": [
+      1204,
+      546,
+      1276,
+      567
+    ],
+    "template": "handler/handler_auto_search_map_option_on.png"
+  },
+  "handler_auto_search_menu_continue": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      790,
+      610,
+      903,
+      638
+    ],
+    "target": [
+      776,
+      601,
+      919,
+      645
+    ],
+    "template": "handler/handler_auto_search_menu_continue.png"
+  },
+  "handler_auto_search_menu_exit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      414,
+      609,
+      477,
+      637
+    ],
+    "target": [
+      393,
+      604,
+      498,
+      644
+    ],
+    "template": "handler/handler_auto_search_menu_exit.png"
+  },
+  "handler_auto_search_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "target": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "template": "handler/handler_auto_search_off.png"
+  },
+  "handler_auto_search_off2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "target": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "template": "handler/handler_auto_search_off2.png"
+  },
+  "handler_auto_search_off3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "target": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "template": "handler/handler_auto_search_off3.png"
+  },
+  "handler_auto_search_off4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "target": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "template": "handler/handler_auto_search_off4.png"
+  },
+  "handler_auto_search_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "target": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "template": "handler/handler_auto_search_on.png"
+  },
+  "handler_auto_search_on2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "target": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "template": "handler/handler_auto_search_on2.png"
+  },
+  "handler_auto_search_on3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "target": [
+      865,
+      587,
+      881,
+      603
+    ],
+    "template": "handler/handler_auto_search_on3.png"
+  },
+  "handler_auto_search_on4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "target": [
+      867,
+      588,
+      883,
+      604
+    ],
+    "template": "handler/handler_auto_search_on4.png"
+  },
+  "handler_auto_search_set_all": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      832,
+      207,
+      851,
+      226
+    ],
+    "target": [
+      832,
+      207,
+      851,
+      226
+    ],
+    "template": "handler/handler_auto_search_set_all.png"
+  },
+  "handler_auto_search_set_boss": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      635,
+      207,
+      653,
+      226
+    ],
+    "target": [
+      635,
+      207,
+      653,
+      226
+    ],
+    "template": "handler/handler_auto_search_set_boss.png"
+  },
+  "handler_auto_search_set_mob": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      496,
+      207,
+      515,
+      226
+    ],
+    "target": [
+      496,
+      207,
+      515,
+      226
+    ],
+    "template": "handler/handler_auto_search_set_mob.png"
+  },
+  "handler_auto_search_set_standby": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      932,
+      207,
+      950,
+      226
+    ],
+    "target": [
+      932,
+      207,
+      950,
+      226
+    ],
+    "template": "handler/handler_auto_search_set_standby.png"
+  },
+  "handler_auto_search_set_sub_auto": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      578,
+      457,
+      597,
+      476
+    ],
+    "target": [
+      578,
+      457,
+      597,
+      476
+    ],
+    "template": "handler/handler_auto_search_set_sub_auto.png"
+  },
+  "handler_auto_search_set_sub_standby": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      894,
+      457,
+      913,
+      476
+    ],
+    "target": [
+      894,
+      457,
+      913,
+      476
+    ],
+    "template": "handler/handler_auto_search_set_sub_standby.png"
+  },
+  "handler_avatar_expired": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      641,
+      567,
+      713,
+      598
+    ],
+    "target": [
+      641,
+      567,
+      713,
+      598
+    ],
+    "template": "handler/handler_avatar_expired.png"
+  },
+  "handler_battle_pass_new_season": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      942,
+      529,
+      962,
+      550
+    ],
+    "target": [
+      942,
+      529,
+      962,
+      550
+    ],
+    "template": "handler/handler_battle_pass_new_season.png"
+  },
+  "handler_battle_pass_notice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      554,
+      483,
+      726,
+      540
+    ],
+    "target": [
+      863,
+      173,
+      929,
+      217
+    ],
+    "template": "handler/handler_battle_pass_notice.png"
+  },
+  "handler_book_box_auto": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      807,
+      613,
+      826,
+      632
+    ],
+    "target": [
+      807,
+      613,
+      826,
+      632
+    ],
+    "template": "handler/handler_book_box_auto.png"
+  },
+  "handler_book_box_prep": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      906,
+      604,
+      922,
+      619
+    ],
+    "target": [
+      906,
+      604,
+      922,
+      619
+    ],
+    "template": "handler/handler_book_box_prep.png"
+  },
+  "handler_book_check_auto": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      686,
+      607,
+      707,
+      633
+    ],
+    "target": [
+      686,
+      607,
+      707,
+      633
+    ],
+    "template": "handler/handler_book_check_auto.png"
+  },
+  "handler_book_check_prep": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      719,
+      591,
+      743,
+      623
+    ],
+    "target": [
+      719,
+      591,
+      743,
+      623
+    ],
+    "template": "handler/handler_book_check_prep.png"
+  },
+  "handler_book_popup_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      420,
+      304,
+      475,
+      354
+    ],
+    "target": [
+      420,
+      304,
+      475,
+      354
+    ],
+    "template": "handler/handler_book_popup_check.png"
+  },
+  "handler_fast_forward_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      982,
+      587,
+      1022,
+      605
+    ],
+    "target": [
+      982,
+      587,
+      1022,
+      605
+    ],
+    "template": "handler/handler_fast_forward_off.png"
+  },
+  "handler_fast_forward_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1024,
+      587,
+      1064,
+      605
+    ],
+    "target": [
+      1024,
+      587,
+      1064,
+      605
+    ],
+    "template": "handler/handler_fast_forward_on.png"
+  },
+  "handler_fleet_locked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1185,
+      501,
+      1192,
+      519
+    ],
+    "target": [
+      1185,
+      501,
+      1192,
+      519
+    ],
+    "template": "handler/handler_fleet_locked.png"
+  },
+  "handler_fleet_unlocked": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1185,
+      492,
+      1192,
+      525
+    ],
+    "target": [
+      1185,
+      492,
+      1192,
+      525
+    ],
+    "template": "handler/handler_fleet_unlocked.png"
+  },
+  "handler_formation_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1108,
+      446,
+      1170,
+      477
+    ],
+    "target": [
+      1108,
+      415,
+      1170,
+      477
+    ],
+    "template": "handler/handler_formation_1.png"
+  },
+  "handler_formation_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1108,
+      446,
+      1170,
+      477
+    ],
+    "target": [
+      1108,
+      415,
+      1170,
+      477
+    ],
+    "template": "handler/handler_formation_2.png"
+  },
+  "handler_formation_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1108,
+      446,
+      1170,
+      477
+    ],
+    "target": [
+      1108,
+      415,
+      1170,
+      477
+    ],
+    "template": "handler/handler_formation_3.png"
+  },
+  "handler_formation_location": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      145,
+      115,
+      437,
+      159
+    ],
+    "target": [
+      145,
+      115,
+      437,
+      159
+    ],
+    "template": "handler/handler_formation_location.png"
+  },
+  "handler_game_tips": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1009,
+      586,
+      1028,
+      614
+    ],
+    "target": [
+      924,
+      653,
+      943,
+      672
+    ],
+    "template": "handler/handler_game_tips.png"
+  },
+  "handler_game_tips3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1008,
+      586,
+      1028,
+      614
+    ],
+    "target": [
+      1008,
+      586,
+      1028,
+      614
+    ],
+    "template": "handler/handler_game_tips3.png"
+  },
+  "handler_game_tips4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1008,
+      587,
+      1028,
+      614
+    ],
+    "target": [
+      1008,
+      587,
+      1028,
+      614
+    ],
+    "template": "handler/handler_game_tips4.png"
+  },
+  "handler_get_ammo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      792,
+      315,
+      794,
+      333
+    ],
+    "target": [
+      792,
+      315,
+      794,
+      333
+    ],
+    "template": "handler/handler_get_ammo.png"
+  },
+  "handler_get_items_ship_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      563,
+      193,
+      720,
+      219
+    ],
+    "target": [
+      563,
+      193,
+      720,
+      219
+    ],
+    "template": "handler/handler_get_items_ship_1.png"
+  },
+  "handler_get_mission": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      495,
+      676,
+      526
+    ],
+    "target": [
+      604,
+      495,
+      676,
+      526
+    ],
+    "template": "handler/handler_get_mission.png"
+  },
+  "handler_get_skin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      990,
+      550,
+      1022,
+      565
+    ],
+    "target": [
+      990,
+      550,
+      1022,
+      565
+    ],
+    "template": "handler/handler_get_skin.png"
+  },
+  "handler_guild_popup_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      422,
+      449,
+      623,
+      486
+    ],
+    "target": [
+      422,
+      449,
+      623,
+      486
+    ],
+    "template": "handler/handler_guild_popup_cancel.png"
+  },
+  "handler_guild_popup_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      655,
+      450,
+      856,
+      487
+    ],
+    "target": [
+      655,
+      450,
+      856,
+      487
+    ],
+    "template": "handler/handler_guild_popup_confirm.png"
+  },
+  "handler_in_map": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      749,
+      654,
+      921,
+      707
+    ],
+    "target": [
+      749,
+      654,
+      921,
+      707
+    ],
+    "template": "handler/handler_in_map.png"
+  },
+  "handler_in_stage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      122,
+      16,
+      172,
+      39
+    ],
+    "target": [
+      122,
+      16,
+      172,
+      39
+    ],
+    "template": "handler/handler_in_stage.png"
+  },
+  "handler_info_bar_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      297,
+      1080,
+      299
+    ],
+    "target": [
+      200,
+      297,
+      1080,
+      299
+    ],
+    "template": "handler/handler_info_bar_1.png"
+  },
+  "handler_info_bar_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      241,
+      1080,
+      243
+    ],
+    "target": [
+      200,
+      241,
+      1080,
+      243
+    ],
+    "template": "handler/handler_info_bar_2.png"
+  },
+  "handler_info_bar_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      185,
+      1080,
+      187
+    ],
+    "target": [
+      200,
+      185,
+      1080,
+      187
+    ],
+    "template": "handler/handler_info_bar_3.png"
+  },
+  "handler_info_bar_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      200,
+      173,
+      1080,
+      348
+    ],
+    "target": [
+      200,
+      173,
+      1080,
+      348
+    ],
+    "template": "handler/handler_info_bar_area.png"
+  },
+  "handler_info_bar_detect": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      194,
+      299,
+      1086,
+      348
+    ],
+    "target": [
+      194,
+      299,
+      1086,
+      348
+    ],
+    "template": "handler/handler_info_bar_detect.png"
+  },
+  "handler_login_announce": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1160,
+      45,
+      1227,
+      90
+    ],
+    "target": [
+      1160,
+      61,
+      1190,
+      90
+    ],
+    "template": "handler/handler_login_announce.png"
+  },
+  "handler_login_announce_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1193,
+      83,
+      1215,
+      105
+    ],
+    "target": [
+      1171,
+      83,
+      1193,
+      105
+    ],
+    "template": "handler/handler_login_announce_2.png"
+  },
+  "handler_login_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1214,
+      653,
+      1268,
+      709
+    ],
+    "target": [
+      416,
+      294,
+      534,
+      400
+    ],
+    "template": "handler/handler_login_check.png"
+  },
+  "handler_login_game_update": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      706,
+      477,
+      866,
+      528
+    ],
+    "target": [
+      706,
+      477,
+      866,
+      528
+    ],
+    "template": "handler/handler_login_game_update.png"
+  },
+  "handler_login_return_info": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      960,
+      123,
+      1158,
+      333
+    ],
+    "target": [
+      960,
+      123,
+      1158,
+      333
+    ],
+    "template": "handler/handler_login_return_info.png"
+  },
+  "handler_login_return_sign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1,
+      7,
+      104,
+      47
+    ],
+    "target": [
+      1,
+      7,
+      104,
+      47
+    ],
+    "template": "handler/handler_login_return_sign.png"
+  },
+  "handler_maintenance_announce": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      923,
+      141,
+      990,
+      186
+    ],
+    "target": [
+      923,
+      141,
+      990,
+      186
+    ],
+    "template": "handler/handler_maintenance_announce.png"
+  },
+  "handler_manjuu_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      520,
+      240,
+      760,
+      400
+    ],
+    "target": [
+      520,
+      240,
+      760,
+      400
+    ],
+    "template": "handler/handler_manjuu_area.png"
+  },
+  "handler_map_air_raid": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      350,
+      447,
+      1280,
+      472
+    ],
+    "target": [
+      350,
+      447,
+      1280,
+      472
+    ],
+    "template": "handler/handler_map_air_raid.png"
+  },
+  "handler_map_air_strike": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "target": [
+      0,
+      0,
+      1280,
+      720
+    ],
+    "template": "handler/handler_map_air_strike.png"
+  },
+  "handler_map_ambush": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      433,
+      1280,
+      449
+    ],
+    "target": [
+      261,
+      433,
+      1280,
+      449
+    ],
+    "template": "handler/handler_map_ambush.png"
+  },
+  "handler_map_ambush_attack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      804,
+      455,
+      876,
+      486
+    ],
+    "target": [
+      762,
+      443,
+      927,
+      499
+    ],
+    "template": "handler/handler_map_ambush_attack.png"
+  },
+  "handler_map_ambush_evade": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      457,
+      1101,
+      487
+    ],
+    "target": [
+      979,
+      444,
+      1152,
+      502
+    ],
+    "template": "handler/handler_map_ambush_evade.png"
+  },
+  "handler_map_buff": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      145,
+      115,
+      437,
+      159
+    ],
+    "target": [
+      145,
+      115,
+      437,
+      159
+    ],
+    "template": "handler/handler_map_buff.png"
+  },
+  "handler_map_clear_percentage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      626,
+      185,
+      970,
+      190
+    ],
+    "target": [
+      626,
+      185,
+      970,
+      190
+    ],
+    "template": "handler/handler_map_clear_percentage.png"
+  },
+  "handler_map_enemy_searching": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      678,
+      358,
+      719,
+      368
+    ],
+    "target": [
+      678,
+      358,
+      719,
+      368
+    ],
+    "template": "handler/handler_map_enemy_searching.png"
+  },
+  "handler_map_green": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      242,
+      268,
+      321,
+      286
+    ],
+    "target": [
+      242,
+      268,
+      321,
+      286
+    ],
+    "template": "handler/handler_map_green.png"
+  },
+  "handler_map_star_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      234,
+      365,
+      265,
+      394
+    ],
+    "target": [
+      234,
+      365,
+      265,
+      394
+    ],
+    "template": "handler/handler_map_star_1.png"
+  },
+  "handler_map_star_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      521,
+      365,
+      551,
+      394
+    ],
+    "target": [
+      521,
+      365,
+      551,
+      394
+    ],
+    "template": "handler/handler_map_star_2.png"
+  },
+  "handler_map_star_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      807,
+      365,
+      838,
+      394
+    ],
+    "target": [
+      807,
+      365,
+      838,
+      394
+    ],
+    "template": "handler/handler_map_star_3.png"
+  },
+  "handler_map_walk_out_of_step": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      653,
+      309,
+      705,
+      334
+    ],
+    "target": [
+      653,
+      309,
+      705,
+      334
+    ],
+    "template": "handler/handler_map_walk_out_of_step.png"
+  },
+  "handler_map_walk_speedup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1025,
+      406,
+      1055,
+      436
+    ],
+    "target": [
+      1025,
+      406,
+      1055,
+      436
+    ],
+    "template": "handler/handler_map_walk_speedup.png"
+  },
+  "handler_mission_popup_ack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      441,
+      491,
+      536,
+      522
+    ],
+    "target": [
+      441,
+      491,
+      536,
+      522
+    ],
+    "template": "handler/handler_mission_popup_ack.png"
+  },
+  "handler_mission_popup_go": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      726,
+      491,
+      855,
+      522
+    ],
+    "target": [
+      726,
+      491,
+      855,
+      522
+    ],
+    "template": "handler/handler_mission_popup_go.png"
+  },
+  "handler_mob_move_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1164,
+      647,
+      1219,
+      673
+    ],
+    "target": [
+      1164,
+      647,
+      1219,
+      673
+    ],
+    "template": "handler/handler_mob_move_cancel.png"
+  },
+  "handler_mob_move_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1102,
+      504,
+      1157,
+      578
+    ],
+    "target": [
+      1102,
+      504,
+      1157,
+      578
+    ],
+    "template": "handler/handler_mob_move_enter.png"
+  },
+  "handler_monthly_pass_notice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      554,
+      505,
+      726,
+      561
+    ],
+    "target": [
+      872,
+      152,
+      939,
+      196
+    ],
+    "template": "handler/handler_monthly_pass_notice.png"
+  },
+  "handler_mystery_item": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      589,
+      294,
+      691,
+      427
+    ],
+    "target": [
+      588,
+      478,
+      698,
+      496
+    ],
+    "template": "handler/handler_mystery_item.png"
+  },
+  "handler_popup_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      454,
+      495,
+      525,
+      526
+    ],
+    "target": [
+      454,
+      495,
+      525,
+      526
+    ],
+    "template": "handler/handler_popup_cancel.png"
+  },
+  "handler_popup_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      754,
+      495,
+      825,
+      525
+    ],
+    "target": [
+      754,
+      495,
+      825,
+      525
+    ],
+    "template": "handler/handler_popup_confirm.png"
+  },
+  "handler_story_close": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1227,
+      28,
+      1252,
+      53
+    ],
+    "target": [
+      1227,
+      28,
+      1252,
+      53
+    ],
+    "template": "handler/handler_story_close.png"
+  },
+  "handler_story_letter_black": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1145,
+      585,
+      1280,
+      720
+    ],
+    "target": [
+      1145,
+      585,
+      1280,
+      720
+    ],
+    "template": "handler/handler_story_letter_black.png"
+  },
+  "handler_story_letters_only": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1159,
+      26,
+      1264,
+      52
+    ],
+    "target": [
+      1159,
+      26,
+      1264,
+      52
+    ],
+    "template": "handler/handler_story_letters_only.png"
+  },
+  "handler_story_skip": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1216,
+      676,
+      1258,
+      708
+    ],
+    "target": [
+      1178,
+      25,
+      1196,
+      54
+    ],
+    "template": "handler/handler_story_skip.png"
+  },
+  "handler_story_skip_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1181,
+      26,
+      1225,
+      40
+    ],
+    "target": [
+      1181,
+      26,
+      1225,
+      40
+    ],
+    "template": "handler/handler_story_skip_2.png"
+  },
+  "handler_story_skip_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      28,
+      23,
+      55,
+      50
+    ],
+    "target": [
+      28,
+      23,
+      55,
+      50
+    ],
+    "template": "handler/handler_story_skip_3.png"
+  },
+  "handler_strategy_open": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1198,
+      411,
+      1269,
+      471
+    ],
+    "target": [
+      1198,
+      411,
+      1269,
+      471
+    ],
+    "template": "handler/handler_strategy_open.png"
+  },
+  "handler_strategy_opened": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1176,
+      366,
+      1275,
+      392
+    ],
+    "target": [
+      1057,
+      393,
+      1092,
+      496
+    ],
+    "template": "handler/handler_strategy_opened.png"
+  },
+  "handler_submarine_hunt_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1200,
+      415,
+      1262,
+      477
+    ],
+    "target": [
+      1200,
+      415,
+      1262,
+      477
+    ],
+    "template": "handler/handler_submarine_hunt_off.png"
+  },
+  "handler_submarine_hunt_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1200,
+      415,
+      1262,
+      477
+    ],
+    "target": [
+      1200,
+      415,
+      1262,
+      477
+    ],
+    "template": "handler/handler_submarine_hunt_on.png"
+  },
+  "handler_submarine_move_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      889,
+      646,
+      1006,
+      674
+    ],
+    "target": [
+      889,
+      646,
+      1006,
+      674
+    ],
+    "template": "handler/handler_submarine_move_cancel.png"
+  },
+  "handler_submarine_move_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1102,
+      646,
+      1220,
+      674
+    ],
+    "target": [
+      1102,
+      646,
+      1220,
+      674
+    ],
+    "template": "handler/handler_submarine_move_confirm.png"
+  },
+  "handler_submarine_move_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1109,
+      511,
+      1169,
+      571
+    ],
+    "target": [
+      1109,
+      511,
+      1169,
+      571
+    ],
+    "template": "handler/handler_submarine_move_enter.png"
+  },
+  "handler_submarine_view_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1140,
+      435,
+      1170,
+      468
+    ],
+    "target": [
+      1140,
+      435,
+      1170,
+      468
+    ],
+    "template": "handler/handler_submarine_view_off.png"
+  },
+  "handler_submarine_view_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1140,
+      435,
+      1170,
+      468
+    ],
+    "target": [
+      1140,
+      435,
+      1170,
+      468
+    ],
+    "template": "handler/handler_submarine_view_on.png"
+  },
+  "handler_template_manjuu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "handler/handler_template_manjuu.png"
+  },
+  "handler_use_data_key": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      688,
+      316,
+      782,
+      338
+    ],
+    "target": [
+      688,
+      316,
+      782,
+      338
+    ],
+    "template": "handler/handler_use_data_key.png"
+  },
+  "handler_use_data_key_notified": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      782,
+      440,
+      799,
+      456
+    ],
+    "target": [
+      782,
+      440,
+      799,
+      456
+    ],
+    "template": "handler/handler_use_data_key_notified.png"
+  },
+  "handler_user_agreement_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      709,
+      526,
+      742,
+      542
+    ],
+    "target": [
+      709,
+      526,
+      742,
+      542
+    ],
+    "template": "handler/handler_user_agreement_confirm.png"
+  },
+  "handler_vote_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      404,
+      483,
+      576,
+      539
+    ],
+    "target": [
+      404,
+      483,
+      576,
+      539
+    ],
+    "template": "handler/handler_vote_cancel.png"
+  }
+}

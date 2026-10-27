@@ -1,0 +1,646 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/island_juu_eatery/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_juu_eatery_post1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      348,
+      825,
+      375
+    ],
+    "target": [
+      798,
+      405,
+      870,
+      478
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post1.png"
+  },
+  "island_juu_eatery_post2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      738,
+      348,
+      825,
+      375
+    ],
+    "target": [
+      894,
+      406,
+      967,
+      476
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post2.png"
+  },
+  "island_juu_eatery_post_apple_pie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      617,
+      315,
+      667,
+      358
+    ],
+    "target": [
+      617,
+      315,
+      667,
+      358
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_apple_pie.png"
+  },
+  "island_juu_eatery_post_banana_crepe": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      621,
+      308,
+      665,
+      362
+    ],
+    "target": [
+      621,
+      308,
+      665,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_banana_crepe.png"
+  },
+  "island_juu_eatery_post_berry_orange": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      618,
+      307,
+      670,
+      362
+    ],
+    "target": [
+      618,
+      307,
+      670,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_berry_orange.png"
+  },
+  "island_juu_eatery_post_corn_cup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      615,
+      315,
+      666,
+      362
+    ],
+    "target": [
+      615,
+      315,
+      666,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_corn_cup.png"
+  },
+  "island_juu_eatery_post_orange_pie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      615,
+      313,
+      668,
+      357
+    ],
+    "target": [
+      615,
+      313,
+      668,
+      357
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_orange_pie.png"
+  },
+  "island_juu_eatery_post_orchard_duo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      304,
+      675,
+      362
+    ],
+    "target": [
+      610,
+      304,
+      675,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_orchard_duo.png"
+  },
+  "island_juu_eatery_post_rice_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      609,
+      314,
+      673,
+      362
+    ],
+    "target": [
+      609,
+      314,
+      673,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_rice_mango.png"
+  },
+  "island_juu_eatery_post_seafood_rice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "target": [
+      610,
+      316,
+      672,
+      363
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_seafood_rice.png"
+  },
+  "island_juu_eatery_post_strawberry_charlotte": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      607,
+      310,
+      673,
+      361
+    ],
+    "target": [
+      607,
+      310,
+      673,
+      361
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_strawberry_charlotte.png"
+  },
+  "island_juu_eatery_post_succulently_sweet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      608,
+      308,
+      673,
+      362
+    ],
+    "target": [
+      608,
+      308,
+      673,
+      362
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_post_succulently_sweet.png"
+  },
+  "island_juu_eatery_select_apple_pie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      223,
+      303,
+      277,
+      346
+    ],
+    "target": [
+      223,
+      303,
+      277,
+      346
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_apple_pie.png"
+  },
+  "island_juu_eatery_select_apple_pie_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      755,
+      240,
+      830,
+      305
+    ],
+    "target": [
+      755,
+      240,
+      830,
+      305
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_apple_pie_check.png"
+  },
+  "island_juu_eatery_select_banana_crepe": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      226,
+      505,
+      272,
+      574
+    ],
+    "target": [
+      226,
+      505,
+      272,
+      574
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_banana_crepe.png"
+  },
+  "island_juu_eatery_select_banana_crepe_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      763,
+      232,
+      827,
+      327
+    ],
+    "target": [
+      763,
+      232,
+      827,
+      327
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_banana_crepe_check.png"
+  },
+  "island_juu_eatery_select_berry_orange": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      213,
+      552,
+      284,
+      615
+    ],
+    "target": [
+      213,
+      552,
+      284,
+      615
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_berry_orange.png"
+  },
+  "island_juu_eatery_select_berry_orange_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      744,
+      231,
+      841,
+      327
+    ],
+    "target": [
+      744,
+      231,
+      841,
+      327
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_berry_orange_check.png"
+  },
+  "island_juu_eatery_select_corn_cup": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      222,
+      154,
+      275,
+      206
+    ],
+    "target": [
+      222,
+      154,
+      275,
+      206
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_corn_cup.png"
+  },
+  "island_juu_eatery_select_corn_cup_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      243,
+      828,
+      315
+    ],
+    "target": [
+      756,
+      243,
+      828,
+      315
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_corn_cup_check.png"
+  },
+  "island_juu_eatery_select_orange_pie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      222,
+      450,
+      277,
+      496
+    ],
+    "target": [
+      222,
+      450,
+      277,
+      496
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_orange_pie.png"
+  },
+  "island_juu_eatery_select_orange_pie_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      754,
+      238,
+      833,
+      304
+    ],
+    "target": [
+      754,
+      238,
+      833,
+      304
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_orange_pie_check.png"
+  },
+  "island_juu_eatery_select_orchard_duo": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      216,
+      397,
+      286,
+      467
+    ],
+    "target": [
+      216,
+      397,
+      286,
+      467
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_orchard_duo.png"
+  },
+  "island_juu_eatery_select_orchard_duo_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      225,
+      844,
+      327
+    ],
+    "target": [
+      743,
+      225,
+      844,
+      327
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_orchard_duo_check.png"
+  },
+  "island_juu_eatery_select_rice_mango": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      216,
+      600,
+      283,
+      649
+    ],
+    "target": [
+      216,
+      600,
+      283,
+      649
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_rice_mango.png"
+  },
+  "island_juu_eatery_select_rice_mango_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      240,
+      838,
+      319
+    ],
+    "target": [
+      746,
+      240,
+      838,
+      319
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_rice_mango_check.png"
+  },
+  "island_juu_eatery_select_seafood_rice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      213,
+      105,
+      287,
+      168
+    ],
+    "target": [
+      213,
+      105,
+      287,
+      168
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_seafood_rice.png"
+  },
+  "island_juu_eatery_select_seafood_rice_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      238,
+      845,
+      324
+    ],
+    "target": [
+      743,
+      238,
+      845,
+      324
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_seafood_rice_check.png"
+  },
+  "island_juu_eatery_select_strawberry_charlotte": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      520,
+      284,
+      582
+    ],
+    "target": [
+      214,
+      520,
+      284,
+      582
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_strawberry_charlotte.png"
+  },
+  "island_juu_eatery_select_strawberry_charlotte_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      743,
+      234,
+      840,
+      323
+    ],
+    "target": [
+      743,
+      234,
+      840,
+      323
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_strawberry_charlotte_check.png"
+  },
+  "island_juu_eatery_select_succulently_sweet": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      216,
+      520,
+      284,
+      584
+    ],
+    "target": [
+      216,
+      520,
+      284,
+      584
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_succulently_sweet.png"
+  },
+  "island_juu_eatery_select_succulently_sweet_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      745,
+      231,
+      841,
+      327
+    ],
+    "target": [
+      745,
+      231,
+      841,
+      327
+    ],
+    "template": "island_juu_eatery/island_juu_eatery_select_succulently_sweet_check.png"
+  },
+  "island_juu_eatery_template_apple_pie": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_apple_pie.png"
+  },
+  "island_juu_eatery_template_banana_crepe": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_banana_crepe.png"
+  },
+  "island_juu_eatery_template_berry_orange": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_berry_orange.png"
+  },
+  "island_juu_eatery_template_corn_cup": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_corn_cup.png"
+  },
+  "island_juu_eatery_template_orange_pie": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_orange_pie.png"
+  },
+  "island_juu_eatery_template_orchard_duo": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_orchard_duo.png"
+  },
+  "island_juu_eatery_template_rice_mango": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_rice_mango.png"
+  },
+  "island_juu_eatery_template_seafood_rice": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_seafood_rice.png"
+  },
+  "island_juu_eatery_template_strawberry_charlotte": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_strawberry_charlotte.png"
+  },
+  "island_juu_eatery_template_succulently_sweet": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_juu_eatery/island_juu_eatery_template_succulently_sweet.png"
+  }
+}

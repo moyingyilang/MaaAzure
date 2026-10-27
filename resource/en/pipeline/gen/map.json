@@ -1,0 +1,820 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/map/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "map_cat_attack": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1237,
+      103,
+      1252,
+      153
+    ],
+    "target": [
+      1147,
+      651,
+      1263,
+      701
+    ],
+    "template": "map/map_cat_attack.png"
+  },
+  "map_cat_attack_mirror": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      147,
+      145,
+      187,
+      157
+    ],
+    "target": [
+      147,
+      145,
+      187,
+      157
+    ],
+    "template": "map/map_cat_attack_mirror.png"
+  },
+  "map_fleet_1_advice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1002,
+      216,
+      1064,
+      228
+    ],
+    "target": [
+      1002,
+      216,
+      1064,
+      228
+    ],
+    "template": "map/map_fleet_1_advice.png"
+  },
+  "map_fleet_1_bar": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      993,
+      270,
+      1164,
+      515
+    ],
+    "target": [
+      993,
+      270,
+      1164,
+      515
+    ],
+    "template": "map/map_fleet_1_bar.png"
+  },
+  "map_fleet_1_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      193,
+      1063,
+      251
+    ],
+    "target": [
+      1003,
+      193,
+      1063,
+      251
+    ],
+    "template": "map/map_fleet_1_choose.png"
+  },
+  "map_fleet_1_clear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1093,
+      215,
+      1147,
+      230
+    ],
+    "target": [
+      1093,
+      215,
+      1147,
+      230
+    ],
+    "template": "map/map_fleet_1_clear.png"
+  },
+  "map_fleet_1_hard_satiesfied": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      188,
+      154,
+      338,
+      178
+    ],
+    "target": [
+      188,
+      154,
+      338,
+      178
+    ],
+    "template": "map/map_fleet_1_hard_satiesfied.png"
+  },
+  "map_fleet_1_in_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      373,
+      179,
+      453,
+      260
+    ],
+    "target": [
+      373,
+      179,
+      453,
+      260
+    ],
+    "template": "map/map_fleet_1_in_use.png"
+  },
+  "map_fleet_2_advice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1010,
+      330,
+      1071,
+      342
+    ],
+    "target": [
+      1010,
+      330,
+      1071,
+      342
+    ],
+    "template": "map/map_fleet_2_advice.png"
+  },
+  "map_fleet_2_bar": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      994,
+      384,
+      1165,
+      629
+    ],
+    "target": [
+      994,
+      384,
+      1165,
+      629
+    ],
+    "template": "map/map_fleet_2_bar.png"
+  },
+  "map_fleet_2_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      307,
+      1063,
+      365
+    ],
+    "target": [
+      1003,
+      307,
+      1063,
+      365
+    ],
+    "template": "map/map_fleet_2_choose.png"
+  },
+  "map_fleet_2_clear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1095,
+      329,
+      1149,
+      344
+    ],
+    "target": [
+      1095,
+      329,
+      1149,
+      344
+    ],
+    "template": "map/map_fleet_2_clear.png"
+  },
+  "map_fleet_2_hard_satiesfied": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      188,
+      378,
+      328,
+      402
+    ],
+    "target": [
+      188,
+      378,
+      328,
+      402
+    ],
+    "template": "map/map_fleet_2_hard_satiesfied.png"
+  },
+  "map_fleet_2_in_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      374,
+      352,
+      453,
+      373
+    ],
+    "target": [
+      374,
+      352,
+      453,
+      373
+    ],
+    "template": "map/map_fleet_2_in_use.png"
+  },
+  "map_fleet_2_in_use_w15": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      371,
+      290,
+      456,
+      319
+    ],
+    "target": [
+      371,
+      290,
+      456,
+      319
+    ],
+    "template": "map/map_fleet_2_in_use_w15.png"
+  },
+  "map_fleet_num_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      213,
+      76,
+      224,
+      101
+    ],
+    "target": [
+      213,
+      76,
+      224,
+      101
+    ],
+    "template": "map/map_fleet_num_1.png"
+  },
+  "map_fleet_num_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      212,
+      75,
+      226,
+      101
+    ],
+    "target": [
+      212,
+      75,
+      226,
+      101
+    ],
+    "template": "map/map_fleet_num_2.png"
+  },
+  "map_fleet_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1048,
+      569,
+      1086,
+      595
+    ],
+    "target": [
+      988,
+      556,
+      1145,
+      606
+    ],
+    "template": "map/map_fleet_preparation.png"
+  },
+  "map_fleet_preparation_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1129,
+      111,
+      1158,
+      140
+    ],
+    "target": [
+      1129,
+      111,
+      1158,
+      140
+    ],
+    "template": "map/map_fleet_preparation_check.png"
+  },
+  "map_fleet_support_empty": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      454,
+      470,
+      538,
+      540
+    ],
+    "target": [
+      454,
+      470,
+      538,
+      540
+    ],
+    "template": "map/map_fleet_support_empty.png"
+  },
+  "map_fleet_switch_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      553,
+      481,
+      728,
+      541
+    ],
+    "target": [
+      553,
+      481,
+      728,
+      541
+    ],
+    "template": "map/map_fleet_switch_confirm.png"
+  },
+  "map_fleet_withdraw": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      714,
+      356,
+      773,
+      380
+    ],
+    "target": [
+      714,
+      356,
+      773,
+      380
+    ],
+    "template": "map/map_fleet_withdraw.png"
+  },
+  "map_fleet_withdraw_boss": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      713,
+      355,
+      774,
+      381
+    ],
+    "target": [
+      713,
+      355,
+      774,
+      381
+    ],
+    "template": "map/map_fleet_withdraw_boss.png"
+  },
+  "map_mode_switch_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      341,
+      580,
+      374,
+      617
+    ],
+    "target": [
+      341,
+      580,
+      374,
+      617
+    ],
+    "template": "map/map_mode_switch_hard.png"
+  },
+  "map_mode_switch_hard2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "target": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "template": "map/map_mode_switch_hard2.png"
+  },
+  "map_mode_switch_hard3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "target": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "template": "map/map_mode_switch_hard3.png"
+  },
+  "map_mode_switch_hard4": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "target": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "template": "map/map_mode_switch_hard4.png"
+  },
+  "map_mode_switch_hard5": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "target": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "template": "map/map_mode_switch_hard5.png"
+  },
+  "map_mode_switch_hard6": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "target": [
+      340,
+      579,
+      372,
+      615
+    ],
+    "template": "map/map_mode_switch_hard6.png"
+  },
+  "map_mode_switch_normal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      214,
+      584,
+      255,
+      615
+    ],
+    "target": [
+      214,
+      584,
+      255,
+      615
+    ],
+    "template": "map/map_mode_switch_normal.png"
+  },
+  "map_offensive": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1147,
+      652,
+      1263,
+      701
+    ],
+    "target": [
+      1147,
+      652,
+      1263,
+      701
+    ],
+    "template": "map/map_offensive.png"
+  },
+  "map_preparation": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      978,
+      504,
+      1090,
+      523
+    ],
+    "target": [
+      978,
+      504,
+      1090,
+      523
+    ],
+    "template": "map/map_preparation.png"
+  },
+  "map_preparation_cancel": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      234,
+      12,
+      278,
+      47
+    ],
+    "target": [
+      234,
+      12,
+      278,
+      47
+    ],
+    "template": "map/map_preparation_cancel.png"
+  },
+  "map_preparation_hard": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      982,
+      502,
+      1035,
+      532
+    ],
+    "target": [
+      982,
+      502,
+      1035,
+      532
+    ],
+    "template": "map/map_preparation_hard.png"
+  },
+  "map_recommend_a": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1019,
+      190,
+      1085,
+      251
+    ],
+    "target": [
+      1019,
+      190,
+      1085,
+      251
+    ],
+    "template": "map/map_recommend_a.png"
+  },
+  "map_recommend_b": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1019,
+      304,
+      1085,
+      365
+    ],
+    "target": [
+      1019,
+      304,
+      1085,
+      365
+    ],
+    "template": "map/map_recommend_b.png"
+  },
+  "map_recommend_c": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1019,
+      440,
+      1085,
+      501
+    ],
+    "target": [
+      1019,
+      440,
+      1085,
+      501
+    ],
+    "template": "map/map_recommend_c.png"
+  },
+  "map_submarine_advice": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1002,
+      466,
+      1064,
+      478
+    ],
+    "target": [
+      1002,
+      466,
+      1064,
+      478
+    ],
+    "template": "map/map_submarine_advice.png"
+  },
+  "map_submarine_bar": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      994,
+      520,
+      1165,
+      597
+    ],
+    "target": [
+      994,
+      520,
+      1165,
+      597
+    ],
+    "template": "map/map_submarine_bar.png"
+  },
+  "map_submarine_choose": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      443,
+      1063,
+      501
+    ],
+    "target": [
+      1003,
+      443,
+      1063,
+      501
+    ],
+    "template": "map/map_submarine_choose.png"
+  },
+  "map_submarine_clear": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1095,
+      465,
+      1149,
+      480
+    ],
+    "target": [
+      1095,
+      465,
+      1149,
+      480
+    ],
+    "template": "map/map_submarine_clear.png"
+  },
+  "map_submarine_hard_satiesfied": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      189,
+      517,
+      339,
+      541
+    ],
+    "target": [
+      189,
+      517,
+      339,
+      541
+    ],
+    "template": "map/map_submarine_hard_satiesfied.png"
+  },
+  "map_submarine_in_use": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      436,
+      429,
+      517,
+      510
+    ],
+    "target": [
+      436,
+      429,
+      517,
+      510
+    ],
+    "template": "map/map_submarine_in_use.png"
+  },
+  "map_switch_over": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      945,
+      647,
+      1119,
+      702
+    ],
+    "target": [
+      945,
+      647,
+      1119,
+      702
+    ],
+    "template": "map/map_switch_over.png"
+  },
+  "map_withdraw": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      748,
+      652,
+      922,
+      702
+    ],
+    "target": [
+      748,
+      652,
+      922,
+      702
+    ],
+    "template": "map/map_withdraw.png"
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/island_pearl_sell/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "island_pearl_sell_island_pearl_friend_rank_tab": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      586,
+      91,
+      657,
+      112
+    ],
+    "target": [
+      586,
+      91,
+      657,
+      112
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_friend_rank_tab.png"
+  },
+  "island_pearl_sell_island_pearl_shop_buy_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      113,
+      22,
+      229,
+      44
+    ],
+    "target": [
+      113,
+      22,
+      229,
+      44
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_shop_buy_check.png"
+  },
+  "island_pearl_sell_island_pearl_shop_buy_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      804,
+      447,
+      980,
+      474
+    ],
+    "target": [
+      804,
+      447,
+      980,
+      474
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_shop_buy_enter.png"
+  },
+  "island_pearl_sell_island_pearl_shop_friend_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      804,
+      377,
+      980,
+      411
+    ],
+    "target": [
+      804,
+      377,
+      980,
+      411
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_shop_friend_enter.png"
+  },
+  "island_pearl_sell_island_pearl_shop_sell_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      113,
+      22,
+      229,
+      44
+    ],
+    "target": [
+      113,
+      22,
+      229,
+      44
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_shop_sell_check.png"
+  },
+  "island_pearl_sell_island_pearl_shop_sell_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      806,
+      413,
+      980,
+      439
+    ],
+    "target": [
+      806,
+      413,
+      980,
+      439
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_shop_sell_enter.png"
+  },
+  "island_pearl_sell_island_pearl_trade": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      226,
+      229,
+      295,
+      300
+    ],
+    "target": [
+      226,
+      229,
+      295,
+      300
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_trade.png"
+  },
+  "island_pearl_sell_island_pearl_trade_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      887,
+      552,
+      955,
+      587
+    ],
+    "target": [
+      887,
+      552,
+      955,
+      587
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_trade_buy_confirm.png"
+  },
+  "island_pearl_sell_island_pearl_trade_sell_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      887,
+      552,
+      955,
+      587
+    ],
+    "target": [
+      887,
+      552,
+      955,
+      587
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_island_pearl_trade_sell_confirm.png"
+  },
+  "island_pearl_sell_ocr_island_pearl_current_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      960,
+      20,
+      1000,
+      44
+    ],
+    "target": [
+      960,
+      20,
+      1000,
+      44
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_ocr_island_pearl_current_count.png"
+  },
+  "island_pearl_sell_ocr_island_pearl_price": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      254,
+      354,
+      305,
+      379
+    ],
+    "target": [
+      254,
+      354,
+      305,
+      379
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_ocr_island_pearl_price.png"
+  },
+  "island_pearl_sell_ocr_island_pearl_trade_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      783,
+      360,
+      823,
+      381
+    ],
+    "target": [
+      783,
+      360,
+      823,
+      381
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_ocr_island_pearl_trade_count.png"
+  },
+  "island_pearl_sell_ocr_island_pearl_weekly_purchase": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      990,
+      69,
+      1210,
+      88
+    ],
+    "target": [
+      990,
+      69,
+      1210,
+      88
+    ],
+    "template": "island_pearl_sell/island_pearl_sell_ocr_island_pearl_weekly_purchase.png"
+  },
+  "island_pearl_sell_template_island_pearl_rank_visit": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "island_pearl_sell/island_pearl_sell_template_island_pearl_rank_visit.png"
+  }
+}

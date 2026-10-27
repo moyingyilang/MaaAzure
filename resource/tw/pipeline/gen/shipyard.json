@@ -1,0 +1,388 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/shipyard/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "shipyard_confirm_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1084,
+      495,
+      1144,
+      523
+    ],
+    "target": [
+      1084,
+      495,
+      1144,
+      523
+    ],
+    "template": "shipyard/shipyard_confirm_dev.png"
+  },
+  "shipyard_confirm_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1153,
+      521,
+      1215,
+      559
+    ],
+    "target": [
+      1153,
+      521,
+      1215,
+      559
+    ],
+    "template": "shipyard/shipyard_confirm_fate.png"
+  },
+  "shipyard_go_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      943,
+      507,
+      1030,
+      531
+    ],
+    "target": [
+      1080,
+      415,
+      1147,
+      505
+    ],
+    "template": "shipyard/shipyard_go_fate.png"
+  },
+  "shipyard_in_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      6,
+      129,
+      84,
+      151
+    ],
+    "target": [
+      6,
+      129,
+      84,
+      151
+    ],
+    "template": "shipyard/shipyard_in_dev.png"
+  },
+  "shipyard_in_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      924,
+      121,
+      1022,
+      146
+    ],
+    "target": [
+      924,
+      121,
+      1022,
+      146
+    ],
+    "template": "shipyard/shipyard_in_fate.png"
+  },
+  "shipyard_level_not_enough_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1230,
+      155,
+      1273,
+      171
+    ],
+    "target": [
+      1230,
+      155,
+      1273,
+      171
+    ],
+    "template": "shipyard/shipyard_level_not_enough_dev.png"
+  },
+  "shipyard_level_not_enough_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1040,
+      160,
+      1147,
+      174
+    ],
+    "target": [
+      1040,
+      160,
+      1147,
+      174
+    ],
+    "template": "shipyard/shipyard_level_not_enough_fate.png"
+  },
+  "shipyard_main_ocr_coin": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      716,
+      24,
+      780,
+      49
+    ],
+    "target": [
+      716,
+      24,
+      780,
+      49
+    ],
+    "template": "shipyard/shipyard_main_ocr_coin.png"
+  },
+  "shipyard_minus_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1049,
+      429,
+      1084,
+      463
+    ],
+    "target": [
+      1049,
+      429,
+      1084,
+      463
+    ],
+    "template": "shipyard/shipyard_minus_dev.png"
+  },
+  "shipyard_minus_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1028,
+      453,
+      1063,
+      487
+    ],
+    "target": [
+      1028,
+      453,
+      1063,
+      487
+    ],
+    "template": "shipyard/shipyard_minus_fate.png"
+  },
+  "shipyard_plus_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1149,
+      429,
+      1184,
+      462
+    ],
+    "target": [
+      1149,
+      429,
+      1184,
+      462
+    ],
+    "template": "shipyard/shipyard_plus_dev.png"
+  },
+  "shipyard_plus_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1129,
+      453,
+      1164,
+      487
+    ],
+    "target": [
+      1129,
+      453,
+      1164,
+      487
+    ],
+    "template": "shipyard/shipyard_plus_fate.png"
+  },
+  "shipyard_progress_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1184,
+      145,
+      1273,
+      175
+    ],
+    "target": [
+      1184,
+      145,
+      1273,
+      175
+    ],
+    "template": "shipyard/shipyard_progress_dev.png"
+  },
+  "shipyard_progress_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1141,
+      153,
+      1278,
+      190
+    ],
+    "target": [
+      1141,
+      153,
+      1278,
+      190
+    ],
+    "template": "shipyard/shipyard_progress_fate.png"
+  },
+  "shipyard_research_complete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      548,
+      498,
+      740,
+      531
+    ],
+    "target": [
+      548,
+      498,
+      740,
+      531
+    ],
+    "template": "shipyard/shipyard_research_complete.png"
+  },
+  "shipyard_research_in_progress": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      465,
+      479,
+      482,
+      501
+    ],
+    "target": [
+      465,
+      479,
+      482,
+      501
+    ],
+    "template": "shipyard/shipyard_research_in_progress.png"
+  },
+  "shipyard_research_incomplete": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      616,
+      490,
+      740,
+      531
+    ],
+    "target": [
+      616,
+      490,
+      740,
+      531
+    ],
+    "template": "shipyard/shipyard_research_incomplete.png"
+  },
+  "shipyard_series_select_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      32,
+      62,
+      53,
+      100
+    ],
+    "target": [
+      32,
+      62,
+      53,
+      100
+    ],
+    "template": "shipyard/shipyard_series_select_check.png"
+  },
+  "shipyard_series_select_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      33,
+      657,
+      157,
+      697
+    ],
+    "target": [
+      33,
+      657,
+      157,
+      697
+    ],
+    "template": "shipyard/shipyard_series_select_enter.png"
+  },
+  "shipyard_total_dev": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1086,
+      429,
+      1147,
+      463
+    ],
+    "target": [
+      1086,
+      429,
+      1147,
+      463
+    ],
+    "template": "shipyard/shipyard_total_dev.png"
+  },
+  "shipyard_total_fate": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1067,
+      457,
+      1126,
+      484
+    ],
+    "target": [
+      1067,
+      457,
+      1126,
+      484
+    ],
+    "template": "shipyard/shipyard_total_fate.png"
+  }
+}

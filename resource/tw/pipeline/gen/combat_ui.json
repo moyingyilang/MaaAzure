@@ -1,0 +1,658 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "tw",
+    "source": "module/combat_ui/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "combat_ui_pause": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1217,
+      36,
+      1225,
+      59
+    ],
+    "target": [
+      1157,
+      34,
+      1241,
+      61
+    ],
+    "template": "combat_ui/combat_ui_pause.png"
+  },
+  "combat_ui_pause_ancient": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1228,
+      36,
+      1245,
+      55
+    ],
+    "target": [
+      1228,
+      36,
+      1245,
+      55
+    ],
+    "template": "combat_ui/combat_ui_pause_ancient.png"
+  },
+  "combat_ui_pause_azurecore": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1220,
+      36,
+      1237,
+      55
+    ],
+    "target": [
+      1220,
+      36,
+      1237,
+      55
+    ],
+    "template": "combat_ui/combat_ui_pause_azurecore.png"
+  },
+  "combat_ui_pause_christmas": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1234,
+      35,
+      1250,
+      56
+    ],
+    "target": [
+      1234,
+      35,
+      1250,
+      56
+    ],
+    "template": "combat_ui/combat_ui_pause_christmas.png"
+  },
+  "combat_ui_pause_cyber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1231,
+      32,
+      1253,
+      59
+    ],
+    "target": [
+      1231,
+      32,
+      1253,
+      59
+    ],
+    "template": "combat_ui/combat_ui_pause_cyber.png"
+  },
+  "combat_ui_pause_devil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1233,
+      35,
+      1250,
+      57
+    ],
+    "target": [
+      1233,
+      35,
+      1250,
+      57
+    ],
+    "template": "combat_ui/combat_ui_pause_devil.png"
+  },
+  "combat_ui_pause_double_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1226,
+      35,
+      1231,
+      60
+    ],
+    "target": [
+      1226,
+      35,
+      1231,
+      60
+    ],
+    "template": "combat_ui/combat_ui_pause_double_check.png"
+  },
+  "combat_ui_pause_elvenvine": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1229,
+      32,
+      1253,
+      55
+    ],
+    "target": [
+      1229,
+      32,
+      1253,
+      55
+    ],
+    "template": "combat_ui/combat_ui_pause_elvenvine.png"
+  },
+  "combat_ui_pause_gildedreverie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1225,
+      34,
+      1245,
+      50
+    ],
+    "target": [
+      1225,
+      34,
+      1245,
+      50
+    ],
+    "template": "combat_ui/combat_ui_pause_gildedreverie.png"
+  },
+  "combat_ui_pause_holylight": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1233,
+      35,
+      1250,
+      57
+    ],
+    "target": [
+      1233,
+      35,
+      1250,
+      57
+    ],
+    "template": "combat_ui/combat_ui_pause_holylight.png"
+  },
+  "combat_ui_pause_iridescent_fantasy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1232,
+      33,
+      1252,
+      57
+    ],
+    "target": [
+      1232,
+      33,
+      1252,
+      57
+    ],
+    "template": "combat_ui/combat_ui_pause_iridescent_fantasy.png"
+  },
+  "combat_ui_pause_maidcafe": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1230,
+      35,
+      1248,
+      54
+    ],
+    "target": [
+      1230,
+      35,
+      1248,
+      54
+    ],
+    "template": "combat_ui/combat_ui_pause_maidcafe.png"
+  },
+  "combat_ui_pause_neon": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1228,
+      32,
+      1250,
+      59
+    ],
+    "target": [
+      1228,
+      32,
+      1250,
+      59
+    ],
+    "template": "combat_ui/combat_ui_pause_neon.png"
+  },
+  "combat_ui_pause_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1231,
+      29,
+      1253,
+      56
+    ],
+    "target": [
+      1231,
+      29,
+      1253,
+      56
+    ],
+    "template": "combat_ui/combat_ui_pause_new.png"
+  },
+  "combat_ui_pause_ninja": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1230,
+      37,
+      1246,
+      53
+    ],
+    "target": [
+      1230,
+      37,
+      1246,
+      53
+    ],
+    "template": "combat_ui/combat_ui_pause_ninja.png"
+  },
+  "combat_ui_pause_nurse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1236,
+      33,
+      1251,
+      50
+    ],
+    "target": [
+      1236,
+      33,
+      1251,
+      50
+    ],
+    "template": "combat_ui/combat_ui_pause_nurse.png"
+  },
+  "combat_ui_pause_olderoyal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1223,
+      37,
+      1241,
+      56
+    ],
+    "target": [
+      1223,
+      37,
+      1241,
+      56
+    ],
+    "template": "combat_ui/combat_ui_pause_olderoyal.png"
+  },
+  "combat_ui_pause_pharaoh": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1229,
+      55,
+      1259,
+      62
+    ],
+    "target": [
+      1229,
+      55,
+      1259,
+      62
+    ],
+    "template": "combat_ui/combat_ui_pause_pharaoh.png"
+  },
+  "combat_ui_pause_seaside": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1214,
+      31,
+      1239,
+      59
+    ],
+    "target": [
+      1214,
+      31,
+      1239,
+      59
+    ],
+    "template": "combat_ui/combat_ui_pause_seaside.png"
+  },
+  "combat_ui_pause_shadowpuppetry": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1216,
+      37,
+      1234,
+      55
+    ],
+    "target": [
+      1216,
+      37,
+      1234,
+      55
+    ],
+    "template": "combat_ui/combat_ui_pause_shadowpuppetry.png"
+  },
+  "combat_ui_pause_springinn": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1212,
+      37,
+      1235,
+      61
+    ],
+    "target": [
+      1212,
+      37,
+      1235,
+      61
+    ],
+    "template": "combat_ui/combat_ui_pause_springinn.png"
+  },
+  "combat_ui_pause_star": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1234,
+      36,
+      1250,
+      57
+    ],
+    "target": [
+      1234,
+      36,
+      1250,
+      57
+    ],
+    "template": "combat_ui/combat_ui_pause_star.png"
+  },
+  "combat_ui_pause_yorha": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1222,
+      34,
+      1241,
+      54
+    ],
+    "target": [
+      1222,
+      34,
+      1241,
+      54
+    ],
+    "template": "combat_ui/combat_ui_pause_yorha.png"
+  },
+  "combat_ui_quit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      433,
+      490,
+      606,
+      547
+    ],
+    "target": [
+      433,
+      490,
+      606,
+      547
+    ],
+    "template": "combat_ui/combat_ui_quit.png"
+  },
+  "combat_ui_quit_christmas": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      400,
+      506,
+      477,
+      525
+    ],
+    "target": [
+      400,
+      506,
+      477,
+      525
+    ],
+    "template": "combat_ui/combat_ui_quit_christmas.png"
+  },
+  "combat_ui_quit_cyber": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      393,
+      506,
+      470,
+      524
+    ],
+    "target": [
+      393,
+      506,
+      470,
+      524
+    ],
+    "template": "combat_ui/combat_ui_quit_cyber.png"
+  },
+  "combat_ui_quit_gildedreverie": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      422,
+      553,
+      500,
+      572
+    ],
+    "target": [
+      422,
+      553,
+      500,
+      572
+    ],
+    "template": "combat_ui/combat_ui_quit_gildedreverie.png"
+  },
+  "combat_ui_quit_iridescent_fantasy": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      391,
+      522,
+      464,
+      540
+    ],
+    "target": [
+      391,
+      522,
+      464,
+      540
+    ],
+    "template": "combat_ui/combat_ui_quit_iridescent_fantasy.png"
+  },
+  "combat_ui_quit_maidcafe": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      423,
+      549,
+      501,
+      568
+    ],
+    "target": [
+      423,
+      549,
+      501,
+      568
+    ],
+    "template": "combat_ui/combat_ui_quit_maidcafe.png"
+  },
+  "combat_ui_quit_new": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      393,
+      505,
+      471,
+      524
+    ],
+    "target": [
+      393,
+      505,
+      471,
+      524
+    ],
+    "template": "combat_ui/combat_ui_quit_new.png"
+  },
+  "combat_ui_quit_ninja": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      398,
+      509,
+      477,
+      528
+    ],
+    "target": [
+      398,
+      509,
+      477,
+      528
+    ],
+    "template": "combat_ui/combat_ui_quit_ninja.png"
+  },
+  "combat_ui_quit_nurse": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      400,
+      507,
+      477,
+      525
+    ],
+    "target": [
+      400,
+      507,
+      477,
+      525
+    ],
+    "template": "combat_ui/combat_ui_quit_nurse.png"
+  },
+  "combat_ui_quit_pharaoh": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      400,
+      507,
+      477,
+      525
+    ],
+    "target": [
+      400,
+      507,
+      477,
+      525
+    ],
+    "template": "combat_ui/combat_ui_quit_pharaoh.png"
+  },
+  "combat_ui_quit_seaside": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      398,
+      509,
+      476,
+      528
+    ],
+    "target": [
+      398,
+      509,
+      476,
+      528
+    ],
+    "template": "combat_ui/combat_ui_quit_seaside.png"
+  },
+  "combat_ui_quit_springinn": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      396,
+      559,
+      478,
+      584
+    ],
+    "target": [
+      396,
+      559,
+      478,
+      584
+    ],
+    "template": "combat_ui/combat_ui_quit_springinn.png"
+  },
+  "combat_ui_quit_yorha": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      452,
+      556,
+      535,
+      576
+    ],
+    "target": [
+      452,
+      556,
+      535,
+      576
+    ],
+    "template": "combat_ui/combat_ui_quit_yorha.png"
+  }
+}

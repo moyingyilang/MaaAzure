@@ -1,0 +1,676 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/shop/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "shop_amount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      600,
+      313,
+      680,
+      344
+    ],
+    "target": [
+      600,
+      313,
+      680,
+      344
+    ],
+    "template": "shop/shop_amount.png"
+  },
+  "shop_amount_max": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      762,
+      314,
+      830,
+      342
+    ],
+    "target": [
+      762,
+      314,
+      830,
+      342
+    ],
+    "template": "shop/shop_amount_max.png"
+  },
+  "shop_amount_minus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      549,
+      311,
+      582,
+      345
+    ],
+    "target": [
+      549,
+      311,
+      582,
+      345
+    ],
+    "template": "shop/shop_amount_minus.png"
+  },
+  "shop_amount_plus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      696,
+      312,
+      732,
+      345
+    ],
+    "target": [
+      696,
+      312,
+      732,
+      345
+    ],
+    "template": "shop/shop_amount_plus.png"
+  },
+  "shop_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      703,
+      483,
+      876,
+      540
+    ],
+    "target": [
+      703,
+      483,
+      876,
+      540
+    ],
+    "template": "shop/shop_buy_confirm.png"
+  },
+  "shop_buy_confirm_amount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      756,
+      622,
+      827,
+      653
+    ],
+    "target": [
+      756,
+      622,
+      827,
+      653
+    ],
+    "template": "shop/shop_buy_confirm_amount.png"
+  },
+  "shop_buy_confirm_mistake": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      590,
+      300,
+      612,
+      318
+    ],
+    "target": [
+      590,
+      300,
+      612,
+      318
+    ],
+    "template": "shop/shop_buy_confirm_mistake.png"
+  },
+  "shop_buy_confirm_select": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      604,
+      642,
+      676,
+      671
+    ],
+    "target": [
+      604,
+      642,
+      676,
+      671
+    ],
+    "template": "shop/shop_buy_confirm_select.png"
+  },
+  "shop_click_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1051,
+      137,
+      1218,
+      179
+    ],
+    "target": [
+      1051,
+      137,
+      1218,
+      179
+    ],
+    "template": "shop/shop_click_safe_area.png"
+  },
+  "shop_gems": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1035,
+      23,
+      1133,
+      51
+    ],
+    "target": [
+      1035,
+      23,
+      1133,
+      51
+    ],
+    "template": "shop/shop_gems.png"
+  },
+  "shop_gold_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      815,
+      23,
+      922,
+      51
+    ],
+    "target": [
+      815,
+      23,
+      922,
+      51
+    ],
+    "template": "shop/shop_gold_coins.png"
+  },
+  "shop_medal_shop_scroll_area_250814": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1064,
+      201,
+      1065,
+      623
+    ],
+    "target": [
+      1064,
+      201,
+      1065,
+      623
+    ],
+    "template": "shop/shop_medal_shop_scroll_area_250814.png"
+  },
+  "shop_nav_event": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      52,
+      537,
+      127,
+      558
+    ],
+    "target": [
+      52,
+      537,
+      127,
+      558
+    ],
+    "template": "shop/shop_nav_event.png"
+  },
+  "shop_nav_general": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      52,
+      436,
+      127,
+      457
+    ],
+    "target": [
+      52,
+      436,
+      127,
+      457
+    ],
+    "template": "shop/shop_nav_general.png"
+  },
+  "shop_nav_monthly": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      52,
+      486,
+      127,
+      508
+    ],
+    "target": [
+      52,
+      486,
+      127,
+      508
+    ],
+    "template": "shop/shop_nav_monthly.png"
+  },
+  "shop_ocr_balance": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      972,
+      164,
+      1052,
+      189
+    ],
+    "target": [
+      972,
+      164,
+      1052,
+      189
+    ],
+    "template": "shop/shop_ocr_balance.png"
+  },
+  "shop_ocr_oil": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      700,
+      23,
+      785,
+      47
+    ],
+    "target": [
+      700,
+      23,
+      785,
+      47
+    ],
+    "template": "shop/shop_ocr_oil.png"
+  },
+  "shop_ocr_oil_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      666,
+      30,
+      682,
+      43
+    ],
+    "target": [
+      666,
+      30,
+      682,
+      43
+    ],
+    "template": "shop/shop_ocr_oil_check.png"
+  },
+  "shop_refresh": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1001,
+      653,
+      1070,
+      690
+    ],
+    "target": [
+      1001,
+      653,
+      1070,
+      690
+    ],
+    "template": "shop/shop_refresh.png"
+  },
+  "shop_refresh_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1024,
+      660,
+      1048,
+      684
+    ],
+    "target": [
+      1024,
+      660,
+      1048,
+      684
+    ],
+    "template": "shop/shop_refresh_check.png"
+  },
+  "shop_select_minus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      562,
+      201,
+      588,
+      227
+    ],
+    "target": [
+      562,
+      201,
+      588,
+      227
+    ],
+    "template": "shop/shop_select_minus.png"
+  },
+  "shop_select_plus": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      674,
+      201,
+      700,
+      227
+    ],
+    "target": [
+      674,
+      201,
+      700,
+      227
+    ],
+    "template": "shop/shop_select_plus.png"
+  },
+  "shop_select_pr1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      182,
+      212,
+      308,
+      339
+    ],
+    "target": [
+      182,
+      212,
+      308,
+      339
+    ],
+    "template": "shop/shop_select_pr1.png"
+  },
+  "shop_select_pr2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      182,
+      212,
+      310,
+      340
+    ],
+    "target": [
+      182,
+      212,
+      310,
+      340
+    ],
+    "template": "shop/shop_select_pr2.png"
+  },
+  "shop_select_pr3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      180,
+      212,
+      309,
+      340
+    ],
+    "target": [
+      180,
+      212,
+      309,
+      340
+    ],
+    "template": "shop/shop_select_pr3.png"
+  },
+  "shop_select_stock": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1070,
+      152,
+      1126,
+      178
+    ],
+    "target": [
+      1070,
+      152,
+      1126,
+      178
+    ],
+    "template": "shop/shop_select_stock.png"
+  },
+  "shop_tab_core_limited": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      303,
+      99,
+      340,
+      118
+    ],
+    "target": [
+      303,
+      99,
+      340,
+      118
+    ],
+    "template": "shop/shop_tab_core_limited.png"
+  },
+  "shop_tab_core_monthly": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      533,
+      100,
+      570,
+      118
+    ],
+    "target": [
+      533,
+      100,
+      570,
+      118
+    ],
+    "template": "shop/shop_tab_core_monthly.png"
+  },
+  "shop_tab_general": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      259,
+      98,
+      300,
+      118
+    ],
+    "target": [
+      259,
+      98,
+      300,
+      118
+    ],
+    "template": "shop/shop_tab_general.png"
+  },
+  "shop_tab_guild": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      627,
+      98,
+      668,
+      118
+    ],
+    "target": [
+      627,
+      98,
+      668,
+      118
+    ],
+    "template": "shop/shop_tab_guild.png"
+  },
+  "shop_tab_medal": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      742,
+      99,
+      783,
+      118
+    ],
+    "target": [
+      742,
+      99,
+      783,
+      118
+    ],
+    "template": "shop/shop_tab_medal.png"
+  },
+  "shop_tab_merit": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      443,
+      98,
+      484,
+      118
+    ],
+    "target": [
+      443,
+      98,
+      484,
+      118
+    ],
+    "template": "shop/shop_tab_merit.png"
+  },
+  "shop_tab_meta": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      804,
+      99,
+      860,
+      117
+    ],
+    "target": [
+      804,
+      99,
+      860,
+      117
+    ],
+    "template": "shop/shop_tab_meta.png"
+  },
+  "shop_tab_prize": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      995,
+      98,
+      1037,
+      118
+    ],
+    "target": [
+      995,
+      98,
+      1037,
+      118
+    ],
+    "template": "shop/shop_tab_prize.png"
+  },
+  "shop_tab_prototype": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      973,
+      98,
+      1013,
+      118
+    ],
+    "target": [
+      973,
+      98,
+      1013,
+      118
+    ],
+    "template": "shop/shop_tab_prototype.png"
+  },
+  "shop_voucher": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1115,
+      123,
+      1261,
+      158
+    ],
+    "target": [
+      1115,
+      123,
+      1261,
+      158
+    ],
+    "template": "shop/shop_voucher.png"
+  },
+  "shop_voucher_shop_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1257,
+      184,
+      1263,
+      647
+    ],
+    "target": [
+      1257,
+      184,
+      1263,
+      647
+    ],
+    "template": "shop/shop_voucher_shop_scroll_area.png"
+  }
+}

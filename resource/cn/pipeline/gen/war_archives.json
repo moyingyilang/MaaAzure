@@ -1,0 +1,430 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/war_archives/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "war_archives_campaign_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1150,
+      101,
+      1166,
+      130
+    ],
+    "target": [
+      1150,
+      101,
+      1166,
+      130
+    ],
+    "template": "war_archives/war_archives_campaign_check.png"
+  },
+  "war_archives_ex_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      908,
+      42,
+      991,
+      72
+    ],
+    "target": [
+      908,
+      42,
+      991,
+      72
+    ],
+    "template": "war_archives/war_archives_ex_off.png"
+  },
+  "war_archives_ex_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      903,
+      42,
+      994,
+      72
+    ],
+    "target": [
+      903,
+      42,
+      994,
+      72
+    ],
+    "template": "war_archives/war_archives_ex_on.png"
+  },
+  "war_archives_ocr_data_key_campaign": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1188,
+      107,
+      1272,
+      131
+    ],
+    "target": [
+      1188,
+      107,
+      1272,
+      131
+    ],
+    "template": "war_archives/war_archives_ocr_data_key_campaign.png"
+  },
+  "war_archives_scroll": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1253,
+      130,
+      1260,
+      695
+    ],
+    "target": [
+      1253,
+      130,
+      1260,
+      695
+    ],
+    "template": "war_archives/war_archives_scroll.png"
+  },
+  "war_archives_sp_off": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1012,
+      43,
+      1095,
+      71
+    ],
+    "target": [
+      1012,
+      43,
+      1095,
+      71
+    ],
+    "template": "war_archives/war_archives_sp_off.png"
+  },
+  "war_archives_sp_on": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1010,
+      43,
+      1095,
+      71
+    ],
+    "target": [
+      1010,
+      43,
+      1095,
+      71
+    ],
+    "template": "war_archives/war_archives_sp_on.png"
+  },
+  "war_archives_template_abyssal_refrain": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_abyssal_refrain.png"
+  },
+  "war_archives_template_anthem_of_remembrance": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_anthem_of_remembrance.png"
+  },
+  "war_archives_template_aquilifers_ballade": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_aquilifers_ballade.png"
+  },
+  "war_archives_template_ashen_simulacrum": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_ashen_simulacrum.png"
+  },
+  "war_archives_template_aurora_noctis": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_aurora_noctis.png"
+  },
+  "war_archives_template_confluence_of_nothingness": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_confluence_of_nothingness.png"
+  },
+  "war_archives_template_counterattack_within_the_fjord": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_counterattack_within_the_fjord.png"
+  },
+  "war_archives_template_crescendo_of_polaris": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_crescendo_of_polaris.png"
+  },
+  "war_archives_template_crimson_echoes": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_crimson_echoes.png"
+  },
+  "war_archives_template_daedalian_hymn": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_daedalian_hymn.png"
+  },
+  "war_archives_template_divergent_chessboard": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_divergent_chessboard.png"
+  },
+  "war_archives_template_dreamwakers_butterfly": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_dreamwakers_butterfly.png"
+  },
+  "war_archives_template_empyreal_tragicomedy": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_empyreal_tragicomedy.png"
+  },
+  "war_archives_template_encircling_graf_spee": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_encircling_graf_spee.png"
+  },
+  "war_archives_template_fallen_wings": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_fallen_wings.png"
+  },
+  "war_archives_template_glorious_battle": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_glorious_battle.png"
+  },
+  "war_archives_template_ink_stained_steel_sakura": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_ink_stained_steel_sakura.png"
+  },
+  "war_archives_template_interlude_of_illusions": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_interlude_of_illusions.png"
+  },
+  "war_archives_template_inverted_orthant": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_inverted_orthant.png"
+  },
+  "war_archives_template_iris_of_light_and_dark": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_iris_of_light_and_dark.png"
+  },
+  "war_archives_template_khorovod_of_dawns_rime": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_khorovod_of_dawns_rime.png"
+  },
+  "war_archives_template_microlayer_medley": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_microlayer_medley.png"
+  },
+  "war_archives_template_mirror_involution": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_mirror_involution.png"
+  },
+  "war_archives_template_moonlit_overture": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_moonlit_overture.png"
+  },
+  "war_archives_template_northern_overture": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_northern_overture.png"
+  },
+  "war_archives_template_operation_convergence": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_operation_convergence.png"
+  },
+  "war_archives_template_parallel_superimposition": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_parallel_superimposition.png"
+  },
+  "war_archives_template_pledge_of_the_radiant_court": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_pledge_of_the_radiant_court.png"
+  },
+  "war_archives_template_prelude_under_the_moon": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_prelude_under_the_moon.png"
+  },
+  "war_archives_template_revelations_of_dust": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_revelations_of_dust.png"
+  },
+  "war_archives_template_rondo_at_rainbows_end": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_rondo_at_rainbows_end.png"
+  },
+  "war_archives_template_scherzo_of_iron_and_blood": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_scherzo_of_iron_and_blood.png"
+  },
+  "war_archives_template_skybound_oratorio": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_skybound_oratorio.png"
+  },
+  "war_archives_template_stars_of_the_shimmering_fjord": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_stars_of_the_shimmering_fjord.png"
+  },
+  "war_archives_template_strive_wish_and_strategize": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_strive_wish_and_strategize.png"
+  },
+  "war_archives_template_sundered_blue": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_sundered_blue.png"
+  },
+  "war_archives_template_swirling_cherry_blossoms": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_swirling_cherry_blossoms.png"
+  },
+  "war_archives_template_tempesta_and_the_fountain_of_youth": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_tempesta_and_the_fountain_of_youth.png"
+  },
+  "war_archives_template_the_enigma_and_the_shark": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_the_enigma_and_the_shark.png"
+  },
+  "war_archives_template_the_flame_touched_dagger": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_the_flame_touched_dagger.png"
+  },
+  "war_archives_template_the_solomon_ranger": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_the_solomon_ranger.png"
+  },
+  "war_archives_template_the_way_home_in_the_night": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_the_way_home_in_the_night.png"
+  },
+  "war_archives_template_tower_of_transcendence": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_tower_of_transcendence.png"
+  },
+  "war_archives_template_universe_in_unison": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_universe_in_unison.png"
+  },
+  "war_archives_template_upon_the_shimmering_blue": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_upon_the_shimmering_blue.png"
+  },
+  "war_archives_template_violet_tempest_blooming_lycoris": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_violet_tempest_blooming_lycoris.png"
+  },
+  "war_archives_template_virtual_tower": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_virtual_tower.png"
+  },
+  "war_archives_template_visitors_dyed_in_red": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_visitors_dyed_in_red.png"
+  },
+  "war_archives_template_winters_crown": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "template": "war_archives/war_archives_template_winters_crown.png"
+  }
+}

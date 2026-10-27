@@ -1,0 +1,154 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "en",
+    "source": "module/os_shop/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "os_shop_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      346,
+      160,
+      361,
+      183
+    ],
+    "target": [
+      346,
+      160,
+      361,
+      183
+    ],
+    "template": "os_shop/os_shop_check.png"
+  },
+  "os_shop_port_supply_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      127,
+      15,
+      264,
+      39
+    ],
+    "target": [
+      127,
+      15,
+      264,
+      39
+    ],
+    "template": "os_shop/os_shop_port_supply_check.png"
+  },
+  "os_shop_purple_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1043,
+      155,
+      1178,
+      189
+    ],
+    "target": [
+      1043,
+      155,
+      1178,
+      189
+    ],
+    "template": "os_shop/os_shop_purple_coins.png"
+  },
+  "os_shop_safe_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1130,
+      196,
+      1172,
+      488
+    ],
+    "target": [
+      1130,
+      196,
+      1172,
+      488
+    ],
+    "template": "os_shop/os_shop_safe_area.png"
+  },
+  "os_shop_scroll_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1176,
+      210,
+      1180,
+      720
+    ],
+    "target": [
+      1176,
+      210,
+      1180,
+      720
+    ],
+    "template": "os_shop/os_shop_scroll_area.png"
+  },
+  "os_shop_shop_buy_confirm": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      708,
+      484,
+      875,
+      538
+    ],
+    "target": [
+      708,
+      484,
+      875,
+      538
+    ],
+    "template": "os_shop/os_shop_shop_buy_confirm.png"
+  },
+  "os_shop_shop_purple_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      379,
+      106,
+      489,
+      137
+    ],
+    "target": [
+      379,
+      106,
+      489,
+      137
+    ],
+    "template": "os_shop/os_shop_shop_purple_coins.png"
+  },
+  "os_shop_shop_yellow_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1038,
+      27,
+      1128,
+      48
+    ],
+    "target": [
+      1038,
+      27,
+      1128,
+      48
+    ],
+    "template": "os_shop/os_shop_shop_yellow_coins.png"
+  }
+}

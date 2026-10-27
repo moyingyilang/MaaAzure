@@ -1,0 +1,622 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "jp",
+    "source": "module/private_quarters/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "private_quarters_daily_count": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      132,
+      129,
+      171,
+      151
+    ],
+    "target": [
+      132,
+      129,
+      171,
+      151
+    ],
+    "template": "private_quarters/private_quarters_daily_count.png"
+  },
+  "private_quarters_interact": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      832,
+      446,
+      857,
+      471
+    ],
+    "target": [
+      832,
+      446,
+      1107,
+      471
+    ],
+    "template": "private_quarters/private_quarters_interact.png"
+  },
+  "private_quarters_interact_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1223,
+      653,
+      1245,
+      675
+    ],
+    "target": [
+      1223,
+      653,
+      1245,
+      675
+    ],
+    "template": "private_quarters/private_quarters_interact_check.png"
+  },
+  "private_quarters_loading_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      582,
+      376,
+      702,
+      391
+    ],
+    "target": [
+      582,
+      376,
+      702,
+      391
+    ],
+    "template": "private_quarters/private_quarters_loading_check.png"
+  },
+  "private_quarters_page_left": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      27,
+      332,
+      39,
+      356
+    ],
+    "target": [
+      27,
+      332,
+      39,
+      356
+    ],
+    "template": "private_quarters/private_quarters_page_left.png"
+  },
+  "private_quarters_page_locale_beach": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      36,
+      506,
+      87,
+      525
+    ],
+    "target": [
+      36,
+      506,
+      87,
+      525
+    ],
+    "template": "private_quarters/private_quarters_page_locale_beach.png"
+  },
+  "private_quarters_page_locale_loft": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      35,
+      507,
+      86,
+      525
+    ],
+    "target": [
+      35,
+      507,
+      86,
+      525
+    ],
+    "template": "private_quarters/private_quarters_page_locale_loft.png"
+  },
+  "private_quarters_page_locale_villa": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      42,
+      508,
+      80,
+      523
+    ],
+    "target": [
+      42,
+      508,
+      80,
+      523
+    ],
+    "template": "private_quarters/private_quarters_page_locale_villa.png"
+  },
+  "private_quarters_page_right": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1241,
+      332,
+      1253,
+      356
+    ],
+    "target": [
+      1241,
+      332,
+      1253,
+      356
+    ],
+    "template": "private_quarters/private_quarters_page_right.png"
+  },
+  "private_quarters_room_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      28,
+      40,
+      43,
+      60
+    ],
+    "target": [
+      27,
+      30,
+      147,
+      70
+    ],
+    "template": "private_quarters/private_quarters_room_back.png"
+  },
+  "private_quarters_room_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1218,
+      651,
+      1238,
+      666
+    ],
+    "target": [
+      1218,
+      651,
+      1238,
+      666
+    ],
+    "template": "private_quarters/private_quarters_room_check.png"
+  },
+  "private_quarters_room_safe_click_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      950,
+      95,
+      1275,
+      595
+    ],
+    "target": [
+      950,
+      95,
+      1275,
+      595
+    ],
+    "template": "private_quarters/private_quarters_room_safe_click_area.png"
+  },
+  "private_quarters_room_target_check_1": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      721,
+      17,
+      781,
+      37
+    ],
+    "target": [
+      721,
+      17,
+      781,
+      37
+    ],
+    "template": "private_quarters/private_quarters_room_target_check_1.png"
+  },
+  "private_quarters_room_target_check_2": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      667,
+      71,
+      717,
+      86
+    ],
+    "target": [
+      667,
+      71,
+      717,
+      86
+    ],
+    "template": "private_quarters/private_quarters_room_target_check_2.png"
+  },
+  "private_quarters_room_target_check_3": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      709,
+      185,
+      754,
+      200
+    ],
+    "target": [
+      709,
+      185,
+      754,
+      200
+    ],
+    "template": "private_quarters/private_quarters_room_target_check_3.png"
+  },
+  "private_quarters_room_target_click_area": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      504,
+      266,
+      784,
+      625
+    ],
+    "target": [
+      504,
+      266,
+      784,
+      625
+    ],
+    "template": "private_quarters/private_quarters_room_target_click_area.png"
+  },
+  "private_quarters_room_target_intimacy_max": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1157,
+      40,
+      1197,
+      60
+    ],
+    "target": [
+      1157,
+      40,
+      1197,
+      60
+    ],
+    "template": "private_quarters/private_quarters_room_target_intimacy_max.png"
+  },
+  "private_quarters_ship_aegir": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      512,
+      526,
+      569,
+      568
+    ],
+    "target": [
+      512,
+      526,
+      569,
+      568
+    ],
+    "template": "private_quarters/private_quarters_ship_aegir.png"
+  },
+  "private_quarters_ship_anchorage": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      713,
+      246,
+      778,
+      311
+    ],
+    "target": [
+      713,
+      246,
+      778,
+      311
+    ],
+    "template": "private_quarters/private_quarters_ship_anchorage.png"
+  },
+  "private_quarters_ship_nakhimov": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      944,
+      373,
+      994,
+      431
+    ],
+    "target": [
+      944,
+      373,
+      994,
+      431
+    ],
+    "template": "private_quarters/private_quarters_ship_nakhimov.png"
+  },
+  "private_quarters_ship_new_jersey": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      973,
+      307,
+      1023,
+      347
+    ],
+    "target": [
+      973,
+      307,
+      1023,
+      347
+    ],
+    "template": "private_quarters/private_quarters_ship_new_jersey.png"
+  },
+  "private_quarters_ship_noshiro": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      962,
+      295,
+      1027,
+      360
+    ],
+    "target": [
+      962,
+      295,
+      1027,
+      360
+    ],
+    "template": "private_quarters/private_quarters_ship_noshiro.png"
+  },
+  "private_quarters_ship_sirius": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      905,
+      414,
+      970,
+      479
+    ],
+    "target": [
+      905,
+      414,
+      970,
+      479
+    ],
+    "template": "private_quarters/private_quarters_ship_sirius.png"
+  },
+  "private_quarters_ship_taihou": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      814,
+      190,
+      856,
+      232
+    ],
+    "target": [
+      814,
+      190,
+      856,
+      232
+    ],
+    "template": "private_quarters/private_quarters_ship_taihou.png"
+  },
+  "private_quarters_shop_amount_max": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      848,
+      504,
+      888,
+      524
+    ],
+    "target": [
+      848,
+      504,
+      888,
+      524
+    ],
+    "template": "private_quarters/private_quarters_shop_amount_max.png"
+  },
+  "private_quarters_shop_back": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      40,
+      35,
+      60,
+      55
+    ],
+    "target": [
+      35,
+      30,
+      95,
+      60
+    ],
+    "template": "private_quarters/private_quarters_shop_back.png"
+  },
+  "private_quarters_shop_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      126,
+      20,
+      260,
+      44
+    ],
+    "target": [
+      126,
+      20,
+      260,
+      44
+    ],
+    "template": "private_quarters/private_quarters_shop_check.png"
+  },
+  "private_quarters_shop_confirm_amount": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      789,
+      577,
+      841,
+      600
+    ],
+    "target": [
+      731,
+      573,
+      901,
+      603
+    ],
+    "template": "private_quarters/private_quarters_shop_confirm_amount.png"
+  },
+  "private_quarters_shop_enter": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1028,
+      641,
+      1078,
+      691
+    ],
+    "target": [
+      1028,
+      641,
+      1078,
+      691
+    ],
+    "template": "private_quarters/private_quarters_shop_enter.png"
+  },
+  "private_quarters_shop_gems": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1142,
+      25,
+      1227,
+      49
+    ],
+    "target": [
+      1142,
+      25,
+      1227,
+      49
+    ],
+    "template": "private_quarters/private_quarters_shop_gems.png"
+  },
+  "private_quarters_shop_gold_coins": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      973,
+      25,
+      1051,
+      48
+    ],
+    "target": [
+      973,
+      25,
+      1051,
+      48
+    ],
+    "template": "private_quarters/private_quarters_shop_gold_coins.png"
+  },
+  "private_quarters_shop_weekly_cakes_get": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      591,
+      339,
+      688,
+      420
+    ],
+    "target": [
+      591,
+      339,
+      688,
+      420
+    ],
+    "template": "private_quarters/private_quarters_shop_weekly_cakes_get.png"
+  },
+  "private_quarters_shop_weekly_roses_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      968,
+      489,
+      1028,
+      539
+    ],
+    "target": [
+      968,
+      489,
+      1028,
+      539
+    ],
+    "template": "private_quarters/private_quarters_shop_weekly_roses_check.png"
+  },
+  "private_quarters_shop_weekly_roses_get": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      598,
+      335,
+      683,
+      420
+    ],
+    "target": [
+      598,
+      335,
+      683,
+      420
+    ],
+    "template": "private_quarters/private_quarters_shop_weekly_roses_get.png"
+  }
+}

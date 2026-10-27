@@ -1,0 +1,514 @@
+{
+  "_meta": {
+    "do_not_edit": true,
+    "generated_by": "xtask convert-assets",
+    "schema_doc": "docs/4-migration/4.2-assets.md",
+    "server": "cn",
+    "source": "module/ui_white/assets.py",
+    "source_rev": "86a9463d4"
+  },
+  "ui_white_back_arrow_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      54,
+      30,
+      69,
+      53
+    ],
+    "target": [
+      54,
+      30,
+      69,
+      53
+    ],
+    "template": "ui_white/ui_white_back_arrow_white.png"
+  },
+  "ui_white_goto_main_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1211,
+      24,
+      1239,
+      47
+    ],
+    "target": [
+      1211,
+      24,
+      1239,
+      47
+    ],
+    "template": "ui_white/ui_white_goto_main_white.png"
+  },
+  "ui_white_mail_check": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      141,
+      21,
+      181,
+      41
+    ],
+    "target": [
+      141,
+      21,
+      181,
+      41
+    ],
+    "template": "ui_white/ui_white_mail_check.png"
+  },
+  "ui_white_mail_enter_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1018,
+      22,
+      1087,
+      52
+    ],
+    "target": [
+      1018,
+      22,
+      1087,
+      52
+    ],
+    "template": "ui_white/ui_white_mail_enter_white.png"
+  },
+  "ui_white_main_goto_build_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      959,
+      657,
+      1103,
+      703
+    ],
+    "target": [
+      959,
+      657,
+      1103,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_build_white.png"
+  },
+  "ui_white_main_goto_campaign_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      529,
+      1187,
+      557
+    ],
+    "target": [
+      1124,
+      437,
+      1260,
+      579
+    ],
+    "template": "ui_white/ui_white_main_goto_campaign_white.png"
+  },
+  "ui_white_main_goto_dock_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      176,
+      656,
+      322,
+      703
+    ],
+    "target": [
+      176,
+      656,
+      322,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_dock_white.png"
+  },
+  "ui_white_main_goto_dormmenu_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      490,
+      656,
+      634,
+      702
+    ],
+    "target": [
+      490,
+      656,
+      634,
+      702
+    ],
+    "template": "ui_white/ui_white_main_goto_dormmenu_white.png"
+  },
+  "ui_white_main_goto_event_list_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1181,
+      83,
+      1260,
+      160
+    ],
+    "target": [
+      1181,
+      83,
+      1260,
+      160
+    ],
+    "template": "ui_white/ui_white_main_goto_event_list_white.png"
+  },
+  "ui_white_main_goto_fleet_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1025,
+      437,
+      1097,
+      579
+    ],
+    "target": [
+      1025,
+      437,
+      1097,
+      579
+    ],
+    "template": "ui_white/ui_white_main_goto_fleet_white.png"
+  },
+  "ui_white_main_goto_guild_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1116,
+      656,
+      1261,
+      703
+    ],
+    "target": [
+      1116,
+      656,
+      1261,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_guild_white.png"
+  },
+  "ui_white_main_goto_memories_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1125,
+      546,
+      1195,
+      579
+    ],
+    "target": [
+      1125,
+      546,
+      1195,
+      579
+    ],
+    "template": "ui_white/ui_white_main_goto_memories_white.png"
+  },
+  "ui_white_main_goto_mission_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      802,
+      656,
+      949,
+      704
+    ],
+    "target": [
+      802,
+      656,
+      949,
+      704
+    ],
+    "template": "ui_white/ui_white_main_goto_mission_white.png"
+  },
+  "ui_white_main_goto_raid_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1071,
+      83,
+      1151,
+      159
+    ],
+    "target": [
+      1071,
+      83,
+      1151,
+      159
+    ],
+    "template": "ui_white/ui_white_main_goto_raid_white.png"
+  },
+  "ui_white_main_goto_reshmenu_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      646,
+      656,
+      793,
+      703
+    ],
+    "target": [
+      646,
+      656,
+      793,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_reshmenu_white.png"
+  },
+  "ui_white_main_goto_reward_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      209,
+      30,
+      259
+    ],
+    "target": [
+      11,
+      209,
+      30,
+      259
+    ],
+    "template": "ui_white/ui_white_main_goto_reward_white.png"
+  },
+  "ui_white_main_goto_shop_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      18,
+      656,
+      164,
+      703
+    ],
+    "target": [
+      18,
+      656,
+      164,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_shop_white.png"
+  },
+  "ui_white_main_goto_storage_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      331,
+      656,
+      478,
+      703
+    ],
+    "target": [
+      331,
+      656,
+      478,
+      703
+    ],
+    "template": "ui_white/ui_white_main_goto_storage_white.png"
+  },
+  "ui_white_main_tab_switch_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      966,
+      548,
+      999,
+      582
+    ],
+    "target": [
+      966,
+      548,
+      999,
+      582
+    ],
+    "template": "ui_white/ui_white_main_tab_switch_white.png"
+  },
+  "ui_white_mission_notice_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      923,
+      657,
+      947,
+      671
+    ],
+    "target": [
+      923,
+      657,
+      947,
+      671
+    ],
+    "template": "ui_white/ui_white_mission_notice_white.png"
+  },
+  "ui_white_popup_cancel_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      487,
+      491,
+      531,
+      513
+    ],
+    "target": [
+      487,
+      491,
+      531,
+      513
+    ],
+    "template": "ui_white/ui_white_popup_cancel_white.png"
+  },
+  "ui_white_popup_confirm_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      746,
+      494,
+      791,
+      515
+    ],
+    "target": [
+      746,
+      494,
+      791,
+      515
+    ],
+    "template": "ui_white/ui_white_popup_confirm_white.png"
+  },
+  "ui_white_popup_confirm_white_battlepass": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      744,
+      490,
+      795,
+      513
+    ],
+    "target": [
+      744,
+      490,
+      795,
+      513
+    ],
+    "template": "ui_white/ui_white_popup_confirm_white_battlepass.png"
+  },
+  "ui_white_popup_single_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      623,
+      493,
+      668,
+      515
+    ],
+    "target": [
+      623,
+      493,
+      668,
+      515
+    ],
+    "template": "ui_white/ui_white_popup_single_white.png"
+  },
+  "ui_white_reward_1_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      437,
+      278,
+      496,
+      296
+    ],
+    "target": [
+      437,
+      278,
+      496,
+      296
+    ],
+    "template": "ui_white/ui_white_reward_1_white.png"
+  },
+  "ui_white_reward_2_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      436,
+      419,
+      497,
+      448
+    ],
+    "target": [
+      436,
+      419,
+      497,
+      448
+    ],
+    "template": "ui_white/ui_white_reward_2_white.png"
+  },
+  "ui_white_reward_goto_commission_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      440,
+      278,
+      494,
+      296
+    ],
+    "target": [
+      440,
+      278,
+      494,
+      296
+    ],
+    "template": "ui_white/ui_white_reward_goto_commission_white.png"
+  },
+  "ui_white_reward_goto_tactical_white": {
+    "action": "Click",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      442,
+      421,
+      492,
+      447
+    ],
+    "target": [
+      442,
+      421,
+      492,
+      447
+    ],
+    "template": "ui_white/ui_white_reward_goto_tactical_white.png"
+  }
+}

@@ -18,9 +18,22 @@
     {
       "name": "cn",
       "label": "国服",
-      "path": [
-        "./resource"
-      ]
+      "path": ["./resource/common", "./resource/cn"]
+    },
+    {
+      "name": "en",
+      "label": "美服",
+      "path": ["./resource/common", "./resource/en"]
+    },
+    {
+      "name": "jp",
+      "label": "日服",
+      "path": ["./resource/common", "./resource/jp"]
+    },
+    {
+      "name": "tw",
+      "label": "台服",
+      "path": ["./resource/common", "./resource/tw"]
     }
   ],
   "task": []
