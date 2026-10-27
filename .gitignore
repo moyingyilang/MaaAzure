@@ -6,6 +6,9 @@
 /MAA-*/
 *.zip
 
+# 发布产物
+/dist/
+
 # golden corpus：录像体积大，走 release 附件或本地缓存
 /corpus/
 /.cache/

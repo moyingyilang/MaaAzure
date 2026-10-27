@@ -1,4 +1,7 @@
-# CI 配置（待启用）
+# CI 配置（可选，不是构建依据）
+
+> **本机的交叉编译才是唯一可信的构建事实**（见 `docs/5-engineering/5.1-build.md`）。
+> CI 依赖外网与 GitHub runner 镜像，不可控；它只作为「换个环境再验一次」的第二意见。
 
 `ci/ci.yml` 是完整的 CI 定义：格式、clippy、单元测试、`pipeline-check`、零 Python 门禁，
 以及一个带 MaaFramework SDK 编译 `--features maa` 的 FFI job。

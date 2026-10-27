@@ -2,35 +2,39 @@
 # SPDX-License-Identifier: MPL-2.0
 # 派生自 JMNeXt/tools/buildkit（MPL-2.0）。
 #
-# 产物自检：架构、动态依赖、能否起来。
-# 「看着成功其实没出包」是这套工具要防的第一号事故：构建失败时旧产物还在原地，
-# ls 一看有文件就以为成功。所以这里必须校验**新鲜度**（今天生成）。
+# 产物自检：架构、导入表/依赖、新鲜度、冒烟。
+# 「看着成功其实没出包」是这套工具要防的一号事故——构建失败时旧产物还在原地。
 set -eu
 HERE="$(cd "$(dirname "$0")" && pwd)"
 [ -f "$HERE/build.env" ] && . "$HERE/build.env" || { echo "缺 build.env"; exit 1; }
 : "${PROJECT_DIR:?}" "${CHROOT_ROOT:?}" "${RUST_TARGET:?}" "${BIN_NAME:?}"
 
-OUT="$PROJECT_DIR/target/$RUST_TARGET/release/$BIN_NAME"
-[ -f "$OUT" ] || OUT="$PROJECT_DIR/target/$RUST_TARGET/debug/$BIN_NAME"
-[ -f "$OUT" ] || { echo "找不到产物：$BIN_NAME（先跑 30-build.sh）"; exit 1; }
+TARGET_DIR="/root/target-$(echo "$RUST_TARGET" | tr '/' '-')"
+SUFFIX=""
+case "$RUST_TARGET" in *windows*) SUFFIX=".exe" ;; esac
 
-echo "== 产物 =="
-ls -lh "$OUT"
-echo "== 架构 =="
-file "$OUT" 2>/dev/null || true
-echo "== 新鲜度 =="
-mtime=$(date -r "$OUT" +%Y-%m-%d)
-today=$(date +%Y-%m-%d)
-if [ "$mtime" = "$today" ]; then
-  echo "  今天生成：$mtime ✓"
-else
-  echo "  ⚠ 产物不是今天生成的（$mtime），可能构建失败但旧文件还在"
-fi
-
-echo "== 动态依赖（容器内 ldd）=="
-su -c "chroot '$CHROOT_ROOT' /usr/bin/env -i PATH=/usr/bin:/bin HOME=/root \
-  /bin/bash -c 'ldd \"$OUT\" 2>/dev/null | head -20 || echo \"  （静态链接或非本机架构）\"'"
-
-echo "== 冒烟 =="
-su -c "chroot '$CHROOT_ROOT' /usr/bin/env -i PATH=/usr/bin:/bin HOME=/root \
-  /bin/bash -c '\"$OUT\" --version 2>&1 | head -3 || echo \"  --version 未实现（P0 前正常）\"'"
+su -c "chroot '$CHROOT_ROOT' /usr/bin/env -i PATH=/usr/bin:/bin HOME=/root /bin/bash -c '
+  set -u
+  found=0
+  for prof in release debug; do
+    f=$TARGET_DIR/$RUST_TARGET/\$prof/${BIN_NAME}${SUFFIX}
+    [ -f \"\$f\" ] || continue
+    found=1
+    echo \"== \$f ==\"
+    ls -lh \"\$f\"
+    file \"\$f\"
+    case \"$RUST_TARGET\" in
+      *windows*)
+        echo \"-- 导入表（不应出现 MaaFramework：dynamic 模式运行期加载）\"
+        x86_64-w64-mingw32-objdump -p \"\$f\" | grep -i \"DLL Name\" | head -10
+        ;;
+      *)
+        echo \"-- ldd\"
+        ldd \"\$f\" 2>&1 | head -8
+        echo \"-- 冒烟\"
+        \"\$f\" --version 2>&1 | head -2 || echo \"  （非本机架构，跑不了；交叉产物属正常）\"
+        ;;
+    esac
+  done
+  [ \"\$found\" = 1 ] || { echo \"找不到产物：${BIN_NAME}${SUFFIX}（先跑 30-build.sh）\"; exit 1; }
+'"

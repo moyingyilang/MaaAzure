@@ -16,3 +16,4 @@ maazure-runner.workspace = true
 default = []
 # 打通真实设备需要 MaaFramework SDK：cargo build -p maazure-daemon --features maa
 maa = ["maazure-runner/maa"]
+maa-dynamic = ["maazure-runner/maa-dynamic"]
