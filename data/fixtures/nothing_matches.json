@@ -1,0 +1,14 @@
+{
+  "name": "nothing_matches",
+  "entry": "CommissionStart",
+  "server": "cn",
+  "frames": [
+    { "show": [] },
+    { "show": [] }
+  ],
+  "expect": {
+    "min_clicks": 0,
+    "max_clicks": 0,
+    "outcome": "failed"
+  }
+}

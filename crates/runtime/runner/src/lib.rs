@@ -13,6 +13,7 @@
 
 use maazure_core::{Point, TaskOutcome};
 
+pub mod fixture;
 pub mod mock;
 pub mod ocr_detail;
 pub mod replay;

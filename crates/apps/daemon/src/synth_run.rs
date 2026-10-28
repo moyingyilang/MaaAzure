@@ -14,11 +14,13 @@ use std::path::PathBuf;
 
 use maazure_core::TaskOutcome;
 use maazure_runner::ffi::MaaEngine;
+use maazure_runner::fixture::Script;
 use maazure_runner::synth::{Canvas, SynthController};
 
 struct Args {
-    entry: String,
+    entry: Option<String>,
     show: Vec<String>,
+    script: Option<PathBuf>,
     server: String,
     resource_root: PathBuf,
     frames: usize,
@@ -28,6 +30,7 @@ struct Args {
 fn parse(args: &[String]) -> Result<Args, String> {
     let mut entry = None;
     let mut show = Vec::new();
+    let mut script = None;
     let mut server = "cn".to_string();
     let mut resource_root = PathBuf::from("resource");
     let mut frames = 2usize;
@@ -45,6 +48,7 @@ fn parse(args: &[String]) -> Result<Args, String> {
                     .filter(|s| !s.is_empty())
                     .map(str::to_string),
             ),
+            "--script" => script = Some(PathBuf::from(next("--script")?)),
             "--server" => server = next("--server")?,
             "--resource" => resource_root = PathBuf::from(next("--resource")?),
             "--frames" => {
@@ -63,8 +67,9 @@ fn parse(args: &[String]) -> Result<Args, String> {
     }
 
     Ok(Args {
-        entry: entry.ok_or("缺少 Pipeline 入口节点（如 CommissionStart）")?,
+        entry,
         show,
+        script,
         server,
         resource_root,
         frames: frames.max(1),
@@ -82,34 +87,73 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
         }
     };
 
+    // 脚本模式：帧序列与期望值都来自文件
+    let script = match &a.script {
+        Some(p) => match Script::load(p) {
+            Ok(s) => Some(s),
+            Err(e) => {
+                eprintln!("加载脚本失败: {e}");
+                return std::process::ExitCode::FAILURE;
+            }
+        },
+        None => None,
+    };
+
+    let Some(entry) = script.as_ref().map(|s| s.entry.clone()).or(a.entry.clone()) else {
+        eprintln!("缺少 Pipeline 入口节点（或 --script）");
+        return std::process::ExitCode::from(2);
+    };
+    let server = script
+        .as_ref()
+        .map(|s| s.server.clone())
+        .unwrap_or(a.server.clone());
+
     let common = a.resource_root.join("common");
-    let server = a.resource_root.join(&a.server);
+    let server_dir = a.resource_root.join(&server);
     let mut bundles: Vec<PathBuf> = Vec::new();
     if common.is_dir() {
         bundles.push(common);
     }
-    if !server.is_dir() {
-        eprintln!("资源包不存在: {}", server.display());
+    if !server_dir.is_dir() {
+        eprintln!("资源包不存在: {}", server_dir.display());
         return std::process::ExitCode::FAILURE;
     }
-    bundles.push(server);
+    bundles.push(server_dir);
 
+    let name = script
+        .as_ref()
+        .map(|s| s.name.clone())
+        .unwrap_or_else(|| "ad-hoc".to_string());
     println!("── MaaAzure synth ──");
-    println!("入口      {}", a.entry);
-    println!("资源包    {:?}", bundles);
-    println!("贴图      {:?}", a.show);
+    println!("用例      {name}");
+    println!("入口      {entry}");
+    println!("资源包    {server}");
 
-    // 合成帧：底板 + 逐个节点贴图；多帧时重复（让 click 能推进）
-    let mut canvas = Canvas::new();
-    for node in &a.show {
-        if let Err(e) = canvas.paste_node(&bundles, node) {
-            eprintln!("贴图失败: {e}");
-            return std::process::ExitCode::FAILURE;
+    // 组装帧序列：脚本模式按 frames 逐帧贴图，临时模式只有一帧
+    let show_sets: Vec<Vec<String>> = match &script {
+        Some(s) => s.frames.iter().map(|f| f.show.clone()).collect(),
+        None => vec![a.show.clone()],
+    };
+    let mut frames = Vec::with_capacity(show_sets.len());
+    for (i, shows) in show_sets.iter().enumerate() {
+        let mut canvas = Canvas::new();
+        for node in shows {
+            if let Err(e) = canvas.paste_node(&bundles, node) {
+                eprintln!("第 {i} 帧贴图失败: {e}");
+                return std::process::ExitCode::FAILURE;
+            }
         }
-        println!("  已贴 {node}");
+        println!("  帧 {i}: {shows:?}");
+        frames.push(canvas.to_frame());
     }
-    let frame = canvas.to_frame();
-    let frames = vec![frame; a.frames];
+    // 至少两帧，点击才能推进画面
+    while frames.len() < 2 {
+        let last = frames
+            .last()
+            .cloned()
+            .unwrap_or_else(|| Canvas::new().to_frame());
+        frames.push(last);
+    }
     let ctrl = SynthController::new(frames);
 
     let engine = match MaaEngine::from_synth(ctrl.clone()) {
@@ -132,8 +176,16 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
     }
 
     let started = std::time::Instant::now();
-    let result = engine.run_pipeline(&a.entry, "{}");
+    let result = engine.run_pipeline(&entry, "{}");
     let elapsed = started.elapsed();
+    let clicks = ctrl.clicks();
+
+    let outcome = match &result {
+        Ok(TaskOutcome::Ok) => "ok",
+        Ok(TaskOutcome::Failed) => "failed",
+        Ok(TaskOutcome::Recoverable) => "recoverable",
+        Err(_) => "error",
+    };
 
     println!("── 结果 ──");
     println!(
@@ -141,22 +193,29 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
         elapsed.as_secs_f64(),
         a.max_wait
     );
-    println!("点击      {:?}", ctrl.clicks());
+    println!("点击      {clicks:?}");
     println!("滑动      {:?}", ctrl.swipes());
     println!("帧号      {}", ctrl.cursor());
+    println!("状态      {outcome}");
+    if let Err(e) = &result {
+        eprintln!("执行失败: {e}");
+    }
 
-    match result {
-        Ok(TaskOutcome::Ok) => {
-            println!("Pipeline  成功");
-            std::process::ExitCode::SUCCESS
+    // 脚本模式做断言
+    if let Some(s) = &script {
+        match s.check(outcome, clicks.len()) {
+            Ok(()) => {
+                println!("断言      通过");
+                std::process::ExitCode::SUCCESS
+            }
+            Err(e) => {
+                eprintln!("断言      失败：{e}");
+                std::process::ExitCode::FAILURE
+            }
         }
-        Ok(other) => {
-            println!("Pipeline  {:?}", other);
-            std::process::ExitCode::FAILURE
-        }
-        Err(e) => {
-            eprintln!("执行失败: {e}");
-            std::process::ExitCode::FAILURE
-        }
+    } else if outcome == "ok" {
+        std::process::ExitCode::SUCCESS
+    } else {
+        std::process::ExitCode::FAILURE
     }
 }
