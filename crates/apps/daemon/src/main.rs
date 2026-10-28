@@ -14,6 +14,10 @@ use maazure_runner::replay::Case;
 #[cfg(feature = "maa")]
 mod run;
 
+/// 合成帧执行入口（需要 `maa` feature）：不用模拟器跑真实 Pipeline。
+#[cfg(feature = "maa")]
+mod synth_run;
+
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
     println!("MaaAzure 树");
@@ -158,6 +162,17 @@ fn main() -> std::process::ExitCode {
                     "本次二进制没有编译 MaaFramework 支持。\n\
                      用 `cargo build -p maazure-daemon --features maa` 并设置 MAA_SDK_PATH。"
                 );
+                std::process::ExitCode::from(2)
+            }
+        }
+        Some("--synth") => {
+            #[cfg(feature = "maa")]
+            {
+                synth_run::run_synth(&args[1..])
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!("本次二进制没有编译 MaaFramework 支持，--synth 不可用。");
                 std::process::ExitCode::from(2)
             }
         }

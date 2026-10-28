@@ -1,45 +1,88 @@
 {
-  "_meta": {
-    "note": "委托任务的第一版拓扑。未经真机验证：进入路径（主界面→任务→委托）待 P0 端到端时校正。",
-    "stage": "P0",
-    "docs": "docs/3-authoring/3.3-examples.md"
-  },
-
   "CommissionStart": {
-    "recognition": "DirectHit",
-    "next": ["[Anchor]home", "commission_goto_reward"]
-  },
-
-  "commission_goto_reward": {
-    "recognition": "TemplateMatch",
-    "template": "ui/ui_main_goto_reward.png",
-    "action": "Click",
-    "next": ["commission_goto_commission", "commission_goto_reward", "global_recover"]
-  },
-
-  "commission_goto_commission": {
-    "recognition": "TemplateMatch",
-    "template": "ui/ui_reward_goto_commission.png",
-    "action": "Click",
-    "next": ["commission_page", "global_recover"]
-  },
-
-  "commission_page": {
-    "recognition": "TemplateMatch",
-    "template": "commission/commission_daily.png",
     "action": "DoNothing",
-    "next": ["commission_pick", "commission_done"]
+    "next": [
+      "global_home",
+      "commission_goto_reward"
+    ],
+    "recognition": "DirectHit"
   },
-
-  "commission_pick": {
-    "recognition": "Custom",
-    "custom_recognition": "CommissionPick",
-    "action": "DoNothing",
-    "next": ["commission_done", "[Anchor]home"]
-  },
-
   "commission_done": {
-    "recognition": "DirectHit",
-    "next": []
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "commission_goto_commission": {
+    "action": "Click",
+    "next": [
+      "commission_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      432,
+      279,
+      500,
+      296
+    ],
+    "target": [
+      432,
+      279,
+      500,
+      296
+    ],
+    "template": "ui/ui_reward_goto_commission.png"
+  },
+  "commission_goto_reward": {
+    "action": "Click",
+    "next": [
+      "commission_goto_commission",
+      "commission_goto_reward",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "target": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "commission_page": {
+    "action": "DoNothing",
+    "next": [
+      "commission_pick",
+      "commission_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      35,
+      132,
+      67,
+      186
+    ],
+    "target": [
+      35,
+      132,
+      67,
+      186
+    ],
+    "template": "commission/commission_daily.png"
+  },
+  "commission_pick": {
+    "action": "DoNothing",
+    "custom_recognition": "CommissionPick",
+    "next": [
+      "commission_done",
+      "[Anchor]home"
+    ],
+    "recognition": "Custom"
   }
 }

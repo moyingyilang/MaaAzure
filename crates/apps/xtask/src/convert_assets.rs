@@ -181,23 +181,18 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
     }
 
     let rev = git_rev(&opts.old_root);
+    let manifest_dir = opts.resource_dir.join("manifest");
+    fs::create_dir_all(&manifest_dir).map_err(|e| format!("建目录失败: {e}"))?;
     for (server, modules) in &per_server {
         let gen_dir = opts.resource_dir.join(server).join("pipeline").join("gen");
         fs::create_dir_all(&gen_dir).map_err(|e| format!("建目录失败: {e}"))?;
 
         for (module, nodes) in modules {
+            // 注意：**不能**在 pipeline JSON 里放 `_meta`。
+            // MaaFramework 会把每个顶层键当节点解析，`_meta` 会和别的文件里的 `_meta`
+            // 撞成 "key already exists"，整个资源包加载失败（实测踩到）。
+            // 元信息统一写到 resource/manifest/<server>.json。
             let mut doc = Map::new();
-            doc.insert(
-                "_meta".into(),
-                json!({
-                    "generated_by": "xtask convert-assets",
-                    "source": format!("module/{module}/assets.py"),
-                    "source_rev": rev,
-                    "server": server,
-                    "do_not_edit": true,
-                    "schema_doc": "docs/4-migration/4.2-assets.md",
-                }),
-            );
             for (name, node) in nodes {
                 doc.insert(name.clone(), node.clone());
             }
@@ -207,6 +202,16 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
                 .map_err(|e| format!("写 {} 失败: {e}", module))?;
             sum.files += 1;
         }
+        // 元信息落在这里（不在 pipeline/ 下，MaaFW 不会把它当节点）
+        let manifest = json!({
+            "generated_by": "xtask convert-assets",
+            "source_rev": rev,
+            "server": server,
+            "do_not_edit": true,
+            "schema_doc": "docs/4-migration/4.2-assets.md",
+            "modules": modules.keys().collect::<Vec<_>>(),
+        });
+        write_json(&manifest_dir.join(format!("{server}.json")), &manifest)?;
         sum.servers += 1;
     }
 
@@ -238,6 +243,11 @@ fn module_of(path: &Path) -> String {
         .and_then(|n| n.to_str())
         .unwrap_or("misc")
         .to_string()
+}
+
+fn write_json(p: &Path, v: &Value) -> Result<(), String> {
+    let text = serde_json::to_string_pretty(v).map_err(|e| format!("序列化失败: {e}"))?;
+    fs::write(p, format!("{text}\n")).map_err(|e| format!("写 {} 失败: {e}", p.display()))
 }
 
 fn git_rev(root: &Path) -> String {

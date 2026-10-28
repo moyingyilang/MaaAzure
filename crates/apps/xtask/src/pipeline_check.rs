@@ -329,8 +329,13 @@ fn load_nodes(pipeline_dir: &Path) -> Result<BTreeMap<String, (Value, Source)>, 
                 Source::Handwritten
             };
             for (k, v) in obj {
-                if k.starts_with("_meta") {
-                    continue;
+                if k.starts_with('_') {
+                    // MaaFW 把每个顶层键都当节点解析；`_meta` 之类会和别的文件撞车，
+                    // 导致整个资源包加载失败（实测踩过）。元信息请放 resource/manifest/。
+                    return Err(format!(
+                        "{} 里有非法节点名 `{k}`：pipeline JSON 不能放元信息键",
+                        p.display()
+                    ));
                 }
                 if v.as_object().is_none() {
                     return Err(format!("{} 的节点 `{k}` 不是对象", p.display()));

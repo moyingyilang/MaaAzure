@@ -1,12 +1,4 @@
 {
-  "_meta": {
-    "do_not_edit": true,
-    "generated_by": "xtask convert-assets",
-    "schema_doc": "docs/4-migration/4.2-assets.md",
-    "server": "tw",
-    "source": "module/os_handler/assets.py",
-    "source_rev": "86a9463d4"
-  },
   "os_handler_action_point_buy_remain": {
     "action": "Click",
     "next": [],

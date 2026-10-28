@@ -50,6 +50,11 @@ impl MaaEngine {
             return Err(format!("连不上设备 {address}"));
         }
 
+        Self::from_controller(controller)
+    }
+
+    /// 用任意已创建的控制器装配引擎（合成帧控制器走这条路）。
+    pub fn from_controller(controller: Controller) -> Result<Self, String> {
         let resource = Resource::new().map_err(|e| format!("创建 Resource 失败: {e}"))?;
         let tasker = Tasker::new().map_err(|e| format!("创建 Tasker 失败: {e}"))?;
         tasker
@@ -74,6 +79,23 @@ impl MaaEngine {
             seq: AtomicU64::new(0),
             resolution,
         })
+    }
+
+    /// 用合成帧控制器装配引擎（不需要模拟器）。
+    ///
+    /// 这层存在的意义：让上层（daemon）完全不出现 `maa_framework` 的类型，
+    /// 保持「只有 ffi.rs 能碰 MaaFW」这条规矩。
+    pub fn from_synth(ctrl: crate::synth::SynthController) -> Result<Self, String> {
+        let controller =
+            Controller::new_custom(ctrl).map_err(|e| format!("创建合成控制器失败: {e}"))?;
+        let conn = controller
+            .post_connection()
+            .map_err(|e| format!("合成控制器连接失败: {e}"))?;
+        controller.wait(conn);
+        if !controller.connected() {
+            return Err("合成控制器连接后未处于已连接状态".to_string());
+        }
+        Self::from_controller(controller)
     }
 
     /// 按顺序加载资源包（`common` 先，服务器包后，后者覆盖前者）。

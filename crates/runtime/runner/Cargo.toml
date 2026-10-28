@@ -18,11 +18,18 @@ serde_json = "1"
 [features]
 default = []
 # 静态链接：需要目标平台的 .so/.dll + 导入库（同平台构建时用）
-maa = ["dep:maa-framework"]
+maa = ["dep:maa-framework", "dep:image"]
 # 动态加载：构建期不链接、运行期 libloading 找 MaaFramework 库。
 # 跨平台构建（Linux 出 Windows 包）必须用这个 —— Windows 的 MSVC .lib 在 mingw 下读不了，
 # 而 dynamic 模式根本不产生 link-lib 指令（见 maa-framework-sys build.rs:306）。
-maa-dynamic = ["dep:maa-framework", "maa-framework/dynamic"]
+maa-dynamic = ["dep:maa-framework", "dep:image", "maa-framework/dynamic"]
+
+# 合成帧控制器要把模板贴到 1280x720 底板上，所以只要 maa feature 才需要 image
+[dependencies.image]
+version = "0.25"
+optional = true
+default-features = false
+features = ["png", "jpeg"]
 
 [dependencies.maa-framework]
 version = "1"

@@ -1,12 +1,4 @@
 {
-  "_meta": {
-    "do_not_edit": true,
-    "generated_by": "xtask convert-assets",
-    "schema_doc": "docs/4-migration/4.2-assets.md",
-    "server": "tw",
-    "source": "module/tactical/assets.py",
-    "source_rev": "86a9463d4"
-  },
   "tactical_add_new_student": {
     "action": "Click",
     "next": [],

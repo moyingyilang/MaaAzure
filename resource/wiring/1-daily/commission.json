@@ -1,0 +1,48 @@
+{
+  "layer": "1-daily",
+  "file": "commission/entry.json",
+  "nodes": {
+    "CommissionStart": {
+      "next": [
+        "global_home",
+        "commission_goto_reward"
+      ]
+    },
+    "commission_goto_reward": {
+      "use": "ui_main_goto_reward",
+      "next": [
+        "commission_goto_commission",
+        "commission_goto_reward",
+        "global_recover"
+      ]
+    },
+    "commission_goto_commission": {
+      "use": "ui_reward_goto_commission",
+      "next": [
+        "commission_page",
+        "global_recover"
+      ]
+    },
+    "commission_page": {
+      "use": "commission_daily",
+      "action": "DoNothing",
+      "next": [
+        "commission_pick",
+        "commission_done"
+      ]
+    },
+    "commission_pick": {
+      "recognition": "Custom",
+      "custom_recognition": "CommissionPick",
+      "action": "DoNothing",
+      "next": [
+        "commission_done",
+        "[Anchor]home"
+      ]
+    },
+    "commission_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

@@ -12,6 +12,7 @@
 //! | `release`          | 统一版本号并打包 | 待做 | 5.3 |
 
 mod assets_py;
+mod build_pipeline;
 mod campaign_py;
 mod config_check;
 mod convert_assets;
@@ -33,6 +34,7 @@ xtask — MaaAzure 资源工具
   xtask convert-campaign [--old-root <dir>] [--data <dir>] [--dry-run]
   xtask convert-config [--old-root <dir>] --new-root <dir> [--dry-run]
   xtask pipeline-check [--resource <dir>]
+  xtask build-pipeline        接线声明 → 完整 Pipeline JSON
   xtask check                 一次跑完全部离线校验（含 config-check）
 
 参数:
@@ -115,13 +117,7 @@ fn main() -> ExitCode {
                         "GIF 转帧        {} 个 → {} 帧",
                         s.gif_converted, s.frames_written
                     );
-                    println!("file 条目总数    {}", s.file_refs);
-                    println!("唯一目标路径    {}", s.dest_unique);
-                    println!(
-                        "重复内容        {} 份 / {:.1} MB（git 侧会去重）",
-                        s.dup_files,
-                        s.dup_bytes as f64 / 1_048_576.0
-                    );
+                    println!("按 area 裁切     {}", s.cropped);
                     println!("跳过            {}", s.skipped);
                     println!("缺失            {}", s.missing.len());
                     println!("冲突            {}", s.collisions.len());
@@ -225,6 +221,34 @@ fn main() -> ExitCode {
                 }
                 Err(e) => {
                     eprintln!("convert-config 失败: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
+        "build-pipeline" => {
+            let opts = build_pipeline::Options {
+                root: common.new_root,
+                resource_dir: common.resource,
+                dry_run: common.dry_run,
+            };
+            match build_pipeline::run(&opts) {
+                Ok(s) => {
+                    println!("── build-pipeline ──");
+                    println!("接线文件        {}", s.wiring_files);
+                    println!("节点            {}（引用生成节点 {}）", s.nodes, s.reused);
+                    println!("写出文件        {}", s.written);
+                    println!("缺失 use 目标   {}", s.missing.len());
+                    for m in s.missing.iter().take(10) {
+                        println!("  ✗ {m}");
+                    }
+                    if s.missing.is_empty() {
+                        ExitCode::SUCCESS
+                    } else {
+                        ExitCode::FAILURE
+                    }
+                }
+                Err(e) => {
+                    eprintln!("build-pipeline 失败: {e}");
                     ExitCode::FAILURE
                 }
             }

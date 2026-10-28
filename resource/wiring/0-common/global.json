@@ -1,0 +1,17 @@
+{
+  "layer": "0-common",
+  "file": "global.json",
+  "nodes": {
+    "global_home": {
+      "use": "ui_main_goto_campaign",
+      "action": "DoNothing",
+      "anchor": "home",
+      "next": []
+    },
+    "global_recover": {
+      "recognition": "DirectHit",
+      "action": "DoNothing",
+      "next": []
+    }
+  }
+}

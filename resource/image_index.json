@@ -4,13 +4,15 @@
     "source_root": "../AzurPilot",
     "source_rev": "86a9463d4",
     "schema_doc": "docs/4-migration/4.1-images.md",
-    "layout": "resource/<server>/image/<module>/<node>[.png|/]；images 值为包内相对路径，可直接当 template",
+    "layout": "resource/<server>/image/<module>/<node>[.png|/]",
+    "crop_rule": "Button 按 area 裁切；Template 不裁",
     "counts": {
       "decls": 2753,
       "with_files": 2753,
       "png": 10028,
       "gif": 984,
-      "frames": 4402
+      "frames": 4402,
+      "cropped": 8288
     }
   },
   "entries": {

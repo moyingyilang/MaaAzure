@@ -25,6 +25,10 @@ pub mod ffi;
 #[cfg(feature = "maa")]
 pub mod maa_custom;
 
+/// 合成帧控制器：不用模拟器也能跑真实 Pipeline（需要 SDK 与 `maa` feature）。
+#[cfg(feature = "maa")]
+pub mod synth;
+
 #[cfg(feature = "maa")]
 pub use maa_custom::CommissionPick;
 
