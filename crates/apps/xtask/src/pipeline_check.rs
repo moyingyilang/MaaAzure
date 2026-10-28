@@ -265,6 +265,23 @@ fn common_bundle(resource_dir: &Path) -> Option<PathBuf> {
     p.join("pipeline").is_dir().then_some(p)
 }
 
+/// 收集所有资源包里的节点名（供 config-check 校验 task.entry）。
+pub fn all_node_names(resource_dir: &Path) -> Result<BTreeSet<String>, String> {
+    let mut out = BTreeSet::new();
+    // 手写拓扑都在 common 包里；只扫服务器包会漏掉 CommissionStart 这类入口
+    if let Some(common) = common_bundle(resource_dir) {
+        for name in load_nodes(&common.join("pipeline"))?.into_keys() {
+            out.insert(name);
+        }
+    }
+    for (_, bundle) in list_bundles(resource_dir)? {
+        for name in load_nodes(&bundle.join("pipeline"))?.into_keys() {
+            out.insert(name);
+        }
+    }
+    Ok(out)
+}
+
 /// 列出服务器资源包：`resource/<server>/` 且存在 `pipeline/`。
 fn list_bundles(resource_dir: &Path) -> Result<Vec<(String, PathBuf)>, String> {
     let rd = fs::read_dir(resource_dir)

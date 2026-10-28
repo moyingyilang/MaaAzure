@@ -13,8 +13,10 @@
 
 mod assets_py;
 mod campaign_py;
+mod config_check;
 mod convert_assets;
 mod convert_campaign;
+mod convert_config;
 mod convert_images;
 mod naming;
 mod pipeline_check;
@@ -29,8 +31,9 @@ xtask — MaaAzure 资源工具
   xtask convert-images [--old-root <dir>] [--resource <dir>] [--dry-run]
   xtask convert-assets [--old-root <dir>] [--resource <dir>] [--dry-run]
   xtask convert-campaign [--old-root <dir>] [--data <dir>] [--dry-run]
+  xtask convert-config [--old-root <dir>] --new-root <dir> [--dry-run]
   xtask pipeline-check [--resource <dir>]
-  xtask check                 一次跑完全部离线校验（CI 用这个）
+  xtask check                 一次跑完全部离线校验（含 config-check）
 
 参数:
   --old-root <dir>   旧仓根目录，默认 ../AzurPilot
@@ -38,11 +41,12 @@ xtask — MaaAzure 资源工具
   --data <dir>       新仓数据目录（convert-campaign 用），默认 data
   --dry-run          只统计不落盘
 
-未实现: convert-config release";
+未实现: release";
 
 /// 解析到的通用参数。
 struct Common {
     old_root: PathBuf,
+    new_root: PathBuf,
     resource: PathBuf,
     data: PathBuf,
     dry_run: bool,
@@ -51,6 +55,7 @@ struct Common {
 fn parse_common(args: &[String]) -> Result<Common, String> {
     let mut c = Common {
         old_root: PathBuf::from("../AzurPilot"),
+        new_root: PathBuf::from("."),
         resource: PathBuf::from("resource"),
         data: PathBuf::from("data"),
         dry_run: false,
@@ -66,6 +71,9 @@ fn parse_common(args: &[String]) -> Result<Common, String> {
             }
             "--data" => {
                 c.data = PathBuf::from(it.next().ok_or("--data 缺参数")?);
+            }
+            "--new-root" => {
+                c.new_root = PathBuf::from(it.next().ok_or("--new-root 缺参数")?);
             }
             "--dry-run" => c.dry_run = true,
             other => return Err(format!("未知参数: {other}")),
@@ -194,6 +202,33 @@ fn main() -> ExitCode {
                 }
             }
         }
+        "convert-config" => {
+            let opts = convert_config::Options {
+                old_root: common.old_root,
+                new_root: common.new_root,
+                resource_dir: common.resource,
+                dry_run: common.dry_run,
+            };
+            match convert_config::run(&opts) {
+                Ok(s) => {
+                    println!("── convert-config ──");
+                    println!("任务            {}", s.tasks);
+                    println!("参数            {}", s.params);
+                    println!("内部项(跳过)    {}", s.internal);
+                    println!("隐藏项(跳过)    {}", s.hidden);
+                    println!("option 全量     {}", s.options_all);
+                    println!("option 精选     {}（每任务 ≤10）", s.options_exposed);
+                    println!("可跑任务        {}", s.runnable_tasks);
+                    println!("待接线任务      {}", s.planned_tasks);
+                    println!("生成结构体      {}", s.structs);
+                    ExitCode::SUCCESS
+                }
+                Err(e) => {
+                    eprintln!("convert-config 失败: {e}");
+                    ExitCode::FAILURE
+                }
+            }
+        }
         "pipeline-check" => match pipeline_check::run(&common.resource) {
             Ok(r) => {
                 println!("── pipeline-check ──");
@@ -241,6 +276,27 @@ fn main() -> ExitCode {
                 true
             };
 
+            // 配置结构与引用
+            let cfg_ok = match config_check::run(&common.new_root, &common.resource) {
+                Ok(c) => {
+                    println!(
+                        "配置 option     {}（task {} / group {}）",
+                        c.options, c.tasks, c.groups
+                    );
+                    for e in c.errors.iter().take(10) {
+                        println!("  ✗ {e}");
+                    }
+                    for w in c.warnings.iter().take(5) {
+                        println!("  ! {w}");
+                    }
+                    c.ok()
+                }
+                Err(e) => {
+                    eprintln!("config-check 失败: {e}");
+                    false
+                }
+            };
+
             match pipeline_check::run(&common.resource) {
                 Ok(r) => {
                     println!("资源包          {}", r.bundles);
@@ -255,7 +311,7 @@ fn main() -> ExitCode {
                     for w in r.warnings.iter().take(20) {
                         println!("  ! {w}");
                     }
-                    if r.ok() && python_ok {
+                    if r.ok() && python_ok && cfg_ok {
                         ExitCode::SUCCESS
                     } else {
                         ExitCode::FAILURE

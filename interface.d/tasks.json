@@ -1,0 +1,25 @@
+{
+  "task": [
+    {
+      "default_check": true,
+      "entry": "CommissionStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Commission",
+      "name": "Commission",
+      "option": [
+        "Commission_Commission_Blacklist",
+        "Commission_Commission_CustomFilter",
+        "Commission_Commission_PresetFilter",
+        "Commission_Commission_DelayHalfLife",
+        "Commission_Commission_TierValueRatio",
+        "Commission_Commission_FilterValueFloor",
+        "Commission_Commission_DoMajorCommission",
+        "Commission_Commission_DynamicProgramming",
+        "Commission_Commission_FilterValueHalfLife",
+        "Commission_Commission_DeadlineFutureHorizon"
+      ]
+    }
+  ]
+}

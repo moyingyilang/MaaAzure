@@ -1,0 +1,44 @@
+{
+  "group": [
+    {
+      "label": "Alas",
+      "name": "Alas"
+    },
+    {
+      "label": "DailyMission",
+      "name": "DailyMission"
+    },
+    {
+      "label": "Event",
+      "name": "Event"
+    },
+    {
+      "label": "EventDaily",
+      "name": "EventDaily"
+    },
+    {
+      "label": "Farm",
+      "name": "Farm"
+    },
+    {
+      "label": "FleetManagement",
+      "name": "FleetManagement"
+    },
+    {
+      "label": "Island",
+      "name": "Island"
+    },
+    {
+      "label": "Opsi",
+      "name": "Opsi"
+    },
+    {
+      "label": "Reward",
+      "name": "Reward"
+    },
+    {
+      "label": "Tool",
+      "name": "Tool"
+    }
+  ]
+}

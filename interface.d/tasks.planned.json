@@ -1,0 +1,1843 @@
+{
+  "task": [
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "AlasStart",
+      "group": [
+        "Alas"
+      ],
+      "label": "Alas",
+      "name": "Alas",
+      "option": [
+        "Alas_DropRecord_API",
+        "Alas_EmulatorInfo_name",
+        "Alas_EmulatorInfo_path",
+        "Alas_DailySummary_Enable",
+        "Alas_Emulator_Serial",
+        "Alas_EmulatorInfo_Emulator",
+        "Alas_DropRecord_BugReport",
+        "Alas_Emulator_AdbRestart",
+        "Alas_DropRecord_OpsiRecord",
+        "Alas_DropRecord_SaveFolder"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "Ambush11Start",
+      "group": [
+        "Farm"
+      ],
+      "label": "Ambush11",
+      "name": "Ambush11",
+      "option": [
+        "Ambush11_Emotion_Mode",
+        "Ambush11_Submarine_Mode",
+        "Ambush11_Campaign_Name",
+        "Ambush11_Submarine_Fleet",
+        "Ambush11_Fleet_Fleet1",
+        "Ambush11_Fleet_Fleet2",
+        "Ambush11_GemsFarming_CommonCV",
+        "Ambush11_GemsFarming_CommonDD",
+        "Ambush11_StopCondition_OilLimit",
+        "Ambush11_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "AutoEquipStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "AutoEquip",
+      "name": "AutoEquip",
+      "option": [
+        "AutoEquip_AutoEquip_ShipLimit",
+        "AutoEquip_AutoEquip_EnableSlot1",
+        "AutoEquip_AutoEquip_EnableSlot2",
+        "AutoEquip_AutoEquip_EnableSlot3",
+        "AutoEquip_AutoEquip_EnableSlot4",
+        "AutoEquip_AutoEquip_EnableSlot5"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "AwakenStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Awaken",
+      "name": "Awaken",
+      "option": [
+        "Awaken_Awaken_LevelCap",
+        "Awaken_Awaken_Favourite",
+        "Awaken_Scheduler_Enable",
+        "Awaken_Scheduler_NextRun",
+        "Awaken_Scheduler_Sensitive",
+        "Awaken_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "AzurLaneUncensoredStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "AzurLaneUncensored",
+      "name": "AzurLaneUncensored",
+      "option": [
+        "AzurLaneUncensored_AzurLaneUncensored_Repository"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "BenchmarkStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "Benchmark",
+      "name": "Benchmark",
+      "option": [
+        "Benchmark_Benchmark_TestScene",
+        "Benchmark_Benchmark_DeviceType"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "BoxDisassembleStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "BoxDisassemble",
+      "name": "BoxDisassemble",
+      "option": [
+        "BoxDisassemble_BoxDisassemble_UseBlueBox",
+        "BoxDisassemble_BoxDisassemble_UseWhiteBox",
+        "BoxDisassemble_BoxDisassemble_BlueBoxLimit",
+        "BoxDisassemble_BoxDisassemble_UsePurpleBox",
+        "BoxDisassemble_BoxDisassemble_WhiteBoxLimit",
+        "BoxDisassemble_BoxDisassemble_PurpleBoxLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "CoalitionStart",
+      "group": [
+        "Event"
+      ],
+      "label": "Coalition",
+      "name": "Coalition",
+      "option": [
+        "Coalition_Coalition_Mode",
+        "Coalition_Emotion_Mode",
+        "Coalition_Coalition_Fleet",
+        "Coalition_StopCondition_OilLimit",
+        "Coalition_StopCondition_RunCount",
+        "Coalition_StopCondition_CoinLimit",
+        "Coalition_Emotion_Fleet1Oath",
+        "Coalition_Emotion_Fleet1Onsen",
+        "Coalition_Emotion_Fleet1Value",
+        "Coalition_Emotion_Fleet2Onsen"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "CoalitionScuttleStart",
+      "group": [
+        "Event"
+      ],
+      "label": "CoalitionScuttle",
+      "name": "CoalitionScuttle",
+      "option": [
+        "CoalitionScuttle_Coalition_Mode",
+        "CoalitionScuttle_Emotion_Mode",
+        "CoalitionScuttle_Coalition_Fleet",
+        "CoalitionScuttle_StopCondition_OilLimit",
+        "CoalitionScuttle_StopCondition_RunCount",
+        "CoalitionScuttle_StopCondition_CoinLimit",
+        "CoalitionScuttle_CoalitionScuttle_Sacrifice",
+        "CoalitionScuttle_Emotion_Fleet1Oath",
+        "CoalitionScuttle_Emotion_Fleet2Oath",
+        "CoalitionScuttle_Emotion_Fleet1Onsen"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "CoalitionSpStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "CoalitionSp",
+      "name": "CoalitionSp",
+      "option": [
+        "CoalitionSp_Emotion_Mode",
+        "CoalitionSp_Campaign_Event",
+        "CoalitionSp_Coalition_Fleet",
+        "CoalitionSp_StopCondition_OilLimit",
+        "CoalitionSp_StopCondition_RunCount",
+        "CoalitionSp_StopCondition_CoinLimit",
+        "CoalitionSp_Emotion_Fleet1Oath",
+        "CoalitionSp_Emotion_Fleet1Onsen",
+        "CoalitionSp_Emotion_Fleet1Value",
+        "CoalitionSp_Emotion_Fleet2Onsen"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "DaemonStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "Daemon",
+      "name": "Daemon",
+      "option": [
+        "Daemon_Daemon_EnterMap"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "DailyStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Daily",
+      "name": "Daily",
+      "option": [
+        "Daily_Daily_UseDailySkip",
+        "Daily_Daily_EscortMission",
+        "Daily_Daily_FierceAssault",
+        "Daily_Daily_AdvanceMission",
+        "Daily_Daily_TacticalTraining",
+        "Daily_Daily_ModuleDevelopment",
+        "Daily_Daily_EscortMissionFleet",
+        "Daily_Daily_FierceAssaultFleet",
+        "Daily_Daily_AdvanceMissionFleet",
+        "Daily_Daily_SupplyLineDisruption"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "DashboardStart",
+      "label": "Dashboard",
+      "name": "Dashboard",
+      "option": [
+        "Dashboard_Coin_Limit",
+        "Dashboard_Oil_Limit",
+        "Dashboard_ActionPoint_Total",
+        "Dashboard_ActionPoint_Value",
+        "Dashboard_Coin_Value",
+        "Dashboard_Core_Value",
+        "Dashboard_Cube_Value",
+        "Dashboard_Gem_Value",
+        "Dashboard_GuildCoin_Value",
+        "Dashboard_Medal_Value"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "DormStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Dorm",
+      "name": "Dorm",
+      "option": [
+        "Dorm_Dorm_Feed",
+        "Dorm_BuyFurniture_Enable",
+        "Dorm_Dorm_BuyFood",
+        "Dorm_Dorm_Collect",
+        "Dorm_BuyFurniture_LastRun",
+        "Dorm_BuyFurniture_BuyOption",
+        "Dorm_Dorm_FeedFilter",
+        "Dorm_Scheduler_Enable",
+        "Dorm_Scheduler_NextRun",
+        "Dorm_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EmulatorManagerStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "EmulatorManager",
+      "name": "EmulatorManager",
+      "option": [
+        "EmulatorManager_EmulatorManager_RemoteSSHHost",
+        "EmulatorManager_EmulatorManager_RemoteSSHPort",
+        "EmulatorManager_EmulatorManager_RemoteSSHUser",
+        "EmulatorManager_EmulatorManager_EnableRemoteSSH",
+        "EmulatorManager_EmulatorManager_RemoteStopCommand",
+        "EmulatorManager_EmulatorManager_RemoteSSHPublicKey",
+        "EmulatorManager_EmulatorManager_RemoteStartCommand"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventStart",
+      "group": [
+        "Event"
+      ],
+      "label": "Event",
+      "name": "Event",
+      "option": [
+        "Event_Emotion_Mode",
+        "Event_Submarine_Mode",
+        "Event_Campaign_Name",
+        "Event_Campaign_Event",
+        "Event_Submarine_Fleet",
+        "Event_Fleet_Fleet1",
+        "Event_Fleet_Fleet2",
+        "Event_StopCondition_OilLimit",
+        "Event_StopCondition_RunCount",
+        "Event_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "Event2Start",
+      "group": [
+        "Event"
+      ],
+      "label": "Event2",
+      "name": "Event2",
+      "option": [
+        "Event2_Emotion_Mode",
+        "Event2_Submarine_Mode",
+        "Event2_Campaign_Name",
+        "Event2_Campaign_Event",
+        "Event2_Submarine_Fleet",
+        "Event2_Fleet_Fleet1",
+        "Event2_Fleet_Fleet2",
+        "Event2_StopCondition_OilLimit",
+        "Event2_StopCondition_RunCount",
+        "Event2_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "Event3Start",
+      "group": [
+        "Event"
+      ],
+      "label": "Event3",
+      "name": "Event3",
+      "option": [
+        "Event3_Emotion_Mode",
+        "Event3_Submarine_Mode",
+        "Event3_Campaign_Name",
+        "Event3_Campaign_Event",
+        "Event3_Submarine_Fleet",
+        "Event3_Fleet_Fleet1",
+        "Event3_Fleet_Fleet2",
+        "Event3_StopCondition_OilLimit",
+        "Event3_StopCondition_RunCount",
+        "Event3_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventAStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "EventA",
+      "name": "EventA",
+      "option": [
+        "EventA_Emotion_Mode",
+        "EventA_Submarine_Mode",
+        "EventA_Campaign_Event",
+        "EventA_Submarine_Fleet",
+        "EventA_Fleet_Fleet1",
+        "EventA_Fleet_Fleet2",
+        "EventA_StopCondition_OilLimit",
+        "EventA_StopCondition_CoinLimit",
+        "EventA_EventDaily_LastStage",
+        "EventA_Fleet_Fleet1Mode"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventBStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "EventB",
+      "name": "EventB",
+      "option": [
+        "EventB_Emotion_Mode",
+        "EventB_Submarine_Mode",
+        "EventB_Campaign_Event",
+        "EventB_Submarine_Fleet",
+        "EventB_Fleet_Fleet1",
+        "EventB_Fleet_Fleet2",
+        "EventB_StopCondition_OilLimit",
+        "EventB_StopCondition_CoinLimit",
+        "EventB_EventDaily_LastStage",
+        "EventB_Fleet_Fleet1Mode"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventCStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "EventC",
+      "name": "EventC",
+      "option": [
+        "EventC_Emotion_Mode",
+        "EventC_Submarine_Mode",
+        "EventC_Campaign_Event",
+        "EventC_Submarine_Fleet",
+        "EventC_Fleet_Fleet1",
+        "EventC_Fleet_Fleet2",
+        "EventC_StopCondition_OilLimit",
+        "EventC_StopCondition_CoinLimit",
+        "EventC_EventDaily_LastStage",
+        "EventC_Fleet_Fleet1Mode"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventDStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "EventD",
+      "name": "EventD",
+      "option": [
+        "EventD_Emotion_Mode",
+        "EventD_Submarine_Mode",
+        "EventD_Campaign_Event",
+        "EventD_Submarine_Fleet",
+        "EventD_Fleet_Fleet1",
+        "EventD_Fleet_Fleet2",
+        "EventD_StopCondition_OilLimit",
+        "EventD_StopCondition_CoinLimit",
+        "EventD_EventDaily_LastStage",
+        "EventD_Fleet_Fleet1Mode"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventGeneralStart",
+      "group": [
+        "Event"
+      ],
+      "label": "EventGeneral",
+      "name": "EventGeneral",
+      "option": [
+        "EventGeneral_TaskBalancer_Enable",
+        "EventGeneral_EventGeneral_PtLimit",
+        "EventGeneral_TaskBalancer_TaskCall",
+        "EventGeneral_TaskBalancer_CoinLimit",
+        "EventGeneral_EventGeneral_TimeLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventShopStart",
+      "group": [
+        "Event"
+      ],
+      "label": "EventShop",
+      "name": "EventShop",
+      "option": [
+        "EventShop_EventShop_BuyURShip",
+        "EventShop_EventShop_CustomFilter",
+        "EventShop_EventShop_PresetFilter",
+        "EventShop_EventShop_UnlockSSRShip",
+        "EventShop_Scheduler_Enable",
+        "EventShop_Scheduler_NextRun",
+        "EventShop_Scheduler_Sensitive",
+        "EventShop_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventSpStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "EventSp",
+      "name": "EventSp",
+      "option": [
+        "EventSp_Emotion_Mode",
+        "EventSp_Submarine_Mode",
+        "EventSp_Campaign_Event",
+        "EventSp_Submarine_Fleet",
+        "EventSp_Fleet_Fleet1",
+        "EventSp_Fleet_Fleet2",
+        "EventSp_StopCondition_OilLimit",
+        "EventSp_StopCondition_CoinLimit",
+        "EventSp_Fleet_Fleet1Mode",
+        "EventSp_Emotion_Fleet1Oath"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "EventStoryStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "EventStory",
+      "name": "EventStory",
+      "option": []
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ExerciseStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Exercise",
+      "name": "Exercise",
+      "option": [
+        "Exercise_Exercise_OpponentTrial",
+        "Exercise_Exercise_ExerciseStrategy",
+        "Exercise_Exercise_LowHpConfirmWait",
+        "Exercise_Exercise_OpponentChooseMode",
+        "Exercise_Exercise_OpponentRefreshValue",
+        "Exercise_Exercise_OpponentRefreshRecord",
+        "Exercise_Exercise_DelayUntilHoursBeforeNextUpdate",
+        "Exercise_Scheduler_Enable",
+        "Exercise_Scheduler_NextRun",
+        "Exercise_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "FleetInfoStart",
+      "group": [
+        "FleetManagement"
+      ],
+      "label": "FleetInfo",
+      "name": "FleetInfo",
+      "option": []
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "FleetScanStart",
+      "group": [
+        "FleetManagement"
+      ],
+      "label": "FleetScan",
+      "name": "FleetScan",
+      "option": []
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "FreebiesStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Freebies",
+      "name": "Freebies",
+      "option": [
+        "Freebies_BattlePass_Collect",
+        "Freebies_DataKey_Collect",
+        "Freebies_SupplyPack_Collect",
+        "Freebies_SupplyPack_DayOfWeek",
+        "Freebies_Mail_ClaimMerit",
+        "Freebies_DataKey_ForceCollect",
+        "Freebies_Mail_DeleteCollected",
+        "Freebies_Mail_ClaimMaintenance",
+        "Freebies_Mail_ClaimTradeLicense",
+        "Freebies_Scheduler_Enable"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "GachaStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Gacha",
+      "name": "Gacha",
+      "option": [
+        "Gacha_Gacha_Pool",
+        "Gacha_Gacha_Amount",
+        "Gacha_Gacha_UseDrill",
+        "Gacha_Gacha_UseTicket",
+        "Gacha_Scheduler_Enable",
+        "Gacha_Scheduler_NextRun",
+        "Gacha_Scheduler_Sensitive",
+        "Gacha_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "GameManagerStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "GameManager",
+      "name": "GameManager",
+      "option": [
+        "GameManager_GameManager_AutoRestart"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "GemsFarmingStart",
+      "group": [
+        "Farm"
+      ],
+      "label": "GemsFarming",
+      "name": "GemsFarming",
+      "option": [
+        "GemsFarming_Submarine_Mode",
+        "GemsFarming_Campaign_Name",
+        "GemsFarming_Campaign_Event",
+        "GemsFarming_Submarine_Fleet",
+        "GemsFarming_Fleet_Fleet1",
+        "GemsFarming_Fleet_Fleet2",
+        "GemsFarming_GemsFarming_CommonCV",
+        "GemsFarming_GemsFarming_CommonDD",
+        "GemsFarming_StopCondition_OilLimit",
+        "GemsFarming_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "GeneralStart",
+      "group": [
+        "Alas"
+      ],
+      "label": "General",
+      "name": "General",
+      "option": [
+        "General_OldRetire_N",
+        "General_OldRetire_R",
+        "General_OldRetire_SR",
+        "General_OldRetire_SSR",
+        "General_PublicEmotion_Tasks",
+        "General_PublicEmotion_Enable",
+        "General_Enhance_Filter",
+        "General_PublicEmotion_FleetOath",
+        "General_Log_ZipMethod",
+        "General_PublicEmotion_FleetOnsen"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "GuildStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Guild",
+      "name": "Guild",
+      "option": [
+        "Guild_GuildLogistics_Enable",
+        "Guild_GuildOperation_Enable",
+        "Guild_GuildOperation_AttackBoss",
+        "Guild_GuildLogistics_ExchangeFilter",
+        "Guild_GuildLogistics_SelectNewMission",
+        "Guild_GuildOperation_BossFleetRecommend",
+        "Guild_GuildOperation_SelectNewOperation",
+        "Guild_GuildOperation_NewOperationMaxDate",
+        "Guild_Scheduler_Enable",
+        "Guild_Scheduler_NextRun"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "HardStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Hard",
+      "name": "Hard",
+      "option": [
+        "Hard_Hard_HardFleet",
+        "Hard_Hard_HardStage",
+        "Hard_Scheduler_Enable",
+        "Hard_Scheduler_NextRun",
+        "Hard_Scheduler_Sensitive",
+        "Hard_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "HospitalStart",
+      "group": [
+        "Event"
+      ],
+      "label": "Hospital",
+      "name": "Hospital",
+      "option": [
+        "Hospital_Emotion_Mode",
+        "Hospital_StopCondition_OilLimit",
+        "Hospital_StopCondition_CoinLimit",
+        "Hospital_Emotion_Fleet1Value",
+        "Hospital_Emotion_Fleet1Record",
+        "Hospital_Hospital_UseRecommendFleet",
+        "Hospital_Scheduler_Enable",
+        "Hospital_Scheduler_NextRun",
+        "Hospital_Scheduler_Sensitive",
+        "Hospital_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandAirDropStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandAirDrop",
+      "name": "IslandAirDrop",
+      "option": [
+        "IslandAirDrop_IslandAirDrop_LastSteal",
+        "IslandAirDrop_IslandAirDrop_VisitOtherIsland",
+        "IslandAirDrop_Scheduler_Enable",
+        "IslandAirDrop_Scheduler_NextRun",
+        "IslandAirDrop_Scheduler_Sensitive",
+        "IslandAirDrop_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandBusinessStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandBusiness",
+      "name": "IslandBusiness",
+      "option": [
+        "IslandBusiness_IslandBusinessShop1_Char1",
+        "IslandBusiness_IslandBusinessShop2_Char1",
+        "IslandBusiness_IslandBusinessShop3_Char1",
+        "IslandBusiness_IslandBusinessShop4_Char1",
+        "IslandBusiness_IslandBusinessShop5_Char1",
+        "IslandBusiness_IslandBusinessShop1_Char2",
+        "IslandBusiness_IslandBusinessShop2_Char2",
+        "IslandBusiness_IslandBusinessShop3_Char2",
+        "IslandBusiness_IslandBusinessShop4_Char2",
+        "IslandBusiness_IslandBusinessShop5_Char2"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandCargoPreparationStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandCargoPreparation",
+      "name": "IslandCargoPreparation",
+      "option": [
+        "IslandCargoPreparation_IslandCargoPreparation_Blacklist",
+        "IslandCargoPreparation_Scheduler_Enable",
+        "IslandCargoPreparation_Scheduler_NextRun",
+        "IslandCargoPreparation_Scheduler_Sensitive",
+        "IslandCargoPreparation_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandDailyGatherStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandDailyGather",
+      "name": "IslandDailyGather",
+      "option": [
+        "IslandDailyGather_IslandDailyGather_WorkerFilter",
+        "IslandDailyGather_Scheduler_Enable",
+        "IslandDailyGather_Scheduler_NextRun",
+        "IslandDailyGather_Scheduler_Sensitive",
+        "IslandDailyGather_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandDailyInteractStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandDailyInteract",
+      "name": "IslandDailyInteract",
+      "option": [
+        "IslandDailyInteract_IslandDailyInteract_WeeklyPhoto",
+        "IslandDailyInteract_Scheduler_Enable",
+        "IslandDailyInteract_Scheduler_NextRun",
+        "IslandDailyInteract_Scheduler_Sensitive",
+        "IslandDailyInteract_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandDailyOrderStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandDailyOrder",
+      "name": "IslandDailyOrder",
+      "option": [
+        "IslandDailyOrder_IslandDailyOrder_RejectCount",
+        "IslandDailyOrder_IslandDailyOrder_RejectFilter",
+        "IslandDailyOrder_IslandDailyOrder_UrgentDetectRefreshTime",
+        "IslandDailyOrder_Scheduler_Enable",
+        "IslandDailyOrder_Scheduler_NextRun",
+        "IslandDailyOrder_Scheduler_Sensitive",
+        "IslandDailyOrder_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandFarmStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandFarm",
+      "name": "IslandFarm",
+      "option": [
+        "IslandFarm_IslandFarm_MinFarm",
+        "IslandFarm_IslandFarm_Positions",
+        "IslandFarm_IslandNursery_Positions",
+        "IslandFarm_IslandOrchard_Positions",
+        "IslandFarm_IslandNursery_MinNursery",
+        "IslandFarm_IslandOrchard_MinOrchard",
+        "IslandFarm_IslandOrchard_PlantRubber",
+        "IslandFarm_IslandFarm_WorkerFilter",
+        "IslandFarm_IslandNursery_WorkerFilter",
+        "IslandFarm_IslandOrchard_WorkerFilter"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandGrillStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandGrill",
+      "name": "IslandGrill",
+      "option": [
+        "IslandGrill_IslandGrill_Meal1",
+        "IslandGrill_IslandGrill_Meal2",
+        "IslandGrill_IslandGrill_Meal3",
+        "IslandGrill_IslandGrill_Meal4",
+        "IslandGrill_IslandGrill_Meal5",
+        "IslandGrill_IslandGrill_Meal6",
+        "IslandGrill_IslandGrill_Meal7",
+        "IslandGrill_IslandGrill_Meal8",
+        "IslandGrill_IslandGrillNextTask_AwayCook",
+        "IslandGrill_IslandGrill_ChefFilter"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandJuuCoffeeStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandJuuCoffee",
+      "name": "IslandJuuCoffee",
+      "option": [
+        "IslandJuuCoffee_IslandJuuCoffee_Meal1",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal2",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal3",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal4",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal5",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal6",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal7",
+        "IslandJuuCoffee_IslandJuuCoffee_Meal8",
+        "IslandJuuCoffee_IslandJuuCoffeeNextTask_AwayCook",
+        "IslandJuuCoffee_IslandJuuCoffee_Friedrich"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandJuuEateryStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandJuuEatery",
+      "name": "IslandJuuEatery",
+      "option": [
+        "IslandJuuEatery_IslandJuuEatery_Meal1",
+        "IslandJuuEatery_IslandJuuEatery_Meal2",
+        "IslandJuuEatery_IslandJuuEatery_Meal3",
+        "IslandJuuEatery_IslandJuuEatery_Meal4",
+        "IslandJuuEatery_IslandJuuEatery_Meal5",
+        "IslandJuuEatery_IslandJuuEatery_Meal6",
+        "IslandJuuEatery_IslandJuuEatery_Meal7",
+        "IslandJuuEatery_IslandJuuEatery_Meal8",
+        "IslandJuuEatery_IslandJuuEateryNextTask_AwayCook",
+        "IslandJuuEatery_IslandJuuEatery_ChefFilter"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandManufactureStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandManufacture",
+      "name": "IslandManufacture",
+      "option": [
+        "IslandManufacture_ElectronicProcessing_Positions",
+        "IslandManufacture_Handmade_Positions",
+        "IslandManufacture_Industrial_Positions",
+        "IslandManufacture_WoodProcessing_Positions",
+        "IslandManufacture_Scheduler_Enable",
+        "IslandManufacture_Scheduler_NextRun",
+        "IslandManufacture_Scheduler_Sensitive",
+        "IslandManufacture_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandMineForestStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandMineForest",
+      "name": "IslandMineForest",
+      "option": [
+        "IslandMineForest_IslandMine_MinIron",
+        "IslandMineForest_IslandMine_MinCopper",
+        "IslandMineForest_IslandMine_MinSilver",
+        "IslandMineForest_IslandForest_Positions",
+        "IslandMineForest_IslandMine_Positions",
+        "IslandMineForest_IslandForest_CutElegant",
+        "IslandMineForest_IslandForest_MinElegant",
+        "IslandMineForest_IslandMine_MinSulphur",
+        "IslandMineForest_IslandMine_MineSilver",
+        "IslandMineForest_IslandForest_MinSelected"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandPearlSellStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandPearlSell",
+      "name": "IslandPearlSell",
+      "option": [
+        "IslandPearlSell_IslandPearlSell_BuyPrice",
+        "IslandPearlSell_IslandPearlSell_SellPrice",
+        "IslandPearlSell_IslandPearlSell_BuyNextRun",
+        "IslandPearlSell_IslandPearlSell_DailyPriceRefresh",
+        "IslandPearlSell_IslandPearlSell_NextPearlTradeTime",
+        "IslandPearlSell_Scheduler_Enable",
+        "IslandPearlSell_Scheduler_NextRun",
+        "IslandPearlSell_Scheduler_Sensitive",
+        "IslandPearlSell_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandPlanStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandPlan",
+      "name": "IslandPlan",
+      "option": [
+        "IslandPlan_IslandPlan_Season"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandRancherStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandRancher",
+      "name": "IslandRancher",
+      "option": [
+        "IslandRancher_IslandRancher_Milk",
+        "IslandRancher_IslandRancher_Wool",
+        "IslandRancher_IslandFishery_MinBass",
+        "IslandRancher_IslandFishery_MinCrab",
+        "IslandRancher_IslandRancher_MinPork",
+        "IslandRancher_IslandFishery_MinShell",
+        "IslandRancher_IslandFishery_MinSquid",
+        "IslandRancher_IslandFishery_MinShrimp",
+        "IslandRancher_IslandRancher_PigFilter",
+        "IslandRancher_IslandFishery_Positions"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandRestaurantStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandRestaurant",
+      "name": "IslandRestaurant",
+      "option": [
+        "IslandRestaurant_IslandRestaurant_Meal1",
+        "IslandRestaurant_IslandRestaurant_Meal2",
+        "IslandRestaurant_IslandRestaurant_Meal3",
+        "IslandRestaurant_IslandRestaurant_Meal4",
+        "IslandRestaurant_IslandRestaurant_Meal5",
+        "IslandRestaurant_IslandRestaurant_Meal6",
+        "IslandRestaurant_IslandRestaurant_Meal7",
+        "IslandRestaurant_IslandRestaurant_Meal8",
+        "IslandRestaurant_IslandRestaurantNextTask_AwayCook",
+        "IslandRestaurant_IslandRestaurant_ChefFilter"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "IslandTeahouseStart",
+      "group": [
+        "Island"
+      ],
+      "label": "IslandTeahouse",
+      "name": "IslandTeahouse",
+      "option": [
+        "IslandTeahouse_IslandTeahouse_Meal1",
+        "IslandTeahouse_IslandTeahouse_Meal2",
+        "IslandTeahouse_IslandTeahouse_Meal3",
+        "IslandTeahouse_IslandTeahouse_Meal4",
+        "IslandTeahouse_IslandTeahouse_Meal5",
+        "IslandTeahouse_IslandTeahouse_Meal6",
+        "IslandTeahouse_IslandTeahouse_Meal7",
+        "IslandTeahouse_IslandTeahouse_Meal8",
+        "IslandTeahouse_IslandTeahouseNextTask_AwayCook",
+        "IslandTeahouse_IslandTeahouse_Seasonal"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "MainStart",
+      "group": [
+        "Farm"
+      ],
+      "label": "Main",
+      "name": "Main",
+      "option": [
+        "Main_Campaign_Mode",
+        "Main_Emotion_Mode",
+        "Main_Submarine_Mode",
+        "Main_Campaign_Name",
+        "Main_Submarine_Fleet",
+        "Main_Fleet_Fleet1",
+        "Main_Fleet_Fleet2",
+        "Main_StopCondition_OilLimit",
+        "Main_StopCondition_RunCount",
+        "Main_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "Main2Start",
+      "group": [
+        "Farm"
+      ],
+      "label": "Main2",
+      "name": "Main2",
+      "option": [
+        "Main2_Campaign_Mode",
+        "Main2_Emotion_Mode",
+        "Main2_Submarine_Mode",
+        "Main2_Campaign_Name",
+        "Main2_Submarine_Fleet",
+        "Main2_Fleet_Fleet1",
+        "Main2_Fleet_Fleet2",
+        "Main2_StopCondition_OilLimit",
+        "Main2_StopCondition_RunCount",
+        "Main2_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "Main3Start",
+      "group": [
+        "Farm"
+      ],
+      "label": "Main3",
+      "name": "Main3",
+      "option": [
+        "Main3_Campaign_Mode",
+        "Main3_Emotion_Mode",
+        "Main3_Submarine_Mode",
+        "Main3_Campaign_Name",
+        "Main3_Submarine_Fleet",
+        "Main3_Fleet_Fleet1",
+        "Main3_Fleet_Fleet2",
+        "Main3_StopCondition_OilLimit",
+        "Main3_StopCondition_RunCount",
+        "Main3_StopCondition_CoinLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "MaritimeEscortStart",
+      "group": [
+        "Event"
+      ],
+      "label": "MaritimeEscort",
+      "name": "MaritimeEscort",
+      "option": [
+        "MaritimeEscort_MaritimeEscort_Enable",
+        "MaritimeEscort_Scheduler_Enable",
+        "MaritimeEscort_Scheduler_NextRun",
+        "MaritimeEscort_Scheduler_Sensitive",
+        "MaritimeEscort_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "MeowfficerStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Meowfficer",
+      "name": "Meowfficer",
+      "option": [
+        "Meowfficer_MeowfficerTrain_Mode",
+        "Meowfficer_MeowfficerTrain_Enable",
+        "Meowfficer_Meowfficer_BuyAmount",
+        "Meowfficer_MeowfficerTrain_EnhanceIndex",
+        "Meowfficer_MeowfficerTrain_MaxFeedLevel",
+        "Meowfficer_MeowfficerTrain_RetainTalentedGold",
+        "Meowfficer_Meowfficer_FortChoreMeowfficer",
+        "Meowfficer_MeowfficerTrain_RetainTalentedPurple",
+        "Meowfficer_Scheduler_Enable",
+        "Meowfficer_Scheduler_NextRun"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "MinigameStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Minigame",
+      "name": "Minigame",
+      "option": [
+        "Minigame_Scheduler_Enable",
+        "Minigame_Scheduler_NextRun",
+        "Minigame_Scheduler_Sensitive",
+        "Minigame_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OcrBenchmarkStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "OcrBenchmark",
+      "name": "OcrBenchmark",
+      "option": []
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiAbyssalStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiAbyssal",
+      "name": "OpsiAbyssal",
+      "option": [
+        "OpsiAbyssal_OpsiFleetFilter_Filter",
+        "OpsiAbyssal_OpsiAbyssal_ForceRun",
+        "OpsiAbyssal_Scheduler_Enable",
+        "OpsiAbyssal_Scheduler_NextRun",
+        "OpsiAbyssal_Scheduler_Sensitive",
+        "OpsiAbyssal_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiArchiveStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiArchive",
+      "name": "OpsiArchive",
+      "option": [
+        "OpsiArchive_OpsiFleet_Fleet",
+        "OpsiArchive_OpsiFleet_Submarine",
+        "OpsiArchive_Scheduler_Enable",
+        "OpsiArchive_Scheduler_NextRun",
+        "OpsiArchive_Scheduler_Sensitive",
+        "OpsiArchive_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiAshAssistStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiAshAssist",
+      "name": "OpsiAshAssist",
+      "option": [
+        "OpsiAshAssist_OpsiAshAssist_Tier",
+        "OpsiAshAssist_Scheduler_Enable",
+        "OpsiAshAssist_Scheduler_NextRun",
+        "OpsiAshAssist_Scheduler_Sensitive",
+        "OpsiAshAssist_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiAshBeaconStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiAshBeacon",
+      "name": "OpsiAshBeacon",
+      "option": [
+        "OpsiAshBeacon_OpsiAshBeacon_AttackMode",
+        "OpsiAshBeacon_OpsiAshBeacon_OneHitMode",
+        "OpsiAshBeacon_OpsiAshBeacon_RequestAssist",
+        "OpsiAshBeacon_OpsiAshBeacon_AutoCollectShip",
+        "OpsiAshBeacon_OpsiAshBeacon_EnsureFullyCollected",
+        "OpsiAshBeacon_OpsiAshBeacon_DossierAutoAttackMode",
+        "OpsiAshBeacon_Scheduler_Enable",
+        "OpsiAshBeacon_Scheduler_NextRun",
+        "OpsiAshBeacon_Scheduler_Sensitive",
+        "OpsiAshBeacon_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiCrossMonthStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiCrossMonth",
+      "name": "OpsiCrossMonth",
+      "option": [
+        "OpsiCrossMonth_Scheduler_Enable",
+        "OpsiCrossMonth_Scheduler_NextRun",
+        "OpsiCrossMonth_Scheduler_Sensitive",
+        "OpsiCrossMonth_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiDaemonStart",
+      "group": [
+        "Tool"
+      ],
+      "label": "OpsiDaemon",
+      "name": "OpsiDaemon",
+      "option": [
+        "OpsiDaemon_OpsiDaemon_RepairShip",
+        "OpsiDaemon_OpsiDaemon_SelectEnemy"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiDailyStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiDaily",
+      "name": "OpsiDaily",
+      "option": [
+        "OpsiDaily_OpsiFleet_Fleet",
+        "OpsiDaily_OpsiDaily_DoMission",
+        "OpsiDaily_OpsiFleet_Submarine",
+        "OpsiDaily_OpsiDaily_KeepMissionZone",
+        "OpsiDaily_OpsiDaily_UseTuningSample",
+        "OpsiDaily_OpsiDaily_CollectTargetReward",
+        "OpsiDaily_OpsiDaily_SkipSirenResearchMission",
+        "OpsiDaily_Scheduler_Enable",
+        "OpsiDaily_Scheduler_NextRun",
+        "OpsiDaily_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiExploreStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiExplore",
+      "name": "OpsiExplore",
+      "option": [
+        "OpsiExplore_OpsiFleet_Fleet",
+        "OpsiExplore_OpsiExplore_ForceRun",
+        "OpsiExplore_OpsiExplore_LastZone",
+        "OpsiExplore_OpsiFleet_Submarine",
+        "OpsiExplore_OpsiExplore_SpecialRadar",
+        "OpsiExplore_OpsiExplore_ExploreProgress",
+        "OpsiExplore_OpsiExplore_AllowHazard1Leveling",
+        "OpsiExplore_Scheduler_Enable",
+        "OpsiExplore_Scheduler_NextRun",
+        "OpsiExplore_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiGeneralStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiGeneral",
+      "name": "OpsiGeneral",
+      "option": [
+        "OpsiGeneral_OpsiGeneral_OilLimit",
+        "OpsiGeneral_OpsiGeneral_UseLogger",
+        "OpsiGeneral_OpsiGeneral_LauncherPush",
+        "OpsiGeneral_OpsiGeneral_UseRepairPack",
+        "OpsiGeneral_OpsiGeneral_NotifyOpsiMail",
+        "OpsiGeneral_OpsiGeneral_IndependentPush",
+        "OpsiGeneral_OpsiGeneral_AkashiShopFilter",
+        "OpsiGeneral_OpsiGeneral_DoRandomMapEvent",
+        "OpsiGeneral_OpsiGeneral_OpsiOnePushConfig",
+        "OpsiGeneral_OpsiGeneral_AutoSearchTimeLimit"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiHazard1LevelingStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiHazard1Leveling",
+      "name": "OpsiHazard1Leveling",
+      "option": [
+        "OpsiHazard1Leveling_OpsiFleet_Fleet",
+        "OpsiHazard1Leveling_OpsiFleetAutoChange_Enable",
+        "OpsiHazard1Leveling_OpsiCheckLeveling_LastRun",
+        "OpsiHazard1Leveling_OpsiFleetAutoChange_LastRun",
+        "OpsiHazard1Leveling_OpsiHazard1Leveling_Cl1Filter",
+        "OpsiHazard1Leveling_OpsiSirenBug_Siren_Mode",
+        "OpsiHazard1Leveling_OpsiHazard1Leveling_TargetZone",
+        "OpsiHazard1Leveling_OpsiSirenBug_Siren_Fleet",
+        "OpsiHazard1Leveling_OpsiHazard1Leveling_SkipHpCheck",
+        "OpsiHazard1Leveling_OpsiCheckLeveling_TargetLevel"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiMeowfficerFarmingStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiMeowfficerFarming",
+      "name": "OpsiMeowfficerFarming",
+      "option": [
+        "OpsiMeowfficerFarming_OpsiFleet_Fleet",
+        "OpsiMeowfficerFarming_OpsiTarget_LastRun",
+        "OpsiMeowfficerFarming_OpsiFleet_Submarine",
+        "OpsiMeowfficerFarming_OpsiSirenBug_Siren_Mode",
+        "OpsiMeowfficerFarming_OpsiMeowfficerFarming_StayInZone",
+        "OpsiMeowfficerFarming_OpsiMeowfficerFarming_TargetZone",
+        "OpsiMeowfficerFarming_OpsiTarget_TargetZone",
+        "OpsiMeowfficerFarming_OpsiMeowfficerFarming_HazardLevel",
+        "OpsiMeowfficerFarming_OpsiSirenBug_Siren_Fleet",
+        "OpsiMeowfficerFarming_OpsiTarget_TargetFarming"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiMonthBossStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiMonthBoss",
+      "name": "OpsiMonthBoss",
+      "option": [
+        "OpsiMonthBoss_OpsiMonthBoss_Mode",
+        "OpsiMonthBoss_OpsiFleetFilter_Filter",
+        "OpsiMonthBoss_OpsiMonthBoss_ForceRun",
+        "OpsiMonthBoss_OpsiMonthBoss_CheckAdaptability",
+        "OpsiMonthBoss_Scheduler_Enable",
+        "OpsiMonthBoss_Scheduler_NextRun",
+        "OpsiMonthBoss_Scheduler_Sensitive",
+        "OpsiMonthBoss_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiObscureStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiObscure",
+      "name": "OpsiObscure",
+      "option": [
+        "OpsiObscure_OpsiFleet_Fleet",
+        "OpsiObscure_OpsiObscure_ForceRun",
+        "OpsiObscure_OpsiFleet_Submarine",
+        "OpsiObscure_OpsiObscure_SkipHazard2Obscure",
+        "OpsiObscure_Scheduler_Enable",
+        "OpsiObscure_Scheduler_NextRun",
+        "OpsiObscure_Scheduler_Sensitive",
+        "OpsiObscure_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiPreventActionPointOverflowStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiPreventActionPointOverflow",
+      "name": "OpsiPreventActionPointOverflow",
+      "option": [
+        "OpsiPreventActionPointOverflow_OpsiPreventActionPointOverflow_Task",
+        "OpsiPreventActionPointOverflow_OpsiPreventActionPointOverflow_ActionPointLowerbound",
+        "OpsiPreventActionPointOverflow_OpsiPreventActionPointOverflow_ActionPointUpperbound",
+        "OpsiPreventActionPointOverflow_Scheduler_Enable",
+        "OpsiPreventActionPointOverflow_Scheduler_NextRun",
+        "OpsiPreventActionPointOverflow_Scheduler_Sensitive",
+        "OpsiPreventActionPointOverflow_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiSchedulingStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiScheduling",
+      "name": "OpsiScheduling",
+      "option": [
+        "OpsiScheduling_OpsiScheduling_TaskPriority",
+        "OpsiScheduling_OpsiScheduling_EnableAbyssal",
+        "OpsiScheduling_OpsiScheduling_EnableObscure",
+        "OpsiScheduling_OpsiScheduling_EnableStronghold",
+        "OpsiScheduling_OpsiScheduling_ActionPointPreserve",
+        "OpsiScheduling_OpsiScheduling_MonthEndShopPurchase",
+        "OpsiScheduling_OpsiScheduling_OperationCoinsPreserve",
+        "OpsiScheduling_OpsiScheduling_EnableMeowfficerFarming",
+        "OpsiScheduling_OpsiScheduling_MonthEndActionPointPreserve",
+        "OpsiScheduling_OpsiScheduling_MonthEndActionPointCleanupDays"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiShopStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiShop",
+      "name": "OpsiShop",
+      "option": [
+        "OpsiShop_OpsiShop_CustomFilter",
+        "OpsiShop_OpsiShop_PresetFilter",
+        "OpsiShop_OpsiShop_DisableBeforeDate",
+        "OpsiShop_Scheduler_Enable",
+        "OpsiShop_Scheduler_NextRun",
+        "OpsiShop_Scheduler_Sensitive",
+        "OpsiShop_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiSimulatorStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiSimulator",
+      "name": "OpsiSimulator",
+      "option": [
+        "OpsiSimulator_OpsiSimulatorParameters_Draw",
+        "OpsiSimulator_OpsiSimulatorParameters_BuyAp",
+        "OpsiSimulator_OpsiSimulatorParameters_Cl1Coin",
+        "OpsiSimulator_OpsiSimulatorParameters_Cl1Time",
+        "OpsiSimulator_OpsiSimulatorParameters_Samples",
+        "OpsiSimulator_OpsiSimulatorParameters_CrossWeek",
+        "OpsiSimulator_OpsiSimulatorParameters_InitialAp",
+        "OpsiSimulator_OpsiSimulatorParameters_Meow3Coin",
+        "OpsiSimulator_OpsiSimulatorParameters_Meow3Time",
+        "OpsiSimulator_OpsiSimulatorParameters_Meow5Coin"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiStrongholdStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiStronghold",
+      "name": "OpsiStronghold",
+      "option": [
+        "OpsiStronghold_OpsiFleetFilter_Filter",
+        "OpsiStronghold_OpsiStronghold_ForceRun",
+        "OpsiStronghold_OpsiStronghold_SubmarineEveryCombat",
+        "OpsiStronghold_Scheduler_Enable",
+        "OpsiStronghold_Scheduler_NextRun",
+        "OpsiStronghold_Scheduler_Sensitive",
+        "OpsiStronghold_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "OpsiVoucherStart",
+      "group": [
+        "Opsi"
+      ],
+      "label": "OpsiVoucher",
+      "name": "OpsiVoucher",
+      "option": [
+        "OpsiVoucher_OpsiVoucher_Filter",
+        "OpsiVoucher_Scheduler_Enable",
+        "OpsiVoucher_Scheduler_NextRun",
+        "OpsiVoucher_Scheduler_Sensitive",
+        "OpsiVoucher_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "PrivateQuartersStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "PrivateQuarters",
+      "name": "PrivateQuarters",
+      "option": [
+        "PrivateQuarters_PrivateQuarters_BuyCake",
+        "PrivateQuarters_PrivateQuarters_BuyRoses",
+        "PrivateQuarters_PrivateQuarters_TargetShip",
+        "PrivateQuarters_PrivateQuarters_TargetInteract",
+        "PrivateQuarters_Scheduler_Enable",
+        "PrivateQuarters_Scheduler_NextRun",
+        "PrivateQuarters_Scheduler_Sensitive",
+        "PrivateQuarters_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "RaidStart",
+      "group": [
+        "Event"
+      ],
+      "label": "Raid",
+      "name": "Raid",
+      "option": [
+        "Raid_Emotion_Mode",
+        "Raid_Raid_Mode",
+        "Raid_Campaign_Event",
+        "Raid_StopCondition_OilLimit",
+        "Raid_StopCondition_RunCount",
+        "Raid_StopCondition_CoinLimit",
+        "Raid_Raid_UseTicket",
+        "Raid_Emotion_Fleet1Oath",
+        "Raid_Emotion_Fleet1Onsen",
+        "Raid_Emotion_Fleet1Value"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "RaidDailyStart",
+      "group": [
+        "EventDaily"
+      ],
+      "label": "RaidDaily",
+      "name": "RaidDaily",
+      "option": [
+        "RaidDaily_Emotion_Mode",
+        "RaidDaily_Campaign_Event",
+        "RaidDaily_StopCondition_OilLimit",
+        "RaidDaily_StopCondition_CoinLimit",
+        "RaidDaily_Emotion_Fleet1Oath",
+        "RaidDaily_Emotion_Fleet1Onsen",
+        "RaidDaily_Emotion_Fleet1Value",
+        "RaidDaily_RaidDaily_StageFilter",
+        "RaidDaily_Emotion_Fleet1Record",
+        "RaidDaily_Emotion_Fleet1Control"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "RaidScuttleStart",
+      "group": [
+        "Event"
+      ],
+      "label": "RaidScuttle",
+      "name": "RaidScuttle",
+      "option": [
+        "RaidScuttle_Emotion_Mode",
+        "RaidScuttle_Raid_Mode",
+        "RaidScuttle_Submarine_Mode",
+        "RaidScuttle_Submarine_Fleet",
+        "RaidScuttle_Fleet_Fleet1",
+        "RaidScuttle_Fleet_Fleet2",
+        "RaidScuttle_StopCondition_OilLimit",
+        "RaidScuttle_StopCondition_RunCount",
+        "RaidScuttle_StopCondition_CoinLimit",
+        "RaidScuttle_Campaign_Use2xBook"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ResearchStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Research",
+      "name": "Research",
+      "option": [
+        "Research_Research_UseCoin",
+        "Research_Research_UseCube",
+        "Research_Research_UsePart",
+        "Research_Research_AllowDelay",
+        "Research_Research_AllowGenreT",
+        "Research_Research_CustomFilter",
+        "Research_Research_PresetFilter",
+        "Research_Research_RemainingCommissions",
+        "Research_Scheduler_Enable",
+        "Research_Scheduler_NextRun"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "RestartStart",
+      "group": [
+        "Alas"
+      ],
+      "label": "Restart",
+      "name": "Restart",
+      "option": [
+        "Restart_Restart_ClearCache",
+        "Restart_Restart_RandomDelay",
+        "Restart_Scheduler_NextRun",
+        "Restart_Scheduler_Sensitive",
+        "Restart_Restart_LoginWaitTimeout",
+        "Restart_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "RewardStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Reward",
+      "name": "Reward",
+      "option": [
+        "Reward_Reward_CollectExp",
+        "Reward_Reward_CollectOil",
+        "Reward_Reward_CollectCoin",
+        "Reward_Reward_CollectMission",
+        "Reward_Reward_CollectWeeklyMission",
+        "Reward_Scheduler_Enable",
+        "Reward_Scheduler_NextRun",
+        "Reward_Scheduler_Sensitive",
+        "Reward_Scheduler_PushNotification"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ShipyardStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Shipyard",
+      "name": "Shipyard",
+      "option": [
+        "Shipyard_Shipyard_LastRun",
+        "Shipyard_ShipyardDr_LastRun",
+        "Shipyard_Shipyard_BuyAmount",
+        "Shipyard_ShipyardDr_BuyAmount",
+        "Shipyard_Shipyard_ShipIndex",
+        "Shipyard_ShipyardDr_ShipIndex",
+        "Shipyard_Shipyard_ResearchSeries",
+        "Shipyard_ShipyardDr_ResearchSeries",
+        "Shipyard_Scheduler_Enable",
+        "Shipyard_Scheduler_NextRun"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ShopFrequentStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "ShopFrequent",
+      "name": "ShopFrequent",
+      "option": [
+        "ShopFrequent_GeneralShop_Enable",
+        "ShopFrequent_GeneralShop_Filter",
+        "ShopFrequent_GeneralShop_Refresh",
+        "ShopFrequent_GeneralShop_UseGems",
+        "ShopFrequent_GeneralShop_BuySkinBox",
+        "ShopFrequent_GeneralShop_ConsumeCoins",
+        "ShopFrequent_GeneralShop_OverflowCoins",
+        "ShopFrequent_Scheduler_Enable",
+        "ShopFrequent_Scheduler_NextRun",
+        "ShopFrequent_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ShopOnceStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "ShopOnce",
+      "name": "ShopOnce",
+      "option": [
+        "ShopOnce_GuildShop_PR1",
+        "ShopOnce_GuildShop_PR2",
+        "ShopOnce_GuildShop_PR3",
+        "ShopOnce_GuildShop_BOX_T3",
+        "ShopOnce_GuildShop_BOX_T4",
+        "ShopOnce_CoreShop_Enable",
+        "ShopOnce_GuildShop_Enable",
+        "ShopOnce_MedalShop2_Enable",
+        "ShopOnce_MeritShop_Enable",
+        "ShopOnce_CoreShop_Filter"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "TacticalStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Tactical",
+      "name": "Tactical",
+      "option": [
+        "Tactical_AddNewStudent_Enable",
+        "Tactical_ControlExpOverflow_Enable",
+        "Tactical_ControlExpOverflow_T1Allow",
+        "Tactical_ControlExpOverflow_T2Allow",
+        "Tactical_ControlExpOverflow_T3Allow",
+        "Tactical_ControlExpOverflow_T4Allow",
+        "Tactical_AddNewStudent_Favorite",
+        "Tactical_AddNewStudent_MinLevel",
+        "Tactical_Tactical_TacticalFilter",
+        "Tactical_Tactical_SkillAutoSwitch"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "ThreeOilLowCostStart",
+      "group": [
+        "Farm"
+      ],
+      "label": "ThreeOilLowCost",
+      "name": "ThreeOilLowCost",
+      "option": [
+        "ThreeOilLowCost_Submarine_Mode",
+        "ThreeOilLowCost_Campaign_Name",
+        "ThreeOilLowCost_Submarine_Fleet",
+        "ThreeOilLowCost_Fleet_Fleet1",
+        "ThreeOilLowCost_Fleet_Fleet2",
+        "ThreeOilLowCost_GemsFarming_CommonCV",
+        "ThreeOilLowCost_GemsFarming_CommonDD",
+        "ThreeOilLowCost_StopCondition_OilLimit",
+        "ThreeOilLowCost_StopCondition_CoinLimit",
+        "ThreeOilLowCost_Fleet_Fleet1Mode"
+      ]
+    },
+    {
+      "default_check": false,
+      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
+      "entry": "WarArchivesStart",
+      "group": [
+        "Event"
+      ],
+      "label": "WarArchives",
+      "name": "WarArchives",
+      "option": [
+        "WarArchives_Emotion_Mode",
+        "WarArchives_Submarine_Mode",
+        "WarArchives_Campaign_Name",
+        "WarArchives_Campaign_Event",
+        "WarArchives_Submarine_Fleet",
+        "WarArchives_Fleet_Fleet1",
+        "WarArchives_Fleet_Fleet2",
+        "WarArchives_StopCondition_OilLimit",
+        "WarArchives_StopCondition_RunCount",
+        "WarArchives_StopCondition_CoinLimit"
+      ]
+    }
+  ]
+}

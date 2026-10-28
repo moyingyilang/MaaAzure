@@ -145,6 +145,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "maazure-config"
+version = "0.0.1"
+dependencies = [
+ "maazure-core",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "maazure-core"
 version = "0.0.1"
 
