@@ -23,6 +23,27 @@
     },
     {
       "default_check": true,
+      "entry": "DailyStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Daily",
+      "name": "Daily",
+      "option": [
+        "Daily_Daily_UseDailySkip",
+        "Daily_Daily_EscortMission",
+        "Daily_Daily_FierceAssault",
+        "Daily_Daily_AdvanceMission",
+        "Daily_Daily_TacticalTraining",
+        "Daily_Daily_ModuleDevelopment",
+        "Daily_Daily_EscortMissionFleet",
+        "Daily_Daily_FierceAssaultFleet",
+        "Daily_Daily_AdvanceMissionFleet",
+        "Daily_Daily_SupplyLineDisruption"
+      ]
+    },
+    {
+      "default_check": true,
       "entry": "DormStart",
       "group": [
         "Reward"

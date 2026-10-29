@@ -1,0 +1,27 @@
+{
+  "_note": "结构草案（依据旧仓 module/daily/daily.py）：主界面→出击→每日→每日页即结束。出击会消耗次数，行动部分等真机确认。",
+  "layer": "1-daily",
+  "file": "daily/entry.json",
+  "nodes": {
+    "DailyStart": {
+      "next": ["daily_goto_campaign", "daily_goto_tab"]
+    },
+    "daily_goto_campaign": {
+      "use": "ui_main_goto_campaign",
+      "next": ["daily_goto_tab", "global_recover"]
+    },
+    "daily_goto_tab": {
+      "use": "ui_campaign_goto_daily",
+      "next": ["daily_page", "global_recover"]
+    },
+    "daily_page": {
+      "use": "daily_enter",
+      "action": "DoNothing",
+      "next": ["daily_done"]
+    },
+    "daily_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

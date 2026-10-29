@@ -1,0 +1,17 @@
+{
+  "name": "daily_page_only",
+  "entry": "DailyStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_campaign"] },
+    { "show": ["ui_campaign_goto_daily"] },
+    { "show": ["daily_enter"] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["daily_goto_campaign", "daily_goto_tab", "daily_page"],
+    "not_visited": ["global_recover"]
+  }
+}
