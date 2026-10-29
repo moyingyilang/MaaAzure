@@ -1,0 +1,120 @@
+{
+  "DormStart": {
+    "action": "DoNothing",
+    "next": [
+      "dorm_goto_menu",
+      "global_home"
+    ],
+    "recognition": "DirectHit"
+  },
+  "dorm_collect": {
+    "action": "Click",
+    "next": [
+      "dorm_page",
+      "dorm_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1191,
+      497,
+      1251,
+      519
+    ],
+    "target": [
+      1191,
+      497,
+      1251,
+      519
+    ],
+    "template": "dorm/dorm_quick_collect.png"
+  },
+  "dorm_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "dorm_feed": {
+    "action": "Click",
+    "next": [
+      "dorm_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      254,
+      581,
+      300,
+      605
+    ],
+    "target": [
+      254,
+      581,
+      300,
+      605
+    ],
+    "template": "dorm/dorm_feed_enter.png"
+  },
+  "dorm_goto_dorm": {
+    "action": "Click",
+    "next": [
+      "dorm_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      408,
+      494,
+      541,
+      587
+    ],
+    "target": [
+      408,
+      494,
+      541,
+      587
+    ],
+    "template": "ui/ui_dormmenu_goto_dorm.png"
+  },
+  "dorm_goto_menu": {
+    "action": "Click",
+    "next": [
+      "dorm_goto_dorm",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      1102,
+      342
+    ],
+    "target": [
+      488,
+      667,
+      638,
+      712
+    ],
+    "template": "ui/ui_main_goto_dormmenu.png"
+  },
+  "dorm_page": {
+    "action": "DoNothing",
+    "next": [
+      "dorm_collect",
+      "dorm_feed",
+      "dorm_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      949,
+      600,
+      1005,
+      659
+    ],
+    "target": [
+      949,
+      600,
+      1005,
+      659
+    ],
+    "template": "dorm/dorm_manage.png"
+  }
+}

@@ -4,16 +4,24 @@
   "file": "gacha/entry.json",
   "nodes": {
     "GachaStart": {
-      "next": ["global_home", "gacha_goto_page"]
+      "next": [
+        "gacha_goto_page",
+        "global_home"
+      ]
     },
     "gacha_goto_page": {
       "use": "ui_main_goto_build",
-      "next": ["gacha_page", "global_recover"]
+      "next": [
+        "gacha_page",
+        "global_recover"
+      ]
     },
     "gacha_page": {
       "use": "gacha_build_submit_orders",
       "action": "DoNothing",
-      "next": ["gacha_done"]
+      "next": [
+        "gacha_done"
+      ]
     },
     "gacha_done": {
       "recognition": "DirectHit",

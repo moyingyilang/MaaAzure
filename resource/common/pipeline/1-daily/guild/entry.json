@@ -1,0 +1,100 @@
+{
+  "GuildStart": {
+    "action": "DoNothing",
+    "next": [
+      "guild_goto_page",
+      "global_home"
+    ],
+    "recognition": "DirectHit"
+  },
+  "guild_claim_report": {
+    "action": "Click",
+    "next": [
+      "guild_page",
+      "guild_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      739,
+      595,
+      1078,
+      637
+    ],
+    "target": [
+      739,
+      595,
+      1078,
+      637
+    ],
+    "template": "guild/guild_report_claim.png"
+  },
+  "guild_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "guild_goto_page": {
+    "action": "Click",
+    "next": [
+      "guild_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1116,
+      666,
+      1241,
+      713
+    ],
+    "target": [
+      1116,
+      666,
+      1241,
+      713
+    ],
+    "template": "ui/ui_main_goto_guild.png"
+  },
+  "guild_page": {
+    "action": "DoNothing",
+    "next": [
+      "guild_claim_report",
+      "guild_supply_once",
+      "guild_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1068,
+      279,
+      1224,
+      320
+    ],
+    "target": [
+      1068,
+      279,
+      1224,
+      320
+    ],
+    "template": "guild/guild_mission.png"
+  },
+  "guild_supply_once": {
+    "action": "Click",
+    "next": [
+      "guild_page",
+      "guild_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1077,
+      617,
+      1233,
+      658
+    ],
+    "target": [
+      1077,
+      617,
+      1233,
+      658
+    ],
+    "template": "guild/guild_supply.png"
+  }
+}

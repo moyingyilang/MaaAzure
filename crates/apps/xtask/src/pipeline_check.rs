@@ -42,6 +42,8 @@ pub struct Report {
     pub generated: usize,
     /// `image_index.json` 里的条目数
     pub indexed: usize,
+    /// 内容完全相同的模板组数（别名或同形元素）
+    pub duplicate_groups: usize,
     /// 错误
     pub errors: Vec<String>,
     /// 警告
@@ -103,6 +105,15 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
         report
             .warnings
             .push(format!("没有 {}", index_path.display()));
+    }
+
+    // 0.5) 内容重复的模板：不同节点名指向同一张图 → 接线时容易「一个标志命中两处」
+    report.duplicate_groups = count_duplicate_templates(&resource_dir.join("cn"));
+    if report.duplicate_groups > 0 {
+        report.warnings.push(format!(
+            "{} 组模板内容完全相同（别名或同形元素），接线时注意「一个图案会同时命中多个节点」",
+            report.duplicate_groups
+        ));
     }
 
     for (server, bundle) in bundles {
@@ -257,6 +268,39 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
     }
 
     Ok(report)
+}
+
+/// 统计 cn 包里内容完全相同的模板组数。
+fn count_duplicate_templates(bundle: &Path) -> usize {
+    use std::collections::HashMap;
+
+    let image_dir = bundle.join("image");
+    if !image_dir.is_dir() {
+        return 0;
+    }
+    let mut by_hash: HashMap<u64, usize> = HashMap::new();
+    let mut stack = vec![image_dir];
+    while let Some(dir) = stack.pop() {
+        let Ok(rd) = fs::read_dir(&dir) else { continue };
+        for e in rd.flatten() {
+            let p = e.path();
+            if p.is_dir() {
+                stack.push(p);
+                continue;
+            }
+            if p.extension().and_then(|x| x.to_str()) != Some("png") {
+                continue;
+            }
+            let Ok(data) = fs::read(&p) else { continue };
+            let mut h: u64 = 0xcbf2_9ce4_8422_2325;
+            for b in data {
+                h ^= b as u64;
+                h = h.wrapping_mul(0x0000_0100_0000_01b3);
+            }
+            *by_hash.entry(h).or_insert(0) += 1;
+        }
+    }
+    by_hash.values().filter(|n| **n > 1).count()
 }
 
 /// `resource/common` 包（可选）：手写拓扑与 `default_pipeline.json` 的宿主。

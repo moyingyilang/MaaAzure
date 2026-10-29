@@ -1,0 +1,17 @@
+{
+  "name": "guild_claim",
+  "entry": "GuildStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_guild"] },
+    { "show": ["guild_mission", "guild_report_claim"] },
+    { "show": ["guild_mission"] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["guild_goto_page", "guild_page", "guild_claim_report"],
+    "not_visited": ["global_recover"]
+  }
+}

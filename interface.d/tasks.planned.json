@@ -248,28 +248,6 @@
     {
       "default_check": false,
       "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "DormStart",
-      "group": [
-        "Reward"
-      ],
-      "label": "Dorm",
-      "name": "Dorm",
-      "option": [
-        "Dorm_Dorm_Feed",
-        "Dorm_BuyFurniture_Enable",
-        "Dorm_Dorm_BuyFood",
-        "Dorm_Dorm_Collect",
-        "Dorm_BuyFurniture_LastRun",
-        "Dorm_BuyFurniture_BuyOption",
-        "Dorm_Dorm_FeedFilter",
-        "Dorm_Scheduler_Enable",
-        "Dorm_Scheduler_NextRun",
-        "Dorm_Scheduler_Sensitive"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
       "entry": "EmulatorManagerStart",
       "group": [
         "Tool"
@@ -631,28 +609,6 @@
         "General_PublicEmotion_FleetOath",
         "General_Log_ZipMethod",
         "General_PublicEmotion_FleetOnsen"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "GuildStart",
-      "group": [
-        "Reward"
-      ],
-      "label": "Guild",
-      "name": "Guild",
-      "option": [
-        "Guild_GuildLogistics_Enable",
-        "Guild_GuildOperation_Enable",
-        "Guild_GuildOperation_AttackBoss",
-        "Guild_GuildLogistics_ExchangeFilter",
-        "Guild_GuildLogistics_SelectNewMission",
-        "Guild_GuildOperation_BossFleetRecommend",
-        "Guild_GuildOperation_SelectNewOperation",
-        "Guild_GuildOperation_NewOperationMaxDate",
-        "Guild_Scheduler_Enable",
-        "Guild_Scheduler_NextRun"
       ]
     },
     {

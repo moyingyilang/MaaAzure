@@ -2,8 +2,8 @@
   "RewardStart": {
     "action": "DoNothing",
     "next": [
-      "global_home",
-      "reward_goto_page"
+      "reward_goto_page",
+      "global_home"
     ],
     "recognition": "DirectHit"
   },

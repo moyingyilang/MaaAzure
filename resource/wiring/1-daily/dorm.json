@@ -1,0 +1,53 @@
+{
+  "_note": "结构草案：主界面→宿舍→快速领取→补充食物。食物购买/家具购买的流程未接（要花钻石/币，等真机确认）。",
+  "layer": "1-daily",
+  "file": "dorm/entry.json",
+  "nodes": {
+    "DormStart": {
+      "next": [
+        "dorm_goto_menu",
+        "global_home"
+      ]
+    },
+    "dorm_goto_menu": {
+      "use": "ui_main_goto_dormmenu",
+      "next": [
+        "dorm_goto_dorm",
+        "global_recover"
+      ]
+    },
+    "dorm_goto_dorm": {
+      "use": "ui_dormmenu_goto_dorm",
+      "next": [
+        "dorm_page",
+        "global_recover"
+      ]
+    },
+    "dorm_page": {
+      "use": "dorm_manage",
+      "action": "DoNothing",
+      "next": [
+        "dorm_collect",
+        "dorm_feed",
+        "dorm_done"
+      ]
+    },
+    "dorm_collect": {
+      "use": "dorm_quick_collect",
+      "next": [
+        "dorm_page",
+        "dorm_done"
+      ]
+    },
+    "dorm_feed": {
+      "use": "dorm_feed_enter",
+      "next": [
+        "dorm_done"
+      ]
+    },
+    "dorm_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

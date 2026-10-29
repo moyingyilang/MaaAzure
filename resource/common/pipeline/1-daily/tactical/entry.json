@@ -2,8 +2,8 @@
   "TacticalStart": {
     "action": "DoNothing",
     "next": [
-      "global_home",
-      "tactical_goto_reward"
+      "tactical_goto_reward",
+      "global_home"
     ],
     "recognition": "DirectHit"
   },

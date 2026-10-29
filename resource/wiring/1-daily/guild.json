@@ -1,0 +1,47 @@
+{
+  "_note": "结构草案：主界面→大舰队→领取报告→补给。作战/派遣未接（会消耗资源，等真机确认）。",
+  "layer": "1-daily",
+  "file": "guild/entry.json",
+  "nodes": {
+    "GuildStart": {
+      "next": [
+        "guild_goto_page",
+        "global_home"
+      ]
+    },
+    "guild_goto_page": {
+      "use": "ui_main_goto_guild",
+      "next": [
+        "guild_page",
+        "global_recover"
+      ]
+    },
+    "guild_page": {
+      "use": "guild_mission",
+      "action": "DoNothing",
+      "next": [
+        "guild_claim_report",
+        "guild_supply_once",
+        "guild_done"
+      ]
+    },
+    "guild_claim_report": {
+      "use": "guild_report_claim",
+      "next": [
+        "guild_page",
+        "guild_done"
+      ]
+    },
+    "guild_supply_once": {
+      "use": "guild_supply",
+      "next": [
+        "guild_page",
+        "guild_done"
+      ]
+    },
+    "guild_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

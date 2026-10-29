@@ -1,0 +1,42 @@
+{
+  "name": "dorm_collect",
+  "entry": "DormStart",
+  "server": "cn",
+  "frames": [
+    {
+      "show": [
+        "ui_main_goto_dormmenu"
+      ]
+    },
+    {
+      "show": [
+        "ui_dormmenu_goto_dorm"
+      ]
+    },
+    {
+      "show": [
+        "dorm_manage",
+        "dorm_quick_collect"
+      ]
+    },
+    {
+      "show": [
+        "dorm_manage"
+      ]
+    }
+  ],
+  "expect": {
+    "min_clicks": 3,
+    "max_clicks": 3,
+    "outcome": "ok",
+    "visited": [
+      "dorm_goto_menu",
+      "dorm_goto_dorm",
+      "dorm_page",
+      "dorm_collect"
+    ],
+    "not_visited": [
+      "global_recover"
+    ]
+  }
+}

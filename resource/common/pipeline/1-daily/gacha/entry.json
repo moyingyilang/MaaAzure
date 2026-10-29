@@ -2,8 +2,8 @@
   "GachaStart": {
     "action": "DoNothing",
     "next": [
-      "global_home",
-      "gacha_goto_page"
+      "gacha_goto_page",
+      "global_home"
     ],
     "recognition": "DirectHit"
   },

@@ -2,8 +2,8 @@
   "CommissionStart": {
     "action": "DoNothing",
     "next": [
-      "global_home",
-      "commission_goto_reward"
+      "commission_goto_reward",
+      "global_home"
     ],
     "recognition": "DirectHit"
   },

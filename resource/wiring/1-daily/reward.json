@@ -4,20 +4,32 @@
   "file": "reward/entry.json",
   "nodes": {
     "RewardStart": {
-      "next": ["global_home", "reward_goto_page"]
+      "next": [
+        "reward_goto_page",
+        "global_home"
+      ]
     },
     "reward_goto_page": {
       "use": "ui_main_goto_reward",
-      "next": ["reward_page", "global_recover"]
+      "next": [
+        "reward_page",
+        "global_recover"
+      ]
     },
     "reward_page": {
       "use": "reward_coin",
       "action": "DoNothing",
-      "next": ["reward_collect_all", "reward_done"]
+      "next": [
+        "reward_collect_all",
+        "reward_done"
+      ]
     },
     "reward_collect_all": {
       "use": "reward_mission_multi",
-      "next": ["reward_page", "reward_done"]
+      "next": [
+        "reward_page",
+        "reward_done"
+      ]
     },
     "reward_done": {
       "recognition": "DirectHit",

@@ -5,8 +5,8 @@
   "nodes": {
     "TacticalStart": {
       "next": [
-        "global_home",
-        "tactical_goto_reward"
+        "tactical_goto_reward",
+        "global_home"
       ]
     },
     "tactical_goto_reward": {
