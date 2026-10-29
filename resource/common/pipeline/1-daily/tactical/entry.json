@@ -1,0 +1,98 @@
+{
+  "TacticalStart": {
+    "action": "DoNothing",
+    "next": [
+      "global_home",
+      "tactical_goto_reward"
+    ],
+    "recognition": "DirectHit"
+  },
+  "tactical_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "tactical_goto_reward": {
+    "action": "Click",
+    "next": [
+      "tactical_goto_tab",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "target": [
+      11,
+      139,
+      30,
+      189
+    ],
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "tactical_goto_tab": {
+    "action": "Click",
+    "next": [
+      "tactical_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      435,
+      420,
+      498,
+      448
+    ],
+    "target": [
+      435,
+      420,
+      498,
+      448
+    ],
+    "template": "ui/ui_reward_goto_tactical.png"
+  },
+  "tactical_page": {
+    "action": "DoNothing",
+    "next": [
+      "tactical_start_class",
+      "tactical_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      417,
+      375,
+      438,
+      398
+    ],
+    "target": [
+      417,
+      375,
+      438,
+      398
+    ],
+    "template": "tactical/tactical_add_new_student.png"
+  },
+  "tactical_start_class": {
+    "action": "Click",
+    "next": [
+      "tactical_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1024,
+      590,
+      1197,
+      648
+    ],
+    "target": [
+      1024,
+      590,
+      1197,
+      648
+    ],
+    "template": "tactical/tactical_class_start.png"
+  }
+}

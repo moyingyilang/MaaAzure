@@ -1,0 +1,56 @@
+{
+  "GachaStart": {
+    "action": "DoNothing",
+    "next": [
+      "global_home",
+      "gacha_goto_page"
+    ],
+    "recognition": "DirectHit"
+  },
+  "gacha_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "gacha_goto_page": {
+    "action": "Click",
+    "next": [
+      "gacha_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      958,
+      665,
+      1113,
+      714
+    ],
+    "target": [
+      958,
+      665,
+      1113,
+      714
+    ],
+    "template": "ui/ui_main_goto_build.png"
+  },
+  "gacha_page": {
+    "action": "DoNothing",
+    "next": [
+      "gacha_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1032,
+      603,
+      1223,
+      657
+    ],
+    "target": [
+      1032,
+      603,
+      1223,
+      657
+    ],
+    "template": "gacha/gacha_build_submit_orders.png"
+  }
+}

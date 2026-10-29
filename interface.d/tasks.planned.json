@@ -579,26 +579,6 @@
     {
       "default_check": false,
       "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "GachaStart",
-      "group": [
-        "DailyMission"
-      ],
-      "label": "Gacha",
-      "name": "Gacha",
-      "option": [
-        "Gacha_Gacha_Pool",
-        "Gacha_Gacha_Amount",
-        "Gacha_Gacha_UseDrill",
-        "Gacha_Gacha_UseTicket",
-        "Gacha_Scheduler_Enable",
-        "Gacha_Scheduler_NextRun",
-        "Gacha_Scheduler_Sensitive",
-        "Gacha_Scheduler_PushNotification"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
       "entry": "GameManagerStart",
       "group": [
         "Tool"
@@ -1689,27 +1669,6 @@
     {
       "default_check": false,
       "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "RewardStart",
-      "group": [
-        "Reward"
-      ],
-      "label": "Reward",
-      "name": "Reward",
-      "option": [
-        "Reward_Reward_CollectExp",
-        "Reward_Reward_CollectOil",
-        "Reward_Reward_CollectCoin",
-        "Reward_Reward_CollectMission",
-        "Reward_Reward_CollectWeeklyMission",
-        "Reward_Scheduler_Enable",
-        "Reward_Scheduler_NextRun",
-        "Reward_Scheduler_Sensitive",
-        "Reward_Scheduler_PushNotification"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
       "entry": "ShipyardStart",
       "group": [
         "DailyMission"
@@ -1771,28 +1730,6 @@
         "ShopOnce_MedalShop2_Enable",
         "ShopOnce_MeritShop_Enable",
         "ShopOnce_CoreShop_Filter"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "TacticalStart",
-      "group": [
-        "Reward"
-      ],
-      "label": "Tactical",
-      "name": "Tactical",
-      "option": [
-        "Tactical_AddNewStudent_Enable",
-        "Tactical_ControlExpOverflow_Enable",
-        "Tactical_ControlExpOverflow_T1Allow",
-        "Tactical_ControlExpOverflow_T2Allow",
-        "Tactical_ControlExpOverflow_T3Allow",
-        "Tactical_ControlExpOverflow_T4Allow",
-        "Tactical_AddNewStudent_Favorite",
-        "Tactical_AddNewStudent_MinLevel",
-        "Tactical_Tactical_TacticalFilter",
-        "Tactical_Tactical_SkillAutoSwitch"
       ]
     },
     {

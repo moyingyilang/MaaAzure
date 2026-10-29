@@ -1,0 +1,18 @@
+{
+  "name": "tactical_start_class",
+  "entry": "TacticalStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_reward"] },
+    { "show": ["ui_reward_goto_tactical"] },
+    { "show": ["tactical_add_new_student", "tactical_class_start"] },
+    { "show": ["tactical_add_new_student", "tactical_class_start"] }
+  ],
+  "expect": {
+    "min_clicks": 3,
+    "max_clicks": 3,
+    "outcome": "ok",
+    "visited": ["tactical_goto_reward", "tactical_goto_tab", "tactical_page", "tactical_start_class" ],
+    "not_visited": ["global_recover"]
+  }
+}

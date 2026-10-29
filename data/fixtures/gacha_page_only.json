@@ -1,0 +1,16 @@
+{
+  "name": "gacha_page_only",
+  "entry": "GachaStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_build"] },
+    { "show": ["gacha_build_submit_orders"] }
+  ],
+  "expect": {
+    "min_clicks": 1,
+    "max_clicks": 1,
+    "outcome": "ok",
+    "visited": ["gacha_goto_page", "gacha_page", "gacha_done"],
+    "not_visited": ["global_recover"]
+  }
+}

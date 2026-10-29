@@ -1,0 +1,23 @@
+{
+  "_note": "只读接线：进入建造页就结束，不点建造。要不要自动建造、投多少资源，等有设备再决定。",
+  "layer": "1-daily",
+  "file": "gacha/entry.json",
+  "nodes": {
+    "GachaStart": {
+      "next": ["global_home", "gacha_goto_page"]
+    },
+    "gacha_goto_page": {
+      "use": "ui_main_goto_build",
+      "next": ["gacha_page", "global_recover"]
+    },
+    "gacha_page": {
+      "use": "gacha_build_submit_orders",
+      "action": "DoNothing",
+      "next": ["gacha_done"]
+    },
+    "gacha_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

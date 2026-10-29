@@ -1,0 +1,17 @@
+{
+  "name": "reward_collect",
+  "entry": "RewardStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_reward"] },
+    { "show": ["reward_coin", "reward_mission_multi"] },
+    { "show": [] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["reward_goto_page", "reward_page", "reward_collect_all", "reward_done"],
+    "not_visited": ["global_recover"]
+  }
+}

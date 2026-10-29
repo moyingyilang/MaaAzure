@@ -1,0 +1,45 @@
+{
+  "_note": "结构草案：节点与坐标都来自旧仓 assets.py 的生成物，流程顺序未经真机验证。设备到位后校正。",
+  "layer": "1-daily",
+  "file": "tactical/entry.json",
+  "nodes": {
+    "TacticalStart": {
+      "next": [
+        "global_home",
+        "tactical_goto_reward"
+      ]
+    },
+    "tactical_goto_reward": {
+      "use": "ui_main_goto_reward",
+      "next": [
+        "tactical_goto_tab",
+        "global_recover"
+      ]
+    },
+    "tactical_goto_tab": {
+      "use": "ui_reward_goto_tactical",
+      "next": [
+        "tactical_page",
+        "global_recover"
+      ]
+    },
+    "tactical_page": {
+      "use": "tactical_add_new_student",
+      "action": "DoNothing",
+      "next": [
+        "tactical_start_class",
+        "tactical_done"
+      ]
+    },
+    "tactical_start_class": {
+      "use": "tactical_class_start",
+      "next": [
+        "tactical_done"
+      ]
+    },
+    "tactical_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}
