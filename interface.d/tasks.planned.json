@@ -1541,28 +1541,6 @@
     {
       "default_check": false,
       "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
-      "entry": "ResearchStart",
-      "group": [
-        "Reward"
-      ],
-      "label": "Research",
-      "name": "Research",
-      "option": [
-        "Research_Research_UseCoin",
-        "Research_Research_UseCube",
-        "Research_Research_UsePart",
-        "Research_Research_AllowDelay",
-        "Research_Research_AllowGenreT",
-        "Research_Research_CustomFilter",
-        "Research_Research_PresetFilter",
-        "Research_Research_RemainingCommissions",
-        "Research_Scheduler_Enable",
-        "Research_Scheduler_NextRun"
-      ]
-    },
-    {
-      "default_check": false,
-      "description": "入口节点尚未接线（P1），见 docs/6-plan/6.2-task-tree.md",
       "entry": "RestartStart",
       "group": [
         "Alas"

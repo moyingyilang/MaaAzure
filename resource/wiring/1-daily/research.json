@@ -1,0 +1,27 @@
+{
+  "_note": "只读接线：主界面→科研菜单→科研→科研页即结束。立项/收取会消耗资源与道具，等真机确认。",
+  "layer": "1-daily",
+  "file": "research/entry.json",
+  "nodes": {
+    "ResearchStart": {
+      "next": ["research_goto_menu", "research_goto_page"]
+    },
+    "research_goto_menu": {
+      "use": "ui_main_goto_reshmenu",
+      "next": ["research_goto_page", "global_recover"]
+    },
+    "research_goto_page": {
+      "use": "ui_reshmenu_goto_research",
+      "next": ["research_page", "global_recover"]
+    },
+    "research_page": {
+      "use": "research_start",
+      "action": "DoNothing",
+      "next": ["research_done"]
+    },
+    "research_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

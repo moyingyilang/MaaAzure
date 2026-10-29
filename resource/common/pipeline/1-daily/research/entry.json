@@ -1,0 +1,77 @@
+{
+  "ResearchStart": {
+    "action": "DoNothing",
+    "next": [
+      "research_goto_menu",
+      "research_goto_page"
+    ],
+    "recognition": "DirectHit"
+  },
+  "research_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "research_goto_menu": {
+    "action": "Click",
+    "next": [
+      "research_goto_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      1102,
+      342
+    ],
+    "target": [
+      644,
+      666,
+      798,
+      713
+    ],
+    "template": "ui/ui_main_goto_reshmenu.png"
+  },
+  "research_goto_page": {
+    "action": "Click",
+    "next": [
+      "research_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      308,
+      268,
+      466,
+      422
+    ],
+    "target": [
+      308,
+      268,
+      466,
+      422
+    ],
+    "template": "ui/ui_reshmenu_goto_research.png"
+  },
+  "research_page": {
+    "action": "DoNothing",
+    "next": [
+      "research_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      445,
+      569,
+      568,
+      597
+    ],
+    "target": [
+      445,
+      569,
+      568,
+      597
+    ],
+    "template": "research/research_start.png"
+  }
+}

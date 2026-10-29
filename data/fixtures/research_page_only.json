@@ -1,0 +1,17 @@
+{
+  "name": "research_page_only",
+  "entry": "ResearchStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_reshmenu"] },
+    { "show": ["ui_reshmenu_goto_research"] },
+    { "show": ["research_start"] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["research_goto_menu", "research_goto_page", "research_page"],
+    "not_visited": ["global_recover"]
+  }
+}
