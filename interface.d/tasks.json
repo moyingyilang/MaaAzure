@@ -44,6 +44,27 @@
     },
     {
       "default_check": true,
+      "entry": "ExerciseStart",
+      "group": [
+        "DailyMission"
+      ],
+      "label": "Exercise",
+      "name": "Exercise",
+      "option": [
+        "Exercise_Exercise_OpponentTrial",
+        "Exercise_Exercise_ExerciseStrategy",
+        "Exercise_Exercise_LowHpConfirmWait",
+        "Exercise_Exercise_OpponentChooseMode",
+        "Exercise_Exercise_OpponentRefreshValue",
+        "Exercise_Exercise_OpponentRefreshRecord",
+        "Exercise_Exercise_DelayUntilHoursBeforeNextUpdate",
+        "Exercise_Scheduler_Enable",
+        "Exercise_Scheduler_NextRun",
+        "Exercise_Scheduler_Sensitive"
+      ]
+    },
+    {
+      "default_check": true,
       "entry": "GachaStart",
       "group": [
         "DailyMission"
@@ -80,6 +101,27 @@
         "Guild_GuildOperation_NewOperationMaxDate",
         "Guild_Scheduler_Enable",
         "Guild_Scheduler_NextRun"
+      ]
+    },
+    {
+      "default_check": true,
+      "entry": "MeowfficerStart",
+      "group": [
+        "Reward"
+      ],
+      "label": "Meowfficer",
+      "name": "Meowfficer",
+      "option": [
+        "Meowfficer_MeowfficerTrain_Mode",
+        "Meowfficer_MeowfficerTrain_Enable",
+        "Meowfficer_Meowfficer_BuyAmount",
+        "Meowfficer_MeowfficerTrain_EnhanceIndex",
+        "Meowfficer_MeowfficerTrain_MaxFeedLevel",
+        "Meowfficer_MeowfficerTrain_RetainTalentedGold",
+        "Meowfficer_Meowfficer_FortChoreMeowfficer",
+        "Meowfficer_MeowfficerTrain_RetainTalentedPurple",
+        "Meowfficer_Scheduler_Enable",
+        "Meowfficer_Scheduler_NextRun"
       ]
     },
     {

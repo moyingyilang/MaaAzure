@@ -1,0 +1,38 @@
+{
+  "_note": "只读接线：主界面→出击→演习→演习页即结束。真要打演习要选对手并消耗次数，等真机确认。",
+  "layer": "1-daily",
+  "file": "exercise/entry.json",
+  "nodes": {
+    "ExerciseStart": {
+      "next": [
+        "exercise_goto_campaign",
+        "exercise_goto_exercise"
+      ]
+    },
+    "exercise_goto_campaign": {
+      "use": "ui_main_goto_campaign",
+      "next": [
+        "exercise_goto_exercise",
+        "global_recover"
+      ]
+    },
+    "exercise_goto_exercise": {
+      "use": "ui_campaign_goto_exercise",
+      "next": [
+        "exercise_page",
+        "global_recover"
+      ]
+    },
+    "exercise_page": {
+      "use": "exercise_preparation",
+      "action": "DoNothing",
+      "next": [
+        "exercise_done"
+      ]
+    },
+    "exercise_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

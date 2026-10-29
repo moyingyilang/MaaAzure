@@ -1,0 +1,77 @@
+{
+  "ExerciseStart": {
+    "action": "DoNothing",
+    "next": [
+      "exercise_goto_campaign",
+      "exercise_goto_exercise"
+    ],
+    "recognition": "DirectHit"
+  },
+  "exercise_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "exercise_goto_campaign": {
+    "action": "Click",
+    "next": [
+      "exercise_goto_exercise",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      1102,
+      342
+    ],
+    "target": [
+      1021,
+      292,
+      1160,
+      432
+    ],
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "exercise_goto_exercise": {
+    "action": "Click",
+    "next": [
+      "exercise_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1166,
+      648,
+      1248,
+      703
+    ],
+    "target": [
+      1166,
+      648,
+      1248,
+      703
+    ],
+    "template": "ui/ui_campaign_goto_exercise.png"
+  },
+  "exercise_page": {
+    "action": "DoNothing",
+    "next": [
+      "exercise_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      543,
+      539,
+      741,
+      599
+    ],
+    "target": [
+      543,
+      539,
+      741,
+      599
+    ],
+    "template": "exercise/exercise_preparation.png"
+  }
+}

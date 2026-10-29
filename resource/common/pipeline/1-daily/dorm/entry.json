@@ -3,7 +3,7 @@
     "action": "DoNothing",
     "next": [
       "dorm_goto_menu",
-      "global_home"
+      "dorm_goto_dorm"
     ],
     "recognition": "DirectHit"
   },

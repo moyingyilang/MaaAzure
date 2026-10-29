@@ -1,0 +1,17 @@
+{
+  "name": "meowfficer_page_only",
+  "entry": "MeowfficerStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_dormmenu"] },
+    { "show": ["ui_dormmenu_goto_meowfficer"] },
+    { "show": ["meowfficer_buy_enter"] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["meowfficer_goto_menu", "meowfficer_goto_page", "meowfficer_page"],
+    "not_visited": ["global_recover"]
+  }
+}

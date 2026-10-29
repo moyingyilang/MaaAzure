@@ -1,0 +1,17 @@
+{
+  "name": "exercise_page_only",
+  "entry": "ExerciseStart",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_campaign"] },
+    { "show": ["ui_campaign_goto_exercise"] },
+    { "show": ["exercise_preparation"] }
+  ],
+  "expect": {
+    "min_clicks": 2,
+    "max_clicks": 2,
+    "outcome": "ok",
+    "visited": ["exercise_goto_campaign", "exercise_goto_exercise", "exercise_page"],
+    "not_visited": ["global_recover"]
+  }
+}

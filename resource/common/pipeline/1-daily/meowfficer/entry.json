@@ -1,0 +1,77 @@
+{
+  "MeowfficerStart": {
+    "action": "DoNothing",
+    "next": [
+      "meowfficer_goto_menu",
+      "meowfficer_goto_page"
+    ],
+    "recognition": "DirectHit"
+  },
+  "meowfficer_done": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "meowfficer_goto_menu": {
+    "action": "Click",
+    "next": [
+      "meowfficer_goto_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      1102,
+      342
+    ],
+    "target": [
+      488,
+      667,
+      638,
+      712
+    ],
+    "template": "ui/ui_main_goto_dormmenu.png"
+  },
+  "meowfficer_goto_page": {
+    "action": "Click",
+    "next": [
+      "meowfficer_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      634,
+      512,
+      749,
+      569
+    ],
+    "target": [
+      634,
+      512,
+      749,
+      569
+    ],
+    "template": "ui/ui_dormmenu_goto_meowfficer.png"
+  },
+  "meowfficer_page": {
+    "action": "DoNothing",
+    "next": [
+      "meowfficer_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      975,
+      580,
+      1084,
+      649
+    ],
+    "target": [
+      975,
+      580,
+      1084,
+      649
+    ],
+    "template": "meowfficer/meowfficer_buy_enter.png"
+  }
+}

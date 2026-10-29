@@ -1,0 +1,27 @@
+{
+  "_note": "只读接线：主界面→宿舍菜单→指挥喵→指挥喵页即结束。训练/购买会花资源，等真机确认。",
+  "layer": "1-daily",
+  "file": "meowfficer/entry.json",
+  "nodes": {
+    "MeowfficerStart": {
+      "next": ["meowfficer_goto_menu", "meowfficer_goto_page"]
+    },
+    "meowfficer_goto_menu": {
+      "use": "ui_main_goto_dormmenu",
+      "next": ["meowfficer_goto_page", "global_recover"]
+    },
+    "meowfficer_goto_page": {
+      "use": "ui_dormmenu_goto_meowfficer",
+      "next": ["meowfficer_page", "global_recover"]
+    },
+    "meowfficer_page": {
+      "use": "meowfficer_buy_enter",
+      "action": "DoNothing",
+      "next": ["meowfficer_done"]
+    },
+    "meowfficer_done": {
+      "recognition": "DirectHit",
+      "next": []
+    }
+  }
+}

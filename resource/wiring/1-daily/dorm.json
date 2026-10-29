@@ -6,7 +6,7 @@
     "DormStart": {
       "next": [
         "dorm_goto_menu",
-        "global_home"
+        "dorm_goto_dorm"
       ]
     },
     "dorm_goto_menu": {

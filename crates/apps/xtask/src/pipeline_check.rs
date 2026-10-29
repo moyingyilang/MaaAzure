@@ -44,6 +44,8 @@ pub struct Report {
     pub indexed: usize,
     /// 内容完全相同的模板组数（别名或同形元素）
     pub duplicate_groups: usize,
+    /// 同一个 next 列表里出现相同图案的次数（接线歧义）
+    pub ambiguous_lists: usize,
     /// 错误
     pub errors: Vec<String>,
     /// 警告
@@ -234,6 +236,45 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
             }
         }
 
+        // 2.5) 同一个 next 列表里两个候选是同一张图 → 谁在前面谁命中，几乎必然是接线错误
+        let hashes = template_hashes(&bundle.join("image"));
+        for (name, (node, _)) in &nodes {
+            for field in ["next", "on_error"] {
+                let Some(items) = node.get(field).and_then(Value::as_array) else {
+                    continue;
+                };
+                let mut seen: std::collections::BTreeMap<u64, String> =
+                    std::collections::BTreeMap::new();
+                for it in items {
+                    let Some(target) = it.as_str() else { continue };
+                    let target = target.strip_prefix("[JumpBack]").unwrap_or(target);
+                    if target.starts_with("[Anchor]") {
+                        continue;
+                    }
+                    let Some((tpl_node, _)) = nodes.get(target) else {
+                        continue;
+                    };
+                    let Some(tpl) = tpl_node.get("template").and_then(first_template) else {
+                        continue;
+                    };
+                    let Some(h) = hashes.get(tpl.trim_end_matches('/')) else {
+                        continue;
+                    };
+                    if let Some(prev) = seen.get(h) {
+                        report.ambiguous_lists += 1;
+                        let msg = format!(
+                            "[{server}] {name}: {field} 里 `{prev}` 与 `{target}` 是同一张图，先命中的会赢"
+                        );
+                        if !report.warnings.contains(&msg) {
+                            report.warnings.push(msg);
+                        }
+                    } else {
+                        seen.insert(*h, target.to_string());
+                    }
+                }
+            }
+        }
+
         // 3) 孤儿节点（警告）：无入边且不是 *Start
         let mut has_incoming: BTreeSet<&str> = BTreeSet::new();
         for (node, _) in nodes.values() {
@@ -268,6 +309,47 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
     }
 
     Ok(report)
+}
+
+/// 模板相对路径 → 内容哈希。
+fn template_hashes(image_dir: &Path) -> BTreeMap<String, u64> {
+    let mut out = BTreeMap::new();
+    if !image_dir.is_dir() {
+        return out;
+    }
+    let mut stack = vec![image_dir.to_path_buf()];
+    while let Some(dir) = stack.pop() {
+        let Ok(rd) = fs::read_dir(&dir) else { continue };
+        for e in rd.flatten() {
+            let p = e.path();
+            if p.is_dir() {
+                stack.push(p);
+                continue;
+            }
+            if p.extension().and_then(|x| x.to_str()) != Some("png") {
+                continue;
+            }
+            let Ok(data) = fs::read(&p) else { continue };
+            let mut h: u64 = 0xcbf2_9ce4_8422_2325;
+            for b in data {
+                h ^= b as u64;
+                h = h.wrapping_mul(0x0000_0100_0000_01b3);
+            }
+            if let Ok(rel) = p.strip_prefix(image_dir) {
+                out.insert(rel.to_string_lossy().to_string(), h);
+            }
+        }
+    }
+    out
+}
+
+/// 取第一个模板路径（`TemplateMatch` 的 template 可以是数组）。
+fn first_template(v: &Value) -> Option<String> {
+    match v {
+        Value::String(s) => Some(s.clone()),
+        Value::Array(a) => a.first().and_then(Value::as_str).map(str::to_string),
+        _ => None,
+    }
 }
 
 /// 统计 cn 包里内容完全相同的模板组数。
