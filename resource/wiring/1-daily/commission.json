@@ -37,7 +37,7 @@
       "action": "DoNothing",
       "next": [
         "commission_done",
-        "[Anchor]home"
+        "global_home"
       ]
     },
     "commission_done": {

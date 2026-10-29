@@ -1,0 +1,22 @@
+{
+  "name": "commission_no_pick",
+  "entry": "commission_page",
+  "server": "cn",
+  "frames": [
+    {
+      "show": [
+        "commission_page"
+      ]
+    },
+    {
+      "show": [
+        "commission_page"
+      ]
+    }
+  ],
+  "expect": {
+    "min_clicks": 0,
+    "max_clicks": 2,
+    "outcome": "ok"
+  }
+}

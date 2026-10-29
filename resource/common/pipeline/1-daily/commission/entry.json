@@ -81,7 +81,7 @@
     "custom_recognition": "CommissionPick",
     "next": [
       "commission_done",
-      "[Anchor]home"
+      "global_home"
     ],
     "recognition": "Custom"
   }
