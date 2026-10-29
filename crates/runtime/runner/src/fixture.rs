@@ -46,6 +46,12 @@ pub struct Expect {
     /// 期望的结束状态：`ok` / `failed` / `recoverable`
     #[serde(default)]
     pub outcome: Option<String>,
+    /// 必须执行过的节点（顺序无关）
+    #[serde(default)]
+    pub visited: Vec<String>,
+    /// 不允许执行到的节点
+    #[serde(default)]
+    pub not_visited: Vec<String>,
 }
 
 /// 一个合成帧用例。
@@ -85,7 +91,7 @@ impl Script {
     }
 
     /// 结果是否符合期望；返回 `Err(原因)` 表示不符合。
-    pub fn check(&self, outcome: &str, clicks: usize) -> Result<(), String> {
+    pub fn check(&self, outcome: &str, clicks: usize, visited: &[String]) -> Result<(), String> {
         if clicks < self.expect.min_clicks {
             return Err(format!(
                 "{}: 点击 {} 次，少于期望的 {}",
@@ -102,6 +108,22 @@ impl Script {
             && !want.eq_ignore_ascii_case(outcome)
         {
             return Err(format!("{}: 结束状态 {outcome}，期望 {want}", self.name));
+        }
+        for want in &self.expect.visited {
+            if !visited.iter().any(|v| v == want) {
+                return Err(format!(
+                    "{}: 没执行到节点 `{want}`（实际执行：{visited:?}）",
+                    self.name
+                ));
+            }
+        }
+        for deny in &self.expect.not_visited {
+            if visited.iter().any(|v| v == deny) {
+                return Err(format!(
+                    "{}: 不该执行到节点 `{deny}`（实际执行：{visited:?}）",
+                    self.name
+                ));
+            }
         }
         Ok(())
     }
@@ -130,16 +152,46 @@ mod tests {
             r#"{"name":"a","entry":"E","frames":[{}],
                 "expect":{"min_clicks":1,"max_clicks":3,"outcome":"ok"}}"#,
         );
-        assert!(s.check("ok", 2).is_ok());
-        assert!(s.check("ok", 0).unwrap_err().contains("少于"));
-        assert!(s.check("ok", 5).unwrap_err().contains("多于"));
-        assert!(s.check("failed", 2).unwrap_err().contains("结束状态"));
+        assert!(s.check("ok", 2, &[]).is_ok());
+        assert!(s.check("ok", 0, &[]).unwrap_err().contains("少于"));
+        assert!(s.check("ok", 5, &[]).unwrap_err().contains("多于"));
+        assert!(s.check("failed", 2, &[]).unwrap_err().contains("结束状态"));
+    }
+
+    #[test]
+    fn checks_visited_path() {
+        let s = script(
+            r#"{"name":"a","entry":"E","frames":[{}],
+                "expect":{"visited":["B","C"],"not_visited":["Z"]}}"#,
+        );
+        let visited = vec!["A".to_string(), "B".to_string()];
+        // 缺 C
+        assert!(
+            s.check("ok", 0, &visited)
+                .unwrap_err()
+                .contains("没执行到节点 `C`")
+        );
+
+        let ok_path = vec!["A".to_string(), "B".to_string(), "C".to_string()];
+        assert!(s.check("ok", 0, &ok_path).is_ok());
+
+        let bad_path = vec![
+            "A".to_string(),
+            "B".to_string(),
+            "C".to_string(),
+            "Z".to_string(),
+        ];
+        assert!(
+            s.check("ok", 0, &bad_path)
+                .unwrap_err()
+                .contains("不该执行到节点 `Z`")
+        );
     }
 
     #[test]
     fn max_clicks_zero_means_no_limit() {
         let s = script(r#"{"name":"a","entry":"E","frames":[{}],"expect":{"max_clicks":0}}"#);
-        assert!(s.check("ok", 999).is_ok());
+        assert!(s.check("ok", 999, &[]).is_ok());
     }
 
     #[test]

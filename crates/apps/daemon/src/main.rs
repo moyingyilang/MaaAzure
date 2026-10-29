@@ -18,6 +18,10 @@ mod run;
 #[cfg(feature = "maa")]
 mod synth_run;
 
+/// 用真实语料喂 Pipeline（需要 `maa` feature）。
+#[cfg(feature = "maa")]
+mod corpus_run;
+
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
     println!("MaaAzure 树");
@@ -173,6 +177,17 @@ fn main() -> std::process::ExitCode {
             #[cfg(not(feature = "maa"))]
             {
                 eprintln!("本次二进制没有编译 MaaFramework 支持，--synth 不可用。");
+                std::process::ExitCode::from(2)
+            }
+        }
+        Some("--corpus-run") => {
+            #[cfg(feature = "maa")]
+            {
+                corpus_run::run_corpus(&args[1..])
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!("本次二进制没有编译 MaaFramework 支持，--corpus-run 不可用。");
                 std::process::ExitCode::from(2)
             }
         }

@@ -118,16 +118,37 @@ impl MaaEngine {
 
     /// 跑一条 Pipeline，等到结束。
     pub fn run_pipeline(&self, entry: &str, override_json: &str) -> Result<TaskOutcome, String> {
+        self.run_pipeline_traced(entry, override_json)
+            .map(|(outcome, _nodes)| outcome)
+    }
+
+    /// 跑一条 Pipeline，并返回**执行过的节点名序列**。
+    ///
+    /// 合成帧 fixture 靠这个断言「走的是预期路径」而不是「碰巧点了两次」。
+    pub fn run_pipeline_traced(
+        &self,
+        entry: &str,
+        override_json: &str,
+    ) -> Result<(TaskOutcome, Vec<String>), String> {
         let job = self
             .tasker
             .post_task(entry, override_json)
             .map_err(|e| format!("提交任务 {entry} 失败: {e}"))?;
         let status = job.wait();
-        Ok(match status {
+
+        let mut visited = Vec::new();
+        if let Ok(Some(detail)) = job.get(false) {
+            for node in detail.nodes.into_iter().flatten() {
+                visited.push(node.node_name);
+            }
+        }
+
+        let outcome = match status {
             MaaStatus::SUCCEEDED => TaskOutcome::Ok,
             MaaStatus::FAILED => TaskOutcome::Failed,
             _ => TaskOutcome::Recoverable,
-        })
+        };
+        Ok((outcome, visited))
     }
 
     /// 当前分辨率（归一化后）。

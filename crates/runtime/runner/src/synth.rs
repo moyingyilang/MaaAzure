@@ -38,6 +38,13 @@ pub struct Frame {
     pub pasted: Vec<String>,
 }
 
+impl Frame {
+    /// PNG 字节（导出语料用）。
+    pub fn png_bytes(&self) -> &[u8] {
+        &self.png
+    }
+}
+
 /// 画布：在灰底上贴模板。
 pub struct Canvas {
     img: RgbImage,
@@ -255,6 +262,22 @@ struct Inner {
 }
 
 impl SynthController {
+    /// 直接用 PNG 字节序列新建（语料回放走这条）。
+    ///
+    /// 与 [`Canvas`] 造帧的区别只在于字节从哪来：语料是真实截图，画布是贴图合成。
+    pub fn from_png(frames: Vec<Vec<u8>>) -> Self {
+        let n = frames.len();
+        Self {
+            inner: Arc::new(Inner {
+                frames,
+                labels: vec![Vec::new(); n],
+                cursor: AtomicUsize::new(0),
+                clicks: Mutex::new(Vec::new()),
+                swipes: Mutex::new(Vec::new()),
+            }),
+        }
+    }
+
     /// 用一组合成帧新建。
     pub fn new(frames: Vec<Frame>) -> Self {
         let labels = frames.iter().map(|f| f.pasted.clone()).collect();

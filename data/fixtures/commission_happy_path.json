@@ -3,13 +3,34 @@
   "entry": "CommissionStart",
   "server": "cn",
   "frames": [
-    { "show": ["commission_goto_reward"] },
-    { "show": ["commission_goto_reward", "commission_goto_commission"] },
-    { "show": ["commission_goto_reward", "commission_page"] }
+    {
+      "show": [
+        "commission_goto_reward"
+      ]
+    },
+    {
+      "show": [
+        "commission_goto_reward",
+        "commission_goto_commission"
+      ]
+    },
+    {
+      "show": [
+        "commission_goto_reward",
+        "commission_page"
+      ]
+    }
   ],
   "expect": {
     "min_clicks": 2,
     "max_clicks": 6,
-    "outcome": "ok"
+    "outcome": "ok",
+    "visited": [
+      "commission_goto_reward",
+      "commission_page"
+    ],
+    "not_visited": [
+      "global_recover"
+    ]
   }
 }

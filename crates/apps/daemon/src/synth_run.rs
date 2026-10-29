@@ -21,6 +21,7 @@ struct Args {
     entry: Option<String>,
     show: Vec<String>,
     script: Option<PathBuf>,
+    dump: Option<PathBuf>,
     server: String,
     resource_root: PathBuf,
     frames: usize,
@@ -31,6 +32,7 @@ fn parse(args: &[String]) -> Result<Args, String> {
     let mut entry = None;
     let mut show = Vec::new();
     let mut script = None;
+    let mut dump = None;
     let mut server = "cn".to_string();
     let mut resource_root = PathBuf::from("resource");
     let mut frames = 2usize;
@@ -49,6 +51,7 @@ fn parse(args: &[String]) -> Result<Args, String> {
                     .map(str::to_string),
             ),
             "--script" => script = Some(PathBuf::from(next("--script")?)),
+            "--dump" => dump = Some(PathBuf::from(next("--dump")?)),
             "--server" => server = next("--server")?,
             "--resource" => resource_root = PathBuf::from(next("--resource")?),
             "--frames" => {
@@ -70,6 +73,7 @@ fn parse(args: &[String]) -> Result<Args, String> {
         entry,
         show,
         script,
+        dump,
         server,
         resource_root,
         frames: frames.max(1),
@@ -154,7 +158,7 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
             .unwrap_or_else(|| Canvas::new().to_frame());
         frames.push(last);
     }
-    let ctrl = SynthController::new(frames);
+    let ctrl = SynthController::new(frames.clone());
 
     let engine = match MaaEngine::from_synth(ctrl.clone()) {
         Ok(e) => e,
@@ -176,14 +180,18 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
     }
 
     let started = std::time::Instant::now();
-    let result = engine.run_pipeline(&entry, "{}");
+    let result = engine.run_pipeline_traced(&entry, "{}");
     let elapsed = started.elapsed();
     let clicks = ctrl.clicks();
+    let visited = result
+        .as_ref()
+        .map(|(_, nodes)| nodes.clone())
+        .unwrap_or_default();
 
     let outcome = match &result {
-        Ok(TaskOutcome::Ok) => "ok",
-        Ok(TaskOutcome::Failed) => "failed",
-        Ok(TaskOutcome::Recoverable) => "recoverable",
+        Ok((TaskOutcome::Ok, _)) => "ok",
+        Ok((TaskOutcome::Failed, _)) => "failed",
+        Ok((TaskOutcome::Recoverable, _)) => "recoverable",
         Err(_) => "error",
     };
 
@@ -197,13 +205,22 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
     println!("滑动      {:?}", ctrl.swipes());
     println!("帧号      {}", ctrl.cursor());
     println!("状态      {outcome}");
+    println!("执行节点  {visited:?}");
     if let Err(e) = &result {
         eprintln!("执行失败: {e}");
     }
 
+    // --dump：把这次合成帧 + 结果写成 golden corpus，供 --corpus-run / 回放测试使用
+    if let Some(dir) = &a.dump {
+        match dump_case(dir, &name, &entry, &a.server, &frames, outcome) {
+            Ok(n) => println!("已导出语料  {}（{} 帧）", dir.display(), n),
+            Err(e) => eprintln!("导出语料失败: {e}"),
+        }
+    }
+
     // 脚本模式做断言
     if let Some(s) = &script {
-        match s.check(outcome, clicks.len()) {
+        match s.check(outcome, clicks.len(), &visited) {
             Ok(()) => {
                 println!("断言      通过");
                 std::process::ExitCode::SUCCESS
@@ -218,4 +235,36 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
     } else {
         std::process::ExitCode::FAILURE
     }
+}
+
+/// 把合成帧写成 golden corpus（与录制器同布局）。
+fn dump_case(
+    dir: &PathBuf,
+    name: &str,
+    entry: &str,
+    server: &str,
+    frames: &[maazure_runner::synth::Frame],
+    outcome: &str,
+) -> Result<usize, String> {
+    std::fs::create_dir_all(dir).map_err(|e| format!("建目录失败: {e}"))?;
+    let mut n = 0usize;
+    for (i, f) in frames.iter().enumerate() {
+        let p = dir.join(format!("{:04}.png", i + 1));
+        std::fs::write(&p, f.png_bytes()).map_err(|e| format!("写 {} 失败: {e}", p.display()))?;
+        n += 1;
+    }
+    let case = serde_json::json!({
+        "name": name,
+        "source_rev": "synth",
+        "task": entry,
+        "server": server,
+        "resolution": [1280, 720],
+        "frames": n,
+        "outcome": outcome,
+        "note": "由 --synth --dump 合成，不是真实截图；用来跑 --corpus-run 的格式验证",
+    });
+    let text = serde_json::to_string_pretty(&case).map_err(|e| format!("序列化失败: {e}"))?;
+    std::fs::write(dir.join("case.json"), format!("{text}\n"))
+        .map_err(|e| format!("写 case.json 失败: {e}"))?;
+    Ok(n)
 }

@@ -3,12 +3,26 @@
   "entry": "CommissionStart",
   "server": "cn",
   "frames": [
-    { "show": ["global_home"] },
-    { "show": ["global_home"] }
+    {
+      "show": [
+        "global_home"
+      ]
+    },
+    {
+      "show": [
+        "global_home"
+      ]
+    }
   ],
   "expect": {
     "min_clicks": 0,
     "max_clicks": 0,
-    "outcome": "ok"
+    "outcome": "ok",
+    "visited": [
+      "global_home"
+    ],
+    "not_visited": [
+      "commission_goto_reward"
+    ]
   }
 }

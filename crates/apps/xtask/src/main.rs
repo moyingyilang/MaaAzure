@@ -19,6 +19,7 @@ mod convert_assets;
 mod convert_campaign;
 mod convert_config;
 mod convert_images;
+mod fixture_check;
 mod naming;
 mod pipeline_check;
 
@@ -300,6 +301,24 @@ fn main() -> ExitCode {
                 true
             };
 
+            // 合成帧用例的引用完整性
+            let fixture_ok = match fixture_check::run(&common.new_root, &common.resource) {
+                Ok(f) => {
+                    println!("合成帧用例      {}", f.fixtures);
+                    for e in f.errors.iter().take(10) {
+                        println!("  ✗ {e}");
+                    }
+                    for w in f.warnings.iter().take(5) {
+                        println!("  ! {w}");
+                    }
+                    f.ok()
+                }
+                Err(e) => {
+                    eprintln!("fixture-check 失败: {e}");
+                    false
+                }
+            };
+
             // 配置结构与引用
             let cfg_ok = match config_check::run(&common.new_root, &common.resource) {
                 Ok(c) => {
@@ -335,7 +354,7 @@ fn main() -> ExitCode {
                     for w in r.warnings.iter().take(20) {
                         println!("  ! {w}");
                     }
-                    if r.ok() && python_ok && cfg_ok {
+                    if r.ok() && python_ok && cfg_ok && fixture_ok {
                         ExitCode::SUCCESS
                     } else {
                         ExitCode::FAILURE

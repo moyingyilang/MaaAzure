@@ -17,6 +17,10 @@
   "expect": {
     "min_clicks": 0,
     "max_clicks": 2,
-    "outcome": "ok"
+    "outcome": "ok",
+    "visited": [
+      "commission_page",
+      "commission_done"
+    ]
   }
 }
