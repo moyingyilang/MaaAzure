@@ -12,6 +12,7 @@
 //! ```
 
 use std::path::Path;
+use std::path::PathBuf;
 use std::sync::atomic::{AtomicU64, Ordering};
 
 use maa_framework::common::MaaStatus;
@@ -415,3 +416,45 @@ impl Engine for MaaEngine {
         Ok(())
     }
 }
+
+/// 动态模式下的库初始化：从 `MAAFW_BINARY_PATH` 或仓库里的 SDK 目录找 `libMaaFramework.so`。
+///
+/// 静态模式（`maa` feature 且不带 dynamic）什么都不做——链接期已经绑好了。
+pub fn init_framework() -> Result<(), String> {
+    if !cfg!(feature = "maa-dynamic") {
+        return Ok(());
+    }
+
+    let mut candidates: Vec<PathBuf> = Vec::new();
+    if let Ok(dir) = std::env::var("MAAFW_BINARY_PATH") {
+        let dir = PathBuf::from(dir);
+        for name in LIB_NAMES {
+            candidates.push(dir.join(name));
+        }
+        candidates.push(dir);
+    }
+    for sdk in ["MAA-android-aarch64", "MAA-linux-aarch64"] {
+        for name in LIB_NAMES {
+            candidates.push(PathBuf::from(sdk).join("bin").join(name));
+        }
+    }
+    for name in LIB_NAMES {
+        candidates.push(PathBuf::from(name));
+    }
+
+    for c in &candidates {
+        if c.is_file()
+            && c.file_name()
+                .and_then(|n| n.to_str())
+                .is_some_and(|n| n.contains("MaaFramework"))
+        {
+            return maa_framework::load_library(c);
+        }
+    }
+    Err(format!(
+        "找不到 libMaaFramework.so：设 MAAFW_BINARY_PATH 或在仓库里放 MAA-android-aarch64/bin（找过 {:?}）",
+        candidates.first()
+    ))
+}
+
+const LIB_NAMES: [&str; 3] = ["libMaaFramework.so", "MaaFramework.dll", "libMaaFramework.dylib"];

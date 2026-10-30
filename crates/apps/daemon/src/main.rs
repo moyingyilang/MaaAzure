@@ -131,6 +131,12 @@ fn replay(dir: &PathBuf) -> std::process::ExitCode {
 }
 
 fn main() -> std::process::ExitCode {
+    #[cfg(feature = "maa")]
+    if let Err(e) = maazure_runner::ffi::init_framework() {
+        eprintln!("初始化 MaaFramework 失败: {e}");
+        return std::process::ExitCode::FAILURE;
+    }
+
     let version = env!("CARGO_PKG_VERSION");
     let args: Vec<String> = std::env::args().skip(1).collect();
 
