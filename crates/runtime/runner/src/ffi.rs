@@ -142,6 +142,141 @@ impl MaaEngine {
         })
     }
 
+    /// 用「只读游戏窗口」的控制器装配引擎：整屏截图 → 裁窗口 → 1280×720。
+    ///
+    /// 游戏在 freeform 浮窗里时，这样只读游戏那块区域，通知/其他 App 都不进来。
+    #[cfg(feature = "maa")]
+    pub fn from_game_window(package: &str, use_su: bool) -> Result<Self, String> {
+        use crate::game_window;
+
+        let rect = game_window::resolve(package, use_su)?;
+
+        struct WindowController {
+            package: String,
+            rect: game_window::WindowRect,
+            use_su: bool,
+            tmp: String,
+            clicks: std::sync::Mutex<Vec<(i32, i32)>>,
+        }
+
+        impl WindowController {
+            fn shell(&self, cmd: &str) -> bool {
+                if self.use_su {
+                    crate::android_display::run_shell(&format!("su -c '{}'", cmd.replace('\'', "'\\''")))
+                } else {
+                    crate::android_display::run_shell(cmd)
+                }
+            }
+        }
+
+        impl maa_framework::custom_controller::CustomControllerCallback for WindowController {
+            fn connect(&self) -> bool {
+                self.screencap().is_some()
+            }
+
+            fn screencap(&self) -> Option<Vec<u8>> {
+                if !self.shell(&format!("screencap -p {}", self.tmp)) {
+                    return None;
+                }
+                let full = std::fs::read(&self.tmp).ok()?;
+                game_window::crop_resize_to_720p(&full, &self.rect)
+            }
+
+            fn click(&self, x: i32, y: i32) -> bool {
+                if let Ok(mut c) = self.clicks.lock() {
+                    c.push((x, y));
+                }
+                let (sx, sy) = self.rect.to_screen(x, y);
+                self.shell(&format!("input tap {sx} {sy}"))
+            }
+
+            fn swipe(&self, x1: i32, y1: i32, x2: i32, y2: i32, duration: i32) -> bool {
+                let (ax, ay) = self.rect.to_screen(x1, y1);
+                let (bx, by) = self.rect.to_screen(x2, y2);
+                self.shell(&format!("input swipe {ax} {ay} {bx} {by} {duration}"))
+            }
+
+            fn get_info(&self) -> String {
+                let n = self.clicks.lock().map(|c| c.len()).unwrap_or(0);
+                format!(
+                    r#"{{"package":"{}","rect":[{},{},{},{}],"clicks":{}}}"#,
+                    self.package, self.rect.left, self.rect.top, self.rect.width, self.rect.height, n
+                )
+            }
+        }
+
+        let controller = Controller::new_custom(WindowController {
+            package: package.to_string(),
+            rect,
+            use_su,
+            tmp: "/data/local/tmp/maazure-full.png".to_string(),
+            clicks: std::sync::Mutex::new(Vec::new()),
+        })
+        .map_err(|e| format!("创建窗口控制器失败: {e}"))?;
+        let conn = controller
+            .post_connection()
+            .map_err(|e| format!("窗口控制器连接失败: {e}"))?;
+        controller.wait(conn);
+        if !controller.connected() {
+            return Err(format!("连不上 {package} 的窗口（截图或裁切失败）"));
+        }
+        Self::from_controller(controller)
+    }
+
+    /// 用「shell 命令控制某块 display」的控制器装配引擎（Android 虚拟屏走这条）。
+    #[cfg(feature = "maa")]
+    pub fn from_display_commands(
+        cmds: crate::android_display::DisplayCommands,
+    ) -> Result<Self, String> {
+        struct DisplayController {
+            cmds: crate::android_display::DisplayCommands,
+            seq: AtomicU64,
+        }
+
+        impl maa_framework::custom_controller::CustomControllerCallback for DisplayController {
+            fn connect(&self) -> bool {
+                crate::android_display::capture_png(&self.cmds).is_some()
+            }
+
+            fn screencap(&self) -> Option<Vec<u8>> {
+                crate::android_display::capture_png(&self.cmds)
+            }
+
+            fn click(&self, x: i32, y: i32) -> bool {
+                let cmd = self.cmds.render_click(x, y);
+                crate::android_display::run_shell(&cmd)
+            }
+
+            fn swipe(&self, x1: i32, y1: i32, x2: i32, y2: i32, duration: i32) -> bool {
+                let cmd = self.cmds.render_swipe(x1, y1, x2, y2, duration);
+                crate::android_display::run_shell(&cmd)
+            }
+
+            fn get_info(&self) -> String {
+                format!(
+                    r#"{{"display_id":"{}","frames":{}}}"#,
+                    self.cmds.display_id,
+                    self.seq.load(std::sync::atomic::Ordering::Relaxed)
+                )
+            }
+        }
+
+        let ctrl = DisplayController {
+            cmds,
+            seq: AtomicU64::new(0),
+        };
+        let controller = Controller::new_custom(ctrl)
+            .map_err(|e| format!("创建 display 控制器失败: {e}"))?;
+        let conn = controller
+            .post_connection()
+            .map_err(|e| format!("display 控制器连接失败: {e}"))?;
+        controller.wait(conn);
+        if !controller.connected() {
+            return Err("display 控制器连不上（截图命令失败？）".to_string());
+        }
+        Self::from_controller(controller)
+    }
+
     /// 用合成帧控制器装配引擎（不需要模拟器）。
     ///
     /// 这层存在的意义：让上层（daemon）完全不出现 `maa_framework` 的类型，

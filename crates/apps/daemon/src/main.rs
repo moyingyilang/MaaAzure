@@ -22,6 +22,10 @@ mod synth_run;
 #[cfg(feature = "maa")]
 mod corpus_run;
 
+/// 抓一帧「只有游戏窗口」的画面（需要 `maa` feature）。
+#[cfg(feature = "maa")]
+mod capture;
+
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
     println!("MaaAzure 树");
@@ -179,6 +183,26 @@ fn main() -> std::process::ExitCode {
                 eprintln!("本次二进制没有编译 MaaFramework 支持，--synth 不可用。");
                 std::process::ExitCode::from(2)
             }
+        }
+        Some("--capture-window") => {
+            #[cfg(feature = "maa")]
+            {
+                capture::run_capture(&args[1..])
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!("本次二进制没有编译 MaaFramework 支持，--capture-window 不可用。");
+                std::process::ExitCode::from(2)
+            }
+        }
+        Some("--displays") => {
+            let use_su = args.iter().any(|a| a == "--su");
+            let list = maazure_runner::android_display::list_displays(use_su);
+            println!("── display {} 块 ──", list.len());
+            for (id, desc) in list {
+                println!("  id={id:<20} {desc}");
+            }
+            std::process::ExitCode::SUCCESS
         }
         Some("--windows") => {
             #[cfg(feature = "maa")]

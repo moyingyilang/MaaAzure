@@ -19,6 +19,10 @@ struct Args {
     override_json: String,
     /// Windows 窗口句柄（`--win32 <hwnd>`）
     win32: Option<usize>,
+    /// Android display id（`--display <id>`，虚拟屏/叠加视图）
+    display: Option<String>,
+    /// 只读这个包的浮窗（`--game-window <package>`）
+    game_window: Option<String>,
     /// Win32 截图方式，默认 background（后台截窗口，不受其他窗口干扰）
     screencap: String,
     /// Win32 输入方式，默认 post（PostMessage，不抢鼠标）
@@ -30,6 +34,8 @@ fn parse(args: &[String]) -> Result<Args, String> {
     let mut adb = "adb".to_string();
     let mut address = None;
     let mut win32 = None;
+    let mut display = None;
+    let mut game_window = None;
     let mut screencap = "background".to_string();
     let mut input = "post".to_string();
     let mut server = "cn".to_string();
@@ -52,6 +58,8 @@ fn parse(args: &[String]) -> Result<Args, String> {
                         .map_err(|_| "--win32 需要窗口句柄（十进制）".to_string())?,
                 )
             }
+            "--display" => display = Some(next("--display")?),
+            "--game-window" => game_window = Some(next("--game-window")?),
             "--screencap" => screencap = next("--screencap")?,
             "--input" => input = next("--input")?,
             "--server" => server = next("--server")?,
@@ -68,6 +76,8 @@ fn parse(args: &[String]) -> Result<Args, String> {
         adb,
         address,
         win32,
+        display,
+        game_window,
         screencap,
         input,
         server,
@@ -91,7 +101,26 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
     println!("任务      {}", a.task);
     println!("服务器    {}", a.server);
 
-    let engine = if let Some(hwnd) = a.win32 {
+    let engine = if let Some(package) = a.game_window.clone() {
+        println!("游戏窗口  {package}（整屏截图 → 裁窗口 → 1280x720）");
+        match MaaEngine::from_game_window(&package, true) {
+            Ok(e) => e,
+            Err(e) => {
+                eprintln!("连接失败: {e}");
+                return std::process::ExitCode::FAILURE;
+            }
+        }
+    } else if let Some(display) = a.display.clone() {
+        println!("虚拟屏    display={display}（screencap -d / input -d）");
+        let cmds = maazure_runner::android_display::DisplayCommands::new(display).with_su();
+        match MaaEngine::from_display_commands(cmds) {
+            Ok(e) => e,
+            Err(e) => {
+                eprintln!("连接失败: {e}");
+                return std::process::ExitCode::FAILURE;
+            }
+        }
+    } else if let Some(hwnd) = a.win32 {
         println!("窗口      hwnd={hwnd}（截图 {} / 输入 {}）", a.screencap, a.input);
         #[cfg(target_os = "windows")]
         {
@@ -110,7 +139,7 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
         }
     } else {
         let Some(address) = a.address.clone() else {
-            eprintln!("需要 --address（ADB）或 --win32（窗口句柄）");
+            eprintln!("需要 --address（ADB）/ --win32（窗口句柄）/ --display（Android 虚拟屏）/ --game-window（浮窗包名）");
             return std::process::ExitCode::from(2);
         };
         println!("设备      {} @ {}", a.adb, address);

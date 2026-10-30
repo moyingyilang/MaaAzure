@@ -11,6 +11,7 @@ members = [
     # 3 运行时：唯一接触 MaaFramework 的一层
     "crates/runtime/runner",
     # 4 应用：入口与工具
+    "crates/apps/agent",
     "crates/apps/daemon",
     "crates/apps/xtask",
 ]
@@ -34,3 +35,7 @@ maazure-runner = { path = "crates/runtime/runner" }
 lto = "thin"
 codegen-units = 1
 strip = true
+
+# 本机构建优先速度：dev 不带调试符号，链接快很多
+[profile.dev]
+debug = 0

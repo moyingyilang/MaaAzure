@@ -16,5 +16,11 @@ serde_json = "1"
 [features]
 default = []
 # 打通真实设备需要 MaaFramework SDK：cargo build -p maazure-daemon --features maa
-maa = ["maazure-runner/maa"]
-maa-dynamic = ["maazure-runner/maa-dynamic"]
+maa = ["maazure-runner/maa", "dep:image"]
+# 动态模式也要打开 `maa`：daemon 里 synth/corpus/capture 这些模块都挂在 cfg(feature = "maa") 下，
+# 两个 feature 同时打开不会冲突（runner 的 maa-dynamic 已经蕴含 maa，构建期不产生 link-lib）
+maa-dynamic = ["maa", "maazure-runner/maa-dynamic"]
+
+[dependencies.image]
+version = "0.25"
+optional = true

@@ -13,6 +13,8 @@
 
 use maazure_core::{Point, TaskOutcome};
 
+pub mod android_display;
+pub mod game_window;
 pub mod fixture;
 pub mod mock;
 pub mod ocr_detail;

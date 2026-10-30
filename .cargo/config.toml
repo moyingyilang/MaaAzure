@@ -11,3 +11,11 @@ linker = "x86_64-linux-gnu-gcc"
 
 [target.x86_64-pc-windows-gnu]
 linker = "x86_64-w64-mingw32-gcc"
+
+# 满线程编译：这台设备 8 核，默认 jobs 有时只用到一半
+[build]
+jobs = 8
+
+# dev 去调试符号：链接快一个数量级，体积也小（排查用不到的变量栈没必要）
+[profile.dev]
+debug = 0

@@ -1,0 +1,24 @@
+[package]
+name = "maazure-agent"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MaaFwApp 子进程 agent：把 MaaAzure 的自定义识别注册给 Android 外壳"
+
+[[bin]]
+name = "maazure-agent"
+path = "src/main.rs"
+
+[dependencies]
+maazure-core.workspace = true
+maazure-runner.workspace = true
+
+[dependencies.maa-framework]
+version = "1"
+optional = true
+features = ["toolkit", "adb", "custom", "dynamic"]
+
+[features]
+default = []
+# 运行期加载 libMaaFramework.so，构建期不链接 —— Android 出包必须走这条
+maa-dynamic = ["dep:maa-framework", "maazure-runner/maa-dynamic"]

@@ -1,0 +1,51 @@
+# MaaFwApp 打包配方（把 MaaAzure 打进一个 APK）
+#
+# 用法见 docs/5-engineering/5.4-android-virtual-display.md：
+#   1) 把本文件拷到 MaaFwApp 仓库外，改 assets 路径
+#   2) 在 MaaFwApp/local.properties 里写 pi.profile=<本文件绝对路径>
+#   3) chroot 里 ./gradlew assembleRelease
+
+# 资源根：MaaAzure 仓库根（interface.json / resource / data 都在这里）
+assets: "../MaaAzure"
+
+app:
+  id: maazure          # → com.aliothmoon.maafw.maazure
+  label: MaaAzure
+  icon: resource/icon.png   # 需要准备一张 png/webp
+
+# 只打运行必需的东西：四套服务器图 + 生成节点 + 手写管线 + 数据 + 文档白名单
+include:
+  - interface.json
+  - interface.d/**
+  - resource/common/**
+  - resource/cn/**
+  - resource/en/**
+  - resource/jp/**
+  - resource/tw/**
+  - resource/manifest/**
+  - resource/image_index.json
+  - data/**
+  - LICENSE
+  - NOTICE
+
+# 虚拟屏分辨率档位：720P 与我们资源的基准完全一致，1080P 留作实验
+display:
+  presets:
+    - { width: 1280, height: 720, dpi: 240 }
+    - { width: 1920, height: 1080, dpi: 280 }
+  foreground: true
+
+# agent：我们是编译好的 ELF，放 jniLibs（文件名必须是 lib*.so）
+agent:
+  sourceDir: "./agent-dist"
+  abi: [arm64-v8a]
+  runtimes:
+    - location: jniLibs
+      executable: libmaazure_agent.so
+      name: maazure-agent
+      env:
+        MAAFW_BINARY_PATH: "{nativeLibs}"
+
+logs:
+  include:
+    - debug/**/*.log
