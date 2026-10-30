@@ -1,0 +1,137 @@
+{
+  "nav_campaign_menu_to_daily": {
+    "action": "Click",
+    "next": [
+      "page_daily",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      686,
+      586,
+      788,
+      638
+    ],
+    "target": [
+      686,
+      586,
+      788,
+      638
+    ],
+    "template": "ui/ui_campaign_menu_goto_daily.png"
+  },
+  "nav_campaign_menu_to_exercise": {
+    "action": "Click",
+    "next": [
+      "page_exercise",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1011,
+      586,
+      1106,
+      638
+    ],
+    "target": [
+      1011,
+      586,
+      1106,
+      638
+    ],
+    "template": "ui/ui_campaign_menu_goto_exercise.png"
+  },
+  "nav_main_to_campaign_menu": {
+    "action": "Click",
+    "next": [
+      "page_campaign_menu",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      1102,
+      342
+    ],
+    "target": [
+      1021,
+      292,
+      1160,
+      432
+    ],
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "page_campaign_menu": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      355,
+      439,
+      501,
+      506
+    ],
+    "target": [
+      355,
+      439,
+      501,
+      506
+    ],
+    "template": "ui/ui_campaign_menu_check.png"
+  },
+  "page_daily": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      23,
+      656,
+      67,
+      698
+    ],
+    "target": [
+      23,
+      656,
+      67,
+      698
+    ],
+    "template": "ui/ui_daily_check.png"
+  },
+  "page_exercise": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1065,
+      340,
+      1204,
+      382
+    ],
+    "target": [
+      1065,
+      340,
+      1204,
+      382
+    ],
+    "template": "ui/ui_exercise_check.png"
+  },
+  "page_main": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      859,
+      372,
+      936,
+      410
+    ],
+    "target": [
+      749,
+      364,
+      992,
+      430
+    ],
+    "template": "ui/ui_main_goto_fleet.png"
+  }
+}

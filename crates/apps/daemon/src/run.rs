@@ -12,17 +12,26 @@ use maazure_runner::ffi::MaaEngine;
 struct Args {
     task: String,
     adb: String,
-    address: String,
+    address: Option<String>,
     server: String,
     resource_root: PathBuf,
     bundle: Option<String>,
     override_json: String,
+    /// Windows 窗口句柄（`--win32 <hwnd>`）
+    win32: Option<usize>,
+    /// Win32 截图方式，默认 background（后台截窗口，不受其他窗口干扰）
+    screencap: String,
+    /// Win32 输入方式，默认 post（PostMessage，不抢鼠标）
+    input: String,
 }
 
 fn parse(args: &[String]) -> Result<Args, String> {
     let mut task = None;
     let mut adb = "adb".to_string();
     let mut address = None;
+    let mut win32 = None;
+    let mut screencap = "background".to_string();
+    let mut input = "post".to_string();
     let mut server = "cn".to_string();
     let mut resource_root = PathBuf::from("resource");
     let mut bundle = None;
@@ -36,6 +45,15 @@ fn parse(args: &[String]) -> Result<Args, String> {
         match a.as_str() {
             "--adb" => adb = next("--adb")?,
             "--address" => address = Some(next("--address")?),
+            "--win32" => {
+                win32 = Some(
+                    next("--win32")?
+                        .parse()
+                        .map_err(|_| "--win32 需要窗口句柄（十进制）".to_string())?,
+                )
+            }
+            "--screencap" => screencap = next("--screencap")?,
+            "--input" => input = next("--input")?,
             "--server" => server = next("--server")?,
             "--resource" => resource_root = PathBuf::from(next("--resource")?),
             "--bundle" => bundle = Some(next("--bundle")?),
@@ -48,7 +66,10 @@ fn parse(args: &[String]) -> Result<Args, String> {
     Ok(Args {
         task: task.ok_or("缺少任务名（如 CommissionStart）")?,
         adb,
-        address: address.ok_or("缺少 --address（如 127.0.0.1:16384）")?,
+        address,
+        win32,
+        screencap,
+        input,
         server,
         resource_root,
         bundle,
@@ -68,14 +89,37 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
 
     println!("── MaaAzure run ──");
     println!("任务      {}", a.task);
-    println!("设备      {} @ {}", a.adb, a.address);
     println!("服务器    {}", a.server);
 
-    let engine = match MaaEngine::connect_adb(&a.adb, &a.address, "{}") {
-        Ok(e) => e,
-        Err(e) => {
-            eprintln!("连接失败: {e}");
+    let engine = if let Some(hwnd) = a.win32 {
+        println!("窗口      hwnd={hwnd}（截图 {} / 输入 {}）", a.screencap, a.input);
+        #[cfg(target_os = "windows")]
+        {
+            match MaaEngine::connect_win32(hwnd, &a.screencap, &a.input) {
+                Ok(e) => e,
+                Err(e) => {
+                    eprintln!("连接失败: {e}");
+                    return std::process::ExitCode::FAILURE;
+                }
+            }
+        }
+        #[cfg(not(target_os = "windows"))]
+        {
+            eprintln!("--win32 只能在 Windows 目标上使用（当前二进制不是 Windows 版）");
             return std::process::ExitCode::FAILURE;
+        }
+    } else {
+        let Some(address) = a.address.clone() else {
+            eprintln!("需要 --address（ADB）或 --win32（窗口句柄）");
+            return std::process::ExitCode::from(2);
+        };
+        println!("设备      {} @ {}", a.adb, address);
+        match MaaEngine::connect_adb(&a.adb, &address, "{}") {
+            Ok(e) => e,
+            Err(e) => {
+                eprintln!("连接失败: {e}");
+                return std::process::ExitCode::FAILURE;
+            }
         }
     };
     let (w, h) = engine.resolution();

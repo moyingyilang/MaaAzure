@@ -35,3 +35,9 @@ features = ["png", "jpeg"]
 version = "1"
 optional = true
 features = ["toolkit", "adb", "custom"]
+
+# Win32 控制器只在 Windows 目标上编译：MAA-linux 的 .so 不导出 Win32 符号。
+[target.'cfg(windows)'.dependencies.maa-framework]
+version = "1"
+optional = true
+features = ["toolkit", "adb", "custom", "win32"]

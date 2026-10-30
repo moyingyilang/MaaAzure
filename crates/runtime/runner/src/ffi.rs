@@ -53,6 +53,67 @@ impl MaaEngine {
         Self::from_controller(controller)
     }
 
+    /// 连一个 Windows 窗口（模拟器窗口 / PC 客户端）。
+    ///
+    /// `screencap`：`background`（FramePool|PrintWindow，后台截窗口，不受其他窗口干扰）、
+    /// `foreground`、`all`、`gdi`、`framepool`、`printwindow`、`dxgi`。
+    /// `input`：`post`（PostMessage，不抢鼠标）、`send`、`post_cursor`、`send_cursor`、
+    /// `post_window`、`send_window`、`seize`、`anchored_touch`。
+    #[cfg(target_os = "windows")]
+    pub fn connect_win32(hwnd: usize, screencap: &str, input: &str) -> Result<Self, String> {
+        use maa_framework::common::{Win32InputMethod, Win32ScreencapMethod};
+
+        let sc = match screencap.to_ascii_lowercase().as_str() {
+            "" | "background" => Win32ScreencapMethod::BACKGROUND,
+            "foreground" => Win32ScreencapMethod::FOREGROUND,
+            "all" => Win32ScreencapMethod::ALL,
+            "gdi" => Win32ScreencapMethod::GDI,
+            "framepool" => Win32ScreencapMethod::FRAME_POOL,
+            "printwindow" => Win32ScreencapMethod::PRINT_WINDOW,
+            "dxgi" => Win32ScreencapMethod::DXGI_DESKTOP_DUP_WINDOW,
+            other => return Err(format!("未知截图方式 {other}")),
+        };
+        let input = match input.to_ascii_lowercase().as_str() {
+            "" | "post" => Win32InputMethod::POST_MESSAGE,
+            "send" => Win32InputMethod::SEND_MESSAGE,
+            "post_cursor" => Win32InputMethod::POST_MESSAGE_WITH_CURSOR_POS,
+            "send_cursor" => Win32InputMethod::SEND_MESSAGE_WITH_CURSOR_POS,
+            "post_window" => Win32InputMethod::POST_MESSAGE_WITH_WINDOW_POS,
+            "send_window" => Win32InputMethod::SEND_MESSAGE_WITH_WINDOW_POS,
+            "seize" => Win32InputMethod::SEIZE,
+            "anchored_touch" => Win32InputMethod::ANCHORED_TOUCH,
+            other => return Err(format!("未知输入方式 {other}")),
+        };
+
+        Toolkit::init_option("./", "{}").map_err(|e| format!("Toolkit 初始化失败: {e}"))?;
+        let controller = Controller::new_win32(
+            hwnd as *mut std::ffi::c_void,
+            sc,
+            input,
+            Win32InputMethod::POST_MESSAGE,
+        )
+        .map_err(|e| format!("创建 Win32 控制器失败: {e}"))?;
+        let conn = controller
+            .post_connection()
+            .map_err(|e| format!("连接请求失败: {e}"))?;
+        controller.wait(conn);
+        if !controller.connected() {
+            return Err(format!("连不上窗口 hwnd={hwnd}"));
+        }
+        Self::from_controller(controller)
+    }
+
+    /// 列出可控制的桌面窗口（Windows/macOS/Linux）。
+    pub fn list_windows() -> Result<Vec<(usize, String, String)>, String> {
+        Toolkit::init_option("./", "{}").map_err(|e| format!("Toolkit 初始化失败: {e}"))?;
+        let list = Toolkit::find_desktop_windows()
+            .map_err(|e| format!("枚举窗口失败: {e}"))?;
+        Ok(list
+            .into_iter()
+            .map(|w| (w.hwnd, w.class_name, w.window_name))
+            .collect())
+    }
+
     /// 用任意已创建的控制器装配引擎（合成帧控制器走这条路）。
     pub fn from_controller(controller: Controller) -> Result<Self, String> {
         let resource = Resource::new().map_err(|e| format!("创建 Resource 失败: {e}"))?;

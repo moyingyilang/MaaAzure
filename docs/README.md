@@ -32,6 +32,7 @@ docs/
 | 5 | [5.1 构建](5-engineering/5.1-build.md) | chroot + 四目标交叉 |
 | 5 | [5.2 测试](5-engineering/5.2-testing.md) | golden corpus：先建网再拆楼 |
 | 5 | [5.3 发布](5-engineering/5.3-release.md) | 产物树、版本号、DLL 布局 |
+| 5 | [5.4 Android 虚拟屏](5-engineering/5.4-android-virtual-display.md) | MaaFwApp 的虚拟屏/画中画截图机制与本机可行性 |
 | 6 | [6.1 路线图](6-plan/6.1-roadmap.md) | P0–P4 与验收 |
 | 6 | [6.2 任务树](6-plan/6.2-task-tree.md) | 93 个任务按 A/B/C/D 四类分树 |
 | 6 | [6.3 风险](6-plan/6.3-risks.md) | 12 项风险 + 许可证分析 |

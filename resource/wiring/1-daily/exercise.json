@@ -1,33 +1,13 @@
 {
-  "_note": "只读接线：主界面→出击→演习→演习页即结束。真要打演习要选对手并消耗次数，等真机确认。",
+  "_note": "依据旧仓 page.py：page_main→page_campaign_menu→page_exercise（CAMPAIGN_MENU_GOTO_EXERCISE）。只读：到演习页即结束。",
   "layer": "1-daily",
   "file": "exercise/entry.json",
   "nodes": {
     "ExerciseStart": {
       "next": [
-        "exercise_goto_campaign",
-        "exercise_goto_exercise"
-      ]
-    },
-    "exercise_goto_campaign": {
-      "use": "ui_main_goto_campaign",
-      "next": [
-        "exercise_goto_exercise",
-        "global_recover"
-      ]
-    },
-    "exercise_goto_exercise": {
-      "use": "ui_campaign_goto_exercise",
-      "next": [
-        "exercise_page",
-        "global_recover"
-      ]
-    },
-    "exercise_page": {
-      "use": "exercise_preparation",
-      "action": "DoNothing",
-      "next": [
-        "exercise_done"
+        "page_exercise",
+        "nav_campaign_menu_to_exercise",
+        "nav_main_to_campaign_menu"
       ]
     },
     "exercise_done": {

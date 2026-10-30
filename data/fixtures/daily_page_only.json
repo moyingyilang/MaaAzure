@@ -4,14 +4,14 @@
   "server": "cn",
   "frames": [
     { "show": ["ui_main_goto_campaign"] },
-    { "show": ["ui_campaign_goto_daily"] },
-    { "show": ["daily_enter"] }
+    { "show": ["ui_campaign_menu_goto_daily"] },
+    { "show": ["ui_daily_check"] }
   ],
   "expect": {
     "min_clicks": 2,
     "max_clicks": 2,
     "outcome": "ok",
-    "visited": ["daily_goto_campaign", "daily_goto_tab", "daily_page"],
+    "visited": ["nav_main_to_campaign_menu", "nav_campaign_menu_to_daily", "page_daily"],
     "not_visited": ["global_recover"]
   }
 }

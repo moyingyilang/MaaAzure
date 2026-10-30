@@ -180,6 +180,29 @@ fn main() -> std::process::ExitCode {
                 std::process::ExitCode::from(2)
             }
         }
+        Some("--windows") => {
+            #[cfg(feature = "maa")]
+            {
+                match maazure_runner::ffi::MaaEngine::list_windows() {
+                    Ok(list) => {
+                        println!("── 可控制窗口 {} 个 ──", list.len());
+                        for (hwnd, class, title) in list {
+                            println!("  hwnd={hwnd:<12} class={class:<28} title={title}");
+                        }
+                        std::process::ExitCode::SUCCESS
+                    }
+                    Err(e) => {
+                        eprintln!("枚举窗口失败: {e}");
+                        std::process::ExitCode::FAILURE
+                    }
+                }
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!("本次二进制没有编译 MaaFramework 支持，--windows 不可用。");
+                std::process::ExitCode::from(2)
+            }
+        }
         Some("--corpus-run") => {
             #[cfg(feature = "maa")]
             {

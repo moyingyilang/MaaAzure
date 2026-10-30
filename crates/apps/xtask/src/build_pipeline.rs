@@ -30,7 +30,7 @@
 //! 生成结果里**不带 `_meta`**：MaaFW 会把 pipeline JSON 的每个顶层键当节点，
 //! 元信息键会和别的文件撞车（实测踩过，见 docs/5-engineering/5.2-testing.md）。
 
-use std::collections::BTreeMap;
+use std::collections::{BTreeMap, BTreeSet};
 use std::fs;
 use std::path::{Path, PathBuf};
 
@@ -59,6 +59,8 @@ pub struct Summary {
     pub written: usize,
     /// 缺少 `use` 目标
     pub missing: Vec<String>,
+    /// 同一节点在不同服务器的模板形态不一致（文件 vs 目录）
+    pub template_mismatch: Vec<String>,
 }
 
 /// 执行。
@@ -72,6 +74,7 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
     // 生成节点索引：node 名 → (来源包, 节点 JSON)
     let generated = load_gen_nodes(&opts.resource_dir)?;
 
+    let mut sum_used: BTreeSet<String> = BTreeSet::new();
     let mut files: Vec<PathBuf> = Vec::new();
     collect_json(&wiring_dir, &mut files);
     files.sort();
@@ -105,6 +108,7 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
             // 1) 若声明了 use，先抄 gen 节点的机械字段
             let mut node = Map::new();
             if let Some(use_name) = spec.get("use").and_then(Value::as_str) {
+                sum_used.insert(use_name.to_string());
                 match generated.get(use_name) {
                     Some(base) => {
                         for key in ["recognition", "template", "roi", "target", "action"] {
@@ -158,10 +162,74 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
         sum.written += 1;
     }
 
+    // 跨服务器模板一致性
+    let used: Vec<String> = sum_used.iter().cloned().collect();
+    check_template_consistency(&opts.resource_dir, &used, &mut sum.template_mismatch)?;
+
     Ok(sum)
 }
 
 /// 收集 `<server>/pipeline/gen/**/*.json` 里的节点，按名字索引（先到先得，通常是 cn）。
+/// 检查每个 `use` 目标在各服务器的 template 是否一致。
+///
+/// 不一致的例子：`ui::CAMPAIGN_CHECK` 在 cn 是 png，在 en 是 gif 目录——
+/// 而 Pipeline JSON 是所有服务器共用的一份，模板路径必须唯一。
+fn check_template_consistency(
+    resource_dir: &Path,
+    used: &[String],
+    out: &mut Vec<String>,
+) -> Result<(), String> {
+    let rd = fs::read_dir(resource_dir)
+        .map_err(|e| format!("读 {} 失败: {e}", resource_dir.display()))?;
+    let mut servers: Vec<PathBuf> = rd
+        .flatten()
+        .map(|e| e.path())
+        .filter(|p| p.join("pipeline/gen").is_dir())
+        .collect();
+    servers.sort();
+
+    let mut per_server: BTreeMap<&str, BTreeMap<String, String>> = BTreeMap::new();
+    for srv in &servers {
+        let name = srv.file_name().unwrap_or_default().to_string_lossy().to_string();
+        let mut files = Vec::new();
+        collect_json(&srv.join("pipeline/gen"), &mut files);
+        let mut map = BTreeMap::new();
+        for f in files {
+            let Ok(text) = fs::read_to_string(&f) else { continue };
+            let Ok(doc) = serde_json::from_str::<Value>(&text) else { continue };
+            if let Some(obj) = doc.as_object() {
+                for (k, v) in obj {
+                    if let Some(tpl) = v.get("template") {
+                        let text = match tpl {
+                            Value::String(s) => s.clone(),
+                            other => other.to_string(),
+                        };
+                        map.insert(k.clone(), text);
+                    }
+                }
+            }
+        }
+        per_server.insert(Box::leak(name.into_boxed_str()), map);
+    }
+
+    for node in used {
+        let mut seen: Option<(String, String)> = None;
+        for (srv, map) in &per_server {
+            let Some(tpl) = map.get(node) else { continue };
+            match &seen {
+                None => seen = Some((srv.to_string(), tpl.clone())),
+                Some((first_srv, first_tpl)) if first_tpl != tpl => {
+                    out.push(format!(
+                        "{node}: {first_srv} 的模板是 `{first_tpl}`，{srv} 的是 `{tpl}`"
+                    ));
+                }
+                _ => {}
+            }
+        }
+    }
+    Ok(())
+}
+
 fn load_gen_nodes(resource_dir: &Path) -> Result<BTreeMap<String, Value>, String> {
     let mut out: BTreeMap<String, Value> = BTreeMap::new();
     let rd = fs::read_dir(resource_dir)

@@ -1,0 +1,48 @@
+{
+  "_note": "页面节点与导航边，镜像旧仓 module/ui/page.py 的 Page/link 图。page_* 只做「在不在这个页面」的判定（DoNothing），nav_* 负责点击并落到目标页面。",
+  "layer": "0-common",
+  "file": "pages.json",
+  "nodes": {
+    "page_main": {
+      "use": "ui_main_goto_fleet",
+      "action": "DoNothing",
+      "next": []
+    },
+    "page_campaign_menu": {
+      "use": "ui_campaign_menu_check",
+      "action": "DoNothing",
+      "next": []
+    },
+    "page_daily": {
+      "use": "ui_daily_check",
+      "action": "DoNothing",
+      "next": []
+    },
+    "page_exercise": {
+      "use": "ui_exercise_check",
+      "action": "DoNothing",
+      "next": []
+    },
+    "nav_main_to_campaign_menu": {
+      "use": "ui_main_goto_campaign",
+      "next": [
+        "page_campaign_menu",
+        "global_recover"
+      ]
+    },
+    "nav_campaign_menu_to_daily": {
+      "use": "ui_campaign_menu_goto_daily",
+      "next": [
+        "page_daily",
+        "global_recover"
+      ]
+    },
+    "nav_campaign_menu_to_exercise": {
+      "use": "ui_campaign_menu_goto_exercise",
+      "next": [
+        "page_exercise",
+        "global_recover"
+      ]
+    }
+  }
+}

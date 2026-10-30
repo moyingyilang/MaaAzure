@@ -239,6 +239,10 @@ fn main() -> ExitCode {
                     println!("节点            {}（引用生成节点 {}）", s.nodes, s.reused);
                     println!("写出文件        {}", s.written);
                     println!("缺失 use 目标   {}", s.missing.len());
+                    println!("模板跨服不一致  {}", s.template_mismatch.len());
+                    for m in s.template_mismatch.iter().take(5) {
+                        println!("  ! {m}");
+                    }
                     for m in s.missing.iter().take(10) {
                         println!("  ✗ {m}");
                     }
