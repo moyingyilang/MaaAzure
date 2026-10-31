@@ -104,8 +104,8 @@
     "next": [
       "tactical_start_game"
     ],
-    "post_delay": 1500,
-    "rate_limit": 2000,
+    "post_delay": 4000,
+    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
       1160,
@@ -128,8 +128,8 @@
     "next": [
       "tactical_start_game"
     ],
-    "post_delay": 1500,
-    "rate_limit": 2000,
+    "post_delay": 4000,
+    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
       1193,
@@ -148,12 +148,12 @@
   "tactical_login_enter": {
     "action": "Click",
     "desc": "登录界面：点一下进入（tactical 专用，点完回到 tactical_start_game）",
-    "max_hit": 2,
+    "max_hit": 1,
     "next": [
       "tactical_start_game"
     ],
-    "post_delay": 3000,
-    "rate_limit": 3000,
+    "post_delay": 15000,
+    "rate_limit": 20000,
     "recognition": "TemplateMatch",
     "roi": [
       1214,
@@ -176,8 +176,8 @@
     "next": [
       "tactical_start_game"
     ],
-    "post_delay": 1500,
-    "rate_limit": 2000,
+    "post_delay": 4000,
+    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
       700,

@@ -40,8 +40,8 @@
       "next": [
         "daily_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "daily_login_announce": {
@@ -50,8 +50,8 @@
       "next": [
         "daily_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "daily_login_game_update": {
@@ -60,8 +60,8 @@
       "next": [
         "daily_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "daily_login_enter": {
@@ -70,9 +70,9 @@
       "next": [
         "daily_start_game"
       ],
-      "post_delay": 3000,
-      "rate_limit": 3000,
-      "max_hit": 2
+      "post_delay": 15000,
+      "rate_limit": 20000,
+      "max_hit": 1
     }
   }
 }

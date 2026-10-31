@@ -67,8 +67,8 @@
       "next": [
         "tactical_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "tactical_login_announce": {
@@ -77,8 +77,8 @@
       "next": [
         "tactical_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "tactical_login_game_update": {
@@ -87,8 +87,8 @@
       "next": [
         "tactical_start_game"
       ],
-      "post_delay": 1500,
-      "rate_limit": 2000,
+      "post_delay": 4000,
+      "rate_limit": 6000,
       "max_hit": 2
     },
     "tactical_login_enter": {
@@ -97,9 +97,9 @@
       "next": [
         "tactical_start_game"
       ],
-      "post_delay": 3000,
-      "rate_limit": 3000,
-      "max_hit": 2
+      "post_delay": 15000,
+      "rate_limit": 20000,
+      "max_hit": 1
     }
   }
 }
