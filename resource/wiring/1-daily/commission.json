@@ -7,42 +7,6 @@
         "commission_start_game"
       ]
     },
-    "commission_goto_reward": {
-      "use": "ui_main_goto_reward",
-      "next": [
-        "commission_goto_commission",
-        "commission_goto_reward",
-        "global_recover"
-      ]
-    },
-    "commission_goto_commission": {
-      "use": "ui_reward_goto_commission",
-      "next": [
-        "commission_page",
-        "global_recover"
-      ]
-    },
-    "commission_page": {
-      "use": "commission_daily",
-      "action": "DoNothing",
-      "next": [
-        "commission_pick",
-        "commission_done"
-      ]
-    },
-    "commission_pick": {
-      "recognition": "Custom",
-      "custom_recognition": "CommissionPick",
-      "action": "DoNothing",
-      "next": [
-        "commission_done",
-        "global_home"
-      ]
-    },
-    "commission_done": {
-      "recognition": "DirectHit",
-      "next": []
-    },
     "commission_start_game": {
       "desc": "CommissionStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
       "recognition": "DirectHit",
@@ -227,13 +191,85 @@
         "commission_login_event_list_back",
         "commission_login_maintenance",
         "commission_login_game_update",
-        "commission_login_return_sign",
         "commission_login_agreement_swipe1",
+        "commission_login_return_sign",
         "commission_login_return_info",
         "commission_login_avatar_expired",
         "commission_login_goto_main",
+        "commission_login_agreement_swipe2",
+        "commission_login_agreement_confirm",
         "commission_goto_reward",
         "global_home"
+      ]
+    },
+    "commission_page": {
+      "desc": "在委托页（日常 tab 作页面标志）",
+      "use": "commission_daily",
+      "action": "DoNothing",
+      "next": [
+        "commission_claim_exp",
+        "commission_claim_reward",
+        "commission_start_new",
+        "commission_done"
+      ]
+    },
+    "commission_claim_exp": {
+      "desc": "领取经验奖励（上游 EXP_INFO_S_REWARD）",
+      "use": "commission_exp_info_s_reward",
+      "post_delay": 1000,
+      "next": [
+        "commission_page",
+        "commission_done"
+      ]
+    },
+    "commission_claim_reward": {
+      "desc": "领取完成奖励（上游 GET_ITEMS_1..3）",
+      "use": "commission_reward_1",
+      "post_delay": 1000,
+      "next": [
+        "commission_page",
+        "commission_done"
+      ]
+    },
+    "commission_start_new": {
+      "desc": "开始新委托（上游 _commission_start_click）",
+      "use": "commission_start",
+      "post_delay": 1500,
+      "next": [
+        "commission_advice",
+        "commission_page",
+        "commission_done"
+      ]
+    },
+    "commission_advice": {
+      "desc": "确认派遣建议",
+      "use": "commission_advice",
+      "post_delay": 1500,
+      "next": [
+        "commission_page",
+        "commission_done"
+      ]
+    },
+    "commission_done": {
+      "desc": "本轮没有可接的委托，结束",
+      "recognition": "DirectHit",
+      "next": []
+    },
+    "commission_goto_reward": {
+      "desc": "主界面 → 任务",
+      "use": "ui_main_goto_reward",
+      "next": [
+        "commission_goto_commission",
+        "commission_goto_reward",
+        "global_recover"
+      ]
+    },
+    "commission_goto_commission": {
+      "desc": "任务页 → 委托",
+      "use": "ui_reward_goto_commission",
+      "next": [
+        "commission_page",
+        "global_recover"
       ]
     }
   }
