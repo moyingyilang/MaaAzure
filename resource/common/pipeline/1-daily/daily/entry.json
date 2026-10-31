@@ -356,8 +356,7 @@
       "daily_login_agreement_swipe2",
       "daily_login_agreement_confirm",
       "daily_goto_campaign",
-      "daily_goto_campaign_white",
-      "global_home"
+      "daily_goto_campaign_white"
     ],
     "recognition": "DirectHit",
     "timeout": 180000

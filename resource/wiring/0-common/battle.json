@@ -1,26 +1,93 @@
 {
-  "_note": "公共战斗层，对应上游 module/combat/combat.py：combat_preparation → combat_execute → combat_status。combat_battle_preparation 在 en 是动图目录（跨服模板不一致），所以这里只用三张稳定的图；出击按钮由各任务自己点。",
+  "_note": "公共战斗层：battle_auto_on → battle_loop（结算/伏击/空袭/信息栏）→ battle_done。对应上游 module/combat/combat.py 的 combat_execute + combat_status。血量平衡与潜艇仍未移植。",
   "layer": "0-common",
   "file": "battle.json",
   "nodes": {
+    "battle_status_s": {
+      "desc": "S 评价结算（上游 BATTLE_STATUS_S）",
+      "use": "combat_battle_status_s",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_status_a": {
+      "desc": "A 评价结算（BATTLE_STATUS_A）",
+      "use": "combat_battle_status_a",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_status_b": {
+      "desc": "B 评价结算（BATTLE_STATUS_B）",
+      "use": "combat_battle_status_b",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_status_c": {
+      "desc": "C 评价结算（BATTLE_STATUS_C）",
+      "use": "combat_battle_status_c",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_ambush": {
+      "desc": "伏击提示（上游 AMBUSH）→ 处理",
+      "use": "handler_map_ambush",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_air_raid": {
+      "desc": "空袭提示（上游 AIR_RAID）→ 处理",
+      "use": "handler_map_air_raid",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_info_bar": {
+      "desc": "信息栏（上游 handle_info_bar）→ 关闭",
+      "use": "handler_info_bar_1",
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_loop": {
+      "desc": "战斗循环（上游 combat_execute）：每轮先处理结算/伏击/空袭/信息栏，再等下一帧",
+      "recognition": "DirectHit",
+      "action": "DoNothing",
+      "timeout": 300000,
+      "next": [
+        "battle_status_s",
+        "battle_status_a",
+        "battle_status_b",
+        "battle_status_c",
+        "battle_ambush",
+        "battle_air_raid",
+        "battle_info_bar",
+        "battle_done"
+      ]
+    },
+    "battle_done": {
+      "desc": "战斗结束：没有结算画面也没有异常提示",
+      "recognition": "DirectHit",
+      "action": "DoNothing",
+      "next": []
+    },
     "battle_auto_on": {
       "desc": "打开自动战斗（上游 combat_automation_switch）",
       "use": "combat_automation_switch",
-      "post_delay": 1000,
-      "next": ["battle_execute"]
-    },
-    "battle_execute": {
-      "desc": "战斗中：等战斗结束（上游 combat_execute 循环）",
-      "use": "combat_automation_on",
-      "action": "DoNothing",
-      "timeout": 300000,
-      "next": ["battle_status"]
-    },
-    "battle_status": {
-      "desc": "战斗结算（上游 combat_status / BATTLE_STATUS_*）",
-      "use": "combat_battle_status_a",
-      "action": "DoNothing",
-      "next": ["battle_auto_on"]
+      "post_delay": 800,
+      "next": [
+        "battle_loop"
+      ]
     }
   }
 }

@@ -1,11 +1,55 @@
 {
+  "battle_air_raid": {
+    "action": "Click",
+    "desc": "空袭提示（上游 AIR_RAID）→ 处理",
+    "next": [
+      "battle_loop"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      350,
+      447,
+      930,
+      25
+    ],
+    "target": [
+      350,
+      447,
+      930,
+      25
+    ],
+    "template": "handler/handler_map_air_raid.png"
+  },
+  "battle_ambush": {
+    "action": "Click",
+    "desc": "伏击提示（上游 AMBUSH）→ 处理",
+    "next": [
+      "battle_loop"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      261,
+      433,
+      1019,
+      16
+    ],
+    "target": [
+      261,
+      433,
+      1019,
+      16
+    ],
+    "template": "handler/handler_map_ambush.png"
+  },
   "battle_auto_on": {
     "action": "Click",
     "desc": "打开自动战斗（上游 combat_automation_switch）",
     "next": [
-      "battle_execute"
+      "battle_loop"
     ],
-    "post_delay": 1000,
+    "post_delay": 800,
     "recognition": "TemplateMatch",
     "roi": [
       821,
@@ -21,34 +65,57 @@
     ],
     "template": "combat/combat_automation_switch.png"
   },
-  "battle_execute": {
+  "battle_done": {
     "action": "DoNothing",
-    "desc": "战斗中：等战斗结束（上游 combat_execute 循环）",
+    "desc": "战斗结束：没有结算画面也没有异常提示",
+    "next": [],
+    "recognition": "DirectHit"
+  },
+  "battle_info_bar": {
+    "action": "Click",
+    "desc": "信息栏（上游 handle_info_bar）→ 关闭",
     "next": [
-      "battle_status"
+      "battle_loop"
     ],
+    "post_delay": 800,
     "recognition": "TemplateMatch",
     "roi": [
-      759,
-      113,
-      31,
-      16
+      202,
+      297,
+      876,
+      2
     ],
     "target": [
-      759,
-      113,
-      31,
-      16
+      202,
+      297,
+      876,
+      2
     ],
-    "template": "combat/combat_automation_on.png",
+    "template": "handler/handler_info_bar_1.png"
+  },
+  "battle_loop": {
+    "action": "DoNothing",
+    "desc": "战斗循环（上游 combat_execute）：每轮先处理结算/伏击/空袭/信息栏，再等下一帧",
+    "next": [
+      "battle_status_s",
+      "battle_status_a",
+      "battle_status_b",
+      "battle_status_c",
+      "battle_ambush",
+      "battle_air_raid",
+      "battle_info_bar",
+      "battle_done"
+    ],
+    "recognition": "DirectHit",
     "timeout": 300000
   },
-  "battle_status": {
-    "action": "DoNothing",
-    "desc": "战斗结算（上游 combat_status / BATTLE_STATUS_*）",
+  "battle_status_a": {
+    "action": "Click",
+    "desc": "A 评价结算（BATTLE_STATUS_A）",
     "next": [
-      "battle_auto_on"
+      "battle_loop"
     ],
+    "post_delay": 800,
     "recognition": "TemplateMatch",
     "roi": [
       634,
@@ -63,5 +130,71 @@
       58
     ],
     "template": "combat/combat_battle_status_a.png"
+  },
+  "battle_status_b": {
+    "action": "Click",
+    "desc": "B 评价结算（BATTLE_STATUS_B）",
+    "next": [
+      "battle_loop"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      625,
+      297,
+      87,
+      20
+    ],
+    "target": [
+      999,
+      630,
+      48,
+      61
+    ],
+    "template": "combat/combat_battle_status_b.png"
+  },
+  "battle_status_c": {
+    "action": "Click",
+    "desc": "C 评价结算（BATTLE_STATUS_C）",
+    "next": [
+      "battle_loop"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      625,
+      211,
+      22,
+      86
+    ],
+    "target": [
+      1000,
+      631,
+      55,
+      58
+    ],
+    "template": "combat/combat_battle_status_c.png"
+  },
+  "battle_status_s": {
+    "action": "Click",
+    "desc": "S 评价结算（上游 BATTLE_STATUS_S）",
+    "next": [
+      "battle_loop"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      643,
+      297,
+      79,
+      20
+    ],
+    "target": [
+      1000,
+      631,
+      55,
+      58
+    ],
+    "template": "combat/combat_battle_status_s.png"
   }
 }
