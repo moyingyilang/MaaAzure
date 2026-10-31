@@ -6,14 +6,14 @@
     "roi": [
       1217,
       36,
-      1225,
-      59
+      8,
+      23
     ],
     "target": [
       1157,
       34,
-      1241,
-      61
+      84,
+      27
     ],
     "template": "combat_ui/combat_ui_pause.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1228,
       36,
-      1245,
-      55
+      17,
+      19
     ],
     "target": [
       1228,
       36,
-      1245,
-      55
+      17,
+      19
     ],
     "template": "combat_ui/combat_ui_pause_ancient.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1220,
       36,
-      1237,
-      55
+      17,
+      19
     ],
     "target": [
       1220,
       36,
-      1237,
-      55
+      17,
+      19
     ],
     "template": "combat_ui/combat_ui_pause_azurecore.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1234,
       35,
-      1250,
-      56
+      16,
+      21
     ],
     "target": [
       1234,
       35,
-      1250,
-      56
+      16,
+      21
     ],
     "template": "combat_ui/combat_ui_pause_christmas.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1231,
       32,
-      1253,
-      59
+      22,
+      27
     ],
     "target": [
       1231,
       32,
-      1253,
-      59
+      22,
+      27
     ],
     "template": "combat_ui/combat_ui_pause_cyber.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1233,
       35,
-      1250,
-      57
+      17,
+      22
     ],
     "target": [
       1233,
       35,
-      1250,
-      57
+      17,
+      22
     ],
     "template": "combat_ui/combat_ui_pause_devil.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1226,
       35,
-      1231,
-      60
+      5,
+      25
     ],
     "target": [
       1226,
       35,
-      1231,
-      60
+      5,
+      25
     ],
     "template": "combat_ui/combat_ui_pause_double_check.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1229,
       32,
-      1253,
-      55
+      24,
+      23
     ],
     "target": [
       1229,
       32,
-      1253,
-      55
+      24,
+      23
     ],
     "template": "combat_ui/combat_ui_pause_elvenvine.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1225,
       34,
-      1245,
-      50
+      20,
+      16
     ],
     "target": [
       1225,
       34,
-      1245,
-      50
+      20,
+      16
     ],
     "template": "combat_ui/combat_ui_pause_gildedreverie.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1233,
       35,
-      1250,
-      57
+      17,
+      22
     ],
     "target": [
       1233,
       35,
-      1250,
-      57
+      17,
+      22
     ],
     "template": "combat_ui/combat_ui_pause_holylight.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1232,
       33,
-      1252,
-      57
+      20,
+      24
     ],
     "target": [
       1232,
       33,
-      1252,
-      57
+      20,
+      24
     ],
     "template": "combat_ui/combat_ui_pause_iridescent_fantasy.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1230,
       35,
-      1248,
-      54
+      18,
+      19
     ],
     "target": [
       1230,
       35,
-      1248,
-      54
+      18,
+      19
     ],
     "template": "combat_ui/combat_ui_pause_maidcafe.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1228,
       32,
-      1250,
-      59
+      22,
+      27
     ],
     "target": [
       1228,
       32,
-      1250,
-      59
+      22,
+      27
     ],
     "template": "combat_ui/combat_ui_pause_neon.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1231,
       29,
-      1253,
-      56
+      22,
+      27
     ],
     "target": [
       1231,
       29,
-      1253,
-      56
+      22,
+      27
     ],
     "template": "combat_ui/combat_ui_pause_new.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       1230,
       37,
-      1246,
-      53
+      16,
+      16
     ],
     "target": [
       1230,
       37,
-      1246,
-      53
+      16,
+      16
     ],
     "template": "combat_ui/combat_ui_pause_ninja.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1236,
       33,
-      1251,
-      50
+      15,
+      17
     ],
     "target": [
       1236,
       33,
-      1251,
-      50
+      15,
+      17
     ],
     "template": "combat_ui/combat_ui_pause_nurse.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       1223,
       37,
-      1241,
-      56
+      18,
+      19
     ],
     "target": [
       1223,
       37,
-      1241,
-      56
+      18,
+      19
     ],
     "template": "combat_ui/combat_ui_pause_olderoyal.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1229,
       55,
-      1259,
-      62
+      30,
+      7
     ],
     "target": [
       1229,
       55,
-      1259,
-      62
+      30,
+      7
     ],
     "template": "combat_ui/combat_ui_pause_pharaoh.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1214,
       31,
-      1239,
-      59
+      25,
+      28
     ],
     "target": [
       1214,
       31,
-      1239,
-      59
+      25,
+      28
     ],
     "template": "combat_ui/combat_ui_pause_seaside.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       1216,
       37,
-      1234,
-      55
+      18,
+      18
     ],
     "target": [
       1216,
       37,
-      1234,
-      55
+      18,
+      18
     ],
     "template": "combat_ui/combat_ui_pause_shadowpuppetry.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       1212,
       37,
-      1235,
-      61
+      23,
+      24
     ],
     "target": [
       1212,
       37,
-      1235,
-      61
+      23,
+      24
     ],
     "template": "combat_ui/combat_ui_pause_springinn.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       1234,
       36,
-      1250,
-      57
+      16,
+      21
     ],
     "target": [
       1234,
       36,
-      1250,
-      57
+      16,
+      21
     ],
     "template": "combat_ui/combat_ui_pause_star.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1222,
       34,
-      1241,
-      54
+      19,
+      20
     ],
     "target": [
       1222,
       34,
-      1241,
-      54
+      19,
+      20
     ],
     "template": "combat_ui/combat_ui_pause_yorha.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       433,
       490,
-      606,
-      547
+      173,
+      57
     ],
     "target": [
       433,
       490,
-      606,
-      547
+      173,
+      57
     ],
     "template": "combat_ui/combat_ui_quit.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       400,
       506,
-      477,
-      525
+      77,
+      19
     ],
     "target": [
       400,
       506,
-      477,
-      525
+      77,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_christmas.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       393,
       506,
-      470,
-      524
+      77,
+      18
     ],
     "target": [
       393,
       506,
-      470,
-      524
+      77,
+      18
     ],
     "template": "combat_ui/combat_ui_quit_cyber.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       422,
       553,
-      500,
-      572
+      78,
+      19
     ],
     "target": [
       422,
       553,
-      500,
-      572
+      78,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_gildedreverie.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       391,
       522,
-      464,
-      540
+      73,
+      18
     ],
     "target": [
       391,
       522,
-      464,
-      540
+      73,
+      18
     ],
     "template": "combat_ui/combat_ui_quit_iridescent_fantasy.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       423,
       549,
-      501,
-      568
+      78,
+      19
     ],
     "target": [
       423,
       549,
-      501,
-      568
+      78,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_maidcafe.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       393,
       505,
-      471,
-      524
+      78,
+      19
     ],
     "target": [
       393,
       505,
-      471,
-      524
+      78,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_new.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       398,
       509,
-      477,
-      528
+      79,
+      19
     ],
     "target": [
       398,
       509,
-      477,
-      528
+      79,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_ninja.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       400,
       507,
-      477,
-      525
+      77,
+      18
     ],
     "target": [
       400,
       507,
-      477,
-      525
+      77,
+      18
     ],
     "template": "combat_ui/combat_ui_quit_nurse.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       400,
       507,
-      477,
-      525
+      77,
+      18
     ],
     "target": [
       400,
       507,
-      477,
-      525
+      77,
+      18
     ],
     "template": "combat_ui/combat_ui_quit_pharaoh.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       398,
       509,
-      476,
-      528
+      78,
+      19
     ],
     "target": [
       398,
       509,
-      476,
-      528
+      78,
+      19
     ],
     "template": "combat_ui/combat_ui_quit_seaside.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       396,
       559,
-      478,
-      584
+      82,
+      25
     ],
     "target": [
       396,
       559,
-      478,
-      584
+      82,
+      25
     ],
     "template": "combat_ui/combat_ui_quit_springinn.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       452,
       556,
-      535,
-      576
+      83,
+      20
     ],
     "target": [
       452,
       556,
-      535,
-      576
+      83,
+      20
     ],
     "template": "combat_ui/combat_ui_quit_yorha.png"
   }

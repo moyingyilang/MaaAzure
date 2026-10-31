@@ -6,14 +6,14 @@
     "roi": [
       1189,
       510,
-      1215,
-      542
+      26,
+      32
     ],
     "target": [
       1189,
       510,
-      1215,
-      542
+      26,
+      32
     ],
     "template": "sos/sos_ocr_signal.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       935,
       257,
-      941,
-      516
+      6,
+      259
     ],
     "target": [
       935,
       257,
-      941,
-      516
+      6,
+      259
     ],
     "template": "sos/sos_scroll_area.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       351,
       164,
-      482,
-      198
+      131,
+      34
     ],
     "target": [
       351,
       164,
-      482,
-      198
+      131,
+      34
     ],
     "template": "sos/sos_signal_list_check.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       896,
       157,
-      939,
-      194
+      43,
+      37
     ],
     "target": [
       896,
       157,
-      939,
-      194
+      43,
+      37
     ],
     "template": "sos/sos_signal_search_close.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1175,
       499,
-      1230,
-      554
+      55,
+      55
     ],
     "target": [
       1175,
       499,
-      1230,
-      554
+      55,
+      55
     ],
     "template": "sos/sos_signal_search_enter.png"
   },

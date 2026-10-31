@@ -6,14 +6,14 @@
     "roi": [
       271,
       43,
-      586,
-      58
+      315,
+      15
     ],
     "target": [
       271,
       43,
-      586,
-      58
+      315,
+      15
     ],
     "template": "exercise/exercise_attacker_hp_area.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       266,
       40,
-      592,
-      49
+      326,
+      9
     ],
     "target": [
       266,
       40,
-      592,
-      49
+      326,
+      9
     ],
     "template": "exercise/exercise_attacker_hp_area_new.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1215,
       637,
-      1260,
-      686
+      45,
+      49
     ],
     "target": [
       1215,
       637,
-      1260,
-      686
+      45,
+      49
     ],
     "template": "exercise/exercise_click_safe_area.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       691,
       43,
-      1004,
-      58
+      313,
+      15
     ],
     "target": [
       691,
       43,
-      1004,
-      58
+      313,
+      15
     ],
     "template": "exercise/exercise_defender_hp_area.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       692,
       40,
-      1019,
-      49
+      327,
+      9
     ],
     "target": [
       692,
       40,
-      1019,
-      49
+      327,
+      9
     ],
     "template": "exercise/exercise_defender_hp_area_new.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       50,
       607,
-      247,
-      670
+      197,
+      63
     ],
     "target": [
       50,
       607,
-      247,
-      670
+      197,
+      63
     ],
     "template": "exercise/exercise_equip_edit_active.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       50,
       607,
-      247,
-      670
+      197,
+      63
     ],
     "target": [
       50,
       607,
-      247,
-      670
+      197,
+      63
     ],
     "template": "exercise/exercise_equip_edit_inactive.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       432,
       283,
-      442,
-      293
+      10,
+      10
     ],
     "target": [
       432,
       283,
-      442,
-      293
+      10,
+      10
     ],
     "template": "exercise/exercise_equip_enter.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1064,
       339,
-      1205,
-      384
+      141,
+      45
     ],
     "target": [
       1064,
       339,
-      1205,
-      384
+      141,
+      45
     ],
     "template": "exercise/exercise_new_opponent.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1153,
       140,
-      1178,
-      165
+      25,
+      25
     ],
     "target": [
       1153,
       140,
-      1178,
-      165
+      25,
+      25
     ],
     "template": "exercise/exercise_ocr_exercise_remain.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1088,
       105,
-      1208,
-      128
+      120,
+      23
     ],
     "target": [
       1088,
       105,
-      1208,
-      128
+      120,
+      23
     ],
     "template": "exercise/exercise_ocr_exercise_time_remain.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1089,
       105,
-      1209,
-      129
+      120,
+      24
     ],
     "target": [
       1089,
       105,
-      1209,
-      129
+      120,
+      24
     ],
     "template": "exercise/exercise_ocr_period_remain.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       102,
       76,
-      318,
-      381
+      216,
+      305
     ],
     "target": [
       102,
       76,
-      318,
-      381
+      216,
+      305
     ],
     "template": "exercise/exercise_opponent_1.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       348,
       77,
-      562,
-      381
+      214,
+      304
     ],
     "target": [
       348,
       77,
-      562,
-      381
+      214,
+      304
     ],
     "template": "exercise/exercise_opponent_2.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       592,
       77,
-      806,
-      381
+      214,
+      304
     ],
     "target": [
       592,
       77,
-      806,
-      381
+      214,
+      304
     ],
     "template": "exercise/exercise_opponent_3.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       836,
       77,
-      1050,
-      381
+      214,
+      304
     ],
     "target": [
       836,
       77,
-      1050,
-      381
+      214,
+      304
     ],
     "template": "exercise/exercise_opponent_4.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       541,
       537,
-      743,
-      601
+      202,
+      64
     ],
     "target": [
       541,
       537,
-      743,
-      601
+      202,
+      64
     ],
     "template": "exercise/exercise_preparation.png"
   }

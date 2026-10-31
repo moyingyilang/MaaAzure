@@ -6,14 +6,14 @@
     "roi": [
       33,
       556,
-      86,
-      578
+      53,
+      22
     ],
     "target": [
       33,
       556,
-      86,
-      578
+      53,
+      22
     ],
     "template": "meowfficer/meowfficer_apply_lock.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       33,
       557,
-      85,
-      580
+      52,
+      23
     ],
     "target": [
       33,
       557,
-      85,
-      580
+      52,
+      23
     ],
     "template": "meowfficer/meowfficer_apply_unlock.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       863,
       460,
-      957,
-      494
+      94,
+      34
     ],
     "target": [
       863,
       460,
-      957,
-      494
+      94,
+      34
     ],
     "template": "meowfficer/meowfficer_buy.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       975,
       580,
-      1084,
-      649
+      109,
+      69
     ],
     "target": [
       975,
       580,
-      1084,
-      649
+      109,
+      69
     ],
     "template": "meowfficer/meowfficer_buy_enter.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       877,
       279,
-      902,
-      304
+      25,
+      25
     ],
     "target": [
       877,
       279,
-      902,
-      304
+      25,
+      25
     ],
     "template": "meowfficer/meowfficer_buy_next.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       759,
       279,
-      783,
-      302
+      24,
+      23
     ],
     "target": [
       759,
       279,
-      783,
-      302
+      24,
+      23
     ],
     "template": "meowfficer/meowfficer_buy_prev.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       599,
       466,
-      685,
-      493
+      86,
+      27
     ],
     "target": [
       599,
       466,
-      685,
-      493
+      86,
+      27
     ],
     "template": "meowfficer/meowfficer_buy_skip.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       481,
       438,
-      545,
-      464
+      64,
+      26
     ],
     "target": [
       481,
       438,
-      545,
-      464
+      64,
+      26
     ],
     "template": "meowfficer/meowfficer_cancel.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       740,
       434,
-      827,
-      469
+      87,
+      35
     ],
     "target": [
       740,
       434,
-      827,
-      469
+      87,
+      35
     ],
     "template": "meowfficer/meowfficer_confirm.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1135,
       630,
-      1221,
-      656
+      86,
+      26
     ],
     "target": [
       1135,
       630,
-      1221,
-      656
+      86,
+      26
     ],
     "template": "meowfficer/meowfficer_enhance_confirm.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       27,
       208,
-      77,
-      259
+      50,
+      51
     ],
     "target": [
       27,
       208,
-      77,
-      259
+      50,
+      51
     ],
     "template": "meowfficer/meowfficer_enhance_enter.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       730,
       597,
-      814,
-      629
+      84,
+      32
     ],
     "target": [
       730,
       597,
-      814,
-      629
+      84,
+      32
     ],
     "template": "meowfficer/meowfficer_feed_cancel.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1144,
       597,
-      1227,
-      628
+      83,
+      31
     ],
     "target": [
       1144,
       597,
-      1227,
-      628
+      83,
+      31
     ],
     "template": "meowfficer/meowfficer_feed_confirm.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       766,
       430,
-      816,
-      480
+      50,
+      50
     ],
     "target": [
       766,
       430,
-      816,
-      480
+      50,
+      50
     ],
     "template": "meowfficer/meowfficer_feed_enter.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       300,
       120,
-      387,
-      148
+      87,
+      28
     ],
     "target": [
       300,
       120,
-      387,
-      148
+      87,
+      28
     ],
     "template": "meowfficer/meowfficer_fort_check.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       441,
       181,
-      468,
-      206
+      27,
+      25
     ],
     "target": [
       80,
       260,
-      135,
-      336
+      55,
+      76
     ],
     "template": "meowfficer/meowfficer_fort_chore.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       813,
       563,
-      896,
-      662
+      83,
+      99
     ],
     "target": [
       813,
       563,
-      896,
-      662
+      83,
+      99
     ],
     "template": "meowfficer/meowfficer_fort_enter.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       367,
       198,
-      451,
-      270
+      84,
+      72
     ],
     "target": [
       367,
       198,
-      451,
-      270
+      84,
+      72
     ],
     "template": "meowfficer/meowfficer_fort_get_xp_1.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       302,
       318,
-      414,
-      393
+      112,
+      75
     ],
     "target": [
       302,
       318,
-      414,
-      393
+      112,
+      75
     ],
     "template": "meowfficer/meowfficer_fort_get_xp_2.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       918,
       647,
-      938,
-      668
+      20,
+      21
     ],
     "target": [
       918,
       647,
-      938,
-      668
+      20,
+      21
     ],
     "template": "meowfficer/meowfficer_fort_red_dot.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       30,
       667,
-      84,
-      681
+      54,
+      14
     ],
     "target": [
       30,
       667,
-      84,
-      681
+      54,
+      14
     ],
     "template": "meowfficer/meowfficer_get_check.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       1104,
       241,
-      1156,
-      266
+      52,
+      25
     ],
     "target": [
       1104,
       241,
-      1156,
-      266
+      52,
+      25
     ],
     "template": "meowfficer/meowfficer_gold_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1026,
       664,
-      1072,
-      684
+      46,
+      20
     ],
     "target": [
       1026,
       664,
-      1072,
-      684
+      46,
+      20
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       718,
       555,
-      828,
-      589
+      110,
+      34
     ],
     "target": [
       718,
       555,
-      828,
-      589
+      110,
+      34
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_capacity.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       800,
       279,
-      862,
-      305
+      62,
+      26
     ],
     "target": [
       800,
       279,
-      862,
-      305
+      62,
+      26
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_choose.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1161,
       20,
-      1261,
-      48
+      100,
+      28
     ],
     "target": [
       1161,
       20,
-      1261,
-      48
+      100,
+      28
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_coins.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       374,
       599,
-      434,
-      621
+      60,
+      22
     ],
     "target": [
       374,
       599,
-      434,
-      621
+      60,
+      22
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_enhance_level.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       1046,
       599,
-      1112,
-      625
+      66,
+      26
     ],
     "target": [
       1046,
       599,
-      1112,
-      625
+      66,
+      26
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_feed.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       312,
       543,
-      372,
-      568
+      60,
+      25
     ],
     "target": [
       312,
       543,
-      372,
-      568
+      60,
+      25
     ],
     "template": "meowfficer/meowfficer_ocr_meowfficer_queue.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       1112,
       241,
-      1148,
-      266
+      36,
+      25
     ],
     "target": [
       1112,
       241,
-      1148,
-      266
+      36,
+      25
     ],
     "template": "meowfficer/meowfficer_purple_check.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       858,
       238,
-      908,
-      297
+      50,
+      59
     ],
     "target": [
       858,
       238,
-      908,
-      297
+      50,
+      59
     ],
     "template": "meowfficer/meowfficer_talent_close.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       224,
       184,
-      242,
-      347
+      18,
+      163
     ],
     "target": [
       224,
       184,
-      242,
-      347
+      18,
+      163
     ],
     "template": "meowfficer/meowfficer_train_click_safe_area.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       261,
       194,
-      359,
-      223
+      98,
+      29
     ],
     "target": [
       261,
       194,
-      359,
-      223
+      98,
+      29
     ],
     "template": "meowfficer/meowfficer_train_complete.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       1123,
       573,
-      1239,
-      643
+      116,
+      70
     ],
     "target": [
       1123,
       573,
-      1239,
-      643
+      116,
+      70
     ],
     "template": "meowfficer/meowfficer_train_enter.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       575,
       23,
-      707,
-      67
+      132,
+      44
     ],
     "target": [
       575,
       23,
-      707,
-      67
+      132,
+      44
     ],
     "template": "meowfficer/meowfficer_train_evaluate.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       779,
       547,
-      859,
-      569
+      80,
+      22
     ],
     "target": [
       779,
       547,
-      859,
-      569
+      80,
+      22
     ],
     "template": "meowfficer/meowfficer_train_fill_queue.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       781,
       548,
-      874,
-      580
+      93,
+      32
     ],
     "target": [
       781,
       548,
-      874,
-      580
+      93,
+      32
     ],
     "template": "meowfficer/meowfficer_train_finish_all.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       930,
       551,
-      1027,
-      578
+      97,
+      27
     ],
     "target": [
       930,
       551,
-      1027,
-      578
+      97,
+      27
     ],
     "template": "meowfficer/meowfficer_train_start.png"
   }

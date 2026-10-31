@@ -6,14 +6,14 @@
     "roi": [
       600,
       313,
-      680,
-      344
+      80,
+      31
     ],
     "target": [
       600,
       313,
-      680,
-      344
+      80,
+      31
     ],
     "template": "shop/shop_amount.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       762,
       314,
-      830,
-      342
+      68,
+      28
     ],
     "target": [
       762,
       314,
-      830,
-      342
+      68,
+      28
     ],
     "template": "shop/shop_amount_max.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       549,
       311,
-      582,
-      345
+      33,
+      34
     ],
     "target": [
       549,
       311,
-      582,
-      345
+      33,
+      34
     ],
     "template": "shop/shop_amount_minus.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       696,
       312,
-      732,
-      345
+      36,
+      33
     ],
     "target": [
       696,
       312,
-      732,
-      345
+      36,
+      33
     ],
     "template": "shop/shop_amount_plus.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       703,
       483,
-      876,
-      540
+      173,
+      57
     ],
     "target": [
       703,
       483,
-      876,
-      540
+      173,
+      57
     ],
     "template": "shop/shop_buy_confirm.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       756,
       622,
-      827,
-      653
+      71,
+      31
     ],
     "target": [
       756,
       622,
-      827,
-      653
+      71,
+      31
     ],
     "template": "shop/shop_buy_confirm_amount.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       590,
       300,
-      612,
-      318
+      22,
+      18
     ],
     "target": [
       590,
       300,
-      612,
-      318
+      22,
+      18
     ],
     "template": "shop/shop_buy_confirm_mistake.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       604,
       642,
-      676,
-      671
+      72,
+      29
     ],
     "target": [
       604,
       642,
-      676,
-      671
+      72,
+      29
     ],
     "template": "shop/shop_buy_confirm_select.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1051,
       137,
-      1218,
-      179
+      167,
+      42
     ],
     "target": [
       1051,
       137,
-      1218,
-      179
+      167,
+      42
     ],
     "template": "shop/shop_click_safe_area.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1035,
       23,
-      1133,
-      51
+      98,
+      28
     ],
     "target": [
       1035,
       23,
-      1133,
-      51
+      98,
+      28
     ],
     "template": "shop/shop_gems.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       815,
       23,
-      922,
-      51
+      107,
+      28
     ],
     "target": [
       815,
       23,
-      922,
-      51
+      107,
+      28
     ],
     "template": "shop/shop_gold_coins.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1064,
       201,
-      1065,
-      623
+      1,
+      422
     ],
     "target": [
       1064,
       201,
-      1065,
-      623
+      1,
+      422
     ],
     "template": "shop/shop_medal_shop_scroll_area_250814.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       52,
       537,
-      127,
-      558
+      75,
+      21
     ],
     "target": [
       52,
       537,
-      127,
-      558
+      75,
+      21
     ],
     "template": "shop/shop_nav_event.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       52,
       436,
-      127,
-      457
+      75,
+      21
     ],
     "target": [
       52,
       436,
-      127,
-      457
+      75,
+      21
     ],
     "template": "shop/shop_nav_general.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       52,
       486,
-      127,
-      508
+      75,
+      22
     ],
     "target": [
       52,
       486,
-      127,
-      508
+      75,
+      22
     ],
     "template": "shop/shop_nav_monthly.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       972,
       164,
-      1052,
-      189
+      80,
+      25
     ],
     "target": [
       972,
       164,
-      1052,
-      189
+      80,
+      25
     ],
     "template": "shop/shop_ocr_balance.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       700,
       23,
-      785,
-      47
+      85,
+      24
     ],
     "target": [
       700,
       23,
-      785,
-      47
+      85,
+      24
     ],
     "template": "shop/shop_ocr_oil.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       666,
       30,
-      682,
-      43
+      16,
+      13
     ],
     "target": [
       666,
       30,
-      682,
-      43
+      16,
+      13
     ],
     "template": "shop/shop_ocr_oil_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1001,
       653,
-      1070,
-      690
+      69,
+      37
     ],
     "target": [
       1001,
       653,
-      1070,
-      690
+      69,
+      37
     ],
     "template": "shop/shop_refresh.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       1024,
       660,
-      1048,
-      684
+      24,
+      24
     ],
     "target": [
       1024,
       660,
-      1048,
-      684
+      24,
+      24
     ],
     "template": "shop/shop_refresh_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       562,
       201,
-      588,
-      227
+      26,
+      26
     ],
     "target": [
       562,
       201,
-      588,
-      227
+      26,
+      26
     ],
     "template": "shop/shop_select_minus.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       674,
       201,
-      700,
-      227
+      26,
+      26
     ],
     "target": [
       674,
       201,
-      700,
-      227
+      26,
+      26
     ],
     "template": "shop/shop_select_plus.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       182,
       212,
-      308,
-      339
+      126,
+      127
     ],
     "target": [
       182,
       212,
-      308,
-      339
+      126,
+      127
     ],
     "template": "shop/shop_select_pr1.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       182,
       212,
-      310,
-      340
+      128,
+      128
     ],
     "target": [
       182,
       212,
-      310,
-      340
+      128,
+      128
     ],
     "template": "shop/shop_select_pr2.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       180,
       212,
-      309,
-      340
+      129,
+      128
     ],
     "target": [
       180,
       212,
-      309,
-      340
+      129,
+      128
     ],
     "template": "shop/shop_select_pr3.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1070,
       152,
-      1126,
-      178
+      56,
+      26
     ],
     "target": [
       1070,
       152,
-      1126,
-      178
+      56,
+      26
     ],
     "template": "shop/shop_select_stock.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       303,
       99,
-      340,
-      118
+      37,
+      19
     ],
     "target": [
       303,
       99,
-      340,
-      118
+      37,
+      19
     ],
     "template": "shop/shop_tab_core_limited.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       533,
       100,
-      570,
-      118
+      37,
+      18
     ],
     "target": [
       533,
       100,
-      570,
-      118
+      37,
+      18
     ],
     "template": "shop/shop_tab_core_monthly.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       259,
       98,
-      300,
-      118
+      41,
+      20
     ],
     "target": [
       259,
       98,
-      300,
-      118
+      41,
+      20
     ],
     "template": "shop/shop_tab_general.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       627,
       98,
-      668,
-      118
+      41,
+      20
     ],
     "target": [
       627,
       98,
-      668,
-      118
+      41,
+      20
     ],
     "template": "shop/shop_tab_guild.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       742,
       99,
-      783,
-      118
+      41,
+      19
     ],
     "target": [
       742,
       99,
-      783,
-      118
+      41,
+      19
     ],
     "template": "shop/shop_tab_medal.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       443,
       98,
-      484,
-      118
+      41,
+      20
     ],
     "target": [
       443,
       98,
-      484,
-      118
+      41,
+      20
     ],
     "template": "shop/shop_tab_merit.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       804,
       99,
-      860,
-      117
+      56,
+      18
     ],
     "target": [
       804,
       99,
-      860,
-      117
+      56,
+      18
     ],
     "template": "shop/shop_tab_meta.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       995,
       98,
-      1037,
-      118
+      42,
+      20
     ],
     "target": [
       995,
       98,
-      1037,
-      118
+      42,
+      20
     ],
     "template": "shop/shop_tab_prize.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       973,
       98,
-      1013,
-      118
+      40,
+      20
     ],
     "target": [
       973,
       98,
-      1013,
-      118
+      40,
+      20
     ],
     "template": "shop/shop_tab_prototype.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1115,
       123,
-      1261,
-      158
+      146,
+      35
     ],
     "target": [
       1115,
       123,
-      1261,
-      158
+      146,
+      35
     ],
     "template": "shop/shop_voucher.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       1257,
       184,
-      1263,
-      647
+      6,
+      463
     ],
     "target": [
       1257,
       184,
-      1263,
-      647
+      6,
+      463
     ],
     "template": "shop/shop_voucher_shop_scroll_area.png"
   }

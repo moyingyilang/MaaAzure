@@ -6,14 +6,14 @@
     "roi": [
       291,
       198,
-      302,
-      277
+      11,
+      79
     ],
     "target": [
       1138,
       646,
-      1216,
-      682
+      78,
+      36
     ],
     "template": "guild/guild_battle_status_cf.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1229,
       614,
-      1242,
-      632
+      13,
+      18
     ],
     "target": [
       1229,
       614,
-      1242,
-      632
+      13,
+      18
     ],
     "template": "guild/guild_boss_available.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1140,
       643,
-      1261,
-      687
+      121,
+      44
     ],
     "target": [
       1140,
       643,
-      1261,
-      687
+      121,
+      44
     ],
     "template": "guild/guild_boss_enter.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1236,
       102,
-      1266,
-      133
+      30,
+      31
     ],
     "target": [
       1236,
       102,
-      1266,
-      133
+      30,
+      31
     ],
     "template": "guild/guild_dispatch_close.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       982,
       643,
-      1123,
-      670
+      141,
+      27
     ],
     "target": [
       982,
       643,
-      1123,
-      670
+      141,
+      27
     ],
     "template": "guild/guild_dispatch_fleet.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       981,
       644,
-      1124,
-      670
+      143,
+      26
     ],
     "target": [
       981,
       644,
-      1124,
-      670
+      143,
+      26
     ],
     "template": "guild/guild_dispatch_fleet_unfilled.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1183,
       641,
-      1279,
-      668
+      96,
+      27
     ],
     "target": [
       1183,
       641,
-      1279,
-      668
+      96,
+      27
     ],
     "template": "guild/guild_dispatch_in_progress.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       979,
       638,
-      1136,
-      665
+      157,
+      27
     ],
     "target": [
       979,
       638,
-      1136,
-      665
+      157,
+      27
     ],
     "template": "guild/guild_dispatch_quick.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1196,
       230,
-      1260,
-      288
+      64,
+      58
     ],
     "target": [
       1196,
       230,
-      1260,
-      288
+      64,
+      58
     ],
     "template": "guild/guild_dispatch_recommend.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       134,
       431,
-      198,
-      489
+      64,
+      58
     ],
     "target": [
       134,
       431,
-      198,
-      489
+      64,
+      58
     ],
     "template": "guild/guild_dispatch_recommend_2.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       155,
       64,
-      162,
-      115
+      7,
+      51
     ],
     "target": [
       1138,
       646,
-      1216,
-      682
+      78,
+      36
     ],
     "template": "guild/guild_exp_info_cf.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       390,
       382,
-      516,
-      393
+      126,
+      11
     ],
     "target": [
       390,
       382,
-      516,
-      393
+      126,
+      11
     ],
     "template": "guild/guild_logistics_ensure_check.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1068,
       279,
-      1224,
-      320
+      156,
+      41
     ],
     "target": [
       1068,
       279,
-      1224,
-      320
+      156,
+      41
     ],
     "template": "guild/guild_mission.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       406,
       194,
-      565,
-      235
+      159,
+      41
     ],
     "target": [
       406,
       194,
-      565,
-      235
+      159,
+      41
     ],
     "template": "guild/guild_mission_choose.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       415,
       198,
-      626,
-      231
+      211,
+      33
     ],
     "target": [
       415,
       198,
-      626,
-      231
+      211,
+      33
     ],
     "template": "guild/guild_mission_new.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1023,
       131,
-      1052,
-      160
+      29,
+      29
     ],
     "target": [
       912,
       532,
-      975,
-      565
+      63,
+      33
     ],
     "template": "guild/guild_mission_select.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       971,
       384,
-      985,
-      403
+      14,
+      19
     ],
     "target": [
       971,
       384,
-      985,
-      403
+      14,
+      19
     ],
     "template": "guild/guild_ocr_guild_exchange_limit.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1064,
       501,
-      1114,
-      521
+      50,
+      20
     ],
     "target": [
       1064,
       501,
-      1114,
-      521
+      50,
+      20
     ],
     "template": "guild/guild_ocr_guild_operations_progress.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1064,
       481,
-      1265,
-      521
+      201,
+      40
     ],
     "target": [
       1064,
       481,
-      1265,
-      521
+      201,
+      40
     ],
     "template": "guild/guild_operation_fund_check.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       946,
       637,
-      1103,
-      668
+      157,
+      31
     ],
     "target": [
       946,
       637,
-      1103,
-      668
+      157,
+      31
     ],
     "template": "guild/guild_operations_active_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       271,
       680,
-      320,
-      704
+      49,
+      24
     ],
     "target": [
       271,
       680,
-      320,
-      704
+      49,
+      24
     ],
     "template": "guild/guild_operations_click_safe_area.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       192,
       119,
-      240,
-      141
+      48,
+      22
     ],
     "target": [
       192,
       119,
-      240,
-      141
+      48,
+      22
     ],
     "template": "guild/guild_operations_inactive_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       974,
       546,
-      1114,
-      571
+      140,
+      25
     ],
     "target": [
       974,
       546,
-      1114,
-      571
+      140,
+      25
     ],
     "template": "guild/guild_operations_join.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       1237,
       500,
-      1278,
-      522
+      41,
+      22
     ],
     "target": [
       1237,
       500,
-      1278,
-      522
+      41,
+      22
     ],
     "template": "guild/guild_operations_monthly_count.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       1049,
       544,
-      1116,
-      573
+      67,
+      29
     ],
     "target": [
       1049,
       544,
-      1116,
-      573
+      67,
+      29
     ],
     "template": "guild/guild_operations_new.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1155,
       151,
-      1259,
-      179
+      104,
+      28
     ],
     "target": [
       1124,
       152,
-      1280,
-      515
+      156,
+      363
     ],
     "template": "guild/guild_operations_solomon.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       1253,
       666,
-      1270,
-      684
+      17,
+      18
     ],
     "target": [
       1253,
       666,
-      1270,
-      684
+      17,
+      18
     ],
     "template": "guild/guild_red_dot.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       117,
       607,
-      435,
-      713
+      318,
+      106
     ],
     "target": [
       117,
       607,
-      435,
-      713
+      318,
+      106
     ],
     "template": "guild/guild_report_available.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       739,
       596,
-      1078,
-      637
+      339,
+      41
     ],
     "target": [
       739,
       596,
-      1078,
-      637
+      339,
+      41
     ],
     "template": "guild/guild_report_claim.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       739,
       596,
-      1078,
-      637
+      339,
+      41
     ],
     "target": [
       739,
       596,
-      1078,
-      637
+      339,
+      41
     ],
     "template": "guild/guild_report_claimed.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       1059,
       93,
-      1102,
-      136
+      43,
+      43
     ],
     "target": [
       1059,
       93,
-      1102,
-      136
+      43,
+      43
     ],
     "template": "guild/guild_report_close.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       1077,
       614,
-      1233,
-      655
+      156,
+      41
     ],
     "target": [
       1077,
       614,
-      1233,
-      655
+      156,
+      41
     ],
     "template": "guild/guild_supply.png"
   }

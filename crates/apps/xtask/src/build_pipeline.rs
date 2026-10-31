@@ -190,13 +190,21 @@ fn check_template_consistency(
 
     let mut per_server: BTreeMap<&str, BTreeMap<String, String>> = BTreeMap::new();
     for srv in &servers {
-        let name = srv.file_name().unwrap_or_default().to_string_lossy().to_string();
+        let name = srv
+            .file_name()
+            .unwrap_or_default()
+            .to_string_lossy()
+            .to_string();
         let mut files = Vec::new();
         collect_json(&srv.join("pipeline/gen"), &mut files);
         let mut map = BTreeMap::new();
         for f in files {
-            let Ok(text) = fs::read_to_string(&f) else { continue };
-            let Ok(doc) = serde_json::from_str::<Value>(&text) else { continue };
+            let Ok(text) = fs::read_to_string(&f) else {
+                continue;
+            };
+            let Ok(doc) = serde_json::from_str::<Value>(&text) else {
+                continue;
+            };
             if let Some(obj) = doc.as_object() {
                 for (k, v) in obj {
                     if let Some(tpl) = v.get("template") {

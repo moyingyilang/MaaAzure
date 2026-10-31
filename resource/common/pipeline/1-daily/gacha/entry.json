@@ -22,14 +22,14 @@
     "roi": [
       958,
       665,
-      1113,
-      714
+      155,
+      49
     ],
     "target": [
       958,
       665,
-      1113,
-      714
+      155,
+      49
     ],
     "template": "ui/ui_main_goto_build.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1032,
       603,
-      1223,
-      657
+      191,
+      54
     ],
     "target": [
       1032,
       603,
-      1223,
-      657
+      191,
+      54
     ],
     "template": "gacha/gacha_build_submit_orders.png"
   }

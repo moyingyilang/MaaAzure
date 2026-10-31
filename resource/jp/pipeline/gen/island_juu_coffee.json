@@ -6,14 +6,14 @@
     "roi": [
       737,
       499,
-      805,
-      523
+      68,
+      24
     ],
     "target": [
       798,
       554,
-      873,
-      629
+      75,
+      75
     ],
     "template": "island_juu_coffee/island_juu_coffee_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       737,
       499,
-      805,
-      523
+      68,
+      24
     ],
     "target": [
       893,
       554,
-      967,
-      629
+      74,
+      75
     ],
     "template": "island_juu_coffee/island_juu_coffee_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       609,
       315,
-      672,
-      362
+      63,
+      47
     ],
     "target": [
       609,
       315,
-      672,
-      362
+      63,
+      47
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_citrus_coffee.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       604,
       316,
-      673,
-      362
+      69,
+      46
     ],
     "target": [
       604,
       316,
-      673,
-      362
+      69,
+      46
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_fruity_fruitier.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       618,
       312,
-      663,
-      362
+      45,
+      50
     ],
     "target": [
       618,
       312,
-      663,
-      362
+      45,
+      50
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_iced_coffee.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       615,
       321,
-      666,
-      362
+      51,
+      41
     ],
     "target": [
       615,
       321,
-      666,
-      362
+      51,
+      41
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_latte.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       608,
       306,
-      673,
-      362
+      65,
+      56
     ],
     "target": [
       608,
       306,
-      673,
-      362
+      65,
+      56
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_morning_light.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       607,
       312,
-      674,
-      362
+      67,
+      50
     ],
     "target": [
       607,
       312,
-      674,
-      362
+      67,
+      50
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_omelette.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       615,
       310,
-      666,
-      362
+      51,
+      52
     ],
     "target": [
       615,
       310,
-      666,
-      362
+      51,
+      52
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_strawberry_milkshake.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       609,
       312,
-      670,
-      362
+      61,
+      50
     ],
     "target": [
       609,
       312,
-      670,
-      362
+      61,
+      50
     ],
     "template": "island_juu_coffee/island_juu_coffee_post_wake_up_call.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       217,
       523,
-      281,
-      579
+      64,
+      56
     ],
     "target": [
       217,
       523,
-      281,
-      579
+      64,
+      56
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_citrus_coffee.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       746,
       241,
-      837,
-      319
+      91,
+      78
     ],
     "target": [
       746,
       241,
-      837,
-      319
+      91,
+      78
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_citrus_coffee_check.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       212,
       557,
-      280,
-      614
+      68,
+      57
     ],
     "target": [
       212,
       557,
-      280,
-      614
+      68,
+      57
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_fruity_fruitier.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       740,
       244,
-      839,
-      326
+      99,
+      82
     ],
     "target": [
       740,
       244,
-      839,
-      326
+      99,
+      82
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_fruity_fruitier_check.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       224,
       301,
-      273,
-      358
+      49,
+      57
     ],
     "target": [
       224,
       301,
-      273,
-      358
+      49,
+      57
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_iced_coffee.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       760,
       238,
-      825,
-      320
+      65,
+      82
     ],
     "target": [
       760,
       238,
-      825,
-      320
+      65,
+      82
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_iced_coffee_check.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       223,
       607,
-      274,
-      649
+      51,
+      42
     ],
     "target": [
       223,
       607,
-      274,
-      649
+      51,
+      42
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_latte.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       756,
       251,
-      827,
-      315
+      71,
+      64
     ],
     "target": [
       756,
       251,
-      827,
-      315
+      71,
+      64
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_latte_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       215,
       251,
-      284,
-      317
+      69,
+      66
     ],
     "target": [
       215,
       251,
-      284,
-      317
+      69,
+      66
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_morning_light.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       745,
       231,
-      842,
-      326
+      97,
+      95
     ],
     "target": [
       745,
       231,
-      842,
-      326
+      97,
+      95
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_morning_light_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       215,
       151,
-      283,
-      208
+      68,
+      57
     ],
     "target": [
       215,
       151,
-      283,
-      208
+      68,
+      57
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_omelette.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       743,
       239,
-      840,
-      320
+      97,
+      81
     ],
     "target": [
       743,
       239,
-      840,
-      320
+      97,
+      81
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_omelette_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       222,
       519,
-      275,
-      583
+      53,
+      64
     ],
     "target": [
       222,
       519,
-      275,
-      583
+      53,
+      64
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_strawberry_milkshake.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       755,
       236,
-      830,
-      324
+      75,
+      88
     ],
     "target": [
       755,
       236,
-      830,
-      324
+      75,
+      88
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_strawberry_milkshake_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       216,
       404,
-      279,
-      466
+      63,
+      62
     ],
     "target": [
       216,
       404,
-      279,
-      466
+      63,
+      62
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_wake_up_call.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       747,
       237,
-      836,
-      323
+      89,
+      86
     ],
     "target": [
       747,
       237,
-      836,
-      323
+      89,
+      86
     ],
     "template": "island_juu_coffee/island_juu_coffee_select_wake_up_call_check.png"
   },

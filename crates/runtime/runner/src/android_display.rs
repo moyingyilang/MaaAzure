@@ -93,7 +93,8 @@ impl DisplayCommands {
 
     /// 渲染滑动命令。
     pub fn render_swipe(&self, x1: i32, y1: i32, x2: i32, y2: i32, ms: i32) -> String {
-        let raw = self.swipe
+        let raw = self
+            .swipe
             .replace("{id}", &self.display_id)
             .replace("{x1}", &x1.to_string())
             .replace("{y1}", &y1.to_string())
@@ -126,7 +127,9 @@ pub fn capture_png(cmds: &DisplayCommands) -> Option<Vec<u8>> {
     if !run_shell(&cmds.render_screencap()) {
         return None;
     }
-    std::fs::read(&cmds.tmp_png).ok().filter(|b| b.starts_with(&[0x89, b'P', b'N', b'G']))
+    std::fs::read(&cmds.tmp_png)
+        .ok()
+        .filter(|b| b.starts_with(&[0x89, b'P', b'N', b'G']))
 }
 
 /// 列出所有 display（`dumpsys SurfaceFlinger --display-id`）。
@@ -136,11 +139,7 @@ pub fn list_displays(use_su: bool) -> Vec<(String, String)> {
     } else {
         "dumpsys SurfaceFlinger --display-id"
     };
-    let out = Command::new("sh")
-        .arg("-c")
-        .arg(cmd)
-        .output()
-        .ok();
+    let out = Command::new("sh").arg("-c").arg(cmd).output().ok();
     let Some(out) = out else { return Vec::new() };
     let text = String::from_utf8_lossy(&out.stdout);
     text.lines()
@@ -166,7 +165,10 @@ mod tests {
             c.render_screencap(),
             "screencap -d 11529215049488481477 -p /data/local/tmp/maazure-frame.png"
         );
-        assert_eq!(c.render_click(10, 20), "input -d 11529215049488481477 tap 10 20");
+        assert_eq!(
+            c.render_click(10, 20),
+            "input -d 11529215049488481477 tap 10 20"
+        );
         assert_eq!(
             c.render_swipe(1, 2, 3, 4, 300),
             "input -d 11529215049488481477 swipe 1 2 3 4 300"

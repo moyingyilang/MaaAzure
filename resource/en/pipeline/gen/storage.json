@@ -6,14 +6,14 @@
     "roi": [
       773,
       618,
-      905,
-      642
+      132,
+      24
     ],
     "target": [
       773,
       618,
-      905,
-      642
+      132,
+      24
     ],
     "template": "storage/storage_box_amount_confirm.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       591,
       298,
-      688,
-      326
+      97,
+      28
     ],
     "target": [
       591,
       298,
-      688,
-      326
+      97,
+      28
     ],
     "template": "storage/storage_box_amount_ocr.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       443,
       407,
-      501,
-      430
+      58,
+      23
     ],
     "target": [
       443,
       407,
-      501,
-      430
+      58,
+      23
     ],
     "template": "storage/storage_box_remain_amount_ocr.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       757,
       498,
-      815,
-      524
+      58,
+      26
     ],
     "target": [
       757,
       498,
-      815,
-      524
+      58,
+      26
     ],
     "template": "storage/storage_box_use.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       346,
       668,
-      467,
-      684
+      121,
+      16
     ],
     "target": [
       346,
       659,
-      467,
-      698
+      121,
+      39
     ],
     "template": "storage/storage_disassemble.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       881,
       659,
-      993,
-      684
+      112,
+      25
     ],
     "target": [
       854,
       649,
-      1021,
-      699
+      167,
+      50
     ],
     "template": "storage/storage_disassemble_cancel.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1063,
       658,
-      1230,
-      681
+      167,
+      23
     ],
     "target": [
       1063,
       651,
-      1230,
-      697
+      167,
+      46
     ],
     "template": "storage/storage_disassemble_confirm.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       625,
       664,
-      685,
-      694
+      60,
+      30
     ],
     "target": [
       625,
       664,
-      685,
-      694
+      60,
+      30
     ],
     "template": "storage/storage_disassemble_count_ocr.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       717,
       568,
-      841,
-      590
+      124,
+      22
     ],
     "target": [
       708,
       558,
-      851,
-      601
+      143,
+      43
     ],
     "template": "storage/storage_disassemble_popup_confirm.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1127,
       353,
-      1155,
-      395
+      28,
+      42
     ],
     "target": [
       1127,
       353,
-      1155,
-      395
+      28,
+      42
     ],
     "template": "storage/storage_equipment_empty.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1020,
       669,
-      1071,
-      686
+      51,
+      17
     ],
     "target": [
       954,
       659,
-      1084,
-      689
+      130,
+      30
     ],
     "template": "storage/storage_equipment_enter.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       746,
       23,
-      781,
-      36
+      35,
+      13
     ],
     "target": [
       742,
       13,
-      819,
-      36
+      77,
+      23
     ],
     "template": "storage/storage_equipment_filter.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       734,
       620,
-      865,
-      643
+      131,
+      23
     ],
     "target": [
       727,
       608,
-      872,
-      653
+      145,
+      45
     ],
     "template": "storage/storage_equipment_filter_confirm.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       460,
       499,
-      521,
-      520
+      61,
+      21
     ],
     "target": [
       421,
       489,
-      566,
-      534
+      145,
+      45
     ],
     "template": "storage/storage_equipment_full.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       1123,
       658,
-      1156,
-      691
+      33,
+      33
     ],
     "target": [
       1123,
       658,
-      1156,
-      691
+      33,
+      33
     ],
     "template": "storage/storage_material_check.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1184,
       669,
-      1227,
-      685
+      43,
+      16
     ],
     "target": [
       1121,
       663,
-      1243,
-      685
+      122,
+      22
     ],
     "template": "storage/storage_material_enter.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       858,
       422,
-      1231,
-      631
+      373,
+      209
     ],
     "target": [
       858,
       422,
-      1231,
-      631
+      373,
+      209
     ],
     "template": "storage/storage_material_stable_check.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1257,
       94,
-      1263,
-      585
+      6,
+      491
     ],
     "target": [
       1257,
       94,
-      1263,
-      585
+      6,
+      491
     ],
     "template": "storage/storage_meterial_scroll.png"
   },

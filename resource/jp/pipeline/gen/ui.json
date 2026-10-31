@@ -6,14 +6,14 @@
     "roi": [
       121,
       14,
-      174,
-      40
+      53,
+      26
     ],
     "target": [
       121,
       14,
-      174,
-      40
+      53,
+      26
     ],
     "template": "ui/ui_academy_check.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1074,
       340,
-      1103,
-      374
+      29,
+      34
     ],
     "target": [
       1074,
       340,
-      1103,
-      374
+      29,
+      34
     ],
     "template": "ui/ui_academy_goto_game_room.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1057,
       188,
-      1126,
-      210
+      69,
+      22
     ],
     "target": [
       1057,
       188,
-      1126,
-      210
+      69,
+      22
     ],
     "template": "ui/ui_academy_goto_munitions.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       33,
       44,
-      47,
-      64
+      14,
+      20
     ],
     "target": [
       33,
       31,
-      81,
-      78
+      48,
+      47
     ],
     "template": "ui/ui_back_arrow.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       701,
       674,
-      723,
-      699
+      22,
+      25
     ],
     "target": [
       701,
       674,
-      723,
-      699
+      22,
+      25
     ],
     "template": "ui/ui_battle_pass_check.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       121,
       15,
-      175,
-      40
+      54,
+      25
     ],
     "target": [
       121,
       15,
-      175,
-      40
+      54,
+      25
     ],
     "template": "ui/ui_build_check.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       172,
       77,
-      192,
-      98
+      20,
+      21
     ],
     "target": [
       172,
       77,
-      192,
-      98
+      20,
+      21
     ],
     "template": "ui/ui_campaign_check.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       791,
       647,
-      893,
-      703
+      102,
+      56
     ],
     "target": [
       791,
       647,
-      893,
-      703
+      102,
+      56
     ],
     "template": "ui/ui_campaign_goto_daily.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       172,
       77,
-      192,
-      98
+      20,
+      21
     ],
     "target": [
       1178,
       168,
-      1228,
-      217
+      50,
+      49
     ],
     "template": "ui/ui_campaign_goto_event.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1168,
       647,
-      1249,
-      703
+      81,
+      56
     ],
     "target": [
       1168,
       647,
-      1249,
-      703
+      81,
+      56
     ],
     "template": "ui/ui_campaign_goto_exercise.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       187,
       651,
-      237,
-      690
+      50,
+      39
     ],
     "target": [
       187,
       651,
-      237,
-      690
+      50,
+      39
     ],
     "template": "ui/ui_campaign_goto_war_archives.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       383,
       442,
-      508,
-      507
+      125,
+      65
     ],
     "target": [
       383,
       442,
-      508,
-      507
+      125,
+      65
     ],
     "template": "ui/ui_campaign_menu_check.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       174,
       123,
-      507,
-      549
+      333,
+      426
     ],
     "target": [
       174,
       123,
-      507,
-      549
+      333,
+      426
     ],
     "template": "ui/ui_campaign_menu_goto_campaign.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       652,
       587,
-      788,
-      638
+      136,
+      51
     ],
     "target": [
       652,
       587,
-      788,
-      638
+      136,
+      51
     ],
     "template": "ui/ui_campaign_menu_goto_daily.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       383,
       442,
-      508,
-      507
+      125,
+      65
     ],
     "target": [
       544,
       120,
-      966,
-      325
+      422,
+      205
     ],
     "template": "ui/ui_campaign_menu_goto_event.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       970,
       586,
-      1106,
-      638
+      136,
+      52
     ],
     "target": [
       970,
       586,
-      1106,
-      638
+      136,
+      52
     ],
     "template": "ui/ui_campaign_menu_goto_exercise.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       383,
       442,
-      508,
-      507
+      125,
+      65
     ],
     "target": [
       543,
       345,
-      967,
-      552
+      424,
+      207
     ],
     "template": "ui/ui_campaign_menu_goto_os.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       196,
       591,
-      307,
-      632
+      111,
+      41
     ],
     "target": [
       196,
       591,
-      307,
-      632
+      111,
+      41
     ],
     "template": "ui/ui_campaign_menu_goto_war_archives.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       575,
       209,
-      940,
-      235
+      365,
+      26
     ],
     "target": [
       575,
       209,
-      940,
-      235
+      365,
+      26
     ],
     "template": "ui/ui_campaign_menu_no_event.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       785,
       661,
-      824,
-      699
+      39,
+      38
     ],
     "target": [
       785,
       661,
-      824,
-      699
+      39,
+      38
     ],
     "template": "ui/ui_channel_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       121,
       14,
-      176,
-      39
+      55,
+      25
     ],
     "target": [
       121,
       14,
-      176,
-      39
+      55,
+      25
     ],
     "template": "ui/ui_commission_check.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       23,
       656,
-      67,
-      698
+      44,
+      42
     ],
     "target": [
       23,
       656,
-      67,
-      698
+      44,
+      42
     ],
     "template": "ui/ui_daily_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       949,
       600,
-      1005,
-      654
+      56,
+      54
     ],
     "target": [
       949,
       600,
-      1005,
-      654
+      56,
+      54
     ],
     "template": "ui/ui_dorm_check.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       466,
       510,
-      519,
-      536
+      53,
+      26
     ],
     "target": [
       466,
       510,
-      519,
-      536
+      53,
+      26
     ],
     "template": "ui/ui_dorm_feed_cancel.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       40,
       30,
-      62,
-      60
+      22,
+      30
     ],
     "target": [
       40,
       30,
-      62,
-      60
+      22,
+      30
     ],
     "template": "ui/ui_dorm_goto_main.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1073,
       615,
-      1140,
-      644
+      67,
+      29
     ],
     "target": [
       1073,
       615,
-      1140,
-      644
+      67,
+      29
     ],
     "template": "ui/ui_dorm_info.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       588,
       472,
-      689,
-      509
+      101,
+      37
     ],
     "target": [
       588,
       472,
-      689,
-      509
+      101,
+      37
     ],
     "template": "ui/ui_dorm_trophy_confirm.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       261,
       487,
-      334,
-      587
+      73,
+      100
     ],
     "target": [
       261,
       487,
-      334,
-      587
+      73,
+      100
     ],
     "template": "ui/ui_dormmenu_check.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       261,
       487,
-      334,
-      587
+      73,
+      100
     ],
     "target": [
       261,
       487,
-      334,
-      587
+      73,
+      100
     ],
     "template": "ui/ui_dormmenu_goto_academy.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       408,
       494,
-      541,
-      587
+      133,
+      93
     ],
     "target": [
       408,
       494,
-      541,
-      587
+      133,
+      93
     ],
     "template": "ui/ui_dormmenu_goto_dorm.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       763,
       391,
-      959,
-      526
+      196,
+      135
     ],
     "target": [
       763,
       391,
-      959,
-      526
+      196,
+      135
     ],
     "template": "ui/ui_dormmenu_goto_island.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       336,
       165,
-      941,
-      558
+      605,
+      393
     ],
     "target": [
       855,
       163,
-      937,
-      228
+      82,
+      65
     ],
     "template": "ui/ui_dormmenu_goto_island_message.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       261,
       487,
-      334,
-      587
+      73,
+      100
     ],
     "target": [
       150,
       153,
-      437,
-      279
+      287,
+      126
     ],
     "template": "ui/ui_dormmenu_goto_main.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       634,
       512,
-      749,
-      569
+      115,
+      57
     ],
     "target": [
       634,
       512,
-      749,
-      569
+      115,
+      57
     ],
     "template": "ui/ui_dormmenu_goto_meowfficer.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       998,
       581,
-      1148,
-      601
+      150,
+      20
     ],
     "target": [
       1010,
       336,
-      1140,
-      596
+      130,
+      260
     ],
     "template": "ui/ui_dormmenu_goto_private_quarters.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1127,
       365,
-      1249,
-      409
+      122,
+      44
     ],
     "target": [
       1127,
       365,
-      1249,
-      409
+      122,
+      44
     ],
     "template": "ui/ui_event_20260417_entrance_temp.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       1021,
       365,
-      1101,
-      405
+      80,
+      40
     ],
     "target": [
       1021,
       365,
-      1101,
-      405
+      80,
+      40
     ],
     "template": "ui/ui_event_20260430_entrance_temp.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       123,
       63,
-      206,
-      109
+      83,
+      46
     ],
     "target": [
       123,
       63,
-      206,
-      109
+      83,
+      46
     ],
     "template": "ui/ui_event_check.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       122,
       14,
-      233,
-      39
+      111,
+      25
     ],
     "target": [
       122,
       14,
-      233,
-      39
+      111,
+      25
     ],
     "template": "ui/ui_event_list_check.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       1063,
       339,
-      1205,
-      382
+      142,
+      43
     ],
     "target": [
       1063,
       339,
-      1205,
-      382
+      142,
+      43
     ],
     "template": "ui/ui_exercise_check.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1044,
       642,
-      1243,
-      702
+      199,
+      60
     ],
     "target": [
       1044,
       642,
-      1243,
-      702
+      199,
+      60
     ],
     "template": "ui/ui_fleet_check.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       983,
       17,
-      1022,
-      53
+      39,
+      36
     ],
     "target": [
       983,
       17,
-      1022,
-      53
+      39,
+      36
     ],
     "template": "ui/ui_game_room_check.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       1210,
       16,
-      1247,
-      51
+      37,
+      35
     ],
     "target": [
       1210,
       16,
-      1247,
-      51
+      37,
+      35
     ],
     "template": "ui/ui_game_room_goto_main.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       1216,
       25,
-      1241,
-      45
+      25,
+      20
     ],
     "target": [
       1228,
       18,
-      1255,
-      49
+      27,
+      31
     ],
     "template": "ui/ui_goto_main.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       120,
       14,
-      201,
-      41
+      81,
+      27
     ],
     "target": [
       120,
       14,
-      201,
-      41
+      81,
+      27
     ],
     "template": "ui/ui_guild_check.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "target": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "template": "ui/ui_idle.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "target": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "template": "ui/ui_idle_2.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "target": [
       864,
       672,
-      873,
-      688
+      9,
+      16
     ],
     "template": "ui/ui_idle_3.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       750,
       28,
-      785,
-      62
+      35,
+      34
     ],
     "target": [
       750,
       28,
-      785,
-      62
+      35,
+      34
     ],
     "template": "ui/ui_island_check.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       1215,
       26,
-      1245,
-      60
+      30,
+      34
     ],
     "target": [
       1215,
       26,
-      1245,
-      60
+      30,
+      34
     ],
     "template": "ui/ui_island_goto_island_phone.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       1212,
       24,
-      1247,
-      61
+      35,
+      37
     ],
     "target": [
       1212,
       24,
-      1247,
-      61
+      35,
+      37
     ],
     "template": "ui/ui_island_goto_management.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       837,
       22,
-      882,
-      64
+      45,
+      42
     ],
     "target": [
       837,
       22,
-      882,
-      64
+      45,
+      42
     ],
     "template": "ui/ui_island_goto_map.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       123,
       19,
-      219,
-      45
+      96,
+      26
     ],
     "target": [
       123,
       19,
-      219,
-      45
+      96,
+      26
     ],
     "template": "ui/ui_island_manage_check.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       1031,
       636,
-      1081,
-      684
+      50,
+      48
     ],
     "target": [
       1031,
       636,
-      1081,
-      684
+      50,
+      48
     ],
     "template": "ui/ui_island_management_check.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       1090,
       42,
-      1237,
-      170
+      147,
+      128
     ],
     "target": [
       8,
       6,
-      846,
-      714
+      838,
+      708
     ],
     "template": "ui/ui_island_management_goto_island.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       1031,
       638,
-      1081,
-      684
+      50,
+      46
     ],
     "target": [
       1031,
       638,
-      1081,
-      684
+      50,
+      46
     ],
     "template": "ui/ui_island_management_goto_main.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       1066,
       489,
-      1130,
-      539
+      64,
+      50
     ],
     "target": [
       1066,
       489,
-      1130,
-      539
+      64,
+      50
     ],
     "template": "ui/ui_island_management_goto_postmanage.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       887,
       646,
-      921,
-      675
+      34,
+      29
     ],
     "target": [
       887,
       646,
-      921,
-      675
+      34,
+      29
     ],
     "template": "ui/ui_island_management_goto_visit.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       898,
       483,
-      956,
-      542
+      58,
+      59
     ],
     "target": [
       898,
       483,
-      956,
-      542
+      58,
+      59
     ],
     "template": "ui/ui_island_management_goto_warehouse.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       122,
       19,
-      217,
-      47
+      95,
+      28
     ],
     "target": [
       122,
       19,
-      217,
-      47
+      95,
+      28
     ],
     "template": "ui/ui_island_map_check.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       4,
       23,
-      102,
-      67
+      98,
+      44
     ],
     "target": [
       4,
       23,
-      102,
-      67
+      98,
+      44
     ],
     "template": "ui/ui_island_map_goto_island.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       139,
       15,
-      224,
-      50
+      85,
+      35
     ],
     "target": [
       139,
       15,
-      224,
-      50
+      85,
+      35
     ],
     "template": "ui/ui_island_mill_check.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       10,
       23,
-      96,
-      68
+      86,
+      45
     ],
     "target": [
       10,
       23,
-      96,
-      68
+      86,
+      45
     ],
     "template": "ui/ui_island_mill_goto_island.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       125,
       19,
-      220,
-      46
+      95,
+      27
     ],
     "target": [
       125,
       19,
-      220,
-      46
+      95,
+      27
     ],
     "template": "ui/ui_island_order_check.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "target": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "template": "ui/ui_island_phone_check.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "target": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "template": "ui/ui_island_phone_goto_island.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       1072,
       485,
-      1125,
-      538
+      53,
+      53
     ],
     "target": [
       1072,
       485,
-      1125,
-      538
+      53,
+      53
     ],
     "template": "ui/ui_island_phone_goto_island_manage.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "target": [
       1037,
       644,
-      1077,
-      680
+      40,
+      36
     ],
     "template": "ui/ui_island_phone_goto_main.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       122,
       20,
-      219,
-      45
+      97,
+      25
     ],
     "target": [
       122,
       20,
-      219,
-      45
+      97,
+      25
     ],
     "template": "ui/ui_island_postmanage_check.png"
   },
@@ -1249,13 +1249,13 @@
       0,
       16,
       108,
-      71
+      55
     ],
     "target": [
       0,
       16,
       108,
-      71
+      55
     ],
     "template": "ui/ui_island_postmanage_goto_management.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       125,
       21,
-      218,
-      46
+      93,
+      25
     ],
     "target": [
       125,
       21,
-      218,
-      46
+      93,
+      25
     ],
     "template": "ui/ui_island_season_check.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       34,
       30,
-      68,
-      64
+      34,
+      34
     ],
     "target": [
       34,
       30,
-      68,
-      64
+      34,
+      34
     ],
     "template": "ui/ui_island_season_goto_island.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       125,
       21,
-      216,
-      46
+      91,
+      25
     ],
     "target": [
       125,
       21,
-      216,
-      46
+      91,
+      25
     ],
     "template": "ui/ui_island_shop_seed_tab_check.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       271,
       109,
-      357,
-      160
+      86,
+      51
     ],
     "target": [
       271,
       109,
-      357,
-      160
+      86,
+      51
     ],
     "template": "ui/ui_island_shopping_check.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       159,
       99,
-      195,
-      117
+      36,
+      18
     ],
     "target": [
       159,
       99,
-      195,
-      117
+      36,
+      18
     ],
     "template": "ui/ui_island_storage_check.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       123,
       19,
-      218,
-      46
+      95,
+      27
     ],
     "target": [
       123,
       19,
-      218,
-      46
+      95,
+      27
     ],
     "template": "ui/ui_island_technology_check.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       148,
       14,
-      267,
-      51
+      119,
+      37
     ],
     "target": [
       148,
       14,
-      267,
-      51
+      119,
+      37
     ],
     "template": "ui/ui_island_visit_check.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       2,
       26,
-      107,
-      64
+      105,
+      38
     ],
     "target": [
       2,
       26,
-      107,
-      64
+      105,
+      38
     ],
     "template": "ui/ui_island_visit_goto_management.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       295,
       593,
-      355,
-      649
+      60,
+      56
     ],
     "target": [
       295,
       593,
-      355,
-      649
+      60,
+      56
     ],
     "template": "ui/ui_island_warehouse_check.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       249,
       59,
-      283,
-      96
+      34,
+      37
     ],
     "target": [
       249,
       59,
-      283,
-      96
+      34,
+      37
     ],
     "template": "ui/ui_island_warehouse_filter_check.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       999,
       65,
-      1027,
-      92
+      28,
+      27
     ],
     "target": [
       999,
       65,
-      1027,
-      92
+      28,
+      27
     ],
     "template": "ui/ui_island_warehouse_filter_goto_warehouse.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       1131,
       91,
-      1157,
-      118
+      26,
+      27
     ],
     "target": [
       1131,
       91,
-      1157,
-      118
+      26,
+      27
     ],
     "template": "ui/ui_island_warehouse_goto_management.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       295,
       593,
-      355,
-      649
+      60,
+      56
     ],
     "target": [
       295,
       593,
-      355,
-      649
+      60,
+      56
     ],
     "template": "ui/ui_island_warehouse_goto_warehouse_filter.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       1035,
       674,
-      1088,
-      702
+      53,
+      28
     ],
     "target": [
       1035,
       674,
-      1088,
-      702
+      53,
+      28
     ],
     "template": "ui/ui_main_goto_build.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       1019,
       305,
-      1096,
-      343
+      77,
+      38
     ],
     "target": [
       1006,
       288,
-      1155,
-      436
+      149,
+      148
     ],
     "template": "ui/ui_main_goto_campaign.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       172,
       668,
-      326,
-      715
+      154,
+      47
     ],
     "target": [
       172,
       668,
-      326,
-      715
+      154,
+      47
     ],
     "template": "ui/ui_main_goto_dock.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       1006,
       288,
-      1155,
-      436
+      149,
+      148
     ],
     "target": [
       491,
       670,
-      635,
-      710
+      144,
+      40
     ],
     "template": "ui/ui_main_goto_dormmenu.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       607,
       141,
-      657,
-      191
+      50,
+      50
     ],
     "target": [
       607,
       141,
-      657,
-      191
+      50,
+      50
     ],
     "template": "ui/ui_main_goto_event_list.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       736,
       360,
-      985,
-      435
+      249,
+      75
     ],
     "target": [
       736,
       360,
-      985,
-      435
+      249,
+      75
     ],
     "template": "ui/ui_main_goto_fleet.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       1127,
       671,
-      1253,
-      709
+      126,
+      38
     ],
     "target": [
       1127,
       671,
-      1253,
-      709
+      126,
+      38
     ],
     "template": "ui/ui_main_goto_guild.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       805,
       665,
-      955,
-      710
+      150,
+      45
     ],
     "target": [
       805,
       665,
-      955,
-      710
+      150,
+      45
     ],
     "template": "ui/ui_main_goto_mission.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       1006,
       288,
-      1155,
-      436
+      149,
+      148
     ],
     "target": [
       606,
       264,
-      653,
-      305
+      47,
+      41
     ],
     "template": "ui/ui_main_goto_raid.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       1006,
       288,
-      1155,
-      436
+      149,
+      148
     ],
     "target": [
       647,
       670,
-      774,
-      710
+      127,
+      40
     ],
     "template": "ui/ui_main_goto_reshmenu.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "target": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "template": "ui/ui_main_goto_reward.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       74,
       677,
-      158,
-      701
+      84,
+      24
     ],
     "target": [
       74,
       677,
-      158,
-      701
+      84,
+      24
     ],
     "template": "ui/ui_main_goto_shop.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       340,
       673,
-      473,
-      710
+      133,
+      37
     ],
     "target": [
       340,
       673,
-      473,
-      710
+      133,
+      37
     ],
     "template": "ui/ui_main_goto_storage.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       132,
       12,
-      245,
-      44
+      113,
+      32
     ],
     "target": [
       132,
       12,
-      245,
-      44
+      113,
+      32
     ],
     "template": "ui/ui_meowfficer_check.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       15,
       4,
-      61,
-      49
+      46,
+      45
     ],
     "target": [
       15,
       4,
-      61,
-      49
+      46,
+      45
     ],
     "template": "ui/ui_meowfficer_goto_dormmenu.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       1089,
       608,
-      1240,
-      647
+      151,
+      39
     ],
     "target": [
       1089,
       608,
-      1240,
-      647
+      151,
+      39
     ],
     "template": "ui/ui_meowfficer_info.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       125,
       11,
-      235,
-      39
+      110,
+      28
     ],
     "target": [
       125,
       11,
-      235,
-      39
+      110,
+      28
     ],
     "template": "ui/ui_meta_check.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       120,
       14,
-      173,
-      40
+      53,
+      26
     ],
     "target": [
       120,
       14,
-      173,
-      40
+      53,
+      26
     ],
     "template": "ui/ui_mission_check.png"
   },
@@ -1824,14 +1824,14 @@
     "roi": [
       59,
       371,
-      126,
-      397
+      67,
+      26
     ],
     "target": [
       59,
       371,
-      126,
-      397
+      67,
+      26
     ],
     "template": "ui/ui_munitions_check.png"
   },
@@ -1842,14 +1842,14 @@
     "roi": [
       613,
       17,
-      627,
-      34
+      14,
+      17
     ],
     "target": [
       613,
       17,
-      627,
-      34
+      14,
+      17
     ],
     "template": "ui/ui_os_check.png"
   },
@@ -1860,14 +1860,14 @@
     "roi": [
       26,
       668,
-      139,
-      689
+      113,
+      21
     ],
     "target": [
       26,
       668,
-      139,
-      689
+      113,
+      21
     ],
     "template": "ui/ui_player_check.png"
   },
@@ -1878,14 +1878,14 @@
     "roi": [
       1107,
       19,
-      1143,
-      51
+      36,
+      32
     ],
     "target": [
       1107,
       19,
-      1143,
-      51
+      36,
+      32
     ],
     "template": "ui/ui_pq_goto_main.png"
   },
@@ -1896,14 +1896,14 @@
     "roi": [
       128,
       21,
-      216,
-      45
+      88,
+      24
     ],
     "target": [
       128,
       21,
-      216,
-      45
+      88,
+      24
     ],
     "template": "ui/ui_private_quarters_check.png"
   },
@@ -1914,14 +1914,14 @@
     "roi": [
       107,
       13,
-      217,
-      40
+      110,
+      27
     ],
     "target": [
       107,
       13,
-      217,
-      40
+      110,
+      27
     ],
     "template": "ui/ui_raid_check.png"
   },
@@ -1932,14 +1932,14 @@
     "roi": [
       129,
       23,
-      210,
-      45
+      81,
+      22
     ],
     "target": [
       129,
       23,
-      210,
-      45
+      81,
+      22
     ],
     "template": "ui/ui_raid_check_20260827.png"
   },
@@ -1950,14 +1950,14 @@
     "roi": [
       117,
       14,
-      171,
-      40
+      54,
+      26
     ],
     "target": [
       117,
       14,
-      171,
-      40
+      54,
+      26
     ],
     "template": "ui/ui_research_check.png"
   },
@@ -1968,14 +1968,14 @@
     "roi": [
       116,
       13,
-      174,
-      42
+      58,
+      29
     ],
     "target": [
       116,
       13,
-      174,
-      42
+      58,
+      29
     ],
     "template": "ui/ui_reshmenu_check.png"
   },
@@ -1986,14 +1986,14 @@
     "roi": [
       1076,
       254,
-      1155,
-      334
+      79,
+      80
     ],
     "target": [
       1076,
       254,
-      1155,
-      334
+      79,
+      80
     ],
     "template": "ui/ui_reshmenu_goto_meta.png"
   },
@@ -2004,14 +2004,14 @@
     "roi": [
       308,
       268,
-      466,
-      422
+      158,
+      154
     ],
     "target": [
       308,
       268,
-      466,
-      422
+      158,
+      154
     ],
     "template": "ui/ui_reshmenu_goto_research.png"
   },
@@ -2022,14 +2022,14 @@
     "roi": [
       567,
       275,
-      731,
-      397
+      164,
+      122
     ],
     "target": [
       567,
       275,
-      731,
-      397
+      164,
+      122
     ],
     "template": "ui/ui_reshmenu_goto_shipyard.png"
   },
@@ -2040,14 +2040,14 @@
     "roi": [
       219,
       107,
-      267,
-      158
+      48,
+      51
     ],
     "target": [
       219,
       107,
-      267,
-      158
+      48,
+      51
     ],
     "template": "ui/ui_reward_check.png"
   },
@@ -2058,14 +2058,14 @@
     "roi": [
       580,
       117,
-      620,
-      155
+      40,
+      38
     ],
     "target": [
       580,
       117,
-      620,
-      155
+      40,
+      38
     ],
     "template": "ui/ui_reward_goto_battle_pass.png"
   },
@@ -2076,14 +2076,14 @@
     "roi": [
       431,
       274,
-      476,
-      295
+      45,
+      21
     ],
     "target": [
       393,
       262,
-      514,
-      303
+      121,
+      41
     ],
     "template": "ui/ui_reward_goto_commission.png"
   },
@@ -2094,14 +2094,14 @@
     "roi": [
       219,
       107,
-      267,
-      158
+      48,
+      51
     ],
     "target": [
       787,
       602,
-      867,
-      642
+      80,
+      40
     ],
     "template": "ui/ui_reward_goto_main.png"
   },
@@ -2112,14 +2112,14 @@
     "roi": [
       431,
       416,
-      476,
-      437
+      45,
+      21
     ],
     "target": [
       393,
       404,
-      514,
-      445
+      121,
+      41
     ],
     "template": "ui/ui_reward_goto_tactical.png"
   },
@@ -2130,14 +2130,14 @@
     "roi": [
       8,
       130,
-      82,
-      148
+      74,
+      18
     ],
     "target": [
       8,
       130,
-      82,
-      148
+      74,
+      18
     ],
     "template": "ui/ui_shipyard_check.png"
   },
@@ -2148,14 +2148,14 @@
     "roi": [
       43,
       35,
-      57,
-      56
+      14,
+      21
     ],
     "target": [
       43,
       35,
-      57,
-      56
+      14,
+      21
     ],
     "template": "ui/ui_shop_back_arrow.png"
   },
@@ -2166,14 +2166,14 @@
     "roi": [
       127,
       22,
-      217,
-      42
+      90,
+      20
     ],
     "target": [
       127,
       22,
-      217,
-      42
+      90,
+      20
     ],
     "template": "ui/ui_shop_check.png"
   },
@@ -2184,14 +2184,14 @@
     "roi": [
       963,
       539,
-      1241,
-      635
+      278,
+      96
     ],
     "target": [
       963,
       539,
-      1241,
-      635
+      278,
+      96
     ],
     "template": "ui/ui_shop_goto_munitions.png"
   },
@@ -2202,14 +2202,14 @@
     "roi": [
       1044,
       321,
-      1094,
-      366
+      50,
+      45
     ],
     "target": [
       902,
       105,
-      1211,
-      490
+      309,
+      385
     ],
     "template": "ui/ui_shop_goto_supply_pack.png"
   },
@@ -2220,14 +2220,14 @@
     "roi": [
       125,
       66,
-      205,
-      107
+      80,
+      41
     ],
     "target": [
       125,
       66,
-      205,
-      107
+      80,
+      41
     ],
     "template": "ui/ui_sp_check.png"
   },
@@ -2238,14 +2238,14 @@
     "roi": [
       121,
       13,
-      176,
-      41
+      55,
+      28
     ],
     "target": [
       121,
       13,
-      176,
-      41
+      55,
+      28
     ],
     "template": "ui/ui_storage_check.png"
   },
@@ -2256,14 +2256,14 @@
     "roi": [
       61,
       237,
-      102,
-      265
+      41,
+      28
     ],
     "target": [
       61,
       237,
-      102,
-      265
+      41,
+      28
     ],
     "template": "ui/ui_supply_pack_check.png"
   },
@@ -2274,14 +2274,14 @@
     "roi": [
       122,
       12,
-      232,
-      37
+      110,
+      25
     ],
     "target": [
       122,
       12,
-      232,
-      37
+      110,
+      25
     ],
     "template": "ui/ui_tactical_check.png"
   },
@@ -2292,14 +2292,14 @@
     "roi": [
       95,
       41,
-      114,
-      70
+      19,
+      29
     ],
     "target": [
       95,
       41,
-      114,
-      70
+      19,
+      29
     ],
     "template": "ui/ui_war_archives_check.png"
   },
@@ -2310,14 +2310,14 @@
     "roi": [
       95,
       41,
-      114,
-      70
+      19,
+      29
     ],
     "target": [
       14,
       312,
-      69,
-      467
+      55,
+      155
     ],
     "template": "ui/ui_war_archives_goto_campaign_menu.png"
   }

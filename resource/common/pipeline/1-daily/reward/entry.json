@@ -17,14 +17,14 @@
     "roi": [
       1041,
       8,
-      1101,
-      39
+      60,
+      31
     ],
     "target": [
       1041,
       8,
-      1101,
-      39
+      60,
+      31
     ],
     "template": "reward/reward_mission_multi.png"
   },
@@ -43,14 +43,14 @@
     "roi": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "target": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "template": "ui/ui_main_goto_reward.png"
   },
@@ -64,14 +64,14 @@
     "roi": [
       279,
       48,
-      308,
-      73
+      29,
+      25
     ],
     "target": [
       279,
       48,
-      308,
-      73
+      29,
+      25
     ],
     "template": "reward/reward_coin.png"
   }

@@ -6,14 +6,14 @@
     "roi": [
       801,
       479,
-      1033,
-      510
+      232,
+      31
     ],
     "target": [
       801,
       479,
-      1033,
-      510
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_business_delivery_amoma_interact.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       805,
       477,
-      1087,
-      512
+      282,
+      35
     ],
     "target": [
       805,
       477,
-      1087,
-      512
+      282,
+      35
     ],
     "template": "island_daily_interact/island_daily_interact_business_delivery_bulaimei_interact.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       801,
       412,
-      1033,
-      445
+      232,
+      33
     ],
     "target": [
       801,
       412,
-      1033,
-      445
+      232,
+      33
     ],
     "template": "island_daily_interact/island_daily_interact_business_delivery_three_option_interact.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "target": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_business_delivery_two_option_interact.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       25,
       315,
-      96,
-      334
+      71,
+      19
     ],
     "target": [
       25,
       315,
-      96,
-      334
+      71,
+      19
     ],
     "template": "island_daily_interact/island_daily_interact_development_plan_daily_tab.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       25,
       315,
-      96,
-      334
+      71,
+      19
     ],
     "target": [
       25,
       315,
-      96,
-      334
+      71,
+      19
     ],
     "template": "island_daily_interact/island_daily_interact_development_plan_daily_tab_check.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       25,
       380,
-      96,
-      400
+      71,
+      20
     ],
     "target": [
       25,
       380,
-      96,
-      400
+      71,
+      20
     ],
     "template": "island_daily_interact/island_daily_interact_development_plan_weekly_tab.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       25,
       380,
-      96,
-      400
+      71,
+      20
     ],
     "target": [
       25,
       380,
-      96,
-      400
+      71,
+      20
     ],
     "template": "island_daily_interact/island_daily_interact_development_plan_weekly_tab_check.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       124,
       20,
-      289,
-      46
+      165,
+      26
     ],
     "target": [
       124,
       20,
-      289,
-      46
+      165,
+      26
     ],
     "template": "island_daily_interact/island_daily_interact_island_development_plan_check.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1059,
       335,
-      1175,
-      373
+      116,
+      38
     ],
     "target": [
       1059,
       335,
-      1175,
-      373
+      116,
+      38
     ],
     "template": "island_daily_interact/island_daily_interact_island_phone_development_plan.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       801,
       479,
-      1033,
-      510
+      232,
+      31
     ],
     "target": [
       801,
       479,
-      1033,
-      510
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_amoma_interact.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "target": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_aobulaien_interact.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       801,
       443,
-      1033,
-      480
+      232,
+      37
     ],
     "target": [
       801,
       443,
-      1033,
-      480
+      232,
+      37
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_aolipike_interact.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       801,
       407,
-      1033,
-      440
+      232,
+      33
     ],
     "target": [
       801,
       407,
-      1033,
-      440
+      232,
+      33
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_lakeniya_interact.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "target": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_lisha_interact.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       801,
       412,
-      1033,
-      445
+      232,
+      33
     ],
     "target": [
       801,
       412,
-      1033,
-      445
+      232,
+      33
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_luxi_interact.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "target": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_meili_interact.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "target": [
       801,
       445,
-      1033,
-      476
+      232,
+      31
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_pateli_interact.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       801,
       443,
-      1033,
-      480
+      232,
+      37
     ],
     "target": [
       801,
       443,
-      1033,
-      480
+      232,
+      37
     ],
     "template": "island_daily_interact/island_daily_interact_juu_express_qiaoan_interact.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       801,
       379,
-      1033,
-      408
+      232,
+      29
     ],
     "target": [
       801,
       379,
-      1033,
-      408
+      232,
+      29
     ],
     "template": "island_daily_interact/island_daily_interact_pet_cat_farm_interact.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       801,
       312,
-      1033,
-      344
+      232,
+      32
     ],
     "target": [
       801,
       312,
-      1033,
-      344
+      232,
+      32
     ],
     "template": "island_daily_interact/island_daily_interact_route_three_option_complete.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       801,
       344,
-      1033,
-      373
+      232,
+      29
     ],
     "target": [
       801,
       344,
-      1033,
-      373
+      232,
+      29
     ],
     "template": "island_daily_interact/island_daily_interact_route_two_option_complete.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       1110,
       575,
-      1145,
-      610
+      35,
+      35
     ],
     "target": [
       1110,
       575,
-      1145,
-      610
+      35,
+      35
     ],
     "template": "island_daily_interact/island_daily_interact_weekly_photo_camera.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       1080,
       650,
-      1180,
-      720
+      100,
+      70
     ],
     "target": [
       1080,
       650,
-      1180,
-      720
+      100,
+      70
     ],
     "template": "island_daily_interact/island_daily_interact_weekly_photo_idle.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       647,
       107,
-      804,
-      141
+      157,
+      34
     ],
     "target": [
       1207,
       297,
-      1234,
-      321
+      27,
+      24
     ],
     "template": "island_daily_interact/island_daily_interact_weekly_photo_task_check.png"
   }

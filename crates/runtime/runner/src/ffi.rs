@@ -107,8 +107,7 @@ impl MaaEngine {
     /// 列出可控制的桌面窗口（Windows/macOS/Linux）。
     pub fn list_windows() -> Result<Vec<(usize, String, String)>, String> {
         Toolkit::init_option("./", "{}").map_err(|e| format!("Toolkit 初始化失败: {e}"))?;
-        let list = Toolkit::find_desktop_windows()
-            .map_err(|e| format!("枚举窗口失败: {e}"))?;
+        let list = Toolkit::find_desktop_windows().map_err(|e| format!("枚举窗口失败: {e}"))?;
         Ok(list
             .into_iter()
             .map(|w| (w.hwnd, w.class_name, w.window_name))
@@ -163,7 +162,10 @@ impl MaaEngine {
         impl WindowController {
             fn shell(&self, cmd: &str) -> bool {
                 if self.use_su {
-                    crate::android_display::run_shell(&format!("su -c '{}'", cmd.replace('\'', "'\\''")))
+                    crate::android_display::run_shell(&format!(
+                        "su -c '{}'",
+                        cmd.replace('\'', "'\\''")
+                    ))
                 } else {
                     crate::android_display::run_shell(cmd)
                 }
@@ -201,7 +203,12 @@ impl MaaEngine {
                 let n = self.clicks.lock().map(|c| c.len()).unwrap_or(0);
                 format!(
                     r#"{{"package":"{}","rect":[{},{},{},{}],"clicks":{}}}"#,
-                    self.package, self.rect.left, self.rect.top, self.rect.width, self.rect.height, n
+                    self.package,
+                    self.rect.left,
+                    self.rect.top,
+                    self.rect.width,
+                    self.rect.height,
+                    n
                 )
             }
         }
@@ -266,8 +273,8 @@ impl MaaEngine {
             cmds,
             seq: AtomicU64::new(0),
         };
-        let controller = Controller::new_custom(ctrl)
-            .map_err(|e| format!("创建 display 控制器失败: {e}"))?;
+        let controller =
+            Controller::new_custom(ctrl).map_err(|e| format!("创建 display 控制器失败: {e}"))?;
         let conn = controller
             .post_connection()
             .map_err(|e| format!("display 控制器连接失败: {e}"))?;
@@ -421,40 +428,49 @@ impl Engine for MaaEngine {
 ///
 /// 静态模式（`maa` feature 且不带 dynamic）什么都不做——链接期已经绑好了。
 pub fn init_framework() -> Result<(), String> {
-    if !cfg!(feature = "maa-dynamic") {
+    // 静态链接时 `load_library` 根本不存在（crate 用 cfg 干掉），所以必须编译期分支
+    #[cfg(not(feature = "maa-dynamic"))]
+    {
         return Ok(());
     }
-
-    let mut candidates: Vec<PathBuf> = Vec::new();
-    if let Ok(dir) = std::env::var("MAAFW_BINARY_PATH") {
-        let dir = PathBuf::from(dir);
+    #[cfg(feature = "maa-dynamic")]
+    {
+        let mut candidates: Vec<PathBuf> = Vec::new();
+        if let Ok(dir) = std::env::var("MAAFW_BINARY_PATH") {
+            let dir = PathBuf::from(dir);
+            for name in LIB_NAMES {
+                candidates.push(dir.join(name));
+            }
+            candidates.push(dir);
+        }
+        for sdk in ["MAA-android-aarch64", "MAA-linux-aarch64"] {
+            for name in LIB_NAMES {
+                candidates.push(PathBuf::from(sdk).join("bin").join(name));
+            }
+        }
         for name in LIB_NAMES {
-            candidates.push(dir.join(name));
+            candidates.push(PathBuf::from(name));
         }
-        candidates.push(dir);
-    }
-    for sdk in ["MAA-android-aarch64", "MAA-linux-aarch64"] {
-        for name in LIB_NAMES {
-            candidates.push(PathBuf::from(sdk).join("bin").join(name));
-        }
-    }
-    for name in LIB_NAMES {
-        candidates.push(PathBuf::from(name));
-    }
 
-    for c in &candidates {
-        if c.is_file()
-            && c.file_name()
-                .and_then(|n| n.to_str())
-                .is_some_and(|n| n.contains("MaaFramework"))
-        {
-            return maa_framework::load_library(c);
+        for c in &candidates {
+            if c.is_file()
+                && c.file_name()
+                    .and_then(|n| n.to_str())
+                    .is_some_and(|n| n.contains("MaaFramework"))
+            {
+                return maa_framework::load_library(c);
+            }
         }
+        Err(format!(
+            "找不到 libMaaFramework.so：设 MAAFW_BINARY_PATH 或在仓库里放 MAA-android-aarch64/bin（找过 {:?}）",
+            candidates.first()
+        ))
     }
-    Err(format!(
-        "找不到 libMaaFramework.so：设 MAAFW_BINARY_PATH 或在仓库里放 MAA-android-aarch64/bin（找过 {:?}）",
-        candidates.first()
-    ))
 }
 
-const LIB_NAMES: [&str; 3] = ["libMaaFramework.so", "MaaFramework.dll", "libMaaFramework.dylib"];
+#[cfg(feature = "maa-dynamic")]
+const LIB_NAMES: [&str; 3] = [
+    "libMaaFramework.so",
+    "MaaFramework.dll",
+    "libMaaFramework.dylib",
+];

@@ -9,14 +9,14 @@
     "roi": [
       686,
       586,
-      788,
-      638
+      102,
+      52
     ],
     "target": [
       686,
       586,
-      788,
-      638
+      102,
+      52
     ],
     "template": "ui/ui_campaign_menu_goto_daily.png"
   },
@@ -30,14 +30,14 @@
     "roi": [
       1011,
       586,
-      1106,
-      638
+      95,
+      52
     ],
     "target": [
       1011,
       586,
-      1106,
-      638
+      95,
+      52
     ],
     "template": "ui/ui_campaign_menu_goto_exercise.png"
   },
@@ -51,14 +51,14 @@
     "roi": [
       1029,
       304,
-      1102,
-      342
+      73,
+      38
     ],
     "target": [
       1021,
       292,
-      1160,
-      432
+      139,
+      140
     ],
     "template": "ui/ui_main_goto_campaign.png"
   },
@@ -69,14 +69,14 @@
     "roi": [
       355,
       439,
-      501,
-      506
+      146,
+      67
     ],
     "target": [
       355,
       439,
-      501,
-      506
+      146,
+      67
     ],
     "template": "ui/ui_campaign_menu_check.png"
   },
@@ -87,14 +87,14 @@
     "roi": [
       23,
       656,
-      67,
-      698
+      44,
+      42
     ],
     "target": [
       23,
       656,
-      67,
-      698
+      44,
+      42
     ],
     "template": "ui/ui_daily_check.png"
   },
@@ -105,14 +105,14 @@
     "roi": [
       1065,
       340,
-      1204,
-      382
+      139,
+      42
     ],
     "target": [
       1065,
       340,
-      1204,
-      382
+      139,
+      42
     ],
     "template": "ui/ui_exercise_check.png"
   },
@@ -123,14 +123,14 @@
     "roi": [
       859,
       372,
-      936,
-      410
+      77,
+      38
     ],
     "target": [
       749,
       364,
-      992,
-      430
+      243,
+      66
     ],
     "template": "ui/ui_main_goto_fleet.png"
   }

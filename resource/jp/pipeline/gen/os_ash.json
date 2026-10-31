@@ -6,14 +6,14 @@
     "roi": [
       640,
       27,
-      720,
-      49
+      80,
+      22
     ],
     "target": [
       640,
       27,
-      720,
-      49
+      80,
+      22
     ],
     "template": "os_ash/os_ash_ash_collect_status.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       637,
       2,
-      741,
-      18
+      104,
+      16
     ],
     "target": [
       637,
       2,
-      741,
-      18
+      104,
+      16
     ],
     "template": "os_ash/os_ash_ash_daily_status.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       22,
       25,
-      54,
-      48
+      32,
+      23
     ],
     "target": [
       22,
       25,
-      54,
-      48
+      32,
+      23
     ],
     "template": "os_ash/os_ash_ash_quit.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       122,
       15,
-      246,
-      39
+      124,
+      24
     ],
     "target": [
       122,
       15,
-      246,
-      39
+      124,
+      24
     ],
     "template": "os_ash/os_ash_ash_showdown.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1058,
       634,
-      1260,
-      697
+      202,
+      63
     ],
     "target": [
       1058,
       634,
-      1260,
-      697
+      202,
+      63
     ],
     "template": "os_ash/os_ash_ash_start.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1087,
       642,
-      1127,
-      679
+      40,
+      37
     ],
     "target": [
       1087,
       642,
-      1127,
-      679
+      40,
+      37
     ],
     "template": "os_ash/os_ash_battle_status.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       465,
       286,
-      664,
-      318
+      199,
+      32
     ],
     "target": [
       465,
       286,
-      664,
-      318
+      199,
+      32
     ],
     "template": "os_ash/os_ash_beacon_empty.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "target": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "template": "os_ash/os_ash_beacon_list.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "target": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "template": "os_ash/os_ash_beacon_my.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       180,
       368,
-      449,
-      440
+      269,
+      72
     ],
     "target": [
       180,
       368,
-      449,
-      440
+      269,
+      72
     ],
     "template": "os_ash/os_ash_beacon_next.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1014,
       25,
-      1073,
-      48
+      59,
+      23
     ],
     "target": [
       1014,
       25,
-      1073,
-      48
+      59,
+      23
     ],
     "template": "os_ash/os_ash_beacon_remain.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1051,
       644,
-      1179,
-      674
+      128,
+      30
     ],
     "target": [
       1043,
       637,
-      1242,
-      698
+      199,
+      61
     ],
     "template": "os_ash/os_ash_beacon_reward.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       100,
       562,
-      200,
-      637
+      100,
+      75
     ],
     "target": [
       100,
       562,
-      200,
-      637
+      100,
+      75
     ],
     "template": "os_ash/os_ash_beacon_tier.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "target": [
       22,
       645,
-      221,
-      706
+      199,
+      61
     ],
     "template": "os_ash/os_ash_dossier_list.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       391,
       270,
-      557,
-      439
+      166,
+      169
     ],
     "target": [
       391,
       270,
-      557,
-      439
+      166,
+      169
     ],
     "template": "os_ash/os_ash_help_1.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       584,
       270,
-      750,
-      439
+      166,
+      169
     ],
     "target": [
       584,
       270,
-      750,
-      439
+      166,
+      169
     ],
     "template": "os_ash/os_ash_help_2.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       778,
       271,
-      941,
-      438
+      163,
+      167
     ],
     "target": [
       778,
       271,
-      941,
-      438
+      163,
+      167
     ],
     "template": "os_ash/os_ash_help_3.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       741,
       500,
-      915,
-      557
+      174,
+      57
     ],
     "target": [
       741,
       500,
-      915,
-      557
+      174,
+      57
     ],
     "template": "os_ash/os_ash_help_confirm.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       866,
       636,
-      1010,
-      697
+      144,
+      61
     ],
     "target": [
       866,
       636,
-      1010,
-      697
+      144,
+      61
     ],
     "template": "os_ash/os_ash_help_enter.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       717,
       493,
-      884,
-      547
+      167,
+      54
     ],
     "target": [
       717,
       493,
-      884,
-      547
+      167,
+      54
     ],
     "template": "os_ash/os_ash_meta_auto_attack_confirm.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       746,
       648,
-      777,
-      683
+      31,
+      35
     ],
     "target": [
       746,
       648,
-      777,
-      683
+      31,
+      35
     ],
     "template": "os_ash/os_ash_meta_auto_attack_start.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       746,
       649,
-      778,
-      680
+      32,
+      31
     ],
     "target": [
       746,
       649,
-      778,
-      680
+      32,
+      31
     ],
     "template": "os_ash/os_ash_meta_auto_attacking.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       563,
       498,
-      717,
-      540
+      154,
+      42
     ],
     "target": [
       563,
       498,
-      717,
-      540
+      154,
+      42
     ],
     "template": "os_ash/os_ash_meta_auto_confirm.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       840,
       22,
-      951,
-      45
+      111,
+      23
     ],
     "target": [
       840,
       22,
-      951,
-      45
+      111,
+      23
     ],
     "template": "os_ash/os_ash_meta_beacon_data.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       788,
       22,
-      811,
-      45
+      23,
+      23
     ],
     "target": [
       788,
       22,
-      811,
-      45
+      23,
+      23
     ],
     "template": "os_ash/os_ash_meta_beacon_flag.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       652,
       348,
-      706,
-      371
+      54,
+      23
     ],
     "target": [
       546,
       115,
-      748,
-      503
+      202,
+      388
     ],
     "template": [
       "os_ash/os_ash_meta_begin_entrance/"
@@ -476,14 +476,14 @@
     "roi": [
       1196,
       380,
-      1276,
-      416
+      80,
+      36
     ],
     "target": [
       1196,
       380,
-      1276,
-      416
+      80,
+      36
     ],
     "template": "os_ash/os_ash_meta_damage.png"
   },
@@ -494,14 +494,14 @@
     "roi": [
       1050,
       22,
-      1161,
-      46
+      111,
+      24
     ],
     "target": [
       1050,
       22,
-      1161,
-      46
+      111,
+      24
     ],
     "template": "os_ash/os_ash_meta_dossier_data.png"
   },
@@ -512,14 +512,14 @@
     "roi": [
       999,
       22,
-      1022,
-      45
+      23,
+      23
     ],
     "target": [
       999,
       22,
-      1022,
-      45
+      23,
+      23
     ],
     "template": "os_ash/os_ash_meta_dossier_flag.png"
   },
@@ -530,14 +530,14 @@
     "roi": [
       578,
       463,
-      623,
-      493
+      45,
+      30
     ],
     "target": [
       578,
       463,
-      623,
-      493
+      45,
+      30
     ],
     "template": "os_ash/os_ash_meta_entrance.png"
   },
@@ -548,14 +548,14 @@
     "roi": [
       937,
       109,
-      1088,
-      128
+      151,
+      19
     ],
     "target": [
       937,
       109,
-      1088,
-      128
+      151,
+      19
     ],
     "template": "os_ash/os_ash_meta_inner_page_damage.png"
   },
@@ -566,14 +566,14 @@
     "roi": [
       938,
       109,
-      1088,
-      128
+      150,
+      19
     ],
     "target": [
       938,
       109,
-      1088,
-      128
+      150,
+      19
     ],
     "template": "os_ash/os_ash_meta_inner_page_not_damage.png"
   },
@@ -584,14 +584,14 @@
     "roi": [
       275,
       162,
-      567,
-      557
+      292,
+      395
     ],
     "target": [
       275,
       162,
-      567,
-      557
+      292,
+      395
     ],
     "template": "os_ash/os_ash_meta_main_beacon_entrance.png"
   },
@@ -602,14 +602,14 @@
     "roi": [
       900,
       526,
-      925,
-      539
+      25,
+      13
     ],
     "target": [
       706,
       163,
-      998,
-      557
+      292,
+      394
     ],
     "template": "os_ash/os_ash_meta_main_dossier_entrance.png"
   }

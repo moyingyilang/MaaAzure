@@ -6,14 +6,14 @@
     "roi": [
       673,
       357,
-      705,
-      396
+      32,
+      39
     ],
     "target": [
       673,
       357,
-      705,
-      396
+      32,
+      39
     ],
     "template": "daily/daily_active.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       534,
       118,
-      744,
-      645
+      210,
+      527
     ],
     "target": [
       534,
       118,
-      744,
-      645
+      210,
+      527
     ],
     "template": "daily/daily_enter.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1221,
       136,
-      1230,
-      143
+      9,
+      7
     ],
     "target": [
       1221,
       136,
-      1230,
-      143
+      9,
+      7
     ],
     "template": "daily/daily_enter_check.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       606,
       246,
-      673,
-      293
+      67,
+      47
     ],
     "target": [
       606,
       246,
-      673,
-      293
+      67,
+      47
     ],
     "template": "daily/daily_entrance_emergency_module_development.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       914,
       325,
-      931,
-      354
+      17,
+      29
     ],
     "target": [
       914,
       325,
-      931,
-      354
+      17,
+      29
     ],
     "template": "daily/daily_fleet_next.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       36,
       325,
-      53,
-      354
+      17,
+      29
     ],
     "target": [
       36,
       325,
-      53,
-      354
+      17,
+      29
     ],
     "template": "daily/daily_fleet_prev.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       710,
       359,
-      748,
-      409
+      38,
+      50
     ],
     "target": [
       710,
       359,
-      748,
-      409
+      38,
+      50
     ],
     "template": "daily/daily_locked.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       584,
       203,
-      701,
-      214
+      117,
+      11
     ],
     "target": [
       584,
       203,
-      701,
-      214
+      117,
+      11
     ],
     "template": "daily/daily_mission_1.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       584,
       363,
-      701,
-      374
+      117,
+      11
     ],
     "target": [
       584,
       363,
-      701,
-      374
+      117,
+      11
     ],
     "template": "daily/daily_mission_2.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       583,
       522,
-      701,
-      534
+      118,
+      12
     ],
     "target": [
       583,
       522,
-      701,
-      534
+      118,
+      12
     ],
     "template": "daily/daily_mission_3.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       811,
       151,
-      1004,
-      612
+      193,
+      461
     ],
     "target": [
       811,
       151,
-      1004,
-      612
+      193,
+      461
     ],
     "template": "daily/daily_next.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       413,
       299,
-      555,
-      345
+      142,
+      46
     ],
     "target": [
       413,
       299,
-      555,
-      345
+      142,
+      46
     ],
     "template": "daily/daily_normal_run.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       525,
       605,
-      561,
-      667
+      36,
+      62
     ],
     "target": [
       525,
       605,
-      561,
-      667
+      36,
+      62
     ],
     "template": "daily/daily_ocr_daily_fleet_index.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       526,
       114,
-      546,
-      144
+      20,
+      30
     ],
     "target": [
       526,
       114,
-      546,
-      144
+      20,
+      30
     ],
     "template": "daily/daily_ocr_remain.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       282,
       163,
-      456,
-      600
+      174,
+      437
     ],
     "target": [
       282,
       163,
-      456,
-      600
+      174,
+      437
     ],
     "template": "daily/daily_prev.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1034,
       331,
-      1116,
-      340
+      82,
+      9
     ],
     "target": [
       1034,
       331,
-      1116,
-      340
+      82,
+      9
     ],
     "template": "daily/daily_skip.png"
   }

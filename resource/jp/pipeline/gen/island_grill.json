@@ -6,14 +6,14 @@
     "roi": [
       199,
       132,
-      285,
-      159
+      86,
+      27
     ],
     "target": [
       257,
       187,
-      335,
-      261
+      78,
+      74
     ],
     "template": "island_grill/island_grill_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       199,
       132,
-      285,
-      159
+      86,
+      27
     ],
     "target": [
       355,
       190,
-      426,
-      259
+      71,
+      69
     ],
     "template": "island_grill/island_grill_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       604,
       306,
-      676,
-      363
+      72,
+      57
     ],
     "target": [
       604,
       306,
-      676,
-      363
+      72,
+      57
     ],
     "template": "island_grill/island_grill_post_carnival.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       608,
       314,
-      678,
-      362
+      70,
+      48
     ],
     "target": [
       608,
       314,
-      678,
-      362
+      70,
+      48
     ],
     "template": "island_grill/island_grill_post_carrot_omelette.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       607,
       316,
-      675,
-      363
+      68,
+      47
     ],
     "target": [
       607,
       316,
-      675,
-      363
+      68,
+      47
     ],
     "template": "island_grill/island_grill_post_chicken_potato.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_grill/island_grill_post_crayfish_stir_fry.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       607,
       308,
-      674,
-      363
+      67,
+      55
     ],
     "target": [
       607,
       308,
-      674,
-      363
+      67,
+      55
     ],
     "template": "island_grill/island_grill_post_double_energy.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       609,
       318,
-      674,
-      363
+      65,
+      45
     ],
     "target": [
       609,
       318,
-      674,
-      363
+      65,
+      45
     ],
     "template": "island_grill/island_grill_post_roasted_skewer.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       610,
       319,
-      671,
-      361
+      61,
+      42
     ],
     "target": [
       610,
       319,
-      671,
-      361
+      61,
+      42
     ],
     "template": "island_grill/island_grill_post_steak_bowl.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       605,
       320,
-      676,
-      361
+      71,
+      41
     ],
     "target": [
       605,
       320,
-      676,
-      361
+      71,
+      41
     ],
     "template": "island_grill/island_grill_post_stir_fried_chicken.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       210,
       398,
-      289,
-      468
+      79,
+      70
     ],
     "target": [
       210,
       398,
-      289,
-      468
+      79,
+      70
     ],
     "template": "island_grill/island_grill_select_carnival.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       741,
       233,
-      846,
-      327
+      105,
+      94
     ],
     "target": [
       741,
       233,
-      846,
-      327
+      105,
+      94
     ],
     "template": "island_grill/island_grill_select_carnival_check.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       212,
       280,
-      289,
-      338
+      77,
+      58
     ],
     "target": [
       212,
       280,
-      289,
-      338
+      77,
+      58
     ],
     "template": "island_grill/island_grill_select_carrot_omelette.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       742,
       241,
-      847,
-      318
+      105,
+      77
     ],
     "target": [
       742,
       241,
-      847,
-      318
+      105,
+      77
     ],
     "template": "island_grill/island_grill_select_carrot_omelette_check.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       212,
       307,
-      282,
-      360
+      70,
+      53
     ],
     "target": [
       212,
       307,
-      282,
-      360
+      70,
+      53
     ],
     "template": "island_grill/island_grill_select_chicken_potato.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       743,
       246,
-      839,
-      323
+      96,
+      77
     ],
     "target": [
       743,
       246,
-      839,
-      323
+      96,
+      77
     ],
     "template": "island_grill/island_grill_select_chicken_potato_check.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       212,
       258,
-      289,
-      314
+      77,
+      56
     ],
     "target": [
       212,
       258,
-      289,
-      314
+      77,
+      56
     ],
     "template": "island_grill/island_grill_select_crayfish_stir_fry.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_grill/island_grill_select_crayfish_stir_fry_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       213,
       551,
-      284,
-      616
+      71,
+      65
     ],
     "target": [
       213,
       551,
-      284,
-      616
+      71,
+      65
     ],
     "template": "island_grill/island_grill_select_double_energy.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       745,
       235,
-      840,
-      327
+      95,
+      92
     ],
     "target": [
       745,
       235,
-      840,
-      327
+      95,
+      92
     ],
     "template": "island_grill/island_grill_select_double_energy_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       213,
       154,
-      285,
-      210
+      72,
+      56
     ],
     "target": [
       213,
       154,
-      285,
-      210
+      72,
+      56
     ],
     "template": "island_grill/island_grill_select_roasted_skewer.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       745,
       244,
-      840,
-      322
+      95,
+      78
     ],
     "target": [
       745,
       244,
-      840,
-      322
+      95,
+      78
     ],
     "template": "island_grill/island_grill_select_roasted_skewer_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       215,
       263,
-      281,
-      316
+      66,
+      53
     ],
     "target": [
       215,
       263,
-      281,
-      316
+      66,
+      53
     ],
     "template": "island_grill/island_grill_select_steak_bowl.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       748,
       247,
-      836,
-      321
+      88,
+      74
     ],
     "target": [
       748,
       247,
-      836,
-      321
+      88,
+      74
     ],
     "template": "island_grill/island_grill_select_steak_bowl_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       212,
       456,
-      286,
-      504
+      74,
+      48
     ],
     "target": [
       212,
       456,
-      286,
-      504
+      74,
+      48
     ],
     "template": "island_grill/island_grill_select_stir_fried_chicken.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       740,
       248,
-      841,
-      316
+      101,
+      68
     ],
     "target": [
       740,
       248,
-      841,
-      316
+      101,
+      68
     ],
     "template": "island_grill/island_grill_select_stir_fried_chicken_check.png"
   },

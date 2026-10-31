@@ -6,12 +6,13 @@
 #   3) chroot 里 ./gradlew assembleRelease
 
 # 资源根：MaaAzure 仓库根（interface.json / resource / data 都在这里）
-assets: "../MaaAzure"
+# 相对本文件所在目录（Android/），所以 ".." 就是 MaaAzure 仓库根
+assets: ".."
 
 app:
   id: maazure          # → com.aliothmoon.maafw.maazure
   label: MaaAzure
-  icon: resource/icon.png   # 需要准备一张 png/webp
+  icon: icon.png
 
 # 只打运行必需的东西：四套服务器图 + 生成节点 + 手写管线 + 数据 + 文档白名单
 include:
@@ -40,7 +41,7 @@ agent:
   sourceDir: "./agent-dist"
   abi: [arm64-v8a]
   runtimes:
-    - location: jniLibs
+    - location: nativeLibs
       executable: libmaazure_agent.so
       name: maazure-agent
       env:

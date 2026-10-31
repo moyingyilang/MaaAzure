@@ -22,14 +22,14 @@
     "roi": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "target": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "template": "ui/ui_main_goto_reward.png"
   },
@@ -43,14 +43,14 @@
     "roi": [
       435,
       420,
-      498,
-      448
+      63,
+      28
     ],
     "target": [
       435,
       420,
-      498,
-      448
+      63,
+      28
     ],
     "template": "ui/ui_reward_goto_tactical.png"
   },
@@ -64,14 +64,14 @@
     "roi": [
       417,
       375,
-      438,
-      398
+      21,
+      23
     ],
     "target": [
       417,
       375,
-      438,
-      398
+      21,
+      23
     ],
     "template": "tactical/tactical_add_new_student.png"
   },
@@ -84,14 +84,14 @@
     "roi": [
       1024,
       590,
-      1197,
-      648
+      173,
+      58
     ],
     "target": [
       1024,
       590,
-      1197,
-      648
+      173,
+      58
     ],
     "template": "tactical/tactical_class_start.png"
   }

@@ -6,14 +6,14 @@
     "roi": [
       1139,
       87,
-      1232,
-      112
+      93,
+      25
     ],
     "target": [
       1139,
       87,
-      1232,
-      112
+      93,
+      25
     ],
     "template": "equipment/equipment_close.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1000,
       478,
-      1120,
-      518
+      120,
+      40
     ],
     "target": [
       1000,
       478,
-      1120,
-      518
+      120,
+      40
     ],
     "template": "equipment/equipment_code_clear.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1000,
       545,
-      1121,
-      585
+      121,
+      40
     ],
     "target": [
       1000,
       545,
-      1121,
-      585
+      121,
+      40
     ],
     "template": "equipment/equipment_code_confirm.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       876,
       669,
-      1003,
-      706
+      127,
+      37
     ],
     "target": [
       876,
       669,
-      1003,
-      706
+      127,
+      37
     ],
     "template": "equipment/equipment_code_enter.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       937,
       88,
-      1028,
-      111
+      91,
+      23
     ],
     "target": [
       937,
       88,
-      1028,
-      111
+      91,
+      23
     ],
     "template": "equipment/equipment_code_entrance.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       324,
       356,
-      407,
-      439
+      83,
+      83
     ],
     "target": [
       324,
       356,
-      407,
-      439
+      83,
+      83
     ],
     "template": "equipment/equipment_code_equip_0.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       424,
       356,
-      507,
-      439
+      83,
+      83
     ],
     "target": [
       424,
       356,
-      507,
-      439
+      83,
+      83
     ],
     "template": "equipment/equipment_code_equip_1.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       524,
       356,
-      607,
-      439
+      83,
+      83
     ],
     "target": [
       524,
       356,
-      607,
-      439
+      83,
+      83
     ],
     "template": "equipment/equipment_code_equip_2.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       624,
       356,
-      707,
-      439
+      83,
+      83
     ],
     "target": [
       624,
       356,
-      707,
-      439
+      83,
+      83
     ],
     "template": "equipment/equipment_code_equip_3.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       724,
       356,
-      807,
-      439
+      83,
+      83
     ],
     "target": [
       724,
       356,
-      807,
-      439
+      83,
+      83
     ],
     "template": "equipment/equipment_code_equip_4.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       823,
       355,
-      916,
-      440
+      93,
+      85
     ],
     "target": [
       823,
       355,
-      916,
-      440
+      93,
+      85
     ],
     "template": "equipment/equipment_code_equip_5.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       823,
       355,
-      916,
-      440
+      93,
+      85
     ],
     "target": [
       823,
       355,
-      916,
-      440
+      93,
+      85
     ],
     "template": "equipment/equipment_code_equip_5_locked.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1000,
       200,
-      1121,
-      241
+      121,
+      41
     ],
     "target": [
       1000,
       200,
-      1121,
-      241
+      121,
+      41
     ],
     "template": "equipment/equipment_code_export.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1000,
       113,
-      1050,
-      160
+      50,
+      47
     ],
     "target": [
       1000,
       113,
-      1050,
-      160
+      50,
+      47
     ],
     "template": "equipment/equipment_code_page_check.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       444,
       667,
-      836,
-      707
+      392,
+      40
     ],
     "target": [
       444,
       667,
-      836,
-      707
+      392,
+      40
     ],
     "template": "equipment/equipment_code_textbox.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       192,
       359,
-      268,
-      435
+      76,
+      76
     ],
     "target": [
       192,
       359,
-      268,
-      435
+      76,
+      76
     ],
     "template": "equipment/equipment_empty_ship_r.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       1191,
       265,
-      1248,
-      320
+      57,
+      55
     ],
     "target": [
       1191,
       265,
-      1248,
-      320
+      57,
+      55
     ],
     "template": "equipment/equipment_equip_1.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1191,
       365,
-      1248,
-      420
+      57,
+      55
     ],
     "target": [
       1191,
       365,
-      1248,
-      420
+      57,
+      55
     ],
     "template": "equipment/equipment_equip_2.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1190,
       467,
-      1249,
-      520
+      59,
+      53
     ],
     "target": [
       1190,
       467,
-      1249,
-      520
+      59,
+      53
     ],
     "template": "equipment/equipment_equip_3.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       792,
       623,
-      960,
-      674
+      168,
+      51
     ],
     "target": [
       792,
       623,
-      960,
-      674
+      168,
+      51
     ],
     "template": "equipment/equipment_equip_confirm.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       908,
       564,
-      1039,
-      612
+      131,
+      48
     ],
     "target": [
       908,
       564,
-      1039,
-      612
+      131,
+      48
     ],
     "template": "equipment/equipment_equip_off.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       407,
       312,
-      476,
-      404
+      69,
+      92
     ],
     "target": [
       407,
       312,
-      476,
-      404
+      69,
+      92
     ],
     "template": "equipment/equipment_equip_save.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1254,
       86,
-      1266,
-      588
+      12,
+      502
     ],
     "target": [
       1254,
       86,
-      1266,
-      588
+      12,
+      502
     ],
     "template": "equipment/equipment_equip_scroll.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       871,
       151,
-      955,
-      244
+      84,
+      93
     ],
     "target": [
       871,
       151,
-      955,
-      244
+      84,
+      93
     ],
     "template": "equipment/equipment_equip_take_on_0.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       907,
       338,
-      991,
-      431
+      84,
+      93
     ],
     "target": [
       907,
       338,
-      991,
-      431
+      84,
+      93
     ],
     "template": "equipment/equipment_equip_take_on_1.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       866,
       511,
-      950,
-      604
+      84,
+      93
     ],
     "target": [
       866,
       511,
-      950,
-      604
+      84,
+      93
     ],
     "template": "equipment/equipment_equip_take_on_2.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       129,
       252,
-      213,
-      345
+      84,
+      93
     ],
     "target": [
       129,
       252,
-      213,
-      345
+      84,
+      93
     ],
     "template": "equipment/equipment_equip_take_on_3.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       128,
       432,
-      212,
-      525
+      84,
+      93
     ],
     "target": [
       128,
       432,
-      212,
-      525
+      84,
+      93
     ],
     "template": "equipment/equipment_equip_take_on_4.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       25,
       565,
-      60,
-      589
+      35,
+      24
     ],
     "target": [
       25,
       565,
-      60,
-      589
+      35,
+      24
     ],
     "template": "equipment/equipment_equipping_off.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       32,
       513,
-      55,
-      586
+      23,
+      73
     ],
     "target": [
       32,
       513,
-      55,
-      586
+      23,
+      73
     ],
     "template": "equipment/equipment_equipping_on.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       412,
       195,
-      456,
-      239
+      44,
+      44
     ],
     "target": [
       412,
       195,
-      456,
-      239
+      44,
+      44
     ],
     "template": "equipment/equipment_fleet_1_backline_1.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       616,
       195,
-      659,
-      238
+      43,
+      43
     ],
     "target": [
       616,
       195,
-      659,
-      238
+      43,
+      43
     ],
     "template": "equipment/equipment_fleet_1_backline_3.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       728,
       195,
-      770,
-      237
+      42,
+      42
     ],
     "target": [
       728,
       195,
-      770,
-      237
+      42,
+      42
     ],
     "template": "equipment/equipment_fleet_1_vanguard_1.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       932,
       195,
-      974,
-      237
+      42,
+      42
     ],
     "target": [
       932,
       195,
-      974,
-      237
+      42,
+      42
     ],
     "template": "equipment/equipment_fleet_1_vanguard_3.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       412,
       309,
-      455,
-      352
+      43,
+      43
     ],
     "target": [
       412,
       309,
-      455,
-      352
+      43,
+      43
     ],
     "template": "equipment/equipment_fleet_2_backline_1.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       616,
       309,
-      659,
-      352
+      43,
+      43
     ],
     "target": [
       616,
       309,
-      659,
-      352
+      43,
+      43
     ],
     "template": "equipment/equipment_fleet_2_backline_3.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       729,
       310,
-      770,
-      351
+      41,
+      41
     ],
     "target": [
       729,
       310,
-      770,
-      351
+      41,
+      41
     ],
     "template": "equipment/equipment_fleet_2_vanguard_1.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       932,
       309,
-      974,
-      351
+      42,
+      42
     ],
     "target": [
       932,
       309,
-      974,
-      351
+      42,
+      42
     ],
     "template": "equipment/equipment_fleet_2_vanguard_3.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       906,
       644,
-      1008,
-      699
+      102,
+      55
     ],
     "target": [
       906,
       644,
-      1008,
-      699
+      102,
+      55
     ],
     "template": "equipment/equipment_fleet_detail.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       915,
       647,
-      979,
-      679
+      64,
+      32
     ],
     "target": [
       915,
       647,
-      979,
-      679
+      64,
+      32
     ],
     "template": "equipment/equipment_fleet_detail_check.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       729,
       314,
-      802,
-      438
+      73,
+      124
     ],
     "target": [
       729,
       314,
-      802,
-      438
+      73,
+      124
     ],
     "template": "equipment/equipment_fleet_detail_enter.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       103,
       327,
-      176,
-      437
+      73,
+      110
     ],
     "target": [
       103,
       327,
-      176,
-      437
+      73,
+      110
     ],
     "template": "equipment/equipment_fleet_detail_enter_flagship.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       390,
       173,
-      476,
-      259
+      86,
+      86
     ],
     "target": [
       390,
       173,
-      476,
-      259
+      86,
+      86
     ],
     "template": "equipment/equipment_fleet_detail_enter_flagship_hard_1.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       390,
       287,
-      476,
-      373
+      86,
+      86
     ],
     "target": [
       390,
       287,
-      476,
-      373
+      86,
+      86
     ],
     "template": "equipment/equipment_fleet_detail_enter_flagship_hard_2.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       705,
       173,
-      791,
-      259
+      86,
+      86
     ],
     "target": [
       705,
       173,
-      791,
-      259
+      86,
+      86
     ],
     "template": "equipment/equipment_fleet_detail_enter_hard_1.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       705,
       287,
-      791,
-      373
+      86,
+      86
     ],
     "target": [
       705,
       287,
-      791,
-      373
+      86,
+      86
     ],
     "template": "equipment/equipment_fleet_detail_enter_hard_2.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       502,
       474,
-      517,
-      489
+      15,
+      15
     ],
     "target": [
       502,
       474,
-      517,
-      489
+      15,
+      15
     ],
     "template": "equipment/equipment_fleet_enter.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       577,
       277,
-      605,
-      291
+      28,
+      14
     ],
     "target": [
       577,
       277,
-      605,
-      291
+      28,
+      14
     ],
     "template": "equipment/equipment_fleet_enter_flagship.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       593,
       173,
-      681,
-      261
+      88,
+      88
     ],
     "target": [
       593,
       173,
-      681,
-      261
+      88,
+      88
     ],
     "template": "equipment/equipment_fleet_enter_flagship_hard_1.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       594,
       287,
-      681,
-      374
+      87,
+      87
     ],
     "target": [
       594,
       287,
-      681,
-      374
+      87,
+      87
     ],
     "template": "equipment/equipment_fleet_enter_flagship_hard_2.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       909,
       173,
-      996,
-      260
+      87,
+      87
     ],
     "target": [
       909,
       173,
-      996,
-      260
+      87,
+      87
     ],
     "template": "equipment/equipment_fleet_enter_hard_1.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       909,
       287,
-      996,
-      374
+      87,
+      87
     ],
     "target": [
       909,
       287,
-      996,
-      374
+      87,
+      87
     ],
     "template": "equipment/equipment_fleet_enter_hard_2.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       1234,
       327,
-      1254,
-      356
+      20,
+      29
     ],
     "target": [
       1234,
       327,
-      1254,
-      356
+      20,
+      29
     ],
     "template": "equipment/equipment_fleet_next.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       26,
       327,
-      46,
-      356
+      20,
+      29
     ],
     "target": [
       26,
       327,
-      46,
-      356
+      20,
+      29
     ],
     "template": "equipment/equipment_fleet_prev.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       957,
       113,
-      987,
-      163
+      30,
+      50
     ],
     "target": [
       957,
       113,
-      987,
-      163
+      30,
+      50
     ],
     "template": "equipment/equipment_ocr_fleet_index.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       1167,
       91,
-      1202,
-      110
+      35,
+      19
     ],
     "target": [
       1167,
       91,
-      1202,
-      110
+      35,
+      19
     ],
     "template": "equipment/equipment_open.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       327,
       421,
-      337,
-      433
+      10,
+      12
     ],
     "target": [
       327,
       421,
-      337,
-      433
+      10,
+      12
     ],
     "template": "equipment/equipment_preview_slot_0_star.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       427,
       421,
-      437,
-      433
+      10,
+      12
     ],
     "target": [
       427,
       421,
-      437,
-      433
+      10,
+      12
     ],
     "template": "equipment/equipment_preview_slot_1_star.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       527,
       421,
-      537,
-      433
+      10,
+      12
     ],
     "target": [
       527,
       421,
-      537,
-      433
+      10,
+      12
     ],
     "template": "equipment/equipment_preview_slot_2_star.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       627,
       421,
-      637,
-      433
+      10,
+      12
     ],
     "target": [
       627,
       421,
-      637,
-      433
+      10,
+      12
     ],
     "template": "equipment/equipment_preview_slot_3_star.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       727,
       421,
-      737,
-      433
+      10,
+      12
     ],
     "target": [
       727,
       421,
-      737,
-      433
+      10,
+      12
     ],
     "template": "equipment/equipment_preview_slot_4_star.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       1256,
       575,
-      1264,
-      583
+      8,
+      8
     ],
     "target": [
       1256,
       575,
-      1264,
-      583
+      8,
+      8
     ],
     "template": "equipment/equipment_scroll_bottom.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       1173,
       654,
-      1217,
-      687
+      44,
+      33
     ],
     "target": [
       1173,
       654,
-      1217,
-      687
+      44,
+      33
     ],
     "template": "equipment/equipment_ship_info_equipment_check.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       220,
       167,
-      580,
-      527
+      360,
+      360
     ],
     "target": [
       220,
       167,
-      580,
-      527
+      360,
+      360
     ],
     "template": "equipment/equipment_swipe_area.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       190,
       353,
-      610,
-      455
+      420,
+      102
     ],
     "target": [
       190,
       353,
-      610,
-      455
+      420,
+      102
     ],
     "template": "equipment/equipment_swipe_check.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       758,
       622,
-      926,
-      672
+      168,
+      50
     ],
     "target": [
       758,
       622,
-      926,
-      672
+      168,
+      50
     ],
     "template": "equipment/equipment_upgrade_enter.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       825,
       528,
-      859,
-      559
+      34,
+      31
     ],
     "target": [
       825,
       528,
-      859,
-      559
+      34,
+      31
     ],
     "template": "equipment/equipment_upgrade_enter_check.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       125,
       81,
-      312,
-      639
+      187,
+      558
     ],
     "target": [
       125,
       81,
-      312,
-      639
+      187,
+      558
     ],
     "template": "equipment/equipment_upgrade_quit.png"
   }

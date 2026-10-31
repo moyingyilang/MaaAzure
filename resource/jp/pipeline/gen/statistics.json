@@ -6,14 +6,14 @@
     "roi": [
       404,
       150,
-      476,
-      167
+      72,
+      17
     ],
     "target": [
       404,
       150,
-      476,
-      167
+      72,
+      17
     ],
     "template": "statistics/statistics_campaign_bonus.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       404,
       149,
-      439,
-      166
+      35,
+      17
     ],
     "target": [
       404,
       149,
-      439,
-      166
+      35,
+      17
     ],
     "template": "statistics/statistics_campaign_bonus_single.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       781,
       283,
-      965,
-      322
+      184,
+      39
     ],
     "target": [
       781,
       283,
-      965,
-      322
+      184,
+      39
     ],
     "template": "statistics/statistics_enemy_name.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       628,
       294,
-      653,
-      397
+      25,
+      103
     ],
     "target": [
       628,
       294,
-      653,
-      397
+      25,
+      103
     ],
     "template": "statistics/statistics_get_items_odd.png"
   }

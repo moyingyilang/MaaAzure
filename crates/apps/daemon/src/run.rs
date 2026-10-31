@@ -97,6 +97,11 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
         }
     };
 
+    if let Err(e) = maazure_runner::ffi::init_framework() {
+        eprintln!("初始化 MaaFramework 失败: {e}");
+        return std::process::ExitCode::FAILURE;
+    }
+
     println!("── MaaAzure run ──");
     println!("任务      {}", a.task);
     println!("服务器    {}", a.server);
@@ -121,7 +126,10 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
             }
         }
     } else if let Some(hwnd) = a.win32 {
-        println!("窗口      hwnd={hwnd}（截图 {} / 输入 {}）", a.screencap, a.input);
+        println!(
+            "窗口      hwnd={hwnd}（截图 {} / 输入 {}）",
+            a.screencap, a.input
+        );
         #[cfg(target_os = "windows")]
         {
             match MaaEngine::connect_win32(hwnd, &a.screencap, &a.input) {
@@ -139,7 +147,9 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
         }
     } else {
         let Some(address) = a.address.clone() else {
-            eprintln!("需要 --address（ADB）/ --win32（窗口句柄）/ --display（Android 虚拟屏）/ --game-window（浮窗包名）");
+            eprintln!(
+                "需要 --address（ADB）/ --win32（窗口句柄）/ --display（Android 虚拟屏）/ --game-window（浮窗包名）"
+            );
             return std::process::ExitCode::from(2);
         };
         println!("设备      {} @ {}", a.adb, address);

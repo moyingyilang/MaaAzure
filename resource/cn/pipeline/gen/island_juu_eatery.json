@@ -6,14 +6,14 @@
     "roi": [
       738,
       348,
-      825,
-      375
+      87,
+      27
     ],
     "target": [
       798,
       405,
-      870,
-      478
+      72,
+      73
     ],
     "template": "island_juu_eatery/island_juu_eatery_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       738,
       348,
-      825,
-      375
+      87,
+      27
     ],
     "target": [
       894,
       406,
-      967,
-      476
+      73,
+      70
     ],
     "template": "island_juu_eatery/island_juu_eatery_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       617,
       315,
-      667,
-      358
+      50,
+      43
     ],
     "target": [
       617,
       315,
-      667,
-      358
+      50,
+      43
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_apple_pie.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       621,
       308,
-      665,
-      362
+      44,
+      54
     ],
     "target": [
       621,
       308,
-      665,
-      362
+      44,
+      54
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_banana_crepe.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       618,
       307,
-      670,
-      362
+      52,
+      55
     ],
     "target": [
       618,
       307,
-      670,
-      362
+      52,
+      55
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_berry_orange.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       615,
       315,
-      666,
-      362
+      51,
+      47
     ],
     "target": [
       615,
       315,
-      666,
-      362
+      51,
+      47
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_corn_cup.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       615,
       313,
-      668,
-      357
+      53,
+      44
     ],
     "target": [
       615,
       313,
-      668,
-      357
+      53,
+      44
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_orange_pie.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       610,
       304,
-      675,
-      362
+      65,
+      58
     ],
     "target": [
       610,
       304,
-      675,
-      362
+      65,
+      58
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_orchard_duo.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       609,
       314,
-      673,
-      362
+      64,
+      48
     ],
     "target": [
       609,
       314,
-      673,
-      362
+      64,
+      48
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_rice_mango.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_seafood_rice.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       607,
       310,
-      673,
-      361
+      66,
+      51
     ],
     "target": [
       607,
       310,
-      673,
-      361
+      66,
+      51
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_strawberry_charlotte.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       608,
       308,
-      673,
-      362
+      65,
+      54
     ],
     "target": [
       608,
       308,
-      673,
-      362
+      65,
+      54
     ],
     "template": "island_juu_eatery/island_juu_eatery_post_succulently_sweet.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       223,
       303,
-      277,
-      346
+      54,
+      43
     ],
     "target": [
       223,
       303,
-      277,
-      346
+      54,
+      43
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_apple_pie.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       755,
       240,
-      830,
-      305
+      75,
+      65
     ],
     "target": [
       755,
       240,
-      830,
-      305
+      75,
+      65
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_apple_pie_check.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       226,
       505,
-      272,
-      574
+      46,
+      69
     ],
     "target": [
       226,
       505,
-      272,
-      574
+      46,
+      69
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_banana_crepe.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       763,
       232,
-      827,
-      327
+      64,
+      95
     ],
     "target": [
       763,
       232,
-      827,
-      327
+      64,
+      95
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_banana_crepe_check.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       213,
       552,
-      284,
-      615
+      71,
+      63
     ],
     "target": [
       213,
       552,
-      284,
-      615
+      71,
+      63
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_berry_orange.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       744,
       231,
-      841,
-      327
+      97,
+      96
     ],
     "target": [
       744,
       231,
-      841,
-      327
+      97,
+      96
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_berry_orange_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       222,
       154,
-      275,
-      206
+      53,
+      52
     ],
     "target": [
       222,
       154,
-      275,
-      206
+      53,
+      52
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_corn_cup.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       756,
       243,
-      828,
-      315
+      72,
+      72
     ],
     "target": [
       756,
       243,
-      828,
-      315
+      72,
+      72
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_corn_cup_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       222,
       450,
-      277,
-      496
+      55,
+      46
     ],
     "target": [
       222,
       450,
-      277,
-      496
+      55,
+      46
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_orange_pie.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       754,
       238,
-      833,
-      304
+      79,
+      66
     ],
     "target": [
       754,
       238,
-      833,
-      304
+      79,
+      66
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_orange_pie_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       216,
       397,
-      286,
-      467
+      70,
+      70
     ],
     "target": [
       216,
       397,
-      286,
-      467
+      70,
+      70
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_orchard_duo.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       743,
       225,
-      844,
-      327
+      101,
+      102
     ],
     "target": [
       743,
       225,
-      844,
-      327
+      101,
+      102
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_orchard_duo_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       216,
       600,
-      283,
-      649
+      67,
+      49
     ],
     "target": [
       216,
       600,
-      283,
-      649
+      67,
+      49
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_rice_mango.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       746,
       240,
-      838,
-      319
+      92,
+      79
     ],
     "target": [
       746,
       240,
-      838,
-      319
+      92,
+      79
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_rice_mango_check.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       213,
       105,
-      287,
-      168
+      74,
+      63
     ],
     "target": [
       213,
       105,
-      287,
-      168
+      74,
+      63
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_seafood_rice.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       743,
       238,
-      845,
-      324
+      102,
+      86
     ],
     "target": [
       743,
       238,
-      845,
-      324
+      102,
+      86
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_seafood_rice_check.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       214,
       520,
-      284,
-      582
+      70,
+      62
     ],
     "target": [
       214,
       520,
-      284,
-      582
+      70,
+      62
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_strawberry_charlotte.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       743,
       234,
-      840,
-      323
+      97,
+      89
     ],
     "target": [
       743,
       234,
-      840,
-      323
+      97,
+      89
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_strawberry_charlotte_check.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       216,
       520,
-      284,
-      584
+      68,
+      64
     ],
     "target": [
       216,
       520,
-      284,
-      584
+      68,
+      64
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_succulently_sweet.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       745,
       231,
-      841,
-      327
+      96,
+      96
     ],
     "target": [
       745,
       231,
-      841,
-      327
+      96,
+      96
     ],
     "template": "island_juu_eatery/island_juu_eatery_select_succulently_sweet_check.png"
   },

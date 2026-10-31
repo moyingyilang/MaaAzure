@@ -6,14 +6,14 @@
     "roi": [
       1019,
       617,
-      1098,
-      633
+      79,
+      16
     ],
     "target": [
       1019,
       617,
-      1098,
-      633
+      79,
+      16
     ],
     "template": "combat/combat_alchemist_material_confirm.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       136,
       572,
-      167,
-      605
+      31,
+      33
     ],
     "target": [
       136,
       572,
-      167,
-      605
+      31,
+      33
     ],
     "template": "combat/combat_auto.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       131,
       568,
-      170,
-      609
+      39,
+      41
     ],
     "target": [
       131,
       568,
-      170,
-      609
+      39,
+      41
     ],
     "template": "combat/combat_auto_133.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       129,
       567,
-      172,
-      611
+      43,
+      44
     ],
     "target": [
       129,
       567,
-      172,
-      611
+      43,
+      44
     ],
     "template": "combat/combat_auto_150.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       16,
       31,
-      140,
-      62
+      124,
+      31
     ],
     "target": [
       16,
       31,
-      140,
-      62
+      124,
+      31
     ],
     "template": "combat/combat_auto_switch.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       600,
       531,
-      681,
-      554
+      81,
+      23
     ],
     "target": [
       600,
       531,
-      681,
-      554
+      81,
+      23
     ],
     "template": "combat/combat_automation_confirm.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       745,
       423,
-      764,
-      439
+      19,
+      16
     ],
     "target": [
       745,
       423,
-      764,
-      439
+      19,
+      16
     ],
     "template": "combat/combat_automation_confirm_check.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       754,
       113,
-      794,
-      129
+      40,
+      16
     ],
     "target": [
       754,
       113,
-      794,
-      129
+      40,
+      16
     ],
     "template": "combat/combat_automation_off.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       759,
       113,
-      790,
-      129
+      31,
+      16
     ],
     "target": [
       759,
       113,
-      790,
-      129
+      31,
+      16
     ],
     "template": "combat/combat_automation_on.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       823,
       109,
-      907,
-      130
+      84,
+      21
     ],
     "target": [
       823,
       109,
-      907,
-      130
+      84,
+      21
     ],
     "template": "combat/combat_automation_switch.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1062,
       615,
-      1161,
-      640
+      99,
+      25
     ],
     "target": [
       1045,
       607,
-      1241,
-      667
+      196,
+      60
     ],
     "template": [
       "combat/combat_battle_preparation/"
@@ -206,14 +206,14 @@
     "roi": [
       1058,
       622,
-      1226,
-      652
+      168,
+      30
     ],
     "target": [
       1058,
       622,
-      1226,
-      652
+      168,
+      30
     ],
     "template": "combat/combat_battle_preparation_with_overlay.png"
   },
@@ -224,14 +224,14 @@
     "roi": [
       634,
       269,
-      730,
-      288
+      96,
+      19
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_battle_status_a.png"
   },
@@ -242,14 +242,14 @@
     "roi": [
       625,
       297,
-      712,
-      317
+      87,
+      20
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_battle_status_b.png"
   },
@@ -260,14 +260,14 @@
     "roi": [
       625,
       211,
-      647,
-      297
+      22,
+      86
     ],
     "target": [
       1000,
       631,
-      1055,
-      689
+      55,
+      58
     ],
     "template": "combat/combat_battle_status_c.png"
   },
@@ -278,14 +278,14 @@
     "roi": [
       618,
       191,
-      639,
-      317
+      21,
+      126
     ],
     "target": [
       1000,
       631,
-      1055,
-      689
+      55,
+      58
     ],
     "template": "combat/combat_battle_status_d.png"
   },
@@ -296,14 +296,14 @@
     "roi": [
       643,
       297,
-      722,
-      317
+      79,
+      20
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_battle_status_s.png"
   },
@@ -314,14 +314,14 @@
     "roi": [
       106,
       533,
-      119,
-      540
+      13,
+      7
     ],
     "target": [
       97,
       512,
-      141,
-      557
+      44,
+      45
     ],
     "template": "combat/combat_emergency_repair_available.png"
   },
@@ -332,14 +332,14 @@
     "roi": [
       668,
       417,
-      843,
-      477
+      175,
+      60
     ],
     "target": [
       668,
       417,
-      843,
-      477
+      175,
+      60
     ],
     "template": "combat/combat_emergency_repair_confirm.png"
   },
@@ -350,14 +350,14 @@
     "roi": [
       337,
       90,
-      394,
-      102
+      57,
+      12
     ],
     "target": [
       1133,
       634,
-      1262,
-      650
+      129,
+      16
     ],
     "template": "combat/combat_exp_info_a.png"
   },
@@ -368,14 +368,14 @@
     "roi": [
       332,
       107,
-      387,
-      118
+      55,
+      11
     ],
     "target": [
       1133,
       634,
-      1262,
-      650
+      129,
+      16
     ],
     "template": "combat/combat_exp_info_b.png"
   },
@@ -386,14 +386,14 @@
     "roi": [
       332,
       56,
-      345,
-      107
+      13,
+      51
     ],
     "target": [
       1133,
       634,
-      1262,
-      650
+      129,
+      16
     ],
     "template": "combat/combat_exp_info_c.png"
   },
@@ -404,14 +404,14 @@
     "roi": [
       328,
       45,
-      341,
-      119
+      13,
+      74
     ],
     "target": [
       1133,
       634,
-      1262,
-      650
+      129,
+      16
     ],
     "template": "combat/combat_exp_info_d.png"
   },
@@ -422,14 +422,14 @@
     "roi": [
       342,
       107,
-      389,
-      119
+      47,
+      12
     ],
     "target": [
       1133,
       634,
-      1262,
-      650
+      129,
+      16
     ],
     "template": "combat/combat_exp_info_s.png"
   },
@@ -440,14 +440,14 @@
     "roi": [
       551,
       223,
-      736,
-      250
+      185,
+      27
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_get_items_1.png"
   },
@@ -458,14 +458,14 @@
     "roi": [
       577,
       211,
-      704,
-      239
+      127,
+      28
     ],
     "target": [
       1000,
       631,
-      1055,
-      689
+      55,
+      58
     ],
     "template": "combat/combat_get_items_1_ryza.png"
   },
@@ -476,14 +476,14 @@
     "roi": [
       551,
       149,
-      735,
-      175
+      184,
+      26
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_get_items_2.png"
   },
@@ -494,14 +494,14 @@
     "roi": [
       548,
       136,
-      740,
-      172
+      192,
+      36
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_get_items_3.png"
   },
@@ -512,14 +512,14 @@
     "roi": [
       335,
       184,
-      947,
-      203
+      612,
+      19
     ],
     "target": [
       335,
       184,
-      947,
-      203
+      612,
+      19
     ],
     "template": "combat/combat_get_items_3_check.png"
   },
@@ -530,14 +530,14 @@
     "roi": [
       1104,
       610,
-      1110,
-      630
+      6,
+      20
     ],
     "target": [
       999,
       630,
-      1047,
-      691
+      48,
+      61
     ],
     "template": "combat/combat_get_ship.png"
   },
@@ -548,14 +548,14 @@
     "roi": [
       33,
       676,
-      1247,
-      680
+      1214,
+      4
     ],
     "target": [
       33,
       676,
-      1247,
-      680
+      1214,
+      4
     ],
     "template": "combat/combat_loading_bar.png"
   },
@@ -566,14 +566,14 @@
     "roi": [
       131,
       151,
-      232,
-      206
+      101,
+      55
     ],
     "target": [
       131,
       151,
-      232,
-      206
+      101,
+      55
     ],
     "template": "combat/combat_main_fleet_power_zero.png"
   },
@@ -584,14 +584,14 @@
     "roi": [
       148,
       647,
-      155,
-      669
+      7,
+      22
     ],
     "target": [
       148,
       647,
-      155,
-      669
+      7,
+      22
     ],
     "template": "combat/combat_move_down.png"
   },
@@ -602,14 +602,14 @@
     "roi": [
       67,
       668,
-      112,
-      707
+      45,
+      39
     ],
     "target": [
       67,
       668,
-      112,
-      707
+      45,
+      39
     ],
     "template": "combat/combat_move_left_down.png"
   },
@@ -620,14 +620,14 @@
     "roi": [
       101,
       539,
-      136,
-      574
+      35,
+      35
     ],
     "target": [
       101,
       539,
-      136,
-      574
+      35,
+      35
     ],
     "template": "combat/combat_move_left_up.png"
   },
@@ -638,14 +638,14 @@
     "roi": [
       206,
       87,
-      213,
-      93
+      7,
+      6
     ],
     "target": [
       206,
       87,
-      213,
-      93
+      7,
+      6
     ],
     "template": "combat/combat_new_ship.png"
   },
@@ -656,14 +656,14 @@
     "roi": [
       1157,
       566,
-      1214,
-      594
+      57,
+      28
     ],
     "target": [
       1157,
       566,
-      1214,
-      594
+      57,
+      28
     ],
     "template": "combat/combat_oil_loading.png"
   },
@@ -674,14 +674,14 @@
     "roi": [
       565,
       143,
-      692,
-      179
+      127,
+      36
     ],
     "target": [
       590,
       587,
-      627,
-      647
+      37,
+      60
     ],
     "template": "combat/combat_opts_info_d.png"
   },
@@ -692,14 +692,14 @@
     "roi": [
       761,
       495,
-      818,
-      523
+      57,
+      28
     ],
     "target": [
       761,
       495,
-      818,
-      523
+      57,
+      28
     ],
     "template": "combat/combat_quit_reconfirm.png"
   },
@@ -710,14 +710,14 @@
     "roi": [
       887,
       618,
-      907,
-      628
+      20,
+      10
     ],
     "target": [
       887,
       618,
-      907,
-      628
+      20,
+      10
     ],
     "template": "combat/combat_ready_air_raid.png"
   },
@@ -728,14 +728,14 @@
     "roi": [
       1038,
       611,
-      1046,
-      619
+      8,
+      8
     ],
     "target": [
       1038,
       611,
-      1046,
-      619
+      8,
+      8
     ],
     "template": "combat/combat_ready_torpedo.png"
   },
@@ -746,14 +746,14 @@
     "roi": [
       707,
       660,
-      712,
-      665
+      5,
+      5
     ],
     "target": [
       707,
       660,
-      712,
-      665
+      5,
+      5
     ],
     "template": "combat/combat_submarine_available_check_1.png"
   },
@@ -764,14 +764,14 @@
     "roi": [
       790,
       631,
-      795,
-      641
+      5,
+      10
     ],
     "target": [
       790,
       631,
-      795,
-      641
+      5,
+      10
     ],
     "template": "combat/combat_submarine_available_check_2.png"
   },
@@ -782,14 +782,14 @@
     "roi": [
       737,
       608,
-      750,
-      626
+      13,
+      18
     ],
     "target": [
       737,
       608,
-      750,
-      626
+      13,
+      18
     ],
     "template": "combat/combat_submarine_called.png"
   },
@@ -800,14 +800,14 @@
     "roi": [
       737,
       608,
-      752,
-      625
+      15,
+      17
     ],
     "target": [
       737,
       608,
-      752,
-      625
+      15,
+      17
     ],
     "template": "combat/combat_submarine_ready.png"
   }

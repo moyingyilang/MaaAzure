@@ -6,14 +6,14 @@
     "roi": [
       809,
       365,
-      972,
-      386
+      163,
+      21
     ],
     "target": [
       809,
       365,
-      972,
-      386
+      163,
+      21
     ],
     "template": "research/research_cost_checker.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       330,
       447,
-      500,
-      525
+      170,
+      78
     ],
     "target": [
       330,
       447,
-      500,
-      525
+      170,
+      78
     ],
     "template": "research/research_detail_blueprint.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       869,
       396,
-      1043,
-      474
+      174,
+      78
     ],
     "target": [
       869,
       396,
-      1043,
-      474
+      174,
+      78
     ],
     "template": "research/research_detail_cost.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_b.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_c.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_d.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_e.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_g.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_h_0.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_h_1.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_q.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "target": [
       323,
       110,
-      418,
-      133
+      95,
+      23
     ],
     "template": "research/research_detail_genre_t.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       408,
       447,
-      422,
-      525
+      14,
+      78
     ],
     "target": [
       408,
       447,
-      422,
-      525
+      14,
+      78
     ],
     "template": "research/research_detail_items_odd.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1236,
       347,
-      1257,
-      374
+      21,
+      27
     ],
     "target": [
       1236,
       347,
-      1257,
-      374
+      21,
+      27
     ],
     "template": "research/research_detail_next.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       695,
       656,
-      784,
-      707
+      89,
+      51
     ],
     "target": [
       695,
       656,
-      784,
-      707
+      89,
+      51
     ],
     "template": "research/research_detail_quit.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       788,
       274,
-      913,
-      319
+      125,
+      45
     ],
     "target": [
       788,
       274,
-      913,
-      319
+      125,
+      45
     ],
     "template": "research/research_duration_detail.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       104,
       186,
-      250,
-      289
+      146,
+      103
     ],
     "target": [
       104,
       186,
-      250,
-      289
+      146,
+      103
     ],
     "template": "research/research_entrance_1.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       322,
       159,
-      491,
-      276
+      169,
+      117
     ],
     "target": [
       322,
       159,
-      491,
-      276
+      169,
+      117
     ],
     "template": "research/research_entrance_2.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       540,
       135,
-      732,
-      265
+      192,
+      130
     ],
     "target": [
       540,
       135,
-      732,
-      265
+      192,
+      130
     ],
     "template": "research/research_entrance_3.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       782,
       159,
-      951,
-      275
+      169,
+      116
     ],
     "target": [
       782,
       159,
-      951,
-      275
+      169,
+      116
     ],
     "template": "research/research_entrance_4.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       1025,
       186,
-      1169,
-      287
+      144,
+      101
     ],
     "target": [
       1025,
       186,
-      1169,
-      287
+      144,
+      101
     ],
     "template": "research/research_entrance_5.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       384,
       547,
-      502,
-      585
+      118,
+      38
     ],
     "target": [
       384,
       547,
-      502,
-      585
+      118,
+      38
     ],
     "template": "research/research_finished.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       357,
       643,
-      497,
-      701
+      140,
+      58
     ],
     "target": [
       357,
       643,
-      497,
-      701
+      140,
+      58
     ],
     "template": "research/research_get_items_research_save.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       4,
       227,
-      51,
-      255
+      47,
+      28
     ],
     "target": [
       4,
       227,
-      51,
-      255
+      47,
+      28
     ],
     "template": "research/research_goto_queue.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       693,
       219,
-      715,
-      503
+      22,
+      284
     ],
     "target": [
       693,
       219,
-      715,
-      503
+      22,
+      284
     ],
     "template": "research/research_items_3_swipe.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       55,
       518,
-      186,
-      559
+      131,
+      41
     ],
     "target": [
       55,
       518,
-      186,
-      559
+      131,
+      41
     ],
     "template": "research/research_lab.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       379,
       583,
-      504,
-      614
+      125,
+      31
     ],
     "target": [
       379,
       583,
-      504,
-      614
+      125,
+      31
     ],
     "template": "research/research_lab_duration_remain.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       78,
       277,
-      249,
-      330
+      171,
+      53
     ],
     "target": [
       78,
       277,
-      249,
-      330
+      171,
+      53
     ],
     "template": "research/research_ocr_research_1.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       292,
       263,
-      490,
-      325
+      198,
+      62
     ],
     "target": [
       292,
       263,
-      490,
-      325
+      198,
+      62
     ],
     "template": "research/research_ocr_research_2.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       505,
       249,
-      730,
-      319
+      225,
+      70
     ],
     "target": [
       505,
       249,
-      730,
-      319
+      225,
+      70
     ],
     "template": "research/research_ocr_research_3.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       752,
       263,
-      950,
-      325
+      198,
+      62
     ],
     "target": [
       752,
       263,
-      950,
-      325
+      198,
+      62
     ],
     "template": "research/research_ocr_research_4.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       998,
       276,
-      1169,
-      329
+      171,
+      53
     ],
     "target": [
       998,
       276,
-      1169,
-      329
+      171,
+      53
     ],
     "template": "research/research_ocr_research_5.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       227,
       589,
-      269,
-      607
+      42,
+      18
     ],
     "target": [
       227,
       589,
-      269,
-      607
+      42,
+      18
     ],
     "template": "research/research_pending.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       541,
       570,
-      654,
-      595
+      113,
+      25
     ],
     "target": [
       517,
       560,
-      678,
-      603
+      161,
+      43
     ],
     "template": "research/research_queue_add.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       118,
       16,
-      227,
-      39
+      109,
+      23
     ],
     "target": [
       118,
       16,
-      227,
-      39
+      109,
+      23
     ],
     "template": "research/research_queue_check.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1230,
       275,
-      1272,
-      420
+      42,
+      145
     ],
     "target": [
       1230,
       275,
-      1272,
-      420
+      42,
+      145
     ],
     "template": "research/research_queue_claim_reward.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       156,
       605,
-      272,
-      637
+      116,
+      32
     ],
     "target": [
       156,
       605,
-      272,
-      637
+      116,
+      32
     ],
     "template": "research/research_queue_remain.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       1153,
       662,
-      1227,
-      679
+      74,
+      17
     ],
     "target": [
       1153,
       662,
-      1227,
-      679
+      74,
+      17
     ],
     "template": "research/research_reset_available.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       313,
       556,
-      362,
-      619
+      49,
+      63
     ],
     "target": [
       313,
       556,
-      362,
-      619
+      49,
+      63
     ],
     "template": "research/research_running.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       86,
       154,
-      113,
-      173
+      27,
+      19
     ],
     "target": [
       86,
       154,
-      113,
-      173
+      27,
+      19
     ],
     "template": "research/research_series_1.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       301,
       122,
-      332,
-      144
+      31,
+      22
     ],
     "target": [
       301,
       122,
-      332,
-      144
+      31,
+      22
     ],
     "template": "research/research_series_2.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       516,
       89,
-      551,
-      114
+      35,
+      25
     ],
     "target": [
       516,
       89,
-      551,
-      114
+      35,
+      25
     ],
     "template": "research/research_series_3.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       761,
       122,
-      792,
-      144
+      31,
+      22
     ],
     "target": [
       761,
       122,
-      792,
-      144
+      31,
+      22
     ],
     "template": "research/research_series_4.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       1006,
       154,
-      1033,
-      173
+      27,
+      19
     ],
     "target": [
       1006,
       154,
-      1033,
-      173
+      27,
+      19
     ],
     "template": "research/research_series_5.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       301,
       102,
-      335,
-      127
+      34,
+      25
     ],
     "target": [
       301,
       102,
-      335,
-      127
+      34,
+      25
     ],
     "template": "research/research_series_detail.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       776,
       324,
-      1245,
-      622
+      469,
+      298
     ],
     "target": [
       776,
       324,
-      1245,
-      622
+      469,
+      298
     ],
     "template": "research/research_stable_checker.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       506,
       524,
-      770,
-      684
+      264,
+      160
     ],
     "target": [
       506,
       524,
-      770,
-      684
+      264,
+      160
     ],
     "template": "research/research_stable_checker_center.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       445,
       569,
-      568,
-      597
+      123,
+      28
     ],
     "target": [
       445,
       569,
-      568,
-      597
+      123,
+      28
     ],
     "template": "research/research_start.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       111,
       541,
-      117,
-      547
+      6,
+      6
     ],
     "target": [
       111,
       541,
-      117,
-      547
+      6,
+      6
     ],
     "template": "research/research_status_1.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       330,
       570,
-      336,
-      576
+      6,
+      6
     ],
     "target": [
       330,
       570,
-      336,
-      576
+      6,
+      6
     ],
     "template": "research/research_status_2.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       549,
       598,
-      556,
-      605
+      7,
+      7
     ],
     "target": [
       549,
       598,
-      556,
-      605
+      7,
+      7
     ],
     "template": "research/research_status_3.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       790,
       570,
-      796,
-      576
+      6,
+      6
     ],
     "target": [
       790,
       570,
-      796,
-      576
+      6,
+      6
     ],
     "template": "research/research_status_4.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       1031,
       541,
-      1037,
-      547
+      6,
+      6
     ],
     "target": [
       1031,
       541,
-      1037,
-      547
+      6,
+      6
     ],
     "template": "research/research_status_5.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       329,
       561,
-      485,
-      602
+      156,
+      41
     ],
     "target": [
       329,
       561,
-      485,
-      602
+      156,
+      41
     ],
     "template": "research/research_stop.png"
   },
@@ -1056,14 +1056,14 @@
     "roi": [
       509,
       569,
-      568,
-      597
+      59,
+      28
     ],
     "target": [
       509,
       569,
-      568,
-      597
+      59,
+      28
     ],
     "template": "research/research_unavailable.png"
   }

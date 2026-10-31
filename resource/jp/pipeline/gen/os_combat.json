@@ -6,14 +6,14 @@
     "roi": [
       1030,
       623,
-      1229,
-      683
+      199,
+      60
     ],
     "target": [
       1030,
       623,
-      1229,
-      683
+      199,
+      60
     ],
     "template": "os_combat/os_combat_battle_preparation.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1042,
       638,
-      1241,
-      699
+      199,
+      61
     ],
     "target": [
       1042,
       638,
-      1241,
-      699
+      199,
+      61
     ],
     "template": "os_combat/os_combat_siren_preparation.png"
   }

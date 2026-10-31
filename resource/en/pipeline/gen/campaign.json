@@ -6,14 +6,14 @@
     "roi": [
       17,
       446,
-      34,
-      461
+      17,
+      15
     ],
     "target": [
       17,
       446,
-      34,
-      461
+      17,
+      15
     ],
     "template": "campaign/campaign_chapter_20241219_ex.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       17,
       226,
-      34,
-      241
+      17,
+      15
     ],
     "target": [
       17,
       226,
-      34,
-      241
+      17,
+      15
     ],
     "template": "campaign/campaign_chapter_20241219_part1.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       17,
       299,
-      34,
-      314
+      17,
+      15
     ],
     "target": [
       17,
       299,
-      34,
-      314
+      17,
+      15
     ],
     "template": "campaign/campaign_chapter_20241219_part2.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       17,
       372,
-      34,
-      388
+      17,
+      16
     ],
     "target": [
       17,
       372,
-      34,
-      388
+      17,
+      16
     ],
     "template": "campaign/campaign_chapter_20241219_sp.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       3,
       304,
-      24,
-      322
+      21,
+      18
     ],
     "target": [
       3,
       304,
-      24,
-      322
+      21,
+      18
     ],
     "template": "campaign/campaign_chapter_20260326_part1.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       4,
       378,
-      23,
-      395
+      19,
+      17
     ],
     "target": [
       4,
       378,
-      23,
-      395
+      19,
+      17
     ],
     "template": "campaign/campaign_chapter_20260326_sp.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1216,
       362,
-      1232,
-      388
+      16,
+      26
     ],
     "target": [
       1216,
       362,
-      1232,
-      388
+      16,
+      26
     ],
     "template": "campaign/campaign_chapter_next.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       42,
       360,
-      58,
-      387
+      16,
+      27
     ],
     "target": [
       42,
       360,
-      58,
-      387
+      16,
+      27
     ],
     "template": "campaign/campaign_chapter_prev.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1077,
       637,
-      1083,
-      643
+      6,
+      6
     ],
     "target": [
       1077,
       637,
-      1083,
-      643
+      6,
+      6
     ],
     "template": "campaign/campaign_commission_notice_at_campaign.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       617,
       470,
-      659,
-      510
+      42,
+      40
     ],
     "target": [
       617,
       470,
-      659,
-      510
+      42,
+      40
     ],
     "template": "campaign/campaign_event_20201126_detail.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1198,
       20,
-      1244,
-      65
+      46,
+      45
     ],
     "target": [
       1198,
       20,
-      1244,
-      65
+      46,
+      45
     ],
     "template": "campaign/campaign_event_20201126_detail_check.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       969,
       94,
-      1030,
-      156
+      61,
+      62
     ],
     "target": [
       969,
       94,
-      1030,
-      156
+      61,
+      62
     ],
     "template": "campaign/campaign_event_20201126_detail_white.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       927,
       599,
-      1054,
-      631
+      127,
+      32
     ],
     "target": [
       927,
       599,
-      1054,
-      631
+      127,
+      32
     ],
     "template": "campaign/campaign_event_20201126_entrance.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1022,
       375,
-      1100,
-      398
+      78,
+      23
     ],
     "target": [
       1022,
       375,
-      1100,
-      398
+      78,
+      23
     ],
     "template": "campaign/campaign_event_20201126_entrance_temp.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       1108,
       102,
-      1133,
-      127
+      25,
+      25
     ],
     "target": [
       1108,
       102,
-      1133,
-      127
+      25,
+      25
     ],
     "template": "campaign/campaign_event_20201126_pt_icon.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1037,
       162,
-      1077,
-      195
+      40,
+      33
     ],
     "target": [
       1037,
       162,
-      1077,
-      195
+      40,
+      33
     ],
     "template": "campaign/campaign_event_20221124_entrance.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       1071,
       109,
-      1101,
-      129
+      30,
+      20
     ],
     "target": [
       1071,
       109,
-      1101,
-      129
+      30,
+      20
     ],
     "template": "campaign/campaign_event_20221124_pt_icon.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       610,
       320,
-      670,
-      380
+      60,
+      60
     ],
     "target": [
       610,
       320,
-      670,
-      380
+      60,
+      60
     ],
     "template": "campaign/campaign_event_20230817_story.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1109,
       109,
-      1133,
-      131
+      24,
+      22
     ],
     "target": [
       1109,
       109,
-      1133,
-      131
+      24,
+      22
     ],
     "template": "campaign/campaign_event_20250424_pt_icon.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       1067,
       108,
-      1104,
-      123
+      37,
+      15
     ],
     "target": [
       1067,
       108,
-      1104,
-      123
+      37,
+      15
     ],
     "template": "campaign/campaign_event_20250724_pt_icon.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       618,
       251,
-      658,
-      290
+      40,
+      39
     ],
     "target": [
       618,
       251,
-      658,
-      290
+      40,
+      39
     ],
     "template": "campaign/campaign_event_20260417_detail.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       439,
       216,
-      535,
-      293
+      96,
+      77
     ],
     "target": [
       439,
       216,
-      535,
-      293
+      96,
+      77
     ],
     "template": "campaign/campaign_event_20260417_detail_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1081,
       92,
-      1141,
-      153
+      60,
+      61
     ],
     "target": [
       1081,
       92,
-      1141,
-      153
+      60,
+      61
     ],
     "template": "campaign/campaign_event_20260417_detail_white.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       957,
       522,
-      1091,
-      573
+      134,
+      51
     ],
     "target": [
       957,
       522,
-      1091,
-      573
+      134,
+      51
     ],
     "template": "campaign/campaign_event_20260417_entrance.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       1127,
       365,
-      1249,
-      409
+      122,
+      44
     ],
     "target": [
       1127,
       365,
-      1249,
-      409
+      122,
+      44
     ],
     "template": "campaign/campaign_event_20260417_entrance_temp.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1110,
       106,
-      1133,
-      130
+      23,
+      24
     ],
     "target": [
       1110,
       106,
-      1133,
-      130
+      23,
+      24
     ],
     "template": "campaign/campaign_event_20260417_pt_icon.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       815,
       23,
-      922,
-      51
+      107,
+      28
     ],
     "target": [
       815,
       23,
-      922,
-      51
+      107,
+      28
     ],
     "template": "campaign/campaign_ocr_coin.png"
   },
@@ -492,13 +492,13 @@
     "roi": [
       807,
       0,
-      944,
+      137,
       19
     ],
     "target": [
       807,
       0,
-      944,
+      137,
       19
     ],
     "template": "campaign/campaign_ocr_coin_limit.png"
@@ -510,14 +510,14 @@
     "roi": [
       1190,
       109,
-      1280,
-      129
+      90,
+      20
     ],
     "target": [
       1190,
       109,
-      1280,
-      129
+      90,
+      20
     ],
     "template": "campaign/campaign_ocr_event_pt.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       1024,
       23,
-      1137,
-      51
+      113,
+      28
     ],
     "target": [
       1024,
       23,
-      1137,
-      51
+      113,
+      28
     ],
     "template": "campaign/campaign_ocr_gem.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       614,
       23,
-      714,
-      51
+      100,
+      28
     ],
     "target": [
       614,
       23,
-      714,
-      51
+      100,
+      28
     ],
     "template": "campaign/campaign_ocr_oil.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       573,
       30,
-      592,
-      49
+      19,
+      19
     ],
     "target": [
       573,
       30,
-      592,
-      49
+      19,
+      19
     ],
     "template": "campaign/campaign_ocr_oil_check.png"
   },
@@ -582,13 +582,13 @@
     "roi": [
       608,
       0,
-      736,
+      128,
       19
     ],
     "target": [
       608,
       0,
-      736,
+      128,
       19
     ],
     "template": "campaign/campaign_ocr_oil_limit.png"
@@ -600,14 +600,14 @@
     "roi": [
       87,
       642,
-      148,
-      676
+      61,
+      34
     ],
     "target": [
       87,
       642,
-      148,
-      676
+      61,
+      34
     ],
     "template": "campaign/campaign_switch_1_hard.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       79,
       638,
-      147,
-      675
+      68,
+      37
     ],
     "target": [
       79,
       638,
-      147,
-      675
+      68,
+      37
     ],
     "template": "campaign/campaign_switch_1_normal.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       39,
       659,
-      71,
-      691
+      32,
+      32
     ],
     "target": [
       39,
       659,
-      71,
-      691
+      32,
+      32
     ],
     "template": "campaign/campaign_switch_20241219_combat.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       327,
       657,
-      352,
-      688
+      25,
+      31
     ],
     "target": [
       327,
       657,
-      352,
-      688
+      25,
+      31
     ],
     "template": "campaign/campaign_switch_20241219_story.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       251,
       644,
-      313,
-      697
+      62,
+      53
     ],
     "target": [
       251,
       644,
-      313,
-      697
+      62,
+      53
     ],
     "template": "campaign/campaign_switch_2_ex.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       244,
       640,
-      312,
-      684
+      68,
+      44
     ],
     "target": [
       244,
       640,
-      312,
-      684
+      68,
+      44
     ],
     "template": "campaign/campaign_switch_2_hard.png"
   },

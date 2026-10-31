@@ -128,6 +128,11 @@ pub fn run_corpus(args: &[String]) -> std::process::ExitCode {
         return std::process::ExitCode::FAILURE;
     }
 
+    if let Err(e) = maazure_runner::ffi::init_framework() {
+        eprintln!("初始化 MaaFramework 失败: {e}");
+        return std::process::ExitCode::FAILURE;
+    }
+
     let started = std::time::Instant::now();
     let result = engine.run_pipeline_traced(&a.entry, "{}");
     let elapsed = started.elapsed();

@@ -6,14 +6,14 @@
     "roi": [
       589,
       257,
-      695,
-      288
+      106,
+      31
     ],
     "target": [
       589,
       257,
-      695,
-      288
+      106,
+      31
     ],
     "template": "island_business/island_business_business_obtained_items.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       329,
       268,
-      436,
-      307
+      107,
+      39
     ],
     "target": [
       329,
       268,
-      436,
-      307
+      107,
+      39
     ],
     "template": "island_business/island_business_business_plus_a.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       329,
       430,
-      436,
-      469
+      107,
+      39
     ],
     "target": [
       329,
       430,
-      436,
-      469
+      107,
+      39
     ],
     "template": "island_business/island_business_business_plus_b.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       266,
       379,
-      354,
-      400
+      88,
+      21
     ],
     "target": [
       266,
       379,
-      354,
-      400
+      88,
+      21
     ],
     "template": "island_business/island_business_business_sales_status.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       595,
       610,
-      686,
-      640
+      91,
+      30
     ],
     "target": [
       595,
       610,
-      686,
-      640
+      91,
+      30
     ],
     "template": "island_business/island_business_business_settlement.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "target": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "template": "island_business/island_business_business_shop_fish_restaurant.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "target": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "template": "island_business/island_business_business_shop_grill.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "target": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "template": "island_business/island_business_business_shop_juu_coffee.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "target": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "template": "island_business/island_business_business_shop_juu_eatery.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "target": [
       548,
       90,
-      668,
-      125
+      120,
+      35
     ],
     "template": "island_business/island_business_business_shop_teahouse.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "target": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "template": "island_business/island_business_business_start_button_blue.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "target": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "template": "island_business/island_business_business_start_button_darkblue.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "target": [
       1020,
       179,
-      1154,
-      206
+      134,
+      27
     ],
     "template": "island_business/island_business_business_start_button_yellow.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       712,
       611,
-      813,
-      644
+      101,
+      33
     ],
     "target": [
       712,
       611,
-      813,
-      644
+      101,
+      33
     ],
     "template": "island_business/island_business_business_start_in_shop.png"
   },

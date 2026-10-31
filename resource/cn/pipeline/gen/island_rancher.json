@@ -6,14 +6,14 @@
     "roi": [
       199,
       260,
-      285,
-      288
+      86,
+      28
     ],
     "target": [
       258,
       316,
-      333,
-      391
+      75,
+      75
     ],
     "template": "island_rancher/island_rancher_island_fishery_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       199,
       260,
-      285,
-      288
+      86,
+      28
     ],
     "target": [
       353,
       316,
-      428,
-      390
+      75,
+      74
     ],
     "template": "island_rancher/island_rancher_island_fishery_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       199,
       260,
-      285,
-      288
+      86,
+      28
     ],
     "target": [
       451,
       322,
-      518,
-      387
+      67,
+      65
     ],
     "template": "island_rancher/island_rancher_island_fishery_post3.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       738,
       78,
-      824,
-      105
+      86,
+      27
     ],
     "target": [
       798,
       137,
-      871,
-      209
+      73,
+      72
     ],
     "template": "island_rancher/island_rancher_island_ranch_post1.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       738,
       78,
-      824,
-      105
+      86,
+      27
     ],
     "target": [
       891,
       132,
-      968,
-      210
+      77,
+      78
     ],
     "template": "island_rancher/island_rancher_island_ranch_post2.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       738,
       78,
-      824,
-      105
+      86,
+      27
     ],
     "target": [
       985,
       132,
-      1063,
-      210
+      78,
+      78
     ],
     "template": "island_rancher/island_rancher_island_ranch_post3.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       738,
       78,
-      824,
-      105
+      86,
+      27
     ],
     "target": [
       1080,
       132,
-      1158,
-      210
+      78,
+      78
     ],
     "template": "island_rancher/island_rancher_island_ranch_post4.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       593,
       233,
-      656,
-      298
+      63,
+      65
     ],
     "target": [
       593,
       233,
-      656,
-      298
+      63,
+      65
     ],
     "template": "island_rancher/island_rancher_mill_cattle_feed.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       265,
       235,
-      331,
-      296
+      66,
+      61
     ],
     "target": [
       265,
       235,
-      331,
-      296
+      66,
+      61
     ],
     "template": "island_rancher/island_rancher_mill_chicken_feed.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       431,
       228,
-      492,
-      298
+      61,
+      70
     ],
     "target": [
       431,
       228,
-      492,
-      298
+      61,
+      70
     ],
     "template": "island_rancher/island_rancher_mill_pig_feed.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       756,
       227,
-      819,
-      301
+      63,
+      74
     ],
     "target": [
       756,
       227,
-      819,
-      301
+      63,
+      74
     ],
     "template": "island_rancher/island_rancher_mill_sheep_feed.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       917,
       233,
-      983,
-      299
+      66,
+      66
     ],
     "target": [
       917,
       233,
-      983,
-      299
+      66,
+      66
     ],
     "template": "island_rancher/island_rancher_mill_wheat_flour.png"
   },

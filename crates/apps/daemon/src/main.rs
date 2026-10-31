@@ -26,6 +26,10 @@ mod corpus_run;
 #[cfg(feature = "maa")]
 mod capture;
 
+/// 连续录制游戏窗口画面，产出 golden corpus（需要 `maa` feature）。
+#[cfg(feature = "maa")]
+mod record;
+
 /// 打印仓库的树状层次，方便确认「东西该放哪」。
 fn print_tree() {
     println!("MaaAzure 树");
@@ -131,12 +135,6 @@ fn replay(dir: &PathBuf) -> std::process::ExitCode {
 }
 
 fn main() -> std::process::ExitCode {
-    #[cfg(feature = "maa")]
-    if let Err(e) = maazure_runner::ffi::init_framework() {
-        eprintln!("初始化 MaaFramework 失败: {e}");
-        return std::process::ExitCode::FAILURE;
-    }
-
     let version = env!("CARGO_PKG_VERSION");
     let args: Vec<String> = std::env::args().skip(1).collect();
 
@@ -187,6 +185,17 @@ fn main() -> std::process::ExitCode {
             #[cfg(not(feature = "maa"))]
             {
                 eprintln!("本次二进制没有编译 MaaFramework 支持，--synth 不可用。");
+                std::process::ExitCode::from(2)
+            }
+        }
+        Some("--record-window") => {
+            #[cfg(feature = "maa")]
+            {
+                record::run_record(&args[1..])
+            }
+            #[cfg(not(feature = "maa"))]
+            {
+                eprintln!("本次二进制没有编译 MaaFramework 支持，--record-window 不可用。");
                 std::process::ExitCode::from(2)
             }
         }

@@ -70,11 +70,13 @@ fn build_node(d: &Decl, server: &str, template: &str, animated: bool) -> Value {
         node.insert("recognition".into(), json!("TemplateMatch"));
     }
 
+    // 旧仓的 `area` 是 (x1, y1, x2, y2)，MaaFramework 的 `roi` 是 [x, y, w, h]。
+    // 这里必须换算：直接透传会让识别区域比模板大一圈（甚至越界），点击点也会偏。
     if let Some(a) = area
         && a.2 > a.0
         && a.3 > a.1
     {
-        node.insert("roi".into(), json!([a.0, a.1, a.2, a.3]));
+        node.insert("roi".into(), json!([a.0, a.1, a.2 - a.0, a.3 - a.1]));
     }
 
     // 纯色按钮（无 file）才用 ColorMatch；实测旧仓 0 条走这里，但保留路径
@@ -89,7 +91,8 @@ fn build_node(d: &Decl, server: &str, template: &str, animated: bool) -> Value {
     if clickable {
         let b = button.unwrap();
         node.insert("action".into(), json!("Click"));
-        node.insert("target".into(), json!([b.0, b.1, b.2, b.3]));
+        // 同 roi：`button` 也是 (x1, y1, x2, y2)，target 要 [x, y, w, h]
+        node.insert("target".into(), json!([b.0, b.1, b.2 - b.0, b.3 - b.1]));
     } else {
         node.insert("action".into(), json!("DoNothing"));
     }

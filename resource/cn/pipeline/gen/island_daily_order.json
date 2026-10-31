@@ -6,14 +6,14 @@
     "roi": [
       829,
       31,
-      853,
-      58
+      24,
+      27
     ],
     "target": [
       800,
       81,
-      830,
-      108
+      30,
+      27
     ],
     "template": "island_daily_order/island_daily_order_daily_order_challenge_easy_special_check.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       127,
       21,
-      219,
-      45
+      92,
+      24
     ],
     "target": [
       127,
       21,
-      219,
-      45
+      92,
+      24
     ],
     "template": "island_daily_order/island_daily_order_daily_order_check.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1115,
       640,
-      1170,
-      666
+      55,
+      26
     ],
     "target": [
       1115,
       640,
-      1170,
-      666
+      55,
+      26
     ],
     "template": "island_daily_order/island_daily_order_daily_order_deliver.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       607,
       280,
-      686,
-      356
+      79,
+      76
     ],
     "target": [
       607,
       280,
-      686,
-      356
+      79,
+      76
     ],
     "template": "island_daily_order/island_daily_order_daily_order_level_up.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       948,
       364,
-      1145,
-      416
+      197,
+      52
     ],
     "target": [
       948,
       364,
-      1145,
-      416
+      197,
+      52
     ],
     "template": "island_daily_order/island_daily_order_daily_order_preparing.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       932,
       640,
-      981,
-      666
+      49,
+      26
     ],
     "target": [
       932,
       640,
-      981,
-      666
+      49,
+      26
     ],
     "template": "island_daily_order/island_daily_order_daily_order_reject.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       858,
       84,
-      988,
-      124
+      130,
+      40
     ],
     "target": [
       858,
       84,
-      988,
-      124
+      130,
+      40
     ],
     "template": "island_daily_order/island_daily_order_daily_order_right_panel_check.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1021,
       637,
-      1075,
-      667
+      54,
+      30
     ],
     "target": [
       1021,
       637,
-      1075,
-      667
+      54,
+      30
     ],
     "template": "island_daily_order/island_daily_order_daily_order_urgent_deliver.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       829,
       31,
-      853,
-      58
+      24,
+      27
     ],
     "target": [
       800,
       81,
-      830,
-      108
+      30,
+      27
     ],
     "template": "island_daily_order/island_daily_order_daily_order_urgent_special_check.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1000,
       200,
-      1100,
-      250
+      100,
+      50
     ],
     "target": [
       1000,
       200,
-      1100,
-      250
+      100,
+      50
     ],
     "template": "island_daily_order/island_daily_order_island_phone_daily_order.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       508,
       303,
-      707,
-      341
+      199,
+      38
     ],
     "target": [
       508,
       303,
-      707,
-      341
+      199,
+      38
     ],
     "template": "island_daily_order/island_daily_order_popup_order_cannot_replace.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       508,
       303,
-      707,
-      341
+      199,
+      38
     ],
     "target": [
       508,
       303,
-      707,
-      341
+      199,
+      38
     ],
     "template": "island_daily_order/island_daily_order_popup_resource_insufficient.png"
   },

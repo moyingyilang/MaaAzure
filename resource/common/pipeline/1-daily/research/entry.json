@@ -22,14 +22,14 @@
     "roi": [
       1029,
       304,
-      1102,
-      342
+      73,
+      38
     ],
     "target": [
       644,
       666,
-      798,
-      713
+      154,
+      47
     ],
     "template": "ui/ui_main_goto_reshmenu.png"
   },
@@ -43,14 +43,14 @@
     "roi": [
       308,
       268,
-      466,
-      422
+      158,
+      154
     ],
     "target": [
       308,
       268,
-      466,
-      422
+      158,
+      154
     ],
     "template": "ui/ui_reshmenu_goto_research.png"
   },
@@ -63,14 +63,14 @@
     "roi": [
       445,
       569,
-      568,
-      597
+      123,
+      28
     ],
     "target": [
       445,
       569,
-      568,
-      597
+      123,
+      28
     ],
     "template": "research/research_start.png"
   }

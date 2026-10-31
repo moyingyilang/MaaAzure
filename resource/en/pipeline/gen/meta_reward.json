@@ -6,14 +6,14 @@
     "roi": [
       120,
       14,
-      316,
-      39
+      196,
+      25
     ],
     "target": [
       120,
       14,
-      316,
-      39
+      196,
+      25
     ],
     "template": "meta_reward/meta_reward_dossier_reward_check.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       244,
       645,
-      404,
-      709
+      160,
+      64
     ],
     "target": [
       244,
       645,
-      404,
-      709
+      160,
+      64
     ],
     "template": "meta_reward/meta_reward_dossier_reward_enter.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       426,
       617,
-      432,
-      628
+      6,
+      11
     ],
     "target": [
       320,
       622,
-      428,
-      651
+      108,
+      29
     ],
     "template": "meta_reward/meta_reward_dossier_reward_receive.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1070,
       508,
-      1075,
-      523
+      5,
+      15
     ],
     "target": [
       1070,
       508,
-      1075,
-      523
+      5,
+      15
     ],
     "template": "meta_reward/meta_reward_notice.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       35,
       487,
-      62,
-      541
+      27,
+      54
     ],
     "target": [
       35,
       487,
-      62,
-      541
+      27,
+      54
     ],
     "template": "meta_reward/meta_reward_reward_check.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1106,
       532,
-      1199,
-      544
+      93,
+      12
     ],
     "target": [
       1106,
       532,
-      1199,
-      544
+      93,
+      12
     ],
     "template": "meta_reward/meta_reward_reward_enter.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1067,
       608,
-      1182,
-      633
+      115,
+      25
     ],
     "target": [
       1067,
       608,
-      1182,
-      633
+      115,
+      25
     ],
     "template": "meta_reward/meta_reward_reward_receive.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       860,
       352,
-      945,
-      369
+      85,
+      17
     ],
     "target": [
       860,
       352,
-      945,
-      369
+      85,
+      17
     ],
     "template": "meta_reward/meta_reward_sync_enter.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       866,
       351,
-      943,
-      370
+      77,
+      19
     ],
     "target": [
       866,
       351,
-      943,
-      370
+      77,
+      19
     ],
     "template": "meta_reward/meta_reward_sync_enter2.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       977,
       337,
-      981,
-      352
+      4,
+      15
     ],
     "target": [
       977,
       337,
-      981,
-      352
+      4,
+      15
     ],
     "template": "meta_reward/meta_reward_sync_reward_notice.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       581,
       339,
-      707,
-      377
+      126,
+      38
     ],
     "target": [
       581,
       339,
-      707,
-      377
+      126,
+      38
     ],
     "template": "meta_reward/meta_reward_sync_tap.png"
   }

@@ -6,14 +6,14 @@
     "roi": [
       1161,
       645,
-      1222,
-      675
+      61,
+      30
     ],
     "target": [
       1161,
       645,
-      1222,
-      675
+      61,
+      30
     ],
     "template": "handler/handler_air_attack_confirm.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1194,
       456,
-      1249,
-      530
+      55,
+      74
     ],
     "target": [
       1194,
       456,
-      1249,
-      530
+      55,
+      74
     ],
     "template": "handler/handler_air_attack_enter.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       887,
       644,
-      948,
-      676
+      61,
+      32
     ],
     "target": [
       887,
       644,
-      948,
-      676
+      61,
+      32
     ],
     "template": "handler/handler_air_strike_cancel.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1100,
       644,
-      1161,
-      675
+      61,
+      31
     ],
     "target": [
       1100,
       644,
-      1161,
-      675
+      61,
+      31
     ],
     "template": "handler/handler_air_strike_confirm.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1194,
       456,
-      1249,
-      530
+      55,
+      74
     ],
     "target": [
       1194,
       456,
-      1249,
-      530
+      55,
+      74
     ],
     "template": "handler/handler_air_strike_enter.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       341,
       433,
-      391,
-      472
+      50,
+      39
     ],
     "target": [
       341,
       433,
-      391,
-      472
+      50,
+      39
     ],
     "template": "handler/handler_android_no_respond.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1205,
       549,
-      1275,
-      566
+      70,
+      17
     ],
     "target": [
       1205,
       549,
-      1275,
-      566
+      70,
+      17
     ],
     "template": "handler/handler_auto_search_map_option_off.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1205,
       549,
-      1275,
-      566
+      70,
+      17
     ],
     "target": [
       1205,
       549,
-      1275,
-      566
+      70,
+      17
     ],
     "template": "handler/handler_auto_search_map_option_on.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       789,
       610,
-      903,
-      638
+      114,
+      28
     ],
     "target": [
       773,
       598,
-      919,
-      646
+      146,
+      48
     ],
     "template": "handler/handler_auto_search_menu_continue.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       419,
       609,
-      475,
-      637
+      56,
+      28
     ],
     "target": [
       373,
       598,
-      520,
-      647
+      147,
+      49
     ],
     "template": "handler/handler_auto_search_menu_exit.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "target": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_off.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "target": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_off2.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "target": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_off3.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "target": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_off4.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "target": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_on.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "target": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_on2.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "target": [
       865,
       587,
-      881,
-      603
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_on3.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "target": [
       867,
       588,
-      883,
-      604
+      16,
+      16
     ],
     "template": "handler/handler_auto_search_on4.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       832,
       207,
-      851,
-      226
+      19,
+      19
     ],
     "target": [
       832,
       207,
-      851,
-      226
+      19,
+      19
     ],
     "template": "handler/handler_auto_search_set_all.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       635,
       207,
-      653,
-      226
+      18,
+      19
     ],
     "target": [
       635,
       207,
-      653,
-      226
+      18,
+      19
     ],
     "template": "handler/handler_auto_search_set_boss.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       496,
       207,
-      515,
-      226
+      19,
+      19
     ],
     "target": [
       496,
       207,
-      515,
-      226
+      19,
+      19
     ],
     "template": "handler/handler_auto_search_set_mob.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       932,
       207,
-      950,
-      226
+      18,
+      19
     ],
     "target": [
       932,
       207,
-      950,
-      226
+      18,
+      19
     ],
     "template": "handler/handler_auto_search_set_standby.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       578,
       457,
-      597,
-      476
+      19,
+      19
     ],
     "target": [
       578,
       457,
-      597,
-      476
+      19,
+      19
     ],
     "template": "handler/handler_auto_search_set_sub_auto.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       894,
       457,
-      913,
-      476
+      19,
+      19
     ],
     "target": [
       894,
       457,
-      913,
-      476
+      19,
+      19
     ],
     "template": "handler/handler_auto_search_set_sub_standby.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       641,
       567,
-      713,
-      598
+      72,
+      31
     ],
     "target": [
       641,
       567,
-      713,
-      598
+      72,
+      31
     ],
     "template": "handler/handler_avatar_expired.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       942,
       529,
-      962,
-      550
+      20,
+      21
     ],
     "target": [
       942,
       529,
-      962,
-      550
+      20,
+      21
     ],
     "template": "handler/handler_battle_pass_new_season.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       554,
       483,
-      726,
-      540
+      172,
+      57
     ],
     "target": [
       863,
       173,
-      929,
-      217
+      66,
+      44
     ],
     "template": "handler/handler_battle_pass_notice.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       737,
       614,
-      756,
-      631
+      19,
+      17
     ],
     "target": [
       737,
       614,
-      756,
-      631
+      19,
+      17
     ],
     "template": "handler/handler_book_box_auto.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       922,
       600,
-      940,
-      617
+      18,
+      17
     ],
     "target": [
       922,
       600,
-      940,
-      617
+      18,
+      17
     ],
     "template": "handler/handler_book_box_prep.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       600,
       599,
-      648,
-      635
+      48,
+      36
     ],
     "target": [
       600,
       599,
-      648,
-      635
+      48,
+      36
     ],
     "template": "handler/handler_book_check_auto.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       735,
       588,
-      761,
-      618
+      26,
+      30
     ],
     "target": [
       735,
       588,
-      761,
-      618
+      26,
+      30
     ],
     "template": "handler/handler_book_check_prep.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       420,
       304,
-      475,
-      354
+      55,
+      50
     ],
     "target": [
       420,
       304,
-      475,
-      354
+      55,
+      50
     ],
     "template": "handler/handler_book_popup_check.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       1038,
       587,
-      1078,
-      605
+      40,
+      18
     ],
     "target": [
       1038,
       587,
-      1078,
-      605
+      40,
+      18
     ],
     "template": "handler/handler_fast_forward_off.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       1080,
       587,
-      1120,
-      605
+      40,
+      18
     ],
     "target": [
       1080,
       587,
-      1120,
-      605
+      40,
+      18
     ],
     "template": "handler/handler_fast_forward_on.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       1185,
       501,
-      1192,
-      519
+      7,
+      18
     ],
     "target": [
       1185,
       501,
-      1192,
-      519
+      7,
+      18
     ],
     "template": "handler/handler_fleet_locked.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1185,
       492,
-      1192,
-      525
+      7,
+      33
     ],
     "target": [
       1185,
       492,
-      1192,
-      525
+      7,
+      33
     ],
     "template": "handler/handler_fleet_unlocked.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       1108,
       446,
-      1170,
-      477
+      62,
+      31
     ],
     "target": [
       1108,
       415,
-      1170,
-      477
+      62,
+      62
     ],
     "template": "handler/handler_formation_1.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       1108,
       446,
-      1170,
-      477
+      62,
+      31
     ],
     "target": [
       1108,
       415,
-      1170,
-      477
+      62,
+      62
     ],
     "template": "handler/handler_formation_2.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       1108,
       446,
-      1170,
-      477
+      62,
+      31
     ],
     "target": [
       1108,
       415,
-      1170,
-      477
+      62,
+      62
     ],
     "template": "handler/handler_formation_3.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       145,
       115,
-      437,
-      159
+      292,
+      44
     ],
     "target": [
       145,
       115,
-      437,
-      159
+      292,
+      44
     ],
     "template": "handler/handler_formation_location.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1009,
       586,
-      1028,
-      614
+      19,
+      28
     ],
     "target": [
       924,
       653,
-      943,
-      672
+      19,
+      19
     ],
     "template": "handler/handler_game_tips.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       1008,
       586,
-      1028,
-      614
+      20,
+      28
     ],
     "target": [
       1008,
       586,
-      1028,
-      614
+      20,
+      28
     ],
     "template": "handler/handler_game_tips3.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       1008,
       587,
-      1028,
-      614
+      20,
+      27
     ],
     "target": [
       1008,
       587,
-      1028,
-      614
+      20,
+      27
     ],
     "template": "handler/handler_game_tips4.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       792,
       315,
-      794,
-      333
+      2,
+      18
     ],
     "target": [
       792,
       315,
-      794,
-      333
+      2,
+      18
     ],
     "template": "handler/handler_get_ammo.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       563,
       193,
-      720,
-      219
+      157,
+      26
     ],
     "target": [
       563,
       193,
-      720,
-      219
+      157,
+      26
     ],
     "template": "handler/handler_get_items_ship_1.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       604,
       495,
-      676,
-      525
+      72,
+      30
     ],
     "target": [
       604,
       495,
-      676,
-      525
+      72,
+      30
     ],
     "template": "handler/handler_get_mission.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       990,
       550,
-      1022,
-      565
+      32,
+      15
     ],
     "target": [
       990,
       550,
-      1022,
-      565
+      32,
+      15
     ],
     "template": "handler/handler_get_skin.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       422,
       449,
-      623,
-      486
+      201,
+      37
     ],
     "target": [
       422,
       449,
-      623,
-      486
+      201,
+      37
     ],
     "template": "handler/handler_guild_popup_cancel.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       655,
       450,
-      856,
-      487
+      201,
+      37
     ],
     "target": [
       655,
       450,
-      856,
-      487
+      201,
+      37
     ],
     "template": "handler/handler_guild_popup_confirm.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       749,
       654,
-      921,
-      707
+      172,
+      53
     ],
     "target": [
       749,
       654,
-      921,
-      707
+      172,
+      53
     ],
     "template": "handler/handler_in_map.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       122,
       16,
-      172,
-      39
+      50,
+      23
     ],
     "target": [
       122,
       16,
-      172,
-      39
+      50,
+      23
     ],
     "template": "handler/handler_in_stage.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       202,
       297,
-      1078,
-      299
+      876,
+      2
     ],
     "target": [
       202,
       297,
-      1078,
-      299
+      876,
+      2
     ],
     "template": "handler/handler_info_bar_1.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       202,
       241,
-      1078,
-      243
+      876,
+      2
     ],
     "target": [
       202,
       241,
-      1078,
-      243
+      876,
+      2
     ],
     "template": "handler/handler_info_bar_2.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       202,
       185,
-      1078,
-      187
+      876,
+      2
     ],
     "target": [
       202,
       185,
-      1078,
-      187
+      876,
+      2
     ],
     "template": "handler/handler_info_bar_3.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       200,
       173,
-      1080,
-      348
+      880,
+      175
     ],
     "target": [
       200,
       173,
-      1080,
-      348
+      880,
+      175
     ],
     "template": "handler/handler_info_bar_area.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       194,
       299,
-      1086,
-      348
+      892,
+      49
     ],
     "target": [
       194,
       299,
-      1086,
-      348
+      892,
+      49
     ],
     "template": "handler/handler_info_bar_detect.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       1160,
       45,
-      1227,
-      90
+      67,
+      45
     ],
     "target": [
       1160,
       61,
-      1190,
-      90
+      30,
+      29
     ],
     "template": "handler/handler_login_announce.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       1193,
       83,
-      1215,
-      105
+      22,
+      22
     ],
     "target": [
       1171,
       83,
-      1193,
-      105
+      22,
+      22
     ],
     "template": "handler/handler_login_announce_2.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       1214,
       653,
-      1268,
-      709
+      54,
+      56
     ],
     "target": [
       416,
       294,
-      534,
-      400
+      118,
+      106
     ],
     "template": "handler/handler_login_check.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       700,
       471,
-      873,
-      529
+      173,
+      58
     ],
     "target": [
       700,
       471,
-      873,
-      529
+      173,
+      58
     ],
     "template": "handler/handler_login_game_update.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       960,
       123,
-      1158,
-      333
+      198,
+      210
     ],
     "target": [
       960,
       123,
-      1158,
-      333
+      198,
+      210
     ],
     "template": "handler/handler_login_return_info.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       1,
       7,
-      104,
-      47
+      103,
+      40
     ],
     "target": [
       1,
       7,
-      104,
-      47
+      103,
+      40
     ],
     "template": "handler/handler_login_return_sign.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       923,
       141,
-      990,
-      186
+      67,
+      45
     ],
     "target": [
       923,
       141,
-      990,
-      186
+      67,
+      45
     ],
     "template": "handler/handler_maintenance_announce.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       520,
       240,
-      760,
-      400
+      240,
+      160
     ],
     "target": [
       520,
       240,
-      760,
-      400
+      240,
+      160
     ],
     "template": "handler/handler_manjuu_area.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       350,
       447,
-      1280,
-      472
+      930,
+      25
     ],
     "target": [
       350,
       447,
-      1280,
-      472
+      930,
+      25
     ],
     "template": "handler/handler_map_air_raid.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       261,
       433,
-      1280,
-      449
+      1019,
+      16
     ],
     "target": [
       261,
       433,
-      1280,
-      449
+      1019,
+      16
     ],
     "template": "handler/handler_map_ambush.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       804,
       457,
-      876,
-      488
+      72,
+      31
     ],
     "target": [
       755,
       446,
-      925,
-      501
+      170,
+      55
     ],
     "template": "handler/handler_map_ambush_attack.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       1029,
       457,
-      1101,
-      487
+      72,
+      30
     ],
     "target": [
       979,
       444,
-      1152,
-      502
+      173,
+      58
     ],
     "template": "handler/handler_map_ambush_evade.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       145,
       115,
-      437,
-      159
+      292,
+      44
     ],
     "target": [
       145,
       115,
-      437,
-      159
+      292,
+      44
     ],
     "template": "handler/handler_map_buff.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       682,
       185,
-      1026,
-      190
+      344,
+      5
     ],
     "target": [
       682,
       185,
-      1026,
-      190
+      344,
+      5
     ],
     "template": "handler/handler_map_clear_percentage.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       617,
       359,
-      651,
-      373
+      34,
+      14
     ],
     "target": [
       617,
       359,
-      651,
-      373
+      34,
+      14
     ],
     "template": "handler/handler_map_enemy_searching.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       182,
       266,
-      268,
-      288
+      86,
+      22
     ],
     "target": [
       182,
       266,
-      268,
-      288
+      86,
+      22
     ],
     "template": "handler/handler_map_green.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       178,
       366,
-      208,
-      392
+      30,
+      26
     ],
     "target": [
       178,
       366,
-      208,
-      392
+      30,
+      26
     ],
     "template": "handler/handler_map_star_1.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       525,
       365,
-      552,
-      392
+      27,
+      27
     ],
     "target": [
       525,
       365,
-      552,
-      392
+      27,
+      27
     ],
     "template": "handler/handler_map_star_2.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       869,
       365,
-      898,
-      392
+      29,
+      27
     ],
     "target": [
       869,
       365,
-      898,
-      392
+      29,
+      27
     ],
     "template": "handler/handler_map_star_3.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       654,
       312,
-      704,
-      335
+      50,
+      23
     ],
     "target": [
       654,
       312,
-      704,
-      335
+      50,
+      23
     ],
     "template": "handler/handler_map_walk_out_of_step.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       1081,
       406,
-      1111,
-      436
+      30,
+      30
     ],
     "target": [
       1081,
       406,
-      1111,
-      436
+      30,
+      30
     ],
     "template": "handler/handler_map_walk_speedup.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       432,
       493,
-      543,
-      533
+      111,
+      40
     ],
     "target": [
       432,
       493,
-      543,
-      533
+      111,
+      40
     ],
     "template": "handler/handler_mission_popup_ack.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       719,
       493,
-      861,
-      534
+      142,
+      41
     ],
     "target": [
       719,
       493,
-      861,
-      534
+      142,
+      41
     ],
     "template": "handler/handler_mission_popup_go.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       1162,
       646,
-      1220,
-      674
+      58,
+      28
     ],
     "target": [
       1162,
       646,
-      1220,
-      674
+      58,
+      28
     ],
     "template": "handler/handler_mob_move_cancel.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       1102,
       504,
-      1157,
-      578
+      55,
+      74
     ],
     "target": [
       1102,
       504,
-      1157,
-      578
+      55,
+      74
     ],
     "template": "handler/handler_mob_move_enter.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       554,
       505,
-      726,
-      561
+      172,
+      56
     ],
     "target": [
       872,
       152,
-      939,
-      196
+      67,
+      44
     ],
     "template": "handler/handler_monthly_pass_notice.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       589,
       294,
-      691,
-      427
+      102,
+      133
     ],
     "target": [
       588,
       478,
-      698,
-      496
+      110,
+      18
     ],
     "template": "handler/handler_mystery_item.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       453,
       506,
-      525,
-      536
+      72,
+      30
     ],
     "target": [
       453,
       506,
-      525,
-      536
+      72,
+      30
     ],
     "template": "handler/handler_popup_cancel.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       754,
       502,
-      825,
-      532
+      71,
+      30
     ],
     "target": [
       754,
       502,
-      825,
-      532
+      71,
+      30
     ],
     "template": "handler/handler_popup_confirm.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       1227,
       28,
-      1252,
-      53
+      25,
+      25
     ],
     "target": [
       1227,
       28,
-      1252,
-      53
+      25,
+      25
     ],
     "template": "handler/handler_story_close.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       1145,
       585,
-      1280,
-      720
+      135,
+      135
     ],
     "target": [
       1145,
       585,
-      1280,
-      720
+      135,
+      135
     ],
     "template": "handler/handler_story_letter_black.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       1159,
       26,
-      1264,
-      52
+      105,
+      26
     ],
     "target": [
       1159,
       26,
-      1264,
-      52
+      105,
+      26
     ],
     "template": "handler/handler_story_letters_only.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       1216,
       676,
-      1258,
-      708
+      42,
+      32
     ],
     "target": [
       1178,
       25,
-      1196,
-      54
+      18,
+      29
     ],
     "template": "handler/handler_story_skip.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       1181,
       26,
-      1225,
-      40
+      44,
+      14
     ],
     "target": [
       1181,
       26,
-      1225,
-      40
+      44,
+      14
     ],
     "template": "handler/handler_story_skip_2.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       28,
       23,
-      55,
-      50
+      27,
+      27
     ],
     "target": [
       28,
       23,
-      55,
-      50
+      27,
+      27
     ],
     "template": "handler/handler_story_skip_3.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       1198,
       411,
-      1269,
-      471
+      71,
+      60
     ],
     "target": [
       1198,
       411,
-      1269,
-      471
+      71,
+      60
     ],
     "template": "handler/handler_strategy_open.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       1176,
       366,
-      1275,
-      393
+      99,
+      27
     ],
     "target": [
       968,
       403,
-      994,
-      488
+      26,
+      85
     ],
     "template": "handler/handler_strategy_opened.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       1200,
       415,
-      1262,
-      477
+      62,
+      62
     ],
     "target": [
       1200,
       415,
-      1262,
-      477
+      62,
+      62
     ],
     "template": "handler/handler_submarine_hunt_off.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       1200,
       415,
-      1262,
-      477
+      62,
+      62
     ],
     "target": [
       1200,
       415,
-      1262,
-      477
+      62,
+      62
     ],
     "template": "handler/handler_submarine_hunt_on.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       891,
       647,
-      1005,
-      673
+      114,
+      26
     ],
     "target": [
       891,
       647,
-      1005,
-      673
+      114,
+      26
     ],
     "template": "handler/handler_submarine_move_cancel.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       1103,
       646,
-      1218,
-      674
+      115,
+      28
     ],
     "target": [
       1103,
       646,
-      1218,
-      674
+      115,
+      28
     ],
     "template": "handler/handler_submarine_move_confirm.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       1109,
       511,
-      1169,
-      571
+      60,
+      60
     ],
     "target": [
       1109,
       511,
-      1169,
-      571
+      60,
+      60
     ],
     "template": "handler/handler_submarine_move_enter.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       1140,
       435,
-      1170,
-      468
+      30,
+      33
     ],
     "target": [
       1140,
       435,
-      1170,
-      468
+      30,
+      33
     ],
     "template": "handler/handler_submarine_view_off.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       1140,
       435,
-      1170,
-      468
+      30,
+      33
     ],
     "target": [
       1140,
       435,
-      1170,
-      468
+      30,
+      33
     ],
     "template": "handler/handler_submarine_view_on.png"
   },
@@ -1830,14 +1830,14 @@
     "roi": [
       688,
       316,
-      781,
-      338
+      93,
+      22
     ],
     "target": [
       688,
       316,
-      781,
-      338
+      93,
+      22
     ],
     "template": "handler/handler_use_data_key.png"
   },
@@ -1848,14 +1848,14 @@
     "roi": [
       690,
       185,
-      713,
-      207
+      23,
+      22
     ],
     "target": [
       690,
       185,
-      713,
-      207
+      23,
+      22
     ],
     "template": "handler/handler_use_data_key_notified.png"
   },
@@ -1866,14 +1866,14 @@
     "roi": [
       709,
       526,
-      742,
-      542
+      33,
+      16
     ],
     "target": [
       709,
       526,
-      742,
-      542
+      33,
+      16
     ],
     "template": "handler/handler_user_agreement_confirm.png"
   },
@@ -1884,14 +1884,14 @@
     "roi": [
       404,
       483,
-      576,
-      539
+      172,
+      56
     ],
     "target": [
       404,
       483,
-      576,
-      539
+      172,
+      56
     ],
     "template": "handler/handler_vote_cancel.png"
   }

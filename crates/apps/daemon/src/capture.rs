@@ -33,8 +33,14 @@ pub fn run_capture(args: &[String]) -> std::process::ExitCode {
             return std::process::ExitCode::FAILURE;
         }
     };
-    println!("窗口物理矩形  left={} top={} {}x{}", rect.left, rect.top, rect.width, rect.height);
-    println!("换算检查      1280x720 中心点 → 屏幕 {:?}", rect.to_screen(640, 360));
+    println!(
+        "窗口物理矩形  left={} top={} {}x{}",
+        rect.left, rect.top, rect.width, rect.height
+    );
+    println!(
+        "换算检查      1280x720 中心点 → 屏幕 {:?}",
+        rect.to_screen(640, 360)
+    );
 
     let full_path = "/data/local/tmp/maazure-full.png";
     let screencap = if use_su {
@@ -73,7 +79,15 @@ pub fn run_capture(args: &[String]) -> std::process::ExitCode {
     let n = (rgb.width() * rgb.height()) as u64 * 3;
     println!("裁切后尺寸    {}x{}", rgb.width(), rgb.height());
     println!("平均亮度      {:.1}/255", sum as f64 / n as f64);
-    println!("不同颜色      {}{}", colors.len(), if colors.len() >= 4096 { " (已封顶)" } else { "" });
+    println!(
+        "不同颜色      {}{}",
+        colors.len(),
+        if colors.len() >= 4096 {
+            " (已封顶)"
+        } else {
+            ""
+        }
+    );
 
     match std::fs::write(&out, &cropped) {
         Ok(()) => {

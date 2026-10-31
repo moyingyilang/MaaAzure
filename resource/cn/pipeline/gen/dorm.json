@@ -6,14 +6,14 @@
     "roi": [
       607,
       427,
-      675,
-      459
+      68,
+      32
     ],
     "target": [
       607,
       427,
-      675,
-      459
+      68,
+      32
     ],
     "template": "dorm/dorm_buy_food_check.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       751,
       499,
-      792,
-      520
+      41,
+      21
     ],
     "target": [
       751,
       499,
-      792,
-      520
+      41,
+      21
     ],
     "template": "dorm/dorm_buy_food_confirm.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       866,
       375,
-      888,
-      398
+      22,
+      23
     ],
     "target": [
       866,
       375,
-      888,
-      398
+      22,
+      23
     ],
     "template": "dorm/dorm_buy_food_enter.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       162,
       342,
-      274,
-      370
+      112,
+      28
     ],
     "target": [
       162,
       342,
-      274,
-      370
+      112,
+      28
     ],
     "template": "dorm/dorm_feed_check.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       254,
       581,
-      300,
-      605
+      46,
+      24
     ],
     "target": [
       254,
       581,
-      300,
-      605
+      46,
+      24
     ],
     "template": "dorm/dorm_feed_enter.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       851,
       369,
-      902,
-      400
+      51,
+      31
     ],
     "target": [
       851,
       369,
-      902,
-      400
+      51,
+      31
     ],
     "template": "dorm/dorm_food_buy_add_10.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       688,
       490,
-      860,
-      530
+      172,
+      40
     ],
     "target": [
       688,
       490,
-      860,
-      530
+      172,
+      40
     ],
     "template": "dorm/dorm_food_buy_confirm.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       607,
       426,
-      692,
-      459
+      85,
+      33
     ],
     "target": [
       607,
       426,
-      692,
-      459
+      85,
+      33
     ],
     "template": "dorm/dorm_food_buy_cost.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       532,
       370,
-      554,
-      397
+      22,
+      27
     ],
     "target": [
       532,
       370,
-      554,
-      397
+      22,
+      27
     ],
     "template": "dorm/dorm_food_minus.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       807,
       370,
-      826,
-      397
+      19,
+      27
     ],
     "target": [
       807,
       370,
-      826,
-      397
+      19,
+      27
     ],
     "template": "dorm/dorm_food_plus.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       818,
       621,
-      1072,
-      677
+      254,
+      56
     ],
     "target": [
       818,
       621,
-      1072,
-      677
+      254,
+      56
     ],
     "template": "dorm/dorm_furniture_buy_all.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       644,
       464,
-      972,
-      517
+      328,
+      53
     ],
     "target": [
       644,
       464,
-      972,
-      517
+      328,
+      53
     ],
     "template": "dorm/dorm_furniture_buy_confirm.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       505,
       621,
-      759,
-      677
+      254,
+      56
     ],
     "target": [
       505,
       621,
-      759,
-      677
+      254,
+      56
     ],
     "template": "dorm/dorm_furniture_buy_set.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       614,
       476,
-      667,
-      503
+      53,
+      27
     ],
     "target": [
       614,
       476,
-      667,
-      503
+      53,
+      27
     ],
     "template": "dorm/dorm_furniture_confirm.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       422,
       244,
-      437,
-      259
+      15,
+      15
     ],
     "target": [
       422,
       244,
-      437,
-      259
+      15,
+      15
     ],
     "template": "dorm/dorm_furniture_countdown.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1003,
       444,
-      1259,
-      496
+      256,
+      52
     ],
     "target": [
       1003,
       444,
-      1259,
-      496
+      256,
+      52
     ],
     "template": "dorm/dorm_furniture_details_enter.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       100,
       121,
-      114,
-      141
+      14,
+      20
     ],
     "target": [
       100,
       121,
-      114,
-      141
+      14,
+      20
     ],
     "template": "dorm/dorm_furniture_details_quit.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1067,
       604,
-      1120,
-      650
+      53,
+      46
     ],
     "target": [
       1067,
       604,
-      1120,
-      650
+      53,
+      46
     ],
     "template": "dorm/dorm_furniture_shop_enter.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       241,
       565,
-      271,
-      572
+      30,
+      7
     ],
     "target": [
       241,
       565,
-      271,
-      572
+      30,
+      7
     ],
     "template": "dorm/dorm_furniture_shop_first.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       239,
       519,
-      273,
-      525
+      34,
+      6
     ],
     "target": [
       239,
       519,
-      273,
-      525
+      34,
+      6
     ],
     "template": "dorm/dorm_furniture_shop_first_selected.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       38,
       34,
-      58,
-      63
+      20,
+      29
     ],
     "target": [
       38,
       34,
-      58,
-      63
+      20,
+      29
     ],
     "template": "dorm/dorm_furniture_shop_quit.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       949,
       600,
-      1005,
-      659
+      56,
+      59
     ],
     "target": [
       949,
       600,
-      1005,
-      659
+      56,
+      59
     ],
     "template": "dorm/dorm_manage.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1128,
       116,
-      1150,
-      135
+      22,
+      19
     ],
     "target": [
       1128,
       116,
-      1150,
-      135
+      22,
+      19
     ],
     "template": "dorm/dorm_manage_check.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       653,
       374,
-      706,
-      395
+      53,
+      21
     ],
     "target": [
       653,
       374,
-      706,
-      395
+      53,
+      21
     ],
     "template": "dorm/dorm_ocr_dorm_buy_food_amount.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       813,
       271,
-      987,
-      296
+      174,
+      25
     ],
     "target": [
       813,
       271,
-      987,
-      296
+      174,
+      25
     ],
     "template": "dorm/dorm_ocr_dorm_fill.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       897,
       20,
-      988,
-      49
+      91,
+      29
     ],
     "target": [
       897,
       20,
-      988,
-      49
+      91,
+      29
     ],
     "template": "dorm/dorm_ocr_dorm_furniture_coin.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       819,
       417,
-      896,
-      442
+      77,
+      25
     ],
     "target": [
       819,
       417,
-      896,
-      442
+      77,
+      25
     ],
     "template": "dorm/dorm_ocr_dorm_furniture_price.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       112,
       662,
-      155,
-      694
+      43,
+      32
     ],
     "target": [
       112,
       662,
-      155,
-      694
+      43,
+      32
     ],
     "template": "dorm/dorm_ocr_dorm_slot.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       644,
       428,
-      705,
-      457
+      61,
+      29
     ],
     "target": [
       644,
       428,
-      705,
-      457
+      61,
+      29
     ],
     "template": "dorm/dorm_ocr_fuel_cost.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       1191,
       497,
-      1251,
-      519
+      60,
+      22
     ],
     "target": [
       1191,
       497,
-      1251,
-      519
+      60,
+      22
     ],
     "template": "dorm/dorm_quick_collect.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       528,
       339,
-      543,
-      356
+      15,
+      17
     ],
     "target": [
       528,
       339,
-      543,
-      356
+      15,
+      17
     ],
     "template": "dorm/dorm_red_dot.png"
   }

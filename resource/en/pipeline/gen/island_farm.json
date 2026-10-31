@@ -6,14 +6,14 @@
     "roi": [
       200,
       166,
-      286,
-      191
+      86,
+      25
     ],
     "target": [
       260,
       221,
-      334,
-      294
+      74,
+      73
     ],
     "template": "island_farm/island_farm_island_nursery_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       200,
       166,
-      286,
-      191
+      86,
+      25
     ],
     "target": [
       356,
       222,
-      427,
-      290
+      71,
+      68
     ],
     "template": "island_farm/island_farm_island_nursery_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       736,
       445,
-      823,
-      472
+      87,
+      27
     ],
     "target": [
       797,
       499,
-      872,
-      575
+      75,
+      76
     ],
     "template": "island_farm/island_farm_island_orchard_post1.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       736,
       445,
-      823,
-      472
+      87,
+      27
     ],
     "target": [
       894,
       500,
-      967,
-      574
+      73,
+      74
     ],
     "template": "island_farm/island_farm_island_orchard_post2.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       736,
       445,
-      823,
-      472
+      87,
+      27
     ],
     "target": [
       989,
       500,
-      1062,
-      572
+      73,
+      72
     ],
     "template": "island_farm/island_farm_island_orchard_post3.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       736,
       445,
-      823,
-      472
+      87,
+      27
     ],
     "target": [
       1084,
       502,
-      1155,
-      574
+      71,
+      72
     ],
     "template": "island_farm/island_farm_island_orchard_post4.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       198,
       79,
-      287,
-      105
+      89,
+      26
     ],
     "target": [
       352,
       132,
-      429,
-      211
+      77,
+      79
     ],
     "template": "island_farm/island_farm_post2.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       198,
       79,
-      287,
-      105
+      89,
+      26
     ],
     "target": [
       448,
       133,
-      524,
-      210
+      76,
+      77
     ],
     "template": "island_farm/island_farm_post3.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       198,
       79,
-      287,
-      105
+      89,
+      26
     ],
     "target": [
       544,
       135,
-      615,
-      206
+      71,
+      71
     ],
     "template": "island_farm/island_farm_post4.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       614,
       314,
-      671,
-      362
+      57,
+      48
     ],
     "target": [
       614,
       314,
-      671,
-      362
+      57,
+      48
     ],
     "template": "island_farm/island_farm_post_apple.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       618,
       310,
-      666,
-      362
+      48,
+      52
     ],
     "target": [
       618,
       310,
-      666,
-      362
+      48,
+      52
     ],
     "template": "island_farm/island_farm_post_asparagus.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       612,
       311,
-      671,
-      362
+      59,
+      51
     ],
     "target": [
       612,
       311,
-      671,
-      362
+      59,
+      51
     ],
     "template": "island_farm/island_farm_post_avocado.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       611,
       315,
-      672,
-      362
+      61,
+      47
     ],
     "target": [
       611,
       315,
-      672,
-      362
+      61,
+      47
     ],
     "template": "island_farm/island_farm_post_banana.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       614,
       305,
-      673,
-      361
+      59,
+      56
     ],
     "target": [
       614,
       305,
-      673,
-      361
+      59,
+      56
     ],
     "template": "island_farm/island_farm_post_carrot.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       612,
       308,
-      668,
-      361
+      56,
+      53
     ],
     "target": [
       612,
       308,
-      668,
-      361
+      56,
+      53
     ],
     "template": "island_farm/island_farm_post_chinese_cabbage.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       613,
       311,
-      669,
-      362
+      56,
+      51
     ],
     "target": [
       613,
       311,
-      669,
-      362
+      56,
+      51
     ],
     "template": "island_farm/island_farm_post_citrus.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       602,
       316,
-      679,
-      362
+      77,
+      46
     ],
     "target": [
       602,
       316,
-      679,
-      362
+      77,
+      46
     ],
     "template": "island_farm/island_farm_post_coffee_bean.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       613,
       314,
-      671,
-      362
+      58,
+      48
     ],
     "target": [
       613,
       314,
-      671,
-      362
+      58,
+      48
     ],
     "template": "island_farm/island_farm_post_corn.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       612,
       311,
-      668,
-      361
+      56,
+      50
     ],
     "target": [
       612,
       311,
-      668,
-      361
+      56,
+      50
     ],
     "template": "island_farm/island_farm_post_cotton.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       265,
       209,
-      334,
-      272
+      69,
+      63
     ],
     "target": [
       265,
       209,
-      334,
-      272
+      69,
+      63
     ],
     "template": "island_farm/island_farm_post_cucumber.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       610,
       305,
-      678,
-      361
+      68,
+      56
     ],
     "target": [
       610,
       305,
-      678,
-      361
+      68,
+      56
     ],
     "template": "island_farm/island_farm_post_flax.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       614,
       306,
-      670,
-      361
+      56,
+      55
     ],
     "target": [
       614,
       306,
-      670,
-      361
+      56,
+      55
     ],
     "template": "island_farm/island_farm_post_lavender.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       610,
       316,
-      670,
-      362
+      60,
+      46
     ],
     "target": [
       610,
       316,
-      670,
-      362
+      60,
+      46
     ],
     "template": "island_farm/island_farm_post_lemon.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       614,
       314,
-      669,
-      362
+      55,
+      48
     ],
     "target": [
       614,
       314,
-      669,
-      362
+      55,
+      48
     ],
     "template": "island_farm/island_farm_post_mango.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       615,
       309,
-      668,
-      361
+      53,
+      52
     ],
     "target": [
       615,
       309,
-      668,
-      361
+      53,
+      52
     ],
     "template": "island_farm/island_farm_post_onion.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       609,
       311,
-      673,
-      362
+      64,
+      51
     ],
     "target": [
       609,
       311,
-      673,
-      362
+      64,
+      51
     ],
     "template": "island_farm/island_farm_post_pasture.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       612,
       311,
-      670,
-      361
+      58,
+      50
     ],
     "target": [
       612,
       311,
-      670,
-      361
+      58,
+      50
     ],
     "template": "island_farm/island_farm_post_pear.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       612,
       311,
-      670,
-      361
+      58,
+      50
     ],
     "target": [
       612,
       311,
-      670,
-      361
+      58,
+      50
     ],
     "template": "island_farm/island_farm_post_persimmon.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       621,
       307,
-      660,
-      362
+      39,
+      55
     ],
     "target": [
       621,
       307,
-      660,
-      362
+      39,
+      55
     ],
     "template": "island_farm/island_farm_post_pineapple.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       612,
       314,
-      668,
-      360
+      56,
+      46
     ],
     "target": [
       612,
       314,
-      668,
-      360
+      56,
+      46
     ],
     "template": "island_farm/island_farm_post_potato.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       610,
       319,
-      671,
-      361
+      61,
+      42
     ],
     "target": [
       610,
       319,
-      671,
-      361
+      61,
+      42
     ],
     "template": "island_farm/island_farm_post_rice.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       612,
       318,
-      669,
-      361
+      57,
+      43
     ],
     "target": [
       612,
       318,
-      669,
-      361
+      57,
+      43
     ],
     "template": "island_farm/island_farm_post_rubber.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       612,
       306,
-      668,
-      361
+      56,
+      55
     ],
     "target": [
       612,
       306,
-      668,
-      361
+      56,
+      55
     ],
     "template": "island_farm/island_farm_post_soybean.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       614,
       311,
-      671,
-      360
+      57,
+      49
     ],
     "target": [
       614,
       311,
-      671,
-      360
+      57,
+      49
     ],
     "template": "island_farm/island_farm_post_strawberry.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       608,
       312,
-      674,
-      361
+      66,
+      49
     ],
     "target": [
       608,
       312,
-      674,
-      361
+      66,
+      49
     ],
     "template": "island_farm/island_farm_post_tea.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       265,
       209,
-      334,
-      272
+      69,
+      63
     ],
     "target": [
       265,
       209,
-      334,
-      272
+      69,
+      63
     ],
     "template": "island_farm/island_farm_post_tomato.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       607,
       313,
-      677,
-      362
+      70,
+      49
     ],
     "target": [
       607,
       313,
-      677,
-      362
+      70,
+      49
     ],
     "template": "island_farm/island_farm_post_wheat.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       219,
       452,
-      282,
-      506
+      63,
+      54
     ],
     "target": [
       219,
       452,
-      282,
-      506
+      63,
+      54
     ],
     "template": "island_farm/island_farm_select_apple.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       753,
       242,
-      835,
-      318
+      82,
+      76
     ],
     "target": [
       753,
       242,
-      835,
-      318
+      82,
+      76
     ],
     "template": "island_farm/island_farm_select_apple_check.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       226,
       147,
-      276,
-      212
+      50,
+      65
     ],
     "target": [
       226,
       147,
-      276,
-      212
+      50,
+      65
     ],
     "template": "island_farm/island_farm_select_asparagus.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       759,
       235,
-      830,
-      321
+      71,
+      86
     ],
     "target": [
       759,
       235,
-      830,
-      321
+      71,
+      86
     ],
     "template": "island_farm/island_farm_select_asparagus_check.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       218,
       398,
-      282,
-      465
+      64,
+      67
     ],
     "target": [
       218,
       398,
-      282,
-      465
+      64,
+      67
     ],
     "template": "island_farm/island_farm_select_avocado.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       751,
       232,
-      837,
-      323
+      86,
+      91
     ],
     "target": [
       751,
       232,
-      837,
-      323
+      86,
+      91
     ],
     "template": "island_farm/island_farm_select_avocado_check.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       218,
       503,
-      285,
-      556
+      67,
+      53
     ],
     "target": [
       218,
       503,
-      285,
-      556
+      67,
+      53
     ],
     "template": "island_farm/island_farm_select_banana.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       747,
       240,
-      841,
-      315
+      94,
+      75
     ],
     "target": [
       747,
       240,
-      841,
-      315
+      94,
+      75
     ],
     "template": "island_farm/island_farm_select_banana_check.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       218,
       398,
-      284,
-      465
+      66,
+      67
     ],
     "target": [
       218,
       398,
-      284,
-      465
+      66,
+      67
     ],
     "template": "island_farm/island_farm_select_carrot.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       750,
       226,
-      840,
-      327
+      90,
+      101
     ],
     "target": [
       750,
       226,
-      840,
-      327
+      90,
+      101
     ],
     "template": "island_farm/island_farm_select_carrot_check.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       218,
       253,
-      280,
-      315
+      62,
+      62
     ],
     "target": [
       218,
       253,
-      280,
-      315
+      62,
+      62
     ],
     "template": "island_farm/island_farm_select_chinese_cabbage.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       750,
       230,
-      832,
-      323
+      82,
+      93
     ],
     "target": [
       750,
       230,
-      832,
-      323
+      82,
+      93
     ],
     "template": "island_farm/island_farm_select_chinese_cabbage_check.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       217,
       600,
-      284,
-      651
+      67,
+      51
     ],
     "target": [
       217,
       600,
-      284,
-      651
+      67,
+      51
     ],
     "template": "island_farm/island_farm_select_citrus.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       752,
       235,
-      836,
-      317
+      84,
+      82
     ],
     "target": [
       752,
       235,
-      836,
-      317
+      84,
+      82
     ],
     "template": "island_farm/island_farm_select_citrus_check.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       210,
       599,
-      289,
-      651
+      79,
+      52
     ],
     "target": [
       210,
       599,
-      289,
-      651
+      79,
+      52
     ],
     "template": "island_farm/island_farm_select_coffee_bean.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       736,
       243,
-      846,
-      324
+      110,
+      81
     ],
     "target": [
       736,
       243,
-      846,
-      324
+      110,
+      81
     ],
     "template": "island_farm/island_farm_select_coffee_bean_check.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       217,
       300,
-      281,
-      360
+      64,
+      60
     ],
     "target": [
       217,
       300,
-      281,
-      360
+      64,
+      60
     ],
     "template": "island_farm/island_farm_select_corn.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       749,
       238,
-      839,
-      322
+      90,
+      84
     ],
     "target": [
       749,
       238,
-      839,
-      322
+      90,
+      84
     ],
     "template": "island_farm/island_farm_select_corn_check.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       217,
       446,
-      281,
-      506
+      64,
+      60
     ],
     "target": [
       217,
       446,
-      281,
-      506
+      64,
+      60
     ],
     "template": "island_farm/island_farm_select_cotton.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       751,
       238,
-      834,
-      321
+      83,
+      83
     ],
     "target": [
       751,
       238,
-      834,
-      321
+      83,
+      83
     ],
     "template": "island_farm/island_farm_select_cotton_check.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "target": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "template": "island_farm/island_farm_select_cucumber.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_farm/island_farm_select_cucumber_check.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       215,
       142,
-      286,
-      211
+      71,
+      69
     ],
     "target": [
       215,
       142,
-      286,
-      211
+      71,
+      69
     ],
     "template": "island_farm/island_farm_select_flax.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       746,
       227,
-      847,
-      327
+      101,
+      100
     ],
     "target": [
       746,
       227,
-      847,
-      327
+      101,
+      100
     ],
     "template": "island_farm/island_farm_select_flax_check.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       220,
       250,
-      279,
-      316
+      59,
+      66
     ],
     "target": [
       220,
       250,
-      279,
-      316
+      59,
+      66
     ],
     "template": "island_farm/island_farm_select_lavender.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       750,
       227,
-      841,
-      325
+      91,
+      98
     ],
     "target": [
       750,
       227,
-      841,
-      325
+      91,
+      98
     ],
     "template": "island_farm/island_farm_select_lavender_check.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       217,
       260,
-      280,
-      314
+      63,
+      54
     ],
     "target": [
       217,
       260,
-      280,
-      314
+      63,
+      54
     ],
     "template": "island_farm/island_farm_select_lemon.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       746,
       240,
-      837,
-      315
+      91,
+      75
     ],
     "target": [
       746,
       240,
-      837,
-      315
+      91,
+      75
     ],
     "template": "island_farm/island_farm_select_lemon_check.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       219,
       106,
-      279,
-      162
+      60,
+      56
     ],
     "target": [
       219,
       106,
-      279,
-      162
+      60,
+      56
     ],
     "template": "island_farm/island_farm_select_mango.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       752,
       240,
-      833,
-      316
+      81,
+      76
     ],
     "target": [
       752,
       240,
-      833,
-      316
+      81,
+      76
     ],
     "template": "island_farm/island_farm_select_mango_check.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       218,
       552,
-      282,
-      614
+      64,
+      62
     ],
     "target": [
       218,
       552,
-      282,
-      614
+      64,
+      62
     ],
     "template": "island_farm/island_farm_select_onion.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       753,
       233,
-      832,
-      323
+      79,
+      90
     ],
     "target": [
       753,
       233,
-      832,
-      323
+      79,
+      90
     ],
     "template": "island_farm/island_farm_select_onion_check.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       212,
       446,
-      283,
-      509
+      71,
+      63
     ],
     "target": [
       212,
       446,
-      283,
-      509
+      71,
+      63
     ],
     "template": "island_farm/island_farm_select_pasture.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       743,
       234,
-      842,
-      324
+      99,
+      90
     ],
     "target": [
       743,
       234,
-      842,
-      324
+      99,
+      90
     ],
     "template": "island_farm/island_farm_select_pasture_check.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       223,
       156,
-      276,
-      208
+      53,
+      52
     ],
     "target": [
       223,
       156,
-      276,
-      208
+      53,
+      52
     ],
     "template": "island_farm/island_farm_select_pear.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       756,
       248,
-      830,
-      317
+      74,
+      69
     ],
     "target": [
       756,
       248,
-      830,
-      317
+      74,
+      69
     ],
     "template": "island_farm/island_farm_select_pear_check.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       222,
       304,
-      279,
-      357
+      57,
+      53
     ],
     "target": [
       222,
       304,
-      279,
-      357
+      57,
+      53
     ],
     "template": "island_farm/island_farm_select_persimmon.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       753,
       241,
-      834,
-      316
+      81,
+      75
     ],
     "target": [
       753,
       241,
-      834,
-      316
+      81,
+      75
     ],
     "template": "island_farm/island_farm_select_persimmon_check.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       228,
       295,
-      269,
-      360
+      41,
+      65
     ],
     "target": [
       228,
       295,
-      269,
-      360
+      41,
+      65
     ],
     "template": "island_farm/island_farm_select_pineapple.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       763,
       231,
-      820,
-      324
+      57,
+      93
     ],
     "target": [
       763,
       231,
-      820,
-      324
+      57,
+      93
     ],
     "template": "island_farm/island_farm_select_pineapple_check.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       219,
       404,
-      279,
-      464
+      60,
+      60
     ],
     "target": [
       219,
       404,
-      279,
-      464
+      60,
+      60
     ],
     "template": "island_farm/island_farm_select_potato.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       752,
       242,
-      832,
-      319
+      80,
+      77
     ],
     "target": [
       752,
       242,
-      832,
-      319
+      80,
+      77
     ],
     "template": "island_farm/island_farm_select_potato_check.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       216,
       110,
-      281,
-      165
+      65,
+      55
     ],
     "target": [
       216,
       110,
-      281,
-      165
+      65,
+      55
     ],
     "template": "island_farm/island_farm_select_rice.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       745,
       238,
-      837,
-      321
+      92,
+      83
     ],
     "target": [
       745,
       238,
-      837,
-      321
+      92,
+      83
     ],
     "template": "island_farm/island_farm_select_rice_check.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       218,
       557,
-      279,
-      611
+      61,
+      54
     ],
     "target": [
       218,
       557,
-      279,
-      611
+      61,
+      54
     ],
     "template": "island_farm/island_farm_select_rubber.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       750,
       244,
-      832,
-      317
+      82,
+      73
     ],
     "target": [
       750,
       244,
-      832,
-      317
+      82,
+      73
     ],
     "template": "island_farm/island_farm_select_rubber_check.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       219,
       546,
-      277,
-      613
+      58,
+      67
     ],
     "target": [
       219,
       546,
-      277,
-      613
+      58,
+      67
     ],
     "template": "island_farm/island_farm_select_soybean.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       749,
       226,
-      833,
-      324
+      84,
+      98
     ],
     "target": [
       749,
       226,
-      833,
-      324
+      84,
+      98
     ],
     "template": "island_farm/island_farm_select_soybean_check.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       220,
       299,
-      281,
-      357
+      61,
+      58
     ],
     "target": [
       220,
       299,
-      281,
-      357
+      61,
+      58
     ],
     "template": "island_farm/island_farm_select_strawberry.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       755,
       239,
-      831,
-      317
+      76,
+      78
     ],
     "target": [
       755,
       239,
-      831,
-      317
+      76,
+      78
     ],
     "template": "island_farm/island_farm_select_strawberry_check.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       214,
       598,
-      284,
-      651
+      70,
+      53
     ],
     "target": [
       214,
       598,
-      284,
-      651
+      70,
+      53
     ],
     "template": "island_farm/island_farm_select_tea.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       743,
       237,
-      840,
-      320
+      97,
+      83
     ],
     "target": [
       743,
       237,
-      840,
-      320
+      97,
+      83
     ],
     "template": "island_farm/island_farm_select_tea_check.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "target": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "template": "island_farm/island_farm_select_tomato.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_farm/island_farm_select_tomato_check.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       212,
       144,
-      286,
-      209
+      74,
+      65
     ],
     "target": [
       212,
       144,
-      286,
-      209
+      74,
+      65
     ],
     "template": "island_farm/island_farm_select_wheat.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       743,
       236,
-      847,
-      320
+      104,
+      84
     ],
     "target": [
       743,
       236,
-      847,
-      320
+      104,
+      84
     ],
     "template": "island_farm/island_farm_select_wheat_check.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       266,
       231,
-      329,
-      299
+      63,
+      68
     ],
     "target": [
       266,
       231,
-      329,
-      299
+      63,
+      68
     ],
     "template": "island_farm/island_farm_shop_seed_apple.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       433,
       462,
-      490,
-      521
+      57,
+      59
     ],
     "target": [
       433,
       462,
-      490,
-      521
+      57,
+      59
     ],
     "template": "island_farm/island_farm_shop_seed_asparagus.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       1080,
       230,
-      1145,
-      300
+      65,
+      70
     ],
     "target": [
       1080,
       230,
-      1145,
-      300
+      65,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_avocado.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       592,
       230,
-      656,
-      299
+      64,
+      69
     ],
     "target": [
       592,
       230,
-      656,
-      299
+      64,
+      69
     ],
     "template": "island_farm/island_farm_shop_seed_banana.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       267,
       232,
-      331,
-      298
+      64,
+      66
     ],
     "target": [
       267,
       232,
-      331,
-      298
+      64,
+      66
     ],
     "template": "island_farm/island_farm_shop_seed_carrot.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       760,
       234,
-      818,
-      298
+      58,
+      64
     ],
     "target": [
       760,
       234,
-      818,
-      298
+      58,
+      64
     ],
     "template": "island_farm/island_farm_shop_seed_chinese_cabbage.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       430,
       229,
-      496,
-      301
+      66,
+      72
     ],
     "target": [
       430,
       229,
-      496,
-      301
+      66,
+      72
     ],
     "template": "island_farm/island_farm_shop_seed_citrus.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       428,
       460,
-      492,
-      523
+      64,
+      63
     ],
     "target": [
       428,
       460,
-      492,
-      523
+      64,
+      63
     ],
     "template": "island_farm/island_farm_shop_seed_coffee_bean.png"
   },
@@ -1824,14 +1824,14 @@
     "roi": [
       427,
       232,
-      494,
-      298
+      67,
+      66
     ],
     "target": [
       427,
       232,
-      494,
-      298
+      67,
+      66
     ],
     "template": "island_farm/island_farm_shop_seed_corn.png"
   },
@@ -1842,14 +1842,14 @@
     "roi": [
       922,
       232,
-      982,
-      298
+      60,
+      66
     ],
     "target": [
       922,
       232,
-      982,
-      298
+      60,
+      66
     ],
     "template": "island_farm/island_farm_shop_seed_cotton.png"
   },
@@ -1860,14 +1860,14 @@
     "roi": [
       429,
       456,
-      493,
-      526
+      64,
+      70
     ],
     "target": [
       429,
       456,
-      493,
-      526
+      64,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_cucumber.png"
   },
@@ -1878,14 +1878,14 @@
     "roi": [
       597,
       232,
-      655,
-      297
+      58,
+      65
     ],
     "target": [
       597,
       232,
-      655,
-      297
+      58,
+      65
     ],
     "template": "island_farm/island_farm_shop_seed_flax.png"
   },
@@ -1896,14 +1896,14 @@
     "roi": [
       269,
       459,
-      329,
-      520
+      60,
+      61
     ],
     "target": [
       269,
       459,
-      329,
-      520
+      60,
+      61
     ],
     "template": "island_farm/island_farm_shop_seed_lavender.png"
   },
@@ -1914,14 +1914,14 @@
     "roi": [
       916,
       231,
-      984,
-      301
+      68,
+      70
     ],
     "target": [
       916,
       231,
-      984,
-      301
+      68,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_lemon.png"
   },
@@ -1932,14 +1932,14 @@
     "roi": [
       755,
       230,
-      825,
-      301
+      70,
+      71
     ],
     "target": [
       755,
       230,
-      825,
-      301
+      70,
+      71
     ],
     "template": "island_farm/island_farm_shop_seed_mango.png"
   },
@@ -1950,14 +1950,14 @@
     "roi": [
       429,
       232,
-      491,
-      301
+      62,
+      69
     ],
     "target": [
       429,
       232,
-      491,
-      301
+      62,
+      69
     ],
     "template": "island_farm/island_farm_shop_seed_onion.png"
   },
@@ -1968,14 +1968,14 @@
     "roi": [
       267,
       459,
-      331,
-      524
+      64,
+      65
     ],
     "target": [
       267,
       459,
-      331,
-      524
+      64,
+      65
     ],
     "template": "island_farm/island_farm_shop_seed_pasture.png"
   },
@@ -1986,14 +1986,14 @@
     "roi": [
       429,
       456,
-      493,
-      526
+      64,
+      70
     ],
     "target": [
       429,
       456,
-      493,
-      526
+      64,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_pear.png"
   },
@@ -2004,14 +2004,14 @@
     "roi": [
       592,
       456,
-      658,
-      526
+      66,
+      70
     ],
     "target": [
       592,
       456,
-      658,
-      526
+      66,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_persimmon.png"
   },
@@ -2022,14 +2022,14 @@
     "roi": [
       595,
       461,
-      654,
-      520
+      59,
+      59
     ],
     "target": [
       595,
       461,
-      654,
-      520
+      59,
+      59
     ],
     "template": "island_farm/island_farm_shop_seed_pineapple.png"
   },
@@ -2040,14 +2040,14 @@
     "roi": [
       921,
       231,
-      983,
-      303
+      62,
+      72
     ],
     "target": [
       921,
       231,
-      983,
-      303
+      62,
+      72
     ],
     "template": "island_farm/island_farm_shop_seed_potato.png"
   },
@@ -2058,14 +2058,14 @@
     "roi": [
       594,
       231,
-      657,
-      301
+      63,
+      70
     ],
     "target": [
       594,
       231,
-      657,
-      301
+      63,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_rice.png"
   },
@@ -2076,14 +2076,14 @@
     "roi": [
       255,
       452,
-      337,
-      529
+      82,
+      77
     ],
     "target": [
       255,
       452,
-      337,
-      529
+      82,
+      77
     ],
     "template": "island_farm/island_farm_shop_seed_rubber.png"
   },
@@ -2094,14 +2094,14 @@
     "roi": [
       1083,
       233,
-      1146,
-      302
+      63,
+      69
     ],
     "target": [
       1083,
       233,
-      1146,
-      302
+      63,
+      69
     ],
     "template": "island_farm/island_farm_shop_seed_soybean.png"
   },
@@ -2112,14 +2112,14 @@
     "roi": [
       756,
       231,
-      820,
-      301
+      64,
+      70
     ],
     "target": [
       756,
       231,
-      820,
-      301
+      64,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_strawberry.png"
   },
@@ -2130,14 +2130,14 @@
     "roi": [
       1084,
       232,
-      1151,
-      300
+      67,
+      68
     ],
     "target": [
       1084,
       232,
-      1151,
-      300
+      67,
+      68
     ],
     "template": "island_farm/island_farm_shop_seed_tea.png"
   },
@@ -2148,14 +2148,14 @@
     "roi": [
       592,
       456,
-      658,
-      526
+      66,
+      70
     ],
     "target": [
       592,
       456,
-      658,
-      526
+      66,
+      70
     ],
     "template": "island_farm/island_farm_shop_seed_tomato.png"
   },
@@ -2166,14 +2166,14 @@
     "roi": [
       268,
       230,
-      328,
-      297
+      60,
+      67
     ],
     "target": [
       268,
       230,
-      328,
-      297
+      60,
+      67
     ],
     "template": "island_farm/island_farm_shop_seed_wheat.png"
   },

@@ -6,14 +6,14 @@
     "roi": [
       51,
       606,
-      88,
-      642
+      37,
+      36
     ],
     "target": [
       51,
       606,
-      88,
-      642
+      37,
+      36
     ],
     "template": "island_select_character/island_select_character_select_character_filter.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       660,
       471,
-      892,
-      519
+      232,
+      48
     ],
     "target": [
       660,
       471,
-      892,
-      519
+      232,
+      48
     ],
     "template": "island_select_character/island_select_character_select_character_filter_confirm.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       422,
       278,
-      550,
-      313
+      128,
+      35
     ],
     "target": [
       422,
       278,
-      550,
-      313
+      128,
+      35
     ],
     "template": "island_select_character/island_select_character_select_character_filter_stamina.png"
   },

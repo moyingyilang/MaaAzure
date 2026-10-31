@@ -6,14 +6,14 @@
     "roi": [
       853,
       104,
-      938,
-      138
+      85,
+      34
     ],
     "target": [
       853,
       104,
-      938,
-      138
+      85,
+      34
     ],
     "template": "gacha/gacha_build_cube_count.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1117,
       95,
-      1265,
-      146
+      148,
+      51
     ],
     "target": [
       1117,
       95,
-      1265,
-      146
+      148,
+      51
     ],
     "template": "gacha/gacha_build_finish_orders.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       540,
       193,
-      740,
-      229
+      200,
+      36
     ],
     "target": [
       540,
       193,
-      740,
-      229
+      200,
+      36
     ],
     "template": "gacha/gacha_build_finish_results.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       569,
       253,
-      613,
-      295
+      44,
+      42
     ],
     "target": [
       569,
       253,
-      613,
-      295
+      44,
+      42
     ],
     "template": "gacha/gacha_build_minus.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       748,
       253,
-      792,
-      295
+      44,
+      42
     ],
     "target": [
       748,
       253,
-      792,
-      295
+      44,
+      42
     ],
     "template": "gacha/gacha_build_plus.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       639,
       362,
-      700,
-      409
+      61,
+      47
     ],
     "target": [
       639,
       362,
-      700,
-      409
+      61,
+      47
     ],
     "template": "gacha/gacha_build_queue_empty.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       628,
       260,
-      739,
-      288
+      111,
+      28
     ],
     "target": [
       628,
       260,
-      739,
-      288
+      111,
+      28
     ],
     "template": "gacha/gacha_build_submit_count.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1032,
       603,
-      1223,
-      657
+      191,
+      54
     ],
     "target": [
       1032,
       603,
-      1223,
-      657
+      191,
+      54
     ],
     "template": "gacha/gacha_build_submit_orders.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       628,
       260,
-      739,
-      288
+      111,
+      28
     ],
     "target": [
       628,
       260,
-      739,
-      288
+      111,
+      28
     ],
     "template": "gacha/gacha_build_submit_ww_count.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       495,
       570,
-      705,
-      625
+      210,
+      55
     ],
     "target": [
       495,
       570,
-      705,
-      625
+      210,
+      55
     ],
     "template": "gacha/gacha_build_submit_ww_orders.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       640,
       110,
-      677,
-      131
+      37,
+      21
     ],
     "target": [
       640,
       110,
-      677,
-      131
+      37,
+      21
     ],
     "template": "gacha/gacha_build_ticket_check.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       681,
       105,
-      788,
-      138
+      107,
+      33
     ],
     "target": [
       681,
       105,
-      788,
-      138
+      107,
+      33
     ],
     "template": "gacha/gacha_build_ticket_count.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       620,
       624,
-      763,
-      655
+      143,
+      31
     ],
     "target": [
       620,
       624,
-      763,
-      655
+      143,
+      31
     ],
     "template": "gacha/gacha_build_ww_check.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       573,
       102,
-      604,
-      145
+      31,
+      43
     ],
     "target": [
       573,
       102,
-      604,
-      145
+      31,
+      43
     ],
     "template": "gacha/gacha_shop_medal_check.png"
   }

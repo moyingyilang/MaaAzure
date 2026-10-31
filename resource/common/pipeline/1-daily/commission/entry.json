@@ -22,14 +22,14 @@
     "roi": [
       432,
       279,
-      500,
-      296
+      68,
+      17
     ],
     "target": [
       432,
       279,
-      500,
-      296
+      68,
+      17
     ],
     "template": "ui/ui_reward_goto_commission.png"
   },
@@ -44,14 +44,14 @@
     "roi": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "target": [
       11,
       139,
-      30,
-      189
+      19,
+      50
     ],
     "template": "ui/ui_main_goto_reward.png"
   },
@@ -65,14 +65,14 @@
     "roi": [
       35,
       132,
-      67,
-      186
+      32,
+      54
     ],
     "target": [
       35,
       132,
-      67,
-      186
+      32,
+      54
     ],
     "template": "commission/commission_daily.png"
   },

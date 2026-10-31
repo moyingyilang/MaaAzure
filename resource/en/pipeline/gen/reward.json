@@ -6,14 +6,14 @@
     "roi": [
       272,
       53,
-      317,
-      73
+      45,
+      20
     ],
     "target": [
       272,
       53,
-      317,
-      73
+      45,
+      20
     ],
     "template": "reward/reward_coin.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       455,
       51,
-      490,
-      71
+      35,
+      20
     ],
     "target": [
       455,
       51,
-      490,
-      71
+      35,
+      20
     ],
     "template": "reward/reward_exp.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       158,
       348,
-      252,
-      373
+      94,
+      25
     ],
     "target": [
       158,
       348,
-      252,
-      373
+      94,
+      25
     ],
     "template": "reward/reward_mission_empty.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1041,
       8,
-      1101,
-      39
+      60,
+      31
     ],
     "target": [
       1041,
       8,
-      1101,
-      39
+      60,
+      31
     ],
     "template": "reward/reward_mission_multi.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       940,
       670,
-      945,
-      681
+      5,
+      11
     ],
     "target": [
       940,
       670,
-      945,
-      681
+      5,
+      11
     ],
     "template": "reward/reward_mission_notice.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1130,
       128,
-      1184,
-      150
+      54,
+      22
     ],
     "target": [
       1130,
       128,
-      1184,
-      150
+      54,
+      22
     ],
     "template": "reward/reward_mission_single.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1105,
       124,
-      1165,
-      152
+      60,
+      28
     ],
     "target": [
       1105,
       124,
-      1165,
-      152
+      60,
+      28
     ],
     "template": "reward/reward_mission_unfinish.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       25,
       500,
-      103,
-      531
+      78,
+      31
     ],
     "target": [
       25,
       500,
-      103,
-      531
+      78,
+      31
     ],
     "template": "reward/reward_mission_weekly_red_dot.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       114,
       59,
-      149,
-      79
+      35,
+      20
     ],
     "target": [
       114,
       59,
-      149,
-      79
+      35,
+      20
     ],
     "template": "reward/reward_oil.png"
   }

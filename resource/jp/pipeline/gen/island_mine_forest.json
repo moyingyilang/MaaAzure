@@ -6,14 +6,14 @@
     "roi": [
       199,
       443,
-      286,
-      471
+      87,
+      28
     ],
     "target": [
       259,
       500,
-      330,
-      573
+      71,
+      73
     ],
     "template": "island_mine_forest/island_mine_forest_island_forest_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       199,
       443,
-      286,
-      471
+      87,
+      28
     ],
     "target": [
       354,
       499,
-      424,
-      572
+      70,
+      73
     ],
     "template": "island_mine_forest/island_mine_forest_island_forest_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       199,
       443,
-      286,
-      471
+      87,
+      28
     ],
     "target": [
       449,
       501,
-      522,
-      573
+      73,
+      72
     ],
     "template": "island_mine_forest/island_mine_forest_island_forest_post3.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       199,
       443,
-      286,
-      471
+      87,
+      28
     ],
     "target": [
       544,
       500,
-      616,
-      571
+      72,
+      71
     ],
     "template": "island_mine_forest/island_mine_forest_island_forest_post4.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       738,
       262,
-      826,
-      287
+      88,
+      25
     ],
     "target": [
       800,
       317,
-      870,
-      390
+      70,
+      73
     ],
     "template": "island_mine_forest/island_mine_forest_island_mine_post1.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       738,
       262,
-      826,
-      287
+      88,
+      25
     ],
     "target": [
       894,
       315,
-      962,
-      389
+      68,
+      74
     ],
     "template": "island_mine_forest/island_mine_forest_island_mine_post2.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       738,
       262,
-      826,
-      287
+      88,
+      25
     ],
     "target": [
       991,
       316,
-      1061,
-      389
+      70,
+      73
     ],
     "template": "island_mine_forest/island_mine_forest_island_mine_post3.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       738,
       262,
-      826,
-      287
+      88,
+      25
     ],
     "target": [
       1084,
       316,
-      1152,
-      392
+      68,
+      76
     ],
     "template": "island_mine_forest/island_mine_forest_island_mine_post4.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       613,
       312,
-      671,
-      361
+      58,
+      49
     ],
     "target": [
       613,
       312,
-      671,
-      361
+      58,
+      49
     ],
     "template": "island_mine_forest/island_mine_forest_post_aluminium.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       613,
       310,
-      674,
-      360
+      61,
+      50
     ],
     "target": [
       613,
       310,
-      674,
-      360
+      61,
+      50
     ],
     "template": "island_mine_forest/island_mine_forest_post_copper.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       609,
       312,
-      675,
-      361
+      66,
+      49
     ],
     "target": [
       609,
       312,
-      675,
-      361
+      66,
+      49
     ],
     "template": "island_mine_forest/island_mine_forest_post_elegant.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       613,
       312,
-      673,
-      362
+      60,
+      50
     ],
     "target": [
       613,
       312,
-      673,
-      362
+      60,
+      50
     ],
     "template": "island_mine_forest/island_mine_forest_post_iron.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       608,
       313,
-      677,
-      362
+      69,
+      49
     ],
     "target": [
       608,
       313,
-      677,
-      362
+      69,
+      49
     ],
     "template": "island_mine_forest/island_mine_forest_post_practical.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       609,
       315,
-      675,
-      363
+      66,
+      48
     ],
     "target": [
       609,
       315,
-      675,
-      363
+      66,
+      48
     ],
     "template": "island_mine_forest/island_mine_forest_post_selected.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       609,
       309,
-      674,
-      361
+      65,
+      52
     ],
     "target": [
       609,
       309,
-      674,
-      361
+      65,
+      52
     ],
     "template": "island_mine_forest/island_mine_forest_post_silver.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       605,
       311,
-      676,
-      363
+      71,
+      52
     ],
     "target": [
       605,
       311,
-      676,
-      363
+      71,
+      52
     ],
     "template": "island_mine_forest/island_mine_forest_post_sulphur.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       220,
       451,
-      281,
-      507
+      61,
+      56
     ],
     "target": [
       220,
       451,
-      281,
-      507
+      61,
+      56
     ],
     "template": "island_mine_forest/island_mine_forest_select_aluminium.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       759,
       241,
-      833,
-      317
+      74,
+      76
     ],
     "target": [
       759,
       241,
-      833,
-      317
+      74,
+      76
     ],
     "template": "island_mine_forest/island_mine_forest_select_aluminium_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       222,
       304,
-      278,
-      357
+      56,
+      53
     ],
     "target": [
       222,
       304,
-      278,
-      357
+      56,
+      53
     ],
     "template": "island_mine_forest/island_mine_forest_select_copper.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       756,
       243,
-      832,
-      318
+      76,
+      75
     ],
     "target": [
       756,
       243,
-      832,
-      318
+      76,
+      75
     ],
     "template": "island_mine_forest/island_mine_forest_select_copper_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       218,
       555,
-      286,
-      612
+      68,
+      57
     ],
     "target": [
       218,
       555,
-      286,
-      612
+      68,
+      57
     ],
     "template": "island_mine_forest/island_mine_forest_select_elegant.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       745,
       238,
-      840,
-      317
+      95,
+      79
     ],
     "target": [
       745,
       238,
-      840,
-      317
+      95,
+      79
     ],
     "template": "island_mine_forest/island_mine_forest_select_elegant_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       219,
       600,
-      280,
-      652
+      61,
+      52
     ],
     "target": [
       219,
       600,
-      280,
-      652
+      61,
+      52
     ],
     "template": "island_mine_forest/island_mine_forest_select_iron.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       756,
       241,
-      832,
-      322
+      76,
+      81
     ],
     "target": [
       756,
       241,
-      832,
-      322
+      76,
+      81
     ],
     "template": "island_mine_forest/island_mine_forest_select_iron_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       217,
       300,
-      285,
-      358
+      68,
+      58
     ],
     "target": [
       217,
       300,
-      285,
-      358
+      68,
+      58
     ],
     "template": "island_mine_forest/island_mine_forest_select_practical.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       749,
       239,
-      838,
-      316
+      89,
+      77
     ],
     "target": [
       749,
       239,
-      838,
-      316
+      89,
+      77
     ],
     "template": "island_mine_forest/island_mine_forest_select_practical_check.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       215,
       451,
-      281,
-      506
+      66,
+      55
     ],
     "target": [
       215,
       451,
-      281,
-      506
+      66,
+      55
     ],
     "template": "island_mine_forest/island_mine_forest_select_selected.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       751,
       240,
-      841,
-      317
+      90,
+      77
     ],
     "target": [
       751,
       240,
-      841,
-      317
+      90,
+      77
     ],
     "template": "island_mine_forest/island_mine_forest_select_selected_check.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       224,
       559,
-      278,
-      612
+      54,
+      53
     ],
     "target": [
       224,
       559,
-      278,
-      612
+      54,
+      53
     ],
     "template": "island_mine_forest/island_mine_forest_select_silver.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       757,
       241,
-      831,
-      317
+      74,
+      76
     ],
     "target": [
       757,
       241,
-      831,
-      317
+      74,
+      76
     ],
     "template": "island_mine_forest/island_mine_forest_select_silver_check.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       212,
       403,
-      285,
-      466
+      73,
+      63
     ],
     "target": [
       212,
       403,
-      285,
-      466
+      73,
+      63
     ],
     "template": "island_mine_forest/island_mine_forest_select_sulphur.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       740,
       237,
-      840,
-      322
+      100,
+      85
     ],
     "target": [
       740,
       237,
-      840,
-      322
+      100,
+      85
     ],
     "template": "island_mine_forest/island_mine_forest_select_sulphur_check.png"
   },

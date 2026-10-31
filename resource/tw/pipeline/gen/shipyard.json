@@ -6,14 +6,14 @@
     "roi": [
       1084,
       495,
-      1144,
-      523
+      60,
+      28
     ],
     "target": [
       1084,
       495,
-      1144,
-      523
+      60,
+      28
     ],
     "template": "shipyard/shipyard_confirm_dev.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1153,
       521,
-      1215,
-      559
+      62,
+      38
     ],
     "target": [
       1153,
       521,
-      1215,
-      559
+      62,
+      38
     ],
     "template": "shipyard/shipyard_confirm_fate.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       943,
       507,
-      1030,
-      531
+      87,
+      24
     ],
     "target": [
       1080,
       415,
-      1147,
-      505
+      67,
+      90
     ],
     "template": "shipyard/shipyard_go_fate.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       6,
       129,
-      84,
-      151
+      78,
+      22
     ],
     "target": [
       6,
       129,
-      84,
-      151
+      78,
+      22
     ],
     "template": "shipyard/shipyard_in_dev.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       924,
       121,
-      1022,
-      146
+      98,
+      25
     ],
     "target": [
       924,
       121,
-      1022,
-      146
+      98,
+      25
     ],
     "template": "shipyard/shipyard_in_fate.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1230,
       155,
-      1273,
-      171
+      43,
+      16
     ],
     "target": [
       1230,
       155,
-      1273,
-      171
+      43,
+      16
     ],
     "template": "shipyard/shipyard_level_not_enough_dev.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1040,
       160,
-      1147,
-      174
+      107,
+      14
     ],
     "target": [
       1040,
       160,
-      1147,
-      174
+      107,
+      14
     ],
     "template": "shipyard/shipyard_level_not_enough_fate.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       716,
       24,
-      780,
-      49
+      64,
+      25
     ],
     "target": [
       716,
       24,
-      780,
-      49
+      64,
+      25
     ],
     "template": "shipyard/shipyard_main_ocr_coin.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1049,
       429,
-      1084,
-      463
+      35,
+      34
     ],
     "target": [
       1049,
       429,
-      1084,
-      463
+      35,
+      34
     ],
     "template": "shipyard/shipyard_minus_dev.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1028,
       453,
-      1063,
-      487
+      35,
+      34
     ],
     "target": [
       1028,
       453,
-      1063,
-      487
+      35,
+      34
     ],
     "template": "shipyard/shipyard_minus_fate.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1149,
       429,
-      1184,
-      462
+      35,
+      33
     ],
     "target": [
       1149,
       429,
-      1184,
-      462
+      35,
+      33
     ],
     "template": "shipyard/shipyard_plus_dev.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1129,
       453,
-      1164,
-      487
+      35,
+      34
     ],
     "target": [
       1129,
       453,
-      1164,
-      487
+      35,
+      34
     ],
     "template": "shipyard/shipyard_plus_fate.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1184,
       145,
-      1273,
-      175
+      89,
+      30
     ],
     "target": [
       1184,
       145,
-      1273,
-      175
+      89,
+      30
     ],
     "template": "shipyard/shipyard_progress_dev.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1141,
       153,
-      1278,
-      190
+      137,
+      37
     ],
     "target": [
       1141,
       153,
-      1278,
-      190
+      137,
+      37
     ],
     "template": "shipyard/shipyard_progress_fate.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       548,
       498,
-      740,
-      531
+      192,
+      33
     ],
     "target": [
       548,
       498,
-      740,
-      531
+      192,
+      33
     ],
     "template": "shipyard/shipyard_research_complete.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       465,
       479,
-      482,
-      501
+      17,
+      22
     ],
     "target": [
       465,
       479,
-      482,
-      501
+      17,
+      22
     ],
     "template": "shipyard/shipyard_research_in_progress.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       616,
       490,
-      740,
-      531
+      124,
+      41
     ],
     "target": [
       616,
       490,
-      740,
-      531
+      124,
+      41
     ],
     "template": "shipyard/shipyard_research_incomplete.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       32,
       62,
-      53,
-      100
+      21,
+      38
     ],
     "target": [
       32,
       62,
-      53,
-      100
+      21,
+      38
     ],
     "template": "shipyard/shipyard_series_select_check.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       33,
       657,
-      157,
-      697
+      124,
+      40
     ],
     "target": [
       33,
       657,
-      157,
-      697
+      124,
+      40
     ],
     "template": "shipyard/shipyard_series_select_enter.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       1086,
       429,
-      1147,
-      463
+      61,
+      34
     ],
     "target": [
       1086,
       429,
-      1147,
-      463
+      61,
+      34
     ],
     "template": "shipyard/shipyard_total_dev.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       1067,
       457,
-      1126,
-      484
+      59,
+      27
     ],
     "target": [
       1067,
       457,
-      1126,
-      484
+      59,
+      27
     ],
     "template": "shipyard/shipyard_total_fate.png"
   }

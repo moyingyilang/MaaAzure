@@ -6,14 +6,14 @@
     "roi": [
       712,
       163,
-      782,
-      233
+      70,
+      70
     ],
     "target": [
       712,
       163,
-      782,
-      233
+      70,
+      70
     ],
     "template": "hard/hard_equip_enter_1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       713,
       296,
-      783,
-      366
+      70,
+      70
     ],
     "target": [
       713,
       296,
-      783,
-      366
+      70,
+      70
     ],
     "template": "hard/hard_equip_enter_2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       94,
       608,
-      109,
-      631
+      15,
+      23
     ],
     "target": [
       94,
       608,
-      109,
-      631
+      15,
+      23
     ],
     "template": "hard/hard_ocr_hard_remain.png"
   }

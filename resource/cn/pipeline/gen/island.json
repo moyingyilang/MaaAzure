@@ -6,14 +6,14 @@
     "roi": [
       1192,
       20,
-      1257,
-      84
+      65,
+      64
     ],
     "target": [
       1192,
       20,
-      1257,
-      84
+      65,
+      64
     ],
     "template": "island/island_access_map.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "target": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "template": "island/island_add_one_a.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "target": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "template": "island/island_add_one_b.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "target": [
       872,
       356,
-      904,
-      387
+      32,
+      31
     ],
     "template": "island/island_add_one_c.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "target": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "template": "island/island_add_ten_a.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "target": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "template": "island/island_add_ten_b.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "target": [
       942,
       361,
-      978,
-      381
+      36,
+      20
     ],
     "template": "island/island_add_ten_c.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "target": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "template": "island/island_air_drop_a.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       408,
       302,
-      448,
-      342
+      40,
+      40
     ],
     "target": [
       408,
       302,
-      448,
-      342
+      40,
+      40
     ],
     "template": "island/island_air_drop_already_getted.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "target": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "template": "island/island_air_drop_b.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "target": [
       795,
       374,
-      1029,
-      412
+      234,
+      38
     ],
     "template": "island/island_air_drop_c.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       372,
       44,
-      460,
-      72
+      88,
+      28
     ],
     "target": [
       372,
       44,
-      460,
-      72
+      88,
+      28
     ],
     "template": "island/island_air_drop_run_away.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1172,
       21,
-      1252,
-      54
+      80,
+      33
     ],
     "target": [
       1172,
       21,
-      1252,
-      54
+      80,
+      33
     ],
     "template": "island/island_air_drop_skip.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       6,
       21,
-      99,
-      66
+      93,
+      45
     ],
     "target": [
       6,
       21,
-      99,
-      66
+      93,
+      45
     ],
     "template": "island/island_back.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       488,
       301,
-      541,
-      345
+      53,
+      44
     ],
     "target": [
       488,
       301,
-      541,
-      345
+      53,
+      44
     ],
     "template": "island/island_cant_access.png"
   },
@@ -277,13 +277,13 @@
       0,
       263,
       129,
-      555
+      292
     ],
     "target": [
       0,
       263,
       129,
-      555
+      292
     ],
     "template": "island/island_click_safe_area.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       525,
       301,
-      568,
-      343
+      43,
+      42
     ],
     "target": [
       525,
       301,
-      568,
-      343
+      43,
+      42
     ],
     "template": "island/island_error1.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       198,
       79,
-      287,
-      105
+      89,
+      26
     ],
     "target": [
       258,
       133,
-      335,
-      209
+      77,
+      76
     ],
     "template": "island/island_farm_post1.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       664,
       582,
-      891,
-      632
+      227,
+      50
     ],
     "target": [
       664,
       582,
-      891,
-      632
+      227,
+      50
     ],
     "template": "island/island_filter_confirm.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       389,
       581,
-      618,
-      632
+      229,
+      51
     ],
     "target": [
       389,
       581,
-      618,
-      632
+      229,
+      51
     ],
     "template": "island/island_filter_reset.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       480,
       300,
-      750,
-      342
+      270,
+      42
     ],
     "target": [
       480,
       300,
-      750,
-      342
+      270,
+      42
     ],
     "template": "island/island_gather_already_collected.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       12,
       244,
-      72,
-      280
+      60,
+      36
     ],
     "target": [
       12,
       244,
-      72,
-      280
+      60,
+      36
     ],
     "template": "island/island_gather_collect.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       12,
       244,
-      72,
-      280
+      60,
+      36
     ],
     "target": [
       12,
       244,
-      72,
-      280
+      60,
+      36
     ],
     "template": "island/island_gather_collect_check.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       502,
       170,
-      783,
-      234
+      281,
+      64
     ],
     "target": [
       502,
       170,
-      783,
-      234
+      281,
+      64
     ],
     "template": "island/island_gather_complete.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       675,
       537,
-      890,
-      577
+      215,
+      40
     ],
     "target": [
       675,
       537,
-      890,
-      577
+      215,
+      40
     ],
     "template": "island/island_gather_confirm.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       983,
       467,
-      1106,
-      500
+      123,
+      33
     ],
     "target": [
       983,
       467,
-      1106,
-      500
+      123,
+      33
     ],
     "template": "island/island_gather_depart.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       840,
       236,
-      900,
-      293
+      60,
+      57
     ],
     "target": [
       840,
       236,
-      900,
-      293
+      60,
+      57
     ],
     "template": "island/island_gather_plus_a.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       935,
       236,
-      995,
-      293
+      60,
+      57
     ],
     "target": [
       935,
       236,
-      995,
-      293
+      60,
+      57
     ],
     "template": "island/island_gather_plus_b.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       1030,
       236,
-      1090,
-      293
+      60,
+      57
     ],
     "target": [
       1030,
       236,
-      1090,
-      293
+      60,
+      57
     ],
     "template": "island/island_gather_plus_c.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       832,
       467,
-      1098,
-      500
+      266,
+      33
     ],
     "target": [
       832,
       467,
-      1098,
-      500
+      266,
+      33
     ],
     "template": "island/island_gather_select_target.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       133,
       611,
-      161,
-      639
+      28,
+      28
     ],
     "target": [
       133,
       611,
-      161,
-      639
+      28,
+      28
     ],
     "template": "island/island_gather_sort_life.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       330,
       125,
-      955,
-      170
+      625,
+      45
     ],
     "target": [
       330,
       125,
-      955,
-      170
+      625,
+      45
     ],
     "template": "island/island_gather_target_popup.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       573,
       218,
-      608,
-      249
+      35,
+      31
     ],
     "target": [
       573,
       218,
-      608,
-      249
+      35,
+      31
     ],
     "template": "island/island_gather_toggle_a_off.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       573,
       218,
-      608,
-      249
+      35,
+      31
     ],
     "target": [
       573,
       218,
-      608,
-      249
+      35,
+      31
     ],
     "template": "island/island_gather_toggle_a_on.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       813,
       218,
-      849,
-      249
+      36,
+      31
     ],
     "target": [
       813,
       218,
-      849,
-      249
+      36,
+      31
     ],
     "template": "island/island_gather_toggle_b_off.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       813,
       218,
-      849,
-      249
+      36,
+      31
     ],
     "target": [
       813,
       218,
-      849,
-      249
+      36,
+      31
     ],
     "template": "island/island_gather_toggle_b_on.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       583,
       258,
-      694,
-      296
+      111,
+      38
     ],
     "target": [
       583,
       258,
-      694,
-      296
+      111,
+      38
     ],
     "template": "island/island_get.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       588,
       260,
-      692,
-      289
+      104,
+      29
     ],
     "target": [
       0,
       263,
       129,
-      555
+      292
     ],
     "template": "island/island_get_items_island.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       837,
       22,
-      882,
-      64
+      45,
+      42
     ],
     "target": [
       837,
       22,
-      882,
-      64
+      45,
+      42
     ],
     "template": "island/island_goto_map.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       907,
       160,
-      933,
-      187
+      26,
+      27
     ],
     "target": [
       907,
       160,
-      933,
-      187
+      26,
+      27
     ],
     "template": "island/island_info_exit.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1136,
       578,
-      1197,
-      637
+      61,
+      59
     ],
     "target": [
       1136,
       578,
-      1197,
-      637
+      61,
+      59
     ],
     "template": "island/island_jump.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       1077,
       493,
-      1119,
-      533
+      42,
+      40
     ],
     "target": [
       1077,
       493,
-      1119,
-      533
+      42,
+      40
     ],
     "template": "island/island_management.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       123,
       21,
-      304,
-      47
+      181,
+      26
     ],
     "target": [
       123,
       21,
-      304,
-      47
+      181,
+      26
     ],
     "template": "island/island_management_check.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       1092,
       504,
-      1105,
-      520
+      13,
+      16
     ],
     "target": [
       1092,
       504,
-      1105,
-      520
+      13,
+      16
     ],
     "template": "island/island_management_locked.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       1100,
       644,
-      1142,
-      677
+      42,
+      33
     ],
     "target": [
       1100,
       644,
-      1142,
-      677
+      42,
+      33
     ],
     "template": "island/island_map_assembly.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       893,
       506,
-      938,
-      548
+      45,
+      42
     ],
     "target": [
       893,
       506,
-      938,
-      548
+      45,
+      42
     ],
     "template": "island/island_map_assembly_check.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       893,
       506,
-      938,
-      548
+      45,
+      42
     ],
     "target": [
       893,
       506,
-      938,
-      548
+      45,
+      42
     ],
     "template": "island/island_map_assembly_friend_check.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       981,
       617,
-      1143,
-      664
+      162,
+      47
     ],
     "target": [
       981,
       617,
-      1143,
-      664
+      162,
+      47
     ],
     "template": "island/island_map_confirm.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       563,
       214,
-      597,
-      247
+      34,
+      33
     ],
     "target": [
       563,
       214,
-      597,
-      247
+      34,
+      33
     ],
     "template": "island/island_map_farm.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       879,
       512,
-      950,
-      553
+      71,
+      41
     ],
     "target": [
       879,
       512,
-      950,
-      553
+      71,
+      41
     ],
     "template": "island/island_map_farm_check.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       167,
       115,
-      203,
-      151
+      36,
+      36
     ],
     "target": [
       167,
       115,
-      203,
-      151
+      36,
+      36
     ],
     "template": "island/island_map_mine_forest.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       878,
       506,
-      948,
-      550
+      70,
+      44
     ],
     "target": [
       878,
       506,
-      948,
-      550
+      70,
+      44
     ],
     "template": "island/island_map_mine_forest_check.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       560,
       11,
-      597,
-      43
+      37,
+      32
     ],
     "target": [
       560,
       11,
-      597,
-      43
+      37,
+      32
     ],
     "template": "island/island_map_nursery.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       883,
       501,
-      948,
-      553
+      65,
+      52
     ],
     "target": [
       883,
       501,
-      948,
-      553
+      65,
+      52
     ],
     "template": "island/island_map_nursery_check.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       1052,
       404,
-      1085,
-      444
+      33,
+      40
     ],
     "target": [
       1052,
       404,
-      1085,
-      444
+      33,
+      40
     ],
     "template": "island/island_map_port.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       934,
       227,
-      969,
-      262
+      35,
+      35
     ],
     "target": [
       934,
       227,
-      969,
-      262
+      35,
+      35
     ],
     "template": "island/island_map_port_business.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       886,
       504,
-      938,
-      551
+      52,
+      47
     ],
     "target": [
       886,
       504,
-      938,
-      551
+      52,
+      47
     ],
     "template": "island/island_map_port_business_check.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       898,
       509,
-      934,
-      549
+      36,
+      40
     ],
     "target": [
       898,
       509,
-      934,
-      549
+      36,
+      40
     ],
     "template": "island/island_map_port_check.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       898,
       509,
-      934,
-      549
+      36,
+      40
     ],
     "target": [
       898,
       509,
-      934,
-      549
+      36,
+      40
     ],
     "template": "island/island_map_port_friend_check.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       797,
       405,
-      1028,
-      446
+      231,
+      41
     ],
     "target": [
       797,
       405,
-      1028,
-      446
+      231,
+      41
     ],
     "template": "island/island_mill.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       6,
       21,
-      99,
-      66
+      93,
+      45
     ],
     "target": [
       6,
       21,
-      99,
-      66
+      93,
+      45
     ],
     "template": "island/island_mill_back.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       183,
       82,
-      354,
-      119
+      171,
+      37
     ],
     "target": [
       183,
       82,
-      354,
-      119
+      171,
+      37
     ],
     "template": "island/island_mill_check.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "target": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "template": "island/island_minus_one_a.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "target": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "template": "island/island_minus_one_b.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "target": [
       705,
       356,
-      736,
-      383
+      31,
+      27
     ],
     "template": "island/island_minus_one_c.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "target": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "template": "island/island_minus_ten_a.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "target": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "template": "island/island_minus_ten_b.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "target": [
       614,
       356,
-      678,
-      383
+      64,
+      27
     ],
     "template": "island/island_minus_ten_c.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       59,
       654,
-      90,
-      683
+      31,
+      29
     ],
     "target": [
       59,
       654,
-      90,
-      683
+      31,
+      29
     ],
     "template": "island/island_my_air_drop_already.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       1083,
       27,
-      1110,
-      46
+      27,
+      19
     ],
     "target": [
       1083,
       27,
-      1110,
-      46
+      27,
+      19
     ],
     "template": "island/island_ocr_air_drop.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       669,
       385,
-      692,
-      406
+      23,
+      21
     ],
     "target": [
       669,
       385,
-      692,
-      406
+      23,
+      21
     ],
     "template": "island/island_ocr_post_number.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       716,
       211,
-      805,
-      231
+      89,
+      20
     ],
     "target": [
       716,
       211,
-      805,
-      231
+      89,
+      20
     ],
     "template": "island/island_ocr_transport_refresh.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       611,
       139,
-      687,
-      154
+      76,
+      15
     ],
     "target": [
       611,
       139,
-      687,
-      154
+      76,
+      15
     ],
     "template": "island/island_ocr_transport_time.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       753,
       210,
-      842,
-      230
+      89,
+      20
     ],
     "target": [
       753,
       210,
-      842,
-      230
+      89,
+      20
     ],
     "template": "island/island_ocr_transport_time_remain.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       616,
       544,
-      643,
-      571
+      27,
+      27
     ],
     "target": [
       708,
       541,
-      750,
-      579
+      42,
+      38
     ],
     "template": "island/island_post_add.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "target": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "template": "island/island_post_add_one_a.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "target": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "template": "island/island_post_add_one_b.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "target": [
       910,
       379,
-      938,
-      407
+      28,
+      28
     ],
     "template": "island/island_post_add_one_c.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       491,
       595,
-      1090,
-      647
+      599,
+      52
     ],
     "target": [
       491,
       595,
-      1090,
-      647
+      599,
+      52
     ],
     "template": "island/island_post_add_order.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       520,
       148,
-      558,
-      200
+      38,
+      52
     ],
     "target": [
       520,
       148,
-      558,
-      200
+      38,
+      52
     ],
     "template": "island/island_post_check.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       614,
       318,
-      668,
-      362
+      54,
+      44
     ],
     "target": [
       614,
       318,
-      668,
-      362
+      54,
+      44
     ],
     "template": "island/island_post_cheese.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       20,
       288,
-      113,
-      370
+      93,
+      82
     ],
     "target": [
       20,
       288,
-      113,
-      370
+      93,
+      82
     ],
     "template": "island/island_post_close.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       612,
       539,
-      666,
-      579
+      54,
+      40
     ],
     "target": [
       708,
       541,
-      750,
-      579
+      42,
+      38
     ],
     "template": "island/island_post_get.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       14,
       175,
-      70,
-      217
+      56,
+      42
     ],
     "target": [
       12,
       107,
-      72,
-      148
+      60,
+      41
     ],
     "template": "island/island_post_manage_business.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       12,
       107,
-      72,
-      148
+      60,
+      41
     ],
     "target": [
       14,
       175,
-      70,
-      217
+      56,
+      42
     ],
     "template": "island/island_post_manage_production.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       688,
       73,
-      724,
-      123
+      36,
+      50
     ],
     "target": [
       688,
       73,
-      724,
-      123
+      36,
+      50
     ],
     "template": "island/island_post_manage_swipe_stop.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       959,
       381,
-      989,
-      404
+      30,
+      23
     ],
     "target": [
       959,
       381,
-      989,
-      404
+      30,
+      23
     ],
     "template": "island/island_post_max.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       698,
       150,
-      759,
-      197
+      61,
+      47
     ],
     "target": [
       698,
       150,
-      759,
-      197
+      61,
+      47
     ],
     "template": "island/island_post_safe_area.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       618,
       329,
-      697,
-      344
+      79,
+      15
     ],
     "target": [
       618,
       329,
-      697,
-      344
+      79,
+      15
     ],
     "template": "island/island_post_select.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       520,
       148,
-      558,
-      200
+      38,
+      52
     ],
     "target": [
       520,
       148,
-      558,
-      200
+      38,
+      52
     ],
     "template": "island/island_post_vacant_check.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       537,
       419,
-      566,
-      446
+      29,
+      27
     ],
     "target": [
       537,
       419,
-      566,
-      446
+      29,
+      27
     ],
     "template": "island/island_post_working.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       616,
       431,
-      670,
-      444
+      54,
+      13
     ],
     "target": [
       580,
       533,
-      762,
-      584
+      182,
+      51
     ],
     "template": "island/island_project_complete.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       127,
       21,
-      219,
-      45
+      92,
+      24
     ],
     "target": [
       127,
       21,
-      219,
-      45
+      92,
+      24
     ],
     "template": "island/island_select_character_check.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       221,
       453,
-      276,
-      506
+      55,
+      53
     ],
     "target": [
       221,
       453,
-      276,
-      506
+      55,
+      53
     ],
     "template": "island/island_select_cheese.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       753,
       246,
-      831,
-      319
+      78,
+      73
     ],
     "target": [
       753,
       246,
-      831,
-      319
+      78,
+      73
     ],
     "template": "island/island_select_cheese_check.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       819,
       469,
-      864,
-      497
+      45,
+      28
     ],
     "target": [
       819,
       469,
-      864,
-      497
+      45,
+      28
     ],
     "template": "island/island_select_goto_buy_seed.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       123,
       19,
-      221,
-      48
+      98,
+      29
     ],
     "target": [
       123,
       19,
-      221,
-      48
+      98,
+      29
     ],
     "template": "island/island_select_product_check.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       765,
       488,
-      823,
-      535
+      58,
+      47
     ],
     "target": [
       765,
       488,
-      823,
-      535
+      58,
+      47
     ],
     "template": "island/island_select_seed.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       4,
       22,
-      103,
-      68
+      99,
+      46
     ],
     "target": [
       4,
       22,
-      103,
-      68
+      99,
+      46
     ],
     "template": "island/island_select_ui_back.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       944,
       585,
-      1236,
-      632
+      292,
+      47
     ],
     "target": [
       944,
       585,
-      1236,
-      632
+      292,
+      47
     ],
     "template": "island/island_select_ui_confirm.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       895,
       552,
-      958,
-      588
+      63,
+      36
     ],
     "target": [
       895,
       552,
-      958,
-      588
+      63,
+      36
     ],
     "template": "island/island_shop_confirm.png"
   },
@@ -1824,14 +1824,14 @@
     "roi": [
       499,
       172,
-      783,
-      241
+      284,
+      69
     ],
     "target": [
       499,
       172,
-      783,
-      241
+      284,
+      69
     ],
     "template": "island/island_shop_get.png"
   },
@@ -1980,14 +1980,14 @@
     "roi": [
       905,
       335,
-      986,
-      358
+      81,
+      23
     ],
     "target": [
       898,
       328,
-      1031,
-      459
+      133,
+      131
     ],
     "template": "island/island_transport.png"
   },
@@ -1998,14 +1998,14 @@
     "roi": [
       264,
       154,
-      317,
-      180
+      53,
+      26
     ],
     "target": [
       264,
       154,
-      317,
-      180
+      53,
+      26
     ],
     "template": "island/island_transport_check.png"
   },
@@ -2016,14 +2016,14 @@
     "roi": [
       659,
       380,
-      683,
-      412
+      24,
+      32
     ],
     "target": [
       659,
       380,
-      683,
-      412
+      24,
+      32
     ],
     "template": "island/island_transport_locked.png"
   },
@@ -2034,14 +2034,14 @@
     "roi": [
       938,
       206,
-      1065,
-      235
+      127,
+      29
     ],
     "target": [
       938,
       206,
-      1065,
-      235
+      127,
+      29
     ],
     "template": "island/island_transport_receive.png"
   },
@@ -2052,14 +2052,14 @@
     "roi": [
       1020,
       211,
-      1059,
-      233
+      39,
+      22
     ],
     "target": [
       1020,
       211,
-      1059,
-      233
+      39,
+      22
     ],
     "template": "island/island_transport_refresh.png"
   },
@@ -2070,14 +2070,14 @@
     "roi": [
       813,
       207,
-      841,
-      235
+      28,
+      28
     ],
     "target": [
       813,
       207,
-      841,
-      235
+      28,
+      28
     ],
     "template": "island/island_transport_refresh_check.png"
   },
@@ -2088,14 +2088,14 @@
     "roi": [
       1142,
       170,
-      1174,
-      281
+      32,
+      111
     ],
     "target": [
       1142,
       170,
-      1174,
-      281
+      32,
+      111
     ],
     "template": "island/island_transport_start.png"
   },
@@ -2106,14 +2106,14 @@
     "roi": [
       459,
       138,
-      522,
-      156
+      63,
+      18
     ],
     "target": [
       459,
       138,
-      522,
-      156
+      63,
+      18
     ],
     "template": "island/island_transport_status_pending.png"
   },
@@ -2124,14 +2124,14 @@
     "roi": [
       459,
       138,
-      522,
-      156
+      63,
+      18
     ],
     "target": [
       459,
       138,
-      522,
-      156
+      63,
+      18
     ],
     "template": "island/island_transport_status_running.png"
   },
@@ -2142,14 +2142,14 @@
     "roi": [
       1254,
       98,
-      1257,
-      694
+      3,
+      596
     ],
     "target": [
       1254,
       98,
-      1257,
-      694
+      3,
+      596
     ],
     "template": "island/island_visit_scroll_area.png"
   },
@@ -2160,14 +2160,14 @@
     "roi": [
       616,
       430,
-      670,
-      445
+      54,
+      15
     ],
     "target": [
       616,
       430,
-      670,
-      445
+      54,
+      15
     ],
     "template": "island/island_work_complete.png"
   },
@@ -2178,14 +2178,14 @@
     "roi": [
       704,
       458,
-      753,
-      504
+      49,
+      46
     ],
     "target": [
       581,
       535,
-      758,
-      583
+      177,
+      48
     ],
     "template": "island/island_working.png"
   },
@@ -2196,14 +2196,14 @@
     "roi": [
       616,
       427,
-      671,
-      440
+      55,
+      13
     ],
     "target": [
       616,
       427,
-      671,
-      440
+      55,
+      13
     ],
     "template": "island/island_working_time.png"
   }

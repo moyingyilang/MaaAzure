@@ -6,14 +6,14 @@
     "roi": [
       167,
       627,
-      183,
-      637
+      16,
+      10
     ],
     "target": [
       167,
       627,
-      183,
-      637
+      16,
+      10
     ],
     "template": "event_hospital/event_hospital_aside_next_page.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       26,
       242,
-      56,
-      268
+      30,
+      26
     ],
     "target": [
       26,
       242,
-      56,
-      268
+      30,
+      26
     ],
     "template": "event_hospital/event_hospital_chapter_hospital_easy.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       24,
       401,
-      54,
-      427
+      30,
+      26
     ],
     "target": [
       24,
       401,
-      54,
-      427
+      30,
+      26
     ],
     "template": "event_hospital/event_hospital_chapter_hospital_hard.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       27,
       323,
-      56,
-      349
+      29,
+      26
     ],
     "target": [
       27,
       323,
-      56,
-      349
+      29,
+      26
     ],
     "template": "event_hospital/event_hospital_chapter_hospital_normal.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       98,
       156,
-      247,
-      616
+      149,
+      460
     ],
     "target": [
       98,
       156,
-      247,
-      616
+      149,
+      460
     ],
     "template": "event_hospital/event_hospital_clue_list.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1014,
       658,
-      1051,
-      671
+      37,
+      13
     ],
     "target": [
       1014,
       658,
-      1051,
-      671
+      37,
+      13
     ],
     "template": "event_hospital/event_hospital_daily_red_dot.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       874,
       620,
-      1157,
-      677
+      283,
+      57
     ],
     "target": [
       874,
       620,
-      1157,
-      677
+      283,
+      57
     ],
     "template": "event_hospital/event_hospital_daily_reward_receive.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       617,
       80,
-      653,
-      106
+      36,
+      26
     ],
     "target": [
       570,
       593,
-      710,
-      627
+      140,
+      34
     ],
     "template": "event_hospital/event_hospital_get_clue.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       607,
       105,
-      651,
-      126
+      44,
+      21
     ],
     "target": [
       607,
       105,
-      651,
-      126
+      44,
+      21
     ],
     "template": "event_hospital/event_hospital_get_clue_text.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       37,
       26,
-      74,
-      60
+      37,
+      34
     ],
     "target": [
       37,
       26,
-      74,
-      60
+      37,
+      34
     ],
     "template": "event_hospital/event_hospital_hosipital_check.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1167,
       90,
-      1207,
-      126
+      40,
+      36
     ],
     "target": [
       1167,
       90,
-      1207,
-      126
+      40,
+      36
     ],
     "template": "event_hospital/event_hospital_hosipital_clue_check.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1087,
       662,
-      1126,
-      697
+      39,
+      35
     ],
     "target": [
       1087,
       662,
-      1126,
-      697
+      39,
+      35
     ],
     "template": "event_hospital/event_hospital_hosipital_goto_clue.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       1097,
       112,
-      1137,
-      147
+      40,
+      35
     ],
     "target": [
       1097,
       112,
-      1137,
-      147
+      40,
+      35
     ],
     "template": "event_hospital/event_hospital_hospital_battle_exit.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       879,
       507,
-      967,
-      531
+      88,
+      24
     ],
     "target": [
       879,
       507,
-      967,
-      531
+      88,
+      24
     ],
     "template": "event_hospital/event_hospital_hospital_battle_prepare.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       900,
       658,
-      928,
-      688
+      28,
+      30
     ],
     "target": [
       900,
       658,
-      928,
-      688
+      28,
+      30
     ],
     "template": "event_hospital/event_hospital_hospital_goto_daily.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1193,
       108,
-      1263,
-      132
+      70,
+      24
     ],
     "target": [
       1193,
       108,
-      1263,
-      132
+      70,
+      24
     ],
     "template": "event_hospital/event_hospital_hospital_ocr_pt.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       636,
       168,
-      709,
-      234
+      73,
+      66
     ],
     "target": [
       636,
       168,
-      709,
-      234
+      73,
+      66
     ],
     "template": "event_hospital/event_hospital_hospital_raid_esp.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       237,
       155,
-      287,
-      205
+      50,
+      50
     ],
     "target": [
       237,
       155,
-      287,
-      205
+      50,
+      50
     ],
     "template": "event_hospital/event_hospital_hospital_raid_t1.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       243,
       436,
-      310,
-      504
+      67,
+      68
     ],
     "target": [
       243,
       436,
-      310,
-      504
+      67,
+      68
     ],
     "template": "event_hospital/event_hospital_hospital_raid_t2.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       650,
       533,
-      709,
-      591
+      59,
+      58
     ],
     "target": [
       650,
       533,
-      709,
-      591
+      59,
+      58
     ],
     "template": "event_hospital/event_hospital_hospital_raid_t3.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       999,
       426,
-      1071,
-      501
+      72,
+      75
     ],
     "target": [
       999,
       426,
-      1071,
-      501
+      72,
+      75
     ],
     "template": "event_hospital/event_hospital_hospital_raid_t4.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       1113,
       666,
-      1236,
-      690
+      123,
+      24
     ],
     "target": [
       1113,
       666,
-      1236,
-      690
+      123,
+      24
     ],
     "template": "event_hospital/event_hospital_invest_reward_receive.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1200,
       153,
-      1203,
-      642
+      3,
+      489
     ],
     "target": [
       1200,
       153,
-      1203,
-      642
+      3,
+      489
     ],
     "template": "event_hospital/event_hospital_invest_scroll.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       261,
       135,
-      1187,
-      636
+      926,
+      501
     ],
     "target": [
       261,
       135,
-      1187,
-      636
+      926,
+      501
     ],
     "template": "event_hospital/event_hospital_invest_search.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       263,
       93,
-      409,
-      122
+      146,
+      29
     ],
     "target": [
       263,
       93,
-      409,
-      122
+      146,
+      29
     ],
     "template": "event_hospital/event_hospital_tab_character.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       89,
       93,
-      240,
-      121
+      151,
+      28
     ],
     "target": [
       89,
       93,
-      240,
-      121
+      151,
+      28
     ],
     "template": "event_hospital/event_hospital_tab_location.png"
   },

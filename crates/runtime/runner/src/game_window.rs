@@ -82,7 +82,9 @@ pub fn logical_desktop(use_su: bool) -> Option<(i32, i32)> {
     for key in ["mOverrideDisplayInfo", "mBaseDisplayInfo"] {
         let Some(idx) = text.find(key) else { continue };
         let tail = &text[idx..];
-        let Some(line) = tail.lines().next() else { continue };
+        let Some(line) = tail.lines().next() else {
+            continue;
+        };
         if let Some(size) = parse_largest_app(line) {
             return Some(size);
         }
@@ -99,11 +101,7 @@ fn parse_largest_app(line: &str) -> Option<(i32, i32)> {
     if parts.next()? != "x" {
         return None;
     }
-    let h: i32 = parts
-        .next()?
-        .trim_end_matches(',')
-        .parse()
-        .ok()?;
+    let h: i32 = parts.next()?.trim_end_matches(',').parse().ok()?;
     Some((w, h))
 }
 
@@ -157,7 +155,8 @@ pub fn window_frame(package: &str, use_su: bool) -> Option<(i32, i32, i32, i32)>
 
 /// 解析出窗口的物理矩形（含桌面缩放）。
 pub fn resolve(package: &str, use_su: bool) -> Result<WindowRect, String> {
-    let (lw, _lh) = logical_desktop(use_su).ok_or("拿不到逻辑桌面尺寸（dumpsys window displays）")?;
+    let (lw, _lh) =
+        logical_desktop(use_su).ok_or("拿不到逻辑桌面尺寸（dumpsys window displays）")?;
     let (pw, _ph) = physical_size(use_su).ok_or("拿不到物理屏幕尺寸（wm size）")?;
     let scale = pw as f32 / lw as f32;
 
@@ -189,7 +188,8 @@ pub fn crop_resize_to_720p(png: &[u8], rect: &WindowRect) -> Option<Vec<u8>> {
     let rw = rect.width.min(w - rect.left).max(1) as u32;
     let rh = rect.height.min(h - rect.top).max(1) as u32;
 
-    let cropped = image::imageops::crop_imm(&img, rect.left as u32, rect.top as u32, rw, rh).to_image();
+    let cropped =
+        image::imageops::crop_imm(&img, rect.left as u32, rect.top as u32, rw, rh).to_image();
     let scaled = image::imageops::resize(&cropped, 1280, 720, FilterType::Lanczos3);
 
     let mut out = std::io::Cursor::new(Vec::new());
@@ -206,7 +206,9 @@ mod tests {
     #[test]
     fn parses_largest_app_with_spaces() {
         assert_eq!(
-            parse_largest_app("real 1440 x 3200, largest app 3200 x 3200, smallest app 1440 x 1440"),
+            parse_largest_app(
+                "real 1440 x 3200, largest app 3200 x 3200, smallest app 1440 x 1440"
+            ),
             Some((3200, 3200))
         );
         assert_eq!(parse_largest_app("no size here"), None);

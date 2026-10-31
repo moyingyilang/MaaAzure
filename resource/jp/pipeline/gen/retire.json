@@ -6,14 +6,14 @@
     "roi": [
       404,
       497,
-      477,
-      528
+      73,
+      31
     ],
     "target": [
       404,
       497,
-      477,
-      528
+      73,
+      31
     ],
     "template": "retire/retire_appear_1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       604,
       497,
-      677,
-      529
+      73,
+      32
     ],
     "target": [
       604,
       497,
-      677,
-      529
+      73,
+      32
     ],
     "template": "retire/retire_appear_2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       804,
       497,
-      876,
-      529
+      72,
+      32
     ],
     "target": [
       804,
       497,
-      876,
-      529
+      72,
+      32
     ],
     "template": "retire/retire_appear_3.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       326,
       637,
-      365,
-      662
+      39,
+      25
     ],
     "target": [
       326,
       637,
-      365,
-      662
+      39,
+      25
     ],
     "template": "retire/retire_coin.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       711,
       13,
-      759,
-      42
+      48,
+      29
     ],
     "target": [
       711,
       13,
-      759,
-      42
+      48,
+      29
     ],
     "template": "retire/retire_common_ship_filter_disable.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       712,
       13,
-      758,
-      42
+      46,
+      29
     ],
     "target": [
       712,
       13,
-      758,
-      42
+      46,
+      29
     ],
     "template": "retire/retire_common_ship_filter_enable.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1092,
       114,
-      1095,
-      592
+      3,
+      478
     ],
     "target": [
       1092,
       114,
-      1095,
-      592
+      3,
+      478
     ],
     "template": "retire/retire_confirm_scroll_area.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       473,
       14,
-      584,
-      42
+      111,
+      28
     ],
     "target": [
       473,
       14,
-      584,
-      42
+      111,
+      28
     ],
     "template": "retire/retire_dock_amount.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       232,
       12,
-      308,
-      41
+      76,
+      29
     ],
     "target": [
       232,
       12,
-      308,
-      41
+      76,
+      29
     ],
     "template": "retire/retire_dock_check.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       96,
       347,
-      252,
-      376
+      156,
+      29
     ],
     "target": [
       96,
       347,
-      252,
-      376
+      156,
+      29
     ],
     "template": "retire/retire_dock_empty.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1101,
       6,
-      1192,
-      46
+      91,
+      40
     ],
     "target": [
       1101,
       6,
-      1192,
-      46
+      91,
+      40
     ],
     "template": "retire/retire_dock_filter.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       717,
       618,
-      885,
-      668
+      168,
+      50
     ],
     "target": [
       717,
       618,
-      885,
-      668
+      168,
+      50
     ],
     "template": "retire/retire_dock_filter_confirm.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       96,
       111,
-      123,
-      123
+      27,
+      12
     ],
     "target": [
       96,
       111,
-      123,
-      123
+      27,
+      12
     ],
     "template": "retire/retire_dock_first_npc.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1237,
       78,
-      1250,
-      628
+      13,
+      550
     ],
     "target": [
       1237,
       78,
-      1250,
-      628
+      13,
+      550
     ],
     "template": "retire/retire_dock_scroll.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       603,
       662,
-      655,
-      685
+      52,
+      23
     ],
     "target": [
       603,
       662,
-      655,
-      685
+      52,
+      23
     ],
     "template": "retire/retire_dock_selected.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       164,
       152,
-      195,
-      204
+      31,
+      52
     ],
     "target": [
       90,
       74,
-      223,
-      269
+      133,
+      195
     ],
     "template": "retire/retire_dock_ship_down.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       161,
       141,
-      225,
-      216
+      64,
+      75
     ],
     "target": [
       161,
       141,
-      225,
-      216
+      64,
+      75
     ],
     "template": "retire/retire_dock_unmount.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       737,
       402,
-      773,
-      437
+      36,
+      35
     ],
     "target": [
       737,
       402,
-      773,
-      437
+      36,
+      35
     ],
     "template": "retire/retire_empty_enhance_slot_plus.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1126,
       601,
-      1257,
-      646
+      131,
+      45
     ],
     "target": [
       1126,
       601,
-      1257,
-      646
+      131,
+      45
     ],
     "template": "retire/retire_enhance_confirm.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       722,
       387,
-      789,
-      400
+      67,
+      13
     ],
     "target": [
       722,
       387,
-      789,
-      400
+      67,
+      13
     ],
     "template": "retire/retire_enhance_filled.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       965,
       605,
-      1085,
-      641
+      120,
+      36
     ],
     "target": [
       965,
       605,
-      1085,
-      641
+      120,
+      36
     ],
     "template": "retire/retire_enhance_recommend.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       898,
       277,
-      1164,
-      291
+      266,
+      14
     ],
     "target": [
       898,
       277,
-      1164,
-      291
+      266,
+      14
     ],
     "template": "retire/retire_enhance_reload.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1012,
       587,
-      1082,
-      616
+      70,
+      29
     ],
     "target": [
       1012,
       587,
-      1082,
-      616
+      70,
+      29
     ],
     "template": "retire/retire_equip_confirm.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       771,
       554,
-      842,
-      583
+      71,
+      29
     ],
     "target": [
       771,
       554,
-      842,
-      583
+      71,
+      29
     ],
     "template": "retire/retire_equip_confirm_2.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       1031,
       656,
-      1063,
-      688
+      32,
+      32
     ],
     "target": [
       1031,
       656,
-      1063,
-      688
+      32,
+      32
     ],
     "template": "retire/retire_get_items_1_retirement_save.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       855,
       641,
-      1027,
-      697
+      172,
+      56
     ],
     "target": [
       855,
       641,
-      1027,
-      697
+      172,
+      56
     ],
     "template": "retire/retire_in_retirement_check.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       638,
       641,
-      812,
-      697
+      174,
+      56
     ],
     "target": [
       638,
       641,
-      812,
-      697
+      174,
+      56
     ],
     "template": "retire/retire_one_click_retirement.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       965,
       265,
-      996,
-      296
+      31,
+      31
     ],
     "target": [
       965,
       265,
-      996,
-      296
+      31,
+      31
     ],
     "template": "retire/retire_setting_1.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       965,
       325,
-      996,
-      356
+      31,
+      31
     ],
     "target": [
       965,
       325,
-      996,
-      356
+      31,
+      31
     ],
     "template": "retire/retire_setting_2.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       965,
       385,
-      996,
-      416
+      31,
+      31
     ],
     "target": [
       965,
       385,
-      996,
-      416
+      31,
+      31
     ],
     "template": "retire/retire_setting_3.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       967,
       486,
-      995,
-      515
+      28,
+      29
     ],
     "target": [
       967,
       486,
-      995,
-      515
+      28,
+      29
     ],
     "template": "retire/retire_setting_4.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       967,
       586,
-      995,
-      615
+      28,
+      29
     ],
     "target": [
       967,
       586,
-      995,
-      615
+      28,
+      29
     ],
     "template": "retire/retire_setting_5_all.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       719,
       586,
-      747,
-      615
+      28,
+      29
     ],
     "target": [
       719,
       586,
-      747,
-      615
+      28,
+      29
     ],
     "template": "retire/retire_setting_5_preserve.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       20,
       501,
-      50,
-      531
+      30,
+      30
     ],
     "target": [
       20,
       501,
-      50,
-      531
+      30,
+      30
     ],
     "template": "retire/retire_setting_enter.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       986,
       140,
-      1016,
-      169
+      30,
+      29
     ],
     "target": [
       986,
       140,
-      1016,
-      169
+      30,
+      29
     ],
     "template": "retire/retire_setting_quit.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1069,
       641,
-      1242,
-      697
+      173,
+      56
     ],
     "target": [
       1069,
       641,
-      1242,
-      697
+      173,
+      56
     ],
     "template": "retire/retire_ship_confirm.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       928,
       617,
-      1100,
-      673
+      172,
+      56
     ],
     "target": [
       928,
       617,
-      1100,
-      673
+      172,
+      56
     ],
     "template": "retire/retire_ship_confirm_2.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       126,
       15,
-      179,
-      39
+      53,
+      24
     ],
     "target": [
       126,
       15,
-      179,
-      39
+      53,
+      24
     ],
     "template": "retire/retire_ship_detail_check.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       1013,
       23,
-      1019,
-      25
+      6,
+      2
     ],
     "target": [
       1013,
       23,
-      1019,
-      25
+      6,
+      2
     ],
     "template": "retire/retire_sort_asc.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       1013,
       29,
-      1019,
-      32
+      6,
+      3
     ],
     "target": [
       1013,
       29,
-      1019,
-      32
+      6,
+      3
     ],
     "template": "retire/retire_sort_desc.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1005,
       15,
-      1065,
-      37
+      60,
+      22
     ],
     "target": [
       1005,
       15,
-      1065,
-      37
+      60,
+      22
     ],
     "template": "retire/retire_sorting_click.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       723,
       470,
-      870,
-      509
+      147,
+      39
     ],
     "target": [
       723,
       470,
-      870,
-      509
+      147,
+      39
     ],
     "template": "retire/retire_sr_ssr_confirm.png"
   },

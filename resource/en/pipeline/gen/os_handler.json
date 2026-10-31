@@ -6,14 +6,14 @@
     "roi": [
       907,
       458,
-      941,
-      483
+      34,
+      25
     ],
     "target": [
       907,
       458,
-      941,
-      483
+      34,
+      25
     ],
     "template": "os_handler/os_handler_action_point_buy_remain.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       375,
       531,
-      537,
-      584
+      162,
+      53
     ],
     "target": [
       375,
       531,
-      537,
-      584
+      162,
+      53
     ],
     "template": "os_handler/os_handler_action_point_cancel.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       892,
       220,
-      952,
-      241
+      60,
+      21
     ],
     "target": [
       892,
       220,
-      952,
-      241
+      60,
+      21
     ],
     "template": "os_handler/os_handler_action_point_remain.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       878,
       28,
-      928,
-      46
+      50,
+      18
     ],
     "target": [
       878,
       28,
-      928,
-      46
+      50,
+      18
     ],
     "template": "os_handler/os_handler_action_point_remain_os.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       742,
       531,
-      909,
-      584
+      167,
+      53
     ],
     "target": [
       742,
       531,
-      909,
-      584
+      167,
+      53
     ],
     "template": "os_handler/os_handler_action_point_use.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       372,
       324,
-      601,
-      342
+      229,
+      18
     ],
     "target": [
       372,
       324,
-      601,
-      342
+      229,
+      18
     ],
     "template": "os_handler/os_handler_ash_popup_check.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1203,
       534,
-      1274,
-      544
+      71,
+      10
     ],
     "target": [
       1203,
       534,
-      1274,
-      544
+      71,
+      10
     ],
     "template": "os_handler/os_handler_auto_search_os_map_option_off.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1205,
       531,
-      1275,
-      547
+      70,
+      16
     ],
     "target": [
       1205,
       531,
-      1275,
-      547
+      70,
+      16
     ],
     "template": "os_handler/os_handler_auto_search_os_map_option_off_disabled.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1203,
       534,
-      1274,
-      544
+      71,
+      10
     ],
     "target": [
       1203,
       534,
-      1274,
-      544
+      71,
+      10
     ],
     "template": "os_handler/os_handler_auto_search_os_map_option_on.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       574,
       597,
-      722,
-      648
+      148,
+      51
     ],
     "target": [
       574,
       597,
-      722,
-      648
+      148,
+      51
     ],
     "template": "os_handler/os_handler_auto_search_reward.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1104,
       169,
-      1214,
-      284
+      110,
+      115
     ],
     "target": [
       1104,
       169,
-      1214,
-      284
+      110,
+      115
     ],
     "template": "os_handler/os_handler_click_safe_area.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       448,
       496,
-      528,
-      536
+      80,
+      40
     ],
     "target": [
       448,
       496,
-      528,
-      536
+      80,
+      40
     ],
     "template": "os_handler/os_handler_cost_purplecoin_option_a.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       751,
       495,
-      833,
-      545
+      82,
+      50
     ],
     "target": [
       751,
       495,
-      833,
-      545
+      82,
+      50
     ],
     "template": "os_handler/os_handler_cost_purplecoin_option_b.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       837,
       228,
-      867,
-      252
+      30,
+      24
     ],
     "target": [
       837,
       228,
-      867,
-      252
+      30,
+      24
     ],
     "template": "os_handler/os_handler_current_ap_check.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       703,
       482,
-      877,
-      541
+      174,
+      59
     ],
     "target": [
       703,
       482,
-      877,
-      541
+      174,
+      59
     ],
     "template": "os_handler/os_handler_depart_confirm_button.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       753,
       498,
-      826,
-      530
+      73,
+      32
     ],
     "target": [
       753,
       498,
-      826,
-      530
+      73,
+      32
     ],
     "template": "os_handler/os_handler_depart_confirm_template.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       963,
       576,
-      1163,
-      640
+      200,
+      64
     ],
     "target": [
       963,
       576,
-      1163,
-      640
+      200,
+      64
     ],
     "template": "os_handler/os_handler_depart_immediately_button.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       996,
       585,
-      1125,
-      616
+      129,
+      31
     ],
     "target": [
       996,
       585,
-      1125,
-      616
+      129,
+      31
     ],
     "template": "os_handler/os_handler_depart_immediately_template.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       143,
       16,
-      240,
-      37
+      97,
+      21
     ],
     "target": [
       143,
       16,
-      240,
-      37
+      97,
+      21
     ],
     "template": "os_handler/os_handler_exchange_check.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       202,
       640,
-      332,
-      690
+      130,
+      50
     ],
     "target": [
       202,
       640,
-      332,
-      690
+      130,
+      50
     ],
     "template": "os_handler/os_handler_exchange_enter.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       1143,
       630,
-      1218,
-      707
+      75,
+      77
     ],
     "target": [
       1143,
       630,
-      1218,
-      707
+      75,
+      77
     ],
     "template": "os_handler/os_handler_favorite_button.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       1165,
       674,
-      1196,
-      689
+      31,
+      15
     ],
     "target": [
       1165,
       674,
-      1196,
-      689
+      31,
+      15
     ],
     "template": "os_handler/os_handler_favorite_template.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       920,
       122,
-      1220,
-      218
+      300,
+      96
     ],
     "target": [
       920,
       122,
-      1220,
-      218
+      300,
+      96
     ],
     "template": "os_handler/os_handler_fleet_deploy_button.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       991,
       138,
-      1116,
-      170
+      125,
+      32
     ],
     "target": [
       991,
       138,
-      1116,
-      170
+      125,
+      32
     ],
     "template": "os_handler/os_handler_fleet_deploy_template.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       100,
       71,
-      364,
-      115
+      264,
+      44
     ],
     "target": [
       100,
       71,
-      364,
-      115
+      264,
+      44
     ],
     "template": "os_handler/os_handler_fleet_deployment.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       373,
       170,
-      453,
-      248
+      80,
+      78
     ],
     "target": [
       373,
       170,
-      453,
-      248
+      80,
+      78
     ],
     "template": "os_handler/os_handler_fleet_slot_1_button.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       412,
       173,
-      430,
-      188
+      18,
+      15
     ],
     "target": [
       412,
       173,
-      430,
-      188
+      18,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_1_template.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       476,
       170,
-      555,
-      249
+      79,
+      79
     ],
     "target": [
       476,
       170,
-      555,
-      249
+      79,
+      79
     ],
     "template": "os_handler/os_handler_fleet_slot_2_button.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       514,
       173,
-      531,
-      188
+      17,
+      15
     ],
     "target": [
       514,
       173,
-      531,
-      188
+      17,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_2_template.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       578,
       169,
-      658,
-      250
+      80,
+      81
     ],
     "target": [
       578,
       169,
-      658,
-      250
+      80,
+      81
     ],
     "template": "os_handler/os_handler_fleet_slot_3_button.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       616,
       173,
-      634,
-      188
+      18,
+      15
     ],
     "target": [
       616,
       173,
-      634,
-      188
+      18,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_3_template.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       689,
       170,
-      769,
-      249
+      80,
+      79
     ],
     "target": [
       689,
       170,
-      769,
-      249
+      80,
+      79
     ],
     "template": "os_handler/os_handler_fleet_slot_4_button.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       727,
       173,
-      743,
-      188
+      16,
+      15
     ],
     "target": [
       727,
       173,
-      743,
-      188
+      16,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_4_template.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       792,
       170,
-      871,
-      249
+      79,
+      79
     ],
     "target": [
       792,
       170,
-      871,
-      249
+      79,
+      79
     ],
     "template": "os_handler/os_handler_fleet_slot_5_button.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       829,
       173,
-      845,
-      188
+      16,
+      15
     ],
     "target": [
       829,
       173,
-      845,
-      188
+      16,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_5_template.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       893,
       169,
-      973,
-      249
+      80,
+      80
     ],
     "target": [
       893,
       169,
-      973,
-      249
+      80,
+      80
     ],
     "template": "os_handler/os_handler_fleet_slot_6_button.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       939,
       173,
-      955,
-      188
+      16,
+      15
     ],
     "target": [
       939,
       173,
-      955,
-      188
+      16,
+      15
     ],
     "template": "os_handler/os_handler_fleet_slot_6_template.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       936,
       640,
-      1110,
-      700
+      174,
+      60
     ],
     "target": [
       936,
       640,
-      1110,
-      700
+      174,
+      60
     ],
     "template": "os_handler/os_handler_fleet_slot_confirm_button.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       986,
       653,
-      1059,
-      685
+      73,
+      32
     ],
     "target": [
       986,
       653,
-      1059,
-      685
+      73,
+      32
     ],
     "template": "os_handler/os_handler_fleet_slot_confirm_template.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       527,
       194,
-      659,
-      215
+      132,
+      21
     ],
     "target": [
       527,
       194,
-      659,
-      215
+      132,
+      21
     ],
     "template": "os_handler/os_handler_get_adaptability.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       550,
       211,
-      723,
-      247
+      173,
+      36
     ],
     "target": [
       550,
       211,
-      723,
-      247
+      173,
+      36
     ],
     "template": "os_handler/os_handler_get_meowfficer_items_1.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       550,
       140,
-      723,
-      176
+      173,
+      36
     ],
     "target": [
       550,
       140,
-      723,
-      176
+      173,
+      36
     ],
     "template": "os_handler/os_handler_get_meowfficer_items_2.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       923,
       660,
-      978,
-      674
+      55,
+      14
     ],
     "target": [
       923,
       660,
-      978,
-      674
+      55,
+      14
     ],
     "template": "os_handler/os_handler_in_map.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       86,
       134,
-      226,
-      219
+      140,
+      85
     ],
     "target": [
       86,
       134,
-      226,
-      219
+      140,
+      85
     ],
     "template": "os_handler/os_handler_leave_fleet_button.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       95,
       157,
-      161,
-      191
+      66,
+      34
     ],
     "target": [
       95,
       157,
-      161,
-      191
+      66,
+      34
     ],
     "template": "os_handler/os_handler_leave_fleet_template.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       1212,
       391,
-      1280,
-      411
+      68,
+      20
     ],
     "target": [
       1212,
       391,
-      1280,
-      411
+      68,
+      20
     ],
     "template": "os_handler/os_handler_map_archives.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       943,
       499,
-      1048,
-      512
+      105,
+      13
     ],
     "target": [
       578,
       675,
-      702,
-      691
+      124,
+      16
     ],
     "template": "os_handler/os_handler_map_world.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       162,
       505,
-      238,
-      520
+      76,
+      15
     ],
     "target": [
       162,
       505,
-      238,
-      520
+      76,
+      15
     ],
     "template": "os_handler/os_handler_maritime_schedule.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       120,
       125,
-      323,
-      147
+      203,
+      22
     ],
     "target": [
       120,
       125,
-      323,
-      147
+      203,
+      22
     ],
     "template": "os_handler/os_handler_mission_check.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       1029,
       205,
-      1112,
-      232
+      83,
+      27
     ],
     "target": [
       1029,
       205,
-      1112,
-      232
+      83,
+      27
     ],
     "template": "os_handler/os_handler_mission_checkout.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       500,
       27,
-      572,
-      46
+      72,
+      19
     ],
     "target": [
       500,
       27,
-      572,
-      46
+      72,
+      19
     ],
     "template": "os_handler/os_handler_mission_complete_popup.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       767,
       640,
-      824,
-      695
+      57,
+      55
     ],
     "target": [
       767,
       640,
-      824,
-      695
+      57,
+      55
     ],
     "template": "os_handler/os_handler_mission_enter.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       924,
       644,
-      986,
-      674
+      62,
+      30
     ],
     "target": [
       924,
       644,
-      986,
-      674
+      62,
+      30
     ],
     "template": "os_handler/os_handler_mission_enter_template.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       1029,
       205,
-      1112,
-      232
+      83,
+      27
     ],
     "target": [
       1029,
       205,
-      1112,
-      232
+      83,
+      27
     ],
     "template": "os_handler/os_handler_mission_finish.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       943,
       499,
-      1048,
-      512
+      105,
+      13
     ],
     "target": [
       943,
       499,
-      1048,
-      512
+      105,
+      13
     ],
     "template": "os_handler/os_handler_mission_map_check.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       711,
       226,
-      754,
-      239
+      43,
+      13
     ],
     "target": [
       711,
       226,
-      754,
-      239
+      43,
+      13
     ],
     "template": "os_handler/os_handler_mission_monthly_boss.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       1082,
       16,
-      1123,
-      54
+      41,
+      38
     ],
     "target": [
       1082,
       16,
-      1123,
-      54
+      41,
+      38
     ],
     "template": "os_handler/os_handler_mission_overview_accept.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       1068,
       127,
-      1138,
-      149
+      70,
+      22
     ],
     "target": [
       1068,
       127,
-      1138,
-      149
+      70,
+      22
     ],
     "template": "os_handler/os_handler_mission_overview_accept_single.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       128,
       18,
-      300,
-      37
+      172,
+      19
     ],
     "target": [
       128,
       18,
-      300,
-      37
+      172,
+      19
     ],
     "template": "os_handler/os_handler_mission_overview_check.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       1052,
       320,
-      1067,
-      390
+      15,
+      70
     ],
     "target": [
       1052,
       320,
-      1067,
-      390
+      15,
+      70
     ],
     "template": "os_handler/os_handler_mission_overview_empty.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       1112,
       662,
-      1183,
-      689
+      71,
+      27
     ],
     "target": [
       1105,
       629,
-      1254,
-      693
+      149,
+      64
     ],
     "template": "os_handler/os_handler_mission_overview_enter.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       1086,
       111,
-      1152,
-      155
+      66,
+      44
     ],
     "target": [
       1086,
       111,
-      1152,
-      155
+      66,
+      44
     ],
     "template": "os_handler/os_handler_mission_quit.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       608,
       186,
-      649,
-      208
+      41,
+      22
     ],
     "target": [
       608,
       186,
-      649,
-      208
+      41,
+      22
     ],
     "template": "os_handler/os_handler_mission_siren_research.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       119,
       333,
-      173,
-      372
+      54,
+      39
     ],
     "target": [
       119,
       333,
-      173,
-      372
+      54,
+      39
     ],
     "template": "os_handler/os_handler_ocr_target_zone_id.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       60,
       623,
-      98,
-      659
+      38,
+      36
     ],
     "target": [
       101,
       79,
-      306,
-      93
+      205,
+      14
     ],
     "template": "os_handler/os_handler_order_check.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       1016,
       166,
-      1038,
-      188
+      22,
+      22
     ],
     "target": [
       1016,
       166,
-      1038,
-      188
+      22,
+      22
     ],
     "template": "os_handler/os_handler_order_enter.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       1017,
       396,
-      1117,
-      413
+      100,
+      17
     ],
     "target": [
       923,
       379,
-      1217,
-      445
+      294,
+      66
     ],
     "template": "os_handler/os_handler_order_scan.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       990,
       522,
-      1116,
-      540
+      126,
+      18
     ],
     "target": [
       923,
       505,
-      1217,
-      571
+      294,
+      66
     ],
     "template": "os_handler/os_handler_order_submarine.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       1162,
       230,
-      1238,
-      258
+      76,
+      28
     ],
     "target": [
       1162,
       230,
-      1238,
-      258
+      76,
+      28
     ],
     "template": "os_handler/os_handler_os_adaptability_attack.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       1161,
       283,
-      1237,
-      311
+      76,
+      28
     ],
     "target": [
       1161,
       283,
-      1237,
-      311
+      76,
+      28
     ],
     "template": "os_handler/os_handler_os_adaptability_durability.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       1162,
       336,
-      1238,
-      364
+      76,
+      28
     ],
     "target": [
       1162,
       336,
-      1238,
-      364
+      76,
+      28
     ],
     "template": "os_handler/os_handler_os_adaptability_recover.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       1187,
       531,
-      1193,
-      548
+      6,
+      17
     ],
     "target": [
       1187,
       531,
-      1193,
-      548
+      6,
+      17
     ],
     "template": "os_handler/os_handler_os_fleet_locked.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       16,
       124,
-      105,
-      211
+      89,
+      87
     ],
     "target": [
       16,
       124,
-      105,
-      211
+      89,
+      87
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_1_button.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       62,
       126,
-      79,
-      144
+      17,
+      18
     ],
     "target": [
       62,
       126,
-      79,
-      144
+      17,
+      18
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_1_template.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       16,
       223,
-      106,
-      310
+      90,
+      87
     ],
     "target": [
       16,
       223,
-      106,
-      310
+      90,
+      87
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_2_button.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       61,
       226,
-      79,
-      244
+      18,
+      18
     ],
     "target": [
       61,
       226,
-      79,
-      244
+      18,
+      18
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_2_template.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       16,
       325,
-      105,
-      410
+      89,
+      85
     ],
     "target": [
       16,
       325,
-      105,
-      410
+      89,
+      85
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_3_button.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       61,
       326,
-      80,
-      344
+      19,
+      18
     ],
     "target": [
       61,
       326,
-      80,
-      344
+      19,
+      18
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_3_template.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       16,
       424,
-      104,
-      511
+      88,
+      87
     ],
     "target": [
       16,
       424,
-      104,
-      511
+      88,
+      87
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_4_button.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       61,
       427,
-      78,
-      444
+      17,
+      17
     ],
     "target": [
       61,
       427,
-      78,
-      444
+      17,
+      17
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_4_template.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       17,
       524,
-      104,
-      611
+      87,
+      87
     ],
     "target": [
       17,
       524,
-      104,
-      611
+      87,
+      87
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_5_button.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       60,
       527,
-      79,
-      544
+      19,
+      17
     ],
     "target": [
       60,
       527,
-      79,
-      544
+      19,
+      17
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_5_template.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       16,
       624,
-      106,
-      711
+      90,
+      87
     ],
     "target": [
       16,
       624,
-      106,
-      711
+      90,
+      87
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_6_button.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       60,
       627,
-      79,
-      644
+      19,
+      17
     ],
     "target": [
       60,
       627,
-      79,
-      644
+      19,
+      17
     ],
     "template": "os_handler/os_handler_os_fleet_slot_nav_6_template.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       1186,
       523,
-      1193,
-      553
+      7,
+      30
     ],
     "target": [
       1186,
       523,
-      1193,
-      553
+      7,
+      30
     ],
     "template": "os_handler/os_handler_os_fleet_unlocked.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       61,
       53,
-      100,
-      67
+      39,
+      14
     ],
     "target": [
       61,
       53,
-      100,
-      67
+      39,
+      14
     ],
     "template": "os_handler/os_handler_os_game_tips.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       654,
       195,
-      700,
-      210
+      46,
+      15
     ],
     "target": [
       654,
       195,
-      700,
-      210
+      46,
+      15
     ],
     "template": "os_handler/os_handler_os_monthboss_hard.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       654,
       195,
-      728,
-      210
+      74,
+      15
     ],
     "target": [
       654,
       195,
-      728,
-      210
+      74,
+      15
     ],
     "template": "os_handler/os_handler_os_monthboss_normal.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       371,
       662,
-      387,
-      686
+      16,
+      24
     ],
     "target": [
       371,
       662,
-      387,
-      686
+      16,
+      24
     ],
     "template": "os_handler/os_handler_os_submarine_empty.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       182,
       645,
-      364,
-      696
+      182,
+      51
     ],
     "target": [
       182,
       645,
-      364,
-      696
+      182,
+      51
     ],
     "template": "os_handler/os_handler_port_dock_check.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       1148,
       637,
-      1280,
-      699
+      132,
+      62
     ],
     "target": [
       1148,
       637,
-      1280,
-      699
+      132,
+      62
     ],
     "template": "os_handler/os_handler_port_enter.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       1068,
       640,
-      1261,
-      694
+      193,
+      54
     ],
     "target": [
       1068,
       640,
-      1261,
-      694
+      193,
+      54
     ],
     "template": "os_handler/os_handler_port_goto_dock.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       605,
       640,
-      798,
-      694
+      193,
+      54
     ],
     "target": [
       605,
       640,
-      798,
-      694
+      193,
+      54
     ],
     "template": "os_handler/os_handler_port_goto_mission.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       837,
       640,
-      1029,
-      694
+      192,
+      54
     ],
     "target": [
       837,
       640,
-      1029,
-      694
+      192,
+      54
     ],
     "template": "os_handler/os_handler_port_goto_supply.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       1131,
       153,
-      1210,
-      177
+      79,
+      24
     ],
     "target": [
       1131,
       153,
-      1210,
-      177
+      79,
+      24
     ],
     "template": "os_handler/os_handler_port_mission_accept.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       127,
       17,
-      231,
-      41
+      104,
+      24
     ],
     "target": [
       127,
       17,
-      231,
-      41
+      104,
+      24
     ],
     "template": "os_handler/os_handler_port_mission_check.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       791,
       639,
-      799,
-      647
+      8,
+      8
     ],
     "target": [
       791,
       639,
-      799,
-      647
+      8,
+      8
     ],
     "template": "os_handler/os_handler_port_mission_red_dot.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       112,
       624,
-      199,
-      636
+      87,
+      12
     ],
     "target": [
       991,
       586,
-      1136,
-      626
+      145,
+      40
     ],
     "template": "os_handler/os_handler_reset_fleet_preparation.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       384,
       231,
-      508,
-      244
+      124,
+      13
     ],
     "target": [
       863,
       173,
-      929,
-      217
+      66,
+      44
     ],
     "template": "os_handler/os_handler_reset_ticket_popup.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       602,
       421,
-      615,
-      438
+      13,
+      17
     ],
     "target": [
       602,
       421,
-      615,
-      438
+      13,
+      17
     ],
     "template": "os_handler/os_handler_reward_box_third_option.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       336,
       149,
-      959,
-      197
+      623,
+      48
     ],
     "target": [
       336,
       149,
-      959,
-      197
+      623,
+      48
     ],
     "template": "os_handler/os_handler_siren_device_enemy_once.png"
   },
@@ -1824,14 +1824,14 @@
     "roi": [
       336,
       321,
-      959,
-      368
+      623,
+      47
     ],
     "target": [
       336,
       321,
-      959,
-      368
+      623,
+      47
     ],
     "template": "os_handler/os_handler_siren_device_enemy_repeat.png"
   },
@@ -1842,14 +1842,14 @@
     "roi": [
       336,
       490,
-      959,
-      538
+      623,
+      48
     ],
     "target": [
       336,
       490,
-      959,
-      538
+      623,
+      48
     ],
     "template": "os_handler/os_handler_siren_device_leave.png"
   },
@@ -1860,14 +1860,14 @@
     "roi": [
       336,
       234,
-      959,
-      281
+      623,
+      47
     ],
     "target": [
       336,
       234,
-      959,
-      281
+      623,
+      47
     ],
     "template": "os_handler/os_handler_siren_device_resource_once.png"
   },
@@ -1878,14 +1878,14 @@
     "roi": [
       336,
       406,
-      959,
-      453
+      623,
+      47
     ],
     "target": [
       336,
       406,
-      959,
-      453
+      623,
+      47
     ],
     "template": "os_handler/os_handler_siren_device_resource_repeat.png"
   },
@@ -1896,14 +1896,14 @@
     "roi": [
       296,
       224,
-      984,
-      288
+      688,
+      64
     ],
     "target": [
       296,
       224,
-      984,
-      288
+      688,
+      64
     ],
     "template": "os_handler/os_handler_siren_option_a.png"
   },
@@ -1914,14 +1914,14 @@
     "roi": [
       296,
       320,
-      986,
-      368
+      690,
+      48
     ],
     "target": [
       296,
       320,
-      986,
-      368
+      690,
+      48
     ],
     "template": "os_handler/os_handler_siren_option_b.png"
   },
@@ -1932,14 +1932,14 @@
     "roi": [
       296,
       400,
-      992,
-      462
+      696,
+      62
     ],
     "target": [
       296,
       400,
-      992,
-      462
+      696,
+      62
     ],
     "template": "os_handler/os_handler_siren_option_c.png"
   },
@@ -1950,14 +1950,14 @@
     "roi": [
       139,
       14,
-      254,
-      41
+      115,
+      27
     ],
     "target": [
       139,
       14,
-      254,
-      41
+      115,
+      27
     ],
     "template": "os_handler/os_handler_storage_check.png"
   },
@@ -1968,14 +1968,14 @@
     "roi": [
       560,
       495,
-      725,
-      549
+      165,
+      54
     ],
     "target": [
       560,
       495,
-      725,
-      549
+      165,
+      54
     ],
     "template": "os_handler/os_handler_storage_coordinate_checkout.png"
   },
@@ -1986,14 +1986,14 @@
     "roi": [
       761,
       640,
-      876,
-      695
+      115,
+      55
     ],
     "target": [
       761,
       640,
-      876,
-      695
+      115,
+      55
     ],
     "template": "os_handler/os_handler_storage_enter.png"
   },
@@ -2004,14 +2004,14 @@
     "roi": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "target": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "template": "os_handler/os_handler_storage_fleet_1.png"
   },
@@ -2022,14 +2022,14 @@
     "roi": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "target": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "template": "os_handler/os_handler_storage_fleet_2.png"
   },
@@ -2040,14 +2040,14 @@
     "roi": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "target": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "template": "os_handler/os_handler_storage_fleet_3.png"
   },
@@ -2058,14 +2058,14 @@
     "roi": [
       306,
       638,
-      332,
-      664
+      26,
+      26
     ],
     "target": [
       306,
       638,
-      332,
-      664
+      26,
+      26
     ],
     "template": "os_handler/os_handler_storage_fleet_4.png"
   },
@@ -2076,14 +2076,14 @@
     "roi": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "target": [
       306,
       637,
-      332,
-      663
+      26,
+      26
     ],
     "template": "os_handler/os_handler_storage_fleet_5.png"
   },
@@ -2094,14 +2094,14 @@
     "roi": [
       232,
       356,
-      433,
-      614
+      201,
+      258
     ],
     "target": [
       232,
       356,
-      433,
-      614
+      201,
+      258
     ],
     "template": "os_handler/os_handler_storage_fleet_bar.png"
   },
@@ -2112,14 +2112,14 @@
     "roi": [
       122,
       642,
-      213,
-      665
+      91,
+      23
     ],
     "target": [
       122,
       642,
-      213,
-      665
+      91,
+      23
     ],
     "template": "os_handler/os_handler_storage_fleet_choose.png"
   },
@@ -2130,14 +2130,14 @@
     "roi": [
       769,
       629,
-      845,
-      663
+      76,
+      34
     ],
     "target": [
       722,
       618,
-      892,
-      674
+      170,
+      56
     ],
     "template": "os_handler/os_handler_storage_repair_cancel.png"
   },
@@ -2148,14 +2148,14 @@
     "roi": [
       1014,
       629,
-      1090,
-      662
+      76,
+      33
     ],
     "target": [
       967,
       619,
-      1136,
-      674
+      169,
+      55
     ],
     "template": "os_handler/os_handler_storage_repair_confirm.png"
   },
@@ -2166,14 +2166,14 @@
     "roi": [
       729,
       509,
-      786,
-      533
+      57,
+      24
     ],
     "target": [
       693,
       495,
-      858,
-      549
+      165,
+      54
     ],
     "template": "os_handler/os_handler_storage_use.png"
   },
@@ -2184,14 +2184,14 @@
     "roi": [
       1256,
       102,
-      1264,
-      589
+      8,
+      487
     ],
     "target": [
       1256,
       102,
-      1264,
-      589
+      8,
+      487
     ],
     "template": "os_handler/os_handler_storate_scroll.png"
   },
@@ -2202,14 +2202,14 @@
     "roi": [
       409,
       295,
-      466,
-      308
+      57,
+      13
     ],
     "target": [
       409,
       295,
-      466,
-      308
+      57,
+      13
     ],
     "template": "os_handler/os_handler_strategic_search_device_check.png"
   },
@@ -2220,14 +2220,14 @@
     "roi": [
       546,
       330,
-      563,
-      347
+      17,
+      17
     ],
     "target": [
       546,
       330,
-      563,
-      347
+      17,
+      17
     ],
     "template": "os_handler/os_handler_strategic_search_device_continue.png"
   },
@@ -2238,14 +2238,14 @@
     "roi": [
       463,
       330,
-      480,
-      346
+      17,
+      16
     ],
     "target": [
       463,
       330,
-      480,
-      346
+      17,
+      16
     ],
     "template": "os_handler/os_handler_strategic_search_device_stop.png"
   },
@@ -2256,14 +2256,14 @@
     "roi": [
       1213,
       582,
-      1266,
-      604
+      53,
+      22
     ],
     "target": [
       1180,
       577,
-      1275,
-      612
+      95,
+      35
     ],
     "template": "os_handler/os_handler_strategic_search_map_option_off.png"
   },
@@ -2274,14 +2274,14 @@
     "roi": [
       852,
       451,
-      866,
-      465
+      14,
+      14
     ],
     "target": [
       852,
       451,
-      866,
-      465
+      14,
+      14
     ],
     "template": "os_handler/os_handler_strategic_search_merchant_continue.png"
   },
@@ -2292,14 +2292,14 @@
     "roi": [
       595,
       450,
-      608,
-      466
+      13,
+      16
     ],
     "target": [
       595,
       450,
-      608,
-      466
+      13,
+      16
     ],
     "template": "os_handler/os_handler_strategic_search_merchant_stop.png"
   },
@@ -2310,14 +2310,14 @@
     "roi": [
       372,
       169,
-      521,
-      191
+      149,
+      22
     ],
     "target": [
       372,
       169,
-      521,
-      191
+      149,
+      22
     ],
     "template": "os_handler/os_handler_strategic_search_popup_check.png"
   },
@@ -2328,14 +2328,14 @@
     "roi": [
       903,
       277,
-      911,
-      470
+      8,
+      193
     ],
     "target": [
       903,
       277,
-      911,
-      470
+      8,
+      193
     ],
     "template": "os_handler/os_handler_strategic_search_scroll_area.png"
   },
@@ -2346,14 +2346,14 @@
     "roi": [
       408,
       391,
-      534,
-      404
+      126,
+      13
     ],
     "target": [
       408,
       391,
-      534,
-      404
+      126,
+      13
     ],
     "template": "os_handler/os_handler_strategic_search_submit_check.png"
   },
@@ -2364,14 +2364,14 @@
     "roi": [
       448,
       426,
-      465,
-      442
+      17,
+      16
     ],
     "target": [
       448,
       426,
-      465,
-      442
+      17,
+      16
     ],
     "template": "os_handler/os_handler_strategic_search_submit_off.png"
   },
@@ -2382,14 +2382,14 @@
     "roi": [
       535,
       426,
-      552,
-      442
+      17,
+      16
     ],
     "target": [
       535,
       426,
-      552,
-      442
+      17,
+      16
     ],
     "template": "os_handler/os_handler_strategic_search_submit_on.png"
   },
@@ -2400,14 +2400,14 @@
     "roi": [
       568,
       221,
-      713,
-      266
+      145,
+      45
     ],
     "target": [
       568,
       221,
-      713,
-      266
+      145,
+      45
     ],
     "template": "os_handler/os_handler_strategic_search_tab_secured.png"
   },
@@ -2418,14 +2418,14 @@
     "roi": [
       839,
       335,
-      854,
-      350
+      15,
+      15
     ],
     "target": [
       839,
       335,
-      854,
-      350
+      15,
+      15
     ],
     "template": "os_handler/os_handler_strategic_search_zonemode_random.png"
   },
@@ -2436,14 +2436,14 @@
     "roi": [
       583,
       334,
-      600,
-      350
+      17,
+      16
     ],
     "target": [
       583,
       334,
-      600,
-      350
+      17,
+      16
     ],
     "template": "os_handler/os_handler_strategic_search_zonemode_repeat.png"
   },
@@ -2454,14 +2454,14 @@
     "roi": [
       936,
       12,
-      1047,
-      42
+      111,
+      30
     ],
     "target": [
       936,
       12,
-      1047,
-      42
+      111,
+      30
     ],
     "template": "os_handler/os_handler_target_all_off.png"
   },
@@ -2472,14 +2472,14 @@
     "roi": [
       935,
       12,
-      1047,
-      42
+      112,
+      30
     ],
     "target": [
       935,
       12,
-      1047,
-      42
+      112,
+      30
     ],
     "template": "os_handler/os_handler_target_all_on.png"
   },
@@ -2490,14 +2490,14 @@
     "roi": [
       1011,
       459,
-      1235,
-      498
+      224,
+      39
     ],
     "target": [
       1011,
       459,
-      1235,
-      498
+      224,
+      39
     ],
     "template": "os_handler/os_handler_target_enter.png"
   },
@@ -2508,14 +2508,14 @@
     "roi": [
       1162,
       159,
-      1201,
-      197
+      39,
+      38
     ],
     "target": [
       1162,
       159,
-      1201,
-      197
+      39,
+      38
     ],
     "template": "os_handler/os_handler_target_next_reward.png"
   },
@@ -2526,14 +2526,14 @@
     "roi": [
       1226,
       457,
-      1262,
-      537
+      36,
+      80
     ],
     "target": [
       1226,
       457,
-      1262,
-      537
+      36,
+      80
     ],
     "template": "os_handler/os_handler_target_next_zone.png"
   },
@@ -2544,14 +2544,14 @@
     "roi": [
       79,
       159,
-      118,
-      197
+      39,
+      38
     ],
     "target": [
       79,
       159,
-      118,
-      197
+      39,
+      38
     ],
     "template": "os_handler/os_handler_target_previous_reward.png"
   },
@@ -2562,14 +2562,14 @@
     "roi": [
       18,
       457,
-      54,
-      537
+      36,
+      80
     ],
     "target": [
       18,
       457,
-      54,
-      537
+      36,
+      80
     ],
     "template": "os_handler/os_handler_target_previous_zone.png"
   },
@@ -2580,14 +2580,14 @@
     "roi": [
       1217,
       78,
-      1255,
-      279
+      38,
+      201
     ],
     "target": [
       1217,
       78,
-      1255,
-      279
+      38,
+      201
     ],
     "template": "os_handler/os_handler_target_receive_all.png"
   },
@@ -2598,14 +2598,14 @@
     "roi": [
       924,
       595,
-      1080,
-      635
+      156,
+      40
     ],
     "target": [
       924,
       595,
-      1080,
-      635
+      156,
+      40
     ],
     "template": "os_handler/os_handler_target_receive_single.png"
   },
@@ -2616,14 +2616,14 @@
     "roi": [
       1231,
       451,
-      1239,
-      464
+      8,
+      13
     ],
     "target": [
       1231,
       451,
-      1239,
-      464
+      8,
+      13
     ],
     "template": "os_handler/os_handler_target_red_dot.png"
   },
@@ -2634,14 +2634,14 @@
     "roi": [
       1047,
       12,
-      1160,
-      42
+      113,
+      30
     ],
     "target": [
       1047,
       12,
-      1160,
-      42
+      113,
+      30
     ],
     "template": "os_handler/os_handler_target_unfinished_off.png"
   },
@@ -2652,14 +2652,14 @@
     "roi": [
       1047,
       12,
-      1160,
-      42
+      113,
+      30
     ],
     "target": [
       1047,
       12,
-      1160,
-      42
+      113,
+      30
     ],
     "template": "os_handler/os_handler_target_unfinished_on.png"
   },

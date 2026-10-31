@@ -20,7 +20,10 @@ fn main() -> std::process::ExitCode {
     let args: Vec<String> = std::env::args().collect();
 
     // 最后一个参数是 identifier；没有就报用法
-    let Some(identifier) = args.last().filter(|a| !a.starts_with('-') && args.len() > 1) else {
+    let Some(identifier) = args
+        .last()
+        .filter(|a| !a.starts_with('-') && args.len() > 1)
+    else {
         eprintln!(
             "用法: {} <args...> <identifier>\n\
              这是 MaaFwApp 的 agent 子进程，通常由外壳拉起，不需要手动运行。",
@@ -64,13 +67,21 @@ fn load_framework() -> Result<(), String> {
 
     if let Ok(dir) = std::env::var("MAAFW_BINARY_PATH") {
         let dir = PathBuf::from(dir);
-        for name in ["libMaaFramework.so", "MaaFramework.dll", "libMaaFramework.dylib"] {
+        for name in [
+            "libMaaFramework.so",
+            "MaaFramework.dll",
+            "libMaaFramework.dylib",
+        ] {
             candidates.push(dir.join(name));
         }
         candidates.push(dir);
     }
     // 兜底：当前目录
-    for name in ["libMaaFramework.so", "MaaFramework.dll", "libMaaFramework.dylib"] {
+    for name in [
+        "libMaaFramework.so",
+        "MaaFramework.dll",
+        "libMaaFramework.dylib",
+    ] {
         candidates.push(PathBuf::from(name));
     }
 

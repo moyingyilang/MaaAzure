@@ -6,14 +6,14 @@
     "roi": [
       334,
       149,
-      369,
-      165
+      35,
+      16
     ],
     "target": [
       334,
       149,
-      369,
-      165
+      35,
+      16
     ],
     "template": "azur_stats/azur_stats_auto_search_reward_title.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       781,
       283,
-      965,
-      322
+      184,
+      39
     ],
     "target": [
       781,
       283,
-      965,
-      322
+      184,
+      39
     ],
     "template": "azur_stats/azur_stats_battle_status_enemy_name.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       190,
       96,
-      319,
-      150
+      129,
+      54
     ],
     "target": [
       190,
       96,
-      319,
-      150
+      129,
+      54
     ],
     "template": "azur_stats/azur_stats_commission_done.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       293,
       162,
-      593,
-      183
+      300,
+      21
     ],
     "target": [
       293,
       162,
-      593,
-      183
+      300,
+      21
     ],
     "template": "azur_stats/azur_stats_commission_name.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       190,
       97,
-      302,
-      150
+      112,
+      53
     ],
     "target": [
       190,
       97,
-      302,
-      150
+      112,
+      53
     ],
     "template": "azur_stats/azur_stats_commission_perfect.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       821,
       652,
-      859,
-      690
+      38,
+      38
     ],
     "target": [
       821,
       652,
-      859,
-      690
+      38,
+      38
     ],
     "template": "azur_stats/azur_stats_focus_series.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       44,
       216,
-      64,
-      236
+      20,
+      20
     ],
     "target": [
       44,
       216,
-      64,
-      236
+      20,
+      20
     ],
     "template": "azur_stats/azur_stats_has_research_queue.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       977,
       203,
-      1127,
-      228
+      150,
+      25
     ],
     "target": [
       977,
       203,
-      1127,
-      228
+      150,
+      25
     ],
     "template": "azur_stats/azur_stats_meowfficer_name.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       485,
       430,
-      770,
-      451
+      285,
+      21
     ],
     "target": [
       485,
       430,
-      770,
-      451
+      285,
+      21
     ],
     "template": "azur_stats/azur_stats_meowfficer_talent_detail.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       56,
       280,
-      270,
-      346
+      214,
+      66
     ],
     "target": [
       56,
       280,
-      270,
-      346
+      214,
+      66
     ],
     "template": "azur_stats/azur_stats_queue_ocr_research_1.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       283,
       281,
-      497,
-      347
+      214,
+      66
     ],
     "target": [
       283,
       281,
-      497,
-      347
+      214,
+      66
     ],
     "template": "azur_stats/azur_stats_queue_ocr_research_2.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       513,
       280,
-      727,
-      346
+      214,
+      66
     ],
     "target": [
       513,
       280,
-      727,
-      346
+      214,
+      66
     ],
     "template": "azur_stats/azur_stats_queue_ocr_research_3.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       739,
       281,
-      953,
-      347
+      214,
+      66
     ],
     "target": [
       739,
       281,
-      953,
-      347
+      214,
+      66
     ],
     "template": "azur_stats/azur_stats_queue_ocr_research_4.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       969,
       280,
-      1183,
-      346
+      214,
+      66
     ],
     "target": [
       969,
       280,
-      1183,
-      346
+      214,
+      66
     ],
     "template": "azur_stats/azur_stats_queue_ocr_research_5.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       66,
       127,
-      99,
-      151
+      33,
+      24
     ],
     "target": [
       66,
       127,
-      99,
-      151
+      33,
+      24
     ],
     "template": "azur_stats/azur_stats_queue_seties_1.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       294,
       127,
-      327,
-      151
+      33,
+      24
     ],
     "target": [
       294,
       127,
-      327,
-      151
+      33,
+      24
     ],
     "template": "azur_stats/azur_stats_queue_seties_2.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       523,
       127,
-      556,
-      151
+      33,
+      24
     ],
     "target": [
       523,
       127,
-      556,
-      151
+      33,
+      24
     ],
     "template": "azur_stats/azur_stats_queue_seties_3.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       751,
       127,
-      784,
-      151
+      33,
+      24
     ],
     "target": [
       751,
       127,
-      784,
-      151
+      33,
+      24
     ],
     "template": "azur_stats/azur_stats_queue_seties_4.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       979,
       127,
-      1012,
-      151
+      33,
+      24
     ],
     "target": [
       979,
       127,
-      1012,
-      151
+      33,
+      24
     ],
     "template": "azur_stats/azur_stats_queue_seties_5.png"
   },

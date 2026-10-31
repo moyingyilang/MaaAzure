@@ -6,14 +6,14 @@
     "roi": [
       738,
       313,
-      866,
-      342
+      128,
+      29
     ],
     "target": [
       803,
       378,
-      867,
-      438
+      64,
+      60
     ],
     "template": "island_manufacture/island_manufacture_island_electronic_processing_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       738,
       313,
-      866,
-      342
+      128,
+      29
     ],
     "target": [
       897,
       374,
-      963,
-      443
+      66,
+      69
     ],
     "template": "island_manufacture/island_manufacture_island_electronic_processing_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       200,
       498,
-      324,
-      526
+      124,
+      28
     ],
     "target": [
       264,
       557,
-      326,
-      627
+      62,
+      70
     ],
     "template": "island_manufacture/island_manufacture_island_handmade_post1.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       200,
       498,
-      324,
-      526
+      124,
+      28
     ],
     "target": [
       357,
       558,
-      422,
-      621
+      65,
+      63
     ],
     "template": "island_manufacture/island_manufacture_island_handmade_post2.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       200,
       316,
-      324,
-      341
+      124,
+      25
     ],
     "target": [
       264,
       375,
-      332,
-      437
+      68,
+      62
     ],
     "template": "island_manufacture/island_manufacture_island_industrial_post1.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       200,
       316,
-      324,
-      341
+      124,
+      25
     ],
     "target": [
       359,
       377,
-      422,
-      438
+      63,
+      61
     ],
     "template": "island_manufacture/island_manufacture_island_industrial_post2.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       738,
       131,
-      863,
-      158
+      125,
+      27
     ],
     "target": [
       802,
       194,
-      870,
-      255
+      68,
+      61
     ],
     "template": "island_manufacture/island_manufacture_island_wood_processing_post1.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       738,
       131,
-      863,
-      158
+      125,
+      27
     ],
     "target": [
       897,
       190,
-      965,
-      255
+      68,
+      65
     ],
     "template": "island_manufacture/island_manufacture_island_wood_processing_post2.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       612,
       314,
-      665,
-      362
+      53,
+      48
     ],
     "target": [
       612,
       314,
-      665,
-      362
+      53,
+      48
     ],
     "template": "island_manufacture/island_manufacture_post_autumn_bouquet.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       608,
       318,
-      673,
-      362
+      65,
+      44
     ],
     "target": [
       608,
       318,
-      673,
-      362
+      65,
+      44
     ],
     "template": "island_manufacture/island_manufacture_post_boot.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       606,
       316,
-      676,
-      363
+      70,
+      47
     ],
     "target": [
       606,
       316,
-      676,
-      363
+      70,
+      47
     ],
     "template": "island_manufacture/island_manufacture_post_cutlery.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       617,
       306,
-      664,
-      363
+      47,
+      57
     ],
     "target": [
       617,
       306,
-      664,
-      363
+      47,
+      57
     ],
     "template": "island_manufacture/island_manufacture_post_file_cabinet.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       612,
       308,
-      669,
-      362
+      57,
+      54
     ],
     "target": [
       612,
       308,
-      669,
-      362
+      57,
+      54
     ],
     "template": "island_manufacture/island_manufacture_post_filter_element.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       613,
       314,
-      671,
-      362
+      58,
+      48
     ],
     "target": [
       613,
       314,
-      671,
-      362
+      58,
+      48
     ],
     "template": "island_manufacture/island_manufacture_post_iron_nail.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       265,
       560,
-      334,
-      627
+      69,
+      67
     ],
     "target": [
       265,
       560,
-      334,
-      627
+      69,
+      67
     ],
     "template": "island_manufacture/island_manufacture_post_jasmine_oil.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       605,
       320,
-      676,
-      361
+      71,
+      41
     ],
     "target": [
       605,
       320,
-      676,
-      361
+      71,
+      41
     ],
     "template": "island_manufacture/island_manufacture_post_leather.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       624,
       309,
-      665,
-      362
+      41,
+      53
     ],
     "target": [
       624,
       309,
-      665,
-      362
+      41,
+      53
     ],
     "template": "island_manufacture/island_manufacture_post_peanut_oil.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       617,
       312,
-      664,
-      362
+      47,
+      50
     ],
     "target": [
       617,
       312,
-      664,
-      362
+      47,
+      50
     ],
     "template": "island_manufacture/island_manufacture_post_shepherd_purse.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       265,
       560,
-      334,
-      627
+      69,
+      67
     ],
     "target": [
       265,
       560,
-      334,
-      627
+      69,
+      67
     ],
     "template": "island_manufacture/island_manufacture_post_summer_bouquet.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       618,
       308,
-      665,
-      362
+      47,
+      54
     ],
     "target": [
       618,
       308,
-      665,
-      362
+      47,
+      54
     ],
     "template": "island_manufacture/island_manufacture_post_vitriol.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "target": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "template": "island_manufacture/island_manufacture_select_autumn_bouquet.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       751,
       240,
-      837,
-      321
+      86,
+      81
     ],
     "target": [
       751,
       240,
-      837,
-      321
+      86,
+      81
     ],
     "template": "island_manufacture/island_manufacture_select_autumn_bouquet_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       214,
       561,
-      285,
-      614
+      71,
+      53
     ],
     "target": [
       214,
       561,
-      285,
-      614
+      71,
+      53
     ],
     "template": "island_manufacture/island_manufacture_select_boot.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       744,
       246,
-      841,
-      318
+      97,
+      72
     ],
     "target": [
       744,
       246,
-      841,
-      318
+      97,
+      72
     ],
     "template": "island_manufacture/island_manufacture_select_boot_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       212,
       559,
-      286,
-      612
+      74,
+      53
     ],
     "target": [
       212,
       559,
-      286,
-      612
+      74,
+      53
     ],
     "template": "island_manufacture/island_manufacture_select_cutlery.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       740,
       245,
-      841,
-      315
+      101,
+      70
     ],
     "target": [
       740,
       245,
-      841,
-      315
+      101,
+      70
     ],
     "template": "island_manufacture/island_manufacture_select_cutlery_check.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       225,
       549,
-      271,
-      616
+      46,
+      67
     ],
     "target": [
       225,
       549,
-      271,
-      616
+      46,
+      67
     ],
     "template": "island_manufacture/island_manufacture_select_file_cabinet.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       758,
       233,
-      824,
-      326
+      66,
+      93
     ],
     "target": [
       758,
       233,
-      824,
-      326
+      66,
+      93
     ],
     "template": "island_manufacture/island_manufacture_select_file_cabinet_check.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       219,
       596,
-      278,
-      651
+      59,
+      55
     ],
     "target": [
       219,
       596,
-      278,
-      651
+      59,
+      55
     ],
     "template": "island_manufacture/island_manufacture_select_filter_element.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       751,
       232,
-      833,
-      325
+      82,
+      93
     ],
     "target": [
       751,
       232,
-      833,
-      325
+      82,
+      93
     ],
     "template": "island_manufacture/island_manufacture_select_filter_element_check.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       219,
       451,
-      282,
-      507
+      63,
+      56
     ],
     "target": [
       219,
       451,
-      282,
-      507
+      63,
+      56
     ],
     "template": "island_manufacture/island_manufacture_select_iron_nail.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       751,
       241,
-      838,
-      318
+      87,
+      77
     ],
     "target": [
       751,
       241,
-      838,
-      318
+      87,
+      77
     ],
     "template": "island_manufacture/island_manufacture_select_iron_nail_check.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "target": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "template": "island_manufacture/island_manufacture_select_jasmine_oil.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_manufacture/island_manufacture_select_jasmine_oil_check.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       211,
       606,
-      286,
-      649
+      75,
+      43
     ],
     "target": [
       211,
       606,
-      286,
-      649
+      75,
+      43
     ],
     "template": "island_manufacture/island_manufacture_select_leather.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       740,
       250,
-      844,
-      308
+      104,
+      58
     ],
     "target": [
       740,
       250,
-      844,
-      308
+      104,
+      58
     ],
     "template": "island_manufacture/island_manufacture_select_leather_check.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       222,
       298,
-      273,
-      360
+      51,
+      62
     ],
     "target": [
       222,
       298,
-      273,
-      360
+      51,
+      62
     ],
     "template": "island_manufacture/island_manufacture_select_peanut_oil.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       753,
       235,
-      827,
-      328
+      74,
+      93
     ],
     "target": [
       753,
       235,
-      827,
-      328
+      74,
+      93
     ],
     "template": "island_manufacture/island_manufacture_select_peanut_oil_check.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       224,
       151,
-      274,
-      209
+      50,
+      58
     ],
     "target": [
       224,
       151,
-      274,
-      209
+      50,
+      58
     ],
     "template": "island_manufacture/island_manufacture_select_shepherd_purse.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       756,
       238,
-      827,
-      320
+      71,
+      82
     ],
     "target": [
       756,
       238,
-      827,
-      320
+      71,
+      82
     ],
     "template": "island_manufacture/island_manufacture_select_shepherd_purse_check.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "target": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "template": "island_manufacture/island_manufacture_select_summer_bouquet.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_manufacture/island_manufacture_select_summer_bouquet_check.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       226,
       594,
-      273,
-      651
+      47,
+      57
     ],
     "target": [
       226,
       594,
-      273,
-      651
+      47,
+      57
     ],
     "template": "island_manufacture/island_manufacture_select_vitriol.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       759,
       230,
-      829,
-      325
+      70,
+      95
     ],
     "target": [
       759,
       230,
-      829,
-      325
+      70,
+      95
     ],
     "template": "island_manufacture/island_manufacture_select_vitriol_check.png"
   },

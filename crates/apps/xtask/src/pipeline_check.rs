@@ -222,13 +222,15 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
                     report
                         .errors
                         .push(format!("[{server}] {name}: roi 必须是 4 个数字"));
-                } else if !(v[0] >= 0
-                    && v[1] >= 0
-                    && v[2] > v[0]
-                    && v[3] > v[1]
-                    && v[2] <= 1280
-                    && v[3] <= 720)
-                {
+                } else if !(
+                    // MaaFramework 的 roi 是 [x, y, w, h]：宽高必须为正，且不能越出 1280x720
+                    v[0] >= 0
+                        && v[1] >= 0
+                        && v[2] > 0
+                        && v[3] > 0
+                        && v[0] + v[2] <= 1280
+                        && v[1] + v[3] <= 720
+                ) {
                     report
                         .errors
                         .push(format!("[{server}] {name}: roi 越界或非法 {:?}", v));

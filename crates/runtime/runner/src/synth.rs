@@ -90,10 +90,10 @@ impl Canvas {
                 ));
             }
         };
-        // 模板尺寸通常等于 roi 尺寸；不一致时按 roi 缩放，避免「贴上去但不匹配」
-        let (tw, th) = (roi.map_or(img.width(), |r| (r[2] - r[0]) as u32), 0);
-        let target_w = tw.max(1);
-        let target_h = roi.map_or(img.height(), |r| (r[3] - r[1]) as u32).max(1);
+        // 模板尺寸通常等于 roi 尺寸；不一致时按 roi 缩放，避免「贴上去但不匹配」。
+        // 注意：MaaFramework 的 roi 是 [x, y, w, h]，不是 [x1, y1, x2, y2]。
+        let target_w = roi.map_or(img.width(), |r| r[2].max(1) as u32);
+        let target_h = roi.map_or(img.height(), |r| r[3].max(1) as u32);
         let patch = if (img.width(), img.height()) == (target_w, target_h) {
             img
         } else {
@@ -107,7 +107,6 @@ impl Canvas {
 
         image::imageops::overlay(&mut self.img, &patch, x.max(0) as i64, y.max(0) as i64);
         self.pasted.push(node.to_string());
-        let _ = th;
         Ok(())
     }
 

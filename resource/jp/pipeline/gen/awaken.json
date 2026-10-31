@@ -6,14 +6,14 @@
     "roi": [
       803,
       283,
-      895,
-      303
+      92,
+      20
     ],
     "target": [
       803,
       283,
-      895,
-      303
+      92,
+      20
     ],
     "template": "awaken/awaken_awakening.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       485,
       513,
-      549,
-      543
+      64,
+      30
     ],
     "target": [
       485,
       513,
-      549,
-      543
+      64,
+      30
     ],
     "template": "awaken/awaken_cancel.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       726,
       513,
-      794,
-      542
+      68,
+      29
     ],
     "target": [
       726,
       513,
-      794,
-      542
+      68,
+      29
     ],
     "template": "awaken/awaken_confirm.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       720,
       374,
-      780,
-      434
+      60,
+      60
     ],
     "target": [
       720,
       374,
-      780,
-      434
+      60,
+      60
     ],
     "template": "awaken/awaken_cost_array.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       610,
       375,
-      670,
-      435
+      60,
+      60
     ],
     "target": [
       610,
       375,
-      670,
-      435
+      60,
+      60
     ],
     "template": "awaken/awaken_cost_chip.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       499,
       373,
-      559,
-      433
+      60,
+      60
     ],
     "target": [
       499,
       373,
-      559,
-      433
+      60,
+      60
     ],
     "template": "awaken/awaken_cost_coin.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       435,
       343,
-      468,
-      382
+      33,
+      39
     ],
     "target": [
       218,
       561,
-      548,
-      630
+      330,
+      69
     ],
     "template": "awaken/awaken_finish.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       807,
       284,
-      893,
-      303
+      86,
+      19
     ],
     "target": [
       807,
       284,
-      893,
-      303
+      86,
+      19
     ],
     "template": "awaken/awaken_level_up.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1102,
       276,
-      1250,
-      306
+      148,
+      30
     ],
     "target": [
       1102,
       276,
-      1250,
-      306
+      148,
+      30
     ],
     "template": "awaken/awaken_ocr_ship_exp.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       746,
       279,
-      798,
-      317
+      52,
+      38
     ],
     "target": [
       746,
       279,
-      798,
-      317
+      52,
+      38
     ],
     "template": "awaken/awaken_ocr_ship_level.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       703,
       293,
-      734,
-      314
+      31,
+      21
     ],
     "target": [
       703,
       293,
-      734,
-      314
+      31,
+      21
     ],
     "template": "awaken/awaken_ship_level_check.png"
   }

@@ -6,14 +6,14 @@
     "roi": [
       1186,
       606,
-      1280,
-      636
+      94,
+      30
     ],
     "target": [
       1186,
       606,
-      1280,
-      636
+      94,
+      30
     ],
     "template": "raid/raid_albion_ocr_pt.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1148,
       509,
-      1203,
-      529
+      55,
+      20
     ],
     "target": [
       1148,
       509,
-      1203,
-      529
+      55,
+      20
     ],
     "template": "raid/raid_albion_ocr_remain_easy.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1146,
       339,
-      1205,
-      359
+      59,
+      20
     ],
     "target": [
       1146,
       339,
-      1205,
-      359
+      59,
+      20
     ],
     "template": "raid/raid_albion_ocr_remain_hard.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1189,
       425,
-      1244,
-      446
+      55,
+      21
     ],
     "target": [
       1189,
       425,
-      1244,
-      446
+      55,
+      21
     ],
     "template": "raid/raid_albion_ocr_remain_normal.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1016,
       506,
-      1065,
-      530
+      49,
+      24
     ],
     "target": [
       1016,
       506,
-      1065,
-      530
+      49,
+      24
     ],
     "template": "raid/raid_albion_raid_easy.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1019,
       337,
-      1068,
-      360
+      49,
+      23
     ],
     "target": [
       1019,
       337,
-      1068,
-      360
+      49,
+      23
     ],
     "template": "raid/raid_albion_raid_hard.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1057,
       422,
-      1106,
-      446
+      49,
+      24
     ],
     "target": [
       1057,
       422,
-      1106,
-      446
+      49,
+      24
     ],
     "template": "raid/raid_albion_raid_normal.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       1156,
       606,
-      1276,
-      638
+      120,
+      32
     ],
     "target": [
       1156,
       606,
-      1276,
-      638
+      120,
+      32
     ],
     "template": "raid/raid_bigshot_ocr_pt.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1041,
       552,
-      1101,
-      574
+      60,
+      22
     ],
     "target": [
       1041,
       552,
-      1101,
-      574
+      60,
+      22
     ],
     "template": "raid/raid_bigshot_ocr_remain_easy.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1133,
       30,
-      1193,
-      52
+      60,
+      22
     ],
     "target": [
       1133,
       30,
-      1193,
-      52
+      60,
+      22
     ],
     "template": "raid/raid_bigshot_ocr_remain_ex.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1129,
       400,
-      1189,
-      422
+      60,
+      22
     ],
     "target": [
       1129,
       400,
-      1189,
-      422
+      60,
+      22
     ],
     "template": "raid/raid_bigshot_ocr_remain_hard.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1085,
       471,
-      1145,
-      493
+      60,
+      22
     ],
     "target": [
       1085,
       471,
-      1145,
-      493
+      60,
+      22
     ],
     "template": "raid/raid_bigshot_ocr_remain_normal.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       938,
       549,
-      986,
-      574
+      48,
+      25
     ],
     "target": [
       938,
       549,
-      986,
-      574
+      48,
+      25
     ],
     "template": "raid/raid_bigshot_raid_easy.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1045,
       215,
-      1115,
-      248
+      70,
+      33
     ],
     "target": [
       1045,
       215,
-      1115,
-      248
+      70,
+      33
     ],
     "template": "raid/raid_bigshot_raid_ex.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       1027,
       399,
-      1075,
-      423
+      48,
+      24
     ],
     "target": [
       1027,
       399,
-      1075,
-      423
+      48,
+      24
     ],
     "template": "raid/raid_bigshot_raid_hard.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       983,
       469,
-      1031,
-      493
+      48,
+      24
     ],
     "target": [
       983,
       469,
-      1031,
-      493
+      48,
+      24
     ],
     "template": "raid/raid_bigshot_raid_normal.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       1135,
       536,
-      1196,
-      554
+      61,
+      18
     ],
     "target": [
       1135,
       536,
-      1196,
-      554
+      61,
+      18
     ],
     "template": "raid/raid_bristol_ocr_remain_easy.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       1160,
       292,
-      1221,
-      310
+      61,
+      18
     ],
     "target": [
       1160,
       292,
-      1221,
-      310
+      61,
+      18
     ],
     "template": "raid/raid_bristol_ocr_remain_hard.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       1086,
       414,
-      1147,
-      432
+      61,
+      18
     ],
     "target": [
       1086,
       414,
-      1147,
-      432
+      61,
+      18
     ],
     "template": "raid/raid_bristol_ocr_remain_normal.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       1151,
       490,
-      1204,
-      519
+      53,
+      29
     ],
     "target": [
       1151,
       490,
-      1204,
-      519
+      53,
+      29
     ],
     "template": "raid/raid_bristol_raid_easy.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       1170,
       249,
-      1217,
-      275
+      47,
+      26
     ],
     "target": [
       1170,
       249,
-      1217,
-      275
+      47,
+      26
     ],
     "template": "raid/raid_bristol_raid_hard.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       1097,
       367,
-      1151,
-      393
+      54,
+      26
     ],
     "target": [
       1097,
       367,
-      1151,
-      393
+      54,
+      26
     ],
     "template": "raid/raid_bristol_raid_normal.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1174,
       603,
-      1280,
-      632
+      106,
+      29
     ],
     "target": [
       1174,
       603,
-      1280,
-      632
+      106,
+      29
     ],
     "template": "raid/raid_changwu_ocr_pt.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       1057,
       565,
-      1116,
-      585
+      59,
+      20
     ],
     "target": [
       1057,
       565,
-      1116,
-      585
+      59,
+      20
     ],
     "template": "raid/raid_changwu_ocr_remain_easy.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       1138,
       26,
-      1185,
-      49
+      47,
+      23
     ],
     "target": [
       1138,
       26,
-      1185,
-      49
+      47,
+      23
     ],
     "template": "raid/raid_changwu_ocr_remain_ex.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       1169,
       409,
-      1229,
-      429
+      60,
+      20
     ],
     "target": [
       1169,
       409,
-      1229,
-      429
+      60,
+      20
     ],
     "template": "raid/raid_changwu_ocr_remain_hard.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       1112,
       487,
-      1170,
-      506
+      58,
+      19
     ],
     "target": [
       1112,
       487,
-      1170,
-      506
+      58,
+      19
     ],
     "template": "raid/raid_changwu_ocr_remain_normal.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       977,
       560,
-      1031,
-      588
+      54,
+      28
     ],
     "target": [
       977,
       560,
-      1031,
-      588
+      54,
+      28
     ],
     "template": "raid/raid_changwu_raid_easy.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       1135,
       296,
-      1209,
-      331
+      74,
+      35
     ],
     "target": [
       1135,
       296,
-      1209,
-      331
+      74,
+      35
     ],
     "template": "raid/raid_changwu_raid_ex.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       1089,
       405,
-      1145,
-      432
+      56,
+      27
     ],
     "target": [
       1089,
       405,
-      1145,
-      432
+      56,
+      27
     ],
     "template": "raid/raid_changwu_raid_hard.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       1033,
       481,
-      1089,
-      510
+      56,
+      29
     ],
     "target": [
       1033,
       481,
-      1089,
-      510
+      56,
+      29
     ],
     "template": "raid/raid_changwu_raid_normal.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       1166,
       604,
-      1279,
-      632
+      113,
+      28
     ],
     "target": [
       1166,
       604,
-      1279,
-      632
+      113,
+      28
     ],
     "template": "raid/raid_chienwu_ocr_pt.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       1111,
       528,
-      1163,
-      549
+      52,
+      21
     ],
     "target": [
       1111,
       528,
-      1163,
-      549
+      52,
+      21
     ],
     "template": "raid/raid_chienwu_ocr_remain_easy.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       1086,
       16,
-      1152,
-      44
+      66,
+      28
     ],
     "target": [
       1086,
       16,
-      1152,
-      44
+      66,
+      28
     ],
     "template": "raid/raid_chienwu_ocr_remain_ex.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       1106,
       390,
-      1158,
-      411
+      52,
+      21
     ],
     "target": [
       1106,
       390,
-      1158,
-      411
+      52,
+      21
     ],
     "template": "raid/raid_chienwu_ocr_remain_hard.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       1144,
       459,
-      1196,
-      480
+      52,
+      21
     ],
     "target": [
       1144,
       459,
-      1196,
-      480
+      52,
+      21
     ],
     "template": "raid/raid_chienwu_ocr_remain_normal.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       1054,
       527,
-      1097,
-      550
+      43,
+      23
     ],
     "target": [
       1054,
       527,
-      1097,
-      550
+      43,
+      23
     ],
     "template": "raid/raid_chienwu_raid_easy.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       1068,
       251,
-      1125,
-      286
+      57,
+      35
     ],
     "target": [
       1068,
       251,
-      1125,
-      286
+      57,
+      35
     ],
     "template": "raid/raid_chienwu_raid_ex.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       1048,
       389,
-      1092,
-      413
+      44,
+      24
     ],
     "target": [
       1048,
       389,
-      1092,
-      413
+      44,
+      24
     ],
     "template": "raid/raid_chienwu_raid_hard.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       1086,
       458,
-      1130,
-      482
+      44,
+      24
     ],
     "target": [
       1086,
       458,
-      1130,
-      482
+      44,
+      24
     ],
     "template": "raid/raid_chienwu_raid_normal.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1157,
       607,
-      1267,
-      638
+      110,
+      31
     ],
     "target": [
       1157,
       607,
-      1267,
-      638
+      110,
+      31
     ],
     "template": "raid/raid_darenwu_ocr_pt.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       1040,
       552,
-      1102,
-      574
+      62,
+      22
     ],
     "target": [
       1040,
       552,
-      1102,
-      574
+      62,
+      22
     ],
     "template": "raid/raid_darenwu_ocr_remain_easy.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       1119,
       32,
-      1185,
-      51
+      66,
+      19
     ],
     "target": [
       1119,
       32,
-      1185,
-      51
+      66,
+      19
     ],
     "template": "raid/raid_darenwu_ocr_remain_ex.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       1132,
       400,
-      1192,
-      422
+      60,
+      22
     ],
     "target": [
       1132,
       400,
-      1192,
-      422
+      60,
+      22
     ],
     "template": "raid/raid_darenwu_ocr_remain_hard.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       1092,
       470,
-      1148,
-      491
+      56,
+      21
     ],
     "target": [
       1092,
       470,
-      1148,
-      491
+      56,
+      21
     ],
     "template": "raid/raid_darenwu_ocr_remain_normal.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       940,
       550,
-      986,
-      574
+      46,
+      24
     ],
     "target": [
       940,
       550,
-      986,
-      574
+      46,
+      24
     ],
     "template": "raid/raid_darenwu_raid_easy.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       1048,
       219,
-      1108,
-      244
+      60,
+      25
     ],
     "target": [
       1048,
       219,
-      1108,
-      244
+      60,
+      25
     ],
     "template": "raid/raid_darenwu_raid_ex.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       1027,
       400,
-      1074,
-      422
+      47,
+      22
     ],
     "target": [
       1027,
       400,
-      1074,
-      422
+      47,
+      22
     ],
     "template": "raid/raid_darenwu_raid_hard.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       985,
       469,
-      1029,
-      493
+      44,
+      24
     ],
     "target": [
       985,
       469,
-      1029,
-      493
+      44,
+      24
     ],
     "template": "raid/raid_darenwu_raid_normal.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       1071,
       503,
-      1121,
-      518
+      50,
+      15
     ],
     "target": [
       1071,
       503,
-      1121,
-      518
+      50,
+      15
     ],
     "template": "raid/raid_essex_ocr_remain_easy.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       1088,
       273,
-      1138,
-      287
+      50,
+      14
     ],
     "target": [
       1088,
       273,
-      1138,
-      287
+      50,
+      14
     ],
     "template": "raid/raid_essex_ocr_remain_hard.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       1049,
       387,
-      1099,
-      402
+      50,
+      15
     ],
     "target": [
       1049,
       387,
-      1099,
-      402
+      50,
+      15
     ],
     "template": "raid/raid_essex_ocr_remain_normal.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       1142,
       496,
-      1198,
-      543
+      56,
+      47
     ],
     "target": [
       1142,
       496,
-      1198,
-      543
+      56,
+      47
     ],
     "template": "raid/raid_essex_raid_easy.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       1157,
       266,
-      1215,
-      313
+      58,
+      47
     ],
     "target": [
       1157,
       266,
-      1215,
-      313
+      58,
+      47
     ],
     "template": "raid/raid_essex_raid_hard.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       1120,
       381,
-      1175,
-      428
+      55,
+      47
     ],
     "target": [
       1120,
       381,
-      1175,
-      428
+      55,
+      47
     ],
     "template": "raid/raid_essex_raid_normal.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       402,
       168,
-      462,
-      228
+      60,
+      60
     ],
     "target": [
       402,
       168,
-      462,
-      228
+      60,
+      60
     ],
     "template": "raid/raid_fleet_flagship.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       983,
       577,
-      1181,
-      638
+      198,
+      61
     ],
     "target": [
       983,
       577,
-      1181,
-      638
+      198,
+      61
     ],
     "template": "raid/raid_fleet_preparation.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       718,
       168,
-      778,
-      228
+      60,
+      60
     ],
     "target": [
       718,
       168,
-      778,
-      228
+      60,
+      60
     ],
     "template": "raid/raid_fleet_vanguard.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       1160,
       605,
-      1280,
-      637
+      120,
+      32
     ],
     "target": [
       1160,
       605,
-      1280,
-      637
+      120,
+      32
     ],
     "template": "raid/raid_gorizia_ocr_pt.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       1138,
       513,
-      1194,
-      539
+      56,
+      26
     ],
     "target": [
       1138,
       513,
-      1194,
-      539
+      56,
+      26
     ],
     "template": "raid/raid_gorizia_ocr_remain_easy.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       1082,
       16,
-      1151,
-      42
+      69,
+      26
     ],
     "target": [
       1082,
       16,
-      1151,
-      42
+      69,
+      26
     ],
     "template": "raid/raid_gorizia_ocr_remain_ex.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       1138,
       346,
-      1195,
-      372
+      57,
+      26
     ],
     "target": [
       1138,
       346,
-      1195,
-      372
+      57,
+      26
     ],
     "template": "raid/raid_gorizia_ocr_remain_hard.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       1174,
       428,
-      1231,
-      455
+      57,
+      27
     ],
     "target": [
       1174,
       428,
-      1231,
-      455
+      57,
+      27
     ],
     "template": "raid/raid_gorizia_ocr_remain_normal.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       1069,
       514,
-      1120,
-      539
+      51,
+      25
     ],
     "target": [
       1069,
       514,
-      1120,
-      539
+      51,
+      25
     ],
     "template": "raid/raid_gorizia_raid_easy.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       978,
       210,
-      1050,
-      242
+      72,
+      32
     ],
     "target": [
       978,
       210,
-      1050,
-      242
+      72,
+      32
     ],
     "template": "raid/raid_gorizia_raid_ex.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       1070,
       346,
-      1120,
-      372
+      50,
+      26
     ],
     "target": [
       1070,
       346,
-      1120,
-      372
+      50,
+      26
     ],
     "template": "raid/raid_gorizia_raid_hard.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       1107,
       429,
-      1155,
-      454
+      48,
+      25
     ],
     "target": [
       1107,
       429,
-      1155,
-      454
+      48,
+      25
     ],
     "template": "raid/raid_gorizia_raid_normal.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       1166,
       604,
-      1279,
-      635
+      113,
+      31
     ],
     "target": [
       1166,
       604,
-      1279,
-      635
+      113,
+      31
     ],
     "template": "raid/raid_huanchang_ocr_pt.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       961,
       548,
-      983,
-      567
+      22,
+      19
     ],
     "target": [
       961,
       548,
-      983,
-      567
+      22,
+      19
     ],
     "template": "raid/raid_huanchang_ocr_remain_easy.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       1082,
       16,
-      1151,
-      42
+      69,
+      26
     ],
     "target": [
       1082,
       16,
-      1151,
-      42
+      69,
+      26
     ],
     "template": "raid/raid_huanchang_ocr_remain_ex.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       1146,
       548,
-      1168,
-      567
+      22,
+      19
     ],
     "target": [
       1146,
       548,
-      1168,
-      567
+      22,
+      19
     ],
     "template": "raid/raid_huanchang_ocr_remain_hard.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       1054,
       548,
-      1076,
-      567
+      22,
+      19
     ],
     "target": [
       1054,
       548,
-      1076,
-      567
+      22,
+      19
     ],
     "template": "raid/raid_huanchang_ocr_remain_normal.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       961,
       481,
-      984,
-      544
+      23,
+      63
     ],
     "target": [
       961,
       481,
-      984,
-      544
+      23,
+      63
     ],
     "template": "raid/raid_huanchang_raid_easy.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       1111,
       352,
-      1170,
-      381
+      59,
+      29
     ],
     "target": [
       1111,
       352,
-      1170,
-      381
+      59,
+      29
     ],
     "template": "raid/raid_huanchang_raid_ex.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       1143,
       481,
-      1171,
-      545
+      28,
+      64
     ],
     "target": [
       1143,
       481,
-      1171,
-      545
+      28,
+      64
     ],
     "template": "raid/raid_huanchang_raid_hard.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       1051,
       481,
-      1078,
-      543
+      27,
+      62
     ],
     "target": [
       1051,
       481,
-      1078,
-      543
+      27,
+      62
     ],
     "template": "raid/raid_huanchang_raid_normal.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       1140,
       607,
-      1280,
-      641
+      140,
+      34
     ],
     "target": [
       1140,
       607,
-      1280,
-      641
+      140,
+      34
     ],
     "template": "raid/raid_iris_ocr_pt.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       1046,
       515,
-      1106,
-      535
+      60,
+      20
     ],
     "target": [
       1046,
       515,
-      1106,
-      535
+      60,
+      20
     ],
     "template": "raid/raid_iris_ocr_remain_easy.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       1165,
       313,
-      1222,
-      332
+      57,
+      19
     ],
     "target": [
       1165,
       313,
-      1222,
-      332
+      57,
+      19
     ],
     "template": "raid/raid_iris_ocr_remain_hard.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       1129,
       414,
-      1187,
-      433
+      58,
+      19
     ],
     "target": [
       1129,
       414,
-      1187,
-      433
+      58,
+      19
     ],
     "template": "raid/raid_iris_ocr_remain_normal.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       967,
       503,
-      1025,
-      532
+      58,
+      29
     ],
     "target": [
       967,
       503,
-      1025,
-      532
+      58,
+      29
     ],
     "template": "raid/raid_iris_raid_easy.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       1086,
       301,
-      1146,
-      331
+      60,
+      30
     ],
     "target": [
       1086,
       301,
-      1146,
-      331
+      60,
+      30
     ],
     "template": "raid/raid_iris_raid_hard.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       1050,
       402,
-      1108,
-      432
+      58,
+      30
     ],
     "target": [
       1050,
       402,
-      1108,
-      432
+      58,
+      30
     ],
     "template": "raid/raid_iris_raid_normal.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       1180,
       606,
-      1280,
-      634
+      100,
+      28
     ],
     "target": [
       1180,
       606,
-      1280,
-      634
+      100,
+      28
     ],
     "template": "raid/raid_kuybyshey_ocr_pt.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       1138,
       504,
-      1198,
-      528
+      60,
+      24
     ],
     "target": [
       1138,
       504,
-      1198,
-      528
+      60,
+      24
     ],
     "template": "raid/raid_kuybyshey_ocr_remain_easy.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       1103,
       17,
-      1151,
-      41
+      48,
+      24
     ],
     "target": [
       1103,
       17,
-      1151,
-      41
+      48,
+      24
     ],
     "template": "raid/raid_kuybyshey_ocr_remain_ex.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       1138,
       347,
-      1198,
-      371
+      60,
+      24
     ],
     "target": [
       1138,
       347,
-      1198,
-      371
+      60,
+      24
     ],
     "template": "raid/raid_kuybyshey_ocr_remain_hard.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       1107,
       426,
-      1167,
-      450
+      60,
+      24
     ],
     "target": [
       1107,
       426,
-      1167,
-      450
+      60,
+      24
     ],
     "template": "raid/raid_kuybyshey_ocr_remain_normal.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       1074,
       504,
-      1124,
-      530
+      50,
+      26
     ],
     "target": [
       1074,
       504,
-      1124,
-      530
+      50,
+      26
     ],
     "template": "raid/raid_kuybyshey_raid_easy.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       1082,
       189,
-      1146,
-      217
+      64,
+      28
     ],
     "target": [
       1082,
       189,
-      1146,
-      217
+      64,
+      28
     ],
     "template": "raid/raid_kuybyshey_raid_ex.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       1075,
       346,
-      1122,
-      373
+      47,
+      27
     ],
     "target": [
       1075,
       346,
-      1122,
-      373
+      47,
+      27
     ],
     "template": "raid/raid_kuybyshey_raid_hard.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       1044,
       423,
-      1096,
-      452
+      52,
+      29
     ],
     "target": [
       1044,
       423,
-      1096,
-      452
+      52,
+      29
     ],
     "template": "raid/raid_kuybyshey_raid_normal.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       836,
       127,
-      900,
-      169
+      64,
+      42
     ],
     "target": [
       836,
       127,
-      900,
-      169
+      64,
+      42
     ],
     "template": "raid/raid_rewards.png"
   },
@@ -1680,14 +1680,14 @@
     "roi": [
       40,
       30,
-      59,
-      57
+      19,
+      27
     ],
     "target": [
       40,
       30,
-      59,
-      57
+      19,
+      27
     ],
     "template": "raid/raid_rpg_back.png"
   },
@@ -1698,14 +1698,14 @@
     "roi": [
       55,
       495,
-      80,
-      520
+      25,
+      25
     ],
     "target": [
       55,
       495,
-      80,
-      520
+      25,
+      25
     ],
     "template": "raid/raid_rpg_goto_stage.png"
   },
@@ -1716,14 +1716,14 @@
     "roi": [
       59,
       491,
-      84,
-      516
+      25,
+      25
     ],
     "target": [
       59,
       491,
-      84,
-      516
+      25,
+      25
     ],
     "template": "raid/raid_rpg_goto_story.png"
   },
@@ -1734,14 +1734,14 @@
     "roi": [
       1222,
       29,
-      1240,
-      51
+      18,
+      22
     ],
     "target": [
       1222,
       29,
-      1240,
-      51
+      18,
+      22
     ],
     "template": "raid/raid_rpg_home.png"
   },
@@ -1752,14 +1752,14 @@
     "roi": [
       688,
       642,
-      711,
-      664
+      23,
+      22
     ],
     "target": [
       688,
       642,
-      711,
-      664
+      23,
+      22
     ],
     "template": "raid/raid_rpg_leave_city.png"
   },
@@ -1770,14 +1770,14 @@
     "roi": [
       149,
       561,
-      179,
-      591
+      30,
+      30
     ],
     "target": [
       149,
       561,
-      179,
-      591
+      30,
+      30
     ],
     "template": "raid/raid_rpg_raid_easy.png"
   },
@@ -1788,14 +1788,14 @@
     "roi": [
       979,
       223,
-      999,
-      258
+      20,
+      35
     ],
     "target": [
       979,
       223,
-      999,
-      258
+      20,
+      35
     ],
     "template": "raid/raid_rpg_raid_ex.png"
   },
@@ -1806,14 +1806,14 @@
     "roi": [
       475,
       108,
-      505,
-      138
+      30,
+      30
     ],
     "target": [
       475,
       108,
-      505,
-      138
+      30,
+      30
     ],
     "template": "raid/raid_rpg_raid_hard.png"
   },
@@ -1824,14 +1824,14 @@
     "roi": [
       313,
       259,
-      343,
-      289
+      30,
+      30
     ],
     "target": [
       313,
       259,
-      343,
-      289
+      30,
+      30
     ],
     "template": "raid/raid_rpg_raid_normal.png"
   },
@@ -1842,14 +1842,14 @@
     "roi": [
       1120,
       97,
-      1144,
-      121
+      24,
+      24
     ],
     "target": [
       1120,
       97,
-      1144,
-      121
+      24,
+      24
     ],
     "template": "raid/raid_rpg_status_popup.png"
   },
@@ -1860,14 +1860,14 @@
     "roi": [
       1096,
       549,
-      1141,
-      563
+      45,
+      14
     ],
     "target": [
       1096,
       549,
-      1141,
-      563
+      45,
+      14
     ],
     "template": "raid/raid_suruga_ocr_remain_easy.png"
   },
@@ -1878,14 +1878,14 @@
     "roi": [
       1079,
       318,
-      1118,
-      332
+      39,
+      14
     ],
     "target": [
       1079,
       318,
-      1118,
-      332
+      39,
+      14
     ],
     "template": "raid/raid_suruga_ocr_remain_hard.png"
   },
@@ -1896,14 +1896,14 @@
     "roi": [
       1140,
       426,
-      1185,
-      439
+      45,
+      13
     ],
     "target": [
       1140,
       426,
-      1185,
-      439
+      45,
+      13
     ],
     "template": "raid/raid_suruga_ocr_remain_normal.png"
   },
@@ -1914,14 +1914,14 @@
     "roi": [
       1148,
       543,
-      1194,
-      568
+      46,
+      25
     ],
     "target": [
       1148,
       543,
-      1194,
-      568
+      46,
+      25
     ],
     "template": "raid/raid_suruga_raid_easy.png"
   },
@@ -1932,14 +1932,14 @@
     "roi": [
       1126,
       312,
-      1172,
-      337
+      46,
+      25
     ],
     "target": [
       1126,
       312,
-      1172,
-      337
+      46,
+      25
     ],
     "template": "raid/raid_suruga_raid_hard.png"
   },
@@ -1950,14 +1950,14 @@
     "roi": [
       1192,
       420,
-      1240,
-      445
+      48,
+      25
     ],
     "target": [
       1192,
       420,
-      1240,
-      445
+      48,
+      25
     ],
     "template": "raid/raid_suruga_raid_normal.png"
   },
@@ -1968,14 +1968,14 @@
     "roi": [
       404,
       483,
-      576,
-      539
+      172,
+      56
     ],
     "target": [
       404,
       483,
-      576,
-      539
+      172,
+      56
     ],
     "template": "raid/raid_ticket_use_cancel.png"
   },
@@ -1986,14 +1986,14 @@
     "roi": [
       808,
       496,
-      869,
-      529
+      61,
+      33
     ],
     "target": [
       705,
       482,
-      875,
-      539
+      170,
+      57
     ],
     "template": "raid/raid_ticket_use_confirm.png"
   }

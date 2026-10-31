@@ -6,14 +6,14 @@
     "roi": [
       872,
       344,
-      993,
-      373
+      121,
+      29
     ],
     "target": [
       870,
       335,
-      1000,
-      399
+      130,
+      64
     ],
     "template": "commission/commission_advice.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       17,
       168,
-      82,
-      185
+      65,
+      17
     ],
     "target": [
       17,
       168,
-      82,
-      185
+      65,
+      17
     ],
     "template": "commission/commission_daily.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       498,
       140,
-      557,
-      154
+      59,
+      14
     ],
     "target": [
       498,
       140,
-      557,
-      154
+      59,
+      14
     ],
     "template": "commission/commission_exp_info_s_reward.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       388,
       311,
-      478,
-      336
+      90,
+      25
     ],
     "target": [
       388,
       311,
-      478,
-      336
+      90,
+      25
     ],
     "template": "commission/commission_fuel_maxed.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       320,
       288,
-      380,
-      338
+      60,
+      50
     ],
     "target": [
       320,
       288,
-      380,
-      338
+      60,
+      50
     ],
     "template": "commission/commission_has_pending.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       428,
       308,
-      482,
-      337
+      54,
+      29
     ],
     "target": [
       428,
       308,
-      482,
-      337
+      54,
+      29
     ],
     "template": "commission/commission_ocr_fuel_maxed.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       428,
       310,
-      534,
-      335
+      106,
+      25
     ],
     "target": [
       428,
       310,
-      534,
-      335
+      106,
+      25
     ],
     "template": "commission/commission_oil_maxed.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       432,
       273,
-      476,
-      294
+      44,
+      21
     ],
     "target": [
       403,
       271,
-      514,
-      303
+      111,
+      32
     ],
     "template": "commission/commission_reward_1.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       415,
       184,
-      496,
-      214
+      81,
+      30
     ],
     "target": [
       415,
       184,
-      496,
-      214
+      81,
+      30
     ],
     "template": "commission/commission_reward_save_click.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1254,
       77,
-      1261,
-      676
+      7,
+      599
     ],
     "target": [
       1254,
       77,
-      1261,
-      676
+      7,
+      599
     ],
     "template": "commission/commission_scroll_area.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1033,
       340,
-      1153,
-      376
+      120,
+      36
     ],
     "target": [
       1033,
       340,
-      1153,
-      376
+      120,
+      36
     ],
     "template": "commission/commission_start.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       34,
       266,
-      68,
-      279
+      34,
+      13
     ],
     "target": [
       34,
       266,
-      68,
-      279
+      34,
+      13
     ],
     "template": "commission/commission_urgent.png"
   }

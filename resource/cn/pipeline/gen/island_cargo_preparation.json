@@ -6,14 +6,14 @@
     "roi": [
       704,
       212,
-      864,
-      232
+      160,
+      20
     ],
     "target": [
       704,
       212,
-      864,
-      232
+      160,
+      20
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_cargo_preparation_empty_replace.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       723,
       600,
-      773,
-      626
+      50,
+      26
     ],
     "target": [
       723,
       600,
-      773,
-      626
+      50,
+      26
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_cargo_preparation_replace_confirm.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       531,
       315,
-      776,
-      340
+      245,
+      25
     ],
     "target": [
       531,
       315,
-      776,
-      340
+      245,
+      25
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_empty_list_check.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       830,
       85,
-      880,
-      110
+      50,
+      25
     ],
     "target": [
       830,
       85,
-      880,
-      110
+      50,
+      25
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_refresh_button_blue.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       830,
       85,
-      880,
-      110
+      50,
+      25
     ],
     "target": [
       830,
       85,
-      880,
-      110
+      50,
+      25
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_refresh_button_grey.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       407,
       76,
-      532,
-      107
+      125,
+      31
     ],
     "target": [
       407,
       76,
-      532,
-      107
+      125,
+      31
     ],
     "template": "island_cargo_preparation/island_cargo_preparation_replace_page_check.png"
   },

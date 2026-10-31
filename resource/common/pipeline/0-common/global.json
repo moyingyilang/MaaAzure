@@ -7,14 +7,14 @@
     "roi": [
       1029,
       304,
-      1102,
-      342
+      73,
+      38
     ],
     "target": [
       1021,
       292,
-      1160,
-      432
+      139,
+      140
     ],
     "template": "ui/ui_main_goto_campaign.png"
   },

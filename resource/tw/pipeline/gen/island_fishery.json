@@ -6,14 +6,14 @@
     "roi": [
       235,
       94,
-      303,
-      111
+      68,
+      17
     ],
     "target": [
       235,
       94,
-      303,
-      111
+      68,
+      17
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_freshwater.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       235,
       94,
-      303,
-      111
+      68,
+      17
     ],
     "target": [
       235,
       94,
-      303,
-      111
+      68,
+      17
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_freshwater_check.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       585,
       92,
-      656,
-      112
+      71,
+      20
     ],
     "target": [
       585,
       92,
-      656,
-      112
+      71,
+      20
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_other.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       581,
       89,
-      659,
-      117
+      78,
+      28
     ],
     "target": [
       581,
       89,
-      659,
-      117
+      78,
+      28
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_other_check.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       412,
       94,
-      480,
-      111
+      68,
+      17
     ],
     "target": [
       412,
       94,
-      480,
-      111
+      68,
+      17
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_seawater.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       412,
       94,
-      480,
-      111
+      68,
+      17
     ],
     "target": [
       412,
       94,
-      480,
-      111
+      68,
+      17
     ],
     "template": "island_fishery/island_fishery_island_fish_fry_shop_seawater_check.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       125,
       21,
-      216,
-      46
+      91,
+      25
     ],
     "target": [
       125,
       21,
-      216,
-      46
+      91,
+      25
     ],
     "template": "island_fishery/island_fishery_island_fry_shop_check.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_bass.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_crab.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_crayfish.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_sea_cucumber.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_shell.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_shrimp.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_squid.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_fishery/island_fishery_post_yellowfin_tuna.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       212,
       405,
-      285,
-      468
+      73,
+      63
     ],
     "target": [
       212,
       405,
-      285,
-      468
+      73,
+      63
     ],
     "template": "island_fishery/island_fishery_select_bass.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_bass_check.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       212,
       551,
-      285,
-      616
+      73,
+      65
     ],
     "target": [
       212,
       551,
-      285,
-      616
+      73,
+      65
     ],
     "template": "island_fishery/island_fishery_select_crab.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_crab_check.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       212,
       246,
-      285,
-      315
+      73,
+      69
     ],
     "target": [
       212,
       246,
-      285,
-      315
+      73,
+      69
     ],
     "template": "island_fishery/island_fishery_select_crayfish.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_crayfish_check.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       212,
       549,
-      285,
-      614
+      73,
+      65
     ],
     "target": [
       212,
       549,
-      285,
-      614
+      73,
+      65
     ],
     "template": "island_fishery/island_fishery_select_sea_cucumber.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_sea_cucumber_check.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       212,
       146,
-      285,
-      210
+      73,
+      64
     ],
     "target": [
       212,
       146,
-      285,
-      210
+      73,
+      64
     ],
     "template": "island_fishery/island_fishery_select_shell.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_shell_check.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       212,
       103,
-      285,
-      168
+      73,
+      65
     ],
     "target": [
       212,
       103,
-      285,
-      168
+      73,
+      65
     ],
     "template": "island_fishery/island_fishery_select_shrimp.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_shrimp_check.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       212,
       104,
-      285,
-      166
+      73,
+      62
     ],
     "target": [
       212,
       104,
-      285,
-      166
+      73,
+      62
     ],
     "template": "island_fishery/island_fishery_select_squid.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_squid_check.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       212,
       400,
-      285,
-      465
+      73,
+      65
     ],
     "target": [
       212,
       400,
-      285,
-      465
+      73,
+      65
     ],
     "template": "island_fishery/island_fishery_select_yellowfin_tuna.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "target": [
       742,
       232,
-      842,
-      326
+      100,
+      94
     ],
     "template": "island_fishery/island_fishery_select_yellowfin_tuna_check.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "target": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_bass.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "target": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_crab.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       605,
       233,
-      647,
-      302
+      42,
+      69
     ],
     "target": [
       605,
       233,
-      647,
-      302
+      42,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_crayfish.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       1094,
       233,
-      1137,
-      302
+      43,
+      69
     ],
     "target": [
       1094,
       233,
-      1137,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_sea_cucumber.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       278,
       233,
-      321,
-      302
+      43,
+      69
     ],
     "target": [
       278,
       233,
-      321,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_shell.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       442,
       233,
-      484,
-      302
+      42,
+      69
     ],
     "target": [
       442,
       233,
-      484,
-      302
+      42,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_shrimp.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       931,
       233,
-      974,
-      302
+      43,
+      69
     ],
     "target": [
       931,
       233,
-      974,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_squid.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "target": [
       768,
       233,
-      811,
-      302
+      43,
+      69
     ],
     "template": "island_fishery/island_fishery_shop_fry_yellowfin_tuna.png"
   },

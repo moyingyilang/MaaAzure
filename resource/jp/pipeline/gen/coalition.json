@@ -6,14 +6,14 @@
     "roi": [
       44,
       48,
-      62,
-      74
+      18,
+      26
     ],
     "target": [
       44,
       48,
-      62,
-      74
+      18,
+      26
     ],
     "template": "coalition/coalition_academy_back.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       126,
       44,
-      171,
-      91
+      45,
+      47
     ],
     "target": [
       126,
       44,
-      171,
-      91
+      45,
+      47
     ],
     "template": "coalition/coalition_academy_campaign_check.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       219,
       289,
-      268,
-      312
+      49,
+      23
     ],
     "target": [
       219,
       289,
-      268,
-      312
+      49,
+      23
     ],
     "template": "coalition/coalition_academy_easy.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       708,
       177,
-      747,
-      197
+      39,
+      20
     ],
     "target": [
       708,
       177,
-      747,
-      197
+      39,
+      20
     ],
     "template": "coalition/coalition_academy_ex.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       1123,
       615,
-      1159,
-      651
+      36,
+      36
     ],
     "target": [
       1123,
       615,
-      1159,
-      651
+      36,
+      36
     ],
     "template": "coalition/coalition_academy_goto_campaign.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       965,
       502,
-      1033,
-      525
+      68,
+      23
     ],
     "target": [
       965,
       502,
-      1033,
-      525
+      68,
+      23
     ],
     "template": "coalition/coalition_academy_hard.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       1221,
       48,
-      1244,
-      73
+      23,
+      25
     ],
     "target": [
       1221,
       48,
-      1244,
-      73
+      23,
+      25
     ],
     "template": "coalition/coalition_academy_home.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       112,
       44,
-      145,
-      86
+      33,
+      42
     ],
     "target": [
       112,
       44,
-      145,
-      86
+      33,
+      42
     ],
     "template": "coalition/coalition_academy_main_check.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       144,
       652,
-      192,
-      678
+      48,
+      26
     ],
     "target": [
       144,
       652,
-      192,
-      678
+      48,
+      26
     ],
     "template": "coalition/coalition_academy_mode_battle.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       220,
       656,
-      272,
-      673
+      52,
+      17
     ],
     "target": [
       220,
       656,
-      272,
-      673
+      52,
+      17
     ],
     "template": "coalition/coalition_academy_mode_story.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       623,
       411,
-      669,
-      434
+      46,
+      23
     ],
     "target": [
       623,
       411,
-      669,
-      434
+      46,
+      23
     ],
     "template": "coalition/coalition_academy_normal.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1125,
       208,
-      1265,
-      225
+      140,
+      17
     ],
     "target": [
       1125,
       208,
-      1265,
-      225
+      140,
+      17
     ],
     "template": "coalition/coalition_academy_pt_ocr.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       366,
       580,
-      398,
-      598
+      32,
+      18
     ],
     "target": [
       366,
       580,
-      398,
-      598
+      32,
+      18
     ],
     "template": "coalition/coalition_academy_sp.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1115,
       463,
-      1181,
-      482
+      66,
+      19
     ],
     "target": [
       1115,
       463,
-      1181,
-      482
+      66,
+      19
     ],
     "template": "coalition/coalition_academy_switch_multi.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       976,
       464,
-      1042,
-      482
+      66,
+      18
     ],
     "target": [
       976,
       464,
-      1042,
-      482
+      66,
+      18
     ],
     "template": "coalition/coalition_academy_switch_single.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       1052,
       537,
-      1103,
-      560
+      51,
+      23
     ],
     "target": [
       1052,
       537,
-      1103,
-      560
+      51,
+      23
     ],
     "template": "coalition/coalition_acedemy_fleet_preparation.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       167,
       494,
-      227,
-      554
+      60,
+      60
     ],
     "target": [
       167,
       494,
-      227,
-      554
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area1.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       407,
       378,
-      467,
-      438
+      60,
+      60
     ],
     "target": [
       407,
       378,
-      467,
-      438
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area2.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       787,
       488,
-      847,
-      548
+      60,
+      60
     ],
     "target": [
       787,
       488,
-      847,
-      548
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area3.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       904,
       245,
-      964,
-      305
+      60,
+      60
     ],
     "target": [
       904,
       245,
-      964,
-      305
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area4.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       552,
       130,
-      612,
-      190
+      60,
+      60
     ],
     "target": [
       552,
       130,
-      612,
-      190
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area5.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       656,
       303,
-      716,
-      363
+      60,
+      60
     ],
     "target": [
       656,
       303,
-      716,
-      363
+      60,
+      60
     ],
     "template": "coalition/coalition_dal_area6.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       1208,
       70,
-      1244,
-      107
+      36,
+      37
     ],
     "target": [
       1208,
       70,
-      1244,
-      107
+      36,
+      37
     ],
     "template": "coalition/coalition_dal_difficulty_exit.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       1004,
       527,
-      1107,
-      554
+      103,
+      27
     ],
     "target": [
       1004,
       527,
-      1107,
-      554
+      103,
+      27
     ],
     "template": "coalition/coalition_dal_fleet_preparation.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       893,
       582,
-      1109,
-      611
+      216,
+      29
     ],
     "target": [
       893,
       582,
-      1109,
-      611
+      216,
+      29
     ],
     "template": "coalition/coalition_dal_hard.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       600,
       583,
-      818,
-      610
+      218,
+      27
     ],
     "target": [
       600,
       583,
-      818,
-      610
+      218,
+      27
     ],
     "template": "coalition/coalition_dal_normal.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       1190,
       130,
-      1274,
-      161
+      84,
+      31
     ],
     "target": [
       1190,
       130,
-      1274,
-      161
+      84,
+      31
     ],
     "template": "coalition/coalition_dal_pt_ocr.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       1081,
       475,
-      1187,
-      499
+      106,
+      24
     ],
     "target": [
       1081,
       475,
-      1187,
-      499
+      106,
+      24
     ],
     "template": "coalition/coalition_dal_switch_multi.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       917,
       474,
-      1035,
-      499
+      118,
+      25
     ],
     "target": [
       917,
       474,
-      1035,
-      499
+      118,
+      25
     ],
     "template": "coalition/coalition_dal_switch_single.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       247,
       237,
-      277,
-      267
+      30,
+      30
     ],
     "target": [
       247,
       237,
-      277,
-      267
+      30,
+      30
     ],
     "template": "coalition/coalition_empty_flagship.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       515,
       237,
-      545,
-      267
+      30,
+      30
     ],
     "target": [
       515,
       237,
-      545,
-      267
+      30,
+      30
     ],
     "template": "coalition/coalition_empty_vanguard.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       101,
       18,
-      175,
-      51
+      74,
+      33
     ],
     "target": [
       101,
       18,
-      175,
-      51
+      74,
+      33
     ],
     "template": "coalition/coalition_fashion_coalition_check.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       136,
       223,
-      199,
-      263
+      63,
+      40
     ],
     "target": [
       136,
       223,
-      199,
-      263
+      63,
+      40
     ],
     "template": "coalition/coalition_fashion_easy.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       844,
       246,
-      923,
-      301
+      79,
+      55
     ],
     "target": [
       844,
       246,
-      923,
-      301
+      79,
+      55
     ],
     "template": "coalition/coalition_fashion_ex.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       485,
       167,
-      554,
-      215
+      69,
+      48
     ],
     "target": [
       485,
       167,
-      554,
-      215
+      69,
+      48
     ],
     "template": "coalition/coalition_fashion_hard.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       150,
       636,
-      215,
-      668
+      65,
+      32
     ],
     "target": [
       150,
       636,
-      215,
-      668
+      65,
+      32
     ],
     "template": "coalition/coalition_fashion_mode_battle.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       156,
       629,
-      219,
-      665
+      63,
+      36
     ],
     "target": [
       156,
       629,
-      219,
-      665
+      63,
+      36
     ],
     "template": "coalition/coalition_fashion_mode_story.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       322,
       295,
-      392,
-      334
+      70,
+      39
     ],
     "target": [
       322,
       295,
-      392,
-      334
+      70,
+      39
     ],
     "template": "coalition/coalition_fashion_normal.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       881,
       658,
-      937,
-      674
+      56,
+      16
     ],
     "target": [
       881,
       658,
-      937,
-      674
+      56,
+      16
     ],
     "template": "coalition/coalition_fashion_pt_ocr.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       704,
       194,
-      762,
-      242
+      58,
+      48
     ],
     "target": [
       704,
       194,
-      762,
-      242
+      58,
+      48
     ],
     "template": "coalition/coalition_fashion_sp.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       1075,
       457,
-      1206,
-      485
+      131,
+      28
     ],
     "target": [
       1075,
       457,
-      1206,
-      485
+      131,
+      28
     ],
     "template": "coalition/coalition_fashion_switch_multi.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       929,
       457,
-      1059,
-      485
+      130,
+      28
     ],
     "target": [
       929,
       457,
-      1059,
-      485
+      130,
+      28
     ],
     "template": "coalition/coalition_fashion_switch_single.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       1008,
       310,
-      1110,
-      334
+      102,
+      24
     ],
     "target": [
       1008,
       310,
-      1110,
-      334
+      102,
+      24
     ],
     "template": "coalition/coalition_fleet_not_prepared.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       118,
       14,
-      227,
-      39
+      109,
+      25
     ],
     "target": [
       118,
       14,
-      227,
-      39
+      109,
+      25
     ],
     "template": "coalition/coalition_frostfall_coalition_check.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       622,
       372,
-      649,
-      384
+      27,
+      12
     ],
     "target": [
       622,
       372,
-      649,
-      384
+      27,
+      12
     ],
     "template": "coalition/coalition_frostfall_ex.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       1056,
       525,
-      1157,
-      550
+      101,
+      25
     ],
     "target": [
       968,
       511,
-      1245,
-      563
+      277,
+      52
     ],
     "template": "coalition/coalition_frostfall_fleet_preparation.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       71,
       608,
-      137,
-      653
+      66,
+      45
     ],
     "target": [
       71,
       608,
-      137,
-      653
+      66,
+      45
     ],
     "template": "coalition/coalition_frostfall_mode_battle.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       73,
       610,
-      134,
-      652
+      61,
+      42
     ],
     "target": [
       73,
       610,
-      134,
-      652
+      61,
+      42
     ],
     "template": "coalition/coalition_frostfall_mode_story.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       1181,
       641,
-      1254,
-      663
+      73,
+      22
     ],
     "target": [
       1181,
       641,
-      1254,
-      663
+      73,
+      22
     ],
     "template": "coalition/coalition_frostfall_ocr_pt.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       505,
       290,
-      532,
-      302
+      27,
+      12
     ],
     "target": [
       505,
       290,
-      532,
-      302
+      27,
+      12
     ],
     "template": "coalition/coalition_frostfall_sp.png"
   },
@@ -906,14 +906,14 @@
     "roi": [
       1106,
       449,
-      1237,
-      478
+      131,
+      29
     ],
     "target": [
       1106,
       449,
-      1237,
-      478
+      131,
+      29
     ],
     "template": "coalition/coalition_frostfall_switch_multi.png"
   },
@@ -924,14 +924,14 @@
     "roi": [
       968,
       449,
-      1098,
-      478
+      130,
+      29
     ],
     "target": [
       968,
       449,
-      1098,
-      478
+      130,
+      29
     ],
     "template": "coalition/coalition_frostfall_switch_single.png"
   },
@@ -942,14 +942,14 @@
     "roi": [
       304,
       320,
-      330,
-      332
+      26,
+      12
     ],
     "target": [
       304,
       320,
-      330,
-      332
+      26,
+      12
     ],
     "template": "coalition/coalition_frostfall_tc1.png"
   },
@@ -960,14 +960,14 @@
     "roi": [
       631,
       160,
-      658,
-      173
+      27,
+      13
     ],
     "target": [
       631,
       160,
-      658,
-      173
+      27,
+      13
     ],
     "template": "coalition/coalition_frostfall_tc2.png"
   },
@@ -978,14 +978,14 @@
     "roi": [
       810,
       362,
-      835,
-      373
+      25,
+      11
     ],
     "target": [
       810,
       362,
-      835,
-      373
+      25,
+      11
     ],
     "template": "coalition/coalition_frostfall_tc3.png"
   },
@@ -996,14 +996,14 @@
     "roi": [
       204,
       50,
-      250,
-      67
+      46,
+      17
     ],
     "target": [
       204,
       50,
-      250,
-      67
+      46,
+      17
     ],
     "template": "coalition/coalition_horror_coalition_check.png"
   },
@@ -1014,14 +1014,14 @@
     "roi": [
       863,
       425,
-      890,
-      464
+      27,
+      39
     ],
     "target": [
       863,
       425,
-      890,
-      464
+      27,
+      39
     ],
     "template": "coalition/coalition_horror_easy.png"
   },
@@ -1032,14 +1032,14 @@
     "roi": [
       172,
       410,
-      200,
-      448
+      28,
+      38
     ],
     "target": [
       172,
       410,
-      200,
-      448
+      28,
+      38
     ],
     "template": "coalition/coalition_horror_ex.png"
   },
@@ -1050,14 +1050,14 @@
     "roi": [
       1042,
       514,
-      1124,
-      542
+      82,
+      28
     ],
     "target": [
       1042,
       514,
-      1124,
-      542
+      82,
+      28
     ],
     "template": "coalition/coalition_horror_fleet_preparation.png"
   },
@@ -1068,14 +1068,14 @@
     "roi": [
       659,
       344,
-      688,
-      382
+      29,
+      38
     ],
     "target": [
       659,
       344,
-      688,
-      382
+      29,
+      38
     ],
     "template": "coalition/coalition_horror_hard.png"
   },
@@ -1086,14 +1086,14 @@
     "roi": [
       76,
       625,
-      114,
-      663
+      38,
+      38
     ],
     "target": [
       76,
       625,
-      114,
-      663
+      38,
+      38
     ],
     "template": "coalition/coalition_horror_mode_battle.png"
   },
@@ -1104,14 +1104,14 @@
     "roi": [
       291,
       626,
-      329,
-      663
+      38,
+      37
     ],
     "target": [
       291,
       626,
-      329,
-      663
+      38,
+      37
     ],
     "template": "coalition/coalition_horror_mode_story.png"
   },
@@ -1122,14 +1122,14 @@
     "roi": [
       765,
       127,
-      793,
-      166
+      28,
+      39
     ],
     "target": [
       765,
       127,
-      793,
-      166
+      28,
+      39
     ],
     "template": "coalition/coalition_horror_normal.png"
   },
@@ -1140,14 +1140,14 @@
     "roi": [
       1196,
       339,
-      1276,
-      357
+      80,
+      18
     ],
     "target": [
       1196,
       339,
-      1276,
-      357
+      80,
+      18
     ],
     "template": "coalition/coalition_horror_pt_ocr.png"
   },
@@ -1158,14 +1158,14 @@
     "roi": [
       430,
       130,
-      458,
-      168
+      28,
+      38
     ],
     "target": [
       430,
       130,
-      458,
-      168
+      28,
+      38
     ],
     "template": "coalition/coalition_horror_sp.png"
   },
@@ -1176,14 +1176,14 @@
     "roi": [
       1078,
       458,
-      1208,
-      487
+      130,
+      29
     ],
     "target": [
       1078,
       458,
-      1208,
-      487
+      130,
+      29
     ],
     "template": "coalition/coalition_horror_switch_multi.png"
   },
@@ -1194,14 +1194,14 @@
     "roi": [
       939,
       458,
-      1069,
-      487
+      130,
+      29
     ],
     "target": [
       939,
       458,
-      1069,
-      487
+      130,
+      29
     ],
     "template": "coalition/coalition_horror_switch_single.png"
   },
@@ -1212,14 +1212,14 @@
     "roi": [
       204,
       50,
-      250,
-      67
+      46,
+      17
     ],
     "target": [
       204,
       50,
-      250,
-      67
+      46,
+      17
     ],
     "template": "coalition/coalition_mystery_record_check.png"
   },
@@ -1230,14 +1230,14 @@
     "roi": [
       857,
       425,
-      1031,
-      464
+      174,
+      39
     ],
     "target": [
       857,
       425,
-      1031,
-      464
+      174,
+      39
     ],
     "template": "coalition/coalition_mystery_record_easy.png"
   },
@@ -1248,14 +1248,14 @@
     "roi": [
       171,
       413,
-      313,
-      449
+      142,
+      36
     ],
     "target": [
       171,
       413,
-      313,
-      449
+      142,
+      36
     ],
     "template": "coalition/coalition_mystery_record_ex.png"
   },
@@ -1266,14 +1266,14 @@
     "roi": [
       960,
       504,
-      1207,
-      554
+      247,
+      50
     ],
     "target": [
       960,
       504,
-      1207,
-      554
+      247,
+      50
     ],
     "template": "coalition/coalition_mystery_record_fleet_preparation.png"
   },
@@ -1284,14 +1284,14 @@
     "roi": [
       656,
       341,
-      820,
-      383
+      164,
+      42
     ],
     "target": [
       656,
       341,
-      820,
-      383
+      164,
+      42
     ],
     "template": "coalition/coalition_mystery_record_hard.png"
   },
@@ -1302,14 +1302,14 @@
     "roi": [
       767,
       129,
-      913,
-      164
+      146,
+      35
     ],
     "target": [
       767,
       129,
-      913,
-      164
+      146,
+      35
     ],
     "template": "coalition/coalition_mystery_record_normal.png"
   },
@@ -1320,14 +1320,14 @@
     "roi": [
       430,
       132,
-      572,
-      167
+      142,
+      35
     ],
     "target": [
       430,
       132,
-      572,
-      167
+      142,
+      35
     ],
     "template": "coalition/coalition_mystery_record_sp.png"
   },
@@ -1338,14 +1338,14 @@
     "roi": [
       1089,
       460,
-      1201,
-      484
+      112,
+      24
     ],
     "target": [
       1089,
       460,
-      1201,
-      484
+      112,
+      24
     ],
     "template": "coalition/coalition_mystery_record_switch_multi.png"
   },
@@ -1356,14 +1356,14 @@
     "roi": [
       942,
       459,
-      1068,
-      485
+      126,
+      26
     ],
     "target": [
       942,
       459,
-      1068,
-      485
+      126,
+      26
     ],
     "template": "coalition/coalition_mystery_record_switch_single.png"
   },
@@ -1374,14 +1374,14 @@
     "roi": [
       122,
       30,
-      250,
-      86
+      128,
+      56
     ],
     "target": [
       122,
       30,
-      250,
-      86
+      128,
+      56
     ],
     "template": "coalition/coalition_neoncity_coalition_check.png"
   },
@@ -1392,14 +1392,14 @@
     "roi": [
       245,
       250,
-      320,
-      273
+      75,
+      23
     ],
     "target": [
       245,
       250,
-      320,
-      273
+      75,
+      23
     ],
     "template": "coalition/coalition_neoncity_easy.png"
   },
@@ -1410,14 +1410,14 @@
     "roi": [
       643,
       350,
-      720,
-      373
+      77,
+      23
     ],
     "target": [
       643,
       350,
-      720,
-      373
+      77,
+      23
     ],
     "template": "coalition/coalition_neoncity_ex.png"
   },
@@ -1428,14 +1428,14 @@
     "roi": [
       1043,
       529,
-      1123,
-      560
+      80,
+      31
     ],
     "target": [
       1043,
       529,
-      1123,
-      560
+      80,
+      31
     ],
     "template": "coalition/coalition_neoncity_fleet_preparation.png"
   },
@@ -1446,14 +1446,14 @@
     "roi": [
       913,
       545,
-      989,
-      570
+      76,
+      25
     ],
     "target": [
       913,
       545,
-      989,
-      570
+      76,
+      25
     ],
     "template": "coalition/coalition_neoncity_hard.png"
   },
@@ -1464,14 +1464,14 @@
     "roi": [
       50,
       608,
-      100,
-      677
+      50,
+      69
     ],
     "target": [
       50,
       608,
-      100,
-      677
+      50,
+      69
     ],
     "template": "coalition/coalition_neoncity_mode_battle.png"
   },
@@ -1482,14 +1482,14 @@
     "roi": [
       210,
       607,
-      263,
-      680
+      53,
+      73
     ],
     "target": [
       210,
       607,
-      263,
-      680
+      53,
+      73
     ],
     "template": "coalition/coalition_neoncity_mode_story.png"
   },
@@ -1500,14 +1500,14 @@
     "roi": [
       327,
       451,
-      384,
-      474
+      57,
+      23
     ],
     "target": [
       327,
       451,
-      384,
-      474
+      57,
+      23
     ],
     "template": "coalition/coalition_neoncity_normal.png"
   },
@@ -1518,14 +1518,14 @@
     "roi": [
       1190,
       52,
-      1231,
-      93
+      41,
+      41
     ],
     "target": [
       1190,
       52,
-      1231,
-      93
+      41,
+      41
     ],
     "template": "coalition/coalition_neoncity_preparation_exit.png"
   },
@@ -1536,14 +1536,14 @@
     "roi": [
       1179,
       166,
-      1251,
-      184
+      72,
+      18
     ],
     "target": [
       1179,
       166,
-      1251,
-      184
+      72,
+      18
     ],
     "template": "coalition/coalition_neoncity_pt_ocr.png"
   },
@@ -1554,14 +1554,14 @@
     "roi": [
       817,
       166,
-      877,
-      190
+      60,
+      24
     ],
     "target": [
       817,
       166,
-      877,
-      190
+      60,
+      24
     ],
     "template": "coalition/coalition_neoncity_sp.png"
   },
@@ -1572,14 +1572,14 @@
     "roi": [
       1114,
       461,
-      1185,
-      483
+      71,
+      22
     ],
     "target": [
       1114,
       461,
-      1185,
-      483
+      71,
+      22
     ],
     "template": "coalition/coalition_neoncity_switch_multi.png"
   },
@@ -1590,14 +1590,14 @@
     "roi": [
       975,
       459,
-      1046,
-      484
+      71,
+      25
     ],
     "target": [
       975,
       459,
-      1046,
-      484
+      71,
+      25
     ],
     "template": "coalition/coalition_neoncity_switch_single.png"
   },
@@ -1608,14 +1608,14 @@
     "roi": [
       30,
       45,
-      73,
-      88
+      43,
+      43
     ],
     "target": [
       30,
       45,
-      73,
-      88
+      43,
+      43
     ],
     "template": "coalition/coalition_neoncity_ui_back.png"
   },
@@ -1626,14 +1626,14 @@
     "roi": [
       1208,
       43,
-      1251,
-      86
+      43,
+      43
     ],
     "target": [
       1208,
       43,
-      1251,
-      86
+      43,
+      43
     ],
     "template": "coalition/coalition_neoncity_ui_home.png"
   },
@@ -1644,14 +1644,14 @@
     "roi": [
       814,
       611,
-      876,
-      637
+      62,
+      26
     ],
     "target": [
       814,
       611,
-      876,
-      637
+      62,
+      26
     ],
     "template": "coalition/coalition_reward_confirm.png"
   },
@@ -1662,14 +1662,14 @@
     "roi": [
       1102,
       647,
-      1174,
-      678
+      72,
+      31
     ],
     "target": [
       1058,
       632,
-      1225,
-      689
+      167,
+      57
     ],
     "template": "coalition/coalition_scuttle_confirm.png"
   }

@@ -6,14 +6,14 @@
     "roi": [
       54,
       30,
-      69,
-      53
+      15,
+      23
     ],
     "target": [
       54,
       30,
-      69,
-      53
+      15,
+      23
     ],
     "template": "ui_white/ui_white_back_arrow_white.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       1211,
       24,
-      1239,
-      47
+      28,
+      23
     ],
     "target": [
       1211,
       24,
-      1239,
-      47
+      28,
+      23
     ],
     "template": "ui_white/ui_white_goto_main_white.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       141,
       21,
-      181,
-      41
+      40,
+      20
     ],
     "target": [
       141,
       21,
-      181,
-      41
+      40,
+      20
     ],
     "template": "ui_white/ui_white_mail_check.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1018,
       22,
-      1087,
-      52
+      69,
+      30
     ],
     "target": [
       1018,
       22,
-      1087,
-      52
+      69,
+      30
     ],
     "template": "ui_white/ui_white_mail_enter_white.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       959,
       657,
-      1103,
-      703
+      144,
+      46
     ],
     "target": [
       959,
       657,
-      1103,
-      703
+      144,
+      46
     ],
     "template": "ui_white/ui_white_main_goto_build_white.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       1132,
       529,
-      1187,
-      557
+      55,
+      28
     ],
     "target": [
       1124,
       437,
-      1260,
-      579
+      136,
+      142
     ],
     "template": "ui_white/ui_white_main_goto_campaign_white.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       176,
       656,
-      322,
-      703
+      146,
+      47
     ],
     "target": [
       176,
       656,
-      322,
-      703
+      146,
+      47
     ],
     "template": "ui_white/ui_white_main_goto_dock_white.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       490,
       656,
-      634,
-      702
+      144,
+      46
     ],
     "target": [
       490,
       656,
-      634,
-      702
+      144,
+      46
     ],
     "template": "ui_white/ui_white_main_goto_dormmenu_white.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1181,
       83,
-      1260,
-      160
+      79,
+      77
     ],
     "target": [
       1181,
       83,
-      1260,
-      160
+      79,
+      77
     ],
     "template": "ui_white/ui_white_main_goto_event_list_white.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       1025,
       437,
-      1097,
-      579
+      72,
+      142
     ],
     "target": [
       1025,
       437,
-      1097,
-      579
+      72,
+      142
     ],
     "template": "ui_white/ui_white_main_goto_fleet_white.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1116,
       656,
-      1261,
-      703
+      145,
+      47
     ],
     "target": [
       1116,
       656,
-      1261,
-      703
+      145,
+      47
     ],
     "template": "ui_white/ui_white_main_goto_guild_white.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       1125,
       546,
-      1195,
-      579
+      70,
+      33
     ],
     "target": [
       1125,
       546,
-      1195,
-      579
+      70,
+      33
     ],
     "template": "ui_white/ui_white_main_goto_memories_white.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       802,
       656,
-      949,
-      704
+      147,
+      48
     ],
     "target": [
       802,
       656,
-      949,
-      704
+      147,
+      48
     ],
     "template": "ui_white/ui_white_main_goto_mission_white.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       1071,
       83,
-      1151,
-      159
+      80,
+      76
     ],
     "target": [
       1071,
       83,
-      1151,
-      159
+      80,
+      76
     ],
     "template": "ui_white/ui_white_main_goto_raid_white.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       646,
       656,
-      793,
-      703
+      147,
+      47
     ],
     "target": [
       646,
       656,
-      793,
-      703
+      147,
+      47
     ],
     "template": "ui_white/ui_white_main_goto_reshmenu_white.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       11,
       209,
-      30,
-      259
+      19,
+      50
     ],
     "target": [
       11,
       209,
-      30,
-      259
+      19,
+      50
     ],
     "template": "ui_white/ui_white_main_goto_reward_white.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       18,
       656,
-      164,
-      703
+      146,
+      47
     ],
     "target": [
       18,
       656,
-      164,
-      703
+      146,
+      47
     ],
     "template": "ui_white/ui_white_main_goto_shop_white.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       331,
       656,
-      478,
-      703
+      147,
+      47
     ],
     "target": [
       331,
       656,
-      478,
-      703
+      147,
+      47
     ],
     "template": "ui_white/ui_white_main_goto_storage_white.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       966,
       548,
-      999,
-      582
+      33,
+      34
     ],
     "target": [
       966,
       548,
-      999,
-      582
+      33,
+      34
     ],
     "template": "ui_white/ui_white_main_tab_switch_white.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       923,
       657,
-      947,
-      671
+      24,
+      14
     ],
     "target": [
       923,
       657,
-      947,
-      671
+      24,
+      14
     ],
     "template": "ui_white/ui_white_mission_notice_white.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       487,
       491,
-      531,
-      513
+      44,
+      22
     ],
     "target": [
       487,
       491,
-      531,
-      513
+      44,
+      22
     ],
     "template": "ui_white/ui_white_popup_cancel_white.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       746,
       494,
-      791,
-      515
+      45,
+      21
     ],
     "target": [
       746,
       494,
-      791,
-      515
+      45,
+      21
     ],
     "template": "ui_white/ui_white_popup_confirm_white.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       744,
       490,
-      795,
-      513
+      51,
+      23
     ],
     "target": [
       744,
       490,
-      795,
-      513
+      51,
+      23
     ],
     "template": "ui_white/ui_white_popup_confirm_white_battlepass.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       623,
       493,
-      668,
-      515
+      45,
+      22
     ],
     "target": [
       623,
       493,
-      668,
-      515
+      45,
+      22
     ],
     "template": "ui_white/ui_white_popup_single_white.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       437,
       278,
-      496,
-      296
+      59,
+      18
     ],
     "target": [
       437,
       278,
-      496,
-      296
+      59,
+      18
     ],
     "template": "ui_white/ui_white_reward_1_white.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       436,
       419,
-      497,
-      448
+      61,
+      29
     ],
     "target": [
       436,
       419,
-      497,
-      448
+      61,
+      29
     ],
     "template": "ui_white/ui_white_reward_2_white.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       440,
       278,
-      494,
-      296
+      54,
+      18
     ],
     "target": [
       440,
       278,
-      494,
-      296
+      54,
+      18
     ],
     "template": "ui_white/ui_white_reward_goto_commission_white.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       442,
       421,
-      492,
-      447
+      50,
+      26
     ],
     "target": [
       442,
       421,
-      492,
-      447
+      50,
+      26
     ],
     "template": "ui_white/ui_white_reward_goto_tactical_white.png"
   }

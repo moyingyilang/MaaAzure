@@ -6,14 +6,14 @@
     "roi": [
       107,
       129,
-      154,
-      154
+      47,
+      25
     ],
     "target": [
       107,
       129,
-      154,
-      154
+      47,
+      25
     ],
     "template": "private_quarters/private_quarters_daily_count.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       832,
       446,
-      857,
-      471
+      25,
+      25
     ],
     "target": [
       832,
       446,
-      1107,
-      471
+      275,
+      25
     ],
     "template": "private_quarters/private_quarters_interact.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       1223,
       653,
-      1245,
-      675
+      22,
+      22
     ],
     "target": [
       1223,
       653,
-      1245,
-      675
+      22,
+      22
     ],
     "template": "private_quarters/private_quarters_interact_check.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       582,
       376,
-      702,
-      391
+      120,
+      15
     ],
     "target": [
       582,
       376,
-      702,
-      391
+      120,
+      15
     ],
     "template": "private_quarters/private_quarters_loading_check.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       27,
       332,
-      39,
-      356
+      12,
+      24
     ],
     "target": [
       27,
       332,
-      39,
-      356
+      12,
+      24
     ],
     "template": "private_quarters/private_quarters_page_left.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       24,
       504,
-      99,
-      527
+      75,
+      23
     ],
     "target": [
       24,
       504,
-      99,
-      527
+      75,
+      23
     ],
     "template": "private_quarters/private_quarters_page_locale_beach.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       23,
       502,
-      99,
-      528
+      76,
+      26
     ],
     "target": [
       23,
       502,
-      99,
-      528
+      76,
+      26
     ],
     "template": "private_quarters/private_quarters_page_locale_loft.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       23,
       502,
-      99,
-      528
+      76,
+      26
     ],
     "target": [
       23,
       502,
-      99,
-      528
+      76,
+      26
     ],
     "template": "private_quarters/private_quarters_page_locale_villa.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       1241,
       332,
-      1253,
-      356
+      12,
+      24
     ],
     "target": [
       1241,
       332,
-      1253,
-      356
+      12,
+      24
     ],
     "template": "private_quarters/private_quarters_page_right.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       28,
       40,
-      43,
-      60
+      15,
+      20
     ],
     "target": [
       16,
       31,
-      139,
-      69
+      123,
+      38
     ],
     "template": "private_quarters/private_quarters_room_back.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       1218,
       651,
-      1238,
-      666
+      20,
+      15
     ],
     "target": [
       1218,
       651,
-      1238,
-      666
+      20,
+      15
     ],
     "template": "private_quarters/private_quarters_room_check.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       950,
       95,
-      1275,
-      595
+      325,
+      500
     ],
     "target": [
       950,
       95,
-      1275,
-      595
+      325,
+      500
     ],
     "template": "private_quarters/private_quarters_room_safe_click_area.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       721,
       17,
-      781,
-      37
+      60,
+      20
     ],
     "target": [
       721,
       17,
-      781,
-      37
+      60,
+      20
     ],
     "template": "private_quarters/private_quarters_room_target_check_1.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       667,
       71,
-      717,
-      86
+      50,
+      15
     ],
     "target": [
       667,
       71,
-      717,
-      86
+      50,
+      15
     ],
     "template": "private_quarters/private_quarters_room_target_check_2.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       709,
       185,
-      754,
-      200
+      45,
+      15
     ],
     "target": [
       709,
       185,
-      754,
-      200
+      45,
+      15
     ],
     "template": "private_quarters/private_quarters_room_target_check_3.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       504,
       266,
-      784,
-      625
+      280,
+      359
     ],
     "target": [
       504,
       266,
-      784,
-      625
+      280,
+      359
     ],
     "template": "private_quarters/private_quarters_room_target_click_area.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       1157,
       40,
-      1197,
-      60
+      40,
+      20
     ],
     "target": [
       1157,
       40,
-      1197,
-      60
+      40,
+      20
     ],
     "template": "private_quarters/private_quarters_room_target_intimacy_max.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       512,
       526,
-      569,
-      568
+      57,
+      42
     ],
     "target": [
       512,
       526,
-      569,
-      568
+      57,
+      42
     ],
     "template": "private_quarters/private_quarters_ship_aegir.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       713,
       246,
-      778,
-      311
+      65,
+      65
     ],
     "target": [
       713,
       246,
-      778,
-      311
+      65,
+      65
     ],
     "template": "private_quarters/private_quarters_ship_anchorage.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       944,
       386,
-      976,
-      431
+      32,
+      45
     ],
     "target": [
       944,
       386,
-      976,
-      431
+      32,
+      45
     ],
     "template": "private_quarters/private_quarters_ship_nakhimov.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       973,
       307,
-      1023,
-      347
+      50,
+      40
     ],
     "target": [
       973,
       307,
-      1023,
-      347
+      50,
+      40
     ],
     "template": "private_quarters/private_quarters_ship_new_jersey.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       965,
       289,
-      1027,
-      362
+      62,
+      73
     ],
     "target": [
       965,
       289,
-      1027,
-      362
+      62,
+      73
     ],
     "template": "private_quarters/private_quarters_ship_noshiro.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       908,
       411,
-      966,
-      478
+      58,
+      67
     ],
     "target": [
       908,
       411,
-      966,
-      478
+      58,
+      67
     ],
     "template": "private_quarters/private_quarters_ship_sirius.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       814,
       190,
-      856,
-      232
+      42,
+      42
     ],
     "target": [
       814,
       190,
-      856,
-      232
+      42,
+      42
     ],
     "template": "private_quarters/private_quarters_ship_taihou.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       848,
       504,
-      888,
-      524
+      40,
+      20
     ],
     "target": [
       848,
       504,
-      888,
-      524
+      40,
+      20
     ],
     "template": "private_quarters/private_quarters_shop_amount_max.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       40,
       35,
-      60,
-      55
+      20,
+      20
     ],
     "target": [
       35,
       30,
-      95,
-      60
+      60,
+      30
     ],
     "template": "private_quarters/private_quarters_shop_back.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       124,
       18,
-      218,
-      48
+      94,
+      30
     ],
     "target": [
       124,
       18,
-      218,
-      48
+      94,
+      30
     ],
     "template": "private_quarters/private_quarters_shop_check.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       790,
       574,
-      842,
-      601
+      52,
+      27
     ],
     "target": [
       651,
       566,
-      981,
-      611
+      330,
+      45
     ],
     "template": "private_quarters/private_quarters_shop_confirm_amount.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       1028,
       641,
-      1078,
-      691
+      50,
+      50
     ],
     "target": [
       1028,
       641,
-      1078,
-      691
+      50,
+      50
     ],
     "template": "private_quarters/private_quarters_shop_enter.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       1142,
       25,
-      1227,
-      49
+      85,
+      24
     ],
     "target": [
       1142,
       25,
-      1227,
-      49
+      85,
+      24
     ],
     "template": "private_quarters/private_quarters_shop_gems.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       963,
       25,
-      1055,
-      47
+      92,
+      22
     ],
     "target": [
       963,
       25,
-      1055,
-      47
+      92,
+      22
     ],
     "template": "private_quarters/private_quarters_shop_gold_coins.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       591,
       339,
-      688,
-      420
+      97,
+      81
     ],
     "target": [
       591,
       339,
-      688,
-      420
+      97,
+      81
     ],
     "template": "private_quarters/private_quarters_shop_weekly_cakes_get.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       968,
       489,
-      1028,
-      539
+      60,
+      50
     ],
     "target": [
       968,
       489,
-      1028,
-      539
+      60,
+      50
     ],
     "template": "private_quarters/private_quarters_shop_weekly_roses_check.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       598,
       335,
-      683,
-      420
+      85,
+      85
     ],
     "target": [
       598,
       335,
-      683,
-      420
+      85,
+      85
     ],
     "template": "private_quarters/private_quarters_shop_weekly_roses_get.png"
   }

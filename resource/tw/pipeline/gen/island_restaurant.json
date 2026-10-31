@@ -6,14 +6,14 @@
     "roi": [
       738,
       163,
-      826,
-      194
+      88,
+      31
     ],
     "target": [
       799,
       221,
-      871,
-      290
+      72,
+      69
     ],
     "template": "island_restaurant/island_restaurant_post1.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       738,
       163,
-      826,
-      194
+      88,
+      31
     ],
     "target": [
       892,
       218,
-      966,
-      290
+      74,
+      72
     ],
     "template": "island_restaurant/island_restaurant_post2.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_amaranth_rice_ball.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       605,
       310,
-      675,
-      360
+      70,
+      50
     ],
     "target": [
       605,
       310,
-      675,
-      360
+      70,
+      50
     ],
     "template": "island_restaurant/island_restaurant_post_asparagus_shrimp.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       608,
       315,
-      674,
-      362
+      66,
+      47
     ],
     "target": [
       608,
       315,
-      674,
-      362
+      66,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_cabbage_tofu.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       610,
       324,
-      672,
-      359
+      62,
+      35
     ],
     "target": [
       610,
       324,
-      672,
-      359
+      62,
+      35
     ],
     "template": "island_restaurant/island_restaurant_post_double_bamboo_shoots.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       606,
       310,
-      676,
-      363
+      70,
+      53
     ],
     "target": [
       606,
       310,
-      676,
-      363
+      70,
+      53
     ],
     "template": "island_restaurant/island_restaurant_post_fish_chip.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       604,
       308,
-      677,
-      362
+      73,
+      54
     ],
     "target": [
       604,
       308,
-      677,
-      362
+      73,
+      54
     ],
     "template": "island_restaurant/island_restaurant_post_fo_tiao.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_hearty_meal.png"
   },
@@ -168,14 +168,14 @@
     "roi": [
       607,
       315,
-      675,
-      362
+      68,
+      47
     ],
     "target": [
       607,
       315,
-      675,
-      362
+      68,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_matsutake_chicken_soup.png"
   },
@@ -186,14 +186,14 @@
     "roi": [
       606,
       314,
-      675,
-      362
+      69,
+      48
     ],
     "target": [
       606,
       314,
-      675,
-      362
+      69,
+      48
     ],
     "template": "island_restaurant/island_restaurant_post_omurice.png"
   },
@@ -204,14 +204,14 @@
     "roi": [
       604,
       311,
-      678,
-      363
+      74,
+      52
     ],
     "target": [
       604,
       311,
-      678,
-      363
+      74,
+      52
     ],
     "template": "island_restaurant/island_restaurant_post_onion_fish.png"
   },
@@ -222,14 +222,14 @@
     "roi": [
       607,
       315,
-      675,
-      362
+      68,
+      47
     ],
     "target": [
       607,
       315,
-      675,
-      362
+      68,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_persimmon_cake.png"
   },
@@ -240,14 +240,14 @@
     "roi": [
       606,
       318,
-      675,
-      362
+      69,
+      44
     ],
     "target": [
       606,
       318,
-      675,
-      362
+      69,
+      44
     ],
     "template": "island_restaurant/island_restaurant_post_salad.png"
   },
@@ -258,14 +258,14 @@
     "roi": [
       610,
       314,
-      675,
-      363
+      65,
+      49
     ],
     "target": [
       610,
       314,
-      675,
-      363
+      65,
+      49
     ],
     "template": "island_restaurant/island_restaurant_post_tofu.png"
   },
@@ -276,14 +276,14 @@
     "roi": [
       607,
       311,
-      670,
-      362
+      63,
+      51
     ],
     "target": [
       607,
       311,
-      670,
-      362
+      63,
+      51
     ],
     "template": "island_restaurant/island_restaurant_post_tofu_combo.png"
   },
@@ -294,14 +294,14 @@
     "roi": [
       607,
       323,
-      674,
-      362
+      67,
+      39
     ],
     "target": [
       607,
       323,
-      674,
-      362
+      67,
+      39
     ],
     "template": "island_restaurant/island_restaurant_post_tofu_meat.png"
   },
@@ -312,14 +312,14 @@
     "roi": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "target": [
       610,
       316,
-      672,
-      363
+      62,
+      47
     ],
     "template": "island_restaurant/island_restaurant_post_tomato_egg.png"
   },
@@ -330,14 +330,14 @@
     "roi": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "target": [
       215,
       148,
-      287,
-      211
+      72,
+      63
     ],
     "template": "island_restaurant/island_restaurant_select_amaranth_rice_ball.png"
   },
@@ -348,14 +348,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_restaurant/island_restaurant_select_amaranth_rice_ball_check.png"
   },
@@ -366,14 +366,14 @@
     "roi": [
       214,
       298,
-      286,
-      352
+      72,
+      54
     ],
     "target": [
       214,
       298,
-      286,
-      352
+      72,
+      54
     ],
     "template": "island_restaurant/island_restaurant_select_asparagus_shrimp.png"
   },
@@ -384,14 +384,14 @@
     "roi": [
       741,
       240,
-      845,
-      312
+      104,
+      72
     ],
     "target": [
       741,
       240,
-      845,
-      312
+      104,
+      72
     ],
     "template": "island_restaurant/island_restaurant_select_asparagus_shrimp_check.png"
   },
@@ -402,14 +402,14 @@
     "roi": [
       213,
       478,
-      284,
-      534
+      71,
+      56
     ],
     "target": [
       213,
       478,
-      284,
-      534
+      71,
+      56
     ],
     "template": "island_restaurant/island_restaurant_select_cabbage_tofu.png"
   },
@@ -420,14 +420,14 @@
     "roi": [
       742,
       241,
-      841,
-      322
+      99,
+      81
     ],
     "target": [
       742,
       241,
-      841,
-      322
+      99,
+      81
     ],
     "template": "island_restaurant/island_restaurant_select_cabbage_tofu_check.png"
   },
@@ -438,14 +438,14 @@
     "roi": [
       216,
       163,
-      283,
-      197
+      67,
+      34
     ],
     "target": [
       216,
       163,
-      283,
-      197
+      67,
+      34
     ],
     "template": "island_restaurant/island_restaurant_select_double_bamboo_shoots.png"
   },
@@ -456,14 +456,14 @@
     "roi": [
       746,
       254,
-      838,
-      307
+      92,
+      53
     ],
     "target": [
       746,
       254,
-      838,
-      307
+      92,
+      53
     ],
     "template": "island_restaurant/island_restaurant_select_double_bamboo_shoots_check.png"
   },
@@ -474,14 +474,14 @@
     "roi": [
       212,
       110,
-      289,
-      169
+      77,
+      59
     ],
     "target": [
       212,
       110,
-      289,
-      169
+      77,
+      59
     ],
     "template": "island_restaurant/island_restaurant_select_fish_chip.png"
   },
@@ -492,14 +492,14 @@
     "roi": [
       741,
       237,
-      842,
-      319
+      101,
+      82
     ],
     "target": [
       741,
       237,
-      842,
-      319
+      101,
+      82
     ],
     "template": "island_restaurant/island_restaurant_select_fish_chip_check.png"
   },
@@ -510,14 +510,14 @@
     "roi": [
       211,
       252,
-      287,
-      316
+      76,
+      64
     ],
     "target": [
       211,
       252,
-      287,
-      316
+      76,
+      64
     ],
     "template": "island_restaurant/island_restaurant_select_fo_tiao.png"
   },
@@ -528,14 +528,14 @@
     "roi": [
       738,
       235,
-      847,
-      322
+      109,
+      87
     ],
     "target": [
       738,
       235,
-      847,
-      322
+      109,
+      87
     ],
     "template": "island_restaurant/island_restaurant_select_fo_tiao_check.png"
   },
@@ -546,14 +546,14 @@
     "roi": [
       212,
       553,
-      281,
-      615
+      69,
+      62
     ],
     "target": [
       212,
       553,
-      281,
-      615
+      69,
+      62
     ],
     "template": "island_restaurant/island_restaurant_select_hearty_meal.png"
   },
@@ -564,14 +564,14 @@
     "roi": [
       742,
       235,
-      839,
-      326
+      97,
+      91
     ],
     "target": [
       742,
       235,
-      839,
-      326
+      97,
+      91
     ],
     "template": "island_restaurant/island_restaurant_select_hearty_meal_check.png"
   },
@@ -582,14 +582,14 @@
     "roi": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "target": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "template": "island_restaurant/island_restaurant_select_matsutake_chicken_soup.png"
   },
@@ -600,14 +600,14 @@
     "roi": [
       742,
       240,
-      841,
-      320
+      99,
+      80
     ],
     "target": [
       742,
       240,
-      841,
-      320
+      99,
+      80
     ],
     "template": "island_restaurant/island_restaurant_select_matsutake_chicken_soup_check.png"
   },
@@ -618,14 +618,14 @@
     "roi": [
       212,
       477,
-      286,
-      530
+      74,
+      53
     ],
     "target": [
       212,
       477,
-      286,
-      530
+      74,
+      53
     ],
     "template": "island_restaurant/island_restaurant_select_omurice.png"
   },
@@ -636,14 +636,14 @@
     "roi": [
       741,
       241,
-      841,
-      316
+      100,
+      75
     ],
     "target": [
       741,
       241,
-      841,
-      316
+      100,
+      75
     ],
     "template": "island_restaurant/island_restaurant_select_omurice_check.png"
   },
@@ -654,14 +654,14 @@
     "roi": [
       209,
       107,
-      290,
-      164
+      81,
+      57
     ],
     "target": [
       209,
       107,
-      290,
-      164
+      81,
+      57
     ],
     "template": "island_restaurant/island_restaurant_select_onion_fish.png"
   },
@@ -672,14 +672,14 @@
     "roi": [
       738,
       240,
-      845,
-      319
+      107,
+      79
     ],
     "target": [
       738,
       240,
-      845,
-      319
+      107,
+      79
     ],
     "template": "island_restaurant/island_restaurant_select_onion_fish_check.png"
   },
@@ -690,14 +690,14 @@
     "roi": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "target": [
       230,
       140,
-      267,
-      207
+      37,
+      67
     ],
     "template": "island_restaurant/island_restaurant_select_persimmon_cake.png"
   },
@@ -708,14 +708,14 @@
     "roi": [
       742,
       240,
-      841,
-      320
+      99,
+      80
     ],
     "target": [
       742,
       240,
-      841,
-      320
+      99,
+      80
     ],
     "template": "island_restaurant/island_restaurant_select_persimmon_cake_check.png"
   },
@@ -726,14 +726,14 @@
     "roi": [
       212,
       460,
-      286,
-      513
+      74,
+      53
     ],
     "target": [
       212,
       460,
-      286,
-      513
+      74,
+      53
     ],
     "template": "island_restaurant/island_restaurant_select_salad.png"
   },
@@ -744,14 +744,14 @@
     "roi": [
       742,
       245,
-      843,
-      316
+      101,
+      71
     ],
     "target": [
       742,
       245,
-      843,
-      316
+      101,
+      71
     ],
     "template": "island_restaurant/island_restaurant_select_salad_check.png"
   },
@@ -762,14 +762,14 @@
     "roi": [
       217,
       450,
-      284,
-      506
+      67,
+      56
     ],
     "target": [
       217,
       450,
-      284,
-      506
+      67,
+      56
     ],
     "template": "island_restaurant/island_restaurant_select_tofu.png"
   },
@@ -780,14 +780,14 @@
     "roi": [
       747,
       238,
-      841,
-      320
+      94,
+      82
     ],
     "target": [
       747,
       238,
-      841,
-      320
+      94,
+      82
     ],
     "template": "island_restaurant/island_restaurant_select_tofu_check.png"
   },
@@ -798,14 +798,14 @@
     "roi": [
       214,
       405,
-      280,
-      466
+      66,
+      61
     ],
     "target": [
       214,
       405,
-      280,
-      466
+      66,
+      61
     ],
     "template": "island_restaurant/island_restaurant_select_tofu_combo.png"
   },
@@ -816,14 +816,14 @@
     "roi": [
       743,
       238,
-      841,
-      326
+      98,
+      88
     ],
     "target": [
       743,
       238,
-      841,
-      326
+      98,
+      88
     ],
     "template": "island_restaurant/island_restaurant_select_tofu_combo_check.png"
   },
@@ -834,14 +834,14 @@
     "roi": [
       214,
       611,
-      283,
-      649
+      69,
+      38
     ],
     "target": [
       214,
       611,
-      283,
-      649
+      69,
+      38
     ],
     "template": "island_restaurant/island_restaurant_select_tofu_meat.png"
   },
@@ -852,14 +852,14 @@
     "roi": [
       742,
       254,
-      839,
-      318
+      97,
+      64
     ],
     "target": [
       742,
       254,
-      839,
-      318
+      97,
+      64
     ],
     "template": "island_restaurant/island_restaurant_select_tofu_meat_check.png"
   },
@@ -870,14 +870,14 @@
     "roi": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "target": [
       215,
       300,
-      287,
-      357
+      72,
+      57
     ],
     "template": "island_restaurant/island_restaurant_select_tomato_egg.png"
   },
@@ -888,14 +888,14 @@
     "roi": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "target": [
       745,
       240,
-      837,
-      321
+      92,
+      81
     ],
     "template": "island_restaurant/island_restaurant_select_tomato_egg_check.png"
   },

@@ -6,14 +6,14 @@
     "roi": [
       410,
       371,
-      440,
-      402
+      30,
+      31
     ],
     "target": [
       410,
       371,
-      440,
-      402
+      30,
+      31
     ],
     "template": "tactical/tactical_add_new_student.png"
   },
@@ -24,14 +24,14 @@
     "roi": [
       880,
       180,
-      908,
-      209
+      28,
+      29
     ],
     "target": [
       880,
       180,
-      908,
-      209
+      28,
+      29
     ],
     "template": "tactical/tactical_book_empty_popup.png"
   },
@@ -42,14 +42,14 @@
     "roi": [
       840,
       606,
-      969,
-      637
+      129,
+      31
     ],
     "target": [
       840,
       606,
-      969,
-      637
+      129,
+      31
     ],
     "template": "tactical/tactical_class_cancel.png"
   },
@@ -60,14 +60,14 @@
     "roi": [
       1046,
       606,
-      1176,
-      637
+      130,
+      31
     ],
     "target": [
       1046,
       606,
-      1176,
-      637
+      130,
+      31
     ],
     "template": "tactical/tactical_class_start.png"
   },
@@ -78,14 +78,14 @@
     "roi": [
       571,
       555,
-      709,
-      593
+      138,
+      38
     ],
     "target": [
       571,
       555,
-      709,
-      593
+      138,
+      38
     ],
     "template": "tactical/tactical_meta.png"
   },
@@ -96,14 +96,14 @@
     "roi": [
       728,
       189,
-      950,
-      211
+      222,
+      22
     ],
     "target": [
       728,
       189,
-      950,
-      211
+      222,
+      22
     ],
     "template": "tactical/tactical_ocr_skill_exp.png"
   },
@@ -114,14 +114,14 @@
     "roi": [
       518,
       566,
-      584,
-      583
+      66,
+      17
     ],
     "target": [
       518,
       566,
-      584,
-      583
+      66,
+      17
     ],
     "template": "tactical/tactical_rapid_training.png"
   },
@@ -132,14 +132,14 @@
     "roi": [
       432,
       415,
-      476,
-      436
+      44,
+      21
     ],
     "target": [
       403,
       415,
-      520,
-      450
+      117,
+      35
     ],
     "template": "tactical/tactical_reward_2.png"
   },
@@ -150,14 +150,14 @@
     "roi": [
       576,
       563,
-      705,
-      594
+      129,
+      31
     ],
     "target": [
       576,
       563,
-      705,
-      594
+      129,
+      31
     ],
     "template": "tactical/tactical_skill_confirm.png"
   }
