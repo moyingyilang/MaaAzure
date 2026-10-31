@@ -100,9 +100,12 @@
   "tactical_login_announce": {
     "action": "Click",
     "desc": "公告弹窗：关闭（tactical 专用，点完回到 tactical_start_game）",
+    "max_hit": 2,
     "next": [
       "tactical_start_game"
     ],
+    "post_delay": 1500,
+    "rate_limit": 2000,
     "recognition": "TemplateMatch",
     "roi": [
       1160,
@@ -121,9 +124,12 @@
   "tactical_login_announce_2": {
     "action": "Click",
     "desc": "二级公告：关闭（tactical 专用，点完回到 tactical_start_game）",
+    "max_hit": 2,
     "next": [
       "tactical_start_game"
     ],
+    "post_delay": 1500,
+    "rate_limit": 2000,
     "recognition": "TemplateMatch",
     "roi": [
       1193,
@@ -142,9 +148,12 @@
   "tactical_login_enter": {
     "action": "Click",
     "desc": "登录界面：点一下进入（tactical 专用，点完回到 tactical_start_game）",
+    "max_hit": 2,
     "next": [
       "tactical_start_game"
     ],
+    "post_delay": 3000,
+    "rate_limit": 3000,
     "recognition": "TemplateMatch",
     "roi": [
       1214,
@@ -163,9 +172,12 @@
   "tactical_login_game_update": {
     "action": "Click",
     "desc": "游戏更新弹窗：关闭（tactical 专用，点完回到 tactical_start_game）",
+    "max_hit": 2,
     "next": [
       "tactical_start_game"
     ],
+    "post_delay": 1500,
+    "rate_limit": 2000,
     "recognition": "TemplateMatch",
     "roi": [
       700,

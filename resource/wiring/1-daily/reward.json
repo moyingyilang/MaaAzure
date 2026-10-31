@@ -60,28 +60,40 @@
       "use": "handler_login_announce_2",
       "next": [
         "reward_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "reward_login_announce": {
       "desc": "公告弹窗：关闭（reward 专用，点完回到 reward_start_game）",
       "use": "handler_login_announce",
       "next": [
         "reward_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "reward_login_game_update": {
       "desc": "游戏更新弹窗：关闭（reward 专用，点完回到 reward_start_game）",
       "use": "handler_login_game_update",
       "next": [
         "reward_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "reward_login_enter": {
       "desc": "登录界面：点一下进入（reward 专用，点完回到 reward_start_game）",
       "use": "handler_login_check",
       "next": [
         "reward_start_game"
-      ]
+      ],
+      "post_delay": 3000,
+      "rate_limit": 3000,
+      "max_hit": 2
     }
   }
 }

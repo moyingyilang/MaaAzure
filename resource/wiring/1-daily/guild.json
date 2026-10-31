@@ -68,28 +68,40 @@
       "use": "handler_login_announce_2",
       "next": [
         "guild_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "guild_login_announce": {
       "desc": "公告弹窗：关闭（guild 专用，点完回到 guild_start_game）",
       "use": "handler_login_announce",
       "next": [
         "guild_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "guild_login_game_update": {
       "desc": "游戏更新弹窗：关闭（guild 专用，点完回到 guild_start_game）",
       "use": "handler_login_game_update",
       "next": [
         "guild_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "guild_login_enter": {
       "desc": "登录界面：点一下进入（guild 专用，点完回到 guild_start_game）",
       "use": "handler_login_check",
       "next": [
         "guild_start_game"
-      ]
+      ],
+      "post_delay": 3000,
+      "rate_limit": 3000,
+      "max_hit": 2
     }
   }
 }

@@ -59,28 +59,40 @@
       "use": "handler_login_announce_2",
       "next": [
         "meowfficer_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "meowfficer_login_announce": {
       "desc": "公告弹窗：关闭（meowfficer 专用，点完回到 meowfficer_start_game）",
       "use": "handler_login_announce",
       "next": [
         "meowfficer_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "meowfficer_login_game_update": {
       "desc": "游戏更新弹窗：关闭（meowfficer 专用，点完回到 meowfficer_start_game）",
       "use": "handler_login_game_update",
       "next": [
         "meowfficer_start_game"
-      ]
+      ],
+      "post_delay": 1500,
+      "rate_limit": 2000,
+      "max_hit": 2
     },
     "meowfficer_login_enter": {
       "desc": "登录界面：点一下进入（meowfficer 专用，点完回到 meowfficer_start_game）",
       "use": "handler_login_check",
       "next": [
         "meowfficer_start_game"
-      ]
+      ],
+      "post_delay": 3000,
+      "rate_limit": 3000,
+      "max_hit": 2
     }
   }
 }
