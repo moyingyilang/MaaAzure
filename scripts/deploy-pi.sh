@@ -27,8 +27,17 @@ if [ "${FAST:-0}" = "1" ]; then
 else
     TARGETS="interface.json interface.d resource data"
 fi
+# su 解包出来的文件属主是 root，App（u0_aXXX）读不了 → EACCES。
+# 先记下 pi 目录原本的属主，解包后原样还原。
+OWNER=$(su -c "stat -c '%u:%g' $PI" 2>/dev/null)
 ( cd "$ROOT" && tar cf - $TARGETS 2>/dev/null ) \
     | su -c "cd $PI && tar xf -" || { echo "同步失败"; exit 1; }
+if [ -n "${OWNER:-}" ]; then
+    su -c "chown -R $OWNER $PI" 2>/dev/null
+    su -c "find $PI -type d -exec chmod 771 {} +" 2>/dev/null
+    su -c "find $PI -type f -exec chmod 660 {} +" 2>/dev/null
+    echo "  属主已还原为 $OWNER"
+fi
 echo "  $TARGETS"
 
 if [ "${1:-}" = "--restart" ] || [ "${RESTART:-1}" = "1" ]; then
