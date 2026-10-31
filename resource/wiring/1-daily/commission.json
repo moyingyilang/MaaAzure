@@ -196,9 +196,8 @@
         "commission_login_return_info",
         "commission_login_avatar_expired",
         "commission_login_goto_main",
-        "commission_login_agreement_swipe2",
-        "commission_login_agreement_confirm",
-        "commission_tactical_cancel"
+        "commission_tactical_cancel",
+        "commission_goto_reward"
       ]
     },
     "commission_page": {
@@ -324,8 +323,7 @@
       "action": "DoNothing",
       "next": [
         "commission_tactical_cancel_click",
-        "commission_receive",
-        "commission_goto_reward"
+        "commission_login_chain"
       ]
     },
     "commission_tactical_cancel_click": {
@@ -333,7 +331,7 @@
       "use": "tactical_class_cancel",
       "post_delay": 1000,
       "next": [
-        "commission_tactical_cancel"
+        "commission_login_chain"
       ]
     },
     "commission_receive": {

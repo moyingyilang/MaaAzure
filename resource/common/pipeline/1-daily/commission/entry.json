@@ -356,9 +356,9 @@
       "commission_login_avatar_expired",
       "commission_login_goto_main",
       "commission_login_goto_main_white",
-      "commission_login_agreement_swipe2",
-      "commission_login_agreement_confirm",
-      "commission_tactical_cancel"
+      "commission_tactical_cancel",
+      "commission_goto_reward",
+      "commission_goto_reward_white"
     ],
     "recognition": "DirectHit",
     "timeout": 180000
@@ -736,9 +736,7 @@
     "desc": "战术课堂开始按钮出现 → 点取消退出（上游 run() 开头）",
     "next": [
       "commission_tactical_cancel_click",
-      "commission_receive",
-      "commission_goto_reward",
-      "commission_goto_reward_white"
+      "commission_login_chain"
     ],
     "recognition": "TemplateMatch",
     "roi": [
@@ -759,7 +757,7 @@
     "action": "Click",
     "desc": "点取消（TACTICAL_CLASS_CANCEL）",
     "next": [
-      "commission_tactical_cancel"
+      "commission_login_chain"
     ],
     "post_delay": 1000,
     "recognition": "TemplateMatch",
