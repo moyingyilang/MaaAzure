@@ -6,10 +6,193 @@
     ],
     "recognition": "DirectHit"
   },
+  "daily_back": {
+    "action": "Click",
+    "desc": "返回每日列表（上游 BACK_ARROW）",
+    "next": [
+      "daily_page",
+      "daily_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      33,
+      44,
+      14,
+      20
+    ],
+    "target": [
+      33,
+      31,
+      48,
+      47
+    ],
+    "template": "ui/ui_back_arrow.png"
+  },
+  "daily_back_white": {
+    "action": "Click",
+    "desc": "返回每日列表（上游 BACK_ARROW）",
+    "next": [
+      "daily_page",
+      "daily_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      54,
+      30,
+      15,
+      23
+    ],
+    "target": [
+      54,
+      30,
+      15,
+      23
+    ],
+    "template": "ui_white/ui_white_back_arrow_white.png"
+  },
+  "daily_check_locked": {
+    "action": "Click",
+    "desc": "每日任务未解锁（上游 DAILY_LOCKED）→ 返回",
+    "next": [
+      "daily_back",
+      "daily_back_white",
+      "daily_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      710,
+      359,
+      38,
+      50
+    ],
+    "target": [
+      710,
+      359,
+      38,
+      50
+    ],
+    "template": "daily/daily_locked.png"
+  },
   "daily_done": {
     "action": "DoNothing",
+    "desc": "本轮每日结束",
     "next": [],
     "recognition": "DirectHit"
+  },
+  "daily_enter": {
+    "action": "Click",
+    "desc": "进入每日任务（上游 DAILY_ENTER）",
+    "next": [
+      "daily_mission_1",
+      "daily_page",
+      "daily_done"
+    ],
+    "post_delay": 1500,
+    "recognition": "TemplateMatch",
+    "roi": [
+      534,
+      118,
+      210,
+      527
+    ],
+    "target": [
+      534,
+      118,
+      210,
+      527
+    ],
+    "template": "daily/daily_enter.png"
+  },
+  "daily_fleet_next": {
+    "action": "Click",
+    "desc": "选舰队（上游 ui_ensure_index + OCR_DAILY_FLEET_INDEX）",
+    "next": [
+      "daily_normal_run",
+      "daily_done"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      914,
+      325,
+      17,
+      29
+    ],
+    "target": [
+      914,
+      325,
+      17,
+      29
+    ],
+    "template": "daily/daily_fleet_next.png"
+  },
+  "daily_goto_campaign": {
+    "action": "Click",
+    "desc": "主界面 → 出击",
+    "next": [
+      "daily_goto_tab",
+      "daily_goto_campaign_white",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1029,
+      304,
+      73,
+      38
+    ],
+    "target": [
+      1021,
+      292,
+      139,
+      140
+    ],
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "daily_goto_campaign_white": {
+    "action": "Click",
+    "desc": "主界面 → 出击",
+    "next": [
+      "daily_goto_tab",
+      "daily_goto_campaign_white",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      529,
+      55,
+      28
+    ],
+    "target": [
+      1124,
+      437,
+      136,
+      142
+    ],
+    "template": "ui_white/ui_white_main_goto_campaign_white.png"
+  },
+  "daily_goto_tab": {
+    "action": "Click",
+    "desc": "出击 → 每日",
+    "next": [
+      "daily_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      686,
+      586,
+      102,
+      52
+    ],
+    "target": [
+      686,
+      586,
+      102,
+      52
+    ],
+    "template": "ui/ui_campaign_menu_goto_daily.png"
   },
   "daily_login_agreement_confirm": {
     "action": "Click",
@@ -164,15 +347,17 @@
       "daily_login_event_list_back",
       "daily_login_maintenance",
       "daily_login_game_update",
-      "daily_login_return_sign",
       "daily_login_agreement_swipe1",
+      "daily_login_return_sign",
       "daily_login_return_info",
       "daily_login_avatar_expired",
       "daily_login_goto_main",
       "daily_login_goto_main_white",
-      "page_daily",
-      "nav_campaign_menu_to_daily",
-      "nav_main_to_campaign_menu"
+      "daily_login_agreement_swipe2",
+      "daily_login_agreement_confirm",
+      "daily_goto_campaign",
+      "daily_goto_campaign_white",
+      "global_home"
     ],
     "recognition": "DirectHit",
     "timeout": 180000
@@ -365,6 +550,74 @@
       40
     ],
     "template": "handler/handler_login_return_sign.png"
+  },
+  "daily_mission_1": {
+    "action": "Click",
+    "desc": "选第 1 个每日任务（上游 DAILY_MISSION_LIST[stage-1]）",
+    "next": [
+      "daily_fleet_next",
+      "daily_done"
+    ],
+    "post_delay": 1200,
+    "recognition": "TemplateMatch",
+    "roi": [
+      482,
+      140,
+      219,
+      115
+    ],
+    "target": [
+      482,
+      140,
+      219,
+      115
+    ],
+    "template": "daily/daily_mission_1.png"
+  },
+  "daily_normal_run": {
+    "action": "Click",
+    "desc": "出击（上游 combat()：战斗层尚未移植，先到准备界面）",
+    "next": [
+      "daily_done"
+    ],
+    "post_delay": 2000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      409,
+      295,
+      151,
+      54
+    ],
+    "target": [
+      409,
+      295,
+      151,
+      54
+    ],
+    "template": "daily/daily_normal_run.png"
+  },
+  "daily_page": {
+    "action": "DoNothing",
+    "desc": "每日任务页（上游 page_daily / DAILY_CHECK 作标志）",
+    "next": [
+      "daily_check_locked",
+      "daily_enter",
+      "daily_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      23,
+      656,
+      44,
+      42
+    ],
+    "target": [
+      23,
+      656,
+      44,
+      42
+    ],
+    "template": "ui/ui_daily_check.png"
   },
   "daily_start_game": {
     "action": {

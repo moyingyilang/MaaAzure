@@ -8,10 +8,6 @@
         "daily_start_game"
       ]
     },
-    "daily_done": {
-      "recognition": "DirectHit",
-      "next": []
-    },
     "daily_start_game": {
       "desc": "DailyStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
       "recognition": "DirectHit",
@@ -196,14 +192,99 @@
         "daily_login_event_list_back",
         "daily_login_maintenance",
         "daily_login_game_update",
-        "daily_login_return_sign",
         "daily_login_agreement_swipe1",
+        "daily_login_return_sign",
         "daily_login_return_info",
         "daily_login_avatar_expired",
         "daily_login_goto_main",
-        "page_daily",
-        "nav_campaign_menu_to_daily",
-        "nav_main_to_campaign_menu"
+        "daily_login_agreement_swipe2",
+        "daily_login_agreement_confirm",
+        "daily_goto_campaign",
+        "global_home"
+      ]
+    },
+    "daily_page": {
+      "desc": "每日任务页（上游 page_daily / DAILY_CHECK 作标志）",
+      "use": "ui_daily_check",
+      "action": "DoNothing",
+      "next": [
+        "daily_check_locked",
+        "daily_enter",
+        "daily_done"
+      ]
+    },
+    "daily_check_locked": {
+      "desc": "每日任务未解锁（上游 DAILY_LOCKED）→ 返回",
+      "use": "daily_locked",
+      "next": [
+        "daily_back",
+        "daily_done"
+      ]
+    },
+    "daily_enter": {
+      "desc": "进入每日任务（上游 DAILY_ENTER）",
+      "use": "daily_enter",
+      "post_delay": 1500,
+      "next": [
+        "daily_mission_1",
+        "daily_page",
+        "daily_done"
+      ]
+    },
+    "daily_mission_1": {
+      "desc": "选第 1 个每日任务（上游 DAILY_MISSION_LIST[stage-1]）",
+      "use": "daily_mission_1",
+      "post_delay": 1200,
+      "next": [
+        "daily_fleet_next",
+        "daily_done"
+      ]
+    },
+    "daily_fleet_next": {
+      "desc": "选舰队（上游 ui_ensure_index + OCR_DAILY_FLEET_INDEX）",
+      "use": "daily_fleet_next",
+      "post_delay": 800,
+      "next": [
+        "daily_normal_run",
+        "daily_done"
+      ]
+    },
+    "daily_normal_run": {
+      "desc": "出击（上游 combat()：战斗层尚未移植，先到准备界面）",
+      "use": "daily_normal_run",
+      "post_delay": 2000,
+      "next": [
+        "daily_done"
+      ]
+    },
+    "daily_back": {
+      "desc": "返回每日列表（上游 BACK_ARROW）",
+      "use": "ui_back_arrow",
+      "next": [
+        "daily_page",
+        "daily_done"
+      ]
+    },
+    "daily_done": {
+      "desc": "本轮每日结束",
+      "recognition": "DirectHit",
+      "next": []
+    },
+    "daily_goto_campaign": {
+      "desc": "主界面 → 出击",
+      "use": "ui_main_goto_campaign",
+      "next": [
+        "daily_goto_tab",
+        "daily_goto_campaign_white",
+        "global_recover"
+      ]
+    },
+    "daily_goto_tab": {
+      "desc": "出击 → 每日",
+      "use": "ui_campaign_menu_goto_daily",
+      "next": [
+        "daily_page",
+        "global_recover"
       ]
     }
   }
