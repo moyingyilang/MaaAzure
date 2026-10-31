@@ -2,7 +2,7 @@
   "interface_version": 2,
   "name": "MaaAzure",
   "label": "MaaAzure · 碧蓝航线",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "github": "https://github.com/moyingyilang/MaaAzure",
   "license": "AGPL-3.0-only",
   "contact": "https://github.com/moyingyilang/MaaAzure/issues",
@@ -45,6 +45,55 @@
       "path": [
         "./resource/common",
         "./resource/tw"
+      ]
+    }
+  ],
+  "preset": [
+    {
+      "name": "默认",
+      "label": "默认",
+      "description": "已接线的日常任务：委托、战术学院、任务奖励、宿舍、大舰队、演习、指挥喵、科研、每日、建造（只读）。",
+      "task": [
+        {
+          "name": "Commission",
+          "enabled": true
+        },
+        {
+          "name": "Daily",
+          "enabled": true
+        },
+        {
+          "name": "Dorm",
+          "enabled": true
+        },
+        {
+          "name": "Exercise",
+          "enabled": true
+        },
+        {
+          "name": "Gacha",
+          "enabled": true
+        },
+        {
+          "name": "Guild",
+          "enabled": true
+        },
+        {
+          "name": "Meowfficer",
+          "enabled": true
+        },
+        {
+          "name": "Research",
+          "enabled": true
+        },
+        {
+          "name": "Reward",
+          "enabled": true
+        },
+        {
+          "name": "Tactical",
+          "enabled": true
+        }
       ]
     }
   ],
