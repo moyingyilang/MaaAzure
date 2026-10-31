@@ -351,6 +351,7 @@ fn main() -> ExitCode {
                     println!("索引条目        {}", r.indexed);
                     println!("重复模板组      {}", r.duplicate_groups);
                     println!("接线歧义        {}", r.ambiguous_lists);
+                    println!("缺白色主题      {}", r.white_missing);
                     println!("节点总数        {}", r.nodes);
                     println!("生成叶子        {}", r.generated);
                     println!("错误            {}", r.errors.len());

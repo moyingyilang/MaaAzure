@@ -46,6 +46,8 @@ pub struct Report {
     pub duplicate_groups: usize,
     /// 同一个 next 列表里出现相同图案的次数（接线歧义）
     pub ambiguous_lists: usize,
+    /// ui 节点里没有白色主题对应版本的模板数
+    pub white_missing: usize,
     /// 错误
     pub errors: Vec<String>,
     /// 警告
@@ -107,6 +109,15 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
         report
             .warnings
             .push(format!("没有 {}", index_path.display()));
+    }
+
+    // 0.4) 白色主题覆盖：ui/*.png 有没有对应的 ui_white/*_white.png
+    report.white_missing = count_white_missing(&resource_dir.join("cn/image"));
+    if report.white_missing > 0 {
+        report.warnings.push(format!(
+            "{report_white} 个 ui 模板没有白色主题版本，白色主题账号下这些页面会认不出",
+            report_white = report.white_missing
+        ));
     }
 
     // 0.5) 内容重复的模板：不同节点名指向同一张图 → 接线时容易「一个标志命中两处」
@@ -311,6 +322,30 @@ pub fn run(resource_dir: &Path) -> Result<Report, String> {
     }
 
     Ok(report)
+}
+
+/// 统计 `ui/*.png` 里缺白色主题对应版本的模板数。
+fn count_white_missing(image_dir: &Path) -> usize {
+    let ui = image_dir.join("ui");
+    let white = image_dir.join("ui_white");
+    if !ui.is_dir() {
+        return 0;
+    }
+    let Ok(rd) = fs::read_dir(&ui) else { return 0 };
+    let mut missing = 0;
+    for e in rd.flatten() {
+        let p = e.path();
+        if p.extension().and_then(|x| x.to_str()) != Some("png") {
+            continue;
+        }
+        let Some(stem) = p.file_stem().and_then(|x| x.to_str()) else { continue };
+        let short = stem.strip_prefix("ui_").unwrap_or(stem);
+        let candidate = white.join(format!("ui_white_{short}_white.png"));
+        if !candidate.is_file() {
+            missing += 1;
+        }
+    }
+    missing
 }
 
 /// 模板相对路径 → 内容哈希。
