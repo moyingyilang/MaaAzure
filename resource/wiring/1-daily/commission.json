@@ -198,8 +198,7 @@
         "commission_login_goto_main",
         "commission_login_agreement_swipe2",
         "commission_login_agreement_confirm",
-        "commission_goto_reward",
-        "global_home"
+        "commission_tactical_cancel"
       ]
     },
     "commission_page": {
@@ -207,6 +206,7 @@
       "use": "commission_daily",
       "action": "DoNothing",
       "next": [
+        "commission_info_bar",
         "commission_claim_exp",
         "commission_claim_reward",
         "commission_scan_top",
@@ -232,17 +232,18 @@
       ]
     },
     "commission_start_new": {
-      "desc": "开始新委托（上游 _commission_start_click）",
+      "desc": "点开始委托（上游 _commission_start_click）",
       "use": "commission_start",
       "post_delay": 1500,
       "next": [
+        "commission_pick",
         "commission_advice",
         "commission_page",
         "commission_done"
       ]
     },
     "commission_advice": {
-      "desc": "确认派遣建议",
+      "desc": "确认派遣建议（上游 commission_advice）",
       "use": "commission_advice",
       "post_delay": 1500,
       "next": [
@@ -316,6 +317,59 @@
         "commission_page",
         "commission_done"
       ]
+    },
+    "commission_tactical_cancel": {
+      "desc": "战术课堂开始按钮出现 → 点取消退出（上游 run() 开头）",
+      "use": "tactical_class_start",
+      "action": "DoNothing",
+      "next": [
+        "commission_tactical_cancel_click",
+        "commission_receive",
+        "commission_goto_reward"
+      ]
+    },
+    "commission_tactical_cancel_click": {
+      "desc": "点取消（TACTICAL_CLASS_CANCEL）",
+      "use": "tactical_class_cancel",
+      "post_delay": 1000,
+      "next": [
+        "commission_tactical_cancel"
+      ]
+    },
+    "commission_receive": {
+      "desc": "领取循环（上游 commission_receive）：领先经验/奖励直到进入委托页",
+      "recognition": "DirectHit",
+      "timeout": 60000,
+      "next": [
+        "commission_claim_exp",
+        "commission_claim_reward",
+        "commission_page"
+      ]
+    },
+    "commission_mode_daily": {
+      "desc": "切到日常委托（上游 commission_daily）",
+      "use": "commission_daily",
+      "post_delay": 800,
+      "next": [
+        "commission_page"
+      ]
+    },
+    "commission_mode_urgent": {
+      "desc": "切到紧急委托（上游 commission_urgent）",
+      "use": "commission_urgent",
+      "post_delay": 800,
+      "next": [
+        "commission_page"
+      ]
+    },
+    "commission_info_bar": {
+      "desc": "关闭信息栏（上游 handle_info_bar）",
+      "use": "handler_info_bar_1",
+      "post_delay": 600,
+      "next": [
+        "commission_receive"
+      ]
     }
-  }
+  },
+  "_note": "按上游 module/commission/commission.py 全链路：战术课堂取消 → 领取（EXP_INFO_S_REWARD/GET_ITEMS）→ 扫描（scroll+滑动）→ 选择（Rust CommissionPick）→ 派遣（start→advice）→ 关闭信息栏。未移植：完成时间 OCR 与调度（交 Rust 侧）、紧急/日常自动切换策略。"
 }

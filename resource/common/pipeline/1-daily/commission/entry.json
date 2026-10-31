@@ -8,7 +8,7 @@
   },
   "commission_advice": {
     "action": "Click",
-    "desc": "确认派遣建议",
+    "desc": "确认派遣建议（上游 commission_advice）",
     "next": [
       "commission_page",
       "commission_done"
@@ -175,6 +175,28 @@
     ],
     "template": "ui_white/ui_white_main_goto_reward_white.png"
   },
+  "commission_info_bar": {
+    "action": "Click",
+    "desc": "关闭信息栏（上游 handle_info_bar）",
+    "next": [
+      "commission_receive"
+    ],
+    "post_delay": 600,
+    "recognition": "TemplateMatch",
+    "roi": [
+      202,
+      297,
+      876,
+      2
+    ],
+    "target": [
+      202,
+      297,
+      876,
+      2
+    ],
+    "template": "handler/handler_info_bar_1.png"
+  },
   "commission_login_agreement_confirm": {
     "action": "Click",
     "desc": "CN 用户协议/登录确认：点右半屏蓝色按钮",
@@ -336,9 +358,7 @@
       "commission_login_goto_main_white",
       "commission_login_agreement_swipe2",
       "commission_login_agreement_confirm",
-      "commission_goto_reward",
-      "commission_goto_reward_white",
-      "global_home"
+      "commission_tactical_cancel"
     ],
     "recognition": "DirectHit",
     "timeout": 180000
@@ -532,10 +552,55 @@
     ],
     "template": "handler/handler_login_return_sign.png"
   },
+  "commission_mode_daily": {
+    "action": "Click",
+    "desc": "切到日常委托（上游 commission_daily）",
+    "next": [
+      "commission_page"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      35,
+      132,
+      32,
+      54
+    ],
+    "target": [
+      35,
+      132,
+      32,
+      54
+    ],
+    "template": "commission/commission_daily.png"
+  },
+  "commission_mode_urgent": {
+    "action": "Click",
+    "desc": "切到紧急委托（上游 commission_urgent）",
+    "next": [
+      "commission_page"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      35,
+      231,
+      33,
+      50
+    ],
+    "target": [
+      35,
+      231,
+      33,
+      50
+    ],
+    "template": "commission/commission_urgent.png"
+  },
   "commission_page": {
     "action": "DoNothing",
     "desc": "在委托页（日常 tab 作页面标志）",
     "next": [
+      "commission_info_bar",
       "commission_claim_exp",
       "commission_claim_reward",
       "commission_scan_top",
@@ -567,6 +632,17 @@
     ],
     "post_delay": 1500,
     "recognition": "Custom"
+  },
+  "commission_receive": {
+    "action": "DoNothing",
+    "desc": "领取循环（上游 commission_receive）：领先经验/奖励直到进入委托页",
+    "next": [
+      "commission_claim_exp",
+      "commission_claim_reward",
+      "commission_page"
+    ],
+    "recognition": "DirectHit",
+    "timeout": 60000
   },
   "commission_scan_swipe": {
     "action": {
@@ -632,8 +708,9 @@
   },
   "commission_start_new": {
     "action": "Click",
-    "desc": "开始新委托（上游 _commission_start_click）",
+    "desc": "点开始委托（上游 _commission_start_click）",
     "next": [
+      "commission_pick",
       "commission_advice",
       "commission_page",
       "commission_done"
@@ -653,5 +730,51 @@
       61
     ],
     "template": "commission/commission_start.png"
+  },
+  "commission_tactical_cancel": {
+    "action": "DoNothing",
+    "desc": "战术课堂开始按钮出现 → 点取消退出（上游 run() 开头）",
+    "next": [
+      "commission_tactical_cancel_click",
+      "commission_receive",
+      "commission_goto_reward",
+      "commission_goto_reward_white"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1024,
+      590,
+      173,
+      58
+    ],
+    "target": [
+      1024,
+      590,
+      173,
+      58
+    ],
+    "template": "tactical/tactical_class_start.png"
+  },
+  "commission_tactical_cancel_click": {
+    "action": "Click",
+    "desc": "点取消（TACTICAL_CLASS_CANCEL）",
+    "next": [
+      "commission_tactical_cancel"
+    ],
+    "post_delay": 1000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      818,
+      591,
+      172,
+      56
+    ],
+    "target": [
+      818,
+      591,
+      172,
+      56
+    ],
+    "template": "tactical/tactical_class_cancel.png"
   }
 }
