@@ -1,0 +1,67 @@
+{
+  "battle_auto_on": {
+    "action": "Click",
+    "desc": "打开自动战斗（上游 combat_automation_switch）",
+    "next": [
+      "battle_execute"
+    ],
+    "post_delay": 1000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      821,
+      106,
+      86,
+      30
+    ],
+    "target": [
+      821,
+      106,
+      86,
+      30
+    ],
+    "template": "combat/combat_automation_switch.png"
+  },
+  "battle_execute": {
+    "action": "DoNothing",
+    "desc": "战斗中：等战斗结束（上游 combat_execute 循环）",
+    "next": [
+      "battle_status"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      759,
+      113,
+      31,
+      16
+    ],
+    "target": [
+      759,
+      113,
+      31,
+      16
+    ],
+    "template": "combat/combat_automation_on.png",
+    "timeout": 300000
+  },
+  "battle_status": {
+    "action": "DoNothing",
+    "desc": "战斗结算（上游 combat_status / BATTLE_STATUS_*）",
+    "next": [
+      "battle_auto_on"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      634,
+      269,
+      96,
+      19
+    ],
+    "target": [
+      1000,
+      631,
+      55,
+      58
+    ],
+    "template": "combat/combat_battle_status_a.png"
+  }
+}

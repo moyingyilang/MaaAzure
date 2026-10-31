@@ -1,0 +1,26 @@
+{
+  "_note": "公共战斗层，对应上游 module/combat/combat.py：combat_preparation → combat_execute → combat_status。combat_battle_preparation 在 en 是动图目录（跨服模板不一致），所以这里只用三张稳定的图；出击按钮由各任务自己点。",
+  "layer": "0-common",
+  "file": "battle.json",
+  "nodes": {
+    "battle_auto_on": {
+      "desc": "打开自动战斗（上游 combat_automation_switch）",
+      "use": "combat_automation_switch",
+      "post_delay": 1000,
+      "next": ["battle_execute"]
+    },
+    "battle_execute": {
+      "desc": "战斗中：等战斗结束（上游 combat_execute 循环）",
+      "use": "combat_automation_on",
+      "action": "DoNothing",
+      "timeout": 300000,
+      "next": ["battle_status"]
+    },
+    "battle_status": {
+      "desc": "战斗结算（上游 combat_status / BATTLE_STATUS_*）",
+      "use": "combat_battle_status_a",
+      "action": "DoNothing",
+      "next": ["battle_auto_on"]
+    }
+  }
+}
