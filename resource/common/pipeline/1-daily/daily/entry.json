@@ -2,15 +2,30 @@
   "DailyStart": {
     "action": "DoNothing",
     "next": [
-      "page_daily",
-      "nav_campaign_menu_to_daily",
-      "nav_main_to_campaign_menu"
+      "daily_start_game"
     ],
     "recognition": "DirectHit"
   },
   "daily_done": {
     "action": "DoNothing",
     "next": [],
+    "recognition": "DirectHit"
+  },
+  "daily_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "DailyStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "page_daily",
+      "nav_campaign_menu_to_daily",
+      "nav_main_to_campaign_menu"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
     "recognition": "DirectHit"
   }
 }

@@ -2,8 +2,7 @@
   "CommissionStart": {
     "action": "DoNothing",
     "next": [
-      "commission_goto_reward",
-      "global_home"
+      "commission_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -84,5 +83,21 @@
       "global_home"
     ],
     "recognition": "Custom"
+  },
+  "commission_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "CommissionStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "commission_goto_reward",
+      "global_home"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

@@ -2,8 +2,7 @@
   "GachaStart": {
     "action": "DoNothing",
     "next": [
-      "gacha_goto_page",
-      "global_home"
+      "gacha_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -52,5 +51,21 @@
       54
     ],
     "template": "gacha/gacha_build_submit_orders.png"
+  },
+  "gacha_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "GachaStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "gacha_goto_page",
+      "global_home"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

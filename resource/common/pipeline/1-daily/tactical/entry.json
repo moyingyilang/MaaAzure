@@ -2,8 +2,7 @@
   "TacticalStart": {
     "action": "DoNothing",
     "next": [
-      "tactical_goto_reward",
-      "global_home"
+      "tactical_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -94,5 +93,21 @@
       58
     ],
     "template": "tactical/tactical_class_start.png"
+  },
+  "tactical_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "TacticalStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "tactical_goto_reward",
+      "global_home"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

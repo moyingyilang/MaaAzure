@@ -5,8 +5,7 @@
   "nodes": {
     "GachaStart": {
       "next": [
-        "gacha_goto_page",
-        "global_home"
+        "gacha_start_game"
       ]
     },
     "gacha_goto_page": {
@@ -26,6 +25,22 @@
     "gacha_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "gacha_start_game": {
+      "desc": "GachaStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "gacha_goto_page",
+        "global_home"
+      ]
     }
   }
 }

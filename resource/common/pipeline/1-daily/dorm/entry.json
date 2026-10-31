@@ -2,8 +2,7 @@
   "DormStart": {
     "action": "DoNothing",
     "next": [
-      "dorm_goto_menu",
-      "dorm_goto_dorm"
+      "dorm_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -116,5 +115,21 @@
       59
     ],
     "template": "dorm/dorm_manage.png"
+  },
+  "dorm_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "DormStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "dorm_goto_menu",
+      "dorm_goto_dorm"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

@@ -4,24 +4,50 @@
   "file": "meowfficer/entry.json",
   "nodes": {
     "MeowfficerStart": {
-      "next": ["meowfficer_goto_menu", "meowfficer_goto_page"]
+      "next": [
+        "meowfficer_start_game"
+      ]
     },
     "meowfficer_goto_menu": {
       "use": "ui_main_goto_dormmenu",
-      "next": ["meowfficer_goto_page", "global_recover"]
+      "next": [
+        "meowfficer_goto_page",
+        "global_recover"
+      ]
     },
     "meowfficer_goto_page": {
       "use": "ui_dormmenu_goto_meowfficer",
-      "next": ["meowfficer_page", "global_recover"]
+      "next": [
+        "meowfficer_page",
+        "global_recover"
+      ]
     },
     "meowfficer_page": {
       "use": "meowfficer_buy_enter",
       "action": "DoNothing",
-      "next": ["meowfficer_done"]
+      "next": [
+        "meowfficer_done"
+      ]
     },
     "meowfficer_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "meowfficer_start_game": {
+      "desc": "MeowfficerStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "meowfficer_goto_menu",
+        "meowfficer_goto_page"
+      ]
     }
   }
 }

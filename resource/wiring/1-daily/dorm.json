@@ -5,8 +5,7 @@
   "nodes": {
     "DormStart": {
       "next": [
-        "dorm_goto_menu",
-        "dorm_goto_dorm"
+        "dorm_start_game"
       ]
     },
     "dorm_goto_menu": {
@@ -48,6 +47,22 @@
     "dorm_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "dorm_start_game": {
+      "desc": "DormStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "dorm_goto_menu",
+        "dorm_goto_dorm"
+      ]
     }
   }
 }

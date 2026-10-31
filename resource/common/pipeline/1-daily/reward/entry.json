@@ -2,8 +2,7 @@
   "RewardStart": {
     "action": "DoNothing",
     "next": [
-      "reward_goto_page",
-      "global_home"
+      "reward_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -74,5 +73,21 @@
       25
     ],
     "template": "reward/reward_coin.png"
+  },
+  "reward_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "RewardStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "reward_goto_page",
+      "global_home"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

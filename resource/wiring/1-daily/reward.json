@@ -5,8 +5,7 @@
   "nodes": {
     "RewardStart": {
       "next": [
-        "reward_goto_page",
-        "global_home"
+        "reward_start_game"
       ]
     },
     "reward_goto_page": {
@@ -34,6 +33,22 @@
     "reward_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "reward_start_game": {
+      "desc": "RewardStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "reward_goto_page",
+        "global_home"
+      ]
     }
   }
 }

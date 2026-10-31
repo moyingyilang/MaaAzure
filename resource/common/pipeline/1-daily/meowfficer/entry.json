@@ -2,8 +2,7 @@
   "MeowfficerStart": {
     "action": "DoNothing",
     "next": [
-      "meowfficer_goto_menu",
-      "meowfficer_goto_page"
+      "meowfficer_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -73,5 +72,21 @@
       69
     ],
     "template": "meowfficer/meowfficer_buy_enter.png"
+  },
+  "meowfficer_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "MeowfficerStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "meowfficer_goto_menu",
+      "meowfficer_goto_page"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

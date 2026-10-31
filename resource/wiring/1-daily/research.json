@@ -4,24 +4,50 @@
   "file": "research/entry.json",
   "nodes": {
     "ResearchStart": {
-      "next": ["research_goto_menu", "research_goto_page"]
+      "next": [
+        "research_start_game"
+      ]
     },
     "research_goto_menu": {
       "use": "ui_main_goto_reshmenu",
-      "next": ["research_goto_page", "global_recover"]
+      "next": [
+        "research_goto_page",
+        "global_recover"
+      ]
     },
     "research_goto_page": {
       "use": "ui_reshmenu_goto_research",
-      "next": ["research_page", "global_recover"]
+      "next": [
+        "research_page",
+        "global_recover"
+      ]
     },
     "research_page": {
       "use": "research_start",
       "action": "DoNothing",
-      "next": ["research_done"]
+      "next": [
+        "research_done"
+      ]
     },
     "research_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "research_start_game": {
+      "desc": "ResearchStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "research_goto_menu",
+        "research_goto_page"
+      ]
     }
   }
 }

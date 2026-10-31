@@ -5,14 +5,29 @@
   "nodes": {
     "DailyStart": {
       "next": [
-        "page_daily",
-        "nav_campaign_menu_to_daily",
-        "nav_main_to_campaign_menu"
+        "daily_start_game"
       ]
     },
     "daily_done": {
       "recognition": "DirectHit",
       "next": []
+    },
+    "daily_start_game": {
+      "desc": "DailyStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "StartApp",
+        "param": {
+          "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+        }
+      },
+      "pre_delay": 0,
+      "post_delay": 3000,
+      "next": [
+        "page_daily",
+        "nav_campaign_menu_to_daily",
+        "nav_main_to_campaign_menu"
+      ]
     }
   }
 }

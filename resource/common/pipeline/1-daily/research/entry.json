@@ -2,8 +2,7 @@
   "ResearchStart": {
     "action": "DoNothing",
     "next": [
-      "research_goto_menu",
-      "research_goto_page"
+      "research_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -73,5 +72,21 @@
       28
     ],
     "template": "research/research_start.png"
+  },
+  "research_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "ResearchStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "research_goto_menu",
+      "research_goto_page"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   }
 }

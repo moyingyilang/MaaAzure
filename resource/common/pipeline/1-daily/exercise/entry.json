@@ -2,15 +2,30 @@
   "ExerciseStart": {
     "action": "DoNothing",
     "next": [
-      "page_exercise",
-      "nav_campaign_menu_to_exercise",
-      "nav_main_to_campaign_menu"
+      "exercise_start_game"
     ],
     "recognition": "DirectHit"
   },
   "exercise_done": {
     "action": "DoNothing",
     "next": [],
+    "recognition": "DirectHit"
+  },
+  "exercise_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "ExerciseStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "page_exercise",
+      "nav_campaign_menu_to_exercise",
+      "nav_main_to_campaign_menu"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
     "recognition": "DirectHit"
   }
 }

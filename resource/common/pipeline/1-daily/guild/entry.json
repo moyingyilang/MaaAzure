@@ -2,8 +2,7 @@
   "GuildStart": {
     "action": "DoNothing",
     "next": [
-      "guild_goto_page",
-      "global_home"
+      "guild_start_game"
     ],
     "recognition": "DirectHit"
   },
@@ -75,6 +74,22 @@
       41
     ],
     "template": "guild/guild_mission.png"
+  },
+  "guild_start_game": {
+    "action": {
+      "param": {
+        "package": "com.bilibili.azurlane/com.manjuu.azurlane.MainActivity"
+      },
+      "type": "StartApp"
+    },
+    "desc": "GuildStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
+    "next": [
+      "guild_goto_page",
+      "global_home"
+    ],
+    "post_delay": 3000,
+    "pre_delay": 0,
+    "recognition": "DirectHit"
   },
   "guild_supply_once": {
     "action": "Click",
