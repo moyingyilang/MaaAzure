@@ -51,7 +51,10 @@
       125,
       47
     ],
-    "template": "ui/ui_main_goto_guild.png"
+    "template": [
+      "ui/ui_main_goto_guild.png",
+      "ui_white/ui_white_main_goto_guild_white.png"
+    ]
   },
   "guild_login_announce": {
     "action": "Click",

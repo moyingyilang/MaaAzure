@@ -30,7 +30,10 @@
       19,
       50
     ],
-    "template": "ui/ui_main_goto_reward.png"
+    "template": [
+      "ui/ui_main_goto_reward.png",
+      "ui_white/ui_white_main_goto_reward_white.png"
+    ]
   },
   "tactical_goto_tab": {
     "action": "Click",
@@ -51,7 +54,10 @@
       63,
       28
     ],
-    "template": "ui/ui_reward_goto_tactical.png"
+    "template": [
+      "ui/ui_reward_goto_tactical.png",
+      "ui_white/ui_white_reward_goto_tactical_white.png"
+    ]
   },
   "tactical_login_announce": {
     "action": "Click",

@@ -30,7 +30,10 @@
       154,
       47
     ],
-    "template": "ui/ui_main_goto_reshmenu.png"
+    "template": [
+      "ui/ui_main_goto_reshmenu.png",
+      "ui_white/ui_white_main_goto_reshmenu_white.png"
+    ]
   },
   "research_goto_page": {
     "action": "Click",

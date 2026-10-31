@@ -30,7 +30,10 @@
       155,
       49
     ],
-    "template": "ui/ui_main_goto_build.png"
+    "template": [
+      "ui/ui_main_goto_build.png",
+      "ui_white/ui_white_main_goto_build_white.png"
+    ]
   },
   "gacha_login_announce": {
     "action": "Click",

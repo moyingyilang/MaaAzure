@@ -92,7 +92,10 @@
       150,
       45
     ],
-    "template": "ui/ui_main_goto_dormmenu.png"
+    "template": [
+      "ui/ui_main_goto_dormmenu.png",
+      "ui_white/ui_white_main_goto_dormmenu_white.png"
+    ]
   },
   "dorm_login_announce": {
     "action": "Click",

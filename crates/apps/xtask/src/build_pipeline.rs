@@ -155,6 +155,16 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
         if let Some(parent) = target.parent() {
             fs::create_dir_all(parent).map_err(|e| format!("建目录失败: {e}"))?;
         }
+        // 白色主题：ui 这一族有白色版本时，把 template 变成数组（任一命中即命中）
+        for (_, node) in out.iter_mut() {
+            let Some(obj) = node.as_object_mut() else { continue };
+            let Some(Value::String(tpl)) = obj.get("template").cloned() else { continue };
+            let Some(white) = white_theme_variant(&tpl) else { continue };
+            if opts.resource_dir.join("cn/image").join(&white).is_file() {
+                obj.insert("template".into(), json!([tpl, white]));
+            }
+        }
+
         let text = serde_json::to_string_pretty(&Value::Object(out))
             .map_err(|e| format!("序列化失败: {e}"))?;
         fs::write(&target, format!("{text}\n"))
@@ -170,6 +180,25 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
 }
 
 /// 收集 `<server>/pipeline/gen/**/*.json` 里的节点，按名字索引（先到先得，通常是 cn）。
+/// 深色主题模板 → 追加白色主题同名模板。
+///
+/// 游戏有「白色主题」设置，图标颜色完全不同；只用深色模板时，白色主题账号
+/// 永远认不出主界面（实测：`ui_white_main_goto_campaign_white` 命中 0.938，
+/// 而 `ui_main_goto_campaign` 完全不匹配）。
+///
+/// MaaFramework 的 `template` 支持数组，任一命中即算命中，所以直接把两份都放进去。
+fn white_theme_variant(template: &str) -> Option<String> {
+    // ui/main_goto_campaign.png → ui_white/main_goto_campaign_white.png
+    let (dir, file) = template.rsplit_once('/')?;
+    let stem = file.strip_suffix(".png")?;
+    // 深色文件名本身就以 ui_ 开头（ui_main_goto_campaign.png），
+    // 白色版本是 ui_white/ui_white_<去掉 ui_ 的部分>_white.png
+    let short = stem.strip_prefix("ui_").unwrap_or(stem);
+    let candidate = format!("ui_white/ui_white_{short}_white.png");
+    // 只有 ui 这一族有白色版本
+    if dir == "ui" { Some(candidate) } else { None }
+}
+
 /// 检查每个 `use` 目标在各服务器的 template 是否一致。
 ///
 /// 不一致的例子：`ui::CAMPAIGN_CHECK` 在 cn 是 png，在 en 是 gif 目录——

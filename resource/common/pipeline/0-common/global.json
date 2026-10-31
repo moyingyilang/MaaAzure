@@ -16,7 +16,10 @@
       139,
       140
     ],
-    "template": "ui/ui_main_goto_campaign.png"
+    "template": [
+      "ui/ui_main_goto_campaign.png",
+      "ui_white/ui_white_main_goto_campaign_white.png"
+    ]
   },
   "global_recover": {
     "action": "DoNothing",
