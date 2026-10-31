@@ -6,6 +6,11 @@
 # 判据：白色主题主界面按钮在 probe 里同时命中 >= 4 个（>0.9）即为主界面。
 # 这是**开发期探索脚本**，不参与运行时。
 set -u
+# ⚠️ 安全闸门：会真实注入点击；没有显式 opt-in 拒绝执行
+if [ "${MAAGUI_ALLOW_INPUT:-}" != "1" ]; then
+    echo "拒绝执行：该脚本会注入真实点击。确认目标无误后加 MAAGUI_ALLOW_INPUT=1 再跑。"
+    exit 2
+fi
 MAX="${1:-18}"
 SHOT=/data/local/tmp/seek.png
 HERE="$(cd "$(dirname "$0")" && pwd)"
