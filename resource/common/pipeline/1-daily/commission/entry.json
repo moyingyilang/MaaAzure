@@ -30,16 +30,36 @@
       68,
       17
     ],
-    "template": [
-      "ui/ui_reward_goto_commission.png",
-      "ui_white/ui_white_reward_goto_commission_white.png"
-    ]
+    "template": "ui/ui_reward_goto_commission.png"
+  },
+  "commission_goto_commission_white": {
+    "action": "Click",
+    "next": [
+      "commission_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      440,
+      278,
+      54,
+      18
+    ],
+    "target": [
+      440,
+      278,
+      54,
+      18
+    ],
+    "template": "ui_white/ui_white_reward_goto_commission_white.png"
   },
   "commission_goto_reward": {
     "action": "Click",
     "next": [
       "commission_goto_commission",
+      "commission_goto_commission_white",
       "commission_goto_reward",
+      "commission_goto_reward_white",
       "global_recover"
     ],
     "recognition": "TemplateMatch",
@@ -55,10 +75,31 @@
       19,
       50
     ],
-    "template": [
-      "ui/ui_main_goto_reward.png",
-      "ui_white/ui_white_main_goto_reward_white.png"
-    ]
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "commission_goto_reward_white": {
+    "action": "Click",
+    "next": [
+      "commission_goto_commission",
+      "commission_goto_commission_white",
+      "commission_goto_reward",
+      "commission_goto_reward_white",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "target": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "template": "ui_white/ui_white_main_goto_reward_white.png"
   },
   "commission_login_announce": {
     "action": "Click",
@@ -188,6 +229,7 @@
       "commission_login_game_update",
       "commission_login_enter",
       "commission_goto_reward",
+      "commission_goto_reward_white",
       "global_home"
     ],
     "post_delay": 0,

@@ -51,10 +51,28 @@
       125,
       47
     ],
-    "template": [
-      "ui/ui_main_goto_guild.png",
-      "ui_white/ui_white_main_goto_guild_white.png"
-    ]
+    "template": "ui/ui_main_goto_guild.png"
+  },
+  "guild_goto_page_white": {
+    "action": "Click",
+    "next": [
+      "guild_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1116,
+      656,
+      145,
+      47
+    ],
+    "target": [
+      1116,
+      656,
+      145,
+      47
+    ],
+    "template": "ui_white/ui_white_main_goto_guild_white.png"
   },
   "guild_login_announce": {
     "action": "Click",
@@ -176,6 +194,7 @@
       "guild_login_game_update",
       "guild_login_enter",
       "guild_goto_page",
+      "guild_goto_page_white",
       "global_home"
     ],
     "post_delay": 0,

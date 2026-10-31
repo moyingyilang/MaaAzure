@@ -240,6 +240,7 @@ fn main() -> ExitCode {
                     println!("写出文件        {}", s.written);
                     println!("缺失 use 目标   {}", s.missing.len());
                     println!("模板跨服不一致  {}", s.template_mismatch.len());
+                    println!("白色主题孪生    {}", s.white_twins);
                     for m in s.template_mismatch.iter().take(5) {
                         println!("  ! {m}");
                     }

@@ -30,10 +30,28 @@
       154,
       47
     ],
-    "template": [
-      "ui/ui_main_goto_reshmenu.png",
-      "ui_white/ui_white_main_goto_reshmenu_white.png"
-    ]
+    "template": "ui/ui_main_goto_reshmenu.png"
+  },
+  "research_goto_menu_white": {
+    "action": "Click",
+    "next": [
+      "research_goto_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      646,
+      656,
+      147,
+      47
+    ],
+    "target": [
+      646,
+      656,
+      147,
+      47
+    ],
+    "template": "ui_white/ui_white_main_goto_reshmenu_white.png"
   },
   "research_goto_page": {
     "action": "Click",
@@ -174,6 +192,7 @@
       "research_login_game_update",
       "research_login_enter",
       "research_goto_menu",
+      "research_goto_menu_white",
       "research_goto_page"
     ],
     "post_delay": 0,

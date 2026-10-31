@@ -51,10 +51,28 @@
       19,
       50
     ],
-    "template": [
-      "ui/ui_main_goto_reward.png",
-      "ui_white/ui_white_main_goto_reward_white.png"
-    ]
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "reward_goto_page_white": {
+    "action": "Click",
+    "next": [
+      "reward_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "target": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "template": "ui_white/ui_white_main_goto_reward_white.png"
   },
   "reward_login_announce": {
     "action": "Click",
@@ -175,6 +193,7 @@
       "reward_login_game_update",
       "reward_login_enter",
       "reward_goto_page",
+      "reward_goto_page_white",
       "global_home"
     ],
     "post_delay": 0,

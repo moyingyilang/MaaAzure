@@ -15,6 +15,7 @@
     "action": "Click",
     "next": [
       "tactical_goto_tab",
+      "tactical_goto_tab_white",
       "global_recover"
     ],
     "recognition": "TemplateMatch",
@@ -30,10 +31,29 @@
       19,
       50
     ],
-    "template": [
-      "ui/ui_main_goto_reward.png",
-      "ui_white/ui_white_main_goto_reward_white.png"
-    ]
+    "template": "ui/ui_main_goto_reward.png"
+  },
+  "tactical_goto_reward_white": {
+    "action": "Click",
+    "next": [
+      "tactical_goto_tab",
+      "tactical_goto_tab_white",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "target": [
+      11,
+      209,
+      19,
+      50
+    ],
+    "template": "ui_white/ui_white_main_goto_reward_white.png"
   },
   "tactical_goto_tab": {
     "action": "Click",
@@ -54,10 +74,28 @@
       63,
       28
     ],
-    "template": [
-      "ui/ui_reward_goto_tactical.png",
-      "ui_white/ui_white_reward_goto_tactical_white.png"
-    ]
+    "template": "ui/ui_reward_goto_tactical.png"
+  },
+  "tactical_goto_tab_white": {
+    "action": "Click",
+    "next": [
+      "tactical_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      442,
+      421,
+      50,
+      26
+    ],
+    "target": [
+      442,
+      421,
+      50,
+      26
+    ],
+    "template": "ui_white/ui_white_reward_goto_tactical_white.png"
   },
   "tactical_login_announce": {
     "action": "Click",
@@ -198,6 +236,7 @@
       "tactical_login_game_update",
       "tactical_login_enter",
       "tactical_goto_reward",
+      "tactical_goto_reward_white",
       "global_home"
     ],
     "post_delay": 0,

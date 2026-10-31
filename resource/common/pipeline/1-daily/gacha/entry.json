@@ -30,10 +30,28 @@
       155,
       49
     ],
-    "template": [
-      "ui/ui_main_goto_build.png",
-      "ui_white/ui_white_main_goto_build_white.png"
-    ]
+    "template": "ui/ui_main_goto_build.png"
+  },
+  "gacha_goto_page_white": {
+    "action": "Click",
+    "next": [
+      "gacha_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      959,
+      657,
+      144,
+      46
+    ],
+    "target": [
+      959,
+      657,
+      144,
+      46
+    ],
+    "template": "ui_white/ui_white_main_goto_build_white.png"
   },
   "gacha_login_announce": {
     "action": "Click",
@@ -153,6 +171,7 @@
       "gacha_login_game_update",
       "gacha_login_enter",
       "gacha_goto_page",
+      "gacha_goto_page_white",
       "global_home"
     ],
     "post_delay": 0,

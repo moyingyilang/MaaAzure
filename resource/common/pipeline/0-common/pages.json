@@ -60,10 +60,28 @@
       139,
       140
     ],
-    "template": [
-      "ui/ui_main_goto_campaign.png",
-      "ui_white/ui_white_main_goto_campaign_white.png"
-    ]
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "nav_main_to_campaign_menu_white": {
+    "action": "Click",
+    "next": [
+      "page_campaign_menu",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      529,
+      55,
+      28
+    ],
+    "target": [
+      1124,
+      437,
+      136,
+      142
+    ],
+    "template": "ui_white/ui_white_main_goto_campaign_white.png"
   },
   "page_campaign_menu": {
     "action": "DoNothing",
@@ -135,9 +153,24 @@
       243,
       66
     ],
-    "template": [
-      "ui/ui_main_goto_fleet.png",
-      "ui_white/ui_white_main_goto_fleet_white.png"
-    ]
+    "template": "ui/ui_main_goto_fleet.png"
+  },
+  "page_main_white": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1025,
+      437,
+      72,
+      142
+    ],
+    "target": [
+      1025,
+      437,
+      72,
+      142
+    ],
+    "template": "ui_white/ui_white_main_goto_fleet_white.png"
   }
 }

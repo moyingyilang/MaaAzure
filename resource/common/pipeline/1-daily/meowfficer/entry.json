@@ -30,10 +30,28 @@
       150,
       45
     ],
-    "template": [
-      "ui/ui_main_goto_dormmenu.png",
-      "ui_white/ui_white_main_goto_dormmenu_white.png"
-    ]
+    "template": "ui/ui_main_goto_dormmenu.png"
+  },
+  "meowfficer_goto_menu_white": {
+    "action": "Click",
+    "next": [
+      "meowfficer_goto_page",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      490,
+      656,
+      144,
+      46
+    ],
+    "target": [
+      490,
+      656,
+      144,
+      46
+    ],
+    "template": "ui_white/ui_white_main_goto_dormmenu_white.png"
   },
   "meowfficer_goto_page": {
     "action": "Click",
@@ -174,6 +192,7 @@
       "meowfficer_login_game_update",
       "meowfficer_login_enter",
       "meowfficer_goto_menu",
+      "meowfficer_goto_menu_white",
       "meowfficer_goto_page"
     ],
     "post_delay": 0,

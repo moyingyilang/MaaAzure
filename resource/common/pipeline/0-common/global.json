@@ -16,10 +16,25 @@
       139,
       140
     ],
-    "template": [
-      "ui/ui_main_goto_campaign.png",
-      "ui_white/ui_white_main_goto_campaign_white.png"
-    ]
+    "template": "ui/ui_main_goto_campaign.png"
+  },
+  "global_home_white": {
+    "action": "DoNothing",
+    "next": [],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1132,
+      529,
+      55,
+      28
+    ],
+    "target": [
+      1124,
+      437,
+      136,
+      142
+    ],
+    "template": "ui_white/ui_white_main_goto_campaign_white.png"
   },
   "global_recover": {
     "action": "DoNothing",

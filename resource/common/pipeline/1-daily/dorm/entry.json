@@ -92,10 +92,28 @@
       150,
       45
     ],
-    "template": [
-      "ui/ui_main_goto_dormmenu.png",
-      "ui_white/ui_white_main_goto_dormmenu_white.png"
-    ]
+    "template": "ui/ui_main_goto_dormmenu.png"
+  },
+  "dorm_goto_menu_white": {
+    "action": "Click",
+    "next": [
+      "dorm_goto_dorm",
+      "global_recover"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      490,
+      656,
+      144,
+      46
+    ],
+    "target": [
+      490,
+      656,
+      144,
+      46
+    ],
+    "template": "ui_white/ui_white_main_goto_dormmenu_white.png"
   },
   "dorm_login_announce": {
     "action": "Click",
@@ -217,6 +235,7 @@
       "dorm_login_game_update",
       "dorm_login_enter",
       "dorm_goto_menu",
+      "dorm_goto_menu_white",
       "dorm_goto_dorm"
     ],
     "post_delay": 0,

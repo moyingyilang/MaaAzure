@@ -61,6 +61,8 @@ pub struct Summary {
     pub missing: Vec<String>,
     /// 同一节点在不同服务器的模板形态不一致（文件 vs 目录）
     pub template_mismatch: Vec<String>,
+    /// 生成的白色主题孪生节点数
+    pub white_twins: usize,
 }
 
 /// 执行。
@@ -155,14 +157,13 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
         if let Some(parent) = target.parent() {
             fs::create_dir_all(parent).map_err(|e| format!("建目录失败: {e}"))?;
         }
-        // 白色主题：ui 这一族有白色版本时，把 template 变成数组（任一命中即命中）
-        for (_, node) in out.iter_mut() {
-            let Some(obj) = node.as_object_mut() else { continue };
-            let Some(Value::String(tpl)) = obj.get("template").cloned() else { continue };
-            let Some(white) = white_theme_variant(&tpl) else { continue };
-            if opts.resource_dir.join("cn/image").join(&white).is_file() {
-                obj.insert("template".into(), json!([tpl, white]));
-            }
+        // 白色主题的按钮位置与深色**不同**（实测 ui_main_goto_campaign 的 roi 是
+        // [1029,304,73,38]，白色版是 [1132,529,55,28]），所以不能靠「一个节点挂两个模板」，
+        // 必须生成成对的独立节点。
+        let twins = build_white_twins(&opts.resource_dir, &mut out);
+        if !twins.is_empty() {
+            add_white_to_next(&mut out, &twins);
+            sum.white_twins += twins.len();
         }
 
         let text = serde_json::to_string_pretty(&Value::Object(out))
@@ -180,7 +181,90 @@ pub fn run(opts: &Options) -> Result<Summary, String> {
 }
 
 /// 收集 `<server>/pipeline/gen/**/*.json` 里的节点，按名字索引（先到先得，通常是 cn）。
-/// 深色主题模板 → 追加白色主题同名模板。
+/// 为带白色孪生的节点生成 `<name>_white`，返回 (深色名, 白色名) 列表。
+fn build_white_twins(
+    resource_dir: &std::path::Path,
+    out: &mut Map<String, Value>,
+) -> Vec<(String, String)> {
+    use std::collections::HashMap;
+
+    // 模板路径 → 生成节点（用来查白色版的 roi/target）
+    let mut by_template: HashMap<String, Value> = HashMap::new();
+    let mut stack = vec![resource_dir.join("cn/pipeline/gen")];
+    while let Some(dir) = stack.pop() {
+        let Ok(rd) = fs::read_dir(&dir) else { continue };
+        for e in rd.flatten() {
+            let p = e.path();
+            if p.is_dir() {
+                stack.push(p);
+                continue;
+            }
+            let Ok(text) = fs::read_to_string(&p) else { continue };
+            let Ok(doc) = serde_json::from_str::<Value>(&text) else { continue };
+            if let Some(obj) = doc.as_object() {
+                for (k, v) in obj {
+                    if let Some(t) = v.get("template").and_then(Value::as_str) {
+                        by_template.insert(t.to_string(), v.clone());
+                    }
+                }
+            }
+        }
+    }
+
+    let mut twins = Vec::new();
+    let names: Vec<String> = out.keys().cloned().collect();
+    for name in names {
+        let Some(node) = out.get(&name).and_then(Value::as_object) else { continue };
+        let Some(tpl) = node.get("template").and_then(Value::as_str) else { continue };
+        let Some(white_tpl) = white_theme_variant(tpl) else { continue };
+        let Some(wbase) = by_template.get(&white_tpl) else { continue };
+
+        let mut twin = Map::new();
+        for key in ["recognition", "template", "roi", "target"] {
+            if let Some(v) = wbase.get(key) {
+                twin.insert(key.to_string(), v.clone());
+            }
+        }
+        // 动作/后继沿用深色节点
+        for key in ["action", "next", "timeout", "pre_delay", "post_delay", "desc"] {
+            if let Some(v) = node.get(key) {
+                twin.insert(key.to_string(), v.clone());
+            }
+        }
+        let twin_name = format!("{name}_white");
+        out.insert(twin_name.clone(), Value::Object(twin));
+        twins.push((name, twin_name));
+    }
+    twins
+}
+
+/// 把所有 `next` 列表里引用的深色节点，紧跟着补上它的白色孪生。
+fn add_white_to_next(out: &mut Map<String, Value>, twins: &[(String, String)]) {
+    use std::collections::HashMap;
+    let map: HashMap<&str, &str> = twins
+        .iter()
+        .map(|(d, w)| (d.as_str(), w.as_str()))
+        .collect();
+
+    for node in out.values_mut() {
+        let Some(obj) = node.as_object_mut() else { continue };
+        let Some(Value::Array(next)) = obj.get("next").cloned() else { continue };
+        let mut new_next: Vec<Value> = Vec::new();
+        for item in next {
+            if let Some(name) = item.as_str() {
+                new_next.push(item.clone());
+                if let Some(w) = map.get(name) {
+                    new_next.push(json!(w));
+                }
+            } else {
+                new_next.push(item);
+            }
+        }
+        obj.insert("next".into(), Value::Array(new_next));
+    }
+}
+
+/// 深色主题模板 → 白色主题同名模板路径。
 ///
 /// 游戏有「白色主题」设置，图标颜色完全不同；只用深色模板时，白色主题账号
 /// 永远认不出主界面（实测：`ui_white_main_goto_campaign_white` 命中 0.938，
