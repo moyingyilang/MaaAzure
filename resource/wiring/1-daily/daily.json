@@ -1,5 +1,5 @@
 {
-  "_note": "依据旧仓 module/ui/page.py：page_main --MAIN_GOTO_CAMPAIGN--> page_campaign_menu --CAMPAIGN_MENU_GOTO_DAILY--> page_daily。只读：到每日页即结束。",
+  "_note": "按上游 module/daily/daily.py 全量重写：goto_campaign→goto_tab→daily_page→daily_chain（get_items/skip/normal_run/automation_confirm/additional）→daily_combat→公共战斗层。未移植：DAILY_SKIP 的弹窗确认（handler_popup_confirm 跨服模板不一致）、OCR 剩余次数计数、潜艇每日跳过判断。",
   "layer": "1-daily",
   "file": "daily/entry.json",
   "nodes": {
@@ -202,58 +202,117 @@
         "daily_goto_campaign"
       ]
     },
+    "daily_goto_campaign": {
+      "desc": "主界面 → 出击",
+      "use": "ui_main_goto_campaign",
+      "next": [
+        "daily_goto_tab",
+        "global_recover"
+      ]
+    },
+    "daily_goto_tab": {
+      "desc": "出击 → 每日",
+      "use": "ui_campaign_menu_goto_daily",
+      "next": [
+        "daily_page",
+        "global_recover"
+      ]
+    },
     "daily_page": {
-      "desc": "每日任务页（上游 page_daily / DAILY_CHECK 作标志）",
+      "desc": "每日任务页（DAILY_CHECK 标志）",
       "use": "ui_daily_check",
       "action": "DoNothing",
       "next": [
-        "daily_check_locked",
-        "daily_enter",
-        "daily_done"
+        "daily_locked",
+        "daily_chain"
       ]
     },
-    "daily_check_locked": {
-      "desc": "每日任务未解锁（上游 DAILY_LOCKED）→ 返回",
+    "daily_locked": {
+      "desc": "每日锁定（上游 DAILY_LOCKED）→ 返回",
       "use": "daily_locked",
       "next": [
         "daily_back",
         "daily_done"
       ]
     },
-    "daily_enter": {
-      "desc": "进入每日任务（上游 DAILY_ENTER）",
-      "use": "daily_enter",
-      "post_delay": 1500,
+    "daily_get_items": {
+      "desc": "领取道具（上游 handle_get_items）",
+      "use": "handler_get_items_ship_1",
+      "post_delay": 1200,
       "next": [
-        "daily_mission_1",
-        "daily_page",
+        "daily_chain"
+      ]
+    },
+    "daily_skip": {
+      "desc": "使用每日跳过（上游 DAILY_USE_DAILY_SKIP）",
+      "use": "daily_skip",
+      "post_delay": 1200,
+      "next": [
+        "daily_chain"
+      ]
+    },
+    "daily_normal_run": {
+      "desc": "正常出击（上游 DAILY_NORMAL_RUN）",
+      "use": "daily_normal_run",
+      "post_delay": 1200,
+      "next": [
+        "daily_chain"
+      ]
+    },
+    "daily_automation_confirm": {
+      "desc": "自动战斗确认（handle_combat_automation_confirm）",
+      "use": "combat_automation_confirm",
+      "post_delay": 1200,
+      "next": [
+        "daily_chain"
+      ]
+    },
+    "daily_additional": {
+      "desc": "附加处理（handle_daily_additional）",
+      "use": "daily_entrance_emergency_module_development",
+      "post_delay": 1200,
+      "next": [
+        "daily_chain"
+      ]
+    },
+    "daily_chain": {
+      "desc": "每日主循环（上游 daily_execute）：每轮按顺序先命中先处理，最后进入战斗或结束",
+      "recognition": "DirectHit",
+      "timeout": 180000,
+      "next": [
+        "daily_get_items",
+        "daily_skip",
+        "daily_normal_run",
+        "daily_automation_confirm",
+        "daily_additional",
+        "daily_combat",
         "daily_done"
       ]
     },
-    "daily_mission_1": {
-      "desc": "选第 1 个每日任务（上游 DAILY_MISSION_LIST[stage-1]）",
-      "use": "daily_mission_1",
-      "post_delay": 1200,
+    "daily_combat": {
+      "desc": "进入战斗（上游 combat_appear）→ 交给公共战斗层",
+      "use": "combat_battle_preparation_with_overlay",
+      "action": "DoNothing",
       "next": [
-        "daily_fleet_next",
+        "battle_auto_on",
+        "daily_chain",
         "daily_done"
       ]
     },
     "daily_fleet_next": {
-      "desc": "选舰队（上游 ui_ensure_index + OCR_DAILY_FLEET_INDEX）",
+      "desc": "切到下一舰队（上游 DAILY_FLEET_NEXT）",
       "use": "daily_fleet_next",
-      "post_delay": 800,
+      "post_delay": 600,
       "next": [
-        "daily_normal_run",
-        "daily_done"
+        "daily_chain"
       ]
     },
-    "daily_normal_run": {
-      "desc": "出击（上游 combat()：战斗层尚未移植，先到准备界面）",
-      "use": "daily_normal_run",
-      "post_delay": 2000,
+    "daily_fleet_prev": {
+      "desc": "切到上一舰队（上游 DAILY_FLEET_PREV）",
+      "use": "daily_fleet_prev",
+      "post_delay": 600,
       "next": [
-        "daily_done"
+        "daily_chain"
       ]
     },
     "daily_back": {
@@ -268,23 +327,6 @@
       "desc": "本轮每日结束",
       "recognition": "DirectHit",
       "next": []
-    },
-    "daily_goto_campaign": {
-      "desc": "主界面 → 出击",
-      "use": "ui_main_goto_campaign",
-      "next": [
-        "daily_goto_tab",
-        "daily_goto_campaign_white",
-        "global_recover"
-      ]
-    },
-    "daily_goto_tab": {
-      "desc": "出击 → 每日",
-      "use": "ui_campaign_menu_goto_daily",
-      "next": [
-        "daily_page",
-        "global_recover"
-      ]
     }
   }
 }

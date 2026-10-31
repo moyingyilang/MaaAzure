@@ -6,6 +6,50 @@
     ],
     "recognition": "DirectHit"
   },
+  "daily_additional": {
+    "action": "Click",
+    "desc": "附加处理（handle_daily_additional）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 1200,
+    "recognition": "TemplateMatch",
+    "roi": [
+      606,
+      246,
+      67,
+      47
+    ],
+    "target": [
+      606,
+      246,
+      67,
+      47
+    ],
+    "template": "daily/daily_entrance_emergency_module_development.png"
+  },
+  "daily_automation_confirm": {
+    "action": "Click",
+    "desc": "自动战斗确认（handle_combat_automation_confirm）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 1200,
+    "recognition": "TemplateMatch",
+    "roi": [
+      591,
+      535,
+      95,
+      31
+    ],
+    "target": [
+      591,
+      535,
+      95,
+      31
+    ],
+    "template": "combat/combat_automation_confirm.png"
+  },
   "daily_back": {
     "action": "Click",
     "desc": "返回每日列表（上游 BACK_ARROW）",
@@ -50,28 +94,43 @@
     ],
     "template": "ui_white/ui_white_back_arrow_white.png"
   },
-  "daily_check_locked": {
-    "action": "Click",
-    "desc": "每日任务未解锁（上游 DAILY_LOCKED）→ 返回",
+  "daily_chain": {
+    "action": "DoNothing",
+    "desc": "每日主循环（上游 daily_execute）：每轮按顺序先命中先处理，最后进入战斗或结束",
     "next": [
-      "daily_back",
-      "daily_back_white",
+      "daily_get_items",
+      "daily_skip",
+      "daily_normal_run",
+      "daily_automation_confirm",
+      "daily_additional",
+      "daily_combat",
+      "daily_done"
+    ],
+    "recognition": "DirectHit",
+    "timeout": 180000
+  },
+  "daily_combat": {
+    "action": "DoNothing",
+    "desc": "进入战斗（上游 combat_appear）→ 交给公共战斗层",
+    "next": [
+      "battle_auto_on",
+      "daily_chain",
       "daily_done"
     ],
     "recognition": "TemplateMatch",
     "roi": [
-      710,
-      359,
-      38,
-      50
+      1058,
+      622,
+      168,
+      30
     ],
     "target": [
-      710,
-      359,
-      38,
-      50
+      1058,
+      622,
+      168,
+      30
     ],
-    "template": "daily/daily_locked.png"
+    "template": "combat/combat_battle_preparation_with_overlay.png"
   },
   "daily_done": {
     "action": "DoNothing",
@@ -79,38 +138,13 @@
     "next": [],
     "recognition": "DirectHit"
   },
-  "daily_enter": {
-    "action": "Click",
-    "desc": "进入每日任务（上游 DAILY_ENTER）",
-    "next": [
-      "daily_mission_1",
-      "daily_page",
-      "daily_done"
-    ],
-    "post_delay": 1500,
-    "recognition": "TemplateMatch",
-    "roi": [
-      534,
-      118,
-      210,
-      527
-    ],
-    "target": [
-      534,
-      118,
-      210,
-      527
-    ],
-    "template": "daily/daily_enter.png"
-  },
   "daily_fleet_next": {
     "action": "Click",
-    "desc": "选舰队（上游 ui_ensure_index + OCR_DAILY_FLEET_INDEX）",
+    "desc": "切到下一舰队（上游 DAILY_FLEET_NEXT）",
     "next": [
-      "daily_normal_run",
-      "daily_done"
+      "daily_chain"
     ],
-    "post_delay": 800,
+    "post_delay": 600,
     "recognition": "TemplateMatch",
     "roi": [
       914,
@@ -126,12 +160,55 @@
     ],
     "template": "daily/daily_fleet_next.png"
   },
+  "daily_fleet_prev": {
+    "action": "Click",
+    "desc": "切到上一舰队（上游 DAILY_FLEET_PREV）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 600,
+    "recognition": "TemplateMatch",
+    "roi": [
+      36,
+      325,
+      17,
+      29
+    ],
+    "target": [
+      36,
+      325,
+      17,
+      29
+    ],
+    "template": "daily/daily_fleet_prev.png"
+  },
+  "daily_get_items": {
+    "action": "Click",
+    "desc": "领取道具（上游 handle_get_items）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 1200,
+    "recognition": "TemplateMatch",
+    "roi": [
+      563,
+      193,
+      157,
+      26
+    ],
+    "target": [
+      563,
+      193,
+      157,
+      26
+    ],
+    "template": "handler/handler_get_items_ship_1.png"
+  },
   "daily_goto_campaign": {
     "action": "Click",
     "desc": "主界面 → 出击",
     "next": [
       "daily_goto_tab",
-      "daily_goto_campaign_white",
       "global_recover"
     ],
     "recognition": "TemplateMatch",
@@ -154,7 +231,6 @@
     "desc": "主界面 → 出击",
     "next": [
       "daily_goto_tab",
-      "daily_goto_campaign_white",
       "global_recover"
     ],
     "recognition": "TemplateMatch",
@@ -193,6 +269,29 @@
       52
     ],
     "template": "ui/ui_campaign_menu_goto_daily.png"
+  },
+  "daily_locked": {
+    "action": "Click",
+    "desc": "每日锁定（上游 DAILY_LOCKED）→ 返回",
+    "next": [
+      "daily_back",
+      "daily_back_white",
+      "daily_done"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      710,
+      359,
+      38,
+      50
+    ],
+    "target": [
+      710,
+      359,
+      38,
+      50
+    ],
+    "template": "daily/daily_locked.png"
   },
   "daily_login_agreement_confirm": {
     "action": "Click",
@@ -550,36 +649,13 @@
     ],
     "template": "handler/handler_login_return_sign.png"
   },
-  "daily_mission_1": {
-    "action": "Click",
-    "desc": "选第 1 个每日任务（上游 DAILY_MISSION_LIST[stage-1]）",
-    "next": [
-      "daily_fleet_next",
-      "daily_done"
-    ],
-    "post_delay": 1200,
-    "recognition": "TemplateMatch",
-    "roi": [
-      482,
-      140,
-      219,
-      115
-    ],
-    "target": [
-      482,
-      140,
-      219,
-      115
-    ],
-    "template": "daily/daily_mission_1.png"
-  },
   "daily_normal_run": {
     "action": "Click",
-    "desc": "出击（上游 combat()：战斗层尚未移植，先到准备界面）",
+    "desc": "正常出击（上游 DAILY_NORMAL_RUN）",
     "next": [
-      "daily_done"
+      "daily_chain"
     ],
-    "post_delay": 2000,
+    "post_delay": 1200,
     "recognition": "TemplateMatch",
     "roi": [
       409,
@@ -597,11 +673,10 @@
   },
   "daily_page": {
     "action": "DoNothing",
-    "desc": "每日任务页（上游 page_daily / DAILY_CHECK 作标志）",
+    "desc": "每日任务页（DAILY_CHECK 标志）",
     "next": [
-      "daily_check_locked",
-      "daily_enter",
-      "daily_done"
+      "daily_locked",
+      "daily_chain"
     ],
     "recognition": "TemplateMatch",
     "roi": [
@@ -617,6 +692,28 @@
       42
     ],
     "template": "ui/ui_daily_check.png"
+  },
+  "daily_skip": {
+    "action": "Click",
+    "desc": "使用每日跳过（上游 DAILY_USE_DAILY_SKIP）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 1200,
+    "recognition": "TemplateMatch",
+    "roi": [
+      1003,
+      295,
+      99,
+      54
+    ],
+    "target": [
+      1003,
+      295,
+      99,
+      54
+    ],
+    "template": "daily/daily_skip.png"
   },
   "daily_start_game": {
     "action": {

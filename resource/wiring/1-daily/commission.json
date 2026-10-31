@@ -209,7 +209,7 @@
       "next": [
         "commission_claim_exp",
         "commission_claim_reward",
-        "commission_start_new",
+        "commission_scan_top",
         "commission_done"
       ]
     },
@@ -270,6 +270,51 @@
       "next": [
         "commission_page",
         "global_recover"
+      ]
+    },
+    "commission_scan_top": {
+      "desc": "滚到列表顶部（上游 _commission_swipe_to_top）",
+      "use": "commission_scroll_area",
+      "action": "DoNothing",
+      "next": [
+        "commission_scan_swipe"
+      ]
+    },
+    "commission_scan_swipe": {
+      "desc": "向下扫一屏（上游 _commission_swipe：每次滑动看有没有新委托）",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "Swipe",
+        "param": {
+          "begin": [
+            1257,
+            660
+          ],
+          "end": [
+            1257,
+            190
+          ],
+          "duration": 600
+        }
+      },
+      "post_delay": 800,
+      "next": [
+        "commission_pick",
+        "commission_scan_swipe",
+        "commission_done"
+      ],
+      "max_hit": 6
+    },
+    "commission_pick": {
+      "desc": "选最优委托（上游 _commission_choose；这里交给 Rust CommissionPick）",
+      "recognition": "Custom",
+      "custom_recognition": "CommissionPick",
+      "action": "Click",
+      "post_delay": 1500,
+      "next": [
+        "commission_start_new",
+        "commission_page",
+        "commission_done"
       ]
     }
   }

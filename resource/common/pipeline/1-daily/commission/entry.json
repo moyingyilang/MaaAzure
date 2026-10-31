@@ -538,7 +538,7 @@
     "next": [
       "commission_claim_exp",
       "commission_claim_reward",
-      "commission_start_new",
+      "commission_scan_top",
       "commission_done"
     ],
     "recognition": "TemplateMatch",
@@ -555,6 +555,64 @@
       54
     ],
     "template": "commission/commission_daily.png"
+  },
+  "commission_pick": {
+    "action": "Click",
+    "custom_recognition": "CommissionPick",
+    "desc": "选最优委托（上游 _commission_choose；这里交给 Rust CommissionPick）",
+    "next": [
+      "commission_start_new",
+      "commission_page",
+      "commission_done"
+    ],
+    "post_delay": 1500,
+    "recognition": "Custom"
+  },
+  "commission_scan_swipe": {
+    "action": {
+      "param": {
+        "begin": [
+          1257,
+          660
+        ],
+        "duration": 600,
+        "end": [
+          1257,
+          190
+        ]
+      },
+      "type": "Swipe"
+    },
+    "desc": "向下扫一屏（上游 _commission_swipe：每次滑动看有没有新委托）",
+    "max_hit": 6,
+    "next": [
+      "commission_pick",
+      "commission_scan_swipe",
+      "commission_done"
+    ],
+    "post_delay": 800,
+    "recognition": "DirectHit"
+  },
+  "commission_scan_top": {
+    "action": "DoNothing",
+    "desc": "滚到列表顶部（上游 _commission_swipe_to_top）",
+    "next": [
+      "commission_scan_swipe"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1254,
+      77,
+      7,
+      599
+    ],
+    "target": [
+      1254,
+      77,
+      7,
+      599
+    ],
+    "template": "commission/commission_scroll_area.png"
   },
   "commission_start_game": {
     "action": {
