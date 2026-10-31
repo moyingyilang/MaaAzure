@@ -6869,7 +6869,8 @@ pub struct OpsiPreventActionPointOverflowScheduler {
 pub struct OpsiPreventActionPointOverflow {
     /// 旧键 `OpsiPreventActionPointOverflow.OpsiPreventActionPointOverflow.*`
     #[serde(rename = "OpsiPreventActionPointOverflow", default)]
-    pub opsi_prevent_action_point_overflow: Option<OpsiPreventActionPointOverflowOpsiPreventActionPointOverflow>,
+    pub opsi_prevent_action_point_overflow:
+        Option<OpsiPreventActionPointOverflowOpsiPreventActionPointOverflow>,
     /// 旧键 `OpsiPreventActionPointOverflow.Scheduler.*`
     #[serde(rename = "Scheduler", default)]
     pub scheduler: Option<OpsiPreventActionPointOverflowScheduler>,

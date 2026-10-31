@@ -11,6 +11,9 @@ path = "src/main.rs"
 
 [dependencies]
 maazure-core.workspace = true
+# 只为 dlopen(RTLD_GLOBAL)：Android 版把 agent server 的符号放在
+# libMaaAgentServer.so 里，必须先全局预加载，框架库的 shim 才能 dlsym 到
+libc = "0.2"
 maazure-runner.workspace = true
 
 [dependencies.maa-framework]

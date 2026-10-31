@@ -76,6 +76,48 @@ mod real {
         std::process::ExitCode::SUCCESS
     }
 
+    /// 把 `MAAFW_BINARY_PATH` 目录下的兄弟库全部 `dlopen(RTLD_GLOBAL)`。
+    ///
+    /// 为什么需要：Android 版把 `MaaAgentServerRegisterCustomRecognition` 这类符号放在
+    /// **libMaaAgentServer.so**，而 `maa_framework::load_library` 只加载
+    /// `libMaaFramework.so`。不预加载的话，注册回调时 shim 会 panic：
+    /// `Function MaaAgentServerRegisterCustomRecognition not loaded`。
+    fn preload_siblings() -> Result<(), String> {
+        let Ok(dir) = std::env::var("MAAFW_BINARY_PATH") else {
+            return Ok(());
+        };
+        let dir = std::path::PathBuf::from(dir);
+        const SIBLINGS: [&str; 4] = [
+            "libMaaAgentServer.so",
+            "libMaaAgentClient.so",
+            "libMaaToolkit.so",
+            "libMaaUtils.so",
+        ];
+        for name in SIBLINGS {
+            let path = dir.join(name);
+            if !path.is_file() {
+                continue;
+            }
+            let Ok(c_path) = std::ffi::CString::new(path.to_string_lossy().as_bytes()) else {
+                continue;
+            };
+            // RTLD_NOW(2) | RTLD_GLOBAL(0x100)
+            let handle = unsafe { libc::dlopen(c_path.as_ptr(), 2 | 0x100) };
+            if handle.is_null() {
+                let err = unsafe {
+                    let e = libc::dlerror();
+                    if e.is_null() {
+                        "未知错误".to_string()
+                    } else {
+                        std::ffi::CStr::from_ptr(e).to_string_lossy().to_string()
+                    }
+                };
+                return Err(format!("dlopen {name} 失败: {err}"));
+            }
+        }
+        Ok(())
+    }
+
     /// 从 `MAAFW_BINARY_PATH`（外壳注入）找到 MaaFramework 动态库并加载。
     ///
     /// Android 上外壳把 `.so` 放在它自己的 native lib 目录里，文件名是
