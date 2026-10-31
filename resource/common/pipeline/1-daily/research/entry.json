@@ -53,6 +53,90 @@
     ],
     "template": "ui/ui_reshmenu_goto_research.png"
   },
+  "research_login_announce": {
+    "action": "Click",
+    "desc": "公告弹窗：关闭（research 专用，点完回到 research_start_game）",
+    "next": [
+      "research_start_game"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1160,
+      45,
+      67,
+      45
+    ],
+    "target": [
+      1160,
+      61,
+      30,
+      29
+    ],
+    "template": "handler/handler_login_announce.png"
+  },
+  "research_login_announce_2": {
+    "action": "Click",
+    "desc": "二级公告：关闭（research 专用，点完回到 research_start_game）",
+    "next": [
+      "research_start_game"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1193,
+      83,
+      22,
+      22
+    ],
+    "target": [
+      1171,
+      83,
+      22,
+      22
+    ],
+    "template": "handler/handler_login_announce_2.png"
+  },
+  "research_login_enter": {
+    "action": "Click",
+    "desc": "登录界面：点一下进入（research 专用，点完回到 research_start_game）",
+    "next": [
+      "research_start_game"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1214,
+      653,
+      54,
+      56
+    ],
+    "target": [
+      416,
+      294,
+      118,
+      106
+    ],
+    "template": "handler/handler_login_check.png"
+  },
+  "research_login_game_update": {
+    "action": "Click",
+    "desc": "游戏更新弹窗：关闭（research 专用，点完回到 research_start_game）",
+    "next": [
+      "research_start_game"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      700,
+      471,
+      173,
+      58
+    ],
+    "target": [
+      700,
+      471,
+      173,
+      58
+    ],
+    "template": "handler/handler_login_game_update.png"
+  },
   "research_page": {
     "action": "DoNothing",
     "next": [
@@ -82,11 +166,16 @@
     },
     "desc": "ResearchStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
     "next": [
+      "research_login_announce_2",
+      "research_login_announce",
+      "research_login_game_update",
+      "research_login_enter",
       "research_goto_menu",
       "research_goto_page"
     ],
-    "post_delay": 3000,
+    "post_delay": 0,
     "pre_delay": 0,
-    "recognition": "DirectHit"
+    "recognition": "DirectHit",
+    "timeout": 180000
   }
 }

@@ -53,19 +53,43 @@
         }
       },
       "pre_delay": 0,
-      "post_delay": 3000,
+      "post_delay": 0,
       "next": [
-        "commission_wait_loaded"
-      ]
-    },
-    "commission_wait_loaded": {
-      "desc": "等游戏加载到主界面：长超时，识别主界面标志",
-      "use": "ui_main_goto_campaign",
-      "action": "DoNothing",
-      "timeout": 180000,
-      "next": [
+        "commission_login_announce_2",
+        "commission_login_announce",
+        "commission_login_game_update",
+        "commission_login_enter",
         "commission_goto_reward",
         "global_home"
+      ],
+      "timeout": 180000
+    },
+    "commission_login_announce_2": {
+      "desc": "二级公告：关闭（commission 专用，点完回到 commission_start_game）",
+      "use": "handler_login_announce_2",
+      "next": [
+        "commission_start_game"
+      ]
+    },
+    "commission_login_announce": {
+      "desc": "公告弹窗：关闭（commission 专用，点完回到 commission_start_game）",
+      "use": "handler_login_announce",
+      "next": [
+        "commission_start_game"
+      ]
+    },
+    "commission_login_game_update": {
+      "desc": "游戏更新弹窗：关闭（commission 专用，点完回到 commission_start_game）",
+      "use": "handler_login_game_update",
+      "next": [
+        "commission_start_game"
+      ]
+    },
+    "commission_login_enter": {
+      "desc": "登录界面：点一下进入（commission 专用，点完回到 commission_start_game）",
+      "use": "handler_login_check",
+      "next": [
+        "commission_start_game"
       ]
     }
   }

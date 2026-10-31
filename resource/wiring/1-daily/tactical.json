@@ -50,10 +50,43 @@
         }
       },
       "pre_delay": 0,
-      "post_delay": 3000,
+      "post_delay": 0,
       "next": [
+        "tactical_login_announce_2",
+        "tactical_login_announce",
+        "tactical_login_game_update",
+        "tactical_login_enter",
         "tactical_goto_reward",
         "global_home"
+      ],
+      "timeout": 180000
+    },
+    "tactical_login_announce_2": {
+      "desc": "二级公告：关闭（tactical 专用，点完回到 tactical_start_game）",
+      "use": "handler_login_announce_2",
+      "next": [
+        "tactical_start_game"
+      ]
+    },
+    "tactical_login_announce": {
+      "desc": "公告弹窗：关闭（tactical 专用，点完回到 tactical_start_game）",
+      "use": "handler_login_announce",
+      "next": [
+        "tactical_start_game"
+      ]
+    },
+    "tactical_login_game_update": {
+      "desc": "游戏更新弹窗：关闭（tactical 专用，点完回到 tactical_start_game）",
+      "use": "handler_login_game_update",
+      "next": [
+        "tactical_start_game"
+      ]
+    },
+    "tactical_login_enter": {
+      "desc": "登录界面：点一下进入（tactical 专用，点完回到 tactical_start_game）",
+      "use": "handler_login_check",
+      "next": [
+        "tactical_start_game"
       ]
     }
   }

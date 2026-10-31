@@ -34,8 +34,8 @@ display:
   presets:
     - { width: 1280, height: 720, dpi: 240 }
     - { width: 1920, height: 1080, dpi: 280 }
-  # 这台设备上游戏在虚拟屏里渲染成全黑（进程随后退出），先用前台模式验证链路
-  foreground: true
+  # 后台模式：必须在 VD 里跑，前台模式根本不会创建虚拟屏（实测 VD 数量恒为 0）
+  foreground: false
 
 # agent：我们是编译好的 ELF，放 jniLibs（文件名必须是 lib*.so）
 agent:

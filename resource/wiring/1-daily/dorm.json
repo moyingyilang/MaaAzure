@@ -58,10 +58,43 @@
         }
       },
       "pre_delay": 0,
-      "post_delay": 3000,
+      "post_delay": 0,
       "next": [
+        "dorm_login_announce_2",
+        "dorm_login_announce",
+        "dorm_login_game_update",
+        "dorm_login_enter",
         "dorm_goto_menu",
         "dorm_goto_dorm"
+      ],
+      "timeout": 180000
+    },
+    "dorm_login_announce_2": {
+      "desc": "二级公告：关闭（dorm 专用，点完回到 dorm_start_game）",
+      "use": "handler_login_announce_2",
+      "next": [
+        "dorm_start_game"
+      ]
+    },
+    "dorm_login_announce": {
+      "desc": "公告弹窗：关闭（dorm 专用，点完回到 dorm_start_game）",
+      "use": "handler_login_announce",
+      "next": [
+        "dorm_start_game"
+      ]
+    },
+    "dorm_login_game_update": {
+      "desc": "游戏更新弹窗：关闭（dorm 专用，点完回到 dorm_start_game）",
+      "use": "handler_login_game_update",
+      "next": [
+        "dorm_start_game"
+      ]
+    },
+    "dorm_login_enter": {
+      "desc": "登录界面：点一下进入（dorm 专用，点完回到 dorm_start_game）",
+      "use": "handler_login_check",
+      "next": [
+        "dorm_start_game"
       ]
     }
   }
