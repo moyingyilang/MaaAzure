@@ -40,7 +40,28 @@ say "阶段 1/4：预编译 native 模块"
 say "阶段 2/4：同步资源与 agent 到 jniLibs"
 ls -l "$MAAFW/app/src/main/jniLibs/arm64-v8a"
 
-say "阶段 3/4：gradle :app:assembleRelease（verbose）"
+say "阶段 3/4：写入版本号并 gradle 出包"
+# 版本号唯一真源是 Android/version.txt（未发布 0.x.y，正式版 1.x.y 起）。
+# MaaFwApp 默认用 git describe 当 versionName（会显示成 7e2dc7d 这种哈希），
+# 这里覆盖成我们自己的版本号，versionCode 用 major*10000+minor*100+patch。
+VER=$(cat "$HERE/version.txt" 2>/dev/null || echo "0.1.0")
+MAJ=$(echo "$VER" | cut -d. -f1); MIN=$(echo "$VER" | cut -d. -f2); PAT=$(echo "$VER" | cut -d. -f3)
+CODE=$((MAJ * 10000 + MIN * 100 + PAT))
+echo "版本 $VER（versionCode $CODE）"
+python3 - "$MAAFW/app/build.gradle.kts" "$VER" "$CODE" <<'PYEOF'
+import re, sys
+path, ver, code = sys.argv[1], sys.argv[2], sys.argv[3]
+text = open(path, encoding='utf-8').read()
+block = f'        versionCode = {code}\n        versionName = "{ver}"\n'
+if 'versionName = "' in text and 'MAAGUI_VERSION_BLOCK' not in text:
+    text = re.sub(r'\n?\s*versionCode = \d+\n\s*versionName = "[^"]*"\n', '\n', text)
+if 'MAAGUI_VERSION_BLOCK' not in text:
+    text = text.replace('    defaultConfig {\n', '    defaultConfig {\n        // MAAGUI_VERSION_BLOCK（脚本写入，勿手改）\n' + block, 1)
+open(path, 'w', encoding='utf-8').write(text)
+print('已写入 versionName/versionCode')
+PYEOF
+
+
 # 先修属主：chroot 里以 root 跑 gradle，产物会变成 root 所有，
 # 不修下一次宿主侧读不了（build dir 里已出现过 Permission denied）
 chown -R 10446:10446 "$MAAFW" 2>/dev/null

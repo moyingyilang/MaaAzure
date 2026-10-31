@@ -38,54 +38,186 @@
       "pre_delay": 0,
       "post_delay": 0,
       "next": [
-        "gacha_login_announce_2",
-        "gacha_login_announce",
-        "gacha_login_game_update",
-        "gacha_login_enter",
-        "gacha_goto_page",
-        "global_home"
+        "gacha_login_chain"
       ],
       "timeout": 180000
     },
-    "gacha_login_announce_2": {
-      "desc": "二级公告：关闭（gacha 专用，点完回到 gacha_start_game）",
-      "use": "handler_login_announce_2",
-      "next": [
-        "gacha_start_game"
-      ],
-      "post_delay": 4000,
-      "rate_limit": 6000,
-      "max_hit": 2
-    },
-    "gacha_login_announce": {
-      "desc": "公告弹窗：关闭（gacha 专用，点完回到 gacha_start_game）",
-      "use": "handler_login_announce",
-      "next": [
-        "gacha_start_game"
-      ],
-      "post_delay": 4000,
-      "rate_limit": 6000,
-      "max_hit": 2
-    },
-    "gacha_login_game_update": {
-      "desc": "游戏更新弹窗：关闭（gacha 专用，点完回到 gacha_start_game）",
-      "use": "handler_login_game_update",
-      "next": [
-        "gacha_start_game"
-      ],
-      "post_delay": 4000,
-      "rate_limit": 6000,
-      "max_hit": 2
-    },
-    "gacha_login_enter": {
-      "desc": "登录界面：点一下进入（gacha 专用，点完回到 gacha_start_game）",
+    "gacha_login_login_check": {
+      "desc": "登录界面：点一下进入（原项目 login.py 顺序）",
       "use": "handler_login_check",
       "next": [
-        "gacha_start_game"
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_no_respond": {
+      "desc": "模拟器无响应：点掉（原项目 login.py 顺序）",
+      "use": "handler_android_no_respond",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_announce": {
+      "desc": "公告：关闭（原项目 login.py 顺序）",
+      "use": "handler_login_announce",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_announce_2": {
+      "desc": "二级公告：关闭（原项目 login.py 顺序）",
+      "use": "handler_login_announce_2",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_event_list_back": {
+      "desc": "活动列表页：返回（原项目点 BACK_ARROW）（原项目 login.py 顺序）",
+      "use": "ui_event_list_check",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_maintenance": {
+      "desc": "维护公告：关闭（原项目 login.py 顺序）",
+      "use": "handler_maintenance_announce",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_game_update": {
+      "desc": "更新弹窗：关闭（原项目 login.py 顺序）",
+      "use": "handler_login_game_update",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_return_sign": {
+      "desc": "回归玩家签到：关闭（原项目 login.py 顺序）",
+      "use": "handler_login_return_sign",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_return_info": {
+      "desc": "回归玩家弹窗：关闭（原项目 login.py 顺序）",
+      "use": "handler_login_return_info",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_avatar_expired": {
+      "desc": "头像过期：关闭（原项目 login.py 顺序）",
+      "use": "handler_avatar_expired",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_goto_main": {
+      "desc": "回主界面（原项目 login.py 顺序）",
+      "use": "ui_goto_main",
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_agreement_swipe1": {
+      "recognition": "ColorMatch",
+      "roi": [
+        640,
+        360,
+        640,
+        360
       ],
-      "post_delay": 15000,
-      "rate_limit": 20000,
-      "max_hit": 1
+      "expected": [
+        [
+          78,
+          189,
+          234
+        ]
+      ],
+      "rating": 0.85,
+      "desc": "CN 用户协议：第一次上滑",
+      "action": {
+        "type": "Swipe",
+        "param": {
+          "begin": [
+            635,
+            430
+          ],
+          "end": [
+            635,
+            280
+          ],
+          "duration": 400
+        }
+      },
+      "next": [
+        "gacha_login_agreement_swipe2"
+      ]
+    },
+    "gacha_login_agreement_swipe2": {
+      "desc": "CN 用户协议：第二次上滑",
+      "recognition": "DirectHit",
+      "action": {
+        "type": "Swipe",
+        "param": {
+          "begin": [
+            635,
+            430
+          ],
+          "end": [
+            635,
+            280
+          ],
+          "duration": 400
+        }
+      },
+      "next": [
+        "gacha_login_agreement_confirm"
+      ]
+    },
+    "gacha_login_agreement_confirm": {
+      "recognition": "ColorMatch",
+      "roi": [
+        640,
+        360,
+        640,
+        360
+      ],
+      "expected": [
+        [
+          78,
+          189,
+          234
+        ]
+      ],
+      "rating": 0.85,
+      "desc": "CN 用户协议/登录确认：点右半屏蓝色按钮",
+      "action": "Click",
+      "post_delay": 8000,
+      "next": [
+        "gacha_login_chain"
+      ]
+    },
+    "gacha_login_chain": {
+      "desc": "gacha 登录循环（照 login.py：每轮按顺序先命中先处理，再回主界面）",
+      "recognition": "DirectHit",
+      "timeout": 180000,
+      "next": [
+        "gacha_login_login_check",
+        "gacha_login_no_respond",
+        "gacha_login_announce",
+        "gacha_login_announce_2",
+        "gacha_login_event_list_back",
+        "gacha_login_maintenance",
+        "gacha_login_game_update",
+        "gacha_login_return_sign",
+        "gacha_login_agreement_swipe1",
+        "gacha_login_return_info",
+        "gacha_login_avatar_expired",
+        "gacha_login_goto_main",
+        "gacha_goto_page",
+        "global_home"
+      ]
     }
   }
 }

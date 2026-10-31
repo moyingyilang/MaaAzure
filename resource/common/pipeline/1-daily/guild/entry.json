@@ -74,15 +74,91 @@
     ],
     "template": "ui_white/ui_white_main_goto_guild_white.png"
   },
+  "guild_login_agreement_confirm": {
+    "action": "Click",
+    "desc": "CN 用户协议/登录确认：点右半屏蓝色按钮",
+    "expected": [
+      [
+        78,
+        189,
+        234
+      ]
+    ],
+    "next": [
+      "guild_login_chain"
+    ],
+    "post_delay": 8000,
+    "rating": 0.85,
+    "recognition": "ColorMatch",
+    "roi": [
+      640,
+      360,
+      640,
+      360
+    ]
+  },
+  "guild_login_agreement_swipe1": {
+    "action": {
+      "param": {
+        "begin": [
+          635,
+          430
+        ],
+        "duration": 400,
+        "end": [
+          635,
+          280
+        ]
+      },
+      "type": "Swipe"
+    },
+    "desc": "CN 用户协议：第一次上滑",
+    "expected": [
+      [
+        78,
+        189,
+        234
+      ]
+    ],
+    "next": [
+      "guild_login_agreement_swipe2"
+    ],
+    "rating": 0.85,
+    "recognition": "ColorMatch",
+    "roi": [
+      640,
+      360,
+      640,
+      360
+    ]
+  },
+  "guild_login_agreement_swipe2": {
+    "action": {
+      "param": {
+        "begin": [
+          635,
+          430
+        ],
+        "duration": 400,
+        "end": [
+          635,
+          280
+        ]
+      },
+      "type": "Swipe"
+    },
+    "desc": "CN 用户协议：第二次上滑",
+    "next": [
+      "guild_login_agreement_confirm"
+    ],
+    "recognition": "DirectHit"
+  },
   "guild_login_announce": {
     "action": "Click",
-    "desc": "公告弹窗：关闭（guild 专用，点完回到 guild_start_game）",
-    "max_hit": 2,
+    "desc": "公告：关闭（原项目 login.py 顺序）",
     "next": [
-      "guild_start_game"
+      "guild_login_chain"
     ],
-    "post_delay": 4000,
-    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
       1160,
@@ -100,13 +176,10 @@
   },
   "guild_login_announce_2": {
     "action": "Click",
-    "desc": "二级公告：关闭（guild 专用，点完回到 guild_start_game）",
-    "max_hit": 2,
+    "desc": "二级公告：关闭（原项目 login.py 顺序）",
     "next": [
-      "guild_start_game"
+      "guild_login_chain"
     ],
-    "post_delay": 4000,
-    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
       1193,
@@ -122,15 +195,141 @@
     ],
     "template": "handler/handler_login_announce_2.png"
   },
-  "guild_login_enter": {
+  "guild_login_avatar_expired": {
     "action": "Click",
-    "desc": "登录界面：点一下进入（guild 专用，点完回到 guild_start_game）",
-    "max_hit": 1,
+    "desc": "头像过期：关闭（原项目 login.py 顺序）",
     "next": [
-      "guild_start_game"
+      "guild_login_chain"
     ],
-    "post_delay": 15000,
-    "rate_limit": 20000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      641,
+      567,
+      72,
+      31
+    ],
+    "target": [
+      641,
+      567,
+      72,
+      31
+    ],
+    "template": "handler/handler_avatar_expired.png"
+  },
+  "guild_login_chain": {
+    "action": "DoNothing",
+    "desc": "guild 登录循环（照 login.py：每轮按顺序先命中先处理，再回主界面）",
+    "next": [
+      "guild_login_login_check",
+      "guild_login_no_respond",
+      "guild_login_announce",
+      "guild_login_announce_2",
+      "guild_login_event_list_back",
+      "guild_login_maintenance",
+      "guild_login_game_update",
+      "guild_login_return_sign",
+      "guild_login_agreement_swipe1",
+      "guild_login_return_info",
+      "guild_login_avatar_expired",
+      "guild_login_goto_main",
+      "guild_login_goto_main_white",
+      "guild_goto_page",
+      "guild_goto_page_white",
+      "global_home"
+    ],
+    "recognition": "DirectHit",
+    "timeout": 180000
+  },
+  "guild_login_event_list_back": {
+    "action": "Click",
+    "desc": "活动列表页：返回（原项目点 BACK_ARROW）（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      123,
+      15,
+      109,
+      24
+    ],
+    "target": [
+      123,
+      15,
+      109,
+      24
+    ],
+    "template": "ui/ui_event_list_check.png"
+  },
+  "guild_login_game_update": {
+    "action": "Click",
+    "desc": "更新弹窗：关闭（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      700,
+      471,
+      173,
+      58
+    ],
+    "target": [
+      700,
+      471,
+      173,
+      58
+    ],
+    "template": "handler/handler_login_game_update.png"
+  },
+  "guild_login_goto_main": {
+    "action": "Click",
+    "desc": "回主界面（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1230,
+      17,
+      23,
+      28
+    ],
+    "target": [
+      1228,
+      18,
+      27,
+      31
+    ],
+    "template": "ui/ui_goto_main.png"
+  },
+  "guild_login_goto_main_white": {
+    "action": "Click",
+    "desc": "回主界面（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1211,
+      24,
+      28,
+      23
+    ],
+    "target": [
+      1211,
+      24,
+      28,
+      23
+    ],
+    "template": "ui_white/ui_white_goto_main_white.png"
+  },
+  "guild_login_login_check": {
+    "action": "Click",
+    "desc": "登录界面：点一下进入（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
     "recognition": "TemplateMatch",
     "roi": [
       1214,
@@ -146,29 +345,89 @@
     ],
     "template": "handler/handler_login_check.png"
   },
-  "guild_login_game_update": {
+  "guild_login_maintenance": {
     "action": "Click",
-    "desc": "游戏更新弹窗：关闭（guild 专用，点完回到 guild_start_game）",
-    "max_hit": 2,
+    "desc": "维护公告：关闭（原项目 login.py 顺序）",
     "next": [
-      "guild_start_game"
+      "guild_login_chain"
     ],
-    "post_delay": 4000,
-    "rate_limit": 6000,
     "recognition": "TemplateMatch",
     "roi": [
-      700,
-      471,
-      173,
-      58
+      923,
+      141,
+      67,
+      45
     ],
     "target": [
-      700,
-      471,
-      173,
-      58
+      923,
+      141,
+      67,
+      45
     ],
-    "template": "handler/handler_login_game_update.png"
+    "template": "handler/handler_maintenance_announce.png"
+  },
+  "guild_login_no_respond": {
+    "action": "Click",
+    "desc": "模拟器无响应：点掉（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      341,
+      433,
+      50,
+      39
+    ],
+    "target": [
+      341,
+      433,
+      50,
+      39
+    ],
+    "template": "handler/handler_android_no_respond.png"
+  },
+  "guild_login_return_info": {
+    "action": "Click",
+    "desc": "回归玩家弹窗：关闭（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      960,
+      123,
+      198,
+      210
+    ],
+    "target": [
+      960,
+      123,
+      198,
+      210
+    ],
+    "template": "handler/handler_login_return_info.png"
+  },
+  "guild_login_return_sign": {
+    "action": "Click",
+    "desc": "回归玩家签到：关闭（原项目 login.py 顺序）",
+    "next": [
+      "guild_login_chain"
+    ],
+    "recognition": "TemplateMatch",
+    "roi": [
+      1,
+      7,
+      103,
+      40
+    ],
+    "target": [
+      1,
+      7,
+      103,
+      40
+    ],
+    "template": "handler/handler_login_return_sign.png"
   },
   "guild_page": {
     "action": "DoNothing",
@@ -201,13 +460,7 @@
     },
     "desc": "GuildStart 之前先把游戏拉到虚拟屏（MaaEnd 的 StartApp 写法）",
     "next": [
-      "guild_login_announce_2",
-      "guild_login_announce",
-      "guild_login_game_update",
-      "guild_login_enter",
-      "guild_goto_page",
-      "guild_goto_page_white",
-      "global_home"
+      "guild_login_chain"
     ],
     "post_delay": 0,
     "pre_delay": 0,
