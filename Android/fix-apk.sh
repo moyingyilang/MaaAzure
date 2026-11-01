@@ -25,7 +25,7 @@ zip -q -X -r ../app-merged.apk AndroidManifest.xml resources.arsc \
     classes.dex classes2.dex res assets lib kotlin org META-INF
 cd ..
 "$BT/zipalign" -f -p 4 app-merged.apk app-aligned.apk
-sh "$BT/apksigner" sign --ks "$KS" --ks-pass pass:maazure --key-pass pass:maazure \
+sh "$BT/apksigner" sign --ks "$KS" --ks-pass pass:maazure --key-pass pass:maazure --ks-key-alias maaazure \
     --min-sdk-version 26 --out app-signed.apk app-aligned.apk
 sh "$BT/apksigner" verify app-signed.apk && echo "签名校验通过"
 "$BT/aapt2" dump badging app-signed.apk | head -3
