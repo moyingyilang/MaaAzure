@@ -12,6 +12,7 @@ use maa_framework::sys;
 use maazure_daily::{CommissionSlot, pick_commission};
 use maazure_vision::parse_duration_secs;
 
+use crate::commission_scan::{ScanAccumulator, ScannedCommission};
 use crate::ocr_detail::{extract_text, parse_slots};
 
 /// 委托卡片默认的四个槽位（1280×720 下的列表区）。
@@ -114,4 +115,95 @@ fn ocr_text(context: &Context, image: &MaaImageBuffer, roi: &[i32; 4]) -> Option
         return None;
     }
     extract_text(&detail.detail)
+}
+
+
+/// `CommissionScan`：委托列表的**跨帧累积**识别。
+///
+/// MaaFW 节点无状态，做不了「扫 15 屏再合并」，所以累积放在这里，
+/// 用全局状态跨帧保存（同一个 agent 进程内有效）。
+///
+/// Pipeline 侧：
+///
+/// ```jsonc
+/// "commission_scan_swipe": {
+///   "recognition": "Custom",
+///   "custom_recognition": "CommissionScan",
+///   "custom_recognition_param": "{"slots": [[300,180,980,260], ...]}",
+///   "action": { "type": "Swipe", ... },
+///   "next": ["commission_scan_swipe", "commission_pick"]
+/// }
+/// ```
+///
+/// 语义：**命中 = 这一帧出现了还没见过的委托**。
+/// 滑到底时不再命中，`next` 自然落到 `commission_pick`。
+pub struct CommissionScan;
+
+/// 全局累积器。切任务时通过 `reset` 清空（见 `commission_scan_reset`）。
+static SCAN: std::sync::Mutex<Option<ScanAccumulator>> = std::sync::Mutex::new(None);
+
+/// 清空累积状态。任务开始时调用一次。
+pub fn commission_scan_reset() {
+    if let Ok(mut g) = SCAN.lock() {
+        *g = Some(ScanAccumulator::default());
+    }
+}
+
+/// 读出当前累积结果（给 CommissionPick 用）。
+pub fn commission_scan_entries() -> Vec<ScannedCommission> {
+    SCAN.lock()
+        .ok()
+        .and_then(|g| g.as_ref().map(|a| a.entries().to_vec()))
+        .unwrap_or_default()
+}
+
+impl CustomRecognition for CommissionScan {
+    fn analyze(
+        &self,
+        context: &Context,
+        _task_id: sys::MaaTaskId,
+        _node_name: &str,
+        _custom_recognition_name: &str,
+        custom_recognition_param: &str,
+        image: &MaaImageBuffer,
+        _roi: &Rect,
+    ) -> Option<(Rect, String)> {
+        let slots_cfg =
+            parse_slots(custom_recognition_param).unwrap_or_else(|| DEFAULT_SLOTS.to_vec());
+
+        let mut frame = Vec::with_capacity(slots_cfg.len());
+        for roi in &slots_cfg {
+            let text = match ocr_text(context, image, roi) {
+                Some(t) if !t.trim().is_empty() => t,
+                _ => continue,
+            };
+            frame.push(ScannedCommission {
+                y: roi[1] + roi[3] / 2,
+                text: t_trim(&text),
+            });
+        }
+
+        let mut guard = SCAN.lock().ok()?;
+        let acc = guard.get_or_insert_with(ScanAccumulator::default);
+        let added = acc.observe(&frame);
+        let total = acc.len();
+        drop(guard);
+
+        // 有新增才算命中：这样节点会自动滑到「没有新卡」为止。
+        if added == 0 {
+            return None;
+        }
+        let first = slots_cfg.first().copied().unwrap_or([0, 0, 1, 1]);
+        let hit = Rect {
+            x: first[0],
+            y: first[1],
+            w: first[2],
+            h: first[3],
+        };
+        Some((hit, format!(r#"{{"new":{added},"total":{total}}}"#)))
+    }
+}
+
+fn t_trim(s: &str) -> String {
+    s.trim().to_string()
 }

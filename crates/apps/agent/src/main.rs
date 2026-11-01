@@ -32,7 +32,7 @@ fn main() -> std::process::ExitCode {
 mod real {
     use std::path::{Path, PathBuf};
 
-    use maazure_runner::CommissionPick;
+    use maazure_runner::{CommissionPick, CommissionScan};
 
     pub fn main() -> std::process::ExitCode {
         let args: Vec<String> = std::env::args().collect();
@@ -60,6 +60,10 @@ mod real {
         if let Err(e) = maa_framework::agent_server::AgentServer::register_custom_recognition(
             "CommissionPick",
             Box::new(CommissionPick),
+        );
+        server.register_custom_recognition(
+            "CommissionScan",
+            Box::new(CommissionScan),
         ) {
             eprintln!("注册 CommissionPick 失败: {e}");
             return std::process::ExitCode::FAILURE;

@@ -154,3 +154,115 @@ mod tests {
         assert_eq!(acc.name_counts().get("A"), Some(&2));
     }
 }
+
+// ── 行检测（照上游 lines_detect 实现）─────────────────────────────────────
+//
+// 上游用「委托列表左侧那条白色分割线」定位每张卡：
+//   crop(image, (597, 0, 619, 720)) → 逐行灰度均值 → find_peaks(height>200, distance>100)
+//   → 丢掉 y <= 67+117 的头部 → 每个峰就是一张卡的**底边**
+// 卡片高度 117，列表头部 67。
+
+/// 委托列表分割线所在的横向区域（上游 `(597, 0, 619, 720)`）。
+pub const LINE_X0: usize = 597;
+/// 同上，右边界（不含）。
+pub const LINE_X1: usize = 619;
+/// 单张委托卡片的高度（上游注释：117）。
+pub const CARD_HEIGHT: i32 = 117;
+/// 列表头部高度（上游注释：67）。
+pub const LIST_HEADER: i32 = 67;
+/// 灰度峰值阈值（上游 `height: 200`）。
+pub const PEAK_HEIGHT: f32 = 200.0;
+/// 相邻峰的最小距离（上游 `distance: 100`）。
+pub const PEAK_DISTANCE: usize = 100;
+
+/// 从「每行灰度均值」里找分割线，返回每张卡的**底边 y**。
+///
+/// 这是上游 `lines_detect` 的等价实现：阈值 + 局部极大 + 最小间距，
+/// 不需要 scipy。输入是整屏高度 720 的逐行均值。
+pub fn detect_lines(row_means: &[f32]) -> Vec<i32> {
+    let mut peaks: Vec<usize> = Vec::new();
+    for y in 1..row_means.len().saturating_sub(1) {
+        let v = row_means[y];
+        if v < PEAK_HEIGHT {
+            continue;
+        }
+        // 局部极大（左右都不比自己亮）
+        if v >= row_means[y - 1] && v >= row_means[y + 1] {
+            match peaks.last() {
+                Some(&prev) if y - prev < PEAK_DISTANCE => {
+                    // 间距太近，留更亮的那个
+                    if v > row_means[prev] {
+                        peaks.pop();
+                        peaks.push(y);
+                    }
+                }
+                _ => peaks.push(y),
+            }
+        }
+    }
+    let header_limit = LIST_HEADER + CARD_HEIGHT;
+    peaks
+        .into_iter()
+        .map(|y| y as i32)
+        .filter(|y| *y > header_limit)
+        .collect()
+}
+
+/// 由底边 y 还原卡片的纵向范围 `[top, bottom]`。
+pub fn card_bounds(bottom: i32) -> (i32, i32) {
+    (bottom - CARD_HEIGHT, bottom)
+}
+
+#[cfg(test)]
+mod line_tests {
+    use super::*;
+
+    /// 造一列「黑底 + 若干白色亮线」的行均值。
+    fn rows_with_lines(h: usize, lines: &[usize]) -> Vec<f32> {
+        let mut v = vec![40.0f32; h];
+        for &y in lines {
+            v[y] = 250.0;
+            // 让峰成为单点局部极大
+            if y > 0 {
+                v[y - 1] = 120.0;
+            }
+            if y + 1 < h {
+                v[y + 1] = 120.0;
+            }
+        }
+        v
+    }
+
+    #[test]
+    fn 识别三条分割线() {
+        let rows = rows_with_lines(720, &[250, 367, 484]);
+        assert_eq!(detect_lines(&rows), vec![250, 367, 484]);
+    }
+
+    #[test]
+    fn 丢掉列表头部() {
+        // 150 < 67+117=184，应被过滤
+        let rows = rows_with_lines(720, &[150, 300]);
+        assert_eq!(detect_lines(&rows), vec![300]);
+    }
+
+    #[test]
+    fn 间距过近只留更亮的() {
+        // 间距 60 < 100：scipy 的 find_peaks(distance=100) 保留**更亮**的那个，
+        // 亮度相同时保留靠前的。这里造一明一暗，验证保留的是亮的那个。
+        let mut rows = rows_with_lines(720, &[300, 360]);
+        rows[360] = 255.0;
+        assert_eq!(detect_lines(&rows), vec![360]);
+    }
+
+    #[test]
+    fn 卡片高度是117() {
+        assert_eq!(card_bounds(400), (283, 400));
+    }
+
+    #[test]
+    fn 没有线时返回空() {
+        let rows = rows_with_lines(720, &[]);
+        assert!(detect_lines(&rows).is_empty());
+    }
+}
