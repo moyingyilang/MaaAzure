@@ -1,5 +1,5 @@
 {
-  "_note": "公共战斗层：battle_auto_on → battle_loop（结算/伏击/空袭/信息栏）→ battle_done。对应上游 module/combat/combat.py 的 combat_execute + combat_status。血量平衡与潜艇仍未移植。",
+  "_note": "公共战斗层：battle_auto_on → battle_loop（结算/伏击/空袭/信息栏）→ battle_done。对应上游 module/combat/combat.py 的 combat_execute + combat_status。血量平衡与潜艇仍未移植。 索引修正后已加回 battle_preparation。",
   "layer": "0-common",
   "file": "battle.json",
   "nodes": {
@@ -86,6 +86,15 @@
       "use": "combat_automation_switch",
       "post_delay": 800,
       "next": [
+        "battle_loop"
+      ]
+    },
+    "battle_preparation": {
+      "desc": "战斗准备：点出击（上游 combat_preparation）",
+      "use": "combat_battle_preparation",
+      "post_delay": 2000,
+      "next": [
+        "battle_auto_on",
         "battle_loop"
       ]
     }

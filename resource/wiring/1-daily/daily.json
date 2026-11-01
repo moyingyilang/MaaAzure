@@ -293,6 +293,7 @@
       "use": "combat_battle_preparation_with_overlay",
       "action": "DoNothing",
       "next": [
+        "battle_preparation",
         "battle_auto_on",
         "daily_chain",
         "daily_done"

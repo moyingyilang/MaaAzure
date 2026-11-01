@@ -109,6 +109,29 @@
     "recognition": "DirectHit",
     "timeout": 300000
   },
+  "battle_preparation": {
+    "action": "Click",
+    "desc": "战斗准备：点出击（上游 combat_preparation）",
+    "next": [
+      "battle_auto_on",
+      "battle_loop"
+    ],
+    "post_delay": 2000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      1062,
+      612,
+      27,
+      31
+    ],
+    "target": [
+      1043,
+      607,
+      198,
+      60
+    ],
+    "template": "combat/combat_battle_preparation.png"
+  },
   "battle_status_a": {
     "action": "Click",
     "desc": "A 评价结算（BATTLE_STATUS_A）",

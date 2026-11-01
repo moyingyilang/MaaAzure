@@ -114,6 +114,7 @@
     "action": "DoNothing",
     "desc": "进入战斗（上游 combat_appear）→ 交给公共战斗层",
     "next": [
+      "battle_preparation",
       "battle_auto_on",
       "daily_chain",
       "daily_done"
