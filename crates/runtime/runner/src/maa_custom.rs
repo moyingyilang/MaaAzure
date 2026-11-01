@@ -194,11 +194,12 @@ impl CustomRecognition for CommissionScan {
             return None;
         }
         let first = slots_cfg.first().copied().unwrap_or([0, 0, 1, 1]);
+        // 注意：这里是 [x, y, w, h]（MaaFramework 的 roi 语义）
         let hit = Rect {
             x: first[0],
             y: first[1],
-            w: first[2],
-            h: first[3],
+            width: first[2],
+            height: first[3],
         };
         Some((hit, format!(r#"{{"new":{added},"total":{total}}}"#)))
     }

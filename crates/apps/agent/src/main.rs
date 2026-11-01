@@ -60,15 +60,18 @@ mod real {
         if let Err(e) = maa_framework::agent_server::AgentServer::register_custom_recognition(
             "CommissionPick",
             Box::new(CommissionPick),
-        );
-        server.register_custom_recognition(
-            "CommissionScan",
-            Box::new(CommissionScan),
         ) {
             eprintln!("注册 CommissionPick 失败: {e}");
             return std::process::ExitCode::FAILURE;
         }
-        eprintln!("[maazure-agent] 已注册 CommissionPick，identifier={identifier}");
+        if let Err(e) = maa_framework::agent_server::AgentServer::register_custom_recognition(
+            "CommissionScan",
+            Box::new(CommissionScan),
+        ) {
+            eprintln!("注册 CommissionScan 失败: {e}");
+            return std::process::ExitCode::FAILURE;
+        }
+        eprintln!("[maazure-agent] 已注册 CommissionPick/CommissionScan，identifier={identifier}");
 
         // 3) 连上外壳并挂起
         if let Err(e) = maa_framework::agent_server::AgentServer::start_up(identifier) {

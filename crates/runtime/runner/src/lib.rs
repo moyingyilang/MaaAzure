@@ -34,7 +34,7 @@ pub mod maa_custom;
 pub mod synth;
 
 #[cfg(feature = "maa")]
-pub use maa_custom::CommissionPick;
+pub use maa_custom::{CommissionPick, CommissionScan};
 
 /// 一帧图像 + 序号。
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
