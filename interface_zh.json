@@ -1,0 +1,17 @@
+{
+  "project_name": "MaaAzure",
+  "project_title": "MaaAzure · 碧蓝航线自动化",
+  "welcome": "**欢迎使用 MaaAzure**\n\n基于 MaaFramework 的碧蓝航线自动化工具，运行时零 Python 依赖。\n\n> 仅供学习与个人使用，请遵守游戏用户协议。",
+  "contact": "- GitHub Issues：[提交问题](https://github.com/moyingyilang/MaaAzure/issues)\n- 仓库地址：<https://github.com/moyingyilang/MaaAzure>",
+  "license": "**AGPL-3.0-only**\n\n本项目采用 GNU Affero 通用公共许可证第 3 版。\n\n源码：<https://github.com/moyingyilang/MaaAzure>",
+  "task_commission": "委托",
+  "task_daily": "每日任务",
+  "task_dorm": "宿舍",
+  "task_exercise": "演习",
+  "task_gacha": "建造",
+  "task_guild": "大舰队",
+  "task_meowfficer": "指挥喵",
+  "task_research": "科研",
+  "task_reward": "任务奖励",
+  "task_tactical": "战术学院"
+}

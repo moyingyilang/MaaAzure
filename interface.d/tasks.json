@@ -6,7 +6,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Commission",
+      "label": "$task_commission",
       "name": "Commission",
       "option": [
         "Commission_Commission_Blacklist",
@@ -27,7 +27,7 @@
       "group": [
         "DailyMission"
       ],
-      "label": "Daily",
+      "label": "$task_daily",
       "name": "Daily",
       "option": [
         "Daily_Daily_UseDailySkip",
@@ -48,7 +48,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Dorm",
+      "label": "$task_dorm",
       "name": "Dorm",
       "option": [
         "Dorm_Dorm_Feed",
@@ -69,7 +69,7 @@
       "group": [
         "DailyMission"
       ],
-      "label": "Exercise",
+      "label": "$task_exercise",
       "name": "Exercise",
       "option": [
         "Exercise_Exercise_OpponentTrial",
@@ -90,7 +90,7 @@
       "group": [
         "DailyMission"
       ],
-      "label": "Gacha",
+      "label": "$task_gacha",
       "name": "Gacha",
       "option": [
         "Gacha_Gacha_Pool",
@@ -109,7 +109,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Guild",
+      "label": "$task_guild",
       "name": "Guild",
       "option": [
         "Guild_GuildLogistics_Enable",
@@ -130,7 +130,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Meowfficer",
+      "label": "$task_meowfficer",
       "name": "Meowfficer",
       "option": [
         "Meowfficer_MeowfficerTrain_Mode",
@@ -151,7 +151,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Research",
+      "label": "$task_research",
       "name": "Research",
       "option": [
         "Research_Research_UseCoin",
@@ -172,7 +172,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Reward",
+      "label": "$task_reward",
       "name": "Reward",
       "option": [
         "Reward_Reward_CollectExp",
@@ -192,7 +192,7 @@
       "group": [
         "Reward"
       ],
-      "label": "Tactical",
+      "label": "$task_tactical",
       "name": "Tactical",
       "option": [
         "Tactical_AddNewStudent_Enable",

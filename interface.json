@@ -1,11 +1,11 @@
 {
   "interface_version": 2,
   "name": "MaaAzure",
-  "label": "MaaAzure · 碧蓝航线",
-  "version": "0.1.17",
+  "label": "$project_name",
+  "version": "0.1.18",
   "github": "https://github.com/moyingyilang/MaaAzure",
-  "license": "AGPL-3.0-only",
-  "contact": "- GitHub Issues：[提交问题](https://github.com/moyingyilang/MaaAzure/issues)\n- 仓库地址：<https://github.com/moyingyilang/MaaAzure>",
+  "license": "$license",
+  "contact": "$contact",
   "controller": [
     {
       "name": "ADB",
@@ -102,5 +102,10 @@
     "interface.d/options.json",
     "interface.d/tasks.json"
   ],
-  "about": "**MaaAzure** 是基于 MaaFramework 的碧蓝航线自动化工具。\n\n- 运行时零 Python 依赖：识别与动作走 Pipeline，业务逻辑用 Rust\n- 支持 CN / EN / JP / TW 四个服务器\n- 采用 AGPL-3.0 许可证\n\n> 本项目仅供学习与个人使用，请遵守游戏用户协议。"
+  "languages": {
+    "zh_cn": "interface_zh.json",
+    "en_us": "interface_en.json"
+  },
+  "title": "$project_title",
+  "welcome": "$welcome"
 }

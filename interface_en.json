@@ -1,0 +1,17 @@
+{
+  "project_name": "MaaAzure",
+  "project_title": "MaaAzure · Azur Lane automation",
+  "welcome": "**Welcome to MaaAzure**\n\nAzur Lane automation built on MaaFramework, with zero Python at runtime.\n\n> For learning and personal use only. Please follow the game's terms of service.",
+  "contact": "- GitHub Issues: [Report a problem](https://github.com/moyingyilang/MaaAzure/issues)\n- Repository: <https://github.com/moyingyilang/MaaAzure>",
+  "license": "**AGPL-3.0-only**\n\nLicensed under the GNU Affero General Public License v3.\n\nSource: <https://github.com/moyingyilang/MaaAzure>",
+  "task_commission": "Commissions",
+  "task_daily": "Daily Missions",
+  "task_dorm": "Dorm",
+  "task_exercise": "Exercise",
+  "task_gacha": "Build",
+  "task_guild": "Guild",
+  "task_meowfficer": "Meowfficer",
+  "task_research": "Research",
+  "task_reward": "Rewards",
+  "task_tactical": "Tactical Class"
+}

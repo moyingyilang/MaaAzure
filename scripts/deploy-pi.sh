@@ -25,7 +25,7 @@ if [ "${FAST:-0}" = "1" ]; then
     # 快速模式：只同步管线（改 wiring/生成节点时用这个，几 MB，秒级）
     TARGETS="resource/common/pipeline resource/cn/pipeline resource/en/pipeline resource/jp/pipeline resource/tw/pipeline interface.json"
 else
-    TARGETS="interface.json interface.d resource data"
+    TARGETS="interface.json interface_zh.json interface_en.json interface.d resource data"
 fi
 # su 解包出来的文件属主是 root，App（u0_aXXX）读不了 → EACCES。
 # 先记下 pi 目录原本的属主，解包后原样还原。
