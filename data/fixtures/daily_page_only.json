@@ -24,9 +24,9 @@
     "max_clicks": 2,
     "outcome": "ok",
     "visited": [
-      "nav_main_to_campaign_menu",
-      "nav_campaign_menu_to_daily",
-      "page_daily"
+      "daily_goto_campaign",
+      "daily_goto_tab",
+      "daily_page"
     ],
     "not_visited": [
       "global_recover"

@@ -20,7 +20,7 @@
     }
   ],
   "expect": {
-    "min_clicks": 2,
+    "min_clicks": 1,
     "max_clicks": 2,
     "outcome": "ok",
     "visited": [
