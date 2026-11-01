@@ -7,6 +7,7 @@
 //! 这个模块只做纯数据：给一帧 OCR 出来的若干条文本，判断有没有新条目、
 //! 累积总数是多少。不碰图像、不碰框架，因此可以单独单测。
 
+use maazure_vision::parse_duration_secs;
 use std::collections::HashMap;
 
 /// 一张委托卡在列表里的位置与内容。
@@ -672,5 +673,84 @@ mod field_tests {
         let s = field_area((188, 281), Field::Status);
         assert_eq!(s[1], d[1], "同一行");
         assert!(s[0] > d[0], "状态在时长右侧");
+    }
+}
+
+// ── 字段解析（B2：把 OCR 文本拆成 name / duration / status）───────────────
+//
+// 上游 _parse_cn 先后做三件事：
+//   1) OCR 名称区域 → self.name，再 commission_name_parse → self.genre
+//   2) OCR 时长区域 → self.duration
+//   3) 读状态区域颜色/文本 → self.status ∈ {finished, running, pending}
+//
+// 这里先把「文本 → 结构化字段」这一段做成纯函数，便于单测；
+// 真正按 field_area 分段 OCR 的接线随后进行。
+
+/// 一条委托解析出来的字段。
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct CardFields {
+    /// 委托名称（OCR 原文，未做 genre 归类）
+    pub name: String,
+    /// 剩余/执行秒数；`u64::MAX` 表示没识别出来
+    pub duration_secs: u64,
+    /// 状态文本（原始），用于判定 running/finished
+    pub status_text: String,
+}
+
+/// 从「名称 / 时长 / 状态」三段 OCR 文本拼出结构化字段。
+pub fn parse_card_fields(name: &str, duration: &str, status: &str) -> CardFields {
+    CardFields {
+        name: name.trim().to_string(),
+        duration_secs: parse_duration_secs(duration).unwrap_or(u64::MAX),
+        status_text: status.trim().to_string(),
+    }
+}
+
+impl CardFields {
+    /// 是否正在运行（上游 `status == 'running'`）。
+    ///
+    /// CN 端状态区文本为「进行中」，EN 为 `In Progress`。
+    pub fn is_running(&self) -> bool {
+        let s = &self.status_text;
+        s.contains("进行") || s.to_ascii_lowercase().contains("progress")
+    }
+
+    /// 该卡片是否有可用数据（名称与时长都拿到了）。
+    pub fn is_valid(&self) -> bool {
+        !self.name.is_empty() && self.duration_secs != u64::MAX
+    }
+}
+
+#[cfg(test)]
+mod card_fields_tests {
+    use super::*;
+
+    #[test]
+    fn 解析三段文本() {
+        let f = parse_card_fields(" 每日资源  ", "01:30:00", "进行中");
+        assert_eq!(f.name, "每日资源");
+        assert_eq!(f.duration_secs, 5400);
+        assert_eq!(f.status_text, "进行中");
+        assert!(f.is_running());
+        assert!(f.is_valid());
+    }
+
+    #[test]
+    fn 英文进行中也算运行() {
+        let f = parse_card_fields("Daily", "00:30:00", "In Progress");
+        assert!(f.is_running());
+    }
+
+    #[test]
+    fn 未开始不算运行() {
+        let f = parse_card_fields("Daily", "00:30:00", "未开始");
+        assert!(!f.is_running());
+    }
+
+    #[test]
+    fn 时长解析失败时不是合法卡() {
+        let f = parse_card_fields("Daily", "??", "未开始");
+        assert_eq!(f.duration_secs, u64::MAX);
+        assert!(!f.is_valid());
     }
 }
