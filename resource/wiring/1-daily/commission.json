@@ -262,7 +262,8 @@
         "commission_goto_commission",
         "commission_goto_reward",
         "global_recover"
-      ]
+      ],
+      "max_hit": 3
     },
     "commission_goto_commission": {
       "desc": "任务页 → 委托",

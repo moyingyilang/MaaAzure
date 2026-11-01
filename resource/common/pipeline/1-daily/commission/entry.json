@@ -128,6 +128,7 @@
   "commission_goto_reward": {
     "action": "Click",
     "desc": "主界面 → 任务",
+    "max_hit": 3,
     "next": [
       "commission_goto_commission",
       "commission_goto_commission_white",
