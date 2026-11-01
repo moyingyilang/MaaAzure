@@ -610,3 +610,67 @@ mod wakeup_tests {
         assert_eq!(next_wakeup_secs(&[]), None);
     }
 }
+
+// ── 字段偏移（照上游 Commission._parse_cn 的 area_offset）──────────────────
+//
+// 上游用 `area_offset(rel, self.area[0:2])` 把相对坐标平移到底边 y 推出的
+// 卡片区域上。CN 服（project.py:314/331）：
+//
+//   名称   (131, 23, 409, 53)
+//   时长   (290, 68, 390, 95)
+//   状态   (399, 68, 425, 95)     ← 见 _parse_cn 里 STATUS 的定义
+//
+// 相对坐标以卡片区域左上角 `(188, y-119)` 为原点。
+
+/// 卡片内需要 OCR 的字段。
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Field {
+    /// 委托名称
+    Name,
+    /// 执行时长（HH:MM:SS / HH:MM）
+    Duration,
+    /// 状态（进行中 / 已完成 / 未开始）
+    Status,
+}
+
+/// CN 服的字段相对区域 `(x1, y1, x2, y2)`，以卡片左上角为原点。
+pub const FIELD_NAME: (i32, i32, i32, i32) = (131, 23, 409, 53);
+/// 时长的相对区域。
+pub const FIELD_DURATION: (i32, i32, i32, i32) = (290, 68, 390, 95);
+/// 状态的相对区域（上游 `STATUS`，与时长同高）。
+pub const FIELD_STATUS: (i32, i32, i32, i32) = (399, 68, 425, 95);
+
+/// 把相对区域平移成绝对 `[x, y, w, h]`（MaaFramework 语义）。
+pub fn field_area(card_top_left: (i32, i32), field: Field) -> [i32; 4] {
+    let (x1, y1, x2, y2) = match field {
+        Field::Name => FIELD_NAME,
+        Field::Duration => FIELD_DURATION,
+        Field::Status => FIELD_STATUS,
+    };
+    let (ax, ay) = card_top_left;
+    [ax + x1, ay + y1, x2 - x1, y2 - y1]
+}
+
+#[cfg(test)]
+mod field_tests {
+    use super::*;
+
+    #[test]
+    fn 名称区域平移正确() {
+        // 卡片左上角 (188, 281) → 名称 [319, 304, 278, 30]
+        assert_eq!(field_area((188, 281), Field::Name), [319, 304, 278, 30]);
+    }
+
+    #[test]
+    fn 时长区域平移正确() {
+        assert_eq!(field_area((188, 281), Field::Duration), [478, 349, 100, 27]);
+    }
+
+    #[test]
+    fn 状态区域在时长右侧() {
+        let d = field_area((188, 281), Field::Duration);
+        let s = field_area((188, 281), Field::Status);
+        assert_eq!(s[1], d[1], "同一行");
+        assert!(s[0] > d[0], "状态在时长右侧");
+    }
+}
