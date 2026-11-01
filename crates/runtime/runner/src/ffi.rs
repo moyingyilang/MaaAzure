@@ -199,6 +199,10 @@ impl MaaEngine {
                 self.shell(&format!("input swipe {ax} {ay} {bx} {by} {duration}"))
             }
 
+            fn request_uuid(&self) -> Option<String> {
+                Some("maazure-win32-0001".to_string())
+            }
+
             fn get_info(&self) -> String {
                 let n = self.clicks.lock().map(|c| c.len()).unwrap_or(0);
                 format!(
@@ -258,6 +262,10 @@ impl MaaEngine {
             fn swipe(&self, x1: i32, y1: i32, x2: i32, y2: i32, duration: i32) -> bool {
                 let cmd = self.cmds.render_swipe(x1, y1, x2, y2, duration);
                 crate::android_display::run_shell(&cmd)
+            }
+
+            fn request_uuid(&self) -> Option<String> {
+                Some(self.cmds.display_id.clone())
             }
 
             fn get_info(&self) -> String {

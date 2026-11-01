@@ -328,6 +328,12 @@ impl SynthController {
 }
 
 impl CustomControllerCallback for SynthController {
+    /// 框架的 CustomControlUnitMgr 通过 `request_uuid` 要控制器标识，
+    /// 不实现就持续报 `failed to request_uuid`（ret=false）。
+    fn request_uuid(&self) -> Option<String> {
+        Some("maazure-synth-0001".to_string())
+    }
+
     fn connect(&self) -> bool {
         !self.inner.frames.is_empty()
     }
