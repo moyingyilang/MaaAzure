@@ -1,6 +1,6 @@
 {
   "name": "exercise_page_only",
-  "entry": "exercise_login_chain",
+  "entry": "ExerciseStart",
   "server": "cn",
   "frames": [
     {

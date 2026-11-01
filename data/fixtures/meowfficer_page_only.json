@@ -1,6 +1,6 @@
 {
   "name": "meowfficer_page_only",
-  "entry": "meowfficer_login_chain",
+  "entry": "MeowfficerStart",
   "server": "cn",
   "frames": [
     {

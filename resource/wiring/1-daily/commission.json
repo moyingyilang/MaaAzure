@@ -205,9 +205,9 @@
       "use": "commission_daily",
       "action": "DoNothing",
       "next": [
-        "commission_info_bar",
         "commission_claim_exp",
         "commission_claim_reward",
+        "commission_info_bar",
         "commission_scan_top",
         "commission_done"
       ]
@@ -235,7 +235,6 @@
       "use": "commission_start",
       "post_delay": 1500,
       "next": [
-        "commission_pick",
         "commission_advice",
         "commission_page",
         "commission_done"
@@ -301,10 +300,8 @@
       "post_delay": 800,
       "next": [
         "commission_pick",
-        "commission_scan_swipe",
         "commission_done"
-      ],
-      "max_hit": 6
+      ]
     },
     "commission_pick": {
       "desc": "选最优委托（上游 _commission_choose；这里交给 Rust CommissionPick）",

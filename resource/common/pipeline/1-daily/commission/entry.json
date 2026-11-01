@@ -601,9 +601,9 @@
     "action": "DoNothing",
     "desc": "在委托页（日常 tab 作页面标志）",
     "next": [
-      "commission_info_bar",
       "commission_claim_exp",
       "commission_claim_reward",
+      "commission_info_bar",
       "commission_scan_top",
       "commission_done"
     ],
@@ -661,10 +661,8 @@
       "type": "Swipe"
     },
     "desc": "向下扫一屏（上游 _commission_swipe：每次滑动看有没有新委托）",
-    "max_hit": 6,
     "next": [
       "commission_pick",
-      "commission_scan_swipe",
       "commission_done"
     ],
     "post_delay": 800,
@@ -711,7 +709,6 @@
     "action": "Click",
     "desc": "点开始委托（上游 _commission_start_click）",
     "next": [
-      "commission_pick",
       "commission_advice",
       "commission_page",
       "commission_done"

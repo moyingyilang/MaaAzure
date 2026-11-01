@@ -1,6 +1,6 @@
 {
   "name": "commission_happy_path",
-  "entry": "commission_login_chain",
+  "entry": "CommissionStart",
   "server": "cn",
   "frames": [
     {

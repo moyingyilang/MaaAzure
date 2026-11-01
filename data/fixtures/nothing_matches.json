@@ -1,6 +1,6 @@
 {
   "name": "nothing_matches",
-  "entry": "commission_login_chain",
+  "entry": "CommissionStart",
   "server": "cn",
   "frames": [
     {

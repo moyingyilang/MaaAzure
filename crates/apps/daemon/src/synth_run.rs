@@ -185,7 +185,10 @@ pub fn run_synth(args: &[String]) -> std::process::ExitCode {
     }
 
     let started = std::time::Instant::now();
-    let result = engine.run_pipeline_traced(&entry, "{}");
+    // 合成帧下 StartApp 没有真实控制器可用，用 pipeline_override 把启动节点的
+    // 动作抹掉（这正是 MaaEnd 的做法：动作由 override 注入，而不是写在入口节点上）。
+    let override_json = synth_override(&engine, &entry);
+    let result = engine.run_pipeline_traced(&entry, &override_json);
     let elapsed = started.elapsed();
     let clicks = ctrl.clicks();
     let visited = result
@@ -272,4 +275,16 @@ fn dump_case(
     std::fs::write(dir.join("case.json"), format!("{text}\n"))
         .map_err(|e| format!("写 case.json 失败: {e}"))?;
     Ok(n)
+}
+
+
+/// 生成合成帧专用的 pipeline_override：把所有 `*_start_game` 节点的动作改成 DoNothing。
+fn synth_override(_engine: &MaaEngine, _entry: &str) -> String {
+    // MAAGUI_SYNTH_OVERRIDE 显式指定时优先（给调试用）
+    if let Ok(custom) = std::env::var("MAAGUI_SYNTH_OVERRIDE") {
+        if !custom.trim().is_empty() {
+            return custom;
+        }
+    }
+    r#"{"commission_start_game":{"action":"DoNothing"},"daily_start_game":{"action":"DoNothing"},"tactical_start_game":{"action":"DoNothing"},"reward_start_game":{"action":"DoNothing"},"dorm_start_game":{"action":"DoNothing"},"guild_start_game":{"action":"DoNothing"},"gacha_start_game":{"action":"DoNothing"},"exercise_start_game":{"action":"DoNothing"},"meowfficer_start_game":{"action":"DoNothing"},"research_start_game":{"action":"DoNothing"}}"#.to_string()
 }

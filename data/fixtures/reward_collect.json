@@ -1,6 +1,6 @@
 {
   "name": "reward_collect",
-  "entry": "reward_login_chain",
+  "entry": "RewardStart",
   "server": "cn",
   "frames": [
     {

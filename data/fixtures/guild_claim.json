@@ -1,6 +1,6 @@
 {
   "name": "guild_claim",
-  "entry": "guild_login_chain",
+  "entry": "GuildStart",
   "server": "cn",
   "frames": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "gacha_page_only",
-  "entry": "gacha_login_chain",
+  "entry": "GachaStart",
   "server": "cn",
   "frames": [
     {

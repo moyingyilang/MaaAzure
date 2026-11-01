@@ -1,6 +1,6 @@
 {
   "name": "research_page_only",
-  "entry": "research_login_chain",
+  "entry": "ResearchStart",
   "server": "cn",
   "frames": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "tactical_start_class",
-  "entry": "tactical_login_chain",
+  "entry": "TacticalStart",
   "server": "cn",
   "frames": [
     {

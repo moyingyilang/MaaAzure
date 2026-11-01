@@ -1,6 +1,6 @@
 {
   "name": "daily_page_only",
-  "entry": "daily_login_chain",
+  "entry": "DailyStart",
   "server": "cn",
   "frames": [
     {
