@@ -16,6 +16,12 @@ pub struct ScannedCommission {
     pub y: i32,
     /// OCR 出来的原始文本（名字/剩余时间的组合）
     pub text: String,
+    /// 剩余秒数；`u64::MAX` 表示没识别出来
+    pub remaining_secs: u64,
+    /// 是否正在运行（上游 status == 'running'）
+    pub running: bool,
+    /// 是否活动委托（上游 genre == 'daily_event'，会把槽位上限提到 5）
+    pub is_daily_event: bool,
 }
 
 /// 跨帧累积器。
@@ -103,6 +109,9 @@ mod tests {
         ScannedCommission {
             y,
             text: text.to_string(),
+            remaining_secs: 0,
+            running: false,
+            is_daily_event: false,
         }
     }
 
@@ -436,5 +445,112 @@ mod row_means_tests {
         let data = vec![255u8, 0, 0, 255, 0, 0];
         let m = row_means(&data, h, w * 3, 3, PixelOrder::Bgr, 0, w);
         assert!((m[0] - 0.114 * 255.0).abs() < 0.5, "{}", m[0]);
+    }
+}
+
+// ── 选择（照上游 _commission_choose_legacy 的核心规则）────────────────────
+//
+// 上游要点：
+//   max_commission = 5（有 daily_event 时）否则 4
+//   running_count  = status == 'running' 的条数
+//   过滤器按顺序贪心选，然后按「耗时从短到长」补足空槽
+//   槽位用完（running_count >= max）就不再选
+//
+// 这里实现**规则骨架**：槽位数、运行中计数、按剩余时间升序补位、超出截断。
+// 过滤器的解析（COMMISSION_FILTER 的表达式语言）留待后续，先用时间排序。
+
+/// 槽位上限：列表里有 `daily_event` 类型时为 5，否则 4。
+pub fn max_slots(entries: &[ScannedCommission]) -> usize {
+    if entries.iter().any(|e| e.is_daily_event) {
+        5
+    } else {
+        4
+    }
+}
+
+/// 按上游规则挑出这一轮要派的委托下标。
+///
+/// * `entries`  —— 扫描累积结果（顺序即列表顺序）
+/// * 返回下标，按「剩余时间从短到长」排序，长度不超过空余槽位。
+pub fn choose(entries: &[ScannedCommission]) -> Vec<usize> {
+    let max = max_slots(entries);
+    let running = entries.iter().filter(|e| e.running).count();
+    if running >= max {
+        return Vec::new();
+    }
+    let quota = max - running;
+
+    let mut idx: Vec<usize> = entries
+        .iter()
+        .enumerate()
+        .filter(|(_, e)| !e.running)
+        .filter(|(_, e)| e.remaining_secs != u64::MAX)
+        .map(|(i, _)| i)
+        .collect();
+    idx.sort_by_key(|&i| entries[i].remaining_secs);
+    idx.truncate(quota);
+    idx
+}
+
+#[cfg(test)]
+mod choose_tests {
+    use super::*;
+
+    fn e(text: &str, secs: u64, running: bool, daily_event: bool) -> ScannedCommission {
+        ScannedCommission {
+            y: 0,
+            text: text.to_string(),
+            remaining_secs: secs,
+            running,
+            is_daily_event: daily_event,
+        }
+    }
+
+    #[test]
+    fn 槽位默认是4() {
+        assert_eq!(max_slots(&[e("A", 10, false, false)]), 4);
+    }
+
+    #[test]
+    fn 有活动委托时槽位是5() {
+        assert_eq!(max_slots(&[e("A", 10, false, true)]), 5);
+    }
+
+    #[test]
+    fn 运行中占满就不再选() {
+        let list = [
+            e("A", 10, true, false),
+            e("B", 20, true, false),
+            e("C", 30, true, false),
+            e("D", 40, true, false),
+        ];
+        assert!(choose(&list).is_empty());
+    }
+
+    #[test]
+    fn 按剩余时间从短到长选() {
+        let list = [
+            e("长", 7200, false, false),
+            e("短", 600, false, false),
+            e("中", 3600, false, false),
+        ];
+        assert_eq!(choose(&list), vec![1, 2, 0]);
+    }
+
+    #[test]
+    fn 数量受空余槽位限制() {
+        let list = [
+            e("A", 10, false, false),
+            e("B", 20, false, false),
+            e("C", 30, false, false),
+            e("D", 40, true, false), // 已运行占 1 槽 → 只剩 3
+        ];
+        assert_eq!(choose(&list).len(), 3);
+    }
+
+    #[test]
+    fn 剩余时间未知的跳过() {
+        let list = [e("未知", u64::MAX, false, false), e("已知", 60, false, false)];
+        assert_eq!(choose(&list), vec![1]);
     }
 }

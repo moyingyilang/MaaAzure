@@ -187,9 +187,13 @@ impl CustomRecognition for CommissionScan {
                 Some(t) if !t.trim().is_empty() => t,
                 _ => continue,
             };
+            let t = text.trim().to_string();
             frame.push(ScannedCommission {
                 y: slot[1] + slot[3] / 2,
-                text: text.trim().to_string(),
+                remaining_secs: parse_duration_secs(&t).unwrap_or(u64::MAX),
+                running: t.contains('进行'),
+                is_daily_event: false,
+                text: t,
             });
         }
 
