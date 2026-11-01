@@ -13,8 +13,8 @@ use maazure_daily::{CommissionSlot, pick_commission};
 use maazure_vision::parse_duration_secs;
 
 use crate::commission_scan::{
-    card_area, detect_lines, row_means, PixelOrder, ScanAccumulator, ScannedCommission, LINE_X0,
-    LINE_X1,
+    card_area, choose, detect_lines, row_means, PixelOrder, ScanAccumulator, ScannedCommission,
+    CARD_PARSE_SPAN, CARD_X0, CARD_X1, LINE_X0, LINE_X1,
 };
 use crate::ocr_detail::{extract_text, parse_slots};
 
@@ -56,6 +56,33 @@ impl CustomRecognition for CommissionPick {
         image: &MaaImageBuffer,
         _roi: &Rect,
     ) -> Option<(Rect, String)> {
+        // 优先用 CommissionScan 累积出来的结果（这是 B3 的接线点）：
+        // 有数据就按上游规则选一张卡，直接把它的区域返回给 Click 动作。
+        let scanned = commission_scan_entries();
+        if !scanned.is_empty() {
+            let picked = choose(&scanned);
+            if picked.is_empty() {
+                return None; // 槽位已满 / 没有可派的，这一轮不点
+            }
+            let target = &scanned[picked[0]];
+            let detail = format!(
+                r#"{{"picked":{},"y":{},"text":{},"candidates":{}}}"#,
+                picked[0],
+                target.y,
+                serde_json::to_string(&target.text).unwrap_or_else(|_| "\"\"".to_string()),
+                scanned.len()
+            );
+            return Some((
+                Rect {
+                    x: CARD_X0,
+                    y: target.y - CARD_PARSE_SPAN,
+                    width: CARD_X1 - CARD_X0,
+                    height: CARD_PARSE_SPAN,
+                },
+                detail,
+            ));
+        }
+
         let slots_cfg =
             parse_slots(custom_recognition_param).unwrap_or_else(|| DEFAULT_SLOTS.to_vec());
 
