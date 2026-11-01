@@ -13,6 +13,7 @@
 
 use maazure_core::{Point, TaskOutcome};
 
+pub mod commission_scan;
 pub mod android_display;
 pub mod fixture;
 pub mod game_window;
