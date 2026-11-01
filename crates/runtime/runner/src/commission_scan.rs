@@ -309,3 +309,132 @@ mod card_area_tests {
         assert_eq!(a[1] + a[3], 500);
     }
 }
+
+// ── 行均值（上游 rgb2gray + np.mean(axis=1) 的等价实现）──────────────────
+//
+// 上游：
+//   color_height = np.mean(rgb2gray(crop(image, (597, 0, 619, 720))), axis=1)
+//
+// 这里只做纯计算：给定原始字节、宽高、stride、每像素字节数与通道顺序，
+// 算出 x∈[x0,x1) 这条竖带的逐行灰度均值。不碰框架，可单测。
+
+/// 像素通道顺序。
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum PixelOrder {
+    /// R, G, B
+    Rgb,
+    /// B, G, R
+    Bgr,
+    /// R, G, B, A（A 忽略）
+    Rgba,
+}
+
+/// 取竖带 `x∈[x0,x1)` 的逐行灰度均值。
+///
+/// * `data`   —— 整帧原始字节
+/// * `height` —— 帧高
+/// * `stride` —— 每行字节数（可能大于 `width * bpp`，有 padding 时必须按它走）
+/// * `bpp`    —— 每像素字节数
+pub fn row_means(
+    data: &[u8],
+    height: usize,
+    stride: usize,
+    bpp: usize,
+    order: PixelOrder,
+    x0: usize,
+    x1: usize,
+) -> Vec<f32> {
+    let mut out = Vec::with_capacity(height);
+    if bpp < 3 || x1 <= x0 {
+        return vec![0.0; height];
+    }
+    let (ri, gi, bi) = match order {
+        PixelOrder::Rgb | PixelOrder::Rgba => (0, 1, 2),
+        PixelOrder::Bgr => (2, 1, 0),
+    };
+    let n = (x1 - x0) as f32;
+    for y in 0..height {
+        let base = y * stride;
+        let mut sum = 0.0f32;
+        for x in x0..x1 {
+            let p = base + x * bpp;
+            if p + 2 >= data.len() {
+                break;
+            }
+            let r = data[p + ri] as f32;
+            let g = data[p + gi] as f32;
+            let b = data[p + bi] as f32;
+            // 与上游 rgb2gray 一致的权重
+            sum += 0.299 * r + 0.587 * g + 0.114 * b;
+        }
+        out.push(sum / n);
+    }
+    out
+}
+
+#[cfg(test)]
+mod row_means_tests {
+    use super::*;
+
+    #[test]
+    fn 纯白竖带得到255() {
+        let (w, h) = (10usize, 4usize);
+        let data = vec![255u8; w * h * 3];
+        let m = row_means(&data, h, w * 3, 3, PixelOrder::Rgb, 0, w);
+        assert!(m.iter().all(|v| (v - 255.0).abs() < 0.01));
+    }
+
+    #[test]
+    fn 纯黑竖带得到0() {
+        let (w, h) = (8usize, 3usize);
+        let data = vec![0u8; w * h * 3];
+        let m = row_means(&data, h, w * 3, 3, PixelOrder::Rgb, 0, w);
+        assert!(m.iter().all(|v| v.abs() < 0.01));
+    }
+
+    #[test]
+    fn 只有竖带内的列参与计算() {
+        // 左侧白、右侧黑；只取右半边应得 0
+        let (w, h) = (8usize, 2usize);
+        let mut data = vec![0u8; w * h * 3];
+        for y in 0..h {
+            for x in 0..4 {
+                let p = (y * w + x) * 3;
+                data[p] = 255;
+                data[p + 1] = 255;
+                data[p + 2] = 255;
+            }
+        }
+        let left = row_means(&data, h, w * 3, 3, PixelOrder::Rgb, 0, 4);
+        let right = row_means(&data, h, w * 3, 3, PixelOrder::Rgb, 4, 8);
+        assert!(left.iter().all(|v| (v - 255.0).abs() < 0.01));
+        assert!(right.iter().all(|v| v.abs() < 0.01));
+    }
+
+    #[test]
+    fn 支持stride_padding() {
+        // 每行多 4 字节 padding，结果应与无 padding 相同
+        let (w, h, pad) = (6usize, 2usize, 4usize);
+        let stride = w * 3 + pad;
+        let mut data = vec![0u8; stride * h];
+        for y in 0..h {
+            for x in 0..w {
+                let p = y * stride + x * 3;
+                data[p] = 200;
+                data[p + 1] = 200;
+                data[p + 2] = 200;
+            }
+        }
+        let m = row_means(&data, h, stride, 3, PixelOrder::Rgb, 0, w);
+        assert!(m.iter().all(|v| (v - 200.0).abs() < 0.01), "{m:?}");
+    }
+
+    #[test]
+    fn bgr顺序能正确取灰() {
+        // 纯蓝 (0,0,255) 在 BGR 下 B=255 → 灰度 = 0.114*255
+        let (w, h) = (2usize, 1usize);
+        let data = vec![255u8, 0, 0, 255, 0, 0];
+        let m = row_means(&data, h, w * 3, 3, PixelOrder::Bgr, 0, w);
+        assert!((m[0] - 0.114 * 255.0).abs() < 0.5, "{}", m[0]);
+    }
+}
