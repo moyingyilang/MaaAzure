@@ -191,7 +191,7 @@ impl CustomRecognition for CommissionScan {
             frame.push(ScannedCommission {
                 y: slot[1] + slot[3] / 2,
                 remaining_secs: parse_duration_secs(&t).unwrap_or(u64::MAX),
-                running: t.contains('进行'),
+                running: t.contains("进行"),
                 is_daily_event: false,
                 text: t,
             });
