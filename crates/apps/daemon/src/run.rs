@@ -199,7 +199,9 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
     }
     println!("自定义识别  CommissionPick");
 
-    match engine.run_pipeline(&a.task, &a.override_json) {
+    let outcome = engine.run_pipeline(&a.task, &a.override_json);
+    report_next_run(&a.task, outcome.is_ok());
+    match outcome {
         Ok(TaskOutcome::Ok) => {
             println!("结果      成功");
             std::process::ExitCode::SUCCESS
@@ -213,4 +215,79 @@ pub fn run_task(args: &[String]) -> std::process::ExitCode {
             std::process::ExitCode::FAILURE
         }
     }
+}
+
+
+/// B5 调度回报：跑完后把「下次该什么时候回来」写进配置。
+///
+/// 对应上游 `config.task_delay(target=future_finish)`：
+/// - 扫描结果里有已知完成时刻 → 写最早的
+/// - 没有（或任务失败）→ 删除 next_run，交给调度器按失败重试
+///
+/// 只对 Commission 生效；其它任务还未接扫描数据。
+fn report_next_run(task: &str, ok: bool) {
+    if task != "Commission" {
+        return;
+    }
+    let path = std::env::var("MAAGUI_CONFIG").unwrap_or_else(|_| "config/alas.json".to_string());
+    let mut cfg = match maazure_config::Config::load(&path) {
+        Ok(c) => c,
+        Err(e) => {
+            println!("调度回报  跳过（{e}）");
+            return;
+        }
+    };
+    let wake = if ok {
+        maazure_runner::commission_scan::next_wakeup_secs(
+            &maazure_runner::maa_custom::commission_scan_entries(),
+        )
+    } else {
+        None
+    };
+    match wake {
+        Some(secs) => {
+            let at = eta_string(secs);
+            cfg.set_next_run("Commission", Some(at.clone()));
+            match cfg.save(&path) {
+                Ok(()) => println!("调度回报  Commission next_run = {at}（{secs}s 后）"),
+                Err(e) => println!("调度回报  写入失败: {e}"),
+            }
+        }
+        None => {
+            cfg.set_next_run("Commission", None);
+            let _ = cfg.save(&path);
+            println!("调度回报  Commission 无已知完成时刻 → 按失败重试");
+        }
+    }
+}
+
+/// 把「多少秒后」格式化成 `YYYY-MM-DD HH:MM:SS`（本地时间用 UTC 近似，够调度比较）。
+fn eta_string(secs: u64) -> String {
+    let now = std::time::SystemTime::now()
+        .duration_since(std::time::UNIX_EPOCH)
+        .map(|d| d.as_secs())
+        .unwrap_or(0);
+    let t = now + secs;
+    let (days, rem) = (t / 86_400, t % 86_400);
+    let (hh, mm, ss) = (rem / 3600, (rem % 3600) / 60, rem % 60);
+    // 从 1970-01-01 起算的朴素日期（不考虑闰秒；用于调度足够）
+    let mut y = 1970i64;
+    let mut d = days as i64;
+    loop {
+        let leap = (y % 4 == 0 && y % 100 != 0) || y % 400 == 0;
+        let len = if leap { 366 } else { 365 };
+        if d < len {
+            break;
+        }
+        d -= len;
+        y += 1;
+    }
+    let leap = (y % 4 == 0 && y % 100 != 0) || y % 400 == 0;
+    let months = [31, if leap { 29 } else { 28 }, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    let mut m = 0usize;
+    while m < 12 && d >= months[m] {
+        d -= months[m];
+        m += 1;
+    }
+    format!("{:04}-{:02}-{:02} {:02}:{:02}:{:02}", y, m + 1, d + 1, hh, mm, ss)
 }

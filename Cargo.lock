@@ -528,6 +528,7 @@ name = "maazure-daemon"
 version = "0.0.1"
 dependencies = [
  "image",
+ "maazure-config",
  "maazure-core",
  "maazure-runner",
  "serde_json",
