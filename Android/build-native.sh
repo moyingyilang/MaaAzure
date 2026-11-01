@@ -37,3 +37,24 @@ clang --target=aarch64-linux-android$API -L"$NDK_LIBS" -O2 "$NATIVE/launcher.c" 
 clang --target=aarch64-linux-android$API -L"$NDK_LIBS" -O2 "$NATIVE/agent_exec.c" -o "$OUT/libagentexec.so"
 
 ls -lh "$OUT"
+
+# ── agent（自定义识别/动作的实现）────────────────────────────────────────
+# 之前没有任何脚本构建它，导致 APK 里一直是 10 月 31 日的旧 .so，
+# B1/B2 这些改动根本没进包。这里补上：
+#   cargo build -p maazure-agent --features maa-dynamic
+#   → Android/agent-dist/arm64-v8a/jniLibs/libmaazure_agent.so
+echo "[native] 构建 agent（自定义识别 .so）"
+AGENT_ROOT="${MAAGUI_ROOT:-/data/data/com.termux/files/home/MaaAzure}"
+AGENT_SO="$AGENT_ROOT/Android/agent-dist/arm64-v8a/jniLibs/libmaazure_agent.so"
+mkdir -p "$(dirname "$AGENT_SO")"
+(
+    cd "$AGENT_ROOT" || exit 1
+    cargo build -p maazure-agent --features maa-dynamic 2>&1 | tail -5
+) || { echo "agent 构建失败"; exit 1; }
+# agent 是 bin crate：产物是可执行文件 `maazure-agent`，MaaFwApp 把它当
+# nativeLibs 里的「可执行 .so」直接 exec（pi-profile 的 runtimes.executable）。
+for cand in "$AGENT_ROOT/target/debug/maazure-agent" \
+            "$AGENT_ROOT/target/aarch64-linux-android/debug/maazure-agent"; do
+    if [ -f "$cand" ]; then cp "$cand" "$AGENT_SO"; chmod +x "$AGENT_SO"; break; fi
+done
+ls -l "$AGENT_SO"
