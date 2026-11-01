@@ -1,6 +1,6 @@
 {
   "name": "global_home_only",
-  "entry": "CommissionStart",
+  "entry": "commission_login_chain",
   "server": "cn",
   "frames": [
     {

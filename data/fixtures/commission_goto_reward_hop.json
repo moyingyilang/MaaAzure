@@ -1,0 +1,11 @@
+{
+  "name": "commission_goto_reward_hop",
+  "entry": "commission_goto_reward",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_main_goto_reward"] },
+    { "show": ["ui_reward_goto_commission"] }
+  ],
+  "expect": { "min_clicks": 1, "max_clicks": 2, "outcome": "ok",
+              "visited": ["commission_goto_reward", "commission_goto_commission"] }
+}

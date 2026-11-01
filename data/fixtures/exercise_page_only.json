@@ -1,17 +1,35 @@
 {
   "name": "exercise_page_only",
-  "entry": "ExerciseStart",
+  "entry": "exercise_login_chain",
   "server": "cn",
   "frames": [
-    { "show": ["ui_main_goto_campaign"] },
-    { "show": ["ui_campaign_menu_goto_exercise"] },
-    { "show": ["ui_exercise_check"] }
+    {
+      "show": [
+        "ui_main_goto_campaign"
+      ]
+    },
+    {
+      "show": [
+        "ui_campaign_menu_goto_exercise"
+      ]
+    },
+    {
+      "show": [
+        "ui_exercise_check"
+      ]
+    }
   ],
   "expect": {
     "min_clicks": 2,
     "max_clicks": 2,
     "outcome": "ok",
-    "visited": ["nav_main_to_campaign_menu", "nav_campaign_menu_to_exercise", "page_exercise"],
-    "not_visited": ["global_recover"]
+    "visited": [
+      "nav_main_to_campaign_menu",
+      "nav_campaign_menu_to_exercise",
+      "page_exercise"
+    ],
+    "not_visited": [
+      "global_recover"
+    ]
   }
 }

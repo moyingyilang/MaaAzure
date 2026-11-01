@@ -1,0 +1,11 @@
+{
+  "name": "daily_page_hop",
+  "entry": "daily_goto_tab",
+  "server": "cn",
+  "frames": [
+    { "show": ["ui_campaign_menu_goto_daily"] },
+    { "show": ["ui_daily_check"] }
+  ],
+  "expect": { "min_clicks": 1, "max_clicks": 2, "outcome": "ok",
+              "visited": ["daily_goto_tab", "daily_page"] }
+}

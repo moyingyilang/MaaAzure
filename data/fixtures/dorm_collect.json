@@ -1,6 +1,6 @@
 {
   "name": "dorm_collect",
-  "entry": "DormStart",
+  "entry": "dorm_login_chain",
   "server": "cn",
   "frames": [
     {

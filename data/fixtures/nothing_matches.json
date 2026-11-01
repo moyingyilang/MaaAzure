@@ -1,10 +1,14 @@
 {
   "name": "nothing_matches",
-  "entry": "CommissionStart",
+  "entry": "commission_login_chain",
   "server": "cn",
   "frames": [
-    { "show": [] },
-    { "show": [] }
+    {
+      "show": []
+    },
+    {
+      "show": []
+    }
   ],
   "expect": {
     "min_clicks": 0,

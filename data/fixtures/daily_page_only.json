@@ -1,17 +1,35 @@
 {
   "name": "daily_page_only",
-  "entry": "DailyStart",
+  "entry": "daily_login_chain",
   "server": "cn",
   "frames": [
-    { "show": ["ui_main_goto_campaign"] },
-    { "show": ["ui_campaign_menu_goto_daily"] },
-    { "show": ["ui_daily_check"] }
+    {
+      "show": [
+        "ui_main_goto_campaign"
+      ]
+    },
+    {
+      "show": [
+        "ui_campaign_menu_goto_daily"
+      ]
+    },
+    {
+      "show": [
+        "ui_daily_check"
+      ]
+    }
   ],
   "expect": {
     "min_clicks": 2,
     "max_clicks": 2,
     "outcome": "ok",
-    "visited": ["nav_main_to_campaign_menu", "nav_campaign_menu_to_daily", "page_daily"],
-    "not_visited": ["global_recover"]
+    "visited": [
+      "nav_main_to_campaign_menu",
+      "nav_campaign_menu_to_daily",
+      "page_daily"
+    ],
+    "not_visited": [
+      "global_recover"
+    ]
   }
 }
