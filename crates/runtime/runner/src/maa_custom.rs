@@ -169,6 +169,15 @@ fn ocr_text(context: &Context, image: &MaaImageBuffer, roi: &[i32; 4]) -> Option
 /// 滑到底时不再命中，`next` 自然落到 `commission_pick`。
 pub struct CommissionScan;
 
+/// 最近一帧解析出的字段（B2）——与累积器分开保存，避免改动既有结构。
+static FIELDS: std::sync::Mutex<Vec<crate::commission_scan::CardFields>> =
+    std::sync::Mutex::new(Vec::new());
+
+/// 读出最近一帧解析出的委托字段。没有数据时返回空。
+pub fn commission_card_fields() -> Vec<crate::commission_scan::CardFields> {
+    FIELDS.lock().map(|g| g.clone()).unwrap_or_default()
+}
+
 /// 全局累积器。切任务时通过 `reset` 清空（见 `commission_scan_reset`）。
 static SCAN: std::sync::Mutex<Option<ScanAccumulator>> = std::sync::Mutex::new(None);
 
@@ -208,6 +217,7 @@ impl CustomRecognition for CommissionScan {
             return None;
         }
 
+        let mut fields: Vec<crate::commission_scan::CardFields> = Vec::new();
         let mut frame = Vec::with_capacity(slots_cfg.len());
         for slot in &slots_cfg {
             let text = match ocr_text(context, image, slot) {
@@ -215,15 +225,30 @@ impl CustomRecognition for CommissionScan {
                 _ => continue,
             };
             let t = text.trim().to_string();
+            // B2：按上游 area_offset 的三段区域分别取字段
+            let top_left = (slot[0], slot[1]);
+            let ocr_field = |f: crate::commission_scan::Field| {
+                let a = crate::commission_scan::field_area(top_left, f);
+                ocr_text(context, image, &a).unwrap_or_default()
+            };
+            let cf = crate::commission_scan::parse_card_fields(
+                &ocr_field(crate::commission_scan::Field::Name),
+                &ocr_field(crate::commission_scan::Field::Duration),
+                &ocr_field(crate::commission_scan::Field::Status),
+            );
+            fields.push(cf);
             frame.push(ScannedCommission {
                 y: slot[1] + slot[3] / 2,
                 remaining_secs: parse_duration_secs(&t).unwrap_or(u64::MAX),
-                running: t.contains("进行"),
+                running: fields.last().map(|f| f.is_running()).unwrap_or(false),
                 is_daily_event: false,
                 text: t,
             });
         }
 
+        if let Ok(mut g) = FIELDS.lock() {
+            *g = fields;
+        }
         let mut guard = SCAN.lock().ok()?;
         let acc = guard.get_or_insert_with(ScanAccumulator::default);
         let added = acc.observe(&frame);
