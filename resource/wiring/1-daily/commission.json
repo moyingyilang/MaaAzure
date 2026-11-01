@@ -231,17 +231,18 @@
       ]
     },
     "commission_start_new": {
-      "desc": "点开始委托（上游 _commission_start_click）",
+      "desc": "点开始并选卡（上游 COMMISSION_START，interval=7）",
       "use": "commission_start",
       "post_delay": 1500,
       "next": [
+        "commission_popup_confirm",
         "commission_advice",
         "commission_page",
         "commission_done"
       ]
     },
     "commission_advice": {
-      "desc": "确认派遣建议（上游 commission_advice）",
+      "desc": "派遣建议确认（上游 COMMISSION_ADVICE）",
       "use": "commission_advice",
       "post_delay": 1500,
       "next": [
@@ -364,6 +365,14 @@
       "post_delay": 600,
       "next": [
         "commission_receive"
+      ]
+    },
+    "commission_popup_confirm": {
+      "desc": "开始委托的确认弹窗（上游 handle_popup_confirm('COMMISSION_START')）",
+      "use": "handler_popup_confirm",
+      "post_delay": 1000,
+      "next": [
+        "commission_start_new"
       ]
     }
   },

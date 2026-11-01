@@ -8,7 +8,7 @@
   },
   "commission_advice": {
     "action": "Click",
-    "desc": "确认派遣建议（上游 commission_advice）",
+    "desc": "派遣建议确认（上游 COMMISSION_ADVICE）",
     "next": [
       "commission_page",
       "commission_done"
@@ -634,6 +634,28 @@
     "post_delay": 1500,
     "recognition": "Custom"
   },
+  "commission_popup_confirm": {
+    "action": "Click",
+    "desc": "开始委托的确认弹窗（上游 handle_popup_confirm('COMMISSION_START')）",
+    "next": [
+      "commission_start_new"
+    ],
+    "post_delay": 1000,
+    "recognition": "TemplateMatch",
+    "roi": [
+      754,
+      502,
+      71,
+      30
+    ],
+    "target": [
+      754,
+      502,
+      71,
+      30
+    ],
+    "template": "handler/handler_popup_confirm.png"
+  },
   "commission_receive": {
     "action": "DoNothing",
     "desc": "领取循环（上游 commission_receive）：领先经验/奖励直到进入委托页",
@@ -707,8 +729,9 @@
   },
   "commission_start_new": {
     "action": "Click",
-    "desc": "点开始委托（上游 _commission_start_click）",
+    "desc": "点开始并选卡（上游 COMMISSION_START，interval=7）",
     "next": [
+      "commission_popup_confirm",
       "commission_advice",
       "commission_page",
       "commission_done"
