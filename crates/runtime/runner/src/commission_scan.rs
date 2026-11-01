@@ -554,3 +554,59 @@ mod choose_tests {
         assert_eq!(choose(&list), vec![1]);
     }
 }
+
+// ── 调度回报（B5：对应上游 config.task_delay(target=future_finish)）────────
+//
+// 上游在跑完后：
+//   total = daily.add_by_eq(urgent)
+//   future_finish = sorted([f for f in total.get('finish_time') if f is not None])
+//   if len(future_finish):
+//       self.config.task_delay(target=future_finish)
+//   else:
+//       self.config.task_delay(success=False)
+//
+// 也就是「下一次该什么时候回来」= **最早的一个完成时刻**。
+
+/// 从扫描结果算出下一次该回来的时刻（秒，相对 `now`）。
+///
+/// 返回 `None` 表示没有任何正在跑或已知时长的委托——上游此时
+/// 走 `task_delay(success=False)`（按失败处理，通常会很快重试）。
+pub fn next_wakeup_secs(entries: &[ScannedCommission]) -> Option<u64> {
+    entries
+        .iter()
+        .filter(|e| e.remaining_secs != u64::MAX)
+        .map(|e| e.remaining_secs)
+        .min()
+}
+
+#[cfg(test)]
+mod wakeup_tests {
+    use super::*;
+
+    fn e(secs: u64) -> ScannedCommission {
+        ScannedCommission {
+            y: 0,
+            text: String::new(),
+            remaining_secs: secs,
+            running: true,
+            is_daily_event: false,
+        }
+    }
+
+    #[test]
+    fn 取最早完成时刻() {
+        let list = [e(3600), e(600), e(7200)];
+        assert_eq!(next_wakeup_secs(&list), Some(600));
+    }
+
+    #[test]
+    fn 全部未知时返回none() {
+        let list = [e(u64::MAX), e(u64::MAX)];
+        assert_eq!(next_wakeup_secs(&list), None);
+    }
+
+    #[test]
+    fn 空列表返回none() {
+        assert_eq!(next_wakeup_secs(&[]), None);
+    }
+}
