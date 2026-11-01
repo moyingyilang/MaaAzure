@@ -32,6 +32,18 @@ echo "日志     : $LOG"
 echo "chroot   : $CHROOT"
 
 say "阶段 1/4：预编译 native 模块"
+# agent（自定义识别/动作）是 bin crate，产物在 agent-dist；必须同步进 jniLibs，
+# 否则 APK 里根本没有它——之前就吃过这个亏（一直是 10 月 31 日的旧 .so）。
+AGENT_SO="$HERE/agent-dist/arm64-v8a/jniLibs/libmaazure_agent.so"
+if [ -f "$AGENT_SO" ]; then
+    cp -f "$AGENT_SO" "$MAAFW/app/src/main/jniLibs/arm64-v8a/libmaazure_agent.so"
+    chmod +x "$MAAFW/app/src/main/jniLibs/arm64-v8a/libmaazure_agent.so"
+    echo "同步 agent → jniLibs（$(stat -c %s "$AGENT_SO") 字节）"
+else
+    echo "缺少 agent .so：$AGENT_SO"
+    exit 1
+fi
+
 "$HERE/build-native.sh" "$MAAFW" "$MAAFW/app/src/main/jniLibs/arm64-v8a" || {
     echo "!! native 预编译失败"
     exit 1
