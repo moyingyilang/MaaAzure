@@ -2086,7 +2086,7 @@
       "node": "combat_battle_preparation",
       "images": {
         "cn": "image/combat/combat_battle_preparation.png",
-        "en": "image/combat/combat_battle_preparation/",
+        "en": "image/combat/combat_battle_preparation.png",
         "jp": "image/combat/combat_battle_preparation.png",
         "tw": "image/combat/combat_battle_preparation.png"
       },
@@ -7042,7 +7042,7 @@
       "node": "handler_popup_cancel",
       "images": {
         "cn": "image/handler/handler_popup_cancel.png",
-        "en": "image/handler/handler_popup_cancel/",
+        "en": "image/handler/handler_popup_cancel.png",
         "jp": "image/handler/handler_popup_cancel.png",
         "tw": "image/handler/handler_popup_cancel.png"
       },
@@ -7054,7 +7054,7 @@
       "node": "handler_popup_confirm",
       "images": {
         "cn": "image/handler/handler_popup_confirm.png",
-        "en": "image/handler/handler_popup_confirm/",
+        "en": "image/handler/handler_popup_confirm.png",
         "jp": "image/handler/handler_popup_confirm.png",
         "tw": "image/handler/handler_popup_confirm.png"
       },
@@ -19941,8 +19941,8 @@
       "kind": "button",
       "node": "os_ash_beacon_list",
       "images": {
-        "cn": "image/os_ash/os_ash_beacon_list/",
-        "en": "image/os_ash/os_ash_beacon_list/",
+        "cn": "image/os_ash/os_ash_beacon_list.png",
+        "en": "image/os_ash/os_ash_beacon_list.png",
         "jp": "image/os_ash/os_ash_beacon_list.png",
         "tw": "image/os_ash/os_ash_beacon_list.png"
       },
@@ -20159,7 +20159,7 @@
       "images": {
         "cn": "image/os_ash/os_ash_meta_begin_entrance.png",
         "en": "image/os_ash/os_ash_meta_begin_entrance.png",
-        "jp": "image/os_ash/os_ash_meta_begin_entrance/",
+        "jp": "image/os_ash/os_ash_meta_begin_entrance.png",
         "tw": "image/os_ash/os_ash_meta_begin_entrance.png"
       },
       "has_animated": true
@@ -22283,7 +22283,7 @@
       "images": {
         "cn": "image/os_shop/os_shop_shop_buy_confirm.png",
         "en": "image/os_shop/os_shop_shop_buy_confirm.png",
-        "jp": "image/os_shop/os_shop_shop_buy_confirm/",
+        "jp": "image/os_shop/os_shop_shop_buy_confirm.png",
         "tw": "image/os_shop/os_shop_shop_buy_confirm.png"
       },
       "has_animated": true
@@ -30574,7 +30574,7 @@
       "node": "ui_campaign_check",
       "images": {
         "cn": "image/ui/ui_campaign_check.png",
-        "en": "image/ui/ui_campaign_check/",
+        "en": "image/ui/ui_campaign_check.png",
         "jp": "image/ui/ui_campaign_check.png",
         "tw": "image/ui/ui_campaign_check.png"
       },
