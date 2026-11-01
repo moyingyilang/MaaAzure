@@ -12,7 +12,10 @@ use maa_framework::sys;
 use maazure_daily::{CommissionSlot, pick_commission};
 use maazure_vision::parse_duration_secs;
 
-use crate::commission_scan::{ScanAccumulator, ScannedCommission};
+use crate::commission_scan::{
+    card_area, detect_lines, row_means, PixelOrder, ScanAccumulator, ScannedCommission, LINE_X0,
+    LINE_X1,
+};
 use crate::ocr_detail::{extract_text, parse_slots};
 
 /// 委托卡片默认的四个槽位（1280×720 下的列表区）。
@@ -168,18 +171,25 @@ impl CustomRecognition for CommissionScan {
         image: &MaaImageBuffer,
         _roi: &Rect,
     ) -> Option<(Rect, String)> {
-        let slots_cfg =
-            parse_slots(custom_recognition_param).unwrap_or_else(|| DEFAULT_SLOTS.to_vec());
+        // 槽位来源：参数里显式给了 slots 就用（调试/合成帧），否则**按上游行检测算**。
+        let slots_cfg: Vec<[i32; 4]> = if custom_recognition_param.contains("slots") {
+            parse_slots(custom_recognition_param).unwrap_or_default()
+        } else {
+            detect_slots(image).unwrap_or_default()
+        };
+        if slots_cfg.is_empty() {
+            return None;
+        }
 
         let mut frame = Vec::with_capacity(slots_cfg.len());
-        for roi in &slots_cfg {
-            let text = match ocr_text(context, image, roi) {
+        for slot in &slots_cfg {
+            let text = match ocr_text(context, image, slot) {
                 Some(t) if !t.trim().is_empty() => t,
                 _ => continue,
             };
             frame.push(ScannedCommission {
-                y: roi[1] + roi[3] / 2,
-                text: t_trim(&text),
+                y: slot[1] + slot[3] / 2,
+                text: text.trim().to_string(),
             });
         }
 
@@ -189,12 +199,10 @@ impl CustomRecognition for CommissionScan {
         let total = acc.len();
         drop(guard);
 
-        // 有新增才算命中：这样节点会自动滑到「没有新卡」为止。
         if added == 0 {
             return None;
         }
-        let first = slots_cfg.first().copied().unwrap_or([0, 0, 1, 1]);
-        // 注意：这里是 [x, y, w, h]（MaaFramework 的 roi 语义）
+        let first = slots_cfg[0];
         let hit = Rect {
             x: first[0],
             y: first[1],
@@ -203,6 +211,30 @@ impl CustomRecognition for CommissionScan {
         };
         Some((hit, format!(r#"{{"new":{added},"total":{total}}}"#)))
     }
+}
+
+/// 按上游 `lines_detect` 从截图里算出每张委托卡的解析区域。
+///
+/// 上游看的是 x∈[597,619) 这条白色分割线竖带，逐行灰度均值做峰值检测，
+/// 再用 `card_area`（`[188, y-119, 1011, 119]`）得到每张卡的 OCR 区域。
+fn detect_slots(image: &MaaImageBuffer) -> Option<Vec<[i32; 4]>> {
+    let data = image.raw_data()?;
+    let w = image.width().max(0) as usize;
+    let h = image.height().max(0) as usize;
+    let bpp = image.channels().max(0) as usize;
+    if w == 0 || h == 0 || bpp < 3 {
+        return None;
+    }
+    let order = match std::env::var("MAAGUI_PIXEL_ORDER").as_deref() {
+        Ok("bgr") => PixelOrder::Bgr,
+        Ok("rgba") => PixelOrder::Rgba,
+        _ => PixelOrder::Rgb,
+    };
+    let stride = w * bpp;
+    let x1 = LINE_X1.min(w);
+    let means = row_means(data, h, stride, bpp, order, LINE_X0.min(w), x1);
+    let lines = detect_lines(&means);
+    Some(lines.into_iter().map(card_area).collect())
 }
 
 fn t_trim(s: &str) -> String {
