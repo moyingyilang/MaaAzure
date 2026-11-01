@@ -104,6 +104,7 @@
       "daily_automation_confirm",
       "daily_additional",
       "daily_combat",
+      "daily_popup_confirm",
       "daily_done"
     ],
     "recognition": "DirectHit",
@@ -690,6 +691,28 @@
       42
     ],
     "template": "ui/ui_daily_check.png"
+  },
+  "daily_popup_confirm": {
+    "action": "Click",
+    "desc": "弹窗确认（上游 handle_popup_confirm('DAILY_SKIP')）",
+    "next": [
+      "daily_chain"
+    ],
+    "post_delay": 800,
+    "recognition": "TemplateMatch",
+    "roi": [
+      754,
+      502,
+      71,
+      30
+    ],
+    "target": [
+      754,
+      502,
+      71,
+      30
+    ],
+    "template": "handler/handler_popup_confirm.png"
   },
   "daily_skip": {
     "action": "Click",
