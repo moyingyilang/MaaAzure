@@ -10,6 +10,7 @@
     },
     {
       "show": [
+        "ui_campaign_menu_check",
         "ui_campaign_menu_goto_exercise"
       ]
     },
@@ -20,11 +21,12 @@
     }
   ],
   "expect": {
-    "min_clicks": 1,
+    "min_clicks": 2,
     "max_clicks": 2,
     "outcome": "ok",
     "visited": [
       "nav_main_to_campaign_menu",
+      "page_campaign_menu",
       "nav_campaign_menu_to_exercise",
       "page_exercise"
     ],

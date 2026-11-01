@@ -11,7 +11,11 @@
     "page_campaign_menu": {
       "use": "ui_campaign_menu_check",
       "action": "DoNothing",
-      "next": []
+      "next": [
+        "nav_campaign_menu_to_exercise",
+        "nav_campaign_menu_to_daily",
+        "global_recover"
+      ]
     },
     "page_daily": {
       "use": "ui_daily_check",
