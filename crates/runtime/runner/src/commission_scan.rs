@@ -266,3 +266,46 @@ mod line_tests {
         assert!(detect_lines(&rows).is_empty());
     }
 }
+
+// ── 卡片解析区域（照上游 Commission.__init__ 的 area）──────────────────────
+//
+// 上游：
+//   self.y = y                      # 分割线底边
+//   self.area = (188, y - 119, 1199, y)
+// 即 x∈[188,1199)、y∈[y-119, y)。注意卡高在解析时用 119，而行检测用的是 117
+// （上游两处常量不同，不是笔误：行检测留 2px 余量避免把上一张的线算进来）。
+
+/// 解析区域的左边界。
+pub const CARD_X0: i32 = 188;
+/// 解析区域的右边界（不含）。
+pub const CARD_X1: i32 = 1199;
+/// 解析区域相对分割线的高度（上游 `y - 119`）。
+pub const CARD_PARSE_SPAN: i32 = 119;
+
+/// 由分割线底边 y 得到该委托的解析区域，返回 MaaFramework 的 `[x, y, w, h]`。
+pub fn card_area(bottom: i32) -> [i32; 4] {
+    [
+        CARD_X0,
+        bottom - CARD_PARSE_SPAN,
+        CARD_X1 - CARD_X0,
+        CARD_PARSE_SPAN,
+    ]
+}
+
+#[cfg(test)]
+mod card_area_tests {
+    use super::*;
+
+    #[test]
+    fn 解析区域与上游一致() {
+        // y=400 → (188, 281, 1199, 400) → [188, 281, 1011, 119]
+        assert_eq!(card_area(400), [188, 281, 1011, 119]);
+    }
+
+    #[test]
+    fn 宽度是右边界减左边界() {
+        let a = card_area(500);
+        assert_eq!(a[0] + a[2], CARD_X1);
+        assert_eq!(a[1] + a[3], 500);
+    }
+}
