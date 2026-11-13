@@ -16,7 +16,8 @@ LOG="${1:-/sdcard/build_maaazure/stream.log}"
 OUTDIR="$(dirname "$LOG")"
 MAAFW="${MAAFW_APP:-/data/data/com.termux/files/home/build/MaaFwApp}"
 HERE="$(cd "$(dirname "$0")" && pwd)"
-CHROOT="${CHROOT:-/data/data/com.termux/files/home/.local/share/tmoe-linux/containers/chroot/debian-bookworm_arm64}"
+# 统一解析（环境变量 → 默认候选 → 报错），见 scripts/chroot-env.sh
+. "$HERE/../scripts/chroot-env.sh"
 JDK="${JDK:-/opt/jdk21-linux}"
 GRADLE="${GRADLE:-/opt/gradle-9.8.0/bin/gradle}"
 

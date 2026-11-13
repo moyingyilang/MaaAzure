@@ -3,8 +3,12 @@
 #
 #   ./scripts/mount-chroot.sh [chroot 路径]
 set -u
-R="${1:-$HOME/.local/share/tmoe-linux/containers/chroot/debian-bookworm_arm64}"
-[ -d "$R" ] || { echo "找不到 chroot: $R"; exit 1; }
+HERE="$(cd "$(dirname "$0")" && pwd)"
+# 位置参数优先，其次环境变量，最后默认候选（含存在性检查，指错立刻失败）
+[ $# -ge 1 ] && CHROOT_OVERRIDE="$1"
+. "$HERE/chroot-env.sh"
+R="$CHROOT"
+echo "chroot: $R"
 
 mounted=0
 for d in MaaAzure build android-sdk; do

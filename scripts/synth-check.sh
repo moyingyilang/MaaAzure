@@ -14,7 +14,9 @@
 set -uo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-CHROOT="${1:-$HOME/.local/share/tmoe-linux/containers/chroot/debian-bookworm_arm64}"
+# 第 1 个位置参数可覆盖 chroot；否则走统一解析（见 scripts/chroot-env.sh）
+[ $# -ge 1 ] && CHROOT_OVERRIDE="$1"
+. "$ROOT/scripts/chroot-env.sh"
 SDK="${2:-$ROOT/MAA-linux-aarch64}"
 BIN="${SYNTH_BIN:-/root/target/debug/maazure-daemon}"
 

@@ -14,7 +14,8 @@
 set -uo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 ROOT="$(cd "$HERE/.." && pwd)"
-CHROOT="${CHROOT:-$HOME/.local/share/tmoe-linux/containers/chroot/debian-bookworm_arm64}"
+# 统一解析（环境变量 → 默认候选 → 报错），见 scripts/chroot-env.sh
+. "$HERE/chroot-env.sh"
 BIN="${BIN:-/root/target-noMaa/debug/maazure-daemon}"
 
 pass=0; fail=0
