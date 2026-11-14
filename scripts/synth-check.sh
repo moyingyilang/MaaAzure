@@ -17,7 +17,18 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # 第 1 个位置参数可覆盖 chroot；否则走统一解析（见 scripts/chroot-env.sh）
 [ $# -ge 1 ] && CHROOT_OVERRIDE="$1"
 . "$ROOT/scripts/chroot-env.sh"
-SDK="${2:-$ROOT/MAA-linux-aarch64}"
+# SDK 目录解析：位置参数 > $MAA_LINUX_SDK_DIR > 仓库内 > ~/sdk（支持把 SDK 挪出仓库）
+if [ $# -ge 2 ]; then
+    SDK="$2"
+elif [ -n "${MAA_LINUX_SDK_DIR:-}" ]; then
+    SDK="$MAA_LINUX_SDK_DIR"
+else
+    SDK=""
+    for c in "$ROOT/MAA-linux-aarch64" "$HOME/sdk/MAA-linux-aarch64"; do
+        [ -d "$c" ] && { SDK="$c"; break; }
+    done
+    [ -n "$SDK" ] || { echo "找不到 MAA-linux-aarch64（设 MAA_LINUX_SDK_DIR= 指定）" >&2; exit 1; }
+fi
 BIN="${SYNTH_BIN:-/root/target/debug/maazure-daemon}"
 
 # 从宿主看不到 chroot 的 /root（权限），所以让容器自己判断
