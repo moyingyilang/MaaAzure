@@ -32,6 +32,15 @@ echo "MaaFwApp : $MAAFW"
 echo "日志     : $LOG"
 echo "chroot   : $CHROOT"
 
+say "阶段 0/4：给 MaaFwApp 打本机构建补丁（幂等）"
+# 上游仓库原样在这台 arm64 Termux 上构建不了：没有 arm64 宿主的 NDK/CMake，
+# AGP 还会从 Maven 下 x86_64 的 aapt2。补丁见 Android/maafwapp-patches/。
+# 同时把 MAA-android-aarch64 的 libMaa*.so 铺进 jniLibs（此前是手工拷的，重 clone 会丢）。
+"$HERE/maafwapp-patches/apply.sh" "$MAAFW" || {
+    echo "!! MaaFwApp 补丁/依赖准备失败"
+    exit 1
+}
+
 say "阶段 1/4：预编译 native 模块"
 # agent（自定义识别/动作）是 bin crate，产物在 agent-dist；必须同步进 jniLibs，
 # 否则 APK 里根本没有它——之前就吃过这个亏（一直是 10 月 31 日的旧 .so）。

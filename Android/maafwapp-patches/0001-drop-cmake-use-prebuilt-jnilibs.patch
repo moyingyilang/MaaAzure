@@ -1,0 +1,32 @@
+diff --git a/app/build.gradle.kts b/app/build.gradle.kts
+index f6c8744..8e80f31 100644
+--- a/app/build.gradle.kts
++++ b/app/build.gradle.kts
+@@ -11,20 +11,14 @@ plugins {
+ android {
+     namespace = "com.aliothmoon.maafw"
+ 
+-    defaultConfig {
+-        externalNativeBuild {
+-            cmake {
+-                arguments += "-DANDROID_STL=c++_shared"
+-            }
+-        }
+-    }
++    // SDK 里只有 build-tools/35.0.1 是**ARM 原生**的（aapt2/aidl/zipalign 都是）；
++    // 35.0.0 与 36.0.0 是 x86_64，在这台设备上跑不起来。
++    buildToolsVersion = "36.0.0"
+ 
+-    externalNativeBuild {
+-        cmake {
+-            path = file("src/main/native/CMakeLists.txt")
+-            version = "3.22.1"
+-        }
+-    }
++    // native 模块（libbridge / liblauncher / libagentexec）改为**预编译**：
++    // 本机没有 arm64 宿主的 NDK 与 cmake（SDK 里那份是 x86_64），
++    // 所以用 Termux 的 clang（原生 target 就是 aarch64-linux-android34）编好放进 jniLibs。
++    // 编法见 MaaAzure/Android/build-native.sh。
+ 
+     buildFeatures {
+         buildConfig = true

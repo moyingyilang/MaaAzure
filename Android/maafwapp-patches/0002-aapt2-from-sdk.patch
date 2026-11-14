@@ -1,0 +1,11 @@
+diff --git a/gradle.properties b/gradle.properties
+index 347485a..6202f7b 100644
+--- a/gradle.properties
++++ b/gradle.properties
+@@ -19,3 +19,6 @@ kotlin.code.style=official
+ 
+ # Enabled parallel sync for Gradle 9.4+
+ org.gradle.tooling.parallel=true
++# 本机构建专用（不进 git）：AGP 默认从 Maven 下载 aapt2 二进制，
++# 那份是 x86_64，这台 arm64 设备跑不了 → 指到 SDK 里的 ARM 版 aapt2。
++android.aapt2FromMavenOverride=/data/data/com.termux/files/home/android-sdk/build-tools/35.0.1/aapt2
